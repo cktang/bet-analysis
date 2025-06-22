@@ -1,0 +1,115 @@
+{
+  "url": "https://fbref.com/en/matches/573f2f77/Everton-Crystal-Palace-February-19-2024-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "February 19, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 66,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Jean-Philippe Mateta"
+      },
+      {
+        "minute": 84,
+        "player": "Amadou Onana",
+        "playerId": "828657ff",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Dwight McNeil"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 87,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Crystal Palace"
+      },
+      {
+        "minute": 94,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Amadou Onana",
+        "playerId": "828657ff",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "David Ozoh",
+        "playerId": "d00d45ab",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

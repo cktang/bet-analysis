@@ -1,0 +1,154 @@
+{
+  "url": "https://fbref.com/en/matches/2906e921/Arsenal-Manchester-City-February-2-2025-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Manchester City",
+  "matchDate": "February 2, 2025",
+  "score": "5-1",
+  "homeScore": 5,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Kai Havertz"
+      },
+      {
+        "minute": 55,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Sávio"
+      },
+      {
+        "minute": 56,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 62,
+        "player": "Myles Lewis-Skelly",
+        "playerId": "5dff6c28",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Declan Rice"
+      },
+      {
+        "minute": 76,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Martinelli"
+      },
+      {
+        "minute": 93,
+        "player": "Ethan Nwaneri",
+        "playerId": "7f94982c",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Declan Rice"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 25,
+        "player": "Jurriën Timber",
+        "playerId": "41034650",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 71,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 72,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Ethan Nwaneri",
+        "playerId": "7f94982c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Mikel Merino",
+        "playerId": "d080ed5e",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Riccardo Calafiori",
+        "playerId": "aded8e6f",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Raheem Sterling",
+        "playerId": "b400bde0",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

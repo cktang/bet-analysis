@@ -1,0 +1,883 @@
+25/01/2025
+FB6620
+Liverpool
+vs
+Ipswich
+3
+:
+0
+4
+:
+1
+%Event ID: FB6620
+Liverpool
+4
+1
+Ipswich
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1.07
+8.25
+16.00
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1.001
+25.00
+125.0
+First Half HAD
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1.26
+3.80
+12.00
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1.001
+50.00
+150.0
+Handicap HAD
+Liverpool (Home)
+Draw
+Ipswich (Away)
+[-3]
+2.63
+[-3]
+4.30
+[+3]
+1.90
+[-4]
+4.50
+[-4]
+5.30
+[+4]
+1.37
+Handicap HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Ipswich (Away)
+[-6]
+21.00
+[-6]
+5.70
+[+6]
+1.09
+[-2]
+1.22
+[-2]
+4.60
+[+2]
+9.75
+[-3]
+1.25
+[-3]
+4.20
+[+3]
+9.75
+[-4]
+50.00
+[-4]
+4.40
+[+4]
+1.12
+[-5]
+150.0
+[-5]
+7.40
+[+5]
+1.001
+Handicap
+Liverpool (Home)
+Ipswich (Away)
+[-2.5/-3]
+2.02
+[+2.5/+3]
+1.80
+Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Ipswich (Away)
+[-4.5/-5]
+2.49
+[+4.5/+5]
+1.48
+[-3.5/-4]
+1.03
+[+3.5/+4]
+9.40
+[-2.5/-3]
+1.28
+[+2.5/+3]
+3.37
+[-2/-2.5]
+1.29
+[+2/+2.5]
+3.30
+[-3]
+2.01
+[+3]
+1.73
+[-4]
+2.13
+[+4]
+1.65
+[-3/-3.5]
+3.37
+[+3/+3.5]
+1.28
+[-4/-4.5]
+14.50
+[+4/+4.5]
+1.001
+Same Game All Up
+Mohamed SALAH to score first & Over [3.5] goals & Over [11.5] corners taken
+10.50
+Mohamed SALAH to score first in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+14.50
+Both teams to score & Liverpool to win by [3] goal(s) or more & Over [11.5] corners taken
+9.00
+Both teams to score in the match & First Half to be drawn & Liverpool to win the match by [2] goal(s) or more
+15.50
+Liverpool to win [3:0] in the first half & Liverpool to win [5:1] in the match
+80.00
+Both teams to score & Ipswich to win & Under [11.5] corners taken
+50.00
+Both teams to score & The match to be drawn & Under [10.5] corners taken
+28.00
+First half to be drawn [0:0] & Both teams to score in the match & Over [12.5] corners taken in the match
+35.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+9.50
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+6.20
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [11.5] corners taken in the match
+7.80
+Ipswich to score first & Liverpool to win by [3] goal(s) or more
+16.00
+Ipswich to score in the first half & Liverpool to win the match by exactly [2] goal(s)
+15.50
+Liverpool to win by exactly [2] goal(s) & Under [10.5] corners taken
+10.00
+First half to be drawn [0:0] & Liverpool to win the match by [3] goal(s) or more
+18.00
+Liverpool to win [1:0] in the first half & Liverpool to win [2:0] in the match
+14.50
+Liverpool to win [2:0] in the first half & Liverpool to win [3:1] in the match
+40.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:0] in the match
+18.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:1] in the match
+45.00
+Liverpool to win [3:0] in the first half & Liverpool to win [5:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.59
+2.20
+[4/4.5]
+2.17
+1.61
+[4.5]
+2.40
+1.50
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+1.25
+3.45
+[3.5]
+1.23
+3.65
+[3.5/4]
+1.39
+2.70
+[4/4.5]
+2.05
+1.68
+[4.5]
+1.29
+3.20
+[4.5/5]
+5.15
+1.11
+[5/5.5]
+11.00
+1.005
+[5.5]
+11.50
+1.002
+[5.5/6]
+6.60
+1.06
+[6.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.63
+2.13
+[1.5/2]
+1.85
+1.85
+[2.5]
+2.92
+1.34
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.86
+1.84
+[1.5]
+1.25
+3.45
+[1.5/2]
+2.25
+1.57
+[2/2.5]
+4.05
+1.18
+[2.5]
+1.78
+1.92
+[2.5/3]
+3.65
+1.23
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+[3.5/4]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.74
+1.97
+[12.5]
+2.15
+1.62
+[15.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.08
+5.90
+[5.5]
+1.50
+2.40
+[6.5]
+1.91
+1.79
+[7.5]
+5.60
+1.09
+[8.5]
+7.00
+1.05
+[9.5]
+4.75
+1.13
+[10.5]
+4.40
+1.15
+[11.5]
+3.95
+1.19
+[12.5]
+3.55
+1.24
+[13.5]
+3.55
+1.24
+[15.5]
+4.60
+1.14
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.77
+1.93
+[6.5]
+2.43
+1.49
+[8.5]
+5.15
+1.11
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+5.40
+1.10
+[3.5]
+5.90
+1.08
+[4.5]
+10.50
+1.01
+[5.5]
+8.50
+1.03
+[6.5]
+6.60
+1.06
+[7.5]
+5.15
+1.11
+[8.5]
+5.15
+1.11
+Correct Score
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1:0
+13.00
+0:0
+30.00
+0:1
+50.00
+2:0
+8.25
+1:1
+20.00
+0:2
+100.0
+2:1
+9.50
+2:2
+29.00
+1:2
+40.00
+3:0
+7.00
+3:3
+70.00
+0:3
+400.0
+3:1
+9.25
+1:3
+125.0
+3:2
+26.00
+2:3
+80.00
+4:0
+7.00
+0:4
+1000
+4:1
+11.00
+1:4
+600.0
+4:2
+30.00
+2:4
+400.0
+5:0
+10.50
+0:5
+1000
+5:1
+16.00
+1:5
+1000
+5:2
+40.00
+2:5
+1000
+Home Others
+(Away No Goal)
+9.75
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+8.75
+Draw Others
+200.0
+Away Others
+(Home Scores)
+300.0
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1:0
+11.50
+0:0
+20.00
+0:1
+45.00
+2:0
+8.75
+1:1
+17.00
+0:2
+125.0
+2:1
+18.00
+2:2
+60.00
+1:2
+60.00
+3:0
+3.34
+3:3
+1000
+0:3
+600.0
+3:1
+12.00
+1:3
+400.0
+3:2
+100.0
+2:3
+350.0
+4:0
+1.23
+0:4
+1000
+4:1
+1.12
+1:4
+1000
+4:2
+26.00
+2:4
+900.0
+5:0
+4.05
+0:5
+1000
+5:1
+5.40
+1:5
+1000
+5:2
+150.0
+2:5
+1000
+Home Others
+(Away No Goal)
+35.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+80.00
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1:0
+3.60
+0:0
+5.40
+0:1
+17.00
+2:0
+3.70
+1:1
+10.00
+0:2
+70.00
+2:1
+10.50
+2:2
+60.00
+1:2
+50.00
+3:0
+6.50
+3:3
+700.0
+0:3
+500.0
+3:1
+20.00
+1:3
+400.0
+3:2
+100.0
+2:3
+500.0
+4:0
+15.00
+0:4
+2500
+4:1
+50.00
+1:4
+2000
+4:2
+250.0
+2:4
+2000
+5:0
+45.00
+0:5
+2500
+5:1
+125.0
+1:5
+2500
+5:2
+600.0
+2:5
+2500
+Home Others
+(Away No Goal)
+100.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+300.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Ipswich (Away)
+1:0
+1.74
+0:0
+3.49
+0:1
+14.50
+2:0
+1.26
+1:1
+9.00
+0:2
+90.00
+2:1
+15.00
+2:2
+250.0
+1:2
+95.00
+3:0
+1.10
+3:3
+2500
+0:3
+700.0
+3:1
+29.00
+1:3
+2000
+3:2
+2500
+2:3
+2500
+4:0
+5.80
+0:4
+2500
+4:1
+125.0
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+90.00
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Ipswich (Away)
+1.08
+30.00
+5.40
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Ipswich (Away)
+1st Goal
+1.13
+20.00
+5.20
+2nd Goal
+1.16
+11.50
+5.20
+3rd Goal
+1.21
+8.75
+5.00
+4th Goal
+1.45
+3.34
+6.60
+5th Goal
+3.75
+1.23
+16.00
+6th Goal
+6.30
+1.09
+29.00
+Total Goals
+0
+30.00
+1
+11.00
+2
+5.70
+3
+4.20
+4
+4.15
+5
+4.90
+6
+6.60
+7+
+6.20
+Total Goals- Last Odds for In Play Betting
+0
+20.00
+1
+11.50
+2
+8.75
+3
+3.34
+4
+1.30
+5
+2.92
+6
+16.00
+7+
+125.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Liverpool (Home)
+Ipswich (Away)
+101 Mohamed SALAH
+2.31
+201 Liam DELAP
+10.00
+102 DIOGO Jota
+3.45
+202 George HIRST
+16.00
+103 Luis DIAZ
+3.85
+203 Sammie SZMODICS
+18.00
+104 Darwin NUNEZ
+3.95
+204 Ali AL HAMADI
+20.00
+105 Federico CHIESA
+4.75
+205 Jack CLARKE
+23.00
+106 Cody GAKPO
+5.00
+207 Julio ENCISO
+25.00
+107 Harvey ELLIOTT
+7.25
+208 Nathan BROADHEAD
+25.00
+108 Curtis JONES
+8.50
+206 Jaden PHILOGENE
+26.00
+109 Alexis MAC ALLISTER
+12.00
+209 Conor CHAPLIN
+29.00
+110 Dominik SZOBOSZLAI
+12.00
+210 Omari HUTCHINSON
+30.00
+111 Conor BRADLEY
+17.00
+211 Jack TAYLOR
+40.00
+112 Trent ALEXANDER-ARNOLD
+18.00
+212 Wes BURNS
+60.00
+113 Virgil VAN DIJK
+24.00
+218 Massimo LUONGO
+95.00
+114 Ryan GRAVENBERCH
+28.00
+213 Cameron BURGESS
+100.0
+115 Wataru ENDO
+28.00
+214 Dara O'SHEA
+100.0
+116 Ibrahima KONATE
+30.00
+215 Jacob GREAVES
+100.0
+117 Jarell QUANSAH
+30.00
+216 Kalvin PHILLIPS
+100.0
+118 Andrew ROBERTSON
+40.00
+217 Leif DAVIS
+100.0
+119 Kostas TSIMIKAS
+40.00
+219 Sam MORSY
+100.0
+120 Home Others
+5.30
+220 Away Others
+27.00
+00 No First Scorer
+29.80
+HaFu
+H-H
+1.29
+H-D
+25.00
+H-A
+75.00
+D-H
+4.20
+D-D
+15.00
+D-A
+40.00
+A-H
+22.00
+A-D
+25.00
+A-A
+30.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+17.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.29
+(4) Be substituted
+6.20
+(5) None of the above
+3.60
+Item No.: 2 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.65
+(2) 1 Goal
+2.35
+(3) 2 Goals
+3.75
+(4) 3 Goals or more
+6.75
+Item No.: 3 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+14.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.00
+(4) Be substituted
+1.87
+(5) None of the above
+6.00
+Item No.: 4 How many goal(s) will Luis DIAZ (Liverpool) score?
+(1) No Goal
+1.57
+(2) 1 Goal
+2.65
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+20.00
+Item No.: 5 Which event will happen to Cody GAKPO (Liverpool) first?
+(1) Receive a Yellow Card
+13.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.05
+(4) Be substituted
+1.95
+(5) None of the above
+5.10

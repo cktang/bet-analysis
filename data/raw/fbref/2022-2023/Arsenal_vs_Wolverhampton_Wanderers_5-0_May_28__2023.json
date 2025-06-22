@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/71d5bd41/Arsenal-Wolverhampton-Wanderers-May-28-2023-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "May 28, 2023",
+  "score": "5-0",
+  "homeScore": 5,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Granit Xhaka",
+        "playerId": "e61b8aee",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      },
+      {
+        "minute": 14,
+        "player": "Granit Xhaka",
+        "playerId": "e61b8aee",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 27,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      },
+      {
+        "minute": 58,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      },
+      {
+        "minute": 78,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Emile Smith Rowe"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Rúben Neves",
+        "playerId": "44bfb6c5",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Boubacar Traoré",
+        "playerId": "999ceb5f",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Toti Gomes",
+        "playerId": "f0caab96",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Fabio Vieira",
+        "playerId": "6412cc03",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Joseph Hodge",
+        "playerId": "bd8a5d95",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

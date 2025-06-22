@@ -1,0 +1,122 @@
+{
+  "url": "https://fbref.com/en/matches/db9cdba8/West-Ham-United-Everton-January-21-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Everton",
+  "matchDate": "January 21, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 34,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 41,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Michail Antonio"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 50,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 67,
+        "player": "James Tarkowski",
+        "playerId": "15ea812b",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Dwight McNeil",
+        "playerId": "fc15fb84",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Tom Davies",
+        "playerId": "9228b07c",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

@@ -1,0 +1,623 @@
+23/08/2022
+FB1259
+Manchester
+Utd
+vs
+Liverpool
+1
+:
+0
+2
+:
+1
+%Event ID: FB1259
+Manchester Utd
+2
+1
+Liverpool
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+3.80
+4.30
+1.60
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1.08
+6.50
+70.00
+First Half HAD
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+4.10
+2.60
+1.97
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1.06
+6.50
+70.00
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+[+1]
+2.16
+[+1]
+3.85
+[-1]
+2.43
+Handicap
+Manchester Utd (Home)
+Liverpool (Away)
+[+0.5/+1]
+2.02
+[-0.5/-1]
+1.80
+HiLo
+Line
+High
+Low
+[2.5]
+1.39
+2.75
+[3/3.5]
+1.84
+1.86
+[3.5]
+2.05
+1.68
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+4.30
+1.17
+[2.5]
+1.83
+1.87
+[2.5/3]
+2.60
+1.43
+[3/3.5]
+5.30
+1.11
+[3.5]
+5.30
+1.11
+[4.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.92
+1.78
+[1.5/2]
+2.33
+1.53
+[2.5]
+3.70
+1.22
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.10
+1.08
+[0.5/1]
+1.63
+2.13
+[1/1.5]
+2.27
+1.56
+[1.5]
+1.98
+1.73
+[2.5]
+3.70
+1.22
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.00
+1.72
+[11.5]
+2.50
+1.46
+[13.5]
+4.05
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+2.88
+1.36
+[9.5]
+1.68
+2.05
+[10.5]
+2.00
+1.72
+[11.5]
+1.45
+2.55
+[12.5]
+1.78
+1.92
+[13.5]
+2.07
+1.67
+[15.5]
+4.90
+1.13
+Correct Score
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1:0
+22.00
+0:0
+19.00
+0:1
+10.50
+2:0
+27.00
+1:1
+8.25
+0:2
+9.50
+2:1
+13.00
+2:2
+11.00
+1:2
+7.00
+3:0
+40.00
+3:3
+27.00
+0:3
+13.50
+3:1
+29.00
+1:3
+10.50
+3:2
+27.00
+2:3
+16.00
+4:0
+125.0
+0:4
+23.00
+4:1
+60.00
+1:4
+19.00
+4:2
+60.00
+2:4
+29.00
+5:0
+350.0
+0:5
+40.00
+5:1
+200.0
+1:5
+40.00
+5:2
+175.0
+2:5
+40.00
+Home Others
+50.00
+Draw Others
+60.00
+Away Others
+18.00
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1:0
+4.00
+0:0
+10.50
+0:1
+7.20
+2:0
+1.66
+1:1
+3.65
+0:2
+8.50
+2:1
+1.11
+2:2
+7.45
+1:2
+6.70
+3:0
+5.80
+3:3
+350.0
+0:3
+15.50
+3:1
+12.50
+1:3
+17.00
+3:2
+125.0
+2:3
+250.0
+4:0
+40.00
+0:4
+35.00
+4:1
+150.0
+1:4
+70.00
+4:2
+150.0
+2:4
+1000
+5:0
+150.0
+0:5
+90.00
+5:1
+1000
+1:5
+350.0
+5:2
+1000
+2:5
+1000
+Home Others
+90.00
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1:0
+7.00
+0:0
+3.80
+0:1
+4.40
+2:0
+18.00
+1:1
+6.50
+0:2
+6.80
+2:1
+18.00
+2:2
+35.00
+1:2
+11.00
+3:0
+80.00
+3:3
+200.0
+0:3
+18.00
+3:1
+80.00
+1:3
+35.00
+3:2
+150.0
+2:3
+65.00
+4:0
+400.0
+0:4
+45.00
+4:1
+450.0
+1:4
+65.00
+4:2
+600.0
+2:4
+175.0
+5:0
+1500
+0:5
+80.00
+5:1
+1500
+1:5
+250.0
+5:2
+2500
+2:5
+500.0
+Home Others
+800.0
+Draw Others
+2000
+Away Others
+150.0
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Liverpool (Away)
+1:0
+1.11
+0:0
+2.31
+0:1
+3.75
+2:0
+13.00
+1:1
+7.40
+0:2
+10.50
+2:1
+125.0
+2:2
+2500
+1:2
+70.00
+3:0
+80.00
+3:3
+350.0
+0:3
+60.00
+3:1
+200.0
+1:3
+2500
+3:2
+2500
+2:3
+350.0
+4:0
+200.0
+0:4
+80.00
+4:1
+200.0
+1:4
+2500
+4:2
+1500
+2:4
+2500
+5:0
+2500
+0:5
+100.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+500.0
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Liverpool (Away)
+2.55
+19.00
+1.45
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Liverpool (Away)
+1st Goal
+2.28
+10.50
+1.66
+2nd Goal
+3.02
+4.75
+1.68
+3rd Goal
+4.90
+1.66
+3.05
+4th Goal
+12.00
+1.11
+7.20
+Total Goals
+0
+19.00
+1
+7.50
+2
+4.15
+3
+3.75
+4
+4.25
+5
+6.10
+6
+10.50
+7+
+11.50
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Manchester Utd (Home)
+Liverpool (Away)
+103 Bruno Borges FERNANDES
+7.75
+201 Mohamed SALAH
+3.25
+101 Cristiano RONALDO
+9.75
+202 Luis DIAZ
+5.00
+105 Marcus RASHFORD
+10.00
+203 ROBERTO FIRMINO Barbosa
+5.60
+102 Anthony MARTIAL
+13.00
+204 Fabio CARVALHO
+9.50
+106 Jadon SANCHO
+13.00
+205 Harvey ELLIOTT
+12.50
+104 Anthony ELANGA
+14.00
+207 Trent ALEXANDER-ARNOLD
+19.00
+107 Christian ERIKSEN
+17.00
+206 Naby KEITA
+23.00
+108 Donny VAN DE BEEK
+30.00
+210 Virgil VAN DIJK
+23.00
+111 Scott McTOMINAY
+40.00
+209 Jordan HENDERSON
+26.00
+112 Raphael VARANE
+50.00
+208 FABINHO Tavares
+35.00
+109 FRED Rodrigues
+55.00
+211 Nathaniel PHILLIPS
+35.00
+110 Harry MAGUIRE
+55.00
+212 Andrew ROBERTSON
+40.00
+113 Diogo DALOT
+75.00
+213 Joe GOMEZ
+40.00
+114 Lisandro MARTINEZ
+75.00
+214 Kostas TSIMIKAS
+55.00
+116 Tyrell MALACIA
+75.00
+115 Luke SHAW
+100.0
+120 Home Others
+26.00
+220 Away Others
+13.00
+00 No First Scorer
+18.80
+HaFu
+H-H
+7.25
+H-D
+13.50
+H-A
+16.00
+D-H
+10.50
+D-D
+7.25
+D-A
+4.70
+A-H
+25.00
+A-D
+13.50
+A-A
+2.25
+Specials
+Item No.: 1 Which event will happen to Cristiano RONALDO (Manchester Utd) first?
+(1) Receive a Yellow Card
+3.85
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+3.40
+(4) Be substituted
+3.95
+(5) None of the above
+2.30
+Item No.: 2 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+11.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.74
+(4) Be substituted
+5.60
+(5) None of the above
+2.43
+Item No.: 3 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+1.80
+(2) 1 Goal
+2.55
+(3) 2 Goals
+6.00
+(4) 3 Goals or more
+12.00
+Item No.: 4 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.88
+(4) Be substituted
+1.70
+(5) None of the above
+4.80
+Item No.: 5 Which event will happen to ROBERTO FIRMINO Barbosa (Liverpool) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+1.93
+(5) None of the above
+3.80

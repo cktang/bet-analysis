@@ -1,0 +1,135 @@
+{
+  "url": "https://fbref.com/en/matches/ab9827f2/Manchester-United-Arsenal-May-12-2024-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Arsenal",
+  "matchDate": "May 12, 2024",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Kai Havertz"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 71,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 94,
+        "player": "David Raya",
+        "playerId": "98ea5115",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Antony",
+        "playerId": "99127249",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Willy Kambwala",
+        "playerId": "6a7353d7",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Christian Eriksen",
+        "playerId": "980522ec",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Ethan Wheatley",
+        "playerId": "5c368c88",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Omari Forson",
+        "playerId": "1b9728b0",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

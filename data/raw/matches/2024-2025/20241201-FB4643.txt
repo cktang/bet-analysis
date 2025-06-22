@@ -1,0 +1,805 @@
+01/12/2024
+FB4643
+Tottenham
+vs
+Fulham
+0
+:
+0
+1
+:
+1
+%Event ID: FB4643
+Tottenham
+1
+1
+Fulham
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Fulham (Away)
+1.74
+4.00
+3.30
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Fulham (Away)
+5.30
+1.15
+20.00
+First Half HAD
+Tottenham (Home)
+Draw
+Fulham (Away)
+2.13
+2.60
+3.50
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Fulham (Away)
+9.75
+1.08
+12.00
+Handicap HAD
+Tottenham (Home)
+Draw
+Fulham (Away)
+[-1]
+2.87
+[-1]
+3.90
+[+1]
+1.87
+Handicap HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Fulham (Away)
+[-2]
+29.00
+[-2]
+6.90
+[+2]
+1.04
+[-1]
+20.00
+[-1]
+6.80
+[+1]
+1.06
+Handicap
+Tottenham (Home)
+Fulham (Away)
+[-0.5/-1]
+2.10
+[+0.5/+1]
+1.73
+Same Game All Up
+SON Heung Min to score first in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+21.00
+SON Heung Min to score first & Tottenham to win by [2] goal(s) or more & Over [3.5] goals
+18.00
+Both teams to score & Tottenham to win & Over [12.5] corners taken
+5.40
+Tottenham to win & Over [3.5] goals & Over [11.5] corners taken
+5.50
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Tottenham to win the match by [2] goal(s) or more
+6.70
+Both teams to score & Fulham to win & Under [11.5] corners taken
+10.50
+Both teams to score & Fulham to win or draw & Over [11.5] corners taken
+4.00
+Fulham to score first & Tottenham to win by [2] goal(s) or more
+17.00
+Tottenham to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+12.50
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+4.50
+Under [4.5] corners taken in the first half & Under [9.5] corners taken in the match
+4.65
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+7.40
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [11.5] corners taken in the match
+6.80
+First Half to be drawn & Tottenham to win the match by [2] goal(s) or more
+11.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:1] in the match
+25.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:0] in the match
+35.00
+Tottenham to win [2:0] in the first half & Tottenham to win [4:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Fulham to win [1:0] in the first half & Fulham to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.91
+1.79
+[3.5/4]
+2.15
+1.62
+[4.5]
+2.98
+1.33
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.61
+2.17
+[1.5]
+1.15
+4.40
+[1.5/2]
+1.46
+2.50
+[2/2.5]
+2.22
+1.58
+[2.5]
+1.36
+2.85
+[2.5/3]
+6.25
+1.07
+[3/3.5]
+12.00
+1.001
+[3.5]
+10.50
+1.01
+[3.5/4]
+2.15
+1.62
+[4.5]
+4.15
+1.17
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.87
+1.83
+[1.5/2]
+2.19
+1.60
+[2.5]
+3.45
+1.25
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+6.25
+1.07
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.19
+1.60
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[12.5]
+1.91
+1.79
+[13.5]
+2.35
+1.52
+[16.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[11.5]
+1.40
+2.68
+[12.5]
+1.66
+2.08
+[13.5]
+1.54
+2.30
+[14.5]
+1.59
+2.20
+[15.5]
+1.60
+2.19
+[16.5]
+1.21
+3.80
+[17.5]
+1.21
+3.80
+[18.5]
+1.30
+3.15
+[19.5]
+3.80
+1.21
+[20.5]
+8.50
+1.03
+[21.5]
+10.50
+1.001
+[22.5]
+4.40
+1.15
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.69
+2.04
+[6.5]
+2.30
+1.54
+[8.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.28
+3.25
+[5.5]
+1.37
+2.80
+[6.5]
+1.17
+4.15
+[7.5]
+1.25
+3.45
+[8.5]
+1.28
+3.25
+[9.5]
+1.35
+2.88
+[10.5]
+4.15
+1.17
+Correct Score
+Tottenham (Home)
+Draw
+Fulham (Away)
+1:0
+12.00
+0:0
+24.00
+0:1
+18.00
+2:0
+11.50
+1:1
+8.50
+0:2
+22.00
+2:1
+7.50
+2:2
+9.75
+1:2
+11.50
+3:0
+18.00
+3:3
+27.00
+0:3
+40.00
+3:1
+11.50
+1:3
+22.00
+3:2
+13.50
+2:3
+21.00
+4:0
+35.00
+0:4
+70.00
+4:1
+22.00
+1:4
+40.00
+4:2
+27.00
+2:4
+40.00
+5:0
+50.00
+0:5
+250.0
+5:1
+40.00
+1:5
+100.0
+5:2
+40.00
+2:5
+100.0
+Home Others
+(Away No Goal)
+80.00
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+21.00
+Draw Others
+55.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Fulham (Away)
+1:0
+2.68
+0:0
+4.30
+0:1
+5.40
+2:0
+3.90
+1:1
+1.16
+0:2
+14.00
+2:1
+5.40
+2:2
+100.0
+1:2
+20.10
+3:0
+12.50
+3:3
+1000
+0:3
+50.00
+3:1
+90.00
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+60.00
+0:4
+300.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+450.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Fulham (Away)
+1:0
+4.40
+0:0
+4.05
+0:1
+6.30
+2:0
+7.25
+1:1
+6.00
+0:2
+14.00
+2:1
+9.75
+2:2
+28.00
+1:2
+14.00
+3:0
+22.00
+3:3
+300.0
+0:3
+60.00
+3:1
+35.00
+1:3
+60.00
+3:2
+80.00
+2:3
+100.0
+4:0
+80.00
+0:4
+300.0
+4:1
+100.0
+1:4
+300.0
+4:2
+300.0
+2:4
+500.0
+5:0
+400.0
+0:5
+1000
+5:1
+500.0
+1:5
+1000
+5:2
+900.0
+2:5
+2000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+600.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Fulham (Away)
+1:0
+9.80
+0:0
+1.09
+0:1
+12.10
+2:0
+400.0
+1:1
+125.0
+0:2
+500.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Fulham (Away)
+1.56
+24.00
+2.19
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Fulham (Away)
+1st Goal
+2.00
+4.30
+2.45
+2nd Goal
+2.39
+3.04
+2.55
+3rd Goal
+5.10
+1.16
+16.00
+Total Goals
+0
+24.00
+1
+7.25
+2
+4.50
+3
+3.85
+4
+4.10
+5
+5.70
+6
+8.75
+7+
+10.00
+Total Goals- Last Odds for In Play Betting
+0
+4.30
+1
+2.68
+2
+1.16
+3
+3.80
+4
+50.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Tottenham (Home)
+Fulham (Away)
+102 SON Heung Min
+4.70
+201 Raul JIMENEZ
+6.30
+101 Dominic SOLANKE
+5.30
+202 Rodrigo MUNIZ Carvalho
+7.25
+103 Brennan JOHNSON
+5.60
+203 Reiss NELSON
+9.75
+104 Will LANKSHEAR
+5.60
+204 Alex IWOBI
+11.00
+105 Callum OLUSESI
+6.90
+205 Adama TRAORE Diarra
+11.50
+106 Dejan KULUSEVSKI
+6.90
+206 Emile Smith ROWE
+11.50
+107 Timo WERNER
+7.75
+207 Harry WILSON
+11.50
+108 James MADDISON
+9.75
+208 Andreas PEREIRA
+14.50
+109 Lucas BERGVALL
+14.50
+209 Joshua David KING
+20.00
+110 Pape Matar SARR
+14.50
+210 Tom CAIRNEY
+29.00
+111 Cristian ROMERO
+19.00
+211 Joachim ANDERSEN
+30.00
+112 Pedro PORRO
+19.00
+212 Sander BERGE
+35.00
+113 Yves BISSOUMA
+23.00
+213 Issa DIOP
+40.00
+114 Archie GRAY
+35.00
+214 Kenny TETE
+40.00
+116 Radu DRAGUSIN
+35.00
+215 Ryan SESSEGNON
+40.00
+115 Djed SPENCE
+40.00
+216 Sasa LUKIC
+40.00
+117 Ben DAVIES
+45.00
+217 Timothy CASTAGNE
+45.00
+118 Destiny UDOGIE
+45.00
+218 Jorge CUENCA
+50.00
+119 Malachi HARDY
+45.00
+219 Antonee ROBINSON
+65.00
+120 Home Others
+11.50
+220 Away Others
+16.00
+00 No First Scorer
+23.80
+HaFu
+H-H
+2.65
+H-D
+12.50
+H-A
+25.00
+D-H
+5.00
+D-D
+7.25
+D-A
+8.25
+A-H
+17.00
+A-D
+12.50
+A-A
+5.00
+Specials
+Item No.: 1 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+3.45
+(5) None of the above
+2.20
+Item No.: 2 How many goal(s) will SON Heung Min (Tottenham) score?
+(1) No Goal
+1.48
+(2) 1 Goal
+2.75
+(3) 2 Goals
+7.00
+(4) 3 Goals or more
+28.00
+Item No.: 3 Which event will happen to Dominic SOLANKE (Tottenham) first?
+(1) Receive a Yellow Card
+9.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.12
+(4) Be substituted
+4.55
+(5) None of the above
+2.12
+Item No.: 4 Which event will happen to Brennan JOHNSON (Tottenham) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.48
+(4) Be substituted
+2.75
+(5) None of the above
+2.60
+Item No.: 5 Which event will happen to James MADDISON (Tottenham) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.00
+(4) Be substituted
+1.45
+(5) None of the above
+4.85

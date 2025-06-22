@@ -1,0 +1,340 @@
+27/08/2023
+FB4735
+Sheff
+Utd
+vs
+Manchester
+City
+0
+:
+0
+1
+:
+2
+%Event ID: FB4735
+Sheff Utd
+1
+2
+Manchester City
+Eng Premier
+Home/Away/Draw
+Sheff Utd (Home)
+Draw
+Manchester City (Away)
+14.00
+6.30
+1.11
+Home/Away/Draw- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Manchester City (Away)
+500.0
+23.00
+1.005
+First Half HAD
+Sheff Utd (Home)
+Draw
+Manchester City (Away)
+10.00
+2.87
+1.45
+First Half HAD- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Manchester City (Away)
+40.00
+1.17
+4.05
+Handicap HAD
+Sheff Utd (Home)
+Draw
+Manchester City (Away)
+[+2]
+2.20
+[+2]
+3.80
+[-2]
+2.38
+Handicap
+Sheff Utd (Home)
+Manchester City (Away)
+[+1.5/+2]
+2.07
+[-1.5/-2]
+1.77
+Same Game All Up
+Erling HAALAND to score first in the match & Over [2.5] goals in the first half
+15.00
+Erling HAALAND to score first & Manchester City to win by exactly [2] goal(s)
+10.50
+Manchester City to win the match by [3] goal(s) or more & Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.50
+Sheff Utd to score first in the match & Over [2.5] goals in the first half & Over [5.5] goals in the match
+50.00
+Sheff Utd to score first in the match & Manchester City to win the first half
+29.00
+Sheff Utd to score first & Manchester City to win by [3] goal(s) or more
+26.00
+Manchester City to score first & Sheff Utd to win or draw
+12.00
+Sheff Utd to win the first half & Over [1.5] goals in the first half
+35.00
+First Half to be drawn & Manchester City to win the match by exactly [2] goal(s)
+12.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [10.5] corners taken in the match
+17.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+3.70
+Over [2.5] goals in the first half & Manchester City to win the match by [4] goal(s) or more
+10.00
+Sheff Utd to win or draw & Over [3.5] goals
+20.00
+First Half to be drawn and Manchester City to win the match & Exactly [3] goals in the Match
+14.00
+Manchester City to win both first half and the match & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+11.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+2.02
+1.70
+[3.5]
+2.25
+1.57
+[4.5]
+3.70
+1.22
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+7.50
+1.05
+[1/1.5]
+2.05
+1.68
+[1.5]
+1.26
+3.40
+[1.5/2]
+2.90
+1.35
+[2/2.5]
+5.55
+1.10
+[2.5]
+6.10
+1.08
+[2.5/3]
+3.80
+1.21
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+[4.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.60
+1.43
+[2.5]
+4.55
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.40
+1.16
+[1/1.5]
+8.50
+1.03
+[1.5]
+8.50
+1.03
+[1.5/2]
+2.60
+1.43
+[2.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.22
+1.58
+[11.5]
+2.88
+1.36
+[13.5]
+5.10
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+4.55
+1.15
+[8.5]
+1.52
+2.35
+[9.5]
+1.36
+2.88
+[10.5]
+1.41
+2.68
+[11.5]
+1.11
+5.30
+[12.5]
+1.14
+4.75
+[13.5]
+1.77
+1.93
+[15.5]
+11.50
+1.002
+[16.5]
+5.55
+1.10
+First Team to Score
+Sheff Utd (Home)
+No Goals
+Manchester City (Away)
+4.90
+18.00
+1.14
+Next Team To Score- Last Odds for In Play Betting
+Sheff Utd (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+11.00
+3.12
+1.38
+2nd Goal
+13.50
+1.48
+2.58
+3rd Goal
+20.00
+1.31
+3.10
+4th Goal
+30.00
+1.10
+5.60
+Total Goals
+0
+18.00
+1
+6.20
+2
+4.15
+3
+3.65
+4
+4.40
+5
+6.50
+6
+10.50
+7+
+14.50
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+21.00
+H-D
+21.00
+H-A
+22.00
+D-H
+25.00
+D-D
+9.00
+D-A
+3.75
+A-H
+75.00
+A-D
+21.00
+A-A
+1.51
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+13.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.43
+(4) Be substituted
+3.60
+(5) None of the above
+5.10
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+2.55
+(2) 1 Goal
+2.50
+(3) 2 Goals
+4.00
+(4) 3 Goals or more
+6.50
+Item No.: 3 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.20
+(4) Be substituted
+3.55
+(5) None of the above
+2.38
+Item No.: 4 Which event will happen to Jack GREALISH (Manchester City) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+2.07
+(5) None of the above
+3.00
+Item No.: 5 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.43
+(4) Be substituted
+3.95
+(5) None of the above
+2.05

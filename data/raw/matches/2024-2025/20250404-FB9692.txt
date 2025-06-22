@@ -1,0 +1,496 @@
+04/04/2025
+FB9692
+Chelsea
+vs
+Tottenham
+0
+:
+0
+1
+:
+0
+%Event ID: FB9692
+Chelsea
+1
+0
+Tottenham
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.51
+4.20
+4.40
+First Half HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.87
+2.62
+4.45
+Handicap HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+[-1]
+2.38
+[-1]
+3.65
+[+1]
+2.25
+[-2]
+4.35
+[-2]
+4.65
+[+2]
+1.44
+Handicap
+Chelsea (Home)
+Tottenham (Away)
+[-0.5/-1]
+1.75
+[+0.5/+1]
+2.09
+Same Game All Up
+Cole PALMER to score first & Chelsea to win by [2] goal(s) or more
+9.75
+SON Heung Min to score first & Tottenham to win
+21.00
+Both teams to score & Chelsea to win & Over [11.5] corners taken
+5.20
+Chelsea to win & Over [3.5] goals & Over [10.5] corners taken
+4.90
+Chelsea to win [2:0] in the first half & Chelsea to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Chelsea to win the match by [2] goal(s) or more
+5.90
+Both teams to score & Tottenham to win & Under [10.5] corners taken
+13.00
+Both teams to score & Tottenham to win or draw & Over [11.5] corners taken
+5.80
+Chelsea to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+12.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.00
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.55
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+8.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+6.10
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+9.00
+The match to be drawn & Under [10.5] corners taken
+8.75
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+23.00
+Chelsea to win [2:0] in the first half & Chelsea to win [3:0] in the match
+30.00
+Chelsea to win [2:0] in the first half & Chelsea to win [4:0] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.86
+1.84
+[3.5]
+2.04
+1.69
+[4.5]
+3.25
+1.28
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.92
+1.78
+[1.5/2]
+2.40
+1.50
+[2.5]
+3.95
+1.19
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.85
+1.85
+[12.5]
+2.40
+1.50
+[14.5]
+3.95
+1.19
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.01
+1.71
+[6.5]
+2.92
+1.34
+[7.5]
+4.15
+1.17
+Corner Taken Handicap
+Chelsea (Home)
+Tottenham (Away)
+[-1.5]
+1.90
+[+1.5]
+1.80
+First Half Corner Taken Handicap
+Chelsea (Home)
+Tottenham (Away)
+[-0.5]
+1.78
+[+0.5]
+1.92
+Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+10.00
+0:0
+20.00
+0:1
+20.00
+2:0
+9.25
+1:1
+8.50
+0:2
+28.00
+2:1
+6.90
+2:2
+11.50
+1:2
+13.00
+3:0
+13.00
+3:3
+30.00
+0:3
+40.00
+3:1
+10.00
+1:3
+30.00
+3:2
+16.00
+2:3
+27.00
+4:0
+23.00
+0:4
+125.0
+4:1
+19.00
+1:4
+70.00
+4:2
+29.00
+2:4
+60.00
+5:0
+40.00
+0:5
+400.0
+5:1
+35.00
+1:5
+250.0
+5:2
+40.00
+2:5
+200.0
+Home Others
+(Away No Goal)
+60.00
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+20.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+50.00
+First Half Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+3.90
+0:0
+3.75
+0:1
+7.25
+2:0
+6.70
+1:1
+6.20
+0:2
+18.00
+2:1
+10.00
+2:2
+35.00
+1:2
+17.00
+3:0
+17.00
+3:3
+500.0
+0:3
+80.00
+3:1
+30.00
+1:3
+80.00
+3:2
+80.00
+2:3
+150.0
+4:0
+60.00
+0:4
+500.0
+4:1
+100.0
+1:4
+500.0
+4:2
+400.0
+2:4
+700.0
+5:0
+300.0
+0:5
+2000
+5:1
+500.0
+1:5
+2000
+5:2
+900.0
+2:5
+2500
+Home Others
+(Away No Goal)
+800.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Team to Score
+Chelsea (Home)
+No Goals
+Tottenham (Away)
+1.43
+20.00
+2.56
+Total Goals
+0
+20.00
+1
+7.25
+2
+4.20
+3
+3.75
+4
+4.15
+5
+6.00
+6
+9.75
+7+
+10.50
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Chelsea (Home)
+Tottenham (Away)
+101 Cole PALMER
+4.00
+201 Dominic SOLANKE
+8.50
+102 Nicolas JACKSON
+4.95
+202 RICHARLISON de Andrade
+9.50
+103 Marc GUIU
+5.30
+203 SON Heung Min
+9.75
+105 Christopher NKUNKU
+5.80
+204 Brennan JOHNSON
+10.00
+104 PEDRO Lomba NETO
+5.90
+205 James MADDISON
+10.00
+106 Chukwunonso MADUEKE
+6.10
+206 Mathys TEL
+10.50
+107 Tyrique GEORGE
+9.50
+207 Dane SCARLETT
+11.00
+108 Jadon SANCHO
+10.00
+208 Wilson ODOBERT
+13.00
+109 Enzo Jeremias FERNANDEZ
+12.00
+209 Mikey MOORE
+14.50
+110 Kiernan DEWSBURY-HALL
+13.00
+210 Timo WERNER
+15.00
+111 Reece JAMES
+14.00
+211 Rodrigo BENTANCUR
+30.00
+112 Marc CUCURELLA
+27.00
+212 Cristian ROMERO
+35.00
+113 Tosin ADARABIOYO
+28.00
+213 Lucas BERGVALL
+35.00
+114 Trevoh CHALOBAH
+28.00
+214 Pape Matar SARR
+35.00
+115 Moises CAICEDO
+30.00
+215 Yves BISSOUMA
+40.00
+116 Benoit BADIASHILE
+35.00
+216 Pedro PORRO
+50.00
+117 Malo GUSTO
+35.00
+217 Archie GRAY
+55.00
+118 Levi COLWILL
+45.00
+218 Ben DAVIES
+75.00
+119 Wesley FOFANA
+55.00
+219 Djed SPENCE
+75.00
+120 Home Others
+5.60
+220 Away Others
+12.50
+00 No First Scorer
+19.80
+HaFu
+H-H
+2.25
+H-D
+13.50
+H-A
+23.00
+D-H
+4.35
+D-D
+8.00
+D-A
+10.50
+A-H
+13.00
+A-D
+13.50
+A-A
+7.50
+Specials
+Item No.: 1 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.12
+(4) Be substituted
+3.25
+(5) None of the above
+2.95
+Item No.: 2 How many goal(s) will Cole PALMER (Chelsea) score?
+(1) No Goal
+1.53
+(2) 1 Goal
+2.60
+(3) 2 Goals
+7.25
+(4) 3 Goals or more
+24.00
+Item No.: 3 Which event will happen to PEDRO Lomba NETO (Chelsea) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.65
+(4) Be substituted
+2.02
+(5) None of the above
+3.55
+Item No.: 4 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+2.05
+(5) None of the above
+2.85
+Item No.: 5 Which event will happen to Dominic SOLANKE (Tottenham) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+4.70
+(5) None of the above
+1.77

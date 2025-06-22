@@ -1,0 +1,659 @@
+15/05/2024
+FB6346
+Tottenham
+vs
+Manchester
+City
+0
+:
+0
+0
+:
+2
+%Event ID: FB6346
+Tottenham
+0
+2
+Manchester City
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Manchester City (Away)
+5.80
+5.30
+1.30
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester City (Away)
+90.00
+27.00
+1.01
+First Half HAD
+Tottenham (Home)
+Draw
+Manchester City (Away)
+5.20
+2.94
+1.64
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester City (Away)
+11.00
+1.14
+6.20
+Handicap HAD
+Tottenham (Home)
+Draw
+Manchester City (Away)
+[+2]
+1.75
+[+2]
+4.35
+[-2]
+2.96
+Handicap
+Tottenham (Home)
+Manchester City (Away)
+[+1/+1.5]
+2.11
+[-1/-1.5]
+1.74
+Same Game All Up
+SON Heung Min to score first & Tottenham to win & Over [3.5] goals
+35.00
+Tottenham to win & Over [3.5] goals
+13.00
+Erling HAALAND to score first & Manchester City to win & Tottenham to score
+7.00
+Phil FODEN to score first & Manchester City to win & Over [3.5] goals
+10.00
+Manchester City to win & Over [3.5] goals & Over [12.5] corners taken
+4.25
+Manchester City to score first in the match & Manchester City to win the first half & Over [2.5] goals in the first half
+5.20
+Manchester City to score first & Tottenham to win or draw
+7.00
+Tottenham to score first & Manchester City to win by [2] goal(s) or more
+10.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+7.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+3.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+8.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+4.20
+Tottenham to win both first half and the match & Exactly [3] goals in the Match
+28.00
+Manchester City to win both first half and the match & Exactly [4] goals in the Match
+8.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:1] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+First half to be drawn [0:0] & Manchester City to win [2:1] in the match
+35.00
+Manchester City to win [1:0] in the first half & Manchester City to win [3:1] in the match
+25.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+32.00
+Manchester City to win [2:1] in the first half & Manchester City to win [3:2] in the match
+45.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.68
+2.05
+[3.5/4]
+1.83
+1.87
+[4/4.5]
+2.20
+1.59
+[4.5]
+2.40
+1.50
+[5.5]
+3.90
+1.20
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.11
+5.15
+[1.5/2]
+2.88
+1.35
+[2/2.5]
+6.25
+1.07
+[2.5]
+7.00
+1.05
+[2.5/3]
+5.60
+1.09
+[3/3.5]
+11.50
+1.002
+[3.5]
+8.50
+1.02
+[3.5/4]
+2.07
+1.67
+[4/4.5]
+2.20
+1.59
+[4.5]
+3.70
+1.22
+[5.5]
+3.90
+1.20
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.68
+2.05
+[1.5/2]
+1.92
+1.78
+[2/2.5]
+2.70
+1.39
+[2.5]
+3.15
+1.30
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.30
+1.16
+[1/1.5]
+7.00
+1.05
+[1.5]
+8.00
+1.04
+[1.5/2]
+2.22
+1.58
+[2/2.5]
+2.70
+1.39
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.68
+2.05
+[12.5]
+1.97
+1.74
+[13.5]
+2.40
+1.50
+[14.5]
+2.92
+1.34
+[15.5]
+3.65
+1.23
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.20
+3.90
+[10.5]
+1.43
+2.60
+[11.5]
+5.40
+1.10
+[12.5]
+11.50
+1.002
+[13.5]
+12.00
+1.001
+[14.5]
+3.80
+1.21
+[15.5]
+4.05
+1.18
+[16.5]
+3.45
+1.25
+Correct Score
+Tottenham (Home)
+Draw
+Manchester City (Away)
+1:0
+35.00
+0:0
+24.00
+0:1
+13.50
+2:0
+40.00
+1:1
+12.00
+0:2
+11.00
+2:1
+18.00
+2:2
+12.00
+1:2
+8.00
+3:0
+70.00
+3:3
+30.00
+0:3
+11.50
+3:1
+35.00
+1:3
+9.00
+3:2
+27.00
+2:3
+13.50
+4:0
+200.0
+0:4
+17.00
+4:1
+80.00
+1:4
+12.00
+4:2
+60.00
+2:4
+20.00
+5:0
+600.0
+0:5
+27.00
+5:1
+300.0
+1:5
+23.00
+5:2
+250.0
+2:5
+35.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+40.00
+Home Others
+(Away Scores)
+40.00
+Draw Others
+60.00
+Away Others
+(Home Scores)
+11.50
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester City (Away)
+1:0
+8.25
+0:0
+4.65
+0:1
+1.49
+2:0
+27.00
+1:1
+6.20
+0:2
+1.01
+2:1
+41.00
+2:2
+700.0
+1:2
+11.50
+3:0
+150.0
+3:3
+1000
+0:3
+8.75
+3:1
+700.0
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+400.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Manchester City (Away)
+1:0
+8.75
+0:0
+4.90
+0:1
+3.95
+2:0
+24.00
+1:1
+6.60
+0:2
+5.50
+2:1
+18.00
+2:2
+29.00
+1:2
+9.00
+3:0
+100.0
+3:3
+300.0
+0:3
+12.50
+3:1
+80.00
+1:3
+21.00
+3:2
+125.0
+2:3
+60.00
+4:0
+600.0
+0:4
+40.00
+4:1
+500.0
+1:4
+60.00
+4:2
+700.0
+2:4
+200.0
+5:0
+2000
+0:5
+125.0
+5:1
+2000
+1:5
+250.0
+5:2
+2500
+2:5
+600.0
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+900.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+400.0
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester City (Away)
+1:0
+11.10
+0:0
+1.15
+0:1
+6.30
+2:0
+250.0
+1:1
+70.00
+0:2
+100.0
+2:1
+2000
+2:2
+2500
+1:2
+900.0
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Manchester City (Away)
+2.92
+24.00
+1.32
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+3.32
+5.60
+1.52
+2nd Goal
+6.10
+1.49
+3.28
+3rd Goal
+11.50
+1.09
+8.50
+Total Goals
+0
+24.00
+1
+10.50
+2
+5.50
+3
+4.05
+4
+4.00
+5
+5.00
+6
+7.00
+7+
+7.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+9.50
+H-D
+15.00
+H-A
+14.00
+D-H
+14.00
+D-D
+9.50
+D-A
+4.25
+A-H
+35.00
+A-D
+15.00
+A-A
+1.82
+Specials
+Item No.: 1 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+6.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+3.75
+(5) None of the above
+2.35
+Item No.: 2 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+11.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.38
+(4) Be substituted
+3.40
+(5) None of the above
+6.00
+Item No.: 3 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+2.50
+(2) 1 Goal
+2.42
+(3) 2 Goals
+3.90
+(4) 3 Goals or more
+6.75
+Item No.: 4 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.08
+(4) Be substituted
+2.23
+(5) None of the above
+4.20
+Item No.: 5 Which event will happen to Kevin DE BRUYNE (Manchester City) first?
+(1) Receive a Yellow Card
+7.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.05
+(4) Be substituted
+1.68
+(5) None of the above
+4.60

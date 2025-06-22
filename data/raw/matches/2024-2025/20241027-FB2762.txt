@@ -1,0 +1,803 @@
+27/10/2024
+FB2762
+Everton
+vs
+Fulham
+0
+:
+0
+1
+:
+1
+%Event ID: FB2762
+Everton
+1
+1
+Fulham
+Eng Premier
+Home/Away/Draw
+Everton (Home)
+Draw
+Fulham (Away)
+2.52
+3.05
+2.49
+Home/Away/Draw- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Fulham (Away)
+12.50
+1.08
+11.50
+First Half HAD
+Everton (Home)
+Draw
+Fulham (Away)
+2.98
+2.14
+2.97
+First Half HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Fulham (Away)
+11.00
+1.07
+11.00
+Handicap HAD
+Everton (Home)
+Draw
+Fulham (Away)
+[+1]
+1.41
+[+1]
+4.20
+[-1]
+5.20
+Handicap HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Fulham (Away)
+[-1]
+8.25
+[-1]
+4.00
+[+1]
+1.30
+[+2]
+1.04
+[+2]
+5.90
+[-2]
+125.0
+[+1]
+3.20
+[+1]
+1.91
+[-1]
+3.30
+Handicap
+Everton (Home)
+Fulham (Away)
+[0]
+1.92
+[0]
+1.90
+Handicap- Last Odds for In Play Betting
+Everton (Home)
+Fulham (Away)
+[0]
+12.00
+[0]
+1.01
+[+1]
+1.91
+[-1]
+1.81
+Same Game All Up
+Fulham to win & Over [2.5] goals & Over [11.5] corners taken
+8.50
+Both teams to score & Everton to win
+4.75
+Both teams to score & The match to be drawn & Over [3.5] goals
+10.00
+Everton to score in the first half & Fulham to win the match
+8.50
+The match to be drawn & Under [10.5] corners taken
+6.00
+Fulham clean sheet in the first half & Over [2.5] goals in the first half
+45.00
+Fulham to score first & Everton to win or draw
+5.20
+Everton to score first in the match & Over [1.5] goals in the first half
+4.75
+Everton to score first & Fulham to win by [2] goal(s) or more
+40.00
+First Half to be drawn & Fulham to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.75
+Everton to win [1:0] in the first half & Everton to win [2:1] in the match
+28.00
+Everton to win [2:0] in the first half & Everton to win [3:1] in the match
+80.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+12.00
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+28.00
+Fulham to win [2:0] in the first half & Fulham to win [3:0] in the match
+60.00
+Fulham to win both first half and the match & Exactly [4] goals in the Match
+22.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+8.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.80
+1.90
+[2.5/3]
+1.94
+1.76
+[3.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.72
+2.00
+[1/1.5]
+2.80
+1.37
+[1.5]
+1.43
+2.60
+[1.5/2]
+7.00
+1.05
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+[2.5/3]
+2.15
+1.62
+[3.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.07
+1.67
+[1.5]
+2.48
+1.47
+[1.5/2]
+3.05
+1.32
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+7.00
+1.05
+[1/1.5]
+9.50
+1.001
+[1.5]
+10.50
+1.001
+[1.5/2]
+3.05
+1.32
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.92
+1.78
+[12.5]
+2.33
+1.53
+[14.5]
+3.55
+1.24
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.54
+2.30
+[7.5]
+5.90
+1.08
+[8.5]
+11.50
+1.002
+[9.5]
+12.00
+1.001
+[10.5]
+5.40
+1.10
+[11.5]
+5.40
+1.10
+[12.5]
+4.95
+1.12
+[14.5]
+3.55
+1.24
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.50
+2.40
+[5.5]
+2.00
+1.72
+[7.5]
+3.95
+1.19
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.11
+5.15
+[2.5]
+1.32
+3.05
+[3.5]
+1.36
+2.85
+[4.5]
+2.58
+1.44
+[5.5]
+7.00
+1.05
+[6.5]
+9.50
+1.001
+[7.5]
+12.00
+1.001
+Correct Score
+Everton (Home)
+Draw
+Fulham (Away)
+1:0
+8.50
+0:0
+10.50
+0:1
+8.50
+2:0
+12.50
+1:1
+6.00
+0:2
+12.50
+2:1
+8.50
+2:2
+10.50
+1:2
+8.25
+3:0
+26.00
+3:3
+40.00
+0:3
+26.00
+3:1
+20.00
+1:3
+20.00
+3:2
+24.00
+2:3
+24.00
+4:0
+50.00
+0:4
+50.00
+4:1
+40.00
+1:4
+40.00
+4:2
+50.00
+2:4
+50.00
+5:0
+150.0
+0:5
+150.0
+5:1
+100.0
+1:5
+100.0
+5:2
+150.0
+2:5
+150.0
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+60.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Fulham (Away)
+1:0
+4.70
+0:0
+2.41
+0:1
+1.09
+2:0
+18.00
+1:1
+12.60
+0:2
+11.50
+2:1
+701.0
+2:2
+1000
+1:2
+200.0
+3:0
+100.0
+3:3
+1000
+0:3
+600.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Everton (Home)
+Draw
+Fulham (Away)
+1:0
+4.75
+0:0
+2.73
+0:1
+4.45
+2:0
+9.75
+1:1
+6.10
+0:2
+9.50
+2:1
+19.00
+2:2
+50.00
+1:2
+19.00
+3:0
+50.00
+3:3
+700.0
+0:3
+50.00
+3:1
+70.00
+1:3
+70.00
+3:2
+200.0
+2:3
+200.0
+4:0
+300.0
+0:4
+300.0
+4:1
+400.0
+1:4
+400.0
+4:2
+800.0
+2:4
+800.0
+5:0
+1000
+0:5
+1000
+5:1
+1500
+1:5
+1500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Fulham (Away)
+1:0
+11.10
+0:0
+1.08
+0:1
+11.10
+2:0
+300.0
+1:1
+125.0
+0:2
+300.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Everton (Home)
+No Goals
+Fulham (Away)
+1.92
+10.50
+1.91
+Next Team To Score- Last Odds for In Play Betting
+Everton (Home)
+No Goals
+Fulham (Away)
+1st Goal
+2.92
+2.41
+2.62
+2nd Goal
+10.50
+1.09
+10.00
+3rd Goal
+12.00
+1.09
+10.00
+Total Goals
+0
+10.50
+1
+4.60
+2
+3.45
+3
+3.75
+4
+4.95
+5
+8.00
+6
+16.00
+7+
+25.00
+Total Goals- Last Odds for In Play Betting
+0
+2.41
+1
+1.09
+2
+4.65
+3
+100.0
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Everton (Home)
+Fulham (Away)
+101 Dominic CALVERT-LEWIN
+5.90
+201 Raul JIMENEZ
+5.40
+102 BETO Betuncal
+6.80
+202 Rodrigo MUNIZ Carvalho
+5.60
+103 Dwight McNEIL
+7.75
+203 Carlos VINICIUS
+6.40
+104 Iliman NDIAYE
+9.50
+204 Emile Smith ROWE
+8.75
+105 Jack HARRISON
+11.00
+205 Adama TRAORE Diarra
+9.25
+106 Jesper LINDSTROM
+11.00
+206 Alex IWOBI
+10.00
+107 Abdoulaye DOUCOURE
+15.00
+207 Reiss NELSON
+10.00
+108 Idrissa GUEYE
+19.00
+208 Harry WILSON
+10.50
+109 Harrison ARMSTRONG
+22.00
+209 Andreas PEREIRA
+12.00
+110 Orel MANGALA
+26.00
+210 Joshua David KING
+17.00
+111 Jarrad BRANTHWAITE
+27.00
+211 Tom CAIRNEY
+25.00
+112 Jake O'BRIEN
+30.00
+212 Ryan SESSEGNON
+30.00
+113 Mike KEANE
+30.00
+213 Sander BERGE
+30.00
+114 James TARKOWSKI
+35.00
+214 Harrison REED
+35.00
+115 Ashley YOUNG
+45.00
+215 Kenny TETE
+35.00
+116 Vitaliy MYKOLENKO
+55.00
+216 Issa DIOP
+40.00
+117 Nathan PATTERSON
+60.00
+217 Jorge CUENCA
+40.00
+118 Roman DIXON
+70.00
+218 Antonee ROBINSON
+55.00
+119 Seamus COLEMAN
+70.00
+219 Calvin BASSEY
+55.00
+120 Home Others
+14.00
+220 Away Others
+14.00
+00 No First Scorer
+10.30
+HaFu
+H-H
+4.00
+H-D
+12.50
+H-A
+23.00
+D-H
+5.80
+D-D
+4.90
+D-A
+5.70
+A-H
+25.00
+A-D
+12.50
+A-A
+3.95
+Specials
+Item No.: 1 Which event will happen to Dominic CALVERT-LEWIN (Everton) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+5.00
+(5) None of the above
+2.10
+Item No.: 2 Which event will happen to Dwight McNEIL (Everton) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+5.50
+(5) None of the above
+1.64
+Item No.: 3 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.85
+(5) None of the above
+4.00
+Item No.: 4 Which event will happen to Emile Smith ROWE (Fulham) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+5.70
+(4) Be substituted
+1.38
+(5) None of the above
+4.35
+Item No.: 5 Which event will happen to Andreas PEREIRA (Fulham) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+6.75
+(4) Be substituted
+1.52
+(5) None of the above
+3.85

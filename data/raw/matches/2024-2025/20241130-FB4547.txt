@@ -1,0 +1,811 @@
+30/11/2024
+FB4547
+Crystal
+Palace
+vs
+Newcastle
+0
+:
+0
+1
+:
+1
+%Event ID: FB4547
+Crystal Palace
+1
+1
+Newcastle
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+2.97
+3.35
+2.03
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+21.00
+1.001
+40.00
+First Half HAD
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+3.40
+2.21
+2.54
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+11.00
+1.09
+10.50
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+[+1]
+1.62
+[+1]
+3.80
+[-1]
+3.85
+Handicap HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+[-1]
+16.00
+[-1]
+12.50
+[+1]
+1.001
+[+2]
+1.04
+[+2]
+5.90
+[-2]
+125.0
+[+1]
+1.30
+[+1]
+3.90
+[-1]
+8.75
+Handicap
+Crystal Palace (Home)
+Newcastle (Away)
+[0/+0.5]
+1.92
+[0/-0.5]
+1.90
+Handicap- Last Odds for In Play Betting
+Crystal Palace (Home)
+Newcastle (Away)
+[0]
+8.50
+[0]
+1.04
+[0/+0.5]
+1.69
+[0/-0.5]
+2.07
+[+1]
+1.74
+[-1]
+2.00
+Same Game All Up
+Both teams to score & Newcastle to win & Over [12.5] corners taken
+11.50
+Newcastle to win & Over [3.5] goals & Over [12.5] corners taken
+17.00
+Newcastle to win [2:0] in the first half & Newcastle to win [4:1] in the match
+125.0
+Both teams to score & Over [3.5] goals & Over [13.5] corners taken
+11.50
+Both teams to score & Crystal Palace to win & Under [11.5] corners taken
+8.00
+Both teams to score in the match & First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+30.00
+Crystal Palace to score first & Newcastle to win by exactly [1] goal(s)
+16.00
+Newcastle to score first in the match & Newcastle to win the first half & Over [2.5] goals in the first half
+14.00
+Over [6.5] corners taken in the first half & Over [14.5] corners taken in the match
+6.25
+Under [3.5] corners taken in the first half & Under [9.5] corners taken in the match
+3.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+11.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+3.75
+First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+15.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+50.00
+Newcastle to win [1:0] in the first half & Newcastle to win [4:0] in the match
+125.0
+Newcastle to win [2:0] in the first half & Newcastle to win [3:1] in the match
+60.00
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+100.0
+First half to be drawn [1:1] & Crystal Palace to win [3:1] in the match
+90.00
+Both first half and the match to be drawn & Under [9.5] corners taken in the match
+12.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.68
+2.05
+[2.5/3]
+1.87
+1.83
+[3.5]
+2.62
+1.42
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.49
+2.43
+[1/1.5]
+2.29
+1.55
+[1.5]
+1.31
+3.10
+[1.5/2]
+5.15
+1.11
+[2/2.5]
+11.00
+1.005
+[2.5]
+11.50
+1.002
+[2.5/3]
+2.13
+1.63
+[3.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.35
+1.52
+[1.5/2]
+2.88
+1.35
+[2.5]
+4.95
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.90
+1.08
+[1/1.5]
+9.50
+1.01
+[1.5]
+9.50
+1.01
+[1.5/2]
+2.88
+1.35
+[2.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.68
+2.05
+[11.5]
+2.05
+1.68
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.54
+2.30
+[9.5]
+1.33
+2.98
+[10.5]
+1.21
+3.80
+[11.5]
+1.11
+5.15
+[12.5]
+1.06
+6.60
+[13.5]
+1.12
+4.95
+[14.5]
+1.12
+4.95
+[15.5]
+1.29
+3.20
+[16.5]
+1.34
+2.92
+[17.5]
+1.38
+2.75
+[18.5]
+5.90
+1.08
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.05
+1.68
+[6.5]
+2.85
+1.36
+[7.5]
+4.30
+1.16
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.23
+3.65
+[3.5]
+1.98
+1.73
+[4.5]
+5.90
+1.08
+[5.5]
+11.50
+1.002
+[6.5]
+12.00
+1.001
+[7.5]
+4.95
+1.12
+Correct Score
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+1:0
+10.50
+0:0
+11.50
+0:1
+8.00
+2:0
+17.00
+1:1
+6.40
+0:2
+10.50
+2:1
+9.50
+2:2
+11.00
+1:2
+7.50
+3:0
+30.00
+3:3
+40.00
+0:3
+19.00
+3:1
+22.00
+1:3
+15.00
+3:2
+27.00
+2:3
+20.00
+4:0
+70.00
+0:4
+40.00
+4:1
+50.00
+1:4
+30.00
+4:2
+60.00
+2:4
+40.00
+5:0
+250.0
+0:5
+80.00
+5:1
+150.0
+1:5
+70.00
+5:2
+200.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+60.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+1:0
+4.35
+0:0
+2.90
+0:1
+1.11
+2:0
+13.50
+1:1
+1.01
+0:2
+12.00
+2:1
+22.00
+2:2
+1000
+1:2
+35.00
+3:0
+60.00
+3:3
+1000
+0:3
+700.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+450.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+1:0
+5.00
+0:0
+2.92
+0:1
+4.30
+2:0
+13.00
+1:1
+6.30
+0:2
+8.75
+2:1
+15.00
+2:2
+40.00
+1:2
+13.50
+3:0
+60.00
+3:3
+600.0
+0:3
+40.00
+3:1
+80.00
+1:3
+60.00
+3:2
+200.0
+2:3
+150.0
+4:0
+400.0
+0:4
+150.0
+4:1
+500.0
+1:4
+300.0
+4:2
+800.0
+2:4
+700.0
+5:0
+1500
+0:5
+700.0
+5:1
+2000
+1:5
+900.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Newcastle (Away)
+1:0
+11.10
+0:0
+1.05
+0:1
+10.60
+2:0
+450.0
+1:1
+200.0
+0:2
+400.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Newcastle (Away)
+2.14
+11.50
+1.71
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+2.50
+2.90
+2.50
+2nd Goal
+8.00
+1.11
+10.00
+Total Goals
+0
+11.50
+1
+5.00
+2
+3.55
+3
+3.70
+4
+4.80
+5
+7.25
+6
+15.00
+7+
+23.00
+Total Goals- Last Odds for In Play Betting
+0
+2.90
+1
+1.18
+2
+3.34
+3
+35.00
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Crystal Palace (Home)
+Newcastle (Away)
+101 Eberechi EZE
+5.90
+201 Alexander ISAK
+4.00
+102 Jean-Philippe MATETA
+6.70
+202 Callum WILSON
+4.45
+103 Ismaila SARR
+7.50
+203 William OSULA
+5.50
+104 Asher AGBINONE
+9.25
+204 Harvey BARNES
+6.30
+105 Justin DEVENNY
+9.25
+205 Anthony GORDON
+6.80
+106 Franco UMEH-CHIBUEZE
+11.00
+206 JOELINTON Cassio
+8.25
+107 Jeffrey SCHLUPP
+21.00
+207 Jacob MURPHY
+10.50
+108 Cheick Oumar DOUCOURE
+30.00
+208 Miguel ALMIRON
+11.50
+109 Daniel MUNOZ
+30.00
+209 Joe WILLOCK
+15.00
+110 Jefferson LERMA
+30.00
+210 BRUNO GUIMARAES
+18.00
+111 Will HUGHES
+30.00
+211 Sandro TONALI
+18.00
+112 Trevoh CHALOBAH
+35.00
+212 Sean LONGSTAFF
+19.00
+113 Marc GUEHI
+45.00
+213 Lewis MILEY
+21.00
+114 Chris RICHARDS
+50.00
+214 Fabian SCHAR
+23.00
+115 Maxence LACROIX
+50.00
+215 Dan BURN
+35.00
+116 Tyrick MITCHELL
+60.00
+216 Kieran TRIPPIER
+35.00
+117 Joel WARD
+80.00
+217 Lewis HALL
+45.00
+118 Nathaniel CLYNE
+85.00
+218 Lloyd KELLY
+50.00
+219 Tino LIVRAMENTO
+60.00
+120 Home Others
+16.00
+220 Away Others
+12.50
+00 No First Scorer
+11.30
+HaFu
+H-H
+4.65
+H-D
+12.50
+H-A
+23.00
+D-H
+6.90
+D-D
+5.30
+D-A
+5.00
+A-H
+28.00
+A-D
+12.50
+A-A
+3.25
+Specials
+Item No.: 1 Which event will happen to Jean-Philippe MATETA (Crystal Palace) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.77
+(4) Be substituted
+3.90
+(5) None of the above
+2.15
+Item No.: 2 Which event will happen to Ismaila SARR (Crystal Palace) first?
+(1) Receive a Yellow Card
+5.60
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.75
+(4) Be substituted
+1.55
+(5) None of the above
+4.20
+Item No.: 3 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.15
+(4) Be substituted
+4.75
+(5) None of the above
+2.20
+Item No.: 4 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.58
+(5) None of the above
+5.40
+Item No.: 5 Which event will happen to JOELINTON Cassio (Newcastle) first?
+(1) Receive a Yellow Card
+2.85
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+5.40
+(4) Be substituted
+2.90
+(5) None of the above
+2.60

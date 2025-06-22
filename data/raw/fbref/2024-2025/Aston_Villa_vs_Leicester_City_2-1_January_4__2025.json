@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/f5ae8d7d/Aston-Villa-Leicester-City-January-4-2025-Premier-League",
+  "homeTeam": "Aston Villa",
+  "awayTeam": "Leicester City",
+  "matchDate": "January 4, 2025",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 58,
+        "player": "Ross Barkley",
+        "playerId": "3a24769f",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 63,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 76,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Ian Maatsen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 95,
+        "player": "Boubakary Soumaré",
+        "playerId": "ae59b359",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 19,
+        "player": "Jacob Ramsey",
+        "playerId": "1544f145",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Wout Faes",
+        "playerId": "9c221d14",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Ian Maatsen",
+        "playerId": "cab9634e",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Emi Buendía",
+        "playerId": "66b76d44",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Caleb Okoli",
+        "playerId": "8ec109e6",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Leicester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

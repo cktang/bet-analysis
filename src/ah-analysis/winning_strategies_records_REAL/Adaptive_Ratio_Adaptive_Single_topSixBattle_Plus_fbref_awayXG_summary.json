@@ -1,0 +1,199 @@
+{
+  "name": "Adaptive_Ratio_Adaptive_Single_topSixBattle_Plus_fbref_awayXG",
+  "originalProfitability": 0.13192567567567567,
+  "calculatedProfitability": 13.192567567567567,
+  "factors": [
+    "(((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0) / (fbref.awayXG)"
+  ],
+  "totalBets": 148,
+  "wins": 84,
+  "losses": 64,
+  "winRate": 56.75675675675676,
+  "totalProfit": 1952.5,
+  "profitability": 13.192567567567567,
+  "averageProfitPerBet": 13.192567567567568,
+  "bestThreshold": 10,
+  "validSamples": 744,
+  "sampleBets": [
+    {
+      "date": "2024-02-24T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Newcastle",
+      "homeScore": 4,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 111,
+      "isWin": true,
+      "factorValues": [
+        5
+      ],
+      "combinedValue": 5,
+      "homeOdds": 2.11,
+      "awayOdds": 1.74,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [5.000] Combined: 5.000 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2024-03-02T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Manchester Utd",
+      "homeScore": 3,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 43,
+      "isWin": true,
+      "factorValues": [
+        5
+      ],
+      "combinedValue": 5,
+      "homeOdds": 1.86,
+      "awayOdds": 1.96,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [5.000] Combined: 5.000 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2025-02-26T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "homeScore": 2,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 72,
+      "isWin": true,
+      "factorValues": [
+        5
+      ],
+      "combinedValue": 5,
+      "homeOdds": 1.72,
+      "awayOdds": 2.14,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [5.000] Combined: 5.000 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2023-08-19T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Newcastle",
+      "homeScore": 1,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 51,
+      "isWin": true,
+      "factorValues": [
+        3.3333333333333335
+      ],
+      "combinedValue": 3.3333333333333335,
+      "homeOdds": 2.02,
+      "awayOdds": 1.81,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [3.333] Combined: 3.333 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2024-11-22T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Nottingham Forest",
+      "homeScore": 3,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 86,
+      "isWin": true,
+      "factorValues": [
+        3.3333333333333335
+      ],
+      "combinedValue": 3.3333333333333335,
+      "homeOdds": 1.86,
+      "awayOdds": 1.96,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [3.333] Combined: 3.333 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2024-02-04T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "homeScore": 3,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 98,
+      "isWin": true,
+      "factorValues": [
+        2.5
+      ],
+      "combinedValue": 2.5,
+      "homeOdds": 1.98,
+      "awayOdds": 1.84,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [2.500] Combined: 2.500 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2024-12-14T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Aston Villa",
+      "homeScore": 2,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 81,
+      "isWin": true,
+      "factorValues": [
+        2.5
+      ],
+      "combinedValue": 2.5,
+      "homeOdds": 1.81,
+      "awayOdds": 2.02,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [2.500] Combined: 2.500 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2025-03-15T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "homeScore": 1,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 43.5,
+      "isWin": true,
+      "factorValues": [
+        2.5
+      ],
+      "combinedValue": 2.5,
+      "homeOdds": 1.87,
+      "awayOdds": 1.95,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [2.500] Combined: 2.500 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2023-10-07T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester City",
+      "homeScore": 1,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 80,
+      "isWin": true,
+      "factorValues": [
+        2
+      ],
+      "combinedValue": 2,
+      "homeOdds": 1.8,
+      "awayOdds": 2.03,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [2.000] Combined: 2.000 → BET HOME (Top 10%)"
+    },
+    {
+      "date": "2023-12-02T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester Utd",
+      "homeScore": 1,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 76,
+      "isWin": true,
+      "factorValues": [
+        2
+      ],
+      "combinedValue": 2,
+      "homeOdds": 1.76,
+      "awayOdds": 2.08,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [2.000] Combined: 2.000 → BET HOME (Top 10%)"
+    }
+  ]
+}

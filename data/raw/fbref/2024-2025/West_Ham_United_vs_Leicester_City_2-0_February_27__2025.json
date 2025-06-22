@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/08b1b7de/West-Ham-United-Leicester-City-February-27-2025-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Leicester City",
+  "matchDate": "February 27, 2025",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 21,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 43,
+        "player": "Jannik Vestergaard",
+        "playerId": "1900032e",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Harry Winks",
+        "playerId": "2f7acede",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Konstantinos Mavropanos",
+        "playerId": "00963611",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Emerson Palmieri",
+        "playerId": "e0bc6fdc",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Carlos Soler",
+        "playerId": "fed17f5a",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Luke Thomas",
+        "playerId": "fc027d02",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Andy Irving",
+        "playerId": "b1be9fc0",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

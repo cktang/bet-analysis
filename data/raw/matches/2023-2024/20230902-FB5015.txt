@@ -1,0 +1,279 @@
+02/09/2023
+FB5015
+Luton
+vs
+West
+Ham
+0
+:
+1
+1
+:
+2
+%Event ID: FB5015
+Luton
+1
+2
+West Ham
+Eng Premier
+Home/Away/Draw
+Luton (Home)
+Draw
+West Ham (Away)
+4.45
+3.75
+1.58
+Home/Away/Draw- Last Odds for In Play Betting
+Luton (Home)
+Draw
+West Ham (Away)
+150.0
+13.50
+1.02
+First Half HAD
+Luton (Home)
+Draw
+West Ham (Away)
+4.65
+2.31
+2.05
+First Half HAD- Last Odds for In Play Betting
+Luton (Home)
+Draw
+West Ham (Away)
+150.0
+9.50
+1.03
+Handicap HAD
+Luton (Home)
+Draw
+West Ham (Away)
+[+1]
+2.15
+[+1]
+3.45
+[-1]
+2.63
+Handicap
+Luton (Home)
+West Ham (Away)
+[+0.5/+1]
+1.95
+[-0.5/-1]
+1.87
+Same Game All Up
+West Ham to win & Over [2.5] goals & Over [12.5] corners taken
+6.75
+Luton to win & Over [2.5] goals
+7.00
+The match to be drawn & Under [11.5] corners taken
+6.20
+West Ham to score first in the match & West Ham to win the first half & Over [1.5] goals in the first half
+5.30
+West Ham to score first & Luton to win or draw
+6.50
+Luton to score first in the match & Over [1.5] goals in the first half
+6.40
+Luton to score first & West Ham to win by [2] goal(s) or more
+20.00
+First Half to be drawn & West Ham to win the match by exactly [1] goal(s)
+7.20
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.40
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+11.00
+West Ham to win both first half and the match & Over [1.5] goals in the first half & Over [11.5] corners taken in the match
+10.00
+West Ham to win both first half and the match & Exactly [4] goals in the Match
+13.00
+West Ham to win both first half and the match & Exactly [3] goals in the Match
+8.25
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+11.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.65
+2.10
+[2.5/3]
+1.83
+1.87
+[3.5]
+2.65
+1.42
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+8.50
+1.03
+[1.5]
+1.12
+5.10
+[1.5/2]
+3.55
+1.24
+[2/2.5]
+6.50
+1.07
+[2.5]
+7.50
+1.05
+[2.5/3]
+6.50
+1.07
+[3.5]
+9.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.00
+1.72
+[1.5]
+2.40
+1.50
+[2.5]
+5.30
+1.11
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.10
+1.08
+[0.5/1]
+4.55
+1.15
+[1/1.5]
+8.50
+1.03
+[1.5]
+8.50
+1.03
+[2.5]
+11.50
+1.002
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.01
+1.71
+[12.5]
+2.55
+1.45
+[15.5]
+5.55
+1.10
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+5.80
+1.09
+[8.5]
+1.41
+2.68
+[9.5]
+1.44
+2.58
+[10.5]
+1.51
+2.38
+[11.5]
+1.34
+2.95
+[12.5]
+1.28
+3.25
+[13.5]
+1.22
+3.70
+[14.5]
+1.21
+3.80
+[16.5]
+8.50
+1.01
+[17.5]
+5.10
+1.12
+First Team to Score
+Luton (Home)
+No Goals
+West Ham (Away)
+2.67
+13.00
+1.46
+Next Team To Score- Last Odds for In Play Betting
+Luton (Home)
+No Goals
+West Ham (Away)
+1st Goal
+2.87
+5.00
+1.70
+2nd Goal
+6.30
+1.34
+4.30
+3rd Goal
+8.75
+1.16
+6.50
+4th Goal
+12.50
+1.08
+9.50
+Total Goals
+0
+13.00
+1
+5.70
+2
+3.65
+3
+3.65
+4
+4.75
+5
+7.00
+6
+13.00
+7+
+21.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+7.25
+H-D
+14.00
+H-A
+19.00
+D-H
+10.00
+D-D
+6.00
+D-A
+4.35
+A-H
+30.00
+A-D
+14.00
+A-A
+2.40

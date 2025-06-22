@@ -1,0 +1,289 @@
+03/09/2023
+FB5058
+Crystal
+Palace
+vs
+Wolves
+0
+:
+0
+3
+:
+2
+%Event ID: FB5058
+Crystal Palace
+3
+2
+Wolves
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Wolves (Away)
+1.75
+3.25
+4.10
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Wolves (Away)
+1.001
+40.00
+150.0
+First Half HAD
+Crystal Palace (Home)
+Draw
+Wolves (Away)
+2.38
+2.00
+4.65
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Wolves (Away)
+7.80
+1.10
+11.50
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Wolves (Away)
+[-1]
+3.20
+[-1]
+3.35
+[+1]
+1.90
+Handicap
+Crystal Palace (Home)
+Wolves (Away)
+[-0.5/-1]
+2.12
+[+0.5/+1]
+1.73
+Same Game All Up
+Crystal Palace to win & Over [2.5] goals & Over [11.5] corners taken
+8.50
+The match to be drawn & Under [10.5] corners taken
+5.40
+Wolves to win & Over [3.5] goals
+17.00
+Crystal Palace to score first in the match & Crystal Palace to win the first half & Over [1.5] goals in the first half
+6.75
+Crystal Palace to score first & Wolves to win or draw
+6.50
+Wolves to score first in the match & Over [1.5] goals in the first half
+7.00
+Wolves to score first & Crystal Palace to win by [2] goal(s) or more
+33.00
+First Half to be drawn & Crystal Palace to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+14.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+3.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+16.00
+Over [1.5] goals in the first half & Exactly [2] goals in the Match
+14.00
+Crystal Palace to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+14.00
+Wolves to win both first half and the match & Exactly [3] goals in the Match
+19.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+9.25
+HiLo
+Line
+High
+Low
+[2/2.5]
+1.77
+1.93
+[2.5]
+2.02
+1.70
+[3.5]
+3.65
+1.23
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+5.10
+1.12
+[0.5/1]
+1.51
+2.38
+[1/1.5]
+2.38
+1.51
+[1.5]
+1.38
+2.80
+[1.5/2]
+1.78
+1.92
+[2/2.5]
+2.88
+1.36
+[2.5]
+1.54
+2.30
+[2.5/3]
+3.00
+1.33
+[3/3.5]
+6.50
+1.07
+[3.5]
+7.50
+1.05
+[3.5/4]
+4.05
+1.19
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.38
+1.51
+[1.5]
+2.82
+1.37
+[1.5/2]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+6.50
+1.07
+[1/1.5]
+12.00
+1.001
+[1.5]
+12.00
+1.001
+[1.5/2]
+3.65
+1.23
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.01
+1.71
+[11.5]
+2.58
+1.44
+[13.5]
+4.40
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+4.15
+1.18
+[5.5]
+1.04
+8.00
+[7.5]
+9.50
+1.02
+[8.5]
+5.30
+1.11
+[9.5]
+5.10
+1.12
+[10.5]
+5.10
+1.12
+[11.5]
+4.05
+1.19
+[12.5]
+3.65
+1.23
+[13.5]
+4.40
+1.16
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Wolves (Away)
+1.57
+8.25
+2.65
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Wolves (Away)
+1st Goal
+2.14
+2.83
+3.18
+2nd Goal
+2.50
+2.38
+3.16
+3rd Goal
+3.85
+1.46
+5.20
+4th Goal
+5.20
+1.27
+6.40
+5th Goal
+9.75
+1.07
+12.00
+Total Goals
+0
+8.25
+1
+4.10
+2
+3.30
+3
+3.85
+4
+5.80
+5
+10.00
+6
+22.00
+7+
+29.00
+Odd/Even
+Odd
+Even
+1.90
+1.80
+HaFu
+H-H
+2.77
+H-D
+14.00
+H-A
+35.00
+D-H
+4.35
+D-D
+4.65
+D-A
+8.75
+A-H
+24.00
+A-D
+14.00
+A-A
+6.80

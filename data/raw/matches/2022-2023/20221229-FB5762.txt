@@ -1,0 +1,559 @@
+29/12/2022
+FB5762
+Leeds
+vs
+Manchester
+City
+0
+:
+1
+1
+:
+3
+%Event ID: FB5762
+Leeds
+1
+3
+Manchester City
+Eng Premier
+Home/Away/Draw
+Leeds (Home)
+Draw
+Manchester City (Away)
+10.00
+6.20
+1.16
+Home/Away/Draw- Last Odds for In Play Betting
+Leeds (Home)
+Draw
+Manchester City (Away)
+300.0
+40.00
+1.001
+First Half HAD
+Leeds (Home)
+Draw
+Manchester City (Away)
+7.50
+3.00
+1.49
+First Half HAD- Last Odds for In Play Betting
+Leeds (Home)
+Draw
+Manchester City (Away)
+23.00
+1.15
+4.55
+Handicap HAD
+Leeds (Home)
+Draw
+Manchester City (Away)
+[+2]
+2.13
+[+2]
+4.15
+[-2]
+2.34
+Handicap
+Leeds (Home)
+Manchester City (Away)
+[+1.5/+2]
+1.97
+[-1.5/-2]
+1.85
+Same Game All Up
+Erling HALAND to score first & Manchester City to win by exactly [1] goal(s)
+10.50
+Erling HALAND to score first & Manchester City to win by [3] goal(s) or more & Over [4.5] goals
+10.00
+Erling HALAND to score first & Over [3.5] goals & Over [11.5] corners taken
+12.50
+Kevin DE BRUYNE to score first & Over [3.5] goals
+12.00
+Phil FODEN to score first & Manchester City to win by [3] goal(s) or more
+11.50
+Leeds to score first & Manchester City to win by [3] goal(s) or more
+18.00
+Manchester City to win the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+9.75
+Manchester City to win the first half & Manchester City to win the match by [4] goal(s) or more
+4.45
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+13.00
+First half to be drawn [0:0] & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+13.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+50.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+35.00
+First half to be drawn [0:0] & Exactly [3] goals in the Match
+19.00
+Leeds to win both first half and the match & Exactly [3] goals in the Match
+40.00
+Manchester City to win both first half and the match & Exactly [2] goals in the Match
+11.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.83
+1.87
+[3.5/4]
+2.05
+1.68
+[4.5]
+2.68
+1.41
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.10
+5.55
+[1.5/2]
+1.12
+5.10
+[2/2.5]
+2.22
+1.58
+[2.5]
+1.13
+4.90
+[2.5/3]
+1.41
+2.68
+[3/3.5]
+2.10
+1.65
+[3.5]
+1.31
+3.10
+[3.5/4]
+1.82
+1.88
+[4/4.5]
+3.05
+1.32
+[4.5]
+1.52
+2.35
+[4.5/5]
+6.50
+1.07
+[5/5.5]
+9.50
+1.02
+[5.5]
+9.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.76
+1.94
+[1.5/2]
+2.04
+1.69
+[2.5]
+3.20
+1.29
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.30
+1.11
+[1/1.5]
+8.50
+1.02
+[1.5]
+8.50
+1.02
+[1.5/2]
+2.04
+1.69
+[2.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.97
+1.74
+[11.5]
+2.55
+1.45
+[13.5]
+4.30
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+4.90
+1.13
+[5.5]
+1.05
+7.50
+[6.5]
+1.10
+5.55
+[7.5]
+1.60
+2.19
+[9.5]
+9.50
+1.02
+[10.5]
+4.55
+1.15
+[11.5]
+4.75
+1.14
+[13.5]
+4.30
+1.17
+Correct Score
+Leeds (Home)
+Draw
+Manchester City (Away)
+1:0
+35.00
+0:0
+28.00
+0:1
+9.75
+2:0
+50.00
+1:1
+12.50
+0:2
+7.25
+2:1
+23.00
+2:2
+17.00
+1:2
+7.75
+3:0
+125.0
+3:3
+40.00
+0:3
+7.75
+3:1
+50.00
+1:3
+8.75
+3:2
+40.00
+2:3
+18.00
+4:0
+500.0
+0:4
+11.00
+4:1
+200.0
+1:4
+12.50
+4:2
+150.0
+2:4
+27.00
+5:0
+1000
+0:5
+19.00
+5:1
+700.0
+1:5
+21.00
+5:2
+600.0
+2:5
+40.00
+Home Others
+125.0
+Draw Others
+125.0
+Away Others
+9.50
+Correct Score- Last Odds for In Play Betting
+Leeds (Home)
+Draw
+Manchester City (Away)
+1:0
+15.50
+0:0
+6.20
+0:1
+4.30
+2:0
+80.00
+1:1
+9.00
+0:2
+3.22
+2:1
+40.00
+2:2
+70.00
+1:2
+9.75
+3:0
+700.0
+3:3
+1000
+0:3
+2.19
+3:1
+350.0
+1:3
+1.12
+3:2
+900.0
+2:3
+19.00
+4:0
+1000
+0:4
+2.68
+4:1
+1000
+1:4
+5.90
+4:2
+1000
+2:4
+125.0
+5:0
+1000
+0:5
+7.60
+5:1
+1000
+1:5
+150.0
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+90.00
+First Half Correct Score
+Leeds (Home)
+Draw
+Manchester City (Away)
+1:0
+10.50
+0:0
+4.25
+0:1
+3.45
+2:0
+40.00
+1:1
+7.50
+0:2
+4.70
+2:1
+30.00
+2:2
+50.00
+1:2
+10.50
+3:0
+250.0
+3:3
+600.0
+0:3
+10.50
+3:1
+200.0
+1:3
+24.00
+3:2
+300.0
+2:3
+100.0
+4:0
+1000
+0:4
+30.00
+4:1
+900.0
+1:4
+70.00
+4:2
+1000
+2:4
+300.0
+5:0
+5000
+0:5
+100.0
+5:1
+5000
+1:5
+250.0
+5:2
+5000
+2:5
+700.0
+Home Others
+2000
+Draw Others
+5000
+Away Others
+250.0
+First Half Correct Score- Last Odds for In Play Betting
+Leeds (Home)
+Draw
+Manchester City (Away)
+1:0
+25.10
+0:0
+1.16
+0:1
+5.10
+2:0
+800.0
+1:1
+100.0
+0:2
+80.00
+2:1
+2500
+2:2
+2500
+1:2
+1500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Leeds (Home)
+No Goals
+Manchester City (Away)
+3.80
+28.00
+1.19
+Next Team To Score- Last Odds for In Play Betting
+Leeds (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+5.50
+6.20
+1.26
+2nd Goal
+4.75
+5.10
+1.37
+3rd Goal
+5.70
+3.22
+1.54
+4th Goal
+6.90
+2.19
+1.87
+5th Goal
+18.00
+1.12
+5.80
+Total Goals
+0
+28.00
+1
+8.25
+2
+4.70
+3
+3.95
+4
+4.15
+5
+5.50
+6
+8.00
+7+
+9.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+15.00
+H-D
+19.00
+H-A
+17.00
+D-H
+21.00
+D-D
+10.00
+D-A
+4.05
+A-H
+50.00
+A-D
+19.00
+A-A
+1.58

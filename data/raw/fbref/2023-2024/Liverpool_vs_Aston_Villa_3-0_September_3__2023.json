@@ -1,0 +1,145 @@
+{
+  "url": "https://fbref.com/en/matches/bdbc722e/Liverpool-Aston-Villa-September-3-2023-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Aston Villa",
+  "matchDate": "September 3, 2023",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 3,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      },
+      {
+        "minute": 22,
+        "player": "Matty Cash",
+        "playerId": "2389cdc2",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 55,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Darwin Núñez"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 26,
+        "player": "Boubacar Kamara",
+        "playerId": "cc77354e",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 19,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Nicolò Zaniolo",
+        "playerId": "9907b1c8",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Jarell Quansah",
+        "playerId": "4125cb98",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Youri Tielemans",
+        "playerId": "56f7a928",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

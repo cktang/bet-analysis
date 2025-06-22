@@ -1,0 +1,191 @@
+{
+  "url": "https://fbref.com/en/matches/8e5c6ea7/Southampton-Liverpool-May-28-2023-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Liverpool",
+  "matchDate": "May 28, 2023",
+  "score": "4-4",
+  "homeScore": 4,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 10,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 14,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Fabinho"
+      },
+      {
+        "minute": 19,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Carlos Alcaraz"
+      },
+      {
+        "minute": 28,
+        "player": "Kamaldeen Sulemana",
+        "playerId": "a62f8bf1",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Theo Walcott"
+      },
+      {
+        "minute": 47,
+        "player": "Kamaldeen Sulemana",
+        "playerId": "a62f8bf1",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Lyanco"
+      },
+      {
+        "minute": 64,
+        "player": "Adam Armstrong",
+        "playerId": "68c720b5",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 72,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      },
+      {
+        "minute": 73,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 25,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool"
+      },
+      {
+        "minute": 60,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Jordan Henderson",
+        "playerId": "935e6b8f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Adam Armstrong",
+        "playerId": "68c720b5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Stuart Armstrong",
+        "playerId": "97333cf5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Valentino Livramento",
+        "playerId": "afed6722",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Dominic Ballard",
+        "playerId": "ed8d597c",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Samuel Amo-Ameyaw",
+        "playerId": "9eedf0e0",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 8,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "url": "https://fbref.com/en/matches/181fd119/Crystal-Palace-Nottingham-Forest-May-28-2023-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "May 28, 2023",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 31,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Morgan Gibbs-White"
+      },
+      {
+        "minute": 66,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Michael Olise"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 43,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest"
+      },
+      {
+        "minute": 80,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Harry Toffolo",
+        "playerId": "a105d46a",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "James McArthur",
+        "playerId": "cee31595",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Cheikhou Kouyaté",
+        "playerId": "8d3c902d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "André Ayew",
+        "playerId": "5dbefa9d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Sam Surridge",
+        "playerId": "b017b770",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Jaïro Riedewald",
+        "playerId": "7a1f2c08",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,662 @@
+03/01/2024
+FB0061
+West
+Ham
+vs
+Brighton
+0
+:
+0
+0
+:
+0
+%Event ID: FB0061
+West Ham
+0
+0
+Brighton
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Brighton (Away)
+2.65
+3.40
+2.19
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Brighton (Away)
+15.00
+1.06
+10.00
+First Half HAD
+West Ham (Home)
+Draw
+Brighton (Away)
+3.05
+2.31
+2.64
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Brighton (Away)
+8.75
+1.10
+10.50
+Handicap HAD
+West Ham (Home)
+Draw
+Brighton (Away)
+[+1]
+1.56
+[+1]
+4.10
+[-1]
+3.90
+Handicap
+West Ham (Home)
+Brighton (Away)
+[0]
+2.14
+[0]
+1.72
+Same Game All Up
+Jarrod BOWEN to score first & West Ham to win by [2] goal(s) or more & Over [3.5] goals
+20.00
+JOAO PEDRO Junqueira to score first & Brighton to win & Over [2.5] goals
+12.50
+West Ham to win & Over [2.5] goals & Over [11.5] corners taken
+8.50
+The match to be drawn & Under [10.5] corners taken
+6.00
+West Ham to score first in the match & West Ham to win the first half & Over [1.5] goals in the first half
+7.25
+West Ham to score first & Brighton to win or draw
+4.50
+Brighton to score first in the match & Over [1.5] goals in the first half
+3.60
+Brighton to score first & West Ham to win by [2] goal(s) or more
+28.00
+First Half to be drawn & West Ham to win the match by exactly [1] goal(s)
+8.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.30
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.80
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.00
+West Ham to win [1:0] in the first half & West Ham to win [2:0] in the match
+28.00
+West Ham to win [1:0] in the first half & West Ham to win [3:0] in the match
+45.00
+West Ham to win [2:0] in the first half & West Ham to win [3:1] in the match
+55.00
+Brighton to win [1:0] in the first half & Brighton to win [2:1] in the match
+26.00
+Brighton to win [2:0] in the first half & Brighton to win [3:0] in the match
+50.00
+Brighton to win [2:0] in the first half & Brighton to win [4:1] in the match
+90.00
+West Ham to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+15.00
+West Ham to win both first half and the match & Exactly [4] goals in the Match
+20.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.52
+2.35
+[3/3.5]
+2.08
+1.66
+[3.5]
+2.27
+1.56
+[3.5/4]
+2.62
+1.42
+[4.5]
+3.65
+1.23
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.60
+1.09
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.29
+1.55
+[2/2.5]
+2.27
+1.56
+[2.5]
+5.15
+1.11
+[2.5/3]
+2.17
+1.61
+[3/3.5]
+2.08
+1.66
+[3.5]
+4.95
+1.12
+[3.5/4]
+2.62
+1.42
+[4.5]
+3.65
+1.23
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.80
+1.90
+[1.5]
+2.13
+1.63
+[1.5/2]
+2.65
+1.41
+[2.5]
+4.30
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+8.00
+1.04
+[1/1.5]
+12.00
+1.001
+[1.5]
+12.00
+1.001
+[1.5/2]
+2.65
+1.41
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.92
+1.78
+[11.5]
+2.35
+1.52
+[12.5]
+2.85
+1.36
+[13.5]
+3.55
+1.24
+[14.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+5.90
+1.08
+[4.5]
+9.50
+1.02
+[5.5]
+8.50
+1.001
+[6.5]
+5.15
+1.11
+[7.5]
+5.60
+1.09
+[8.5]
+4.30
+1.16
+[9.5]
+3.80
+1.21
+[10.5]
+3.55
+1.24
+[11.5]
+3.65
+1.23
+[12.5]
+3.45
+1.25
+[13.5]
+3.55
+1.24
+[14.5]
+4.60
+1.14
+Correct Score
+West Ham (Home)
+Draw
+Brighton (Away)
+1:0
+12.00
+0:0
+16.00
+0:1
+11.00
+2:0
+16.00
+1:1
+6.80
+0:2
+12.50
+2:1
+9.00
+2:2
+9.50
+1:2
+8.00
+3:0
+30.00
+3:3
+30.00
+0:3
+22.00
+3:1
+19.00
+1:3
+14.50
+3:2
+20.00
+2:3
+19.00
+4:0
+50.00
+0:4
+40.00
+4:1
+40.00
+1:4
+30.00
+4:2
+40.00
+2:4
+40.00
+5:0
+150.0
+0:5
+80.00
+5:1
+80.00
+1:5
+70.00
+5:2
+100.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Brighton (Away)
+1:0
+15.10
+0:0
+1.07
+0:1
+10.10
+2:0
+900.0
+1:1
+125.0
+0:2
+400.0
+2:1
+1000
+2:2
+1000
+1:2
+1000
+3:0
+1000
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+West Ham (Home)
+Draw
+Brighton (Away)
+1:0
+5.00
+0:0
+3.20
+0:1
+4.70
+2:0
+11.50
+1:1
+5.80
+0:2
+9.50
+2:1
+14.00
+2:2
+35.00
+1:2
+12.50
+3:0
+50.00
+3:3
+500.0
+0:3
+40.00
+3:1
+60.00
+1:3
+50.00
+3:2
+125.0
+2:3
+125.0
+4:0
+250.0
+0:4
+150.0
+4:1
+300.0
+1:4
+200.0
+4:2
+600.0
+2:4
+500.0
+5:0
+900.0
+0:5
+700.0
+5:1
+1000
+1:5
+800.0
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Brighton (Away)
+1:0
+9.00
+0:0
+1.11
+0:1
+10.60
+2:0
+300.0
+1:1
+125.0
+0:2
+300.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+West Ham (Home)
+No Goals
+Brighton (Away)
+1.96
+16.00
+1.76
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Brighton (Away)
+1st Goal
+13.00
+1.07
+9.00
+Total Goals
+0
+16.00
+1
+5.90
+2
+3.95
+3
+3.75
+4
+4.35
+5
+6.50
+6
+10.50
+7+
+14.50
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+4.25
+H-D
+12.50
+H-A
+21.00
+D-H
+6.40
+D-D
+5.60
+D-A
+5.60
+A-H
+22.00
+A-D
+12.50
+A-A
+3.40
+Specials
+Item No.: 1 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+6.60
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+5.50
+(5) None of the above
+1.95
+Item No.: 2 Which event will happen to Mohammed KUDUS (West Ham) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.15
+(4) Be substituted
+1.52
+(5) None of the above
+7.75
+Item No.: 3 Which event will happen to Tomas SOUCEK (West Ham) first?
+(1) Receive a Yellow Card
+4.85
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+7.00
+(5) None of the above
+1.50
+Item No.: 4 Which event will happen to JOAO PEDRO Junqueira (Brighton) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+2.02
+(5) None of the above
+4.90
+Item No.: 5 Which event will happen to Danny WELBECK (Brighton) first?
+(1) Receive a Yellow Card
+6.70
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.00
+(4) Be substituted
+1.47
+(5) None of the above
+5.20

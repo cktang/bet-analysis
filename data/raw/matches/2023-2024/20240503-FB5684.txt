@@ -1,0 +1,657 @@
+03/05/2024
+FB5684
+Chelsea
+vs
+Tottenham
+1
+:
+0
+2
+:
+0
+%Event ID: FB5684
+Chelsea
+2
+0
+Tottenham
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Tottenham (Away)
+2.17
+3.85
+2.45
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.001
+19.00
+80.00
+First Half HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+2.54
+2.60
+2.77
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.05
+6.60
+150.0
+Handicap HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+[-1]
+3.60
+[-1]
+4.35
+[+1]
+1.58
+Handicap
+Chelsea (Home)
+Tottenham (Away)
+[0]
+1.79
+[0]
+2.04
+Same Game All Up
+Cole PALMER to score first & Over [5.5] goals
+19.00
+Cole PALMER to score first & Over [13.5] corners taken
+13.00
+SON Heung Min to score first & Over [5.5] goals
+23.00
+SON Heung Min to score first & Over [13.5] corners taken
+16.00
+Chelsea to win & Over [4.5] goals & Over [11.5] corners taken
+9.00
+Tottenham to win & Over [3.5] goals
+4.20
+Tottenham to score first & Chelsea to win & Over [11.5] corners taken
+15.00
+Chelsea to score first in the match & Over [2.5] goals in the first half & Over [5.5] goals in the match
+11.00
+Tottenham to score first in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+6.00
+Chelsea to win the first half & Over [2.5] goals in the first half
+6.25
+Tottenham to win the first half & Over [1.5] goals in the first half
+5.00
+First Half to be drawn & Chelsea to win the match by [2] goal(s) or more
+14.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+6.75
+Over [2.5] goals in the first half & Chelsea to win the match by [3] goal(s) or more
+15.00
+Chelsea to win by [2] goal(s) or more & Over [4.5] goals
+7.50
+Chelsea clean sheet & Over [13.5] corners taken
+15.00
+Tottenham to score in the first half & Over [2.5] goals in the first half
+3.50
+Chelsea to win [2:1] in the first half & Chelsea to win [3:2] in the match
+55.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Chelsea to win both first half and the match & Over [5.5] goals in the match & Over [12.5] corners taken in the match
+28.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.67
+2.07
+[3.5/4]
+1.83
+1.87
+[4/4.5]
+2.25
+1.57
+[4.5]
+2.45
+1.48
+[5.5]
+3.70
+1.22
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+8.00
+1.04
+[1.5/2]
+1.48
+2.45
+[2/2.5]
+2.30
+1.54
+[2.5]
+1.36
+2.85
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.15
+1.62
+[4/4.5]
+2.25
+1.57
+[4.5]
+4.75
+1.13
+[5.5]
+3.70
+1.22
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.71
+2.01
+[1.5/2]
+1.97
+1.74
+[2/2.5]
+2.70
+1.39
+[2.5]
+3.15
+1.30
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.30
+1.16
+[0.5/1]
+1.76
+1.94
+[1/1.5]
+2.98
+1.33
+[1.5]
+3.65
+1.23
+[2/2.5]
+11.00
+1.005
+[2.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.53
+2.33
+[11.5]
+1.82
+1.88
+[12.5]
+2.17
+1.61
+[13.5]
+2.68
+1.40
+[15.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+7.00
+1.05
+[8.5]
+1.52
+2.35
+[9.5]
+1.05
+7.00
+[10.5]
+1.42
+2.62
+[11.5]
+1.70
+2.02
+[12.5]
+1.39
+2.70
+[13.5]
+2.05
+1.68
+[15.5]
+12.00
+1.001
+Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+21.00
+0:0
+30.00
+0:1
+21.00
+2:0
+19.00
+1:1
+11.00
+0:2
+23.00
+2:1
+9.75
+2:2
+9.00
+1:2
+10.50
+3:0
+27.00
+3:3
+21.00
+0:3
+30.00
+3:1
+14.00
+1:3
+16.00
+3:2
+13.00
+2:3
+14.00
+4:0
+40.00
+0:4
+40.00
+4:1
+27.00
+1:4
+30.00
+4:2
+24.00
+2:4
+27.00
+5:0
+70.00
+0:5
+100.0
+5:1
+40.00
+1:5
+60.00
+5:2
+45.00
+2:5
+45.00
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+200.0
+Home Others
+(Away Scores)
+17.00
+Draw Others
+35.00
+Away Others
+(Home Scores)
+20.00
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+2.78
+0:0
+15.50
+0:1
+9.50
+2:0
+1.11
+1:1
+3.55
+0:2
+12.50
+2:1
+8.25
+2:2
+250.0
+1:2
+11.00
+3:0
+11.00
+3:3
+1000
+0:3
+25.00
+3:1
+90.00
+1:3
+50.00
+3:2
+1000
+2:3
+1000
+4:0
+500.0
+0:4
+70.00
+4:1
+1000
+1:4
+350.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+200.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+5.50
+0:0
+4.85
+0:1
+5.70
+2:0
+9.50
+1:1
+5.60
+0:2
+10.00
+2:1
+10.00
+2:2
+22.00
+1:2
+10.50
+3:0
+29.00
+3:3
+200.0
+0:3
+35.00
+3:1
+35.00
+1:3
+40.00
+3:2
+50.00
+2:3
+60.00
+4:0
+100.0
+0:4
+125.0
+4:1
+125.0
+1:4
+150.0
+4:2
+200.0
+2:4
+300.0
+5:0
+500.0
+0:5
+600.0
+5:1
+500.0
+1:5
+600.0
+5:2
+800.0
+2:5
+900.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1500
+Home Others
+(Away Scores)
+450.0
+Draw Others
+1500
+Away Others
+(Home Scores)
+450.0
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+1.15
+0:0
+2.13
+0:1
+4.15
+2:0
+8.50
+1:1
+7.85
+0:2
+17.00
+2:1
+50.00
+2:2
+900.0
+1:2
+100.0
+3:0
+125.0
+3:3
+2500
+0:3
+100.0
+3:1
+1000
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+500.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Chelsea (Home)
+No Goals
+Tottenham (Away)
+1.75
+30.00
+1.87
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+1.82
+15.50
+1.88
+2nd Goal
+2.95
+2.78
+2.27
+3rd Goal
+10.50
+1.11
+8.00
+Total Goals
+0
+30.00
+1
+9.75
+2
+5.40
+3
+4.05
+4
+4.00
+5
+5.10
+6
+7.00
+7+
+7.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+3.25
+H-D
+12.00
+H-A
+18.00
+D-H
+6.10
+D-D
+7.50
+D-A
+6.70
+A-H
+17.00
+A-D
+12.00
+A-A
+3.80
+Specials
+Item No.: 1 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.92
+(4) Be substituted
+7.50
+(5) None of the above
+2.55
+Item No.: 2 Which event will happen to Nicolas JACKSON (Chelsea) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+3.80
+(5) None of the above
+2.65
+Item No.: 3 Which event will happen to Chukwunonso MADUEKE (Chelsea) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.40
+(4) Be substituted
+2.10
+(5) None of the above
+2.90
+Item No.: 4 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.00
+(4) Be substituted
+6.10
+(5) None of the above
+2.25
+Item No.: 5 Which event will happen to James MADDISON (Tottenham) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+4.90
+(4) Be substituted
+1.47
+(5) None of the above
+5.20

@@ -1,0 +1,820 @@
+15/12/2024
+FB5251
+Nottingham
+Forest
+vs
+Aston
+Villa
+0
+:
+0
+2
+:
+1
+%Event ID: FB5251
+Nottingham Forest
+2
+1
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+2.36
+3.10
+2.62
+Home/Away/Draw- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+1.01
+11.00
+600.0
+First Half HAD
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+3.00
+2.02
+3.20
+First Half HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+8.25
+1.12
+8.75
+Handicap HAD
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+[-1]
+4.90
+[-1]
+4.00
+[+1]
+1.46
+Handicap HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+[-1]
+30.00
+[-1]
+6.10
+[+1]
+1.06
+[+2]
+1.001
+[+2]
+7.85
+[-2]
+150.0
+[+1]
+1.22
+[+1]
+4.15
+[-1]
+12.50
+Handicap
+Nottingham Forest (Home)
+Aston Villa (Away)
+[0]
+1.81
+[0]
+2.02
+Handicap- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Aston Villa (Away)
+[-1]
+2.01
+[+1]
+1.73
+[+1]
+1.001
+[-1]
+80.00
+[0]
+1.001
+[0]
+200.0
+[+0.5/+1]
+2.34
+[-0.5/-1]
+1.54
+Same Game All Up
+Chris WOOD to score first & Nottingham Forest to win & Over [3.5] goals
+25.00
+Both teams to score & Nottingham Forest to win by [2] goal(s) or more
+11.00
+Both teams to score & Aston Villa to win & Over [11.5] corners taken
+10.00
+Both teams to score in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+7.50
+Nottingham Forest to win & Over [2.5] goals & Over [11.5] corners taken
+8.00
+The match to be drawn & Under [10.5] corners taken
+6.00
+Aston Villa to win & Over [3.5] goals
+7.50
+Nottingham Forest to score first in the match & Nottingham Forest to win the first half & Over [1.5] goals in the first half
+8.00
+Nottingham Forest to score first & Aston Villa to win or draw
+5.00
+Aston Villa to score first in the match & Over [1.5] goals in the first half
+4.80
+Aston Villa to score first & Nottingham Forest to win by [2] goal(s) or more
+30.00
+First Half to be drawn & Nottingham Forest to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+10.00
+Nottingham Forest to win both first half and the match & Exactly [4] goals in the Match
+21.00
+Aston Villa to win both first half and the match & Exactly [3] goals in the Match
+12.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+23.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+16.00
+First half to be drawn [1:1] & Aston Villa to win [2:1] in the match
+28.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:1] in the match
+70.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.90
+1.80
+[2.5/3]
+2.17
+1.61
+[3.5]
+3.10
+1.31
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.75
+1.95
+[1/1.5]
+2.62
+1.42
+[1.5]
+1.40
+2.68
+[1.5/2]
+3.80
+1.21
+[2/2.5]
+7.00
+1.05
+[2.5]
+7.00
+1.05
+[2.5/3]
+5.15
+1.11
+[3.5]
+8.50
+1.03
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.55
+1.45
+[1.5/2]
+3.35
+1.27
+[2.5]
+5.60
+1.09
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.95
+1.12
+[1/1.5]
+8.50
+1.03
+[1.5]
+10.50
+1.01
+[1.5/2]
+3.35
+1.27
+[2.5]
+5.60
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.12
+1.64
+[12.5]
+2.65
+1.41
+[14.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.24
+3.55
+[7.5]
+1.31
+3.10
+[8.5]
+4.30
+1.16
+[9.5]
+11.00
+1.005
+[10.5]
+8.50
+1.005
+[11.5]
+3.15
+1.30
+[12.5]
+3.15
+1.30
+[14.5]
+4.40
+1.15
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.10
+1.65
+[6.5]
+2.98
+1.33
+[7.5]
+4.40
+1.15
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.17
+4.15
+[2.5]
+4.60
+1.14
+[3.5]
+8.00
+1.04
+[4.5]
+8.50
+1.001
+[5.5]
+5.15
+1.11
+[6.5]
+4.60
+1.14
+[7.5]
+4.40
+1.15
+Correct Score
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+1:0
+7.50
+0:0
+9.00
+0:1
+8.00
+2:0
+11.50
+1:1
+5.80
+0:2
+12.50
+2:1
+8.25
+2:2
+12.00
+1:2
+8.75
+3:0
+24.00
+3:3
+40.00
+0:3
+28.00
+3:1
+19.00
+1:3
+21.00
+3:2
+26.00
+2:3
+28.00
+4:0
+50.00
+0:4
+60.00
+4:1
+40.00
+1:4
+40.00
+4:2
+60.00
+2:4
+60.00
+5:0
+150.0
+0:5
+200.0
+5:1
+125.0
+1:5
+150.0
+5:2
+150.0
+2:5
+200.0
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+70.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+1:0
+4.35
+0:0
+2.35
+0:1
+1.24
+2:0
+17.00
+1:1
+1.13
+0:2
+6.20
+2:1
+1.01
+2:2
+9.25
+1:2
+9.75
+3:0
+100.0
+3:3
+1000
+0:3
+70.00
+3:1
+10.50
+1:3
+200.0
+3:2
+150.0
+2:3
+600.0
+4:0
+1000
+0:4
+1000
+4:1
+700.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+1:0
+4.35
+0:0
+2.55
+0:1
+4.85
+2:0
+10.00
+1:1
+6.50
+0:2
+11.50
+2:1
+15.00
+2:2
+60.00
+1:2
+17.00
+3:0
+50.00
+3:3
+700.0
+0:3
+60.00
+3:1
+80.00
+1:3
+80.00
+3:2
+250.0
+2:3
+250.0
+4:0
+300.0
+0:4
+400.0
+4:1
+500.0
+1:4
+500.0
+4:2
+800.0
+2:4
+900.0
+5:0
+1000
+0:5
+1500
+5:1
+1500
+1:5
+2000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Aston Villa (Away)
+1:0
+8.50
+0:0
+1.13
+0:1
+9.00
+2:0
+150.0
+1:1
+90.00
+0:2
+200.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Nottingham Forest (Home)
+No Goals
+Aston Villa (Away)
+1.89
+9.00
+2.00
+Next Team To Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+2.80
+2.35
+2.80
+2nd Goal
+4.35
+1.37
+5.60
+3rd Goal
+6.70
+1.18
+7.00
+4th Goal
+10.50
+1.08
+9.50
+Total Goals
+0
+9.00
+1
+4.35
+2
+3.30
+3
+3.80
+4
+5.20
+5
+9.00
+6
+19.00
+7+
+30.00
+Total Goals- Last Odds for In Play Betting
+0
+2.35
+1
+1.24
+2
+1.21
+3
+3.26
+4
+25.00
+5
+300.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Nottingham Forest (Home)
+Aston Villa (Away)
+101 Chris WOOD
+4.60
+201 Ollie WATKINS
+5.30
+102 Taiwo AWONIYI
+5.30
+202 Jhon DURAN
+5.50
+103 Morgan GIBBS-WHITE
+7.75
+203 Morgan ROGERS
+6.90
+104 Callum HUDSON-ODOI
+8.75
+204 Jaden PHILOGENE
+9.75
+105 Ramon SOSA
+10.50
+205 Leon BAILEY
+9.75
+106 Anthony ELANGA
+12.00
+206 Emiliano BUENDIA
+12.00
+107 Jota SILVA
+12.00
+207 Ross BARKLEY
+12.00
+108 Eric Da SILVA MOREIRA
+12.50
+212 Matty CASH
+12.50
+110 Ryan YATES
+17.00
+208 John McGINN
+13.00
+109 James WARD-PROWSE
+18.00
+209 Amadou ONANA
+14.00
+111 Elliot ANDERSON
+18.00
+210 Youri TIELEMANS
+17.00
+112 Nicolas DOMINGUEZ
+19.00
+211 Boubacar KAMARA
+30.00
+113 Neco WILLIAMS
+30.00
+214 Tyrone MINGS
+30.00
+114 Nikola MILENKOVIC
+40.00
+213 Ian MAATSEN
+35.00
+115 MURILLO Costa
+40.00
+215 Ezri KONSA
+35.00
+116 Andrew OMOBAMIDELE
+55.00
+217 Lucas DIGNE
+40.00
+117 Harry TOFFOLO
+55.00
+216 DIEGO CARLOS Santos Silva
+45.00
+118 Willy BOLY
+55.00
+218 Pau TORRES
+55.00
+119 MORATO
+70.00
+219 Kosta NEDELJKOVIC
+70.00
+120 Home Others
+14.00
+220 Away Others
+14.50
+00 No First Scorer
+8.80
+HaFu
+H-H
+3.80
+H-D
+13.00
+H-A
+28.00
+D-H
+5.50
+D-D
+4.55
+D-A
+5.90
+A-H
+27.00
+A-D
+13.00
+A-A
+4.25
+Specials
+Item No.: 1 Which event will happen to Chris WOOD (Nottingham Forest) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+1.78
+(5) None of the above
+5.25
+Item No.: 2 Which event will happen to Morgan GIBBS-WHITE (Nottingham Forest) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.75
+(4) Be substituted
+1.56
+(5) None of the above
+5.45
+Item No.: 3 Which event will happen to Callum HUDSON-ODOI (Nottingham Forest) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+5.00
+(4) Be substituted
+1.45
+(5) None of the above
+4.50
+Item No.: 4 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+7.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.57
+(5) None of the above
+6.50
+Item No.: 5 Which event will happen to Morgan ROGERS (Aston Villa) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.85
+(4) Be substituted
+3.10
+(5) None of the above
+2.20

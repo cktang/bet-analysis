@@ -1,0 +1,166 @@
+{
+  "url": "https://fbref.com/en/matches/764fc51e/Ipswich-Town-Newcastle-United-December-21-2024-Premier-League",
+  "homeTeam": "Ipswich Town",
+  "awayTeam": "Newcastle United",
+  "matchDate": "December 21, 2024",
+  "score": "0-4",
+  "homeScore": 0,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 1,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 32,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Anthony Gordon"
+      },
+      {
+        "minute": 47,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Bruno Guimarães"
+      },
+      {
+        "minute": 54,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Jacob Murphy"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 65,
+        "player": "Sam Morsy",
+        "playerId": "a23c0949",
+        "team": "Ipswich Town"
+      },
+      {
+        "minute": 76,
+        "player": "Ali Al Hamadi",
+        "playerId": "8450467d",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Ali Al Hamadi",
+        "playerId": "8450467d",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Kieran Trippier",
+        "playerId": "21512407",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Miguel Almirón",
+        "playerId": "862a1c15",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Nathan Broadhead",
+        "playerId": "43309491",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

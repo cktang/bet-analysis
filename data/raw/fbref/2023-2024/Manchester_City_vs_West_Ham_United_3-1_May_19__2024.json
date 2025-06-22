@@ -1,0 +1,125 @@
+{
+  "url": "https://fbref.com/en/matches/29335211/Manchester-City-West-Ham-United-May-19-2024-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 19, 2024",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Bernardo Silva"
+      },
+      {
+        "minute": 18,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 42,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 59,
+        "player": "Rodri",
+        "playerId": "6434f10d",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Bernardo Silva"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 75,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Nathan Aké",
+        "playerId": "eaeca114",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "George Earthy",
+        "playerId": "123d2733",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

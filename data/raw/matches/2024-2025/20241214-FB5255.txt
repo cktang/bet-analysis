@@ -1,0 +1,838 @@
+14/12/2024
+FB5255
+Liverpool
+vs
+Fulham
+0
+:
+1
+2
+:
+2
+%Event ID: FB5255
+Liverpool
+2
+2
+Fulham
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Fulham (Away)
+1.17
+5.80
+9.75
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Fulham (Away)
+7.80
+1.09
+15.50
+First Half HAD
+Liverpool (Home)
+Draw
+Fulham (Away)
+1.50
+2.94
+7.50
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Fulham (Away)
+200.0
+10.50
+1.02
+Handicap HAD
+Liverpool (Home)
+Draw
+Fulham (Away)
+[-2]
+2.52
+[-2]
+3.90
+[+2]
+2.05
+Handicap HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Fulham (Away)
+[-2]
+2.98
+[-2]
+3.90
+[+2]
+1.82
+[+2]
+1.001
+[+2]
+7.60
+[-2]
+100.0
+[-1]
+35.00
+[-1]
+5.90
+[+1]
+1.06
+Handicap
+Liverpool (Home)
+Fulham (Away)
+[-1.5/-2]
+1.91
+[+1.5/+2]
+1.91
+Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Fulham (Away)
+[-1.5/-2]
+2.15
+[+1.5/+2]
+1.64
+[+1]
+1.001
+[-1]
+60.00
+[+0.5/+1]
+1.16
+[-0.5/-1]
+4.70
+[0]
+1.45
+[0]
+2.58
+[0/+0.5]
+2.30
+[0/-0.5]
+1.56
+[0/-0.5]
+2.40
+[0/+0.5]
+1.52
+[-1/-1.5]
+2.55
+[+1/+1.5]
+1.46
+[-0.5/-1]
+3.70
+[+0.5/+1]
+1.24
+Same Game All Up
+Mohamed SALAH to score first & Liverpool to win by [2] goal(s) or more & Over [10.5] corners taken
+9.75
+Mohamed SALAH to score first & Liverpool to win by exactly [1] goal(s) & Over [9.5] corners taken
+18.00
+Both teams to score & Liverpool to win by [2] goal(s) or more & Over [12.5] corners taken
+9.00
+Liverpool to win by [2] goal(s) or more & Over [4.5] goals & Over [12.5] corners taken
+10.00
+Liverpool to win [3:0] in the first half & Liverpool to win [4:0] in the match
+45.00
+Both teams to score in the match & First Half to be drawn & Liverpool to win the match by [2] goal(s) or more
+16.00
+Both teams to score & Fulham to win & Under [10.5] corners taken
+27.00
+First Half to be drawn & Both teams to score in the match
+4.70
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [13.5] corners taken in the match
+12.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+4.75
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+5.90
+Liverpool to score first in the match & Liverpool to win the first half & Over [2.5] goals in the first half
+6.20
+Fulham to score first & Liverpool to win by [2] goal(s) or more & Over [12.5] corners taken
+28.00
+First Half to be drawn & Liverpool to win the match by exactly [1] goal(s)
+6.80
+Fulham to win the first half & Liverpool to win the match by [2] goal(s) or more
+45.00
+Liverpool to win [1:0] in the first half & Liverpool to win [2:1] in the match
+26.00
+Liverpool to win [2:0] in the first half & Liverpool to win [3:0] in the match
+23.00
+Liverpool to win [2:0] in the first half & Liverpool to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Liverpool to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Liverpool to win [4:1] in the match
+60.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.73
+1.98
+[3.5]
+1.93
+1.77
+[4.5]
+3.05
+1.32
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.17
+4.15
+[2.5/3]
+2.20
+1.59
+[3/3.5]
+4.05
+1.18
+[3.5]
+1.80
+1.90
+[3.5/4]
+2.80
+1.37
+[4/4.5]
+5.90
+1.08
+[4.5]
+6.60
+1.06
+[4.5/5]
+6.25
+1.07
+[5.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.90
+1.80
+[1.5/2]
+2.30
+1.54
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.42
+2.62
+[1/1.5]
+2.02
+1.70
+[1.5]
+1.24
+3.55
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+8.50
+1.02
+[2.5]
+8.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.88
+1.82
+[12.5]
+2.35
+1.52
+[15.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.35
+2.88
+[7.5]
+1.35
+2.88
+[8.5]
+1.57
+2.25
+[9.5]
+4.95
+1.12
+[10.5]
+11.00
+1.005
+[11.5]
+12.00
+1.001
+[12.5]
+4.40
+1.15
+[13.5]
+3.65
+1.23
+[15.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.85
+1.85
+[6.5]
+2.60
+1.43
+[8.5]
+5.40
+1.10
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.17
+4.15
+[4.5]
+4.95
+1.12
+[5.5]
+11.00
+1.005
+[6.5]
+12.00
+1.001
+[7.5]
+4.95
+1.12
+[8.5]
+5.40
+1.10
+Correct Score
+Liverpool (Home)
+Draw
+Fulham (Away)
+1:0
+9.25
+0:0
+23.00
+0:1
+35.00
+2:0
+6.90
+1:1
+11.00
+0:2
+40.00
+2:1
+7.75
+2:2
+17.00
+1:2
+23.00
+3:0
+7.75
+3:3
+40.00
+0:3
+125.0
+3:1
+8.75
+1:3
+50.00
+3:2
+19.00
+2:3
+40.00
+4:0
+11.00
+0:4
+500.0
+4:1
+12.50
+1:4
+250.0
+4:2
+29.00
+2:4
+150.0
+5:0
+20.00
+0:5
+1000
+5:1
+23.00
+1:5
+700.0
+5:2
+40.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+29.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+16.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Fulham (Away)
+1:0
+6.90
+0:0
+18.00
+0:1
+4.40
+2:0
+5.90
+1:1
+1.82
+0:2
+5.50
+2:1
+4.45
+2:2
+1.10
+1:2
+1.53
+3:0
+7.20
+3:3
+125.0
+0:3
+15.00
+3:1
+21.00
+1:3
+5.60
+3:2
+7.90
+2:3
+15.60
+4:0
+12.00
+0:4
+60.00
+4:1
+150.0
+1:4
+50.00
+4:2
+300.0
+2:4
+1000
+5:0
+26.00
+0:5
+350.0
+5:1
+1000
+1:5
+900.0
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+45.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Fulham (Away)
+1:0
+3.25
+0:0
+3.90
+0:1
+11.00
+2:0
+4.65
+1:1
+7.00
+0:2
+40.00
+2:1
+11.00
+2:2
+50.00
+1:2
+35.00
+3:0
+11.00
+3:3
+600.0
+0:3
+250.0
+3:1
+25.00
+1:3
+200.0
+3:2
+100.0
+2:3
+300.0
+4:0
+35.00
+0:4
+1000
+4:1
+70.00
+1:4
+900.0
+4:2
+400.0
+2:4
+1500
+5:0
+125.0
+0:5
+2500
+5:1
+300.0
+1:5
+2500
+5:2
+800.0
+2:5
+2500
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+600.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Fulham (Away)
+1:0
+2.80
+0:0
+2.95
+0:1
+1.10
+2:0
+5.70
+1:1
+6.80
+0:2
+17.00
+2:1
+81.00
+2:2
+2500
+1:2
+100.0
+3:0
+17.00
+3:3
+2500
+0:3
+300.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+70.00
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+250.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Fulham (Away)
+1.20
+23.00
+3.80
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Fulham (Away)
+1st Goal
+1.22
+18.00
+3.70
+2nd Goal
+1.95
+4.40
+2.50
+3rd Goal
+3.24
+1.82
+3.55
+4th Goal
+3.34
+1.53
+5.30
+5th Goal
+7.20
+1.10
+13.50
+Total Goals
+0
+23.00
+1
+7.25
+2
+4.45
+3
+3.80
+4
+4.10
+5
+5.70
+6
+8.75
+7+
+10.50
+Total Goals- Last Odds for In Play Betting
+0
+18.00
+1
+4.40
+2
+1.82
+3
+1.53
+4
+1.37
+5
+2.78
+6
+12.50
+7+
+90.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Liverpool (Home)
+Fulham (Away)
+101 Mohamed SALAH
+3.05
+201 Raul JIMENEZ
+10.00
+102 DIOGO Jota
+4.10
+202 Rodrigo MUNIZ Carvalho
+11.00
+103 Darwin NUNEZ
+4.30
+203 Alex IWOBI
+15.00
+104 Luis DIAZ
+4.55
+204 Emile Smith ROWE
+17.00
+105 Cody GAKPO
+4.80
+205 Adama TRAORE Diarra
+17.00
+106 Federico CHIESA
+5.30
+206 Harry WILSON
+17.00
+107 Trey NYONI
+10.00
+207 Reiss NELSON
+17.00
+108 Dominik SZOBOSZLAI
+10.00
+208 Martial GODO
+19.00
+109 Curtis JONES
+11.00
+209 Andreas PEREIRA
+19.00
+110 Harvey ELLIOTT
+11.00
+210 Joshua David KING
+25.00
+111 Trent ALEXANDER-ARNOLD
+22.00
+211 Joachim ANDERSEN
+50.00
+112 Ryan GRAVENBERCH
+25.00
+212 Sander BERGE
+55.00
+113 Tyler MORTON
+25.00
+213 Issa DIOP
+60.00
+114 Virgil VAN DIJK
+25.00
+214 Ryan SESSEGNON
+60.00
+115 Wataru ENDO
+30.00
+215 Kenny TETE
+75.00
+116 Jarell QUANSAH
+35.00
+216 Sasa LUKIC
+75.00
+117 Andrew ROBERTSON
+40.00
+217 Jorge CUENCA
+80.00
+118 Joe GOMEZ
+40.00
+218 Sam AMISSAH
+85.00
+219 Antonee ROBINSON
+90.00
+120 Home Others
+9.00
+220 Away Others
+28.00
+00 No First Scorer
+22.80
+HaFu
+H-H
+1.59
+H-D
+18.00
+H-A
+60.00
+D-H
+3.80
+D-D
+9.25
+D-A
+20.00
+A-H
+19.00
+A-D
+18.00
+A-A
+15.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+16.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.57
+(4) Be substituted
+4.25
+(5) None of the above
+2.90
+Item No.: 2 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.03
+(2) 1 Goal
+2.40
+(3) 2 Goals
+4.70
+(4) 3 Goals or more
+10.50
+Item No.: 3 Which event will happen to Cody GAKPO (Liverpool) first?
+(1) Receive a Yellow Card
+12.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+1.70
+(5) None of the above
+4.75
+Item No.: 4 How many goal(s) will Cody GAKPO (Liverpool) score?
+(1) No Goal
+1.41
+(2) 1 Goal
+2.85
+(3) 2 Goals
+7.75
+(4) 3 Goals or more
+35.00
+Item No.: 5 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.25
+(4) Be substituted
+1.26
+(5) None of the above
+7.25

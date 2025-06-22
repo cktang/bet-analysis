@@ -1,0 +1,394 @@
+27/08/2023
+FB4728
+Newcastle
+vs
+Liverpool
+1
+:
+0
+1
+:
+2
+%Event ID: FB4728
+Newcastle
+1
+2
+Liverpool
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+Liverpool (Away)
+2.11
+3.60
+2.68
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Liverpool (Away)
+200.0
+7.00
+1.05
+First Half HAD
+Newcastle (Home)
+Draw
+Liverpool (Away)
+2.58
+2.36
+3.05
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Liverpool (Away)
+1.01
+11.50
+300.0
+Handicap HAD
+Newcastle (Home)
+Draw
+Liverpool (Away)
+[-1]
+3.75
+[-1]
+4.10
+[+1]
+1.60
+Handicap
+Newcastle (Home)
+Liverpool (Away)
+[0/-0.5]
+1.95
+[0/+0.5]
+1.87
+Same Game All Up
+Alexander ISAK to score first in the match & Newcastle to win the first half & Newcastle to win or draw the match
+9.00
+Mohamed SALAH to score first in the match & Liverpool to win the first half & Liverpool to win the match by [2] goal(s) or more
+22.00
+Mohamed SALAH to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+14.00
+Newcastle to win & Over [3.5] goals & Over [11.5] corners taken
+9.50
+Liverpool to win & Over [4.5] goals & Over [10.5] corners taken
+14.00
+Newcastle to score first & Liverpool to win
+12.00
+Liverpool to score first & Newcastle to win by [2] goal(s) or more
+24.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+5.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+4.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+6.00
+Liverpool to win the first half & Liverpool to win the match by [2] goal(s) or more
+7.25
+Newcastle to win the first half & Newcastle to win the match by exactly [2] goal(s)
+9.75
+Newcastle to win both first half and the match & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+13.00
+First Half to be drawn and Liverpool to win the match & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+20.00
+Liverpool to win both first half and the match & Exactly [3] goals in the Match
+13.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.89
+1.81
+[3.5]
+2.12
+1.64
+[4.5]
+3.55
+1.24
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+6.10
+1.08
+[1.5/2]
+2.33
+1.53
+[2/2.5]
+4.55
+1.15
+[2.5]
+1.89
+1.81
+[3/3.5]
+11.50
+1.002
+[3.5]
+12.00
+1.001
+[4.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.98
+1.73
+[1.5/2]
+2.40
+1.50
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.55
+1.10
+[0.5/1]
+2.13
+1.63
+[1/1.5]
+3.90
+1.20
+[1.5]
+1.70
+2.02
+[2/2.5]
+8.50
+1.02
+[2.5]
+8.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.80
+1.90
+[11.5]
+2.22
+1.58
+[14.5]
+4.90
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+4.40
+1.16
+[10.5]
+1.49
+2.43
+[11.5]
+1.12
+5.10
+[12.5]
+1.12
+5.10
+[13.5]
+1.12
+5.10
+[14.5]
+1.06
+7.00
+[16.5]
+10.50
+1.01
+[17.5]
+6.10
+1.08
+First Team to Score
+Newcastle (Home)
+No Goals
+Liverpool (Away)
+1.74
+18.00
+1.98
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+Liverpool (Away)
+1st Goal
+2.02
+6.80
+2.02
+2nd Goal
+2.56
+1.76
+5.60
+3rd Goal
+7.00
+1.10
+14.50
+Total Goals
+0
+18.00
+1
+6.70
+2
+4.25
+3
+3.85
+4
+4.35
+5
+6.10
+6
+9.50
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Newcastle (Home)
+Liverpool (Away)
+101 Alexander ISAK
+4.25
+201 Mohamed SALAH
+5.00
+102 Callum WILSON
+4.55
+205 Cody GAKPO
+5.90
+103 Miguel ALMIRON
+6.40
+202 Darwin NUNEZ
+6.50
+104 Anthony GORDON
+8.75
+203 DIOGO Jota
+7.00
+105 Harvey BARNES
+9.75
+204 Luis DIAZ
+7.50
+106 JOELINTON Cassio
+10.00
+206 Harvey ELLIOTT
+17.00
+107 Jacob MURPHY
+10.50
+207 Dominik SZOBOSZLAI
+18.00
+108 Sandro TONALI
+17.00
+208 Alexis MAC ALLISTER
+22.00
+109 BRUNO GUIMARAES
+18.00
+209 Trent ALEXANDER-ARNOLD
+25.00
+110 Sean LONGSTAFF
+21.00
+210 Wataru ENDO
+30.00
+111 Kieran TRIPPIER
+27.00
+211 Virgil VAN DIJK
+30.00
+112 Fabian SCHAR
+35.00
+212 Joel MATIP
+35.00
+113 Sven BOTMAN
+35.00
+213 Ibrahima KONATE
+45.00
+114 Dan BURN
+45.00
+214 Andrew ROBERTSON
+50.00
+215 Joe GOMEZ
+60.00
+120 Home Others
+7.75
+220 Away Others
+11.00
+00 No First Scorer
+19.80
+HaFu
+H-H
+3.30
+H-D
+12.00
+H-A
+21.00
+D-H
+5.80
+D-D
+6.20
+D-A
+6.90
+A-H
+19.00
+A-D
+12.00
+A-A
+4.35
+Specials
+Item No.: 1 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+1.73
+(5) None of the above
+6.50
+Item No.: 2 Which event will happen to Miguel ALMIRON (Newcastle) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.55
+(4) Be substituted
+1.58
+(5) None of the above
+5.50
+Item No.: 3 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.50
+(4) Be substituted
+3.10
+(5) None of the above
+2.60
+Item No.: 4 Which event will happen to DIOGO Jota (Liverpool) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+1.75
+(5) None of the above
+4.70
+Item No.: 5 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+6.30
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+1.65
+(5) None of the above
+4.35

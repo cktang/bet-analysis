@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/26926fd3/Nottingham-Forest-Aston-Villa-December-14-2024-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Aston Villa",
+  "matchDate": "December 14, 2024",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 63,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "John McGinn"
+      },
+      {
+        "minute": 87,
+        "player": "Nikola Milenković",
+        "playerId": "bee704fc",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Morgan Gibbs-White"
+      },
+      {
+        "minute": 93,
+        "player": "Anthony Elanga",
+        "playerId": "2fba6108",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Elliot Anderson"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 70,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Morato",
+        "playerId": "0f41e2ee",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Jota Silva",
+        "playerId": "4d77e622",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Amadou Onana",
+        "playerId": "828657ff",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Ollie Watkins",
+        "playerId": "aed3a70f",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Anthony Elanga",
+        "playerId": "2fba6108",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Ian Maatsen",
+        "playerId": "cab9634e",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Ross Barkley",
+        "playerId": "3a24769f",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 94,
+        "player": "Willy Boly",
+        "playerId": "a4ac4b8f",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

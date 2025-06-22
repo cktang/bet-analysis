@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/99bfc321/Liverpool-Nottingham-Forest-April-22-2023-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "April 22, 2023",
+  "score": "3-2",
+  "homeScore": 3,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 47,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Fabinho"
+      },
+      {
+        "minute": 51,
+        "player": "Neco Williams",
+        "playerId": "dd323728",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Morgan Gibbs-White"
+      },
+      {
+        "minute": 55,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      },
+      {
+        "minute": 67,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 70,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 83,
+        "player": "Neco Williams",
+        "playerId": "dd323728",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 30,
+        "player": "Joe Worrall",
+        "playerId": "a5212312",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Thiago Alcántara",
+        "playerId": "77e84962",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Brennan Johnson",
+        "playerId": "0cd31129",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Sam Surridge",
+        "playerId": "b017b770",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "André Ayew",
+        "playerId": "5dbefa9d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

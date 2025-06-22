@@ -1,0 +1,118 @@
+{
+  "url": "https://fbref.com/en/matches/68c2e6b8/Brentford-Manchester-City-January-14-2025-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Manchester City",
+  "matchDate": "January 14, 2025",
+  "score": "2-2",
+  "homeScore": 2,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 66,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 78,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 82,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Mads Roerslev"
+      },
+      {
+        "minute": 92,
+        "player": "Christian Nørgaard",
+        "playerId": "df0a4c90",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Keane Lewis-Potter"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Kevin Schade",
+        "playerId": "52afb588",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "İlkay Gündoğan",
+        "playerId": "819b3158",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Rico Henry",
+        "playerId": "8a3c1dc7",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

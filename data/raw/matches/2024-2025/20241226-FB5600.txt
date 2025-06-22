@@ -1,0 +1,717 @@
+26/12/2024
+FB5600
+Bournemouth
+vs
+Crystal
+Palace
+0
+:
+0
+0
+:
+0
+%Event ID: FB5600
+Bournemouth
+0
+0
+Crystal Palace
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+1.96
+3.50
+3.00
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+13.00
+1.03
+17.00
+First Half HAD
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+2.47
+2.27
+3.40
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+8.50
+1.07
+12.50
+Handicap HAD
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+3.60
+[-1]
+3.80
+[+1]
+1.67
+Handicap HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+45.00
+[-1]
+7.80
+[+1]
+1.001
+Handicap
+Bournemouth (Home)
+Crystal Palace (Away)
+[0/-0.5]
+1.84
+[0/+0.5]
+1.98
+Same Game All Up
+Both teams to score & Bournemouth to win & Over [12.5] corners taken
+8.50
+Bournemouth to win & Over [3.5] goals & Over [11.5] corners taken
+9.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Bournemouth to win the match by [2] goal(s) or more
+9.50
+Both teams to score & Crystal Palace to win & Under [11.5] corners taken
+10.50
+Both teams to score & Crystal Palace to win or draw & Over [11.5] corners taken
+5.25
+Crystal Palace to score first & Bournemouth to win by [2] goal(s) or more
+23.00
+Bournemouth to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+22.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+7.00
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+6.40
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.00
+First Half to be drawn & Bournemouth to win the match by [2] goal(s) or more
+12.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.00
+The match to be drawn & Under [11.5] corners taken
+6.00
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:1] in the match
+25.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:0] in the match
+40.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:0] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.60
+2.19
+[3/3.5]
+2.25
+1.57
+[3.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.40
+1.10
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.25
+1.57
+[2/2.5]
+2.19
+1.60
+[2.5]
+4.95
+1.12
+[2.5/3]
+2.04
+1.69
+[3/3.5]
+2.25
+1.57
+[3.5]
+4.30
+1.16
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.70
+1.39
+[2.5]
+4.40
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.95
+1.12
+[1/1.5]
+11.00
+1.005
+[1.5]
+11.00
+1.005
+[1.5/2]
+2.70
+1.39
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.97
+1.74
+[12.5]
+2.45
+1.48
+[14.5]
+4.05
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.08
+5.90
+[8.5]
+2.98
+1.33
+[9.5]
+7.00
+1.05
+[10.5]
+11.50
+1.002
+[11.5]
+7.00
+1.05
+[12.5]
+5.15
+1.11
+[14.5]
+4.05
+1.18
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.95
+1.75
+[6.5]
+2.75
+1.38
+[8.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3.5]
+1.18
+4.05
+[4.5]
+8.50
+1.03
+[5.5]
+12.00
+1.001
+[6.5]
+12.00
+1.001
+[8.5]
+6.25
+1.07
+Correct Score
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+1:0
+8.75
+0:0
+13.50
+0:1
+11.00
+2:0
+11.00
+1:1
+6.70
+0:2
+17.00
+2:1
+7.25
+2:2
+11.00
+1:2
+9.50
+3:0
+18.00
+3:3
+40.00
+0:3
+35.00
+3:1
+13.50
+1:3
+21.00
+3:2
+19.00
+2:3
+24.00
+4:0
+40.00
+0:4
+70.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+70.00
+0:5
+250.0
+5:1
+60.00
+1:5
+125.0
+5:2
+80.00
+2:5
+150.0
+Home Others
+(Away No Goal)
+200.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+1:0
+10.50
+0:0
+1.001
+0:1
+12.50
+2:0
+1000
+1:1
+1000
+0:2
+1000
+2:1
+1000
+2:2
+1000
+1:2
+1000
+3:0
+1000
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+1:0
+4.15
+0:0
+2.98
+0:1
+5.50
+2:0
+8.50
+1:1
+6.10
+0:2
+13.50
+2:1
+13.00
+2:2
+40.00
+1:2
+16.00
+3:0
+35.00
+3:3
+600.0
+0:3
+60.00
+3:1
+50.00
+1:3
+70.00
+3:2
+150.0
+2:3
+150.0
+4:0
+150.0
+0:4
+400.0
+4:1
+250.0
+1:4
+500.0
+4:2
+600.0
+2:4
+700.0
+5:0
+700.0
+0:5
+1000
+5:1
+800.0
+1:5
+1500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Crystal Palace (Away)
+1:0
+9.75
+0:0
+1.06
+0:1
+14.50
+2:0
+125.0
+1:1
+25.00
+0:2
+250.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Crystal Palace (Away)
+1.67
+13.50
+2.14
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Crystal Palace (Away)
+1st Goal
+11.00
+1.04
+15.00
+Total Goals
+0
+13.50
+1
+5.30
+2
+3.75
+3
+3.70
+4
+4.55
+5
+6.90
+6
+13.00
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+1.001
+1
+10.00
+2
+500.0
+3
+500.0
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Bournemouth (Home)
+Crystal Palace (Away)
+101 Antoine SEMENYO
+5.20
+201 Eberechi EZE
+6.70
+102 Francisco EVANILSON
+5.60
+202 Eddie NKETIAH
+6.90
+103 Enes UNAL
+5.80
+203 Jean-Philippe MATETA
+6.90
+104 Justin KLUIVERT
+6.80
+204 Ismaila SARR
+7.00
+105 Luis SINISTERRA
+7.25
+205 Asher AGBINONE
+10.00
+106 Dango OUATTARA
+8.50
+206 Daichi KAMADA
+10.00
+107 David BROOKS
+8.75
+207 Franco UMEH-CHIBUEZE
+10.00
+108 Philip BILLING
+10.50
+208 Justin DEVENNY
+15.00
+109 Ryan CHRISTIE
+17.00
+209 Jeffrey SCHLUPP
+22.00
+110 Alex SCOTT
+20.00
+210 Daniel MUNOZ
+27.00
+111 Tyler ADAMS
+24.00
+211 Jefferson LERMA
+27.00
+112 Ben WINTERBURN
+28.00
+212 Cheick Oumar DOUCOURE
+27.00
+113 Lewis COOK
+28.00
+213 Caleb KPORHA
+35.00
+115 Milos KERKEZ
+30.00
+214 Marc GUEHI
+35.00
+114 Dean HUIJSEN
+35.00
+215 Trevoh CHALOBAH
+35.00
+116 Illya ZABARNYI
+60.00
+216 Will HUGHES
+35.00
+117 Max KINSEY
+60.00
+217 Chadi RIAD
+45.00
+118 Adam SMITH
+80.00
+218 Chris RICHARDS
+45.00
+119 James HILL
+80.00
+219 Maxence LACROIX
+50.00
+120 Home Others
+12.00
+220 Away Others
+16.00
+00 No First Scorer
+13.30
+HaFu
+H-H
+3.10
+H-D
+12.50
+H-A
+25.00
+D-H
+5.00
+D-D
+5.60
+D-A
+7.00
+A-H
+20.00
+A-D
+12.50
+A-A
+4.90

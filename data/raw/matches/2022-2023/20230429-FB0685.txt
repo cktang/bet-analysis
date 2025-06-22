@@ -1,0 +1,719 @@
+29/04/2023
+FB0685
+Brighton
+vs
+Wolves
+4
+:
+0
+6
+:
+0
+%Event ID: FB0685
+Brighton
+6
+0
+Wolves
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Wolves (Away)
+1.48
+3.95
+5.10
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Wolves (Away)
+1.001
+50.00
+250.0
+First Half HAD
+Brighton (Home)
+Draw
+Wolves (Away)
+1.99
+2.36
+4.70
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Wolves (Away)
+1.001
+26.00
+250.0
+Handicap HAD
+Brighton (Home)
+Draw
+Wolves (Away)
+[-1]
+2.46
+[-1]
+3.30
+[+1]
+2.35
+Handicap
+Brighton (Home)
+Wolves (Away)
+[-1]
+2.02
+[+1]
+1.81
+Same Game All Up
+Brighton to win & Over [2.5] goals & Over [9.5] corners taken
+3.75
+Brighton to win & Over [3.5] goals
+3.70
+Wolves to win & Over [2.5] goals
+9.25
+Wolves to score first & Brighton to win & Over [11.5] corners taken
+24.00
+First Half to be drawn & Exactly [3] goals in the Match & Under [9.5] corners taken in the match
+22.00
+Brighton to win the first half & Over [1.5] goals in the first half
+3.95
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [9.5] corners taken in the match
+6.75
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.75
+Brighton to win [1:0] in the first half & Brighton to win [3:1] in the match
+40.00
+Brighton to win by [2] goal(s) or more & Over [3.5] goals
+4.25
+Brighton to win both first half and the match & Over [2.5] goals in the match & Over [12.5] corners taken in the match
+11.00
+First half to be drawn [0:0] & Brighton to win [1:0] in the match
+12.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+22.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+50.00
+Wolves to win [1:0] in the first half & Wolves to win [2:1] in the match
+45.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.65
+2.10
+[2.5/3]
+1.84
+1.86
+[3.5]
+2.75
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.16
+4.40
+[2.5]
+1.28
+3.25
+[2.5/3]
+2.19
+1.60
+[3/3.5]
+1.20
+3.90
+[3.5]
+1.34
+2.95
+[4/4.5]
+1.23
+3.65
+[4.5]
+1.10
+5.55
+[4.5/5]
+1.12
+5.10
+[5/5.5]
+2.22
+1.58
+[5.5]
+1.15
+4.55
+[5.5/6]
+1.56
+2.27
+[6/6.5]
+2.33
+1.53
+[6.5]
+1.34
+2.95
+[6.5/7]
+6.50
+1.07
+[7/7.5]
+12.00
+1.001
+[7.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.82
+1.37
+[2.5]
+5.10
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.58
+2.22
+[1/1.5]
+2.35
+1.52
+[1.5]
+1.35
+2.90
+[1.5/2]
+1.75
+1.95
+[2/2.5]
+2.88
+1.36
+[2.5]
+1.46
+2.50
+[2.5/3]
+2.13
+1.63
+[3/3.5]
+3.90
+1.20
+[3.5]
+1.74
+1.97
+[3.5/4]
+4.05
+1.19
+[4/4.5]
+7.50
+1.05
+[4.5]
+10.50
+1.01
+[4.5/5]
+6.50
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.93
+1.77
+[11.5]
+2.45
+1.48
+[13.5]
+4.15
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+6.10
+1.08
+[6.5]
+1.45
+2.55
+[7.5]
+1.42
+2.65
+[9.5]
+9.50
+1.02
+[10.5]
+5.55
+1.10
+[11.5]
+3.65
+1.23
+[13.5]
+4.15
+1.18
+Correct Score
+Brighton (Home)
+Draw
+Wolves (Away)
+1:0
+6.80
+0:0
+12.50
+0:1
+15.00
+2:0
+6.90
+1:1
+7.25
+0:2
+27.00
+2:1
+6.90
+2:2
+12.50
+1:2
+13.50
+3:0
+11.00
+3:3
+40.00
+0:3
+60.00
+3:1
+11.50
+1:3
+40.00
+3:2
+20.00
+2:3
+40.00
+4:0
+22.00
+0:4
+200.0
+4:1
+22.00
+1:4
+100.0
+4:2
+40.00
+2:4
+100.0
+5:0
+40.00
+0:5
+700.0
+5:1
+40.00
+1:5
+500.0
+5:2
+70.00
+2:5
+500.0
+Home Others
+35.00
+Draw Others
+175.0
+Away Others
+125.0
+Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Wolves (Away)
+1:0
+8.25
+0:0
+9.50
+0:1
+12.00
+2:0
+9.00
+1:1
+8.25
+0:2
+24.00
+2:1
+8.50
+2:2
+16.00
+1:2
+19.00
+3:0
+6.80
+3:3
+70.00
+0:3
+70.00
+3:1
+8.25
+1:3
+70.00
+3:2
+24.00
+2:3
+45.00
+4:0
+4.85
+0:4
+300.0
+4:1
+6.50
+1:4
+300.0
+4:2
+19.00
+2:4
+200.0
+5:0
+2.78
+0:5
+800.0
+5:1
+7.00
+1:5
+1000
+5:2
+35.00
+2:5
+500.0
+Home Others
+1.02
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Brighton (Home)
+Draw
+Wolves (Away)
+1:0
+3.50
+0:0
+2.97
+0:1
+6.90
+2:0
+6.70
+1:1
+6.90
+0:2
+23.00
+2:1
+13.50
+2:2
+50.00
+1:2
+26.00
+3:0
+18.00
+3:3
+700.0
+0:3
+125.0
+3:1
+40.00
+1:3
+150.0
+3:2
+150.0
+2:3
+300.0
+4:0
+80.00
+0:4
+700.0
+4:1
+150.0
+1:4
+800.0
+4:2
+600.0
+2:4
+1000
+5:0
+400.0
+0:5
+4000
+5:1
+700.0
+1:5
+5000
+5:2
+2000
+2:5
+5000
+Home Others
+800.0
+Draw Others
+5000
+Away Others
+3000
+First Half Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Wolves (Away)
+1:0
+2.12
+0:0
+2.55
+0:1
+6.40
+2:0
+1.77
+1:1
+5.80
+0:2
+30.00
+2:1
+5.10
+2:2
+40.00
+1:2
+20.00
+3:0
+1.26
+3:3
+2500
+0:3
+200.0
+3:1
+8.75
+1:3
+125.0
+3:2
+125.0
+2:3
+300.0
+4:0
+1.05
+0:4
+2500
+4:1
+20.00
+1:4
+2000
+4:2
+1500
+2:4
+2500
+5:0
+11.00
+0:5
+2500
+5:1
+150.0
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+300.0
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Brighton (Home)
+No Goals
+Wolves (Away)
+1.44
+12.50
+2.76
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Wolves (Away)
+1st Goal
+1.49
+9.50
+2.80
+2nd Goal
+1.57
+8.25
+2.65
+3rd Goal
+1.53
+9.00
+2.70
+4th Goal
+1.56
+6.80
+2.88
+5th Goal
+1.79
+4.85
+2.70
+6th Goal
+1.92
+2.78
+3.90
+7th Goal
+7.80
+1.08
+15.00
+Total Goals
+0
+12.50
+1
+5.20
+2
+3.65
+3
+3.65
+4
+4.80
+5
+7.50
+6
+14.50
+7+
+21.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Brighton (Home)
+Wolves (Away)
+102 Danny WELBECK
+4.30
+201 DIEGO COSTA
+9.00
+103 Solly MARCH
+4.30
+202 HWANG Hee chan
+11.00
+101 Kaoru MITOMA
+5.50
+203 Daniel PODENCE
+12.00
+104 Deniz UNDAV
+6.50
+204 Pablo SARABIA
+12.50
+105 Julio ENCISO
+6.70
+205 RUBEN Diogo NEVES
+13.50
+106 Alexis MAC ALLISTER
+9.50
+206 PEDRO Lomba NETO
+16.00
+107 Pascal GROSS
+10.00
+207 Adama TRAORE Diarra
+17.00
+108 Lewis DUNK
+30.00
+208 Matheus NUNES
+29.00
+110 Adam WEBSTER
+40.00
+209 JOAO MOUTINHO
+40.00
+109 Moises CAICEDO
+45.00
+210 Craig DAWSON
+55.00
+111 Levi COLWILL
+50.00
+211 Mario LEMINA
+60.00
+112 Joel VELTMAN
+65.00
+212 Max KILMAN
+75.00
+113 Pervis ESTUPINAN
+65.00
+213 Nelson SEMEDO
+75.00
+214 Hugo BUENO
+90.00
+215 Nathan COLLINS
+90.00
+216 Tote GOMES
+90.00
+120 Home Others
+17.00
+220 Away Others
+7.50
+00 No First Scorer
+12.30
+HaFu
+H-H
+2.19
+H-D
+15.00
+H-A
+35.00
+D-H
+4.25
+D-D
+6.00
+D-A
+11.50
+A-H
+19.00
+A-D
+15.00
+A-A
+8.25
+Specials
+Item No.: 1 Which event will happen to Danny WELBECK (Brighton) first?
+(1) Receive a Yellow Card
+12.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+1.72
+(5) None of the above
+4.65
+Item No.: 2 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.25
+(4) Be substituted
+2.82
+(5) None of the above
+2.80
+Item No.: 3 Which event will happen to Alexis MAC ALLISTER (Brighton) first?
+(1) Receive a Yellow Card
+4.70
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+5.50
+(5) None of the above
+1.70
+Item No.: 4 Which event will happen to Solly MARCH (Brighton) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+4.25
+(5) None of the above
+2.05
+Item No.: 5 Which event will happen to DIEGO COSTA (Wolves) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+75.00
+(3) Score a Goal
+5.90
+(4) Be substituted
+1.50
+(5) None of the above
+5.15

@@ -1,0 +1,697 @@
+18/01/2025
+FB6288
+West
+Ham
+vs
+Crystal
+Palace
+0
+:
+0
+0
+:
+2
+%Event ID: FB6288
+West Ham
+0
+2
+Crystal Palace
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+2.56
+3.05
+2.44
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+150.0
+70.00
+1.001
+First Half HAD
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+3.05
+2.10
+2.98
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+12.50
+1.10
+8.25
+Handicap HAD
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+[+1]
+1.43
+[+1]
+4.10
+[-1]
+5.10
+[-1]
+5.50
+[-1]
+4.20
+[+1]
+1.39
+Handicap HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+13.50
+[-1]
+13.00
+[+1]
+1.001
+[+3]
+1.05
+[+3]
+5.50
+[-3]
+125.0
+[+1]
+3.05
+[+1]
+2.23
+[-1]
+2.75
+[+2]
+16.00
+[+2]
+1.12
+[-2]
+5.40
+Handicap
+West Ham (Home)
+Crystal Palace (Away)
+[0]
+1.95
+[0]
+1.87
+Same Game All Up
+Both teams to score & West Ham to win & Over [11.5] corners taken
+11.00
+West Ham to win & Over [2.5] goals & Over [10.5] corners taken
+7.40
+West Ham to win [2:0] in the first half & West Ham to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & West Ham to win the match by [2] goal(s) or more
+15.50
+Both teams to score & Crystal Palace to win & Under [10.5] corners taken
+8.25
+Both teams to score & Crystal Palace to win or draw & Over [10.5] corners taken
+4.45
+Crystal Palace to score first & West Ham to win by [2] goal(s) or more
+35.00
+West Ham to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+30.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.30
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.65
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.70
+First Half to be drawn & West Ham to win the match by [2] goal(s) or more
+18.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.50
+The match to be drawn & Under [10.5] corners taken
+5.60
+West Ham to win [1:0] in the first half & West Ham to win [2:1] in the match
+28.00
+West Ham to win [2:0] in the first half & West Ham to win [3:0] in the match
+60.00
+West Ham to win [2:0] in the first half & West Ham to win [4:0] in the match
+100.0
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:0] in the match
+25.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.85
+1.85
+[2.5/3]
+2.10
+1.65
+[3.5]
+3.05
+1.32
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.97
+1.74
+[1.5]
+1.26
+3.40
+[1.5/2]
+5.40
+1.10
+[2/2.5]
+11.00
+1.005
+[2.5]
+11.50
+1.002
+[2.5/3]
+6.25
+1.07
+[3.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.62
+1.42
+[1.5/2]
+3.35
+1.27
+[2.5]
+5.90
+1.08
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+7.00
+1.05
+[1/1.5]
+10.50
+1.01
+[1.5]
+10.50
+1.01
+[1.5/2]
+3.35
+1.27
+[2.5]
+5.90
+1.08
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.93
+1.77
+[11.5]
+2.50
+1.46
+[13.5]
+4.30
+1.16
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.73
+1.98
+[5.5]
+2.50
+1.46
+[6.5]
+3.70
+1.22
+Correct Score
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+8.00
+0:0
+9.50
+0:1
+7.75
+2:0
+12.50
+1:1
+5.90
+0:2
+12.00
+2:1
+8.50
+2:2
+11.50
+1:2
+8.25
+3:0
+28.00
+3:3
+40.00
+0:3
+26.00
+3:1
+21.00
+1:3
+20.00
+3:2
+27.00
+2:3
+26.00
+4:0
+50.00
+0:4
+50.00
+4:1
+40.00
+1:4
+40.00
+4:2
+60.00
+2:4
+50.00
+5:0
+150.0
+0:5
+150.0
+5:1
+125.0
+1:5
+125.0
+5:2
+200.0
+2:5
+150.0
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+70.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+5.00
+0:0
+3.25
+0:1
+1.17
+2:0
+15.00
+1:1
+13.60
+0:2
+1.06
+2:1
+126.0
+2:2
+1000
+1:2
+13.50
+3:0
+70.00
+3:3
+1000
+0:3
+6.10
+3:1
+1000
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+500.0
+0:4
+250.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+4.75
+0:0
+2.63
+0:1
+4.40
+2:0
+10.00
+1:1
+6.20
+0:2
+9.50
+2:1
+19.00
+2:2
+50.00
+1:2
+19.00
+3:0
+60.00
+3:3
+700.0
+0:3
+50.00
+3:1
+80.00
+1:3
+80.00
+3:2
+250.0
+2:3
+250.0
+4:0
+300.0
+0:4
+300.0
+4:1
+500.0
+1:4
+500.0
+4:2
+800.0
+2:4
+800.0
+5:0
+1000
+0:5
+1000
+5:1
+2000
+1:5
+1500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+12.60
+0:0
+1.10
+0:1
+8.50
+2:0
+400.0
+1:1
+150.0
+0:2
+250.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+West Ham (Home)
+No Goals
+Crystal Palace (Away)
+1.96
+9.50
+1.91
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Crystal Palace (Away)
+1st Goal
+2.72
+3.25
+2.16
+2nd Goal
+11.00
+1.17
+5.20
+3rd Goal
+14.00
+1.10
+7.00
+Total Goals
+0
+9.50
+1
+4.35
+2
+3.35
+3
+3.80
+4
+5.10
+5
+8.75
+6
+18.00
+7+
+28.00
+Total Goals- Last Odds for In Play Betting
+0
+3.25
+1
+1.17
+2
+1.06
+3
+5.10
+4
+100.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+West Ham (Home)
+Crystal Palace (Away)
+102 Mohammed KUDUS
+5.80
+201 Eberechi EZE
+6.30
+101 Danny INGS
+6.60
+202 Ismaila SARR
+6.30
+105 LUCAS PAQUETA
+6.90
+203 Jean-Philippe MATETA
+6.40
+103 Tomas SOUCEK
+7.75
+204 Eddie NKETIAH
+6.70
+104 Crysencio SUMMERVILLE
+9.25
+205 Franco UMEH-CHIBUEZE
+10.00
+106 Carlos SOLER
+12.00
+207 Matheus FRANCA
+11.50
+107 Luis GUILHERME
+12.00
+206 Daichi KAMADA
+12.00
+108 Andy IRVING
+15.00
+208 Justin DEVENNY
+17.00
+109 Guido RODRIGUEZ
+19.00
+209 Jeffrey SCHLUPP
+20.00
+110 EMERSON PALMIERI dos Santos
+25.00
+210 Daniel MUNOZ
+24.00
+112 Aaron WAN-BISSAKA
+28.00
+211 Jefferson LERMA
+24.00
+111 Oliver SCARLES
+29.00
+212 Cheick Oumar DOUCOURE
+28.00
+113 Edson Omar ALVAREZ
+29.00
+213 Marc GUEHI
+30.00
+114 Aaron CRESSWELL
+30.00
+214 Will HUGHES
+30.00
+115 Konstantinos MAVROPANOS
+30.00
+215 Caleb KPORHA
+35.00
+116 Kaelan CASEY
+40.00
+216 Chadi RIAD
+45.00
+119 Max KILMAN
+50.00
+217 Chris RICHARDS
+45.00
+117 Ezra MAYERS
+55.00
+218 Maxence LACROIX
+45.00
+118 Jean-Clair TODIBO
+55.00
+219 Joel WARD
+70.00
+120 Home Others
+9.75
+220 Away Others
+9.25
+00 No First Scorer
+9.30
+HaFu
+H-H
+4.10
+H-D
+13.00
+H-A
+26.00
+D-H
+5.80
+D-D
+4.70
+D-A
+5.60
+A-H
+28.00
+A-D
+13.00
+A-A
+3.85

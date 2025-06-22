@@ -1,0 +1,810 @@
+15/02/2025
+FB7535
+Fulham
+vs
+Nottingham
+Forest
+1
+:
+1
+2
+:
+1
+%Event ID: FB7535
+Fulham
+2
+1
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+2.10
+3.30
+2.87
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+1.04
+7.80
+500.0
+First Half HAD
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+2.63
+2.13
+3.45
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+9.00
+1.08
+12.00
+Handicap HAD
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+[+1]
+1.32
+[+1]
+4.70
+[-1]
+5.90
+[-1]
+4.10
+[-1]
+3.80
+[+1]
+1.58
+Handicap HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+[-2]
+150.0
+[-2]
+6.10
+[+2]
+1.03
+[+1]
+1.32
+[+1]
+4.70
+[-1]
+5.90
+[-1]
+2.90
+[-1]
+1.92
+[+1]
+3.65
+Handicap
+Fulham (Home)
+Nottingham Forest (Away)
+[0/-0.5]
+1.92
+[0/+0.5]
+1.90
+Same Game All Up
+Both teams to score & Fulham to win & Over [11.5] corners taken
+12.00
+Fulham to win & Over [2.5] goals & Over [10.5] corners taken
+7.25
+Fulham to win [2:0] in the first half & Fulham to win [3:1] in the match
+55.00
+Both teams to score in the match & Over [1.5] goals in the first half & Fulham to win the match by [2] goal(s) or more
+14.00
+Both teams to score & Nottingham Forest to win & Under [10.5] corners taken
+9.50
+Both teams to score & Nottingham Forest to win or draw & Over [10.5] corners taken
+5.25
+Nottingham Forest to score first & Fulham to win by [2] goal(s) or more
+30.00
+Fulham to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+30.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+7.00
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.20
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+12.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+3.20
+First Half to be drawn & Fulham to win the match by [2] goal(s) or more
+16.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+12.50
+The match to be drawn & Under [10.5] corners taken
+5.00
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+25.00
+Fulham to win [2:0] in the first half & Fulham to win [3:0] in the match
+40.00
+Fulham to win [2:0] in the first half & Fulham to win [4:0] in the match
+80.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+26.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.79
+1.91
+[2.5/3]
+2.01
+1.71
+[3.5]
+2.85
+1.36
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.23
+3.65
+[2.5]
+1.14
+4.60
+[2.5/3]
+1.65
+2.10
+[3/3.5]
+2.65
+1.41
+[3.5]
+1.41
+2.65
+[3.5/4]
+8.00
+1.04
+[4/4.5]
+12.00
+1.001
+[4.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.12
+1.64
+[1.5]
+2.62
+1.42
+[1.5/2]
+3.15
+1.30
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.97
+1.74
+[1/1.5]
+3.35
+1.27
+[1.5]
+1.58
+2.22
+[1.5/2]
+4.40
+1.15
+[2/2.5]
+11.00
+1.005
+[2.5]
+11.00
+1.005
+[2.5/3]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.98
+1.73
+[11.5]
+2.58
+1.44
+[13.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.29
+3.20
+[7.5]
+1.23
+3.65
+[8.5]
+1.32
+3.05
+[9.5]
+1.12
+4.95
+[10.5]
+1.36
+2.85
+[11.5]
+1.43
+2.60
+[12.5]
+1.85
+1.85
+[13.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.75
+1.95
+[5.5]
+2.58
+1.44
+[7.5]
+5.90
+1.08
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.18
+4.05
+[2.5]
+1.88
+1.82
+[3.5]
+2.38
+1.51
+[4.5]
+9.50
+1.02
+[5.5]
+6.60
+1.06
+[6.5]
+5.60
+1.09
+[7.5]
+5.90
+1.08
+Correct Score
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+7.50
+0:0
+10.00
+0:1
+9.25
+2:0
+10.00
+1:1
+6.10
+0:2
+15.00
+2:1
+7.75
+2:2
+11.50
+1:2
+9.50
+3:0
+21.00
+3:3
+40.00
+0:3
+30.00
+3:1
+17.00
+1:3
+23.00
+3:2
+23.00
+2:3
+30.00
+4:0
+40.00
+0:4
+70.00
+4:1
+35.00
+1:4
+50.00
+4:2
+40.00
+2:4
+60.00
+5:0
+100.0
+0:5
+250.0
+5:1
+80.00
+1:5
+150.0
+5:2
+125.0
+2:5
+250.0
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.60
+0:0
+8.00
+0:1
+7.00
+2:0
+4.10
+1:1
+2.48
+0:2
+13.00
+2:1
+1.10
+2:2
+9.25
+1:2
+4.65
+3:0
+8.50
+3:3
+1000
+0:3
+35.00
+3:1
+11.50
+1:3
+20.00
+3:2
+150.0
+2:3
+151.0
+4:0
+25.00
+0:4
+150.0
+4:1
+600.0
+1:4
+125.0
+4:2
+1000
+2:4
+1000
+5:0
+100.0
+0:5
+600.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+450.0
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.10
+0:0
+2.77
+0:1
+4.95
+2:0
+9.00
+1:1
+6.50
+0:2
+13.00
+2:1
+14.00
+2:2
+50.00
+1:2
+17.00
+3:0
+40.00
+3:3
+700.0
+0:3
+70.00
+3:1
+60.00
+1:3
+80.00
+3:2
+200.0
+2:3
+250.0
+4:0
+200.0
+0:4
+400.0
+4:1
+400.0
+1:4
+500.0
+4:2
+700.0
+2:4
+900.0
+5:0
+800.0
+0:5
+1500
+5:1
+1000
+1:5
+2000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+1.22
+0:0
+1.86
+0:1
+4.80
+2:0
+5.60
+1:1
+1.10
+0:2
+23.00
+2:1
+8.60
+2:2
+125.0
+1:2
+11.60
+3:0
+70.00
+3:3
+2500
+0:3
+150.0
+3:1
+200.0
+1:3
+350.0
+3:2
+2500
+2:3
+2500
+4:0
+900.0
+0:4
+2000
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Fulham (Home)
+No Goals
+Nottingham Forest (Away)
+1.75
+10.00
+2.13
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.77
+8.00
+2.20
+2nd Goal
+1.87
+5.20
+2.42
+3rd Goal
+2.37
+2.48
+3.18
+4th Goal
+10.00
+1.10
+9.00
+Total Goals
+0
+10.00
+1
+4.60
+2
+3.40
+3
+3.75
+4
+4.95
+5
+8.25
+6
+17.00
+7+
+28.00
+Total Goals- Last Odds for In Play Betting
+0
+8.00
+1
+4.60
+2
+2.48
+3
+1.10
+4
+4.45
+5
+80.00
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Fulham (Home)
+Nottingham Forest (Away)
+101 Raul JIMENEZ
+4.45
+201 Chris WOOD
+4.05
+102 Rodrigo MUNIZ Carvalho
+4.95
+202 Taiwo AWONIYI
+6.30
+103 Carlos VINICIUS
+5.70
+203 Morgan GIBBS-WHITE
+10.00
+104 Alex IWOBI
+6.60
+204 Ramon SOSA
+10.00
+105 Emile Smith ROWE
+9.00
+205 Anthony ELANGA
+12.00
+106 Martial GODO
+9.25
+206 Callum HUDSON-ODOI
+12.50
+107 WILLIAN Borges
+11.00
+207 Jota SILVA
+13.00
+108 Adama TRAORE Diarra
+12.50
+208 Eric Da SILVA MOREIRA
+21.00
+109 Joshua David KING
+16.00
+209 Ryan YATES
+21.00
+110 Andreas PEREIRA
+17.00
+210 DANILO Oliveira
+22.00
+111 Tom CAIRNEY
+21.00
+211 Elliot ANDERSON
+26.00
+112 Sander BERGE
+23.00
+212 Nicolas DOMINGUEZ
+26.00
+113 Joachim ANDERSEN
+25.00
+213 Ibrahim SANGARE
+30.00
+114 Timothy CASTAGNE
+25.00
+214 Nikola MILENKOVIC
+30.00
+115 Ryan SESSEGNON
+26.00
+215 ALEX MORENO
+35.00
+116 Antonee ROBINSON
+28.00
+216 Neco WILLIAMS
+35.00
+117 Harrison REED
+28.00
+217 Ola AINA
+45.00
+119 Sasa LUKIC
+29.00
+218 Willy BOLY
+45.00
+118 Calvin BASSEY
+30.00
+219 Harry TOFFOLO
+65.00
+120 Home Others
+8.25
+220 Away Others
+10.50
+00 No First Scorer
+9.80
+HaFu
+H-H
+3.35
+H-D
+13.00
+H-A
+29.00
+D-H
+5.00
+D-D
+5.00
+D-A
+6.70
+A-H
+24.00
+A-D
+13.00
+A-A
+4.60
+Specials
+Item No.: 1 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.05
+(4) Be substituted
+1.55
+(5) None of the above
+5.75
+Item No.: 2 Which event will happen to Alex IWOBI (Fulham) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+1.57
+(5) None of the above
+3.80
+Item No.: 3 Which event will happen to Chris WOOD (Nottingham Forest) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+2.80
+(5) None of the above
+2.30
+Item No.: 4 How many goal(s) will Chris WOOD (Nottingham Forest) score?
+(1) No Goal
+1.34
+(2) 1 Goal
+2.95
+(3) 2 Goals
+9.50
+(4) 3 Goals or more
+35.00
+Item No.: 5 Which event will happen to Morgan GIBBS-WHITE (Nottingham Forest) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+6.75
+(4) Be substituted
+1.20
+(5) None of the above
+7.75

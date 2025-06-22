@@ -1,0 +1,137 @@
+{
+  "url": "https://fbref.com/en/matches/1e5152bf/Everton-Fulham-October-26-2024-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Fulham",
+  "matchDate": "October 26, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 61,
+        "player": "Alex Iwobi",
+        "playerId": "6ca5ec4b",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Emile Smith Rowe"
+      },
+      {
+        "minute": 94,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Ashley Young"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 76,
+        "player": "James Tarkowski",
+        "playerId": "15ea812b",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Jesper Lindstrøm",
+        "playerId": "37dc1a48",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Harrison Reed",
+        "playerId": "803ae100",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Orel Mangala",
+        "playerId": "a572e291",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Jarrad Branthwaite",
+        "playerId": "c1949191",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Rodrigo Muniz",
+        "playerId": "a755db8c",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Jorge Cuenca",
+        "playerId": "0abc51f2",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

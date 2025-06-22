@@ -1,0 +1,506 @@
+09/10/2022
+FB3434
+Crystal
+Palace
+vs
+Leeds
+1
+:
+1
+2
+:
+1
+%Event ID: FB3434
+Crystal Palace
+2
+1
+Leeds
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1.88
+3.35
+3.40
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1.02
+14.50
+800.0
+First Half HAD
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+2.43
+2.15
+3.85
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+9.50
+1.09
+12.50
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+[-1]
+3.40
+[-1]
+3.65
+[+1]
+1.76
+Handicap
+Crystal Palace (Home)
+Leeds (Away)
+[0/-0.5]
+1.75
+[0/+0.5]
+2.09
+HiLo
+Line
+High
+Low
+[2.5]
+1.76
+1.94
+[2.5/3]
+1.97
+1.74
+[3.5]
+2.90
+1.35
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+8.00
+1.04
+[2/2.5]
+1.82
+1.88
+[2.5]
+2.08
+1.66
+[2.5/3]
+2.65
+1.42
+[3/3.5]
+5.30
+1.11
+[3.5]
+5.10
+1.12
+[4.5]
+5.30
+1.11
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.12
+1.64
+[1.5]
+2.48
+1.47
+[1.5/2]
+3.15
+1.30
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+5.80
+1.09
+[0.5/1]
+1.81
+1.89
+[1/1.5]
+2.25
+1.57
+[1.5]
+2.48
+1.47
+[1.5/2]
+2.48
+1.47
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.86
+1.84
+[10.5]
+2.38
+1.51
+[12.5]
+4.05
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+6.10
+1.08
+[5.5]
+2.27
+1.56
+[6.5]
+4.55
+1.15
+[8.5]
+5.10
+1.12
+[9.5]
+5.30
+1.11
+[10.5]
+4.05
+1.19
+[11.5]
+3.70
+1.22
+[12.5]
+4.05
+1.19
+Correct Score
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1:0
+7.00
+0:0
+11.00
+0:1
+10.50
+2:0
+9.00
+1:1
+6.30
+0:2
+18.00
+2:1
+7.25
+2:2
+11.00
+1:2
+11.00
+3:0
+17.00
+3:3
+40.00
+0:3
+40.00
+3:1
+14.00
+1:3
+27.00
+3:2
+22.00
+2:3
+35.00
+4:0
+35.00
+0:4
+80.00
+4:1
+35.00
+1:4
+60.00
+4:2
+40.00
+2:4
+70.00
+5:0
+70.00
+0:5
+400.0
+5:1
+70.00
+1:5
+250.0
+5:2
+100.0
+2:5
+250.0
+Home Others
+40.00
+Draw Others
+150.0
+Away Others
+70.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1:0
+5.90
+0:0
+9.00
+0:1
+8.25
+2:0
+8.25
+1:1
+1.61
+0:2
+6.80
+2:1
+1.09
+2:2
+14.50
+1:2
+6.00
+3:0
+18.00
+3:3
+1000
+0:3
+16.00
+3:1
+11.00
+1:3
+45.00
+3:2
+200.0
+2:3
+800.0
+4:0
+45.00
+0:4
+60.00
+4:1
+700.0
+1:4
+500.0
+4:2
+1000
+2:4
+1000
+5:0
+125.0
+0:5
+300.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1:0
+3.90
+0:0
+2.80
+0:1
+5.50
+2:0
+8.50
+1:1
+6.60
+0:2
+14.50
+2:1
+14.00
+2:2
+50.00
+1:2
+20.00
+3:0
+35.00
+3:3
+700.0
+0:3
+80.00
+3:1
+60.00
+1:3
+100.0
+3:2
+200.0
+2:3
+250.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+600.0
+4:2
+700.0
+2:4
+900.0
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2000
+5:2
+2000
+2:5
+5000
+Home Others
+1000
+Draw Others
+5000
+Away Others
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Leeds (Away)
+1:0
+3.70
+0:0
+2.17
+0:1
+1.66
+2:0
+12.50
+1:1
+1.11
+0:2
+4.85
+2:1
+8.75
+2:2
+125.0
+1:2
+11.60
+3:0
+70.00
+3:3
+2500
+0:3
+40.00
+3:1
+200.0
+1:3
+300.0
+3:2
+2500
+2:3
+2500
+4:0
+350.0
+0:4
+300.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Leeds (Away)
+1.63
+11.00
+2.31
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Leeds (Away)
+1st Goal
+1.68
+9.00
+2.32
+2nd Goal
+1.63
+8.25
+2.49
+3rd Goal
+3.35
+1.61
+4.60
+4th Goal
+9.75
+1.09
+11.00
+Total Goals
+0
+11.00
+1
+4.70
+2
+3.50
+3
+3.75
+4
+5.00
+5
+8.25
+6
+16.00
+7+
+27.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+2.97
+H-D
+13.50
+H-A
+30.00
+D-H
+4.90
+D-D
+5.20
+D-A
+7.75
+A-H
+23.00
+A-D
+13.50
+A-A
+5.30

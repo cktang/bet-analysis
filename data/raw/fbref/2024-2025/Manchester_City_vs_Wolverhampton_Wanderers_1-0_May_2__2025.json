@@ -1,0 +1,129 @@
+{
+  "url": "https://fbref.com/en/matches/6a433468/Manchester-City-Wolverhampton-Wanderers-May-2-2025-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "May 2, 2025",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 35,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "player": "Manuel Akanji",
+        "playerId": "89ac64a6",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Pablo Sarabia",
+        "playerId": "9744ff80",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Rodrigo Gomes",
+        "playerId": "8dcf77c0",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Gonçalo Guedes",
+        "playerId": "e6bc67d7",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Santiago Bueno",
+        "playerId": "edc98fac",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Nicolás González",
+        "playerId": "2c56a792",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

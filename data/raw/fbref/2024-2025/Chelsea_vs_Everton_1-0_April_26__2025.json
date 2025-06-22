@@ -1,0 +1,115 @@
+{
+  "url": "https://fbref.com/en/matches/06c5f0ab/Chelsea-Everton-April-26-2025-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Everton",
+  "matchDate": "April 26, 2025",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 27,
+        "player": "Nicolas Jackson",
+        "playerId": "9c36ed83",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Enzo Fernández"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Carlos Alcaraz",
+        "playerId": "4abac767",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Dwight McNeil",
+        "playerId": "fc15fb84",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Youssef Chermiti",
+        "playerId": "890f108d",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Reece James",
+        "playerId": "1265a93a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Jadon Sancho",
+        "playerId": "dbf053da",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Kiernan Dewsbury-Hall",
+        "playerId": "5c74c0f5",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Tyrique George",
+        "playerId": "e6f7797e",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

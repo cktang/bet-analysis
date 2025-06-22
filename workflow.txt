@@ -1,0 +1,7 @@
+npx playwright test scrap-hkjc-result.spec.ts 
+npx playwright test scrap-oddsportal-result.spec.ts
+
+cd src/parsers/
+node scrap-oddsportal.result.parser 
+node scrap-hkjc.result.parser 
+node data-joiner

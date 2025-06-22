@@ -1,0 +1,749 @@
+30/11/2024
+FB4550
+Wolves
+vs
+Bournemouth
+1
+:
+3
+2
+:
+4
+%Event ID: FB4550
+Wolves
+2
+4
+Bournemouth
+Eng Premier
+Home/Away/Draw
+Wolves (Home)
+Draw
+Bournemouth (Away)
+2.37
+3.40
+2.43
+Home/Away/Draw- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Bournemouth (Away)
+35.00
+21.00
+1.02
+First Half HAD
+Wolves (Home)
+Draw
+Bournemouth (Away)
+2.88
+2.21
+2.94
+First Half HAD- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Bournemouth (Away)
+1000
+70.00
+1.001
+Handicap HAD
+Wolves (Home)
+Draw
+Bournemouth (Away)
+[-1]
+4.70
+[-1]
+4.20
+[+1]
+1.45
+Handicap HAD- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Bournemouth (Away)
+[-1]
+10.00
+[-1]
+7.00
+[+1]
+1.11
+[+2]
+3.24
+[+2]
+1.74
+[-2]
+3.90
+[+1]
+350.0
+[+1]
+6.40
+[-1]
+1.02
+Handicap
+Wolves (Home)
+Bournemouth (Away)
+[0]
+1.89
+[0]
+1.93
+Same Game All Up
+Both teams to score & Bournemouth to win & Over [11.5] corners taken
+8.00
+Bournemouth to win & Over [2.5] goals & Over [10.5] corners taken
+5.50
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Bournemouth to win the match by [2] goal(s) or more
+12.00
+Both teams to score & Wolves to win & Under [10.5] corners taken
+8.50
+Both teams to score & Wolves to win or draw & Over [10.5] corners taken
+3.85
+Wolves to score first & Bournemouth to win by [2] goal(s) or more
+30.00
+Bournemouth to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+21.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.00
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+3.75
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.75
+First Half to be drawn & Bournemouth to win the match by [2] goal(s) or more
+16.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.00
+The match to be drawn & Under [10.5] corners taken
+6.50
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:1] in the match
+25.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:0] in the match
+40.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:0] in the match
+90.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Wolves to win [1:0] in the first half & Wolves to win [2:0] in the match
+26.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.58
+2.22
+[3/3.5]
+2.25
+1.57
+[3.5]
+2.55
+1.45
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.18
+4.05
+[2.5/3]
+1.22
+3.70
+[3/3.5]
+2.25
+1.57
+[3.5]
+1.21
+3.80
+[3.5/4]
+1.25
+3.45
+[4.5]
+1.23
+3.65
+[4.5/5]
+1.75
+1.95
+[5/5.5]
+2.92
+1.34
+[5.5]
+3.55
+1.24
+[5.5/6]
+1.90
+1.80
+[6/6.5]
+3.65
+1.23
+[6.5]
+1.66
+2.08
+[6.5/7]
+7.00
+1.05
+[7/7.5]
+12.00
+1.001
+[7.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.60
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.45
+2.55
+[1/1.5]
+2.17
+1.61
+[1.5]
+1.30
+3.15
+[1.5/2]
+1.49
+2.43
+[2/2.5]
+2.33
+1.53
+[2.5]
+1.38
+2.75
+[2.5/3]
+1.50
+2.40
+[3/3.5]
+2.29
+1.55
+[3.5]
+1.35
+2.88
+[3.5/4]
+1.79
+1.91
+[4/4.5]
+3.05
+1.32
+[4.5]
+1.53
+2.33
+[4.5/5]
+5.60
+1.09
+[5/5.5]
+12.00
+1.001
+[5.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.88
+1.82
+[12.5]
+2.40
+1.50
+[14.5]
+3.80
+1.21
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.91
+1.79
+[6.5]
+2.70
+1.39
+[7.5]
+3.95
+1.19
+Correct Score
+Wolves (Home)
+Draw
+Bournemouth (Away)
+1:0
+10.00
+0:0
+13.50
+0:1
+10.00
+2:0
+13.50
+1:1
+6.60
+0:2
+13.50
+2:1
+8.25
+2:2
+10.00
+1:2
+8.25
+3:0
+26.00
+3:3
+35.00
+0:3
+27.00
+3:1
+18.00
+1:3
+18.00
+3:2
+21.00
+2:3
+21.00
+4:0
+40.00
+0:4
+50.00
+4:1
+40.00
+1:4
+40.00
+4:2
+40.00
+2:4
+40.00
+5:0
+125.0
+0:5
+125.0
+5:1
+80.00
+1:5
+80.00
+5:2
+100.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Bournemouth (Away)
+1:0
+8.25
+0:0
+12.50
+0:1
+15.50
+2:0
+11.50
+1:1
+13.50
+0:2
+8.75
+2:1
+8.00
+2:2
+6.30
+1:2
+10.00
+3:0
+24.00
+3:3
+4.15
+0:3
+13.00
+3:1
+11.00
+1:3
+2.26
+3:2
+9.25
+2:3
+2.00
+4:0
+60.00
+0:4
+29.00
+4:1
+24.00
+1:4
+4.35
+4:2
+20.00
+2:4
+1.06
+5:0
+200.0
+0:5
+80.00
+5:1
+70.00
+1:5
+19.00
+5:2
+60.00
+2:5
+12.50
+Home Others
+(Away No Goal)
+700.0
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+400.0
+Away Others
+(Home Scores)
+5.90
+First Half Correct Score
+Wolves (Home)
+Draw
+Bournemouth (Away)
+1:0
+4.75
+0:0
+3.00
+0:1
+4.85
+2:0
+9.75
+1:1
+5.90
+0:2
+10.00
+2:1
+16.00
+2:2
+40.00
+1:2
+16.00
+3:0
+40.00
+3:3
+500.0
+0:3
+40.00
+3:1
+60.00
+1:3
+60.00
+3:2
+150.0
+2:3
+150.0
+4:0
+200.0
+0:4
+200.0
+4:1
+300.0
+1:4
+300.0
+4:2
+600.0
+2:4
+700.0
+5:0
+800.0
+0:5
+800.0
+5:1
+1000
+1:5
+1000
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Bournemouth (Away)
+1:0
+4.15
+0:0
+2.70
+0:1
+2.72
+2:0
+12.50
+1:1
+2.70
+0:2
+3.65
+2:1
+4.00
+2:2
+3.95
+1:2
+2.17
+3:0
+60.00
+3:3
+90.00
+0:3
+13.00
+3:1
+12.50
+1:3
+1.11
+3:2
+16.00
+2:3
+8.50
+4:0
+250.0
+0:4
+70.00
+4:1
+60.00
+1:4
+9.50
+4:2
+80.00
+2:4
+50.00
+5:0
+2500
+0:5
+300.0
+5:1
+250.0
+1:5
+100.0
+5:2
+400.0
+2:5
+700.0
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+450.0
+First Team to Score
+Wolves (Home)
+No Goals
+Bournemouth (Away)
+1.86
+13.50
+1.89
+Next Team To Score- Last Odds for In Play Betting
+Wolves (Home)
+No Goals
+Bournemouth (Away)
+1st Goal
+1.87
+12.50
+1.90
+2nd Goal
+1.77
+15.50
+1.96
+3rd Goal
+1.85
+13.50
+1.90
+4th Goal
+1.79
+10.00
+2.04
+5th Goal
+2.64
+2.26
+3.00
+6th Goal
+2.90
+2.00
+3.38
+7th Goal
+10.50
+1.06
+12.00
+Total Goals
+0
+13.50
+1
+5.40
+2
+3.75
+3
+3.70
+4
+4.55
+5
+6.90
+6
+12.50
+7+
+18.00
+Total Goals- Last Odds for In Play Betting
+0
+12.50
+1
+15.50
+2
+13.50
+3
+10.00
+4
+2.26
+5
+2.00
+6
+1.36
+7+
+2.78
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Wolves (Home)
+Bournemouth (Away)
+101 MATHEUS CUNHA
+4.50
+201 Francisco EVANILSON
+5.50
+102 Jorgen Strand LARSEN
+6.00
+202 Enes UNAL
+7.00
+103 HWANG Hee chan
+6.60
+203 Dango OUATTARA
+8.25
+104 Goncalo GUEDES
+7.25
+204 Justin KLUIVERT
+8.25
+105 Pablo SARABIA
+11.50
+205 Marcus TAVERNIER
+8.75
+106 Carlos FORBS
+12.00
+206 David BROOKS
+9.00
+107 Jeanricner BELLEGARDE
+15.00
+207 Philip BILLING
+10.50
+108 Joao GOMES
+17.00
+208 Ryan CHRISTIE
+12.00
+109 Luke CUNDLE
+17.00
+209 Lewis COOK
+28.00
+110 Rodrigo Martins GOMES
+17.00
+210 Tyler ADAMS
+28.00
+111 Mario LEMINA
+19.00
+211 Milos KERKEZ
+40.00
+112 Tommy DOYLE
+19.00
+212 Dean HUIJSEN
+45.00
+113 Rayan AIT-NOURI
+23.00
+213 Marcos SENESI
+55.00
+114 Craig DAWSON
+30.00
+214 Illya ZABARNYI
+70.00
+115 ANDRE Trindade da Costa Neto
+35.00
+215 Adam SMITH
+90.00
+116 Matt DOHERTY
+35.00
+216 James HILL
+90.00
+117 Nelson SEMEDO
+35.00
+217 Max AARONS
+90.00
+118 Bastien MEUPIYOU
+45.00
+119 Pedro LIMA
+45.00
+120 Home Others
+13.50
+220 Away Others
+14.00
+00 No First Scorer
+13.30
+HaFu
+H-H
+3.75
+H-D
+12.50
+H-A
+24.00
+D-H
+5.80
+D-D
+5.50
+D-A
+5.90
+A-H
+23.00
+A-D
+12.50
+A-A
+3.85

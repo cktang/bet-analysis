@@ -1,0 +1,639 @@
+12/11/2022
+FB4992
+Liverpool
+vs
+Southampton
+3
+:
+1
+3
+:
+1
+%Event ID: FB4992
+Liverpool
+3
+1
+Southampton
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Southampton (Away)
+1.15
+6.40
+10.00
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Southampton (Away)
+1.001
+18.00
+40.00
+First Half HAD
+Liverpool (Home)
+Draw
+Southampton (Away)
+1.45
+3.10
+8.00
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Southampton (Away)
+1.001
+50.00
+1000
+Handicap HAD
+Liverpool (Home)
+Draw
+Southampton (Away)
+[-2]
+2.50
+[-2]
+3.90
+[+2]
+2.09
+Handicap
+Liverpool (Home)
+Southampton (Away)
+[-1.5/-2]
+1.84
+[+1.5/+2]
+1.98
+Same Game All Up
+Mohamed SALAH to score first & Liverpool to win by [2] goal(s) or more & Over [11.5] corners taken
+9.50
+Darwin NUNEZ to score first & Over [4.5] goals
+15.00
+ROBERTO FIRMINO Barbosa to score first & Liverpool to win [3:0]
+30.00
+Southampton to win & Over [11.5] corners taken
+22.00
+Liverpool to score first & Southampton to win or draw
+10.00
+Southampton to score first & Liverpool to win by [2] goal(s) or more & Over [12.5] corners taken
+33.00
+Southampton to score first in the match & Liverpool to win the first half
+22.00
+Liverpool to win by [2] goal(s) or more & Over [3.5] goals & Over [11.5] corners taken
+5.00
+Southampton to win or draw & Under [2.5] goals
+7.00
+Southampton to win by [2] goal(s) or more & Over [3.5] goals
+50.00
+Liverpool to win the first half & Over [2.5] goals in the first half
+4.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+5.40
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [11.5] corners taken in the match
+3.75
+Liverpool to win [2:0] in the first half & Liverpool to win [4:1] in the match
+45.00
+Over [4.5] goals & Over [14.5] corners taken
+14.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.86
+1.84
+[3.5/4]
+2.07
+1.67
+[4.5]
+2.75
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+6.50
+1.07
+[3/3.5]
+1.87
+1.83
+[3.5]
+2.10
+1.65
+[3.5/4]
+2.07
+1.67
+[4/4.5]
+2.10
+1.65
+[4.5]
+1.66
+2.08
+[5/5.5]
+5.30
+1.11
+[5.5]
+5.10
+1.12
+[5.5/6]
+2.15
+1.62
+[6/6.5]
+2.12
+1.64
+[6.5]
+4.90
+1.13
+[7.5]
+4.75
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.81
+1.89
+[1.5/2]
+2.17
+1.61
+[2.5]
+3.55
+1.24
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+7.50
+1.05
+[1/1.5]
+1.75
+1.95
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.17
+1.61
+[2/2.5]
+1.92
+1.78
+[2.5]
+2.30
+1.54
+[2.5/3]
+1.73
+1.98
+[3/3.5]
+2.68
+1.41
+[3.5]
+3.20
+1.29
+[3.5/4]
+5.55
+1.10
+[4/4.5]
+5.30
+1.11
+[4.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.02
+1.70
+[12.5]
+2.60
+1.43
+[14.5]
+4.40
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+7.00
+1.06
+[3.5]
+1.46
+2.50
+[4.5]
+2.55
+1.45
+[5.5]
+4.40
+1.16
+[7.5]
+5.10
+1.12
+[8.5]
+5.30
+1.11
+[9.5]
+3.70
+1.22
+[10.5]
+3.10
+1.31
+[11.5]
+3.55
+1.24
+[12.5]
+3.15
+1.30
+[14.5]
+4.40
+1.16
+Correct Score
+Liverpool (Home)
+Draw
+Southampton (Away)
+1:0
+9.75
+0:0
+28.00
+0:1
+30.00
+2:0
+7.00
+1:1
+12.50
+0:2
+50.00
+2:1
+7.75
+2:2
+17.00
+1:2
+24.00
+3:0
+7.50
+3:3
+40.00
+0:3
+125.0
+3:1
+8.75
+1:3
+60.00
+3:2
+20.00
+2:3
+40.00
+4:0
+10.50
+0:4
+500.0
+4:1
+12.50
+1:4
+250.0
+4:2
+27.00
+2:4
+150.0
+5:0
+20.00
+0:5
+1000
+5:1
+21.00
+1:5
+700.0
+5:2
+40.00
+2:5
+600.0
+Home Others
+9.75
+Draw Others
+150.0
+Away Others
+125.0
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Southampton (Away)
+1:0
+18.00
+0:0
+18.00
+0:1
+27.00
+2:0
+7.60
+1:1
+14.00
+0:2
+50.00
+2:1
+7.60
+2:2
+10.50
+1:2
+18.00
+3:0
+6.20
+3:3
+600.0
+0:3
+150.0
+3:1
+1.10
+1:3
+50.00
+3:2
+15.00
+2:3
+22.00
+4:0
+7.80
+0:4
+600.0
+4:1
+7.25
+1:4
+200.0
+4:2
+100.0
+2:4
+100.0
+5:0
+12.50
+0:5
+1000
+5:1
+150.0
+1:5
+1000
+5:2
+1000
+2:5
+900.0
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Southampton (Away)
+1:0
+3.35
+0:0
+4.25
+0:1
+10.50
+2:0
+4.65
+1:1
+7.75
+0:2
+40.00
+2:1
+10.50
+2:2
+50.00
+1:2
+35.00
+3:0
+10.50
+3:3
+600.0
+0:3
+250.0
+3:1
+25.00
+1:3
+200.0
+3:2
+100.0
+2:3
+300.0
+4:0
+30.00
+0:4
+1000
+4:1
+70.00
+1:4
+900.0
+4:2
+300.0
+2:4
+1500
+5:0
+100.0
+0:5
+5000
+5:1
+250.0
+1:5
+5000
+5:2
+700.0
+2:5
+5000
+Home Others
+250.0
+Draw Others
+5000
+Away Others
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Southampton (Away)
+1:0
+3.05
+0:0
+3.36
+0:1
+9.75
+2:0
+2.75
+1:1
+2.19
+0:2
+50.00
+2:1
+1.17
+2:2
+14.60
+1:2
+7.80
+3:0
+5.50
+3:3
+600.0
+0:3
+300.0
+3:1
+1.10
+1:3
+60.00
+3:2
+17.00
+2:3
+45.00
+4:0
+18.00
+0:4
+2500
+4:1
+6.80
+1:4
+450.0
+4:2
+100.0
+2:4
+2500
+5:0
+70.00
+0:5
+2500
+5:1
+125.0
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Southampton (Away)
+1.19
+28.00
+3.85
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.22
+18.00
+3.85
+2nd Goal
+1.25
+18.00
+3.60
+3rd Goal
+1.28
+14.00
+3.50
+4th Goal
+1.39
+7.60
+3.50
+5th Goal
+7.00
+1.10
+14.50
+Total Goals
+0
+28.00
+1
+8.00
+2
+4.65
+3
+3.85
+4
+4.15
+5
+5.60
+6
+8.50
+7+
+9.25
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.55
+H-D
+19.00
+H-A
+50.00
+D-H
+4.05
+D-D
+9.50
+D-A
+22.00
+A-H
+18.00
+A-D
+19.00
+A-A
+16.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+13.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.52
+(4) Be substituted
+5.20
+(5) None of the above
+3.05
+Item No.: 2 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.12
+(2) 1 Goal
+2.40
+(3) 2 Goals
+5.00
+(4) 3 Goals or more
+9.00
+Item No.: 3 Which event will happen to Darwin NUNEZ (Liverpool) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.12
+(4) Be substituted
+2.15
+(5) None of the above
+4.80
+Item No.: 4 Which event will happen to ROBERTO FIRMINO Barbosa (Liverpool) first?
+(1) Receive a Yellow Card
+13.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+1.80
+(5) None of the above
+4.90
+Item No.: 5 Which event will happen to Che ADAMS (Southampton) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+5.00
+(4) Be substituted
+2.55
+(5) None of the above
+1.93

@@ -1,0 +1,129 @@
+{
+  "url": "https://fbref.com/en/matches/eb14e391/Fulham-Manchester-United-January-26-2025-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Manchester United",
+  "matchDate": "January 26, 2025",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 78,
+        "player": "Lisandro Martínez",
+        "playerId": "bac46a10",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 73,
+        "player": "Manuel Ugarte Ribeiro",
+        "playerId": "c9817014",
+        "team": "Manchester United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 53,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Leny Yoro",
+        "playerId": "6763f716",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Joshua Zirkzee",
+        "playerId": "028e70b9",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Rodrigo Muniz",
+        "playerId": "a755db8c",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Toby Collyer",
+        "playerId": "4f9091bc",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Kobbie Mainoo",
+        "playerId": "c6220452",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Tyrell Malacia",
+        "playerId": "6b6c793c",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Andreas Pereira",
+        "playerId": "6639e500",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

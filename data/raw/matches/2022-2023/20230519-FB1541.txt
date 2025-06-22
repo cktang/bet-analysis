@@ -1,0 +1,612 @@
+19/05/2023
+FB1541
+Newcastle
+vs
+Brighton
+2
+:
+0
+4
+:
+1
+%Event ID: FB1541
+Newcastle
+4
+1
+Brighton
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+Brighton (Away)
+1.62
+3.90
+4.00
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1.001
+100.0
+1000
+First Half HAD
+Newcastle (Home)
+Draw
+Brighton (Away)
+2.01
+2.50
+4.20
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1.01
+15.50
+150.0
+Handicap HAD
+Newcastle (Home)
+Draw
+Brighton (Away)
+[-1]
+2.63
+[-1]
+3.65
+[+1]
+2.06
+Handicap
+Newcastle (Home)
+Brighton (Away)
+[-0.5/-1]
+1.93
+[+0.5/+1]
+1.89
+Same Game All Up
+Callum WILSON to score first & Newcastle to win & Over [2.5] goals
+9.00
+Kaoru MITOMA to score first & Brighton to win & Over [2.5] goals
+28.00
+Newcastle to win & Over [3.5] goals
+3.50
+Brighton to win & Over [2.5] goals
+4.80
+Newcastle to score first in the match & Newcastle to win the first half & Over [1.5] goals in the first half
+5.00
+Brighton to score first in the match & Over [2.5] goals in the first half
+11.00
+Brighton to win the first half & Brighton to win the match by [2] goal(s) or more
+10.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [9.5] corners taken in the match
+4.80
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.90
+Newcastle to win [1:0] in the first half & Newcastle to win [2:0] in the match
+17.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+27.00
+Brighton to win [1:0] in the first half & Brighton to win [3:0] in the match
+60.00
+First half to be drawn [0:0] & Brighton to win [2:1] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Newcastle to win by [2] goal(s) or more & Over [11.5] corners taken
+7.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3/3.5]
+1.94
+1.76
+[3.5]
+2.15
+1.62
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.12
+5.10
+[2.5/3]
+1.15
+4.55
+[3/3.5]
+1.61
+2.17
+[3.5]
+1.15
+4.55
+[3.5/4]
+5.10
+1.12
+[4/4.5]
+9.50
+1.02
+[4.5]
+9.50
+1.02
+[4.5/5]
+4.55
+1.15
+[5.5]
+10.50
+1.01
+[5.5/6]
+8.50
+1.03
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.04
+1.69
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.30
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.75
+1.14
+[0.5/1]
+1.82
+1.88
+[1/1.5]
+3.05
+1.32
+[1.5]
+1.54
+2.30
+[2/2.5]
+9.50
+1.02
+[2.5]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.94
+1.76
+[11.5]
+2.43
+1.49
+[14.5]
+5.30
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+4.40
+1.16
+[7.5]
+1.44
+2.58
+[9.5]
+8.50
+1.03
+[10.5]
+4.90
+1.13
+[11.5]
+5.10
+1.12
+[12.5]
+4.90
+1.13
+[13.5]
+4.55
+1.15
+[14.5]
+4.15
+1.18
+Correct Score
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+9.25
+0:0
+18.00
+0:1
+18.00
+2:0
+9.25
+1:1
+7.75
+0:2
+23.00
+2:1
+6.90
+2:2
+11.00
+1:2
+11.50
+3:0
+13.50
+3:3
+35.00
+0:3
+40.00
+3:1
+11.50
+1:3
+27.00
+3:2
+17.00
+2:3
+27.00
+4:0
+26.00
+0:4
+100.0
+4:1
+21.00
+1:4
+60.00
+4:2
+30.00
+2:4
+60.00
+5:0
+40.00
+0:5
+400.0
+5:1
+40.00
+1:5
+200.0
+5:2
+60.00
+2:5
+200.0
+Home Others
+24.00
+Draw Others
+80.00
+Away Others
+50.00
+Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+4.60
+0:0
+12.50
+0:1
+13.00
+2:0
+4.40
+1:1
+7.40
+0:2
+26.00
+2:1
+1.23
+2:2
+7.60
+1:2
+24.00
+3:0
+3.42
+3:3
+125.0
+0:3
+90.00
+3:1
+1.26
+1:3
+125.0
+3:2
+7.65
+2:3
+151.0
+4:0
+6.30
+0:4
+400.0
+4:1
+1.13
+1:4
+800.0
+4:2
+11.50
+2:4
+1000
+5:0
+18.00
+0:5
+1000
+5:1
+7.00
+1:5
+1000
+5:2
+100.0
+2:5
+1000
+Home Others
+125.0
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+3.95
+0:0
+3.45
+0:1
+6.50
+2:0
+7.00
+1:1
+6.40
+0:2
+18.00
+2:1
+11.00
+2:2
+40.00
+1:2
+18.00
+3:0
+21.00
+3:3
+500.0
+0:3
+80.00
+3:1
+40.00
+1:3
+80.00
+3:2
+100.0
+2:3
+150.0
+4:0
+80.00
+0:4
+500.0
+4:1
+125.0
+1:4
+500.0
+4:2
+500.0
+2:4
+700.0
+5:0
+400.0
+0:5
+2000
+5:1
+600.0
+1:5
+2000
+5:2
+1000
+2:5
+3000
+Home Others
+700.0
+Draw Others
+5000
+Away Others
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+1.13
+0:0
+2.00
+0:1
+6.50
+2:0
+6.60
+1:1
+15.50
+0:2
+40.00
+2:1
+100.0
+2:2
+2500
+1:2
+151.0
+3:0
+125.0
+3:3
+2500
+0:3
+250.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Newcastle (Home)
+No Goals
+Brighton (Away)
+1.48
+18.00
+2.45
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.41
+12.50
+2.86
+2nd Goal
+1.57
+5.90
+3.04
+3rd Goal
+1.69
+4.40
+3.16
+4th Goal
+5.00
+1.23
+8.00
+5th Goal
+4.80
+1.26
+7.40
+6th Goal
+6.90
+1.13
+11.00
+Total Goals
+0
+18.00
+1
+6.50
+2
+4.05
+3
+3.70
+4
+4.35
+5
+6.40
+6
+11.00
+7+
+14.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+2.43
+H-D
+13.50
+H-A
+28.00
+D-H
+4.65
+D-D
+6.70
+D-A
+9.50
+A-H
+18.00
+A-D
+13.50
+A-A
+6.40
+Specials
+Item No.: 1 Which event will happen to Callum WILSON (Newcastle) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+1.52
+(5) None of the above
+14.00
+Item No.: 2 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.50
+(4) Be substituted
+2.67
+(5) None of the above
+2.95
+Item No.: 3 Which event will happen to JOELINTON Cassio (Newcastle) first?
+(1) Receive a Yellow Card
+2.95
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+5.00
+(5) None of the above
+2.07
+Item No.: 4 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.25
+(4) Be substituted
+2.10
+(5) None of the above
+2.30
+Item No.: 5 Which event will happen to Alexis MAC ALLISTER (Brighton) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+2.30
+(5) None of the above
+2.75

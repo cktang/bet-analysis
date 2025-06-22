@@ -1,0 +1,174 @@
+{
+  "url": "https://fbref.com/en/matches/8fa951f9/Tottenham-Hotspur-Aston-Villa-November-3-2024-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Aston Villa",
+  "matchDate": "November 3, 2024",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 32,
+        "player": "Morgan Rogers",
+        "playerId": "2e5915f1",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 49,
+        "player": "Brennan Johnson",
+        "playerId": "0cd31129",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Son Heung-min"
+      },
+      {
+        "minute": 75,
+        "player": "Dominic Solanke",
+        "playerId": "e77dc3b2",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Dejan Kulusevski"
+      },
+      {
+        "minute": 79,
+        "player": "Dominic Solanke",
+        "playerId": "e77dc3b2",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Richarlison"
+      },
+      {
+        "minute": 96,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 54,
+        "player": "Pedro Porro",
+        "playerId": "27d0a506",
+        "team": "Tottenham Hotspur"
+      },
+      {
+        "minute": 58,
+        "player": "Cristian Romero",
+        "playerId": "a3d94a58",
+        "team": "Tottenham Hotspur"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "player": "Yves Bissouma",
+        "playerId": "6c203af0",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Richarlison",
+        "playerId": "fa031b34",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Diego Carlos",
+        "playerId": "b4a014b1",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Ben Davies",
+        "playerId": "44781702",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Jaden Philogene Bidace",
+        "playerId": "19f4d211",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Boubacar Kamara",
+        "playerId": "cc77354e",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Archie Gray",
+        "playerId": "f58515f5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

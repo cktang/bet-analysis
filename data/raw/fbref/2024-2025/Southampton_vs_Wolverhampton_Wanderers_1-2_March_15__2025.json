@@ -1,0 +1,145 @@
+{
+  "url": "https://fbref.com/en/matches/eea61e7f/Southampton-Wolverhampton-Wanderers-March-15-2025-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "March 15, 2025",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 19,
+        "player": "Jørgen Strand Larsen",
+        "playerId": "f553b2b3",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Jean-Ricner Bellegarde"
+      },
+      {
+        "minute": 47,
+        "player": "Jørgen Strand Larsen",
+        "playerId": "f553b2b3",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Jean-Ricner Bellegarde"
+      },
+      {
+        "minute": 75,
+        "player": "Paul Onuachu",
+        "playerId": "c06d1086",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Paul Onuachu",
+        "playerId": "c06d1086",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Pablo Sarabia",
+        "playerId": "9744ff80",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Gonçalo Guedes",
+        "playerId": "e6bc67d7",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Santiago Bueno",
+        "playerId": "edc98fac",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Albert Grønbaek",
+        "playerId": "0da5076f",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Nasser Djiga",
+        "playerId": "1a7a4d84",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Tommy Doyle",
+        "playerId": "5526deb1",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Jack Stephens",
+        "playerId": "6adbc307",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

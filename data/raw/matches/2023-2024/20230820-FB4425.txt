@@ -1,0 +1,399 @@
+20/08/2023
+FB4425
+Tottenham
+vs
+Manchester
+Utd
+0
+:
+0
+2
+:
+0
+%Event ID: FB4425
+Tottenham
+2
+0
+Manchester Utd
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Manchester Utd (Away)
+2.84
+3.55
+2.04
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester Utd (Away)
+1.001
+19.00
+100.0
+First Half HAD
+Tottenham (Home)
+Draw
+Manchester Utd (Away)
+3.20
+2.38
+2.48
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Manchester Utd (Away)
+10.00
+1.13
+6.10
+Handicap HAD
+Tottenham (Home)
+Draw
+Manchester Utd (Away)
+[+1]
+1.64
+[+1]
+4.00
+[-1]
+3.60
+Handicap
+Tottenham (Home)
+Manchester Utd (Away)
+[0/+0.5]
+1.91
+[0/-0.5]
+1.91
+Same Game All Up
+Manchester Utd to win & Over [2.5] goals & Over [10.5] corners taken
+5.00
+The match to be drawn & Under [8.5] corners taken
+11.00
+Tottenham to win & Over [3.5] goals
+6.50
+Manchester Utd to win & Tottenham to score first & Over [11.5] corners taken
+20.00
+Manchester Utd to score first & Tottenham to win or draw
+4.90
+Manchester Utd to win the first half & Manchester Utd to win the match by [2] goal(s) or more
+5.60
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+8.75
+Tottenham to win the first half & Over [1.5] goals in the first half
+6.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+13.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.00
+Tottenham to win by [2] goal(s) or more & Under [10.5] corners taken
+10.00
+First Half to be drawn and Manchester Utd to win the match & Over [11.5] corners taken in the match
+12.00
+Manchester Utd to win both first half and the match & Exactly [4] goals in the Match
+17.00
+Tottenham to win both first half and the match & Exactly [3] goals in the Match
+13.00
+Exactly [5] goals & Over [12.5] corners taken
+21.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.44
+2.58
+[3/3.5]
+1.90
+1.80
+[3.5]
+2.12
+1.64
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+6.50
+1.07
+[1.5]
+1.12
+5.10
+[1.5/2]
+2.48
+1.47
+[2/2.5]
+5.10
+1.12
+[2.5]
+5.55
+1.10
+[3/3.5]
+11.50
+1.002
+[3.5]
+10.50
+1.01
+[4.5]
+4.05
+1.19
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.98
+1.73
+[1.5/2]
+2.40
+1.50
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.55
+1.10
+[1/1.5]
+10.50
+1.01
+[1.5]
+10.50
+1.01
+[1.5/2]
+2.40
+1.50
+[2.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.70
+2.02
+[11.5]
+2.07
+1.67
+[14.5]
+4.30
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[11.5]
+4.30
+1.17
+[9.5]
+1.41
+2.68
+[10.5]
+1.41
+2.68
+[12.5]
+8.50
+1.03
+[13.5]
+4.90
+1.13
+[14.5]
+5.30
+1.11
+[15.5]
+5.30
+1.11
+[16.5]
+3.80
+1.21
+First Team to Score
+Tottenham (Home)
+No Goals
+Manchester Utd (Away)
+2.03
+18.00
+1.70
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Manchester Utd (Away)
+1st Goal
+2.62
+4.45
+1.90
+2nd Goal
+4.15
+1.68
+3.34
+3rd Goal
+9.25
+1.13
+7.80
+Total Goals
+0
+18.00
+1
+6.40
+2
+4.05
+3
+3.75
+4
+4.35
+5
+6.40
+6
+11.00
+7+
+13.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Tottenham (Home)
+Manchester Utd (Away)
+101 SON Heung Min
+5.20
+201 Marcus RASHFORD
+4.35
+102 RICHARLISON de Andrade
+7.00
+202 Anthony MARTIAL
+6.30
+103 Manor SOLOMON
+8.75
+203 Bruno Borges FERNANDES
+7.25
+104 Dejan KULUSEVSKI
+9.75
+204 ANTONY Matheus dos Santos
+7.75
+105 James MADDISON
+11.50
+205 Jadon SANCHO
+8.25
+106 Ivan PERISIC
+14.50
+206 Alejandro GARNACHO
+8.75
+107 Pedro PORRO
+18.00
+207 Carlos CASEMIRO
+16.00
+108 Yves BISSOUMA
+19.00
+208 Mason MOUNT
+17.00
+109 Pierre HOJBJERG
+25.00
+209 Christian ERIKSEN
+21.00
+110 Cristian ROMERO
+30.00
+210 Harry MAGUIRE
+27.00
+111 Ben DAVIES
+40.00
+211 Raphael VARANE
+30.00
+112 Davinson SANCHEZ
+40.00
+212 Diogo DALOT
+35.00
+113 EMERSON Aparecido
+40.00
+213 Lisandro MARTINEZ
+40.00
+114 Micky VAN DE VEN
+40.00
+214 Aaron WAN-BISSAKA
+60.00
+115 Oliver SKIPP
+40.00
+215 Luke SHAW
+60.00
+116 Destiny UDOGIE
+45.00
+120 Home Others
+12.50
+220 Away Others
+14.50
+00 No First Scorer
+17.80
+HaFu
+H-H
+4.30
+H-D
+12.50
+H-A
+19.00
+D-H
+7.00
+D-D
+6.30
+D-A
+5.50
+A-H
+23.00
+A-D
+12.50
+A-A
+3.25
+Specials
+Item No.: 1 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+2.55
+(5) None of the above
+3.05
+Item No.: 2 Which event will happen to RICHARLISON de Andrade (Tottenham) first?
+(1) Receive a Yellow Card
+4.80
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.35
+(4) Be substituted
+2.85
+(5) None of the above
+2.55
+Item No.: 3 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+3.60
+(5) None of the above
+2.55
+Item No.: 4 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+3.40
+(2) Receive a Red Card
+90.00
+(3) Score a Goal
+3.50
+(4) Be substituted
+8.00
+(5) None of the above
+1.84
+Item No.: 5 Which event will happen to ANTONY Matheus dos Santos (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+1.54
+(5) None of the above
+5.30

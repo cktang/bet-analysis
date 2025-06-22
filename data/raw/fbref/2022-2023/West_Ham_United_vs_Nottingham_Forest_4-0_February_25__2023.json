@@ -1,0 +1,146 @@
+{
+  "url": "https://fbref.com/en/matches/767981c6/West-Ham-United-Nottingham-Forest-February-25-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "February 25, 2023",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 70,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      },
+      {
+        "minute": 73,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Saïd Benrahma"
+      },
+      {
+        "minute": 78,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Saïd Benrahma"
+      },
+      {
+        "minute": 85,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Pablo Fornals"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "André Ayew",
+        "playerId": "5dbefa9d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Alphonse Areola",
+        "playerId": "2f965a72",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Harry Toffolo",
+        "playerId": "a105d46a",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jesse Lingard",
+        "playerId": "810e3c74",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Manuel Lanzini",
+        "playerId": "26f6dca8",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Sam Surridge",
+        "playerId": "b017b770",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

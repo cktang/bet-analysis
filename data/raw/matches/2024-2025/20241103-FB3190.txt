@@ -1,0 +1,870 @@
+03/11/2024
+FB3190
+Tottenham
+vs
+Aston
+Villa
+0
+:
+1
+4
+:
+1
+%Event ID: FB3190
+Tottenham
+4
+1
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1.74
+3.90
+3.35
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1.001
+35.00
+400.0
+First Half HAD
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+2.13
+2.55
+3.60
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1000
+12.00
+1.005
+Handicap HAD
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+[-1]
+2.90
+[-1]
+3.85
+[+1]
+1.87
+Handicap HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+[-4]
+125.0
+[-4]
+5.50
+[+4]
+1.05
+[-1]
+1.04
+[-1]
+5.90
+[+1]
+125.0
+[-2]
+3.32
+[-2]
+1.61
+[+2]
+4.60
+[-3]
+7.45
+[-3]
+1.14
+[+3]
+7.80
+Handicap
+Tottenham (Home)
+Aston Villa (Away)
+[-0.5/-1]
+2.11
+[+0.5/+1]
+1.74
+Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Aston Villa (Away)
+[-3]
+1.77
+[+3]
+1.96
+[-2]
+1.001
+[+2]
+250.0
+[0/-0.5]
+1.02
+[0/+0.5]
+10.00
+[-1/-1.5]
+1.04
+[+1/+1.5]
+8.50
+[0/+0.5]
+1.21
+[0/-0.5]
+3.95
+[-1]
+1.57
+[+1]
+2.27
+[-0.5/-1]
+2.15
+[+0.5/+1]
+1.64
+[-2/-2.5]
+3.48
+[+2/+2.5]
+1.27
+Same Game All Up
+SON Heung Min to score first & Both teams to score & Over [11.5] corners taken
+19.00
+Dominic SOLANKE to score first in the match & Over [1.5] goals in the first half & Tottenham to win the match
+16.00
+Ollie WATKINS to score first & Aston Villa to win
+14.00
+Both teams to score & Tottenham to win & Over [13.5] corners taken
+6.90
+Tottenham to win & Over [3.5] goals & Over [12.5] corners taken
+6.90
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Tottenham to win the match by [2] goal(s) or more
+6.90
+Both teams to score & Aston Villa to win & Under [12.5] corners taken
+8.75
+Aston Villa to score first & Tottenham to win by [2] goal(s) or more
+17.00
+Tottenham to win the first half & Over [2.5] goals in the first half & Over [13.5] corners taken in the match
+16.00
+Over [7.5] corners taken in the first half & Over [15.5] corners taken in the match
+5.50
+Under [3.5] corners taken in the first half & Under [9.5] corners taken in the match
+6.50
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [13.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [11.5] corners taken in the match
+4.60
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+9.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:1] in the match
+25.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:0] in the match
+40.00
+Tottenham to win [2:0] in the first half & Tottenham to win [4:0] in the match
+60.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Aston Villa to win [1:0] in the first half & Aston Villa to win [2:1] in the match
+35.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.80
+1.90
+[3.5]
+2.01
+1.71
+[4.5]
+3.20
+1.29
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.18
+4.05
+[2.5]
+1.14
+4.60
+[2.5/3]
+2.00
+1.72
+[3/3.5]
+3.65
+1.23
+[3.5]
+1.70
+2.02
+[3.5/4]
+2.27
+1.56
+[4/4.5]
+4.60
+1.14
+[4.5]
+1.86
+1.84
+[4.5/5]
+5.60
+1.09
+[5/5.5]
+11.50
+1.002
+[5.5]
+12.00
+1.001
+[5.5/6]
+6.25
+1.07
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.93
+1.77
+[1.5/2]
+2.30
+1.54
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.48
+1.47
+[1/1.5]
+4.60
+1.14
+[1.5]
+6.25
+1.07
+[1.5/2]
+5.90
+1.08
+[2/2.5]
+12.00
+1.001
+[2.5]
+9.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[12.5]
+2.04
+1.69
+[13.5]
+2.45
+1.48
+[16.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.25
+3.45
+[10.5]
+1.39
+2.70
+[11.5]
+4.40
+1.15
+[12.5]
+10.50
+1.01
+[13.5]
+12.00
+1.001
+[14.5]
+5.40
+1.10
+[15.5]
+4.60
+1.14
+[16.5]
+4.15
+1.17
+[17.5]
+3.55
+1.24
+[18.5]
+3.35
+1.27
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.77
+1.93
+[6.5]
+2.38
+1.51
+[8.5]
+4.60
+1.14
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.23
+3.65
+[4.5]
+1.09
+5.60
+[5.5]
+1.05
+7.00
+[6.5]
+1.17
+4.15
+[7.5]
+1.19
+3.95
+[8.5]
+4.95
+1.12
+[9.5]
+9.50
+1.02
+Correct Score
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1:0
+11.50
+0:0
+21.00
+0:1
+17.00
+2:0
+11.50
+1:1
+8.00
+0:2
+21.00
+2:1
+7.50
+2:2
+10.00
+1:2
+11.50
+3:0
+17.00
+3:3
+30.00
+0:3
+40.00
+3:1
+11.50
+1:3
+21.00
+3:2
+15.00
+2:3
+21.00
+4:0
+35.00
+0:4
+70.00
+4:1
+21.00
+1:4
+40.00
+4:2
+30.00
+2:4
+40.00
+5:0
+50.00
+0:5
+250.0
+5:1
+40.00
+1:5
+125.0
+5:2
+50.00
+2:5
+125.0
+Home Others
+(Away No Goal)
+100.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+21.00
+Draw Others
+60.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1:0
+5.20
+0:0
+8.25
+0:1
+5.20
+2:0
+7.40
+1:1
+2.06
+0:2
+6.90
+2:1
+1.62
+2:2
+5.80
+1:2
+6.00
+3:0
+15.50
+3:3
+150.0
+0:3
+22.00
+3:1
+1.17
+1:3
+40.00
+3:2
+7.60
+2:3
+27.00
+4:0
+45.00
+0:4
+100.0
+4:1
+1.06
+1:4
+400.0
+4:2
+13.00
+2:4
+250.0
+5:0
+150.0
+0:5
+700.0
+5:1
+12.00
+1:5
+1000
+5:2
+125.0
+2:5
+1000
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+200.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1:0
+4.35
+0:0
+3.80
+0:1
+6.10
+2:0
+7.50
+1:1
+6.10
+0:2
+14.00
+2:1
+10.00
+2:2
+30.00
+1:2
+14.50
+3:0
+22.00
+3:3
+400.0
+0:3
+60.00
+3:1
+35.00
+1:3
+60.00
+3:2
+80.00
+2:3
+125.0
+4:0
+80.00
+0:4
+300.0
+4:1
+125.0
+1:4
+400.0
+4:2
+400.0
+2:4
+600.0
+5:0
+500.0
+0:5
+1000
+5:1
+600.0
+1:5
+1000
+5:2
+900.0
+2:5
+2000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Aston Villa (Away)
+1:0
+3.60
+0:0
+1.56
+0:1
+1.01
+2:0
+19.00
+1:1
+12.10
+0:2
+40.00
+2:1
+450.0
+2:2
+2500
+1:2
+300.0
+3:0
+125.0
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+1500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Aston Villa (Away)
+1.56
+21.00
+2.22
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+1.65
+8.25
+2.43
+2nd Goal
+1.65
+5.20
+2.92
+3rd Goal
+2.43
+2.06
+4.10
+4th Goal
+2.97
+1.80
+4.05
+5th Goal
+6.70
+1.17
+7.40
+6th Goal
+11.50
+1.06
+12.50
+Total Goals
+0
+21.00
+1
+7.00
+2
+4.30
+3
+3.85
+4
+4.15
+5
+6.00
+6
+9.25
+7+
+10.00
+Total Goals- Last Odds for In Play Betting
+0
+8.25
+1
+5.20
+2
+2.06
+3
+1.62
+4
+1.17
+5
+1.08
+6
+4.80
+7+
+60.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Tottenham (Home)
+Aston Villa (Away)
+101 Dominic SOLANKE
+5.10
+201 Ollie WATKINS
+6.30
+102 RICHARLISON de Andrade
+5.40
+202 Jhon DURAN
+6.40
+103 Brennan JOHNSON
+6.10
+203 Morgan ROGERS
+7.75
+104 SON Heung Min
+6.40
+204 Jacob RAMSEY
+10.50
+105 Mikey MOORE
+7.25
+205 Leon BAILEY
+10.50
+106 Wilson ODOBERT
+7.50
+206 Jaden PHILOGENE
+11.50
+107 Timo WERNER
+8.00
+207 Emiliano BUENDIA
+15.00
+108 Dejan KULUSEVSKI
+11.00
+208 John McGINN
+17.00
+109 James MADDISON
+14.50
+209 Amadou ONANA
+18.00
+110 Lucas BERGVALL
+14.50
+210 Ross BARKLEY
+19.00
+111 Pape Matar SARR
+15.00
+211 Youri TIELEMANS
+22.00
+112 Rodrigo BENTANCUR
+16.00
+212 Boubacar KAMARA
+30.00
+113 Pedro PORRO
+18.00
+213 Ian MAATSEN
+45.00
+114 Cristian ROMERO
+21.00
+214 Matty CASH
+50.00
+115 Yves BISSOUMA
+25.00
+215 Tyrone MINGS
+55.00
+116 Radu DRAGUSIN
+29.00
+216 DIEGO CARLOS Santos Silva
+65.00
+117 Archie GRAY
+30.00
+217 Ezri KONSA
+65.00
+118 Ben DAVIES
+35.00
+218 Kosta NEDELJKOVIC
+70.00
+119 Destiny UDOGIE
+35.00
+219 Lucas DIGNE
+70.00
+120 Home Others
+11.50
+220 Away Others
+16.00
+00 No First Scorer
+20.80
+HaFu
+H-H
+2.64
+H-D
+12.50
+H-A
+27.00
+D-H
+4.90
+D-D
+7.00
+D-A
+8.25
+A-H
+18.00
+A-D
+12.50
+A-A
+5.10
+Specials
+Item No.: 1 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+8.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.80
+(4) Be substituted
+2.45
+(5) None of the above
+2.55
+Item No.: 2 Which event will happen to Dominic SOLANKE (Tottenham) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.75
+(4) Be substituted
+2.22
+(5) None of the above
+3.00
+Item No.: 3 Which event will happen to James MADDISON (Tottenham) first?
+(1) Receive a Yellow Card
+4.60
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+1.65
+(5) None of the above
+4.65
+Item No.: 4 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+2.00
+(5) None of the above
+3.85
+Item No.: 5 Which event will happen to Morgan ROGERS (Aston Villa) first?
+(1) Receive a Yellow Card
+4.10
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+2.75
+(5) None of the above
+2.30

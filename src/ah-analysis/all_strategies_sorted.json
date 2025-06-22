@@ -1,0 +1,1519 @@
+[
+  {
+    "name": "Single_awayGoalDiff",
+    "factors": [
+      "timeSeries.away.cumulative.overall.goalDifference || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team cumulative goal difference predicts AH outcomes",
+    "homeCorrelation": 0.1048772391386191,
+    "awayCorrelation": -0.11350918551665548,
+    "correlation": 0.11350918551665548,
+    "profitability": 0.17725225225225225,
+    "accuracy": 0.5855855855855856,
+    "avgProfitPerBet": 17.725225225225227,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 130,
+      "totalReturn": 3935,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.5855855855855856,
+      "profitability": 0.17725225225225225,
+      "avgProfitPerBet": 17.725225225225227,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "European_Pressure",
+    "factors": [
+      "(timeSeries.home.leaguePosition || 20) <= 6 ? 1 : 0",
+      "(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0"
+    ],
+    "type": "stakes_analysis",
+    "hypothesis": "European spot battles create extra motivation affecting performance",
+    "homeCorrelation": 0.053399802104324955,
+    "awayCorrelation": -0.06390226025815861,
+    "correlation": 0.06390226025815861,
+    "profitability": 0.1556081081081081,
+    "accuracy": 0.5765765765765766,
+    "avgProfitPerBet": 15.56081081081081,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 128,
+      "totalReturn": 3454.5,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.5765765765765766,
+      "profitability": 0.1556081081081081,
+      "avgProfitPerBet": 15.56081081081081,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Single_homeFormLength",
+    "factors": [
+      "timeSeries.home.streaks.overall.form.length || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Home team form sample size predicts AH outcomes",
+    "homeCorrelation": 0.057701425634487886,
+    "awayCorrelation": -0.06996950226022554,
+    "correlation": 0.06996950226022554,
+    "profitability": 0.15037162162162163,
+    "accuracy": 0.581081081081081,
+    "avgProfitPerBet": 15.037162162162161,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 86,
+      "totalReturn": 2225.5,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.581081081081081,
+      "profitability": 0.15037162162162163,
+      "avgProfitPerBet": 15.037162162162161,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayTopSix",
+    "factors": [
+      "(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team in top 6 positions (European spots) predicts AH outcomes",
+    "homeCorrelation": 0.11133970420946901,
+    "awayCorrelation": -0.11878161051293978,
+    "correlation": 0.11878161051293978,
+    "profitability": 0.14775537634408603,
+    "accuracy": 0.5779569892473119,
+    "avgProfitPerBet": 14.775537634408602,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 215,
+      "totalReturn": 5496.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.5779569892473119,
+      "profitability": 0.14775537634408603,
+      "avgProfitPerBet": 14.775537634408602,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayFormLength",
+    "factors": [
+      "timeSeries.away.streaks.overall.form.length || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team form sample size predicts AH outcomes",
+    "homeCorrelation": 0.05332742630743947,
+    "awayCorrelation": -0.06549948895439443,
+    "correlation": 0.06549948895439443,
+    "profitability": 0.14175675675675675,
+    "accuracy": 0.5743243243243243,
+    "avgProfitPerBet": 14.175675675675675,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 85,
+      "totalReturn": 2098,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.5743243243243243,
+      "profitability": 0.14175675675675675,
+      "avgProfitPerBet": 14.175675675675675,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Adaptive_Ratio_Adaptive_Single_topSixBattle_Plus_fbref_awayXG",
+    "factors": [
+      "(((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0) / (fbref.awayXG)"
+    ],
+    "type": "adaptive_ratio",
+    "hypothesis": "Ratio of successful factors in Adaptive_Single_topSixBattle_Plus_fbref_awayXG",
+    "homeCorrelation": 0.1276058435736612,
+    "awayCorrelation": -0.13412696093955218,
+    "correlation": 0.13412696093955218,
+    "profitability": 0.13192567567567567,
+    "accuracy": 0.5675675675675675,
+    "avgProfitPerBet": 13.192567567567568,
+    "sampleSize": 1125,
+    "validSamples": 744,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 84,
+      "totalReturn": 1952.5,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.5675675675675675,
+      "profitability": 0.13192567567567567,
+      "avgProfitPerBet": 13.192567567567568,
+      "selectionRate": 19.892473118279568,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Single_topSixBattle",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Both teams competing for European spots predicts AH outcomes",
+    "homeCorrelation": 0.09913473926774392,
+    "awayCorrelation": -0.10967284603307703,
+    "correlation": 0.10967284603307703,
+    "profitability": 0.12118279569892473,
+    "accuracy": 0.5618279569892473,
+    "avgProfitPerBet": 12.118279569892474,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 209,
+      "totalReturn": 4508,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.5618279569892473,
+      "profitability": 0.12118279569892473,
+      "avgProfitPerBet": 12.118279569892474,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayWinStreak",
+    "factors": [
+      "timeSeries.away.streaks.overall.longest.win || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team longest win streak this season predicts AH outcomes",
+    "homeCorrelation": 0.09416282290048238,
+    "awayCorrelation": -0.10389709796724741,
+    "correlation": 0.10389709796724741,
+    "profitability": 0.1158736559139785,
+    "accuracy": 0.5618279569892473,
+    "avgProfitPerBet": 11.58736559139785,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 209,
+      "totalReturn": 4310.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.5618279569892473,
+      "profitability": 0.1158736559139785,
+      "avgProfitPerBet": 11.58736559139785,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_combinedOverRate",
+    "factors": [
+      "((timeSeries.home.cumulative.markets.overRate || 0) + (timeSeries.away.cumulative.markets.overRate || 0)) / 2"
+    ],
+    "type": "single",
+    "hypothesis": "Combined team over rate predicts AH outcomes",
+    "homeCorrelation": 0.07467833707122329,
+    "awayCorrelation": -0.0838475635341216,
+    "correlation": 0.0838475635341216,
+    "profitability": 0.10536036036036037,
+    "accuracy": 0.5540540540540541,
+    "avgProfitPerBet": 10.536036036036036,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 123,
+      "totalReturn": 2339,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.5540540540540541,
+      "profitability": 0.10536036036036037,
+      "avgProfitPerBet": 10.536036036036036,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Over_Under_Patterns",
+    "factors": [
+      "timeSeries.home.cumulative.markets.overRate || 0",
+      "timeSeries.away.cumulative.markets.overRate || 0"
+    ],
+    "type": "scoring_pattern",
+    "hypothesis": "Goal-scoring patterns correlate with Asian Handicap margins",
+    "homeCorrelation": 0.07467833707122329,
+    "awayCorrelation": -0.0838475635341216,
+    "correlation": 0.0838475635341216,
+    "profitability": 0.10536036036036037,
+    "accuracy": 0.5540540540540541,
+    "avgProfitPerBet": 10.536036036036036,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 123,
+      "totalReturn": 2339,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.5540540540540541,
+      "profitability": 0.10536036036036037,
+      "avgProfitPerBet": 10.536036036036036,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Single_relegationPressure",
+    "factors": [
+      "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))"
+    ],
+    "type": "single",
+    "hypothesis": "Combined relegation pressure (higher = more pressure) predicts AH outcomes",
+    "homeCorrelation": 0.0757016193366282,
+    "awayCorrelation": -0.09228067030441268,
+    "correlation": 0.09228067030441268,
+    "profitability": 0.08905405405405406,
+    "accuracy": 0.5540540540540541,
+    "avgProfitPerBet": 8.905405405405405,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 82,
+      "totalReturn": 1318,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.5540540540540541,
+      "profitability": 0.08905405405405406,
+      "avgProfitPerBet": 8.905405405405405,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Single_homeWinOdds",
+    "factors": [
+      "match.homeWinOdds"
+    ],
+    "type": "single",
+    "hypothesis": "1X2 home win odds predicts AH outcomes",
+    "homeCorrelation": 0.04908791806578478,
+    "awayCorrelation": -0.042275028643999214,
+    "correlation": 0.04908791806578478,
+    "profitability": 0.08694940476190476,
+    "accuracy": 0.5267857142857143,
+    "avgProfitPerBet": 8.694940476190476,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 336,
+      "correctPicks": 177,
+      "totalReturn": 2921.5,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 168,
+      "awayPicks": 168,
+      "accuracy": 0.5267857142857143,
+      "profitability": 0.08694940476190476,
+      "avgProfitPerBet": 8.694940476190476,
+      "selectionRate": 29.86666666666667,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayOverRate",
+    "factors": [
+      "timeSeries.away.cumulative.markets.overRate || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team over 2.5 goals rate predicts AH outcomes",
+    "homeCorrelation": 0.07308846634373256,
+    "awayCorrelation": -0.08084628602267238,
+    "correlation": 0.08084628602267238,
+    "profitability": 0.07549731182795699,
+    "accuracy": 0.5295698924731183,
+    "avgProfitPerBet": 7.549731182795699,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 197,
+      "totalReturn": 2808.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.5295698924731183,
+      "profitability": 0.07549731182795699,
+      "avgProfitPerBet": 7.549731182795699,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Win_Odds_Ratio",
+    "factors": [
+      "match.homeWinOdds / match.awayWinOdds"
+    ],
+    "type": "single",
+    "hypothesis": "Home vs away win odds ratio indicates market sentiment",
+    "homeCorrelation": 0.047678951417462895,
+    "awayCorrelation": -0.040141294791665914,
+    "correlation": 0.047678951417462895,
+    "profitability": 0.07254464285714286,
+    "accuracy": 0.5178571428571429,
+    "avgProfitPerBet": 7.254464285714286,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 336,
+      "correctPicks": 174,
+      "totalReturn": 2437.5,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 168,
+      "awayPicks": 168,
+      "accuracy": 0.5178571428571429,
+      "profitability": 0.07254464285714286,
+      "avgProfitPerBet": 7.254464285714286,
+      "selectionRate": 29.86666666666667,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Relegation_Desperation_Index",
+    "factors": [
+      "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))",
+      "fbref.week"
+    ],
+    "type": "survival_pressure",
+    "hypothesis": "Relegation pressure intensifies throughout season affecting handicap performance",
+    "homeCorrelation": 0.06794295933315204,
+    "awayCorrelation": -0.08120419677233612,
+    "correlation": 0.08120419677233612,
+    "profitability": 0.07037162162162162,
+    "accuracy": 0.5337837837837838,
+    "avgProfitPerBet": 7.037162162162162,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 79,
+      "totalReturn": 1041.5,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.5337837837837838,
+      "profitability": 0.07037162162162162,
+      "avgProfitPerBet": 7.037162162162162,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Goal_Difference_Momentum",
+    "factors": [
+      "timeSeries.home.cumulative.overall.goalDifference || 0",
+      "timeSeries.away.cumulative.overall.goalDifference || 0"
+    ],
+    "type": "performance_trend",
+    "hypothesis": "Season goal difference momentum affects handicap performance",
+    "homeCorrelation": 0.05865945626960583,
+    "awayCorrelation": -0.06759739885725698,
+    "correlation": 0.06759739885725698,
+    "profitability": 0.06045964125560538,
+    "accuracy": 0.5358744394618834,
+    "avgProfitPerBet": 6.0459641255605385,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 239,
+      "totalReturn": 2696.5,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.5358744394618834,
+      "profitability": 0.06045964125560538,
+      "avgProfitPerBet": 6.0459641255605385,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Single_underperformingTeam",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) > 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Team in lower half but market still favors them predicts AH outcomes",
+    "homeCorrelation": 0.05315002485800575,
+    "awayCorrelation": -0.03950008389055615,
+    "correlation": 0.05315002485800575,
+    "profitability": 0.05126344086021505,
+    "accuracy": 0.5188172043010753,
+    "avgProfitPerBet": 5.126344086021505,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 193,
+      "totalReturn": 1907,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.5188172043010753,
+      "profitability": 0.05126344086021505,
+      "avgProfitPerBet": 5.126344086021505,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Season_Fatigue",
+    "factors": [
+      "fbref.week"
+    ],
+    "type": "single",
+    "hypothesis": "Late season matches have different patterns due to fatigue",
+    "homeCorrelation": null,
+    "awayCorrelation": null,
+    "correlation": null,
+    "profitability": 0.02056547619047619,
+    "accuracy": 0.5059523809523809,
+    "avgProfitPerBet": 2.056547619047619,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 336,
+      "correctPicks": 170,
+      "totalReturn": 691,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 168,
+      "awayPicks": 168,
+      "accuracy": 0.5059523809523809,
+      "profitability": 0.02056547619047619,
+      "avgProfitPerBet": 2.056547619047619,
+      "selectionRate": 29.86666666666667,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Single_weekInSeason",
+    "factors": [
+      "fbref.week"
+    ],
+    "type": "single",
+    "hypothesis": "Week number in the season (fatigue/form effects) predicts AH outcomes",
+    "homeCorrelation": null,
+    "awayCorrelation": null,
+    "correlation": null,
+    "profitability": 0.02056547619047619,
+    "accuracy": 0.5059523809523809,
+    "avgProfitPerBet": 2.056547619047619,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 336,
+      "correctPicks": 170,
+      "totalReturn": 691,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 168,
+      "awayPicks": 168,
+      "accuracy": 0.5059523809523809,
+      "profitability": 0.02056547619047619,
+      "avgProfitPerBet": 2.056547619047619,
+      "selectionRate": 29.86666666666667,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Streak_Length_Disparity",
+    "factors": [
+      "Math.abs((timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0))"
+    ],
+    "type": "momentum_contrast",
+    "hypothesis": "Large differences in current streak lengths indicate value opportunities",
+    "homeCorrelation": -0.056830111313803285,
+    "awayCorrelation": 0.05527072961463944,
+    "correlation": 0.056830111313803285,
+    "profitability": 0.001574074074074074,
+    "accuracy": 0.5,
+    "avgProfitPerBet": 0.1574074074074074,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 216,
+      "correctPicks": 108,
+      "totalReturn": 34,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 108,
+      "awayPicks": 108,
+      "accuracy": 0.5,
+      "profitability": 0.001574074074074074,
+      "avgProfitPerBet": 0.1574074074074074,
+      "selectionRate": 29.75206611570248,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Single_homeVenueStreak",
+    "factors": [
+      "timeSeries.home.streaks.venue.current.count || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Home team current venue streak predicts AH outcomes",
+    "homeCorrelation": -0.04148739800733608,
+    "awayCorrelation": 0.051361457482452584,
+    "correlation": 0.051361457482452584,
+    "profitability": -0.0022413793103448275,
+    "accuracy": 0.4827586206896552,
+    "avgProfitPerBet": -0.22413793103448276,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 290,
+      "correctPicks": 140,
+      "totalReturn": -65,
+      "threshold": "20% (top/bottom)",
+      "homePicks": 145,
+      "awayPicks": 145,
+      "accuracy": 0.4827586206896552,
+      "profitability": -0.0022413793103448275,
+      "avgProfitPerBet": -0.22413793103448276,
+      "selectionRate": 39.94490358126722,
+      "thresholdPercent": 20
+    },
+    "error": null
+  },
+  {
+    "name": "Single_extremeHomeFavorite",
+    "factors": [
+      "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Extreme home favorites (>80% implied probability) predicts AH outcomes",
+    "homeCorrelation": -0.05805013193494516,
+    "awayCorrelation": 0.0646684135595086,
+    "correlation": 0.0646684135595086,
+    "profitability": -0.004233333333333334,
+    "accuracy": 0.4911111111111111,
+    "avgProfitPerBet": -0.42333333333333334,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 450,
+      "correctPicks": 221,
+      "totalReturn": -190.5,
+      "threshold": "20% (top/bottom)",
+      "homePicks": 225,
+      "awayPicks": 225,
+      "accuracy": 0.4911111111111111,
+      "profitability": -0.004233333333333334,
+      "avgProfitPerBet": -0.42333333333333334,
+      "selectionRate": 40,
+      "thresholdPercent": 20
+    },
+    "error": null
+  },
+  {
+    "name": "Relegation_Desperation",
+    "factors": [
+      "(timeSeries.home.leaguePosition || 20) >= 18 ? 1 : 0",
+      "(timeSeries.away.leaguePosition || 20) >= 18 ? 1 : 0"
+    ],
+    "type": "survival_motivation",
+    "hypothesis": "Relegation battles create desperate performance affecting handicaps",
+    "homeCorrelation": -0.0580857994800215,
+    "awayCorrelation": 0.06593378367370528,
+    "correlation": 0.06593378367370528,
+    "profitability": -0.00917785234899329,
+    "accuracy": 0.47315436241610737,
+    "avgProfitPerBet": -0.9177852348993288,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 298,
+      "correctPicks": 141,
+      "totalReturn": -273.5,
+      "threshold": "20% (top/bottom)",
+      "homePicks": 149,
+      "awayPicks": 149,
+      "accuracy": 0.47315436241610737,
+      "profitability": -0.00917785234899329,
+      "avgProfitPerBet": -0.9177852348993288,
+      "selectionRate": 39.946380697050934,
+      "thresholdPercent": 20
+    },
+    "error": null
+  },
+  {
+    "name": "Single_meaningfulPositionGap",
+    "factors": [
+      "(Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) >= 8) && (((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6) || ((timeSeries.home.leaguePosition || 20) >= 15 || (timeSeries.away.leaguePosition || 20) >= 15)) ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Large position gaps only matter when European spots or relegation involved predicts AH outcomes",
+    "homeCorrelation": -0.08245731551435523,
+    "awayCorrelation": 0.07799059536587233,
+    "correlation": 0.08245731551435523,
+    "profitability": -0.012466216216216224,
+    "accuracy": 0.4797297297297297,
+    "avgProfitPerBet": -1.2466216216216224,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 71,
+      "totalReturn": -184.5000000000001,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.4797297297297297,
+      "profitability": -0.012466216216216224,
+      "avgProfitPerBet": -1.2466216216216224,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Smart_Position_Gap",
+    "factors": [
+      "(Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) >= 8) && (((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6) || ((timeSeries.home.leaguePosition || 20) >= 15 || (timeSeries.away.leaguePosition || 20) >= 15)) ? 1 : 0",
+      "((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20) > 5) && ((timeSeries.home.streaks.overall.form.winRate || 0) - (timeSeries.away.streaks.overall.form.winRate || 0) > 0.3) ? 1 : 0"
+    ],
+    "type": "contextual_position",
+    "hypothesis": "Position gaps work when stakes are involved and form aligns",
+    "homeCorrelation": -0.08245731551435523,
+    "awayCorrelation": 0.07799059536587233,
+    "correlation": 0.08245731551435523,
+    "profitability": -0.012466216216216224,
+    "accuracy": 0.4797297297297297,
+    "avgProfitPerBet": -1.2466216216216224,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 71,
+      "totalReturn": -184.5000000000001,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.4797297297297297,
+      "profitability": -0.012466216216216224,
+      "avgProfitPerBet": -1.2466216216216224,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Single_homeBottomThree",
+    "factors": [
+      "(timeSeries.home.leaguePosition || 20) >= 18 ? 1 : 0"
+    ],
+    "type": "single",
+    "hypothesis": "Home team in relegation zone (bottom 3) predicts AH outcomes",
+    "homeCorrelation": -0.0582888098255743,
+    "awayCorrelation": 0.05995719089335284,
+    "correlation": 0.05995719089335284,
+    "profitability": -0.015986547085201794,
+    "accuracy": 0.47757847533632286,
+    "avgProfitPerBet": -1.5986547085201794,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 213,
+      "totalReturn": -713,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.47757847533632286,
+      "profitability": -0.015986547085201794,
+      "avgProfitPerBet": -1.5986547085201794,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Mid_Table_Mediocrity",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) > 8 && (timeSeries.home.leaguePosition || 20) < 16 && (timeSeries.away.leaguePosition || 20) > 8 && (timeSeries.away.leaguePosition || 20) < 16) ? 1 : 0",
+      "match.drawOdds"
+    ],
+    "type": "motivation_vacuum",
+    "hypothesis": "Safe mid-table teams produce more unpredictable results",
+    "homeCorrelation": -0.06567547295435178,
+    "awayCorrelation": 0.07273574675121064,
+    "correlation": 0.07273574675121064,
+    "profitability": -0.03543918918918919,
+    "accuracy": 0.46621621621621623,
+    "avgProfitPerBet": -3.543918918918919,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 148,
+      "correctPicks": 69,
+      "totalReturn": -524.5,
+      "threshold": "10% (top/bottom)",
+      "homePicks": 74,
+      "awayPicks": 74,
+      "accuracy": 0.46621621621621623,
+      "profitability": -0.03543918918918919,
+      "avgProfitPerBet": -3.543918918918919,
+      "selectionRate": 19.839142091152816,
+      "thresholdPercent": 10
+    },
+    "error": null
+  },
+  {
+    "name": "Single_drawOdds",
+    "factors": [
+      "match.drawOdds"
+    ],
+    "type": "single",
+    "hypothesis": "1X2 draw odds predicts AH outcomes",
+    "homeCorrelation": -0.053459370862542564,
+    "awayCorrelation": 0.05865025381315635,
+    "correlation": 0.05865025381315635,
+    "profitability": -0.05546735905044511,
+    "accuracy": 0.4658753709198813,
+    "avgProfitPerBet": -5.54673590504451,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 674,
+      "correctPicks": 314,
+      "totalReturn": -3738.5,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 337,
+      "awayPicks": 337,
+      "accuracy": 0.4658753709198813,
+      "profitability": -0.05546735905044511,
+      "avgProfitPerBet": -5.54673590504451,
+      "selectionRate": 59.91111111111111,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Single_motivatedPositionHome",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 6 && fbref.week >= 30) ? (7 - (timeSeries.home.leaguePosition || 20)) : (((timeSeries.home.leaguePosition || 20) >= 17 && fbref.week >= 25) ? (21 - (timeSeries.home.leaguePosition || 20)) : 0)"
+    ],
+    "type": "single",
+    "hypothesis": "Position matters when stakes are high: Late season European or relegation pressure predicts AH outcomes",
+    "homeCorrelation": -0.08830693464606705,
+    "awayCorrelation": 0.09391697836833615,
+    "correlation": 0.09391697836833615,
+    "profitability": -0.057769058295964126,
+    "accuracy": 0.452914798206278,
+    "avgProfitPerBet": -5.776905829596412,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 202,
+      "totalReturn": -2576.5,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.452914798206278,
+      "profitability": -0.057769058295964126,
+      "avgProfitPerBet": -5.776905829596412,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Single_positionGapAbs",
+    "factors": [
+      "Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))"
+    ],
+    "type": "single",
+    "hypothesis": "Absolute league position gap between teams predicts AH outcomes",
+    "homeCorrelation": -0.07743999977934826,
+    "awayCorrelation": 0.07360633196622793,
+    "correlation": 0.07743999977934826,
+    "profitability": -0.0882847533632287,
+    "accuracy": 0.4439461883408072,
+    "avgProfitPerBet": -8.82847533632287,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 198,
+      "totalReturn": -3937.5,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.4439461883408072,
+      "profitability": -0.0882847533632287,
+      "avgProfitPerBet": -8.82847533632287,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayWinOdds",
+    "factors": [
+      "match.awayWinOdds"
+    ],
+    "type": "single",
+    "hypothesis": "1X2 away win odds predicts AH outcomes",
+    "homeCorrelation": -0.07178600379589349,
+    "awayCorrelation": 0.0741852533117878,
+    "correlation": 0.0741852533117878,
+    "profitability": -0.08909495548961424,
+    "accuracy": 0.4495548961424332,
+    "avgProfitPerBet": -8.909495548961424,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 674,
+      "correctPicks": 303,
+      "totalReturn": -6005,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 337,
+      "awayPicks": 337,
+      "accuracy": 0.4495548961424332,
+      "profitability": -0.08909495548961424,
+      "avgProfitPerBet": -8.909495548961424,
+      "selectionRate": 59.91111111111111,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Market_Bias",
+    "factors": [
+      "enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"
+    ],
+    "type": "single",
+    "hypothesis": "Market bias toward home/away indicates value opportunities",
+    "homeCorrelation": -0.054300525752137556,
+    "awayCorrelation": 0.05487027895242103,
+    "correlation": 0.05487027895242103,
+    "profitability": -0.09037833827893176,
+    "accuracy": 0.4495548961424332,
+    "avgProfitPerBet": -9.037833827893175,
+    "sampleSize": 1125,
+    "validSamples": 1125,
+    "strategy": {
+      "totalBets": 674,
+      "correctPicks": 303,
+      "totalReturn": -6091.5,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 337,
+      "awayPicks": 337,
+      "accuracy": 0.4495548961424332,
+      "profitability": -0.09037833827893176,
+      "avgProfitPerBet": -9.037833827893175,
+      "selectionRate": 59.91111111111111,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Streak_vs_Quality",
+    "factors": [
+      "Math.abs((timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0))",
+      "Math.abs(enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb)"
+    ],
+    "type": "momentum_vs_ability",
+    "hypothesis": "Streak momentum vs underlying quality creates mispricing",
+    "homeCorrelation": -0.06840084296421843,
+    "awayCorrelation": 0.06843680477449832,
+    "correlation": 0.06843680477449832,
+    "profitability": -0.09093103448275862,
+    "accuracy": 0.4482758620689655,
+    "avgProfitPerBet": -9.093103448275862,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 290,
+      "correctPicks": 130,
+      "totalReturn": -2637,
+      "threshold": "20% (top/bottom)",
+      "homePicks": 145,
+      "awayPicks": 145,
+      "accuracy": 0.4482758620689655,
+      "profitability": -0.09093103448275862,
+      "avgProfitPerBet": -9.093103448275862,
+      "selectionRate": 39.94490358126722,
+      "thresholdPercent": 20
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayLossStreak",
+    "factors": [
+      "timeSeries.away.streaks.overall.longest.loss || 0"
+    ],
+    "type": "single",
+    "hypothesis": "Away team longest loss streak this season predicts AH outcomes",
+    "homeCorrelation": -0.07286877997095614,
+    "awayCorrelation": 0.07700294106191835,
+    "correlation": 0.07700294106191835,
+    "profitability": -0.09108108108108108,
+    "accuracy": 0.44144144144144143,
+    "avgProfitPerBet": -9.108108108108109,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 98,
+      "totalReturn": -2022,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.44144144144144143,
+      "profitability": -0.09108108108108108,
+      "avgProfitPerBet": -9.108108108108109,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Quality_Team_Overreaction",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 10 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.home.streaks.overall.form.length || 0) >= 3) ? 1 : 0",
+      "enhanced.preMatch.marketEfficiency.homeImpliedProb"
+    ],
+    "type": "overreaction_fade",
+    "hypothesis": "Market overreacts to good teams in temporary bad form",
+    "homeCorrelation": -0.06055426080292979,
+    "awayCorrelation": 0.0618598628764893,
+    "correlation": 0.0618598628764893,
+    "profitability": -0.09586021505376344,
+    "accuracy": 0.44086021505376344,
+    "avgProfitPerBet": -9.586021505376344,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 164,
+      "totalReturn": -3566,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.44086021505376344,
+      "profitability": -0.09586021505376344,
+      "avgProfitPerBet": -9.586021505376344,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Form_Position_Divergence_Rescue",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
+      "enhanced.preMatch.marketEfficiency.homeImpliedProb"
+    ],
+    "type": "overreaction_rescue",
+    "hypothesis": "Market overvalues good teams in bad form - rescue for form vs ability disconnect",
+    "homeCorrelation": -0.06055426080292979,
+    "awayCorrelation": 0.0618598628764893,
+    "correlation": 0.0618598628764893,
+    "profitability": -0.09586021505376344,
+    "accuracy": 0.44086021505376344,
+    "avgProfitPerBet": -9.586021505376344,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 164,
+      "totalReturn": -3566,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.44086021505376344,
+      "profitability": -0.09586021505376344,
+      "avgProfitPerBet": -9.586021505376344,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Position_Quality_Mismatch",
+    "factors": [
+      "Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))",
+      "enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"
+    ],
+    "type": "quality_vs_market",
+    "hypothesis": "Large position gaps vs market odds reveal mispricing",
+    "homeCorrelation": -0.0831287151844723,
+    "awayCorrelation": 0.07935901675335559,
+    "correlation": 0.0831287151844723,
+    "profitability": -0.10468609865470851,
+    "accuracy": 0.4349775784753363,
+    "avgProfitPerBet": -10.468609865470851,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 194,
+      "totalReturn": -4669,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.4349775784753363,
+      "profitability": -0.10468609865470851,
+      "avgProfitPerBet": -10.468609865470851,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Position_vs_Form",
+    "factors": [
+      "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)",
+      "(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)"
+    ],
+    "type": "position_form_divergence",
+    "hypothesis": "Position vs current form creates value when they diverge",
+    "homeCorrelation": -0.08967837442527102,
+    "awayCorrelation": 0.09462690696109233,
+    "correlation": 0.09462690696109233,
+    "profitability": -0.10668202764976958,
+    "accuracy": 0.4400921658986175,
+    "avgProfitPerBet": -10.668202764976959,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 434,
+      "correctPicks": 191,
+      "totalReturn": -4630,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 217,
+      "awayPicks": 217,
+      "accuracy": 0.4400921658986175,
+      "profitability": -0.10668202764976958,
+      "avgProfitPerBet": -10.668202764976959,
+      "selectionRate": 59.77961432506888,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Rising_Underdog_Back",
+    "factors": [
+      "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0",
+      "match.awayWinOdds"
+    ],
+    "type": "momentum_undervaluation",
+    "hypothesis": "Back lower table away teams on winning streaks that market undervalues",
+    "homeCorrelation": -0.08917946235388594,
+    "awayCorrelation": 0.09284384515854377,
+    "correlation": 0.09284384515854377,
+    "profitability": -0.106875,
+    "accuracy": 0.44907407407407407,
+    "avgProfitPerBet": -10.6875,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 216,
+      "correctPicks": 97,
+      "totalReturn": -2308.5,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 108,
+      "awayPicks": 108,
+      "accuracy": 0.44907407407407407,
+      "profitability": -0.106875,
+      "avgProfitPerBet": -10.6875,
+      "selectionRate": 29.75206611570248,
+      "thresholdPercent": 15
+    },
+    "error": null
+  },
+  {
+    "name": "Position_Gap_Analysis",
+    "factors": [
+      "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)"
+    ],
+    "type": "position_differential",
+    "hypothesis": "Large position gaps create predictable handicap value",
+    "homeCorrelation": -0.09544361448406972,
+    "awayCorrelation": 0.09909484541815156,
+    "correlation": 0.09909484541815156,
+    "profitability": -0.11446188340807174,
+    "accuracy": 0.4327354260089686,
+    "avgProfitPerBet": -11.446188340807176,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 193,
+      "totalReturn": -5105,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.4327354260089686,
+      "profitability": -0.11446188340807174,
+      "avgProfitPerBet": -11.446188340807176,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Single_positionGap",
+    "factors": [
+      "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)"
+    ],
+    "type": "single",
+    "hypothesis": "League position gap (away - home, positive = home higher) predicts AH outcomes",
+    "homeCorrelation": -0.09544361448406972,
+    "awayCorrelation": 0.09909484541815156,
+    "correlation": 0.09909484541815156,
+    "profitability": -0.11446188340807174,
+    "accuracy": 0.4327354260089686,
+    "avgProfitPerBet": -11.446188340807176,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 193,
+      "totalReturn": -5105,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.4327354260089686,
+      "profitability": -0.11446188340807174,
+      "avgProfitPerBet": -11.446188340807176,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Momentum_Clash",
+    "factors": [
+      "(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)",
+      "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)"
+    ],
+    "type": "momentum_differential",
+    "hypothesis": "Teams with opposing momentum create predictable Asian Handicap value",
+    "homeCorrelation": -0.0884814172895389,
+    "awayCorrelation": 0.09237393798517107,
+    "correlation": 0.09237393798517107,
+    "profitability": -0.11468232044198895,
+    "accuracy": 0.43370165745856354,
+    "avgProfitPerBet": -11.468232044198896,
+    "sampleSize": 1125,
+    "validSamples": 726,
+    "strategy": {
+      "totalBets": 362,
+      "correctPicks": 157,
+      "totalReturn": -4151.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 181,
+      "awayPicks": 181,
+      "accuracy": 0.43370165745856354,
+      "profitability": -0.11468232044198895,
+      "avgProfitPerBet": -11.468232044198896,
+      "selectionRate": 49.862258953168045,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Combined_Position_Strength",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2"
+    ],
+    "type": "match_quality",
+    "hypothesis": "Average team quality affects match competitiveness and handicap accuracy",
+    "homeCorrelation": -0.07803193088433692,
+    "awayCorrelation": 0.0941233416420828,
+    "correlation": 0.0941233416420828,
+    "profitability": -0.11541666666666667,
+    "accuracy": 0.43010752688172044,
+    "avgProfitPerBet": -11.541666666666666,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 160,
+      "totalReturn": -4293.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.43010752688172044,
+      "profitability": -0.11541666666666667,
+      "avgProfitPerBet": -11.541666666666666,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_combinedPosition",
+    "factors": [
+      "(timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)"
+    ],
+    "type": "single",
+    "hypothesis": "Combined league positions (lower = better teams) predicts AH outcomes",
+    "homeCorrelation": -0.07803193088433692,
+    "awayCorrelation": 0.0941233416420828,
+    "correlation": 0.0941233416420828,
+    "profitability": -0.11541666666666667,
+    "accuracy": 0.43010752688172044,
+    "avgProfitPerBet": -11.541666666666666,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 160,
+      "totalReturn": -4293.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.43010752688172044,
+      "profitability": -0.11541666666666667,
+      "avgProfitPerBet": -11.541666666666666,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_averagePosition",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2"
+    ],
+    "type": "single",
+    "hypothesis": "Average league position of both teams predicts AH outcomes",
+    "homeCorrelation": -0.07803193088433692,
+    "awayCorrelation": 0.0941233416420828,
+    "correlation": 0.0941233416420828,
+    "profitability": -0.11541666666666667,
+    "accuracy": 0.43010752688172044,
+    "avgProfitPerBet": -11.541666666666666,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 160,
+      "totalReturn": -4293.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.43010752688172044,
+      "profitability": -0.11541666666666667,
+      "avgProfitPerBet": -11.541666666666666,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Early_Season_Position_Rescue",
+    "factors": [
+      "(fbref.week <= 6) ? 1 : 0",
+      "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)"
+    ],
+    "type": "temporal_context",
+    "hypothesis": "Position gaps matter less in early season - rescue for position gap failures",
+    "homeCorrelation": -0.09791361296948534,
+    "awayCorrelation": 0.10189489157861342,
+    "correlation": 0.10189489157861342,
+    "profitability": -0.11580717488789238,
+    "accuracy": 0.4327354260089686,
+    "avgProfitPerBet": -11.580717488789238,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 446,
+      "correctPicks": 193,
+      "totalReturn": -5165,
+      "threshold": "30% (top/bottom)",
+      "homePicks": 223,
+      "awayPicks": 223,
+      "accuracy": 0.4327354260089686,
+      "profitability": -0.11580717488789238,
+      "avgProfitPerBet": -11.580717488789238,
+      "selectionRate": 59.78552278820375,
+      "thresholdPercent": 30
+    },
+    "error": null
+  },
+  {
+    "name": "Position_vs_Goal_Difference",
+    "factors": [
+      "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)",
+      "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)"
+    ],
+    "type": "performance_vs_position",
+    "hypothesis": "League position vs goal difference reveals over/underperforming teams",
+    "homeCorrelation": -0.09408168035440984,
+    "awayCorrelation": 0.09763498681393463,
+    "correlation": 0.09763498681393463,
+    "profitability": -0.12076612903225807,
+    "accuracy": 0.4327956989247312,
+    "avgProfitPerBet": -12.076612903225806,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 161,
+      "totalReturn": -4492.5,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.4327956989247312,
+      "profitability": -0.12076612903225807,
+      "avgProfitPerBet": -12.076612903225806,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Position_Performance_Divergence",
+    "factors": [
+      "(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)",
+      "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)"
+    ],
+    "type": "expectation_mismatch",
+    "hypothesis": "Teams whose position doesn't match market expectation offer value",
+    "homeCorrelation": -0.09153289474605841,
+    "awayCorrelation": 0.09620241112074795,
+    "correlation": 0.09620241112074795,
+    "profitability": -0.12155913978494623,
+    "accuracy": 0.43010752688172044,
+    "avgProfitPerBet": -12.155913978494624,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 160,
+      "totalReturn": -4522,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.43010752688172044,
+      "profitability": -0.12155913978494623,
+      "avgProfitPerBet": -12.155913978494624,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_goalDiffMomentum",
+    "factors": [
+      "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)"
+    ],
+    "type": "single",
+    "hypothesis": "Goal difference momentum comparison predicts AH outcomes",
+    "homeCorrelation": -0.08939293895752828,
+    "awayCorrelation": 0.09275341733525178,
+    "correlation": 0.09275341733525178,
+    "profitability": -0.12661290322580646,
+    "accuracy": 0.43010752688172044,
+    "avgProfitPerBet": -12.661290322580646,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 372,
+      "correctPicks": 160,
+      "totalReturn": -4710,
+      "threshold": "25% (top/bottom)",
+      "homePicks": 186,
+      "awayPicks": 186,
+      "accuracy": 0.43010752688172044,
+      "profitability": -0.12661290322580646,
+      "avgProfitPerBet": -12.661290322580646,
+      "selectionRate": 49.865951742627345,
+      "thresholdPercent": 25
+    },
+    "error": null
+  },
+  {
+    "name": "Single_awayPosition",
+    "factors": [
+      "timeSeries.away.leaguePosition || 20"
+    ],
+    "type": "single",
+    "hypothesis": "Away team current league position predicts AH outcomes",
+    "homeCorrelation": -0.12227386372399672,
+    "awayCorrelation": 0.13643784922284385,
+    "correlation": 0.13643784922284385,
+    "profitability": -0.13,
+    "accuracy": 0.42342342342342343,
+    "avgProfitPerBet": -13,
+    "sampleSize": 1125,
+    "validSamples": 746,
+    "strategy": {
+      "totalBets": 222,
+      "correctPicks": 94,
+      "totalReturn": -2886,
+      "threshold": "15% (top/bottom)",
+      "homePicks": 111,
+      "awayPicks": 111,
+      "accuracy": 0.42342342342342343,
+      "profitability": -0.13,
+      "avgProfitPerBet": -13,
+      "selectionRate": 29.75871313672922,
+      "thresholdPercent": 15
+    },
+    "error": null
+  }
+]

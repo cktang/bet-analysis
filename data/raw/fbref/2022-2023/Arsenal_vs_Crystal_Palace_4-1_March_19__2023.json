@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/98e0de00/Arsenal-Crystal-Palace-March-19-2023-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "March 19, 2023",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 28,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      },
+      {
+        "minute": 43,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Ben White"
+      },
+      {
+        "minute": 55,
+        "player": "Granit Xhaka",
+        "playerId": "e61b8aee",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      },
+      {
+        "minute": 63,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 74,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Kieran Tierney"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 59,
+        "player": "James Tomkins",
+        "playerId": "e7ca0439",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

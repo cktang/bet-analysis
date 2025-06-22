@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/ad3827f3/Arsenal-Bournemouth-May-3-2025-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Bournemouth",
+  "matchDate": "May 3, 2025",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 34,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Martin Ødegaard"
+      },
+      {
+        "minute": 67,
+        "player": "Dean Huijsen",
+        "playerId": "87278bce",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": "Antoine Semenyo"
+      },
+      {
+        "minute": 75,
+        "player": "Evanilson",
+        "playerId": "6f3cc2fe",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 58,
+        "player": "Evanilson",
+        "playerId": "6f3cc2fe",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 64,
+        "player": "Dango Ouattara",
+        "playerId": "2f9e4435",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Alex Scott",
+        "playerId": "104d0bb8",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "David Brooks",
+        "playerId": "dc4cae05",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Mikel Merino",
+        "playerId": "d080ed5e",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Raheem Sterling",
+        "playerId": "b400bde0",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Oleksandr Zinchenko",
+        "playerId": "51cf8561",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Ethan Nwaneri",
+        "playerId": "7f94982c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Daniel Jebbison",
+        "playerId": "03edb878",
+        "team": "Bournemouth",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

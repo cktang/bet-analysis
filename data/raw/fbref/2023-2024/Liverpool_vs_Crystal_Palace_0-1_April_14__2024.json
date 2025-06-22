@@ -1,0 +1,142 @@
+{
+  "url": "https://fbref.com/en/matches/99113ef3/Liverpool-Crystal-Palace-April-14-2024-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "April 14, 2024",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Tyrick Mitchell"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 71,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool"
+      },
+      {
+        "minute": 97,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 48,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jaïro Riedewald",
+        "playerId": "7a1f2c08",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Joel Ward",
+        "playerId": "8a7ff278",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

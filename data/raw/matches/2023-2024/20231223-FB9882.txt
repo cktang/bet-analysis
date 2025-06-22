@@ -1,0 +1,647 @@
+23/12/2023
+FB9882
+Tottenham
+vs
+Everton
+2
+:
+0
+2
+:
+1
+%Event ID: FB9882
+Tottenham
+2
+1
+Everton
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Everton (Away)
+1.52
+4.10
+4.35
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Everton (Away)
+1.04
+9.00
+150.0
+First Half HAD
+Tottenham (Home)
+Draw
+Everton (Away)
+1.88
+2.60
+4.50
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Everton (Away)
+1.001
+29.00
+150.0
+Handicap HAD
+Tottenham (Home)
+Draw
+Everton (Away)
+[-1]
+2.37
+[-1]
+3.70
+[+1]
+2.22
+Handicap
+Tottenham (Home)
+Everton (Away)
+[-0.5/-1]
+1.75
+[+0.5/+1]
+2.09
+Same Game All Up
+SON Heung Min to score first & Tottenham to win by [2] goal(s) or more & Over [10.5] corners taken
+13.00
+SON Heung Min to score first in the match & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+35.00
+Tottenham to win & Over [2.5] goals & Over [11.5] corners taken
+5.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+40.00
+Tottenham to win [1:0] in the first half & Tottenham to win [3:0] in the match
+30.00
+First half to be drawn [0:0] & Tottenham to win [2:1] in the match
+35.00
+The match to be drawn & Under [10.5] corners taken
+7.80
+Tottenham to win [1:0] in the first half & The match to be drawn [2:2]
+55.00
+Everton to win & Over [2.5] goals
+5.90
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+40.00
+Tottenham to score first in the match & Tottenham to win the first half & Over [1.5] goals in the first half
+4.70
+Tottenham to score first & Everton to win or draw
+6.10
+Everton to score first in the match & Over [1.5] goals in the first half
+5.40
+Everton to score first & Tottenham to win by [2] goal(s) or more
+17.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.80
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.80
+Tottenham to win both first half and the match & Exactly [4] goals in the Match
+11.50
+Tottenham to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+8.25
+Everton to win both first half and the match & Exactly [3] goals in the Match
+18.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.42
+2.62
+[3/3.5]
+1.90
+1.80
+[3.5]
+2.07
+1.67
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+6.60
+1.06
+[2.5]
+1.21
+3.80
+[2.5/3]
+2.62
+1.42
+[3/3.5]
+5.40
+1.10
+[3.5]
+5.60
+1.09
+[4/4.5]
+12.00
+1.001
+[4.5]
+8.50
+1.01
+[5.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.94
+1.76
+[1.5/2]
+2.38
+1.51
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+4.30
+1.16
+[0.5/1]
+1.55
+2.29
+[1/1.5]
+2.27
+1.56
+[1.5]
+1.32
+3.05
+[1.5/2]
+1.77
+1.93
+[2/2.5]
+2.80
+1.37
+[2.5]
+1.45
+2.55
+[3/3.5]
+8.50
+1.03
+[3.5]
+8.50
+1.03
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.07
+1.67
+[12.5]
+2.58
+1.44
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+4.95
+1.12
+[7.5]
+1.17
+4.15
+[8.5]
+1.11
+5.15
+[9.5]
+1.20
+3.90
+[10.5]
+1.26
+3.40
+[11.5]
+1.28
+3.25
+[13.5]
+11.00
+1.005
+[14.5]
+4.30
+1.16
+Correct Score
+Tottenham (Home)
+Draw
+Everton (Away)
+1:0
+9.25
+0:0
+19.00
+0:1
+19.00
+2:0
+8.25
+1:1
+8.25
+0:2
+27.00
+2:1
+6.90
+2:2
+11.50
+1:2
+12.50
+3:0
+12.00
+3:3
+35.00
+0:3
+50.00
+3:1
+10.50
+1:3
+35.00
+3:2
+16.00
+2:3
+28.00
+4:0
+21.00
+0:4
+125.0
+4:1
+18.00
+1:4
+70.00
+4:2
+30.00
+2:4
+70.00
+5:0
+40.00
+0:5
+500.0
+5:1
+40.00
+1:5
+250.0
+5:2
+50.00
+2:5
+250.0
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+23.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Everton (Away)
+1:0
+11.50
+0:0
+12.00
+0:1
+13.00
+2:0
+1.61
+1:1
+8.75
+0:2
+22.00
+2:1
+1.12
+2:2
+9.00
+1:2
+18.00
+3:0
+4.00
+3:3
+1000
+0:3
+60.00
+3:1
+9.25
+1:3
+50.00
+3:2
+100.0
+2:3
+125.0
+4:0
+25.00
+0:4
+250.0
+4:1
+450.0
+1:4
+200.0
+4:2
+1000
+2:4
+1000
+5:0
+250.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Everton (Away)
+1:0
+3.90
+0:0
+3.70
+0:1
+7.00
+2:0
+6.60
+1:1
+6.30
+0:2
+18.00
+2:1
+10.00
+2:2
+40.00
+1:2
+18.00
+3:0
+17.00
+3:3
+500.0
+0:3
+80.00
+3:1
+30.00
+1:3
+80.00
+3:2
+80.00
+2:3
+150.0
+4:0
+60.00
+0:4
+500.0
+4:1
+100.0
+1:4
+500.0
+4:2
+400.0
+2:4
+700.0
+5:0
+300.0
+0:5
+2000
+5:1
+500.0
+1:5
+2000
+5:2
+900.0
+2:5
+2500
+Home Others
+(Away No Goal)
+800.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Everton (Away)
+1:0
+2.15
+0:0
+2.57
+0:1
+6.00
+2:0
+1.18
+1:1
+5.40
+0:2
+27.00
+2:1
+9.25
+2:2
+150.0
+1:2
+26.00
+3:0
+5.90
+3:3
+2500
+0:3
+150.0
+3:1
+50.00
+1:3
+150.0
+3:2
+1000
+2:3
+2500
+4:0
+70.00
+0:4
+1000
+4:1
+500.0
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Everton (Away)
+1.42
+19.00
+2.60
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Everton (Away)
+1st Goal
+1.47
+12.00
+2.65
+2nd Goal
+1.55
+11.50
+2.45
+3rd Goal
+3.50
+1.61
+4.30
+4th Goal
+8.50
+1.12
+9.00
+Total Goals
+0
+19.00
+1
+6.90
+2
+4.00
+3
+3.70
+4
+4.25
+5
+6.00
+6
+10.50
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+2.21
+H-D
+13.50
+H-A
+28.00
+D-H
+4.35
+D-D
+7.00
+D-A
+10.50
+A-H
+16.00
+A-D
+13.50
+A-A
+7.50
+Specials
+Item No.: 1 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.90
+(4) Be substituted
+2.85
+(5) None of the above
+3.75
+Item No.: 2 How many goal(s) will SON Heung Min (Tottenham) score?
+(1) No Goal
+1.65
+(2) 1 Goal
+2.55
+(3) 2 Goals
+6.00
+(4) 3 Goals or more
+20.00
+Item No.: 3 Which event will happen to RICHARLISON de Andrade (Tottenham) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.70
+(5) None of the above
+6.25
+Item No.: 4 Which event will happen to Dejan KULUSEVSKI (Tottenham) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.35
+(4) Be substituted
+3.80
+(5) None of the above
+1.95
+Item No.: 5 Which event will happen to Dominic CALVERT-LEWIN (Everton) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.85
+(4) Be substituted
+1.50
+(5) None of the above
+4.75

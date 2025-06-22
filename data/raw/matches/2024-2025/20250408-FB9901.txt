@@ -1,0 +1,956 @@
+08/04/2025
+FB9901
+Leicester
+vs
+Newcastle
+0
+:
+3
+0
+:
+3
+%Event ID: FB9901
+Leicester
+0
+3
+Newcastle
+Eng Premier
+Home/Away/Draw
+Leicester (Home)
+Draw
+Newcastle (Away)
+6.70
+4.45
+1.32
+Home/Away/Draw- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Newcastle (Away)
+250.0
+50.00
+1.001
+First Half HAD
+Leicester (Home)
+Draw
+Newcastle (Away)
+6.10
+2.47
+1.75
+First Half HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Newcastle (Away)
+125.0
+15.50
+1.001
+Handicap HAD
+Leicester (Home)
+Draw
+Newcastle (Away)
+[+2]
+1.62
+[+2]
+4.15
+[-2]
+3.55
+[+1]
+2.70
+[+1]
+3.50
+[-1]
+2.07
+Handicap HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Newcastle (Away)
+[+1]
+5.00
+[+1]
+4.15
+[-1]
+1.43
+[+4]
+1.07
+[+4]
+5.20
+[-4]
+80.00
+[+5]
+1.17
+[+5]
+5.20
+[-5]
+10.50
+[+3]
+1.81
+[+3]
+3.26
+[-3]
+3.50
+[+2]
+40.00
+[+2]
+4.85
+[-2]
+1.10
+Handicap
+Leicester (Home)
+Newcastle (Away)
+[+1/+1.5]
+1.88
+[-1/-1.5]
+1.94
+Handicap- Last Odds for In Play Betting
+Leicester (Home)
+Newcastle (Away)
+[+1]
+2.07
+[-1]
+1.72
+[+3/+3.5]
+1.42
+[-3/-3.5]
+2.68
+[+2.5/+3]
+1.60
+[-2.5/-3]
+2.22
+[+2]
+1.73
+[-2]
+2.01
+[+3]
+2.07
+[-3]
+1.69
+[+2/+2.5]
+2.20
+[-2/-2.5]
+1.61
+[+1/+1.5]
+3.24
+[-1/-1.5]
+1.30
+[+1.5/+2]
+4.00
+[-1.5/-2]
+1.21
+Same Game All Up
+Both teams to score & Newcastle to win by [2] goal(s) or more & Over [9.5] corners taken
+8.75
+Newcastle to win by [2] goal(s) or more & Over [3.5] goals & Over [10.5] corners taken
+7.40
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+35.00
+First half to be drawn [0:0] & Both teams to score in the match
+11.00
+Both teams to score in the match & First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+20.00
+Both teams to score & Leicester to win & Under [9.5] corners taken
+24.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+7.20
+Over [6.5] corners taken in the first half & Over [12.5] corners taken in the match
+5.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+6.50
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.25
+First Half to be drawn & Newcastle to win the match by exactly [2] goal(s)
+11.00
+The match to be drawn & Under [8.5] corners taken
+12.50
+Leicester to score first & Newcastle to win by exactly [1] goal(s)
+15.00
+Leicester to score in the first half & Leicester to win or draw the match
+5.25
+Newcastle to score in the first half & Newcastle to win the match by [3] goal(s) or more
+3.85
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+24.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+30.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:0] in the match
+24.00
+First half to be drawn [1:1] & Newcastle to win [3:1] in the match
+45.00
+First half to be drawn [0:0] & Newcastle to win [2:0] in the match
+19.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.57
+2.25
+[3/3.5]
+2.22
+1.58
+[3.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.19
+3.95
+[2.5/3]
+1.23
+3.65
+[3/3.5]
+1.14
+4.60
+[3.5]
+1.50
+2.40
+[3.5/4]
+5.40
+1.10
+[4/4.5]
+11.00
+1.005
+[4.5]
+11.50
+1.002
+[4.5/5]
+2.19
+1.60
+[5.5]
+5.40
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.98
+1.73
+[1.5]
+1.27
+3.35
+[1.5/2]
+1.55
+2.29
+[2/2.5]
+2.45
+1.48
+[2.5]
+1.39
+2.70
+[2.5/3]
+3.20
+1.29
+[3/3.5]
+7.00
+1.05
+[3.5]
+8.00
+1.04
+[3.5/4]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.01
+1.71
+[11.5]
+2.60
+1.43
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.39
+2.70
+[9.5]
+1.38
+2.75
+[10.5]
+1.16
+4.30
+[11.5]
+1.08
+5.90
+[12.5]
+1.16
+4.30
+[13.5]
+1.34
+2.92
+[14.5]
+3.95
+1.19
+[15.5]
+11.00
+1.005
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.77
+1.93
+[5.5]
+2.60
+1.43
+[7.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.12
+4.95
+[4.5]
+1.12
+4.95
+[5.5]
+1.19
+3.95
+[6.5]
+3.35
+1.27
+[7.5]
+5.60
+1.09
+[8.5]
+9.50
+1.02
+Corner Taken Handicap
+Leicester (Home)
+Newcastle (Away)
+[+2.5]
+1.87
+[-2.5]
+1.83
+Corner Taken Handicap- Last Odds for In Play Betting
+Leicester (Home)
+Newcastle (Away)
+[-9.5]
+3.40
+[+9.5]
+1.26
+[-8.5]
+1.28
+[+8.5]
+3.25
+[-7.5]
+1.30
+[+7.5]
+3.15
+[-5.5]
+1.31
+[+5.5]
+3.10
+[-6.5]
+1.32
+[+6.5]
+3.05
+[+1.5]
+1.37
+[-1.5]
+2.80
+[-0.5]
+1.41
+[+0.5]
+2.65
+[+0.5]
+1.41
+[-0.5]
+2.65
+[-1.5]
+1.41
+[+1.5]
+2.65
+[-4.5]
+1.42
+[+4.5]
+2.62
+[-3.5]
+1.43
+[+3.5]
+2.60
+[+2.5]
+1.51
+[-2.5]
+2.38
+[-2.5]
+1.83
+[+2.5]
+1.87
+First Half Corner Taken Handicap
+Leicester (Home)
+Newcastle (Away)
+[+0.5]
+2.43
+[-0.5]
+1.49
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Leicester (Home)
+Newcastle (Away)
+[-3.5]
+3.10
+[+3.5]
+1.31
+[-1.5]
+1.07
+[+1.5]
+6.25
+[+0.5]
+1.10
+[-0.5]
+5.40
+[-0.5]
+1.10
+[+0.5]
+5.40
+[+1.5]
+1.27
+[-1.5]
+3.35
+[-2.5]
+1.40
+[+2.5]
+2.68
+Correct Score
+Leicester (Home)
+Draw
+Newcastle (Away)
+1:0
+19.00
+0:0
+14.50
+0:1
+7.25
+2:0
+35.00
+1:1
+8.50
+0:2
+6.50
+2:1
+17.00
+2:2
+14.50
+1:2
+6.90
+3:0
+70.00
+3:3
+50.00
+0:3
+8.50
+3:1
+40.00
+1:3
+9.50
+3:2
+40.00
+2:3
+21.00
+4:0
+300.0
+0:4
+16.00
+4:1
+150.0
+1:4
+18.00
+4:2
+125.0
+2:4
+35.00
+5:0
+900.0
+0:5
+30.00
+5:1
+600.0
+1:5
+40.00
+5:2
+600.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+50.00
+Home Others
+(Away Scores)
+125.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Newcastle (Away)
+1:0
+17.00
+0:0
+14.50
+0:1
+10.50
+2:0
+35.00
+1:1
+10.50
+0:2
+6.50
+2:1
+18.00
+2:2
+13.50
+1:2
+7.00
+3:0
+70.00
+3:3
+1000
+0:3
+1.03
+3:1
+60.00
+1:3
+25.00
+3:2
+27.00
+2:3
+1000
+4:0
+350.0
+0:4
+17.00
+4:1
+250.0
+1:4
+300.0
+4:2
+125.0
+2:4
+1000
+5:0
+900.0
+0:5
+1000
+5:1
+900.0
+1:5
+1000
+5:2
+900.0
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Leicester (Home)
+Draw
+Newcastle (Away)
+1:0
+7.75
+0:0
+3.20
+0:1
+3.20
+2:0
+30.00
+1:1
+7.00
+0:2
+5.50
+2:1
+30.00
+2:2
+60.00
+1:2
+12.00
+3:0
+200.0
+3:3
+700.0
+0:3
+14.50
+3:1
+200.0
+1:3
+40.00
+3:2
+400.0
+2:3
+150.0
+4:0
+900.0
+0:4
+60.00
+4:1
+900.0
+1:4
+125.0
+4:2
+1500
+2:4
+500.0
+5:0
+2500
+0:5
+250.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+1500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Newcastle (Away)
+1:0
+7.80
+0:0
+3.00
+0:1
+2.42
+2:0
+30.00
+1:1
+5.60
+0:2
+1.39
+2:1
+20.00
+2:2
+60.00
+1:2
+6.20
+3:0
+250.0
+3:3
+2500
+0:3
+1.001
+3:1
+125.0
+1:3
+55.00
+3:2
+600.0
+2:3
+2500
+4:0
+1000
+0:4
+35.00
+4:1
+2000
+1:4
+800.0
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Leicester (Home)
+No Goals
+Newcastle (Away)
+3.10
+14.50
+1.33
+Next Team To Score- Last Odds for In Play Betting
+Leicester (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+3.34
+14.50
+1.29
+2nd Goal
+2.80
+10.50
+1.44
+3rd Goal
+2.72
+6.70
+1.59
+4th Goal
+24.00
+1.03
+16.00
+Total Goals
+0
+14.50
+1
+5.50
+2
+3.70
+3
+3.70
+4
+4.55
+5
+6.90
+6
+12.00
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+14.50
+1
+10.50
+2
+6.50
+3
+1.18
+4
+3.40
+5
+29.00
+6
+400.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Leicester (Home)
+Newcastle (Away)
+101 Jamie VARDY
+8.00
+201 Alexander ISAK
+2.42
+102 Patson DAKA
+10.00
+202 Callum WILSON
+3.15
+103 Jordan AYEW
+11.00
+203 Harvey BARNES
+5.70
+104 Facundo BUONANOTTE
+12.00
+204 Anthony GORDON
+6.30
+105 Stephy MAVIDIDI
+12.50
+205 William OSULA
+7.50
+106 Bobby REID
+14.50
+206 Jacob MURPHY
+8.75
+107 Bilal EL KHANNOUSS
+15.00
+207 JOELINTON Cassio
+10.50
+108 Kasey McATEER
+16.00
+208 Joe WILLOCK
+15.00
+109 James JUSTIN
+26.00
+209 BRUNO GUIMARAES
+19.00
+110 Onyinye NDIDI
+30.00
+210 Fabian SCHAR
+20.00
+111 RICARDO Domingos Pereira
+60.00
+211 Lewis MILEY
+21.00
+112 Caleb OKOLI
+70.00
+212 Sandro TONALI
+21.00
+114 Jannik VESTERGAARD
+70.00
+213 Sean LONGSTAFF
+22.00
+113 Harry WINKS
+75.00
+214 Dan BURN
+24.00
+115 Conor COADY
+80.00
+215 Kieran TRIPPIER
+29.00
+116 Wout FAES
+80.00
+216 Emil KRAFTH
+35.00
+118 Oliver SKIPP
+85.00
+217 Matt TARGETT
+65.00
+117 Boubakary SOUMARE
+90.00
+218 Tino LIVRAMENTO
+75.00
+119 Woyo COULIBALY
+95.00
+120 Home Others
+12.00
+220 Away Others
+4.90
+00 No First Scorer
+14.30
+HaFu
+H-H
+11.00
+H-D
+16.00
+H-A
+20.00
+D-H
+14.00
+D-D
+6.80
+D-A
+3.75
+A-H
+40.00
+A-D
+16.00
+A-A
+1.91
+Specials
+Item No.: 1 Which event will happen to Jamie VARDY (Leicester) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.60
+(4) Be substituted
+3.75
+(5) None of the above
+2.00
+Item No.: 2 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+13.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.78
+(4) Be substituted
+1.92
+(5) None of the above
+9.00
+Item No.: 3 How many goal(s) will Alexander ISAK (Newcastle) score?
+(1) No Goal
+1.90
+(2) 1 Goal
+2.45
+(3) 2 Goals
+5.00
+(4) 3 Goals or more
+12.00
+Item No.: 4 Which event will happen to Jacob MURPHY (Newcastle) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.60
+(4) Be substituted
+1.81
+(5) None of the above
+3.10
+Item No.: 5 Which event will happen to Harvey BARNES (Newcastle) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+1.45
+(5) None of the above
+6.25

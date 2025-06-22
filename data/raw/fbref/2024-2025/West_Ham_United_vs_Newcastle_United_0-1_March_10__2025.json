@@ -1,0 +1,122 @@
+{
+  "url": "https://fbref.com/en/matches/61ad9d6a/West-Ham-United-Newcastle-United-March-10-2025-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Newcastle United",
+  "matchDate": "March 10, 2025",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 63,
+        "player": "Bruno Guimarães",
+        "playerId": "82518f62",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Harvey Barnes"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 84,
+        "player": "Dan Burn",
+        "playerId": "b2d31e83",
+        "team": "Newcastle United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "player": "Carlos Soler",
+        "playerId": "fed17f5a",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Konstantinos Mavropanos",
+        "playerId": "00963611",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

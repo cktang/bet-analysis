@@ -1,0 +1,639 @@
+22/04/2023
+FB0330
+Arsenal
+vs
+Southampton
+1
+:
+2
+3
+:
+3
+%Event ID: FB0330
+Arsenal
+3
+3
+Southampton
+Eng Premier
+Home/Away/Draw
+Arsenal (Home)
+Draw
+Southampton (Away)
+1.13
+6.40
+13.00
+Home/Away/Draw- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Southampton (Away)
+6.50
+1.09
+23.00
+First Half HAD
+Arsenal (Home)
+Draw
+Southampton (Away)
+1.46
+2.92
+9.25
+First Half HAD- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Southampton (Away)
+90.00
+5.10
+1.11
+Handicap HAD
+Arsenal (Home)
+Draw
+Southampton (Away)
+[-2]
+2.35
+[-2]
+3.85
+[+2]
+2.22
+Handicap
+Arsenal (Home)
+Southampton (Away)
+[-2]
+2.03
+[+2]
+1.80
+Same Game All Up
+GABRIEL Fernando JESUS to score first & Over [3.5] goals & Over [10.5] corners taken
+18.00
+Bukayo SAKA to score first & Arsenal to win by [3] goal(s) or more
+8.50
+Bukayo SAKA to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+12.00
+Arsenal to win & Southampton to score first & Over [11.5] corners taken
+20.00
+The match to be drawn & Under [8.5] corners taken
+16.00
+Southampton to win & Over [2.5] goals
+20.00
+Arsenal to score first & Southampton to win or draw
+11.00
+Arsenal to win the first half & Arsenal to win the match by [4] goal(s) or more
+4.40
+First Half to be drawn & Arsenal to win the match by exactly [1] goal(s)
+8.25
+Southampton to win the first half & Over [1.5] goals in the first half
+30.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+16.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+23.00
+Arsenal to win [3:0] in the first half & Arsenal to win [5:0] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+70.00
+First half to be drawn [0:0] & Southampton to win [1:0] in the match
+50.00
+Southampton to win [1:0] in the first half & Southampton to win [2:1] in the match
+80.00
+Arsenal to win both first half and the match & Exactly [4] goals in the Match
+6.75
+First Half to be drawn and Arsenal to win the match & Over [11.5] corners taken in the match
+11.00
+Exactly [5] goals & Over [12.5] corners taken
+21.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.90
+1.80
+[3.5]
+2.10
+1.65
+[4.5]
+3.45
+1.25
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+1.27
+3.35
+[3.5]
+1.16
+4.40
+[3.5/4]
+1.20
+3.90
+[4/4.5]
+1.98
+1.73
+[4.5]
+1.24
+3.55
+[4.5/5]
+3.20
+1.29
+[5/5.5]
+7.50
+1.05
+[5.5]
+8.00
+1.04
+[5.5/6]
+3.25
+1.28
+[6.5]
+8.00
+1.04
+[6.5/7]
+4.55
+1.15
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.92
+1.78
+[1.5/2]
+2.40
+1.50
+[2.5]
+4.05
+1.19
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.69
+2.04
+[1.5]
+1.17
+4.30
+[1.5/2]
+1.40
+2.70
+[2/2.5]
+1.95
+1.75
+[2.5]
+1.33
+3.00
+[2.5/3]
+1.51
+2.38
+[3/3.5]
+2.55
+1.45
+[3.5]
+1.50
+2.40
+[3.5/4]
+7.00
+1.06
+[4/4.5]
+12.00
+1.001
+[4.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.98
+1.73
+[11.5]
+2.55
+1.45
+[13.5]
+4.30
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+3.40
+1.26
+[8.5]
+1.05
+7.50
+[10.5]
+7.50
+1.05
+[11.5]
+5.30
+1.11
+[12.5]
+5.80
+1.09
+[13.5]
+5.10
+1.12
+[14.5]
+3.65
+1.23
+Correct Score
+Arsenal (Home)
+Draw
+Southampton (Away)
+1:0
+7.50
+0:0
+20.00
+0:1
+35.00
+2:0
+5.90
+1:1
+12.00
+0:2
+50.00
+2:1
+7.75
+2:2
+22.00
+1:2
+30.00
+3:0
+6.40
+3:3
+70.00
+0:3
+200.0
+3:1
+9.00
+1:3
+70.00
+3:2
+24.00
+2:3
+60.00
+4:0
+9.25
+0:4
+700.0
+4:1
+13.50
+1:4
+400.0
+4:2
+35.00
+2:4
+300.0
+5:0
+18.00
+0:5
+1000
+5:1
+25.00
+1:5
+1000
+5:2
+50.00
+2:5
+900.0
+Home Others
+11.50
+Draw Others
+200.0
+Away Others
+300.0
+Correct Score- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Southampton (Away)
+1:0
+7.60
+0:0
+14.50
+0:1
+15.00
+2:0
+5.90
+1:1
+6.10
+0:2
+15.50
+2:1
+4.60
+2:2
+3.04
+1:2
+3.38
+3:0
+6.50
+3:3
+1.10
+0:3
+30.00
+3:1
+5.20
+1:3
+1.33
+3:2
+4.20
+2:3
+1.44
+4:0
+9.75
+0:4
+90.00
+4:1
+8.00
+1:4
+12.00
+4:2
+11.50
+2:4
+11.00
+5:0
+18.00
+0:5
+300.0
+5:1
+15.50
+1:5
+150.0
+5:2
+30.00
+2:5
+125.0
+Home Others
+6.50
+Draw Others
+80.00
+Away Others
+23.00
+First Half Correct Score
+Arsenal (Home)
+Draw
+Southampton (Away)
+1:0
+3.05
+0:0
+3.70
+0:1
+11.50
+2:0
+4.35
+1:1
+8.75
+0:2
+50.00
+2:1
+12.00
+2:2
+70.00
+1:2
+40.00
+3:0
+10.50
+3:3
+800.0
+0:3
+500.0
+3:1
+30.00
+1:3
+400.0
+3:2
+150.0
+2:3
+500.0
+4:0
+35.00
+0:4
+2000
+4:1
+80.00
+1:4
+2000
+4:2
+500.0
+2:4
+2000
+5:0
+100.0
+0:5
+5000
+5:1
+400.0
+1:5
+5000
+5:2
+1000
+2:5
+5000
+Home Others
+400.0
+Draw Others
+5000
+Away Others
+5000
+First Half Correct Score- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Southampton (Away)
+1:0
+3.08
+0:0
+3.65
+0:1
+3.14
+2:0
+4.45
+1:1
+2.88
+0:2
+2.58
+2:1
+4.45
+2:2
+6.30
+1:2
+1.08
+3:0
+10.50
+3:3
+2500
+0:3
+11.50
+3:1
+12.00
+1:3
+35.00
+3:2
+90.00
+2:3
+125.0
+4:0
+35.00
+0:4
+100.0
+4:1
+50.00
+1:4
+350.0
+4:2
+2500
+2:4
+2500
+5:0
+100.0
+0:5
+500.0
+5:1
+200.0
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+350.0
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Arsenal (Home)
+No Goals
+Southampton (Away)
+1.15
+20.00
+4.55
+Next Team To Score- Last Odds for In Play Betting
+Arsenal (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.18
+14.50
+4.45
+2nd Goal
+1.14
+15.00
+5.50
+3rd Goal
+1.14
+15.50
+5.20
+4th Goal
+1.46
+3.38
+6.30
+5th Goal
+2.76
+1.48
+10.00
+6th Goal
+2.88
+1.44
+10.50
+7th Goal
+6.30
+1.10
+19.00
+Total Goals
+0
+20.00
+1
+6.70
+2
+4.20
+3
+3.70
+4
+4.30
+5
+6.10
+6
+11.00
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.50
+H-D
+21.00
+H-A
+65.00
+D-H
+3.80
+D-D
+9.50
+D-A
+25.00
+A-H
+21.00
+A-D
+21.00
+A-A
+20.00
+Specials
+Item No.: 1 Which event will happen to GABRIEL Fernando JESUS (Arsenal) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.10
+(4) Be substituted
+2.00
+(5) None of the above
+6.50
+Item No.: 2 How many goal(s) will GABRIEL Fernando JESUS (Arsenal) score?
+(1) No Goal
+1.57
+(2) 1 Goal
+2.77
+(3) 2 Goals
+6.75
+(4) 3 Goals or more
+19.00
+Item No.: 3 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.82
+(4) Be substituted
+4.00
+(5) None of the above
+3.05
+Item No.: 4 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.25
+(4) Be substituted
+2.85
+(5) None of the above
+2.80
+Item No.: 5 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.80
+(4) Be substituted
+1.85
+(5) None of the above
+3.70

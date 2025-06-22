@@ -1,0 +1,123 @@
+{
+  "url": "https://fbref.com/en/matches/82702941/Leeds-United-Wolverhampton-Wanderers-August-6-2022-Premier-League",
+  "homeTeam": "Leeds United",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "August 6, 2022",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 6,
+        "player": "Daniel Podence",
+        "playerId": "7fcc71d8",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Hwang Hee-chan"
+      },
+      {
+        "minute": 24,
+        "player": "Rodrigo",
+        "playerId": "1fb1c435",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Jack Harrison"
+      },
+      {
+        "minute": 74,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 20,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Leeds United"
+      },
+      {
+        "minute": 93,
+        "player": "Tyler Adams",
+        "playerId": "2b09d998",
+        "team": "Leeds United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "player": "Mateusz Klich",
+        "playerId": "282679b4",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Sam Greenwood",
+        "playerId": "f3354c07",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Joe Gelhardt",
+        "playerId": "01962d0d",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Chem Campbell",
+        "playerId": "6f711f67",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

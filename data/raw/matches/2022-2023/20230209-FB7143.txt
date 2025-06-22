@@ -1,0 +1,617 @@
+09/02/2023
+FB7143
+Manchester
+Utd
+vs
+Leeds
+0
+:
+1
+2
+:
+2
+%Event ID: FB7143
+Manchester Utd
+2
+2
+Leeds
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1.37
+4.35
+6.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+8.00
+1.06
+24.00
+First Half HAD
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1.75
+2.55
+5.80
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+125.0
+6.30
+1.07
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+[-1]
+2.15
+[-1]
+3.35
+[+1]
+2.67
+Handicap
+Manchester Utd (Home)
+Leeds (Away)
+[-1/-1.5]
+2.03
+[+1/+1.5]
+1.80
+Same Game All Up
+Marcus RASHFORD to score first & Over [4.5] goals
+15.00
+Marcus RASHFORD to score first in the match & Manchester Utd to win the first half & Over [10.5] corners taken in the match
+10.50
+Manchester Utd to win the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.00
+Leeds to win & Over [2.5] goals
+10.00
+Bruno Borges FERNANDES to score first in the match & Over [2.5] goals in the first half
+27.00
+Wout WEGHORST to score first & Manchester Utd to win by [2] goal(s) or more
+9.00
+Leeds to score first & Manchester Utd to win & Over [10.5] corners taken
+16.00
+Manchester Utd to win the first half & Over [2.5] goals in the first half
+6.30
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+8.00
+Over [1.5] goals in the first half & Manchester Utd to win the match by [3] goal(s) or more
+5.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+6.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.30
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+25.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:1] in the match
+30.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+30.00
+Manchester Utd to win [3:0] in the first half & Manchester Utd to win [4:1] in the match
+60.00
+Manchester Utd to win by [3] goal(s) or more & Over [10.5] corners taken
+7.50
+Manchester Utd to win the match by [2] goal(s) or more & First Half to be drawn & Over [9.5] corners taken in the match
+15.00
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+6.80
+Manchester Utd to win both first half and the match & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+14.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.53
+2.33
+[3/3.5]
+2.15
+1.62
+[3.5]
+2.40
+1.50
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.13
+4.90
+[2.5/3]
+1.48
+2.45
+[3/3.5]
+2.27
+1.56
+[3.5]
+1.36
+2.88
+[3.5/4]
+1.78
+1.92
+[4/4.5]
+3.05
+1.32
+[4.5]
+1.59
+2.20
+[4.5/5]
+6.10
+1.08
+[5/5.5]
+11.50
+1.002
+[5.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.70
+1.40
+[2.5]
+4.70
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.50
+1.07
+[1/1.5]
+1.92
+1.78
+[1.5]
+1.22
+3.70
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+[3.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.02
+1.70
+[11.5]
+2.60
+1.43
+[13.5]
+4.40
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+4.75
+1.14
+[8.5]
+1.43
+2.60
+[9.5]
+1.45
+2.55
+[10.5]
+1.05
+7.50
+[11.5]
+1.07
+6.50
+[13.5]
+10.50
+1.01
+[14.5]
+5.10
+1.12
+[15.5]
+5.10
+1.12
+Correct Score
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1:0
+7.50
+0:0
+15.00
+0:1
+19.00
+2:0
+6.90
+1:1
+8.25
+0:2
+30.00
+2:1
+6.90
+2:2
+13.50
+1:2
+15.00
+3:0
+9.50
+3:3
+40.00
+0:3
+70.00
+3:1
+10.00
+1:3
+40.00
+3:2
+19.00
+2:3
+40.00
+4:0
+17.00
+0:4
+250.0
+4:1
+18.00
+1:4
+125.0
+4:2
+35.00
+2:4
+125.0
+5:0
+35.00
+0:5
+800.0
+5:1
+40.00
+1:5
+500.0
+5:2
+60.00
+2:5
+500.0
+Home Others
+22.00
+Draw Others
+150.0
+Away Others
+100.0
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1:0
+7.60
+0:0
+15.00
+0:1
+4.90
+2:0
+6.90
+1:1
+3.24
+0:2
+2.84
+2:1
+4.40
+2:2
+1.09
+1:2
+2.24
+3:0
+9.50
+3:3
+150.0
+0:3
+8.00
+3:1
+10.00
+1:3
+7.40
+3:2
+7.00
+2:3
+24.10
+4:0
+17.00
+0:4
+60.00
+4:1
+29.00
+1:4
+70.00
+4:2
+250.0
+2:4
+1000
+5:0
+35.00
+0:5
+700.0
+5:1
+125.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1:0
+3.45
+0:0
+3.20
+0:1
+7.75
+2:0
+5.90
+1:1
+7.00
+0:2
+27.00
+2:1
+12.50
+2:2
+50.00
+1:2
+27.00
+3:0
+15.00
+3:3
+700.0
+0:3
+150.0
+3:1
+40.00
+1:3
+150.0
+3:2
+125.0
+2:3
+300.0
+4:0
+60.00
+0:4
+800.0
+4:1
+125.0
+1:4
+800.0
+4:2
+500.0
+2:4
+1000
+5:0
+300.0
+0:5
+5000
+5:1
+500.0
+1:5
+5000
+5:2
+1000
+2:5
+5000
+Home Others
+600.0
+Draw Others
+5000
+Away Others
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Leeds (Away)
+1:0
+3.44
+0:0
+3.20
+0:1
+1.14
+2:0
+5.90
+1:1
+5.50
+0:2
+20.00
+2:1
+71.00
+2:2
+2000
+1:2
+100.0
+3:0
+15.00
+3:3
+2500
+0:3
+700.0
+3:1
+2000
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+60.00
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+300.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Leeds (Away)
+1.34
+15.00
+3.10
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Leeds (Away)
+1st Goal
+1.34
+15.00
+3.10
+2nd Goal
+1.39
+4.90
+4.65
+3rd Goal
+1.69
+2.84
+5.30
+4th Goal
+1.91
+2.24
+6.00
+5th Goal
+6.80
+1.09
+18.00
+Total Goals
+0
+15.00
+1
+5.90
+2
+3.85
+3
+3.70
+4
+4.50
+5
+6.90
+6
+12.00
+7+
+16.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+1.98
+H-D
+15.00
+H-A
+35.00
+D-H
+4.10
+D-D
+7.00
+D-A
+13.50
+A-H
+18.00
+A-D
+15.00
+A-A
+10.00
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.95
+(4) Be substituted
+3.45
+(5) None of the above
+3.10
+Item No.: 2 How many goal(s) will Marcus RASHFORD (Manchester Utd) score?
+(1) No Goal
+1.65
+(2) 1 Goal
+2.55
+(3) 2 Goals
+7.00
+(4) 3 Goals or more
+17.00
+Item No.: 3 Which event will happen to Wout WEGHORST (Manchester Utd) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.75
+(4) Be substituted
+1.57
+(5) None of the above
+7.50
+Item No.: 4 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+3.60
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.75
+(4) Be substituted
+7.00
+(5) None of the above
+2.15
+Item No.: 5 Which event will happen to ANTONY Matheus dos Santos (Manchester Utd) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.40
+(4) Be substituted
+1.58
+(5) None of the above
+5.50

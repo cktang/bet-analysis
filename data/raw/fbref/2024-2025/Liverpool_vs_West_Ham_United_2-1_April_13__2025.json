@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/4975981b/Liverpool-West-Ham-United-April-13-2025-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "West Ham United",
+  "matchDate": "April 13, 2025",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 18,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      },
+      {
+        "minute": 86,
+        "player": "Andrew Robertson",
+        "playerId": "2e4f5f03",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 89,
+        "player": "Virgil van Dijk",
+        "playerId": "e06683ca",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Alexis Mac Allister"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 96,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 98,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Andrew Robertson",
+        "playerId": "2e4f5f03",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Jarell Quansah",
+        "playerId": "4125cb98",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Niclas Füllkrug",
+        "playerId": "4f16405e",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Luis Guilherme",
+        "playerId": "b7672d43",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

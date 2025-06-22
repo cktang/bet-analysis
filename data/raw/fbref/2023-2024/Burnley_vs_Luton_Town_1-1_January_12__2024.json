@@ -1,0 +1,123 @@
+{
+  "url": "https://fbref.com/en/matches/d62dd931/Burnley-Luton-Town-January-12-2024-Premier-League",
+  "homeTeam": "Burnley",
+  "awayTeam": "Luton Town",
+  "matchDate": "January 12, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 36,
+        "player": "Zeki Amdouni",
+        "playerId": "2ee5b0c9",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 92,
+        "player": "Carlton Morris",
+        "playerId": "2da834f1",
+        "team": "Luton Town",
+        "isPenalty": false,
+        "assist": "Alfie Doughty"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 93,
+        "player": "James Trafford",
+        "playerId": "259fea27",
+        "team": "Burnley"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "player": "Tahith Chong",
+        "playerId": "2696b6a9",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Connor Roberts",
+        "playerId": "24fae784",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Carlton Morris",
+        "playerId": "2da834f1",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Mike Trésor",
+        "playerId": "b2a81fc6",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Jacob Bruun Larsen",
+        "playerId": "4e204552",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Luke Berry",
+        "playerId": "2aaadf33",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 95,
+        "player": "Jack Cork",
+        "playerId": "74e12f1e",
+        "team": "Burnley",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

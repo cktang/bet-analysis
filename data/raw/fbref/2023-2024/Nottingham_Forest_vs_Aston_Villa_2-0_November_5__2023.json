@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/ac18f108/Nottingham-Forest-Aston-Villa-November-5-2023-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Aston Villa",
+  "matchDate": "November 5, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 5,
+        "player": "Ola Aina",
+        "playerId": "246d153b",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Harry Toffolo"
+      },
+      {
+        "minute": 47,
+        "player": "Orel Mangala",
+        "playerId": "a572e291",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Harry Toffolo"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 64,
+        "player": "Boubacar Kamara",
+        "playerId": "cc77354e",
+        "team": "Aston Villa"
+      },
+      {
+        "minute": 88,
+        "player": "Danilo",
+        "playerId": "a816dbfb",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Youri Tielemans",
+        "playerId": "56f7a928",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Serge Aurier",
+        "playerId": "5c2b4f07",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Diego Carlos",
+        "playerId": "b4a014b1",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Danilo",
+        "playerId": "a816dbfb",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Neco Williams",
+        "playerId": "dd323728",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Leander Dendoncker",
+        "playerId": "5a7301ae",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

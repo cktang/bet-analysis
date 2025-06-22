@@ -1,0 +1,135 @@
+{
+  "url": "https://fbref.com/en/matches/589e447b/Manchester-City-Chelsea-May-21-2023-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Chelsea",
+  "matchDate": "May 21, 2023",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 12,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Cole Palmer"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 18,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Chelsea"
+      },
+      {
+        "minute": 66,
+        "player": "Enzo Fernández",
+        "playerId": "5ff4ab71",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "player": "John Stones",
+        "playerId": "5eecec3d",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Noni Madueke",
+        "playerId": "bf34eebd",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Mykhailo Mudryk",
+        "playerId": "049a888d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Rodri",
+        "playerId": "6434f10d",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Kalidou Koulibaly",
+        "playerId": "da974c7b",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Carney Chukwuemeka",
+        "playerId": "b2f9c73e",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Christian Pulisic",
+        "playerId": "1bf33a9a",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

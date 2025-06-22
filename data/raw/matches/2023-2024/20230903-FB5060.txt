@@ -1,0 +1,401 @@
+03/09/2023
+FB5060
+Brighton
+vs
+Newcastle
+1
+:
+0
+3
+:
+1
+%Event ID: FB5060
+Brighton
+3
+1
+Newcastle
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Newcastle (Away)
+2.43
+3.60
+2.30
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Newcastle (Away)
+1.001
+100.0
+800.0
+First Half HAD
+Brighton (Home)
+Draw
+Newcastle (Away)
+2.83
+2.43
+2.70
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Newcastle (Away)
+1.06
+6.40
+90.00
+Handicap HAD
+Brighton (Home)
+Draw
+Newcastle (Away)
+[-1]
+4.50
+[-1]
+4.45
+[+1]
+1.45
+Handicap
+Brighton (Home)
+Newcastle (Away)
+[0]
+1.96
+[0]
+1.86
+Same Game All Up
+Brighton to win & Over [3.5] goals & Over [11.5] corners taken
+11.50
+The match to be drawn & Under [9.5] corners taken
+8.00
+Newcastle to win & Over [4.5] goals
+9.00
+Brighton to score first in the match & Brighton to win the first half & Over [2.5] goals in the first half
+12.00
+Brighton to score first & Newcastle to win or draw
+4.80
+Newcastle to score first in the match & Over [1.5] goals in the first half
+4.10
+Newcastle to score first & Brighton to win by [2] goal(s) or more
+28.00
+First Half to be drawn & Brighton to win the match by exactly [1] goal(s)
+9.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+13.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [8.5] corners taken in the match
+6.25
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+12.00
+Brighton to win both first half and the match & Exactly [4] goals in the Match
+17.00
+Brighton to win both first half and the match & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+21.00
+Newcastle to win both first half and the match & Exactly [3] goals in the Match
+13.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+13.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.81
+1.89
+[3.5]
+2.07
+1.67
+[4.5]
+3.35
+1.27
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+7.00
+1.06
+[1.5/2]
+1.43
+2.60
+[2/2.5]
+2.17
+1.61
+[2.5]
+1.29
+3.20
+[2.5/3]
+1.68
+2.05
+[3/3.5]
+2.75
+1.39
+[3.5]
+1.47
+2.48
+[3.5/4]
+5.30
+1.11
+[4/4.5]
+11.00
+1.005
+[4.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.95
+1.75
+[1.5/2]
+2.45
+1.48
+[2.5]
+4.05
+1.19
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.15
+1.18
+[0.5/1]
+1.98
+1.73
+[1/1.5]
+3.45
+1.25
+[1.5]
+1.63
+2.13
+[2/2.5]
+8.00
+1.04
+[2.5]
+8.50
+1.03
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.12
+1.64
+[12.5]
+2.68
+1.41
+[14.5]
+4.55
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+4.55
+1.15
+[10.5]
+9.50
+1.02
+[11.5]
+12.00
+1.001
+[12.5]
+5.80
+1.09
+[13.5]
+5.55
+1.10
+[14.5]
+3.45
+1.25
+First Team to Score
+Brighton (Home)
+No Goals
+Newcastle (Away)
+1.87
+20.00
+1.81
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+1.84
+13.00
+1.94
+2nd Goal
+2.28
+3.10
+2.68
+3rd Goal
+2.60
+2.54
+2.80
+4th Goal
+5.70
+1.23
+6.80
+5th Goal
+7.20
+1.15
+8.75
+Total Goals
+0
+20.00
+1
+6.90
+2
+4.15
+3
+3.80
+4
+4.25
+5
+6.00
+6
+10.50
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Brighton (Home)
+Newcastle (Away)
+101 Kaoru MITOMA
+5.80
+201 Alexander ISAK
+4.70
+102 Solly MARCH
+6.80
+202 Callum WILSON
+4.70
+103 Evan FERGUSON
+7.25
+203 Miguel ALMIRON
+6.70
+104 JOAO PEDRO Junqueira
+8.00
+204 Anthony GORDON
+8.50
+105 Danny WELBECK
+9.50
+205 Harvey BARNES
+9.00
+107 Pascal GROSS
+15.00
+206 Jacob MURPHY
+10.50
+106 Adam LALLANA
+16.00
+207 JOELINTON Cassio
+12.00
+108 James MILNER
+19.00
+208 Sandro TONALI
+17.00
+109 Billy GILMOUR
+35.00
+209 BRUNO GUIMARAES
+19.00
+110 Lewis DUNK
+35.00
+210 Kieran TRIPPIER
+25.00
+111 Adam WEBSTER
+35.00
+211 Sean LONGSTAFF
+27.00
+112 Joel VELTMAN
+35.00
+212 Fabian SCHAR
+35.00
+113 Pervis ESTUPINAN
+45.00
+213 Sven BOTMAN
+35.00
+214 Dan BURN
+35.00
+120 Home Others
+11.00
+220 Away Others
+13.50
+00 No First Scorer
+20.80
+HaFu
+H-H
+3.90
+H-D
+11.50
+H-A
+20.00
+D-H
+6.40
+D-D
+6.30
+D-A
+6.10
+A-H
+21.00
+A-D
+11.50
+A-A
+3.65
+Specials
+Item No.: 1 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.15
+(4) Be substituted
+2.60
+(5) None of the above
+2.80
+Item No.: 2 Which event will happen to Solly MARCH (Brighton) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+2.30
+(5) None of the above
+3.20
+Item No.: 3 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+1.90
+(5) None of the above
+5.30
+Item No.: 4 Which event will happen to Miguel ALMIRON (Newcastle) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+1.70
+(5) None of the above
+4.30
+Item No.: 5 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+4.60
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.65
+(5) None of the above
+5.30

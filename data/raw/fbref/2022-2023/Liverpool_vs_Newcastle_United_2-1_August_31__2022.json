@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/ac6047cf/Liverpool-Newcastle-United-August-31-2022-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Newcastle United",
+  "matchDate": "August 31, 2022",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 38,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Sean Longstaff"
+      },
+      {
+        "minute": 61,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      },
+      {
+        "minute": 98,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 87,
+        "player": "Jamaal Lascelles",
+        "playerId": "450ab6fc",
+        "team": "Newcastle United"
+      },
+      {
+        "minute": 90,
+        "player": "Kieran Trippier",
+        "playerId": "21512407",
+        "team": "Newcastle United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Elliot Anderson",
+        "playerId": "de31038e",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

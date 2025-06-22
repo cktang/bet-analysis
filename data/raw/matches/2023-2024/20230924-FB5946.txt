@@ -1,0 +1,694 @@
+24/09/2023
+FB5946
+Sheff
+Utd
+vs
+Newcastle
+0
+:
+3
+0
+:
+8
+%Event ID: FB5946
+Sheff Utd
+0
+8
+Newcastle
+Eng Premier
+Home/Away/Draw
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+6.20
+4.20
+1.38
+Home/Away/Draw- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+250.0
+50.00
+1.001
+First Half HAD
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+5.80
+2.40
+1.83
+First Half HAD- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+800.0
+50.00
+1.001
+Handicap HAD
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+[+1]
+2.65
+[+1]
+3.30
+[-1]
+2.19
+Handicap
+Sheff Utd (Home)
+Newcastle (Away)
+[+1/+1.5]
+1.76
+[-1/-1.5]
+2.09
+Same Game All Up
+Newcastle to win & Over [2.5] goals & Over [11.5] corners taken
+5.00
+Sheff Utd to win & Over [1.5] goals
+8.75
+Newcastle to score first & Sheff Utd to win or draw
+7.75
+Sheff Utd to score first & Newcastle to win by [2] goal(s) or more
+14.00
+Newcastle to win the first half & Over [2.5] goals in the first half
+6.75
+First Half to be drawn & Newcastle to win the match by exactly [1] goal(s)
+7.25
+Sheff Utd to win the first half & Over [1.5] goals in the first half
+16.00
+Over [1.5] goals in the first half & Over [2.5] goals in the match & Over [12.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.10
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.50
+Newcastle to win by [3] goal(s) or more & Under [10.5] corners taken
+6.50
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+15.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+30.00
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.65
+2.10
+[3/3.5]
+2.35
+1.52
+[3.5]
+2.65
+1.42
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.24
+3.55
+[2.5]
+1.07
+6.50
+[2.5/3]
+1.09
+5.80
+[3/3.5]
+2.20
+1.59
+[3.5]
+1.07
+6.50
+[3.5/4]
+1.10
+5.55
+[4/4.5]
+1.80
+1.90
+[4.5]
+1.23
+3.65
+[4.5/5]
+1.42
+2.65
+[5/5.5]
+2.13
+1.63
+[5.5]
+1.33
+3.00
+[5.5/6]
+1.48
+2.45
+[6/6.5]
+2.30
+1.54
+[6.5]
+1.36
+2.88
+[6.5/7]
+1.68
+2.05
+[7/7.5]
+2.80
+1.38
+[7.5]
+1.49
+2.43
+[7.5/8]
+3.35
+1.27
+[8/8.5]
+7.50
+1.05
+[8.5]
+8.00
+1.04
+[8.5/9]
+3.55
+1.24
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.40
+1.50
+[1.5/2]
+2.90
+1.35
+[2.5]
+5.10
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.10
+1.65
+[1/1.5]
+3.80
+1.21
+[1.5]
+1.69
+2.04
+[1.5/2]
+2.88
+1.36
+[2/2.5]
+6.50
+1.07
+[2.5]
+7.00
+1.06
+[2.5/3]
+3.35
+1.27
+[3.5/4]
+6.50
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.94
+1.76
+[11.5]
+2.48
+1.47
+[13.5]
+4.15
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+3.10
+1.31
+[6.5]
+1.11
+5.30
+[7.5]
+1.11
+5.30
+[9.5]
+7.50
+1.05
+[10.5]
+5.55
+1.10
+[11.5]
+5.80
+1.09
+[12.5]
+5.10
+1.12
+[13.5]
+4.15
+1.18
+Correct Score
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+1:0
+18.00
+0:0
+13.00
+0:1
+6.60
+2:0
+40.00
+1:1
+8.50
+0:2
+6.50
+2:1
+17.00
+2:2
+16.00
+1:2
+7.00
+3:0
+70.00
+3:3
+50.00
+0:3
+9.50
+3:1
+40.00
+1:3
+11.00
+3:2
+40.00
+2:3
+23.00
+4:0
+300.0
+0:4
+20.00
+4:1
+150.0
+1:4
+21.00
+4:2
+125.0
+2:4
+40.00
+5:0
+900.0
+0:5
+40.00
+5:1
+600.0
+1:5
+40.00
+5:2
+600.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+60.00
+Home Others
+(Away Scores)
+150.0
+Draw Others
+200.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+1:0
+10.00
+0:0
+8.00
+0:1
+7.20
+2:0
+25.00
+1:1
+7.00
+0:2
+7.20
+2:1
+18.00
+2:2
+15.50
+1:2
+7.00
+3:0
+100.0
+3:3
+200.0
+0:3
+3.70
+3:1
+70.00
+1:3
+6.80
+3:2
+45.00
+2:3
+29.00
+4:0
+600.0
+0:4
+3.05
+4:1
+400.0
+1:4
+7.20
+4:2
+250.0
+2:4
+35.00
+5:0
+1000
+0:5
+2.86
+5:1
+1000
+1:5
+7.60
+5:2
+900.0
+2:5
+45.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1.005
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+7.40
+First Half Correct Score
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+1:0
+8.00
+0:0
+3.00
+0:1
+3.30
+2:0
+30.00
+1:1
+7.75
+0:2
+6.10
+2:1
+30.00
+2:2
+60.00
+1:2
+14.50
+3:0
+200.0
+3:3
+800.0
+0:3
+19.00
+3:1
+200.0
+1:3
+40.00
+3:2
+400.0
+2:3
+150.0
+4:0
+900.0
+0:4
+70.00
+4:1
+900.0
+1:4
+150.0
+4:2
+2000
+2:4
+600.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Sheff Utd (Home)
+Draw
+Newcastle (Away)
+1:0
+7.00
+0:0
+1.89
+0:1
+1.54
+2:0
+45.00
+1:1
+5.40
+0:2
+1.39
+2:1
+30.10
+2:2
+70.00
+1:2
+6.40
+3:0
+350.0
+3:3
+2500
+0:3
+1.11
+3:1
+300.0
+1:3
+13.50
+3:2
+700.0
+2:3
+350.0
+4:0
+2500
+0:4
+7.25
+4:1
+2500
+1:4
+90.00
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+125.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Sheff Utd (Home)
+No Goals
+Newcastle (Away)
+3.20
+13.00
+1.34
+Next Team To Score- Last Odds for In Play Betting
+Sheff Utd (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+3.03
+8.00
+1.47
+2nd Goal
+2.78
+7.20
+1.57
+3rd Goal
+2.66
+7.20
+1.61
+4th Goal
+3.46
+3.70
+1.73
+5th Goal
+3.90
+3.05
+1.81
+6th Goal
+4.40
+2.86
+1.79
+7th Goal
+4.80
+2.46
+1.92
+8th Goal
+16.00
+1.40
+2.76
+9th Goal
+35.00
+1.12
+5.00
+Total Goals
+0
+13.00
+1
+5.50
+2
+3.65
+3
+3.65
+4
+4.85
+5
+7.25
+6
+13.50
+7+
+21.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+10.00
+H-D
+16.00
+H-A
+21.00
+D-H
+13.50
+D-D
+6.50
+D-A
+4.00
+A-H
+45.00
+A-D
+16.00
+A-A
+1.99
+Specials
+Item No.: 1 Which event will happen to Callum WILSON (Newcastle) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.99
+(4) Be substituted
+2.35
+(5) None of the above
+5.50
+Item No.: 2 How many goal(s) will Callum WILSON (Newcastle) score?
+(1) No Goal
+1.68
+(2) 1 Goal
+2.60
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+15.00
+Item No.: 3 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+3.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+2.08
+(5) None of the above
+5.50
+Item No.: 4 Which event will happen to Miguel ALMIRON (Newcastle) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.66
+(5) None of the above
+5.50
+Item No.: 5 Which event will happen to Harvey BARNES (Newcastle) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.40
+(4) Be substituted
+1.64
+(5) None of the above
+5.50

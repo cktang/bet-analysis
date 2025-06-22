@@ -1,0 +1,977 @@
+27/04/2025
+FB0883
+Liverpool
+vs
+Tottenham
+3
+:
+1
+5
+:
+1
+%Event ID: FB0883
+Liverpool
+5
+1
+Tottenham
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1.11
+7.25
+10.50
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1.001
+20.00
+90.00
+First Half HAD
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1.40
+3.25
+8.50
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1.001
+90.00
+1000
+Handicap HAD
+Liverpool (Home)
+Draw
+Tottenham (Away)
+[-2]
+2.15
+[-2]
+4.00
+[+2]
+2.34
+[-3]
+3.55
+[-3]
+4.70
+[+3]
+1.55
+Handicap HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Tottenham (Away)
+[-6]
+17.00
+[-6]
+5.90
+[+6]
+1.10
+[-1]
+1.31
+[-1]
+4.95
+[+1]
+5.70
+[-2]
+1.36
+[-2]
+4.00
+[+2]
+6.50
+[-3]
+1.63
+[-3]
+2.62
+[+3]
+6.90
+[-4]
+1.76
+[-4]
+2.33
+[+4]
+7.00
+[-5]
+29.00
+[-5]
+5.30
+[+5]
+1.09
+Handicap
+Liverpool (Home)
+Tottenham (Away)
+[-2]
+1.83
+[+2]
+1.99
+Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Tottenham (Away)
+[-4.5/-5]
+2.46
+[+4.5/+5]
+1.49
+[-2.5/-3]
+1.07
+[+2.5/+3]
+6.80
+[-3.5/-4]
+1.07
+[+3.5/+4]
+6.90
+[-4]
+1.23
+[+4]
+3.80
+[-2/-2.5]
+1.24
+[+2/+2.5]
+3.70
+[-1.5/-2]
+1.36
+[+1.5/+2]
+2.92
+[-1]
+1.37
+[+1]
+2.88
+[-3]
+2.04
+[+3]
+1.71
+[-2]
+2.07
+[+2]
+1.69
+[-3/-3.5]
+2.10
+[+3/+3.5]
+1.67
+[-4/-4.5]
+4.00
+[+4/+4.5]
+1.21
+Same Game All Up
+Mohamed SALAH to score first & Over [3.5] goals & Over [10.5] corners taken
+8.75
+Mohamed SALAH to score first & Liverpool to win by exactly [2] goal(s)
+12.00
+Both teams to score & Liverpool to win by [2] goal(s) or more & Over [11.5] corners taken
+6.00
+Liverpool to win by [2] goal(s) or more & Over [4.5] goals & Over [12.5] corners taken
+7.75
+Liverpool to win [2:0] in the first half & Liverpool to win [4:0] in the match
+27.00
+First half to be drawn [0:0] & Both teams to score in the match
+13.00
+Both teams to score in the match & First Half to be drawn & Liverpool to win the match by [2] goal(s) or more
+13.50
+Both teams to score & Tottenham to win & Under [11.5] corners taken
+24.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+5.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+6.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+6.00
+First Half to be drawn & Liverpool to win the match by exactly [2] goal(s)
+11.50
+The match to be drawn & Under [10.5] corners taken
+14.00
+Liverpool to score in the first half & Tottenham to win or draw the match
+8.50
+Tottenham to score in the first half & Liverpool to win the match by [2] goal(s) or more
+5.50
+Liverpool to win [1:0] in the first half & Liverpool to win [2:1] in the match
+27.00
+Liverpool to win [1:0] in the first half & Liverpool to win [3:1] in the match
+30.00
+Liverpool to win [2:0] in the first half & Liverpool to win [3:1] in the match
+35.00
+First half to be drawn [1:1] & Liverpool to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Liverpool to win [2:0] in the match
+25.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.66
+2.08
+[3.5/4]
+1.82
+1.88
+[4.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+1.21
+3.80
+[3.5]
+1.32
+3.05
+[3.5/4]
+2.13
+1.63
+[4/4.5]
+1.40
+2.68
+[4.5]
+1.17
+4.15
+[4.5/5]
+1.21
+3.80
+[5/5.5]
+1.79
+1.91
+[5.5]
+1.21
+3.80
+[5.5/6]
+1.49
+2.43
+[6/6.5]
+2.17
+1.61
+[6.5]
+1.33
+2.98
+[6.5/7]
+5.60
+1.09
+[7/7.5]
+11.50
+1.002
+[7.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.71
+2.01
+[1.5/2]
+1.94
+1.76
+[2.5]
+3.10
+1.31
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.98
+1.73
+[1.5]
+1.20
+3.90
+[1.5/2]
+1.37
+2.80
+[2/2.5]
+2.07
+1.67
+[2.5]
+1.36
+2.85
+[2.5/3]
+1.72
+2.00
+[3/3.5]
+2.70
+1.39
+[3.5]
+1.47
+2.48
+[3.5/4]
+2.45
+1.48
+[4/4.5]
+4.60
+1.14
+[4.5]
+1.89
+1.81
+[4.5/5]
+5.90
+1.08
+[5/5.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.92
+1.78
+[12.5]
+2.38
+1.51
+[14.5]
+3.90
+1.20
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.34
+2.92
+[9.5]
+1.64
+2.12
+[10.5]
+5.60
+1.09
+[11.5]
+9.50
+1.02
+[12.5]
+8.50
+1.03
+[13.5]
+6.60
+1.06
+[14.5]
+5.40
+1.10
+[15.5]
+3.55
+1.24
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.90
+1.80
+[6.5]
+2.68
+1.40
+[8.5]
+5.60
+1.09
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.41
+2.65
+[4.5]
+1.17
+4.15
+[5.5]
+8.00
+1.04
+[6.5]
+5.40
+1.10
+[7.5]
+10.50
+1.01
+[8.5]
+5.60
+1.09
+Corner Taken Handicap
+Liverpool (Home)
+Tottenham (Away)
+[-3.5]
+1.74
+[+3.5]
+1.97
+Corner Taken Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Tottenham (Away)
+[-5.5]
+3.55
+[+5.5]
+1.24
+[-4.5]
+1.16
+[+4.5]
+4.30
+[-3.5]
+1.29
+[+3.5]
+3.20
+[-2.5]
+1.30
+[+2.5]
+3.15
+[-1.5]
+1.34
+[+1.5]
+2.92
+[-0.5]
+1.34
+[+0.5]
+2.92
+First Half Corner Taken Handicap
+Liverpool (Home)
+Tottenham (Away)
+[-2.5]
+2.33
+[+2.5]
+1.53
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Tottenham (Away)
+[-2.5]
+2.98
+[+2.5]
+1.33
+[+0.5]
+1.23
+[-0.5]
+3.65
+[-1.5]
+3.15
+[+1.5]
+1.30
+[-0.5]
+4.15
+[+0.5]
+1.17
+Correct Score
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1:0
+11.50
+0:0
+30.00
+0:1
+40.00
+2:0
+8.00
+1:1
+14.50
+0:2
+60.00
+2:1
+8.50
+2:2
+19.00
+1:2
+29.00
+3:0
+7.75
+3:3
+40.00
+0:3
+150.0
+3:1
+8.50
+1:3
+60.00
+3:2
+18.00
+2:3
+40.00
+4:0
+9.75
+0:4
+600.0
+4:1
+11.00
+1:4
+250.0
+4:2
+24.00
+2:4
+150.0
+5:0
+16.00
+0:5
+1000
+5:1
+18.00
+1:5
+800.0
+5:2
+35.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+19.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+10.50
+Draw Others
+125.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1:0
+8.00
+0:0
+20.00
+0:1
+23.00
+2:0
+6.30
+1:1
+14.50
+0:2
+29.00
+2:1
+11.50
+2:2
+13.00
+1:2
+20.00
+3:0
+7.00
+3:3
+45.00
+0:3
+90.00
+3:1
+3.70
+1:3
+50.00
+3:2
+9.25
+2:3
+26.00
+4:0
+10.50
+0:4
+400.0
+4:1
+2.93
+1:4
+250.0
+4:2
+9.00
+2:4
+100.0
+5:0
+20.00
+0:5
+1000
+5:1
+1.09
+1:5
+1000
+5:2
+20.00
+2:5
+800.0
+Home Others
+(Away No Goal)
+29.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+6.00
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1:0
+3.45
+0:0
+4.85
+0:1
+12.00
+2:0
+4.35
+1:1
+8.00
+0:2
+40.00
+2:1
+9.75
+2:2
+40.00
+1:2
+35.00
+3:0
+8.75
+3:3
+500.0
+0:3
+300.0
+3:1
+20.00
+1:3
+200.0
+3:2
+80.00
+2:3
+300.0
+4:0
+25.00
+0:4
+1000
+4:1
+60.00
+1:4
+900.0
+4:2
+250.0
+2:4
+1000
+5:0
+80.00
+0:5
+2500
+5:1
+150.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+400.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Tottenham (Away)
+1:0
+2.74
+0:0
+3.02
+0:1
+2.85
+2:0
+5.20
+1:1
+2.20
+0:2
+9.00
+2:1
+1.64
+2:2
+6.40
+1:2
+8.25
+3:0
+15.50
+3:3
+400.0
+0:3
+70.00
+3:1
+1.12
+1:3
+60.00
+3:2
+16.00
+2:3
+61.00
+4:0
+60.00
+0:4
+450.0
+4:1
+6.00
+1:4
+450.0
+4:2
+80.00
+2:4
+900.0
+5:0
+200.0
+0:5
+2500
+5:1
+70.00
+1:5
+2500
+5:2
+1500
+2:5
+2500
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Tottenham (Away)
+1.16
+30.00
+4.10
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+1.20
+20.00
+3.80
+2nd Goal
+1.15
+23.00
+4.35
+3rd Goal
+1.23
+14.50
+3.85
+4th Goal
+1.28
+11.50
+3.65
+5th Goal
+1.54
+3.70
+4.50
+6th Goal
+1.67
+2.93
+5.00
+7th Goal
+6.60
+1.09
+19.00
+Total Goals
+0
+30.00
+1
+9.75
+2
+5.40
+3
+3.95
+4
+4.00
+5
+5.10
+6
+7.25
+7+
+7.25
+Total Goals- Last Odds for In Play Betting
+0
+20.00
+1
+23.00
+2
+14.50
+3
+11.50
+4
+3.70
+5
+2.93
+6
+2.54
+7+
+1.41
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Liverpool (Home)
+Tottenham (Away)
+101 Mohamed SALAH
+2.41
+201 Dominic SOLANKE
+13.50
+102 Luis DIAZ
+5.00
+202 RICHARLISON de Andrade
+13.50
+103 DIOGO Jota
+5.10
+203 Brennan JOHNSON
+15.00
+104 Cody GAKPO
+5.40
+204 Mathys TEL
+15.00
+105 Darwin NUNEZ
+5.60
+205 James MADDISON
+15.00
+106 Federico CHIESA
+6.20
+206 SON Heung Min
+16.00
+107 Harvey ELLIOTT
+10.00
+207 Dane SCARLETT
+16.00
+108 Dominik SZOBOSZLAI
+10.50
+208 Wilson ODOBERT
+18.00
+109 Trey NYONI
+11.50
+209 Mikey MOORE
+19.00
+110 Curtis JONES
+12.00
+210 Dejan KULUSEVSKI
+20.00
+111 Alexis MAC ALLISTER
+14.50
+211 Timo WERNER
+21.00
+112 Conor BRADLEY
+19.00
+212 Pape Matar SARR
+35.00
+113 James McCONNELL
+19.00
+213 Lucas BERGVALL
+45.00
+114 Trent ALEXANDER-ARNOLD
+19.00
+214 Rodrigo BENTANCUR
+45.00
+115 Tyler MORTON
+25.00
+215 Yves BISSOUMA
+50.00
+117 Virgil VAN DIJK
+25.00
+216 Cristian ROMERO
+55.00
+116 Ryan GRAVENBERCH
+29.00
+217 Pedro PORRO
+60.00
+118 Andrew ROBERTSON
+35.00
+218 Micky VAN DE VEN
+90.00
+119 Ibrahima KONATE
+35.00
+219 Archie GRAY
+100.0
+120 Home Others
+5.80
+220 Away Others
+19.00
+00 No First Scorer
+29.80
+HaFu
+H-H
+1.43
+H-D
+20.00
+H-A
+55.00
+D-H
+4.05
+D-D
+12.00
+D-A
+26.00
+A-H
+17.00
+A-D
+20.00
+A-A
+20.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+13.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.46
+(4) Be substituted
+4.45
+(5) None of the above
+3.50
+Item No.: 2 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.25
+(2) 1 Goal
+2.30
+(3) 2 Goals
+4.40
+(4) 3 Goals or more
+9.00
+Item No.: 3 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+1.63
+(5) None of the above
+5.70
+Item No.: 4 How many goal(s) will Luis DIAZ (Liverpool) score?
+(1) No Goal
+1.40
+(2) 1 Goal
+2.80
+(3) 2 Goals
+9.50
+(4) 3 Goals or more
+24.00
+Item No.: 5 Which event will happen to DIOGO Jota (Liverpool) first?
+(1) Receive a Yellow Card
+12.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.38
+(5) None of the above
+8.50

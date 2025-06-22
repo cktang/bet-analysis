@@ -1,0 +1,129 @@
+{
+  "url": "https://fbref.com/en/matches/b452508e/Fulham-Wolverhampton-Wanderers-February-24-2023-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "February 24, 2023",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "Pablo Sarabia",
+        "playerId": "9744ff80",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Raúl Jiménez"
+      },
+      {
+        "minute": 64,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Antonee Robinson"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 19,
+        "player": "João Palhinha",
+        "playerId": "a78ff07f",
+        "team": "Fulham"
+      },
+      {
+        "minute": 72,
+        "player": "Andreas Pereira",
+        "playerId": "6639e500",
+        "team": "Fulham"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "João Moutinho",
+        "playerId": "f5a00fa4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Daniel Podence",
+        "playerId": "7fcc71d8",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Diego Costa",
+        "playerId": "a190d597",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

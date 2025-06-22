@@ -1,0 +1,121 @@
+{
+  "url": "https://fbref.com/en/matches/668dad03/Arsenal-Ipswich-Town-December-27-2024-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Ipswich Town",
+  "matchDate": "December 27, 2024",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 54,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 65,
+        "player": "Leif Davis",
+        "playerId": "8574c61f",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "player": "Jack Clarke",
+        "playerId": "e16932d8",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Mikel Merino",
+        "playerId": "d080ed5e",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Ali Al Hamadi",
+        "playerId": "8450467d",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Nathan Broadhead",
+        "playerId": "43309491",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Harry Clarke",
+        "playerId": "a64f2573",
+        "team": "Ipswich Town",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

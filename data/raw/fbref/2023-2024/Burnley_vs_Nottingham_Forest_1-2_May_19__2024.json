@@ -1,0 +1,152 @@
+{
+  "url": "https://fbref.com/en/matches/dafb05fe/Burnley-Nottingham-Forest-May-19-2024-Premier-League",
+  "homeTeam": "Burnley",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "May 19, 2024",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Anthony Elanga"
+      },
+      {
+        "minute": 14,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Ryan Yates"
+      },
+      {
+        "minute": 72,
+        "player": "Josh Cullen",
+        "playerId": "f6d7d690",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": "Vitinho"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 65,
+        "player": "Maxime Estève",
+        "playerId": "1a066e69",
+        "team": "Burnley"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Vitinho",
+        "playerId": "9295dc1c",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Jóhann Berg Guðmundsson",
+        "playerId": "f72293fc",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Ibrahim Sangaré",
+        "playerId": "bced0375",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Josh Brownhill",
+        "playerId": "47369df8",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Jay Rodriguez",
+        "playerId": "4ab53cdb",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Moussa Niakhate",
+        "playerId": "00242715",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Jack Cork",
+        "playerId": "74e12f1e",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Rodrigo Ribeiro",
+        "playerId": "484a3eae",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Cheikhou Kouyaté",
+        "playerId": "8d3c902d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

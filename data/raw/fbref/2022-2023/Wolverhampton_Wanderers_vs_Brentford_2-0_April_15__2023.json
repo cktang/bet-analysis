@@ -1,0 +1,150 @@
+{
+  "url": "https://fbref.com/en/matches/b2402736/Wolverhampton-Wanderers-Brentford-April-15-2023-Premier-League",
+  "homeTeam": "Wolverhampton Wanderers",
+  "awayTeam": "Brentford",
+  "matchDate": "April 15, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 27,
+        "player": "Diego Costa",
+        "playerId": "a190d597",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 69,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 12,
+        "player": "Mathias Jensen",
+        "playerId": "0f134faf",
+        "team": "Brentford"
+      },
+      {
+        "minute": 35,
+        "player": "João Gomes",
+        "playerId": "8b57ad2c",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Vitaly Janelt",
+        "playerId": "8449d35e",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "João Moutinho",
+        "playerId": "f5a00fa4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Saman Ghoddos",
+        "playerId": "f7b1d4e0",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Pedro Neto",
+        "playerId": "7ba2eaa9",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Hugo Bueno",
+        "playerId": "bfc3b3a0",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

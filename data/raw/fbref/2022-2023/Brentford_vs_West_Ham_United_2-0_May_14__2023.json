@@ -1,0 +1,137 @@
+{
+  "url": "https://fbref.com/en/matches/9a41c925/Brentford-West-Ham-United-May-14-2023-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 14, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Bryan Mbeumo",
+        "playerId": "6afaebf2",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Mathias Jensen"
+      },
+      {
+        "minute": 43,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Ben Mee"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 76,
+        "player": "Aaron Hickey",
+        "playerId": "1780bb4a",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Divin Mubama",
+        "playerId": "92868cb5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Frank Onyeka",
+        "playerId": "2944f86f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Josh Dasilva",
+        "playerId": "60344e4f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Mads Roerslev",
+        "playerId": "57c94db2",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Saman Ghoddos",
+        "playerId": "f7b1d4e0",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

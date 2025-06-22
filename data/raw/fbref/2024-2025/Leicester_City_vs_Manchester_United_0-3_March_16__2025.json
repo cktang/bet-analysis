@@ -1,0 +1,158 @@
+{
+  "url": "https://fbref.com/en/matches/7bab156e/Leicester-City-Manchester-United-March-16-2025-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "Manchester United",
+  "matchDate": "March 16, 2025",
+  "score": "0-3",
+  "homeScore": 0,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 28,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Bruno Fernandes"
+      },
+      {
+        "minute": 67,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Bruno Fernandes"
+      },
+      {
+        "minute": 90,
+        "player": "Bruno Fernandes",
+        "playerId": "507c7bdf",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Diogo Dalot"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 33,
+        "player": "Bilal El Khannouss",
+        "playerId": "f7042636",
+        "team": "Leicester City"
+      },
+      {
+        "minute": 77,
+        "player": "Wilfred Ndidi",
+        "playerId": "6b47c5db",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 51,
+        "player": "Toby Collyer",
+        "playerId": "4f9091bc",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Harry Winks",
+        "playerId": "2f7acede",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Harry Amass",
+        "playerId": "7b47100c",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Joshua Zirkzee",
+        "playerId": "028e70b9",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Casemiro",
+        "playerId": "4d224fe8",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Kasey McAteer",
+        "playerId": "b2c66859",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Chidozie Obi-Martin",
+        "playerId": "0c9bfc3b",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Leicester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

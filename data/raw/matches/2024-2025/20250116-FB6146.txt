@@ -1,0 +1,739 @@
+16/01/2025
+FB6146
+Everton
+vs
+Aston
+Villa
+0
+:
+0
+0
+:
+1
+%Event ID: FB6146
+Everton
+0
+1
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Everton (Home)
+Draw
+Aston Villa (Away)
+3.20
+2.90
+2.12
+Home/Away/Draw- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Aston Villa (Away)
+1000
+18.00
+1.001
+First Half HAD
+Everton (Home)
+Draw
+Aston Villa (Away)
+3.70
+2.00
+2.70
+First Half HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Aston Villa (Away)
+13.00
+1.07
+9.00
+Handicap HAD
+Everton (Home)
+Draw
+Aston Villa (Away)
+[+1]
+1.57
+[+1]
+3.65
+[-1]
+4.35
+[-1]
+7.75
+[-1]
+4.75
+[+1]
+1.25
+Handicap HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Aston Villa (Away)
+[-1]
+35.00
+[-1]
+18.00
+[+1]
+1.001
+[+2]
+1.05
+[+2]
+5.60
+[-2]
+100.0
+[+1]
+3.65
+[+1]
+2.11
+[-1]
+2.55
+Handicap
+Everton (Home)
+Aston Villa (Away)
+[0/+0.5]
+1.90
+[0/-0.5]
+1.92
+Same Game All Up
+Both teams to score & Aston Villa to win & Over [10.5] corners taken
+9.75
+Aston Villa to win & Over [2.5] goals & Over [9.5] corners taken
+6.50
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:1] in the match
+70.00
+Both teams to score in the match & Over [1.5] goals in the first half & Aston Villa to win the match by [2] goal(s) or more
+16.00
+Both teams to score & Everton to win & Under [9.5] corners taken
+11.50
+Both teams to score & Everton to win or draw & Over [9.5] corners taken
+4.30
+Everton to score first & Aston Villa to win by [2] goal(s) or more
+35.00
+Aston Villa to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+28.00
+Over [6.5] corners taken in the first half & Over [12.5] corners taken in the match
+5.70
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.20
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+3.90
+First Half to be drawn & Aston Villa to win the match by [2] goal(s) or more
+17.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+13.00
+The match to be drawn & Under [9.5] corners taken
+6.25
+Aston Villa to win [1:0] in the first half & Aston Villa to win [2:1] in the match
+27.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:0] in the match
+50.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [4:0] in the match
+100.0
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+2.10
+1.65
+[2.5/3]
+2.45
+1.48
+[3.5]
+3.70
+1.22
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.50
+2.40
+[1/1.5]
+2.38
+1.51
+[1.5]
+1.32
+3.05
+[1.5/2]
+6.25
+1.07
+[2/2.5]
+9.50
+1.02
+[2.5]
+11.50
+1.002
+[2.5/3]
+2.45
+1.48
+[3.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.50
+1.46
+[1.5]
+2.88
+1.35
+[1.5/2]
+3.70
+1.22
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.90
+1.08
+[1/1.5]
+12.00
+1.001
+[1.5]
+12.00
+1.001
+[1.5/2]
+3.70
+1.22
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.94
+1.76
+[11.5]
+2.50
+1.46
+[13.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.50
+2.40
+[10.5]
+1.52
+2.35
+[11.5]
+1.46
+2.50
+[12.5]
+1.33
+2.98
+[13.5]
+1.24
+3.55
+[14.5]
+3.35
+1.27
+[15.5]
+5.60
+1.09
+[16.5]
+10.50
+1.01
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.71
+2.01
+[5.5]
+2.45
+1.48
+[7.5]
+5.40
+1.10
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.21
+3.80
+[5.5]
+1.22
+3.70
+[6.5]
+1.48
+2.45
+[7.5]
+1.28
+3.25
+[8.5]
+3.55
+1.24
+[9.5]
+5.40
+1.10
+[10.5]
+10.50
+1.01
+Correct Score
+Everton (Home)
+Draw
+Aston Villa (Away)
+1:0
+7.50
+0:0
+7.50
+0:1
+6.20
+2:0
+15.00
+1:1
+5.70
+0:2
+9.25
+2:1
+10.50
+2:2
+13.50
+1:2
+7.50
+3:0
+35.00
+3:3
+50.00
+0:3
+20.00
+3:1
+29.00
+1:3
+18.00
+3:2
+35.00
+2:3
+30.00
+4:0
+80.00
+0:4
+40.00
+4:1
+70.00
+1:4
+40.00
+4:2
+80.00
+2:4
+60.00
+5:0
+400.0
+0:5
+125.0
+5:1
+300.0
+1:5
+100.0
+5:2
+400.0
+2:5
+200.0
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+125.0
+Draw Others
+200.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Aston Villa (Away)
+1:0
+5.40
+0:0
+2.78
+0:1
+1.05
+2:0
+20.00
+1:1
+16.10
+0:2
+12.50
+2:1
+900.0
+2:2
+1000
+1:2
+250.0
+3:0
+125.0
+3:3
+1000
+0:3
+900.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Everton (Home)
+Draw
+Aston Villa (Away)
+1:0
+5.30
+0:0
+2.37
+0:1
+3.90
+2:0
+13.50
+1:1
+6.70
+0:2
+9.00
+2:1
+22.00
+2:2
+70.00
+1:2
+16.00
+3:0
+80.00
+3:3
+900.0
+0:3
+50.00
+3:1
+125.0
+1:3
+80.00
+3:2
+400.0
+2:3
+300.0
+4:0
+500.0
+0:4
+250.0
+4:1
+700.0
+1:4
+500.0
+4:2
+1500
+2:4
+900.0
+5:0
+2000
+0:5
+900.0
+5:1
+2500
+1:5
+1500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Aston Villa (Away)
+1:0
+13.10
+0:0
+1.08
+0:1
+9.25
+2:0
+400.0
+1:1
+125.0
+0:2
+200.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Everton (Home)
+No Goals
+Aston Villa (Away)
+2.26
+7.50
+1.77
+Next Team To Score- Last Odds for In Play Betting
+Everton (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+3.18
+2.78
+2.15
+2nd Goal
+15.00
+1.05
+12.00
+Total Goals
+0
+7.50
+1
+3.90
+2
+3.20
+3
+3.90
+4
+5.80
+5
+10.50
+6
+24.00
+7+
+35.00
+Total Goals- Last Odds for In Play Betting
+0
+2.78
+1
+1.08
+2
+4.90
+3
+70.00
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.90
+1.80
+First Scorer
+Everton (Home)
+Aston Villa (Away)
+101 Dominic CALVERT-LEWIN
+6.70
+201 Ollie WATKINS
+4.05
+102 BETO Betuncal
+7.25
+202 Jhon DURAN
+4.50
+103 Iliman NDIAYE
+8.75
+203 Morgan ROGERS
+6.60
+104 Dwight McNEIL
+9.50
+204 Leon BAILEY
+8.25
+105 Jesper LINDSTROM
+11.50
+205 Jacob RAMSEY
+8.75
+106 Jack HARRISON
+12.00
+206 Jamaldeen JIMOH
+9.25
+108 Abdoulaye DOUCOURE
+12.50
+207 Emiliano BUENDIA
+10.00
+107 Harrison ARMSTRONG
+13.00
+208 Amadou ONANA
+16.00
+109 Orel MANGALA
+19.00
+209 Youri TIELEMANS
+16.00
+110 Idrissa GUEYE
+20.00
+210 Ian MAATSEN
+26.00
+111 Jake O'BRIEN
+30.00
+211 Matty CASH
+27.00
+112 Mike KEANE
+30.00
+212 Tyrone MINGS
+30.00
+113 Ashley YOUNG
+40.00
+213 DIEGO CARLOS Santos Silva
+40.00
+114 James TARKOWSKI
+40.00
+214 Ezri KONSA
+40.00
+115 Jarrad BRANTHWAITE
+45.00
+215 Lucas DIGNE
+45.00
+116 Nathan PATTERSON
+55.00
+216 Boubacar KAMARA
+55.00
+117 Vitaliy MYKOLENKO
+55.00
+217 Sil SWINKELS
+65.00
+118 Seamus COLEMAN
+55.00
+218 Kosta NEDELJKOVIC
+70.00
+119 Roman DIXON
+65.00
+219 Lamare BOGARDE
+70.00
+120 Home Others
+11.00
+220 Away Others
+8.50
+00 No First Scorer
+8.05
+HaFu
+H-H
+4.95
+H-D
+13.50
+H-A
+25.00
+D-H
+6.70
+D-D
+4.35
+D-A
+4.85
+A-H
+28.00
+A-D
+13.50
+A-A
+3.50

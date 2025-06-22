@@ -1,0 +1,146 @@
+{
+  "url": "https://fbref.com/en/matches/e1669507/Brighton-and-Hove-Albion-West-Ham-United-April-26-2025-Premier-League",
+  "homeTeam": "Brighton & Hove Albion",
+  "awayTeam": "West Ham United",
+  "matchDate": "April 26, 2025",
+  "score": "3-2",
+  "homeScore": 3,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 13,
+        "player": "Yasin Ayari",
+        "playerId": "f173303a",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Jack Hinshelwood"
+      },
+      {
+        "minute": 48,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      },
+      {
+        "minute": 83,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      },
+      {
+        "minute": 89,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Brajan Gruda"
+      },
+      {
+        "minute": 92,
+        "player": "Carlos Baleba",
+        "playerId": "a1390d2f",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Brajan Gruda"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 29,
+        "player": "Konstantinos Mavropanos",
+        "playerId": "00963611",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 80,
+        "player": "Jack Hinshelwood",
+        "playerId": "e98211e7",
+        "team": "Brighton & Hove Albion"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Niclas Füllkrug",
+        "playerId": "4f16405e",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Yankuba Minteh",
+        "playerId": "c3cf087d",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Diego Gómez",
+        "playerId": "916728da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Brajan Gruda",
+        "playerId": "ae9b998d",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "url": "https://fbref.com/en/matches/fd3d05f5/Leeds-United-Liverpool-April-17-2023-Premier-League",
+  "homeTeam": "Leeds United",
+  "awayTeam": "Liverpool",
+  "matchDate": "April 17, 2023",
+  "score": "1-6",
+  "homeScore": 1,
+  "awayScore": 6,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 35,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      },
+      {
+        "minute": 39,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Diogo Jota"
+      },
+      {
+        "minute": 47,
+        "player": "Luis Sinisterra",
+        "playerId": "8e16dd48",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 52,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Curtis Jones"
+      },
+      {
+        "minute": 64,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Cody Gakpo"
+      },
+      {
+        "minute": 73,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Jordan Henderson"
+      },
+      {
+        "minute": 90,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 42,
+        "player": "Fabinho",
+        "playerId": "7f3b388c",
+        "team": "Liverpool"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Georginio Rutter",
+        "playerId": "c64c01fc",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Adam Forshaw",
+        "playerId": "9f1938ab",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Wilfried Gnonto",
+        "playerId": "75fdd638",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Thiago Alcántara",
+        "playerId": "77e84962",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 7,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

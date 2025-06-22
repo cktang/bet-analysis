@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/9c6532bc/Southampton-Fulham-April-26-2025-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Fulham",
+  "matchDate": "April 26, 2025",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Jack Stephens",
+        "playerId": "6adbc307",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Ryan Manning"
+      },
+      {
+        "minute": 72,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Alex Iwobi"
+      },
+      {
+        "minute": 92,
+        "player": "Ryan Sessegnon",
+        "playerId": "6aa3e78b",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Adama Traoré"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 69,
+        "player": "Kamaldeen Sulemana",
+        "playerId": "a62f8bf1",
+        "team": "Southampton"
+      },
+      {
+        "minute": 70,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Fulham"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Tyler Dibling",
+        "playerId": "bdcc89ae",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "James Bree",
+        "playerId": "c07b7c5c",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

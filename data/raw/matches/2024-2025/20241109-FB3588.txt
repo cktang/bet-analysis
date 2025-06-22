@@ -1,0 +1,730 @@
+09/11/2024
+FB3588
+West
+Ham
+vs
+Everton
+0
+:
+0
+0
+:
+0
+%Event ID: FB3588
+West Ham
+0
+0
+Everton
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Everton (Away)
+1.92
+3.35
+3.25
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Everton (Away)
+13.00
+1.04
+19.00
+First Half HAD
+West Ham (Home)
+Draw
+Everton (Away)
+2.46
+2.16
+3.70
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Everton (Away)
+12.50
+1.05
+14.50
+Handicap HAD
+West Ham (Home)
+Draw
+Everton (Away)
+[-1]
+3.60
+[-1]
+3.65
+[+1]
+1.70
+Handicap HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Everton (Away)
+[-1]
+27.00
+[-1]
+8.00
+[+1]
+1.02
+[+1]
+1.13
+[+1]
+4.75
+[-1]
+22.00
+Handicap
+West Ham (Home)
+Everton (Away)
+[0/-0.5]
+1.78
+[0/+0.5]
+2.05
+Handicap- Last Odds for In Play Betting
+West Ham (Home)
+Everton (Away)
+[0]
+1.60
+[0]
+2.22
+[0/-0.5]
+2.21
+[0/+0.5]
+1.60
+Same Game All Up
+Both teams to score & West Ham to win & Over [11.5] corners taken
+8.75
+West Ham to win & Over [2.5] goals & Over [10.5] corners taken
+5.60
+West Ham to win [2:0] in the first half & West Ham to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & West Ham to win the match by [2] goal(s) or more
+11.50
+Both teams to score & Everton to win or draw & Over [10.5] corners taken
+4.75
+West Ham to win the first half & West Ham to win the match by [2] goal(s) or more
+4.90
+Everton to score first & West Ham to win by [2] goal(s) or more
+28.00
+West Ham to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+23.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.20
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.90
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.00
+First Half to be drawn & West Ham to win the match by [2] goal(s) or more
+14.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.50
+First half to be drawn [0:0] & Both teams to score in the match
+9.00
+West Ham to win [1:0] in the first half & West Ham to win [2:1] in the match
+26.00
+West Ham to win [1:0] in the first half & West Ham to win [3:0] in the match
+35.00
+West Ham to win [2:0] in the first half & West Ham to win [3:0] in the match
+45.00
+Under [1.5] goals in the first half & Over [3.5] goals in the match & The match to be drawn
+26.00
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.75
+1.95
+[2.5/3]
+1.95
+1.75
+[3.5]
+2.75
+1.38
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.60
+1.09
+[1/1.5]
+10.50
+1.01
+[1.5]
+12.00
+1.001
+[1.5/2]
+2.22
+1.58
+[2/2.5]
+2.22
+1.58
+[2.5]
+5.15
+1.11
+[2.5/3]
+2.20
+1.59
+[3.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.10
+1.65
+[1.5]
+2.50
+1.46
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.90
+1.08
+[1/1.5]
+9.50
+1.01
+[1.5]
+9.50
+1.01
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.83
+1.87
+[11.5]
+2.29
+1.55
+[14.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.42
+2.62
+[8.5]
+1.43
+2.60
+[9.5]
+1.43
+2.60
+[10.5]
+1.29
+3.20
+[11.5]
+1.15
+4.40
+[12.5]
+1.13
+4.75
+[13.5]
+4.60
+1.14
+[14.5]
+11.50
+1.002
+[15.5]
+12.00
+1.001
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.60
+2.19
+[5.5]
+2.22
+1.58
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.15
+4.40
+[3.5]
+6.25
+1.07
+[4.5]
+9.50
+1.02
+[5.5]
+10.50
+1.005
+[6.5]
+5.40
+1.10
+[7.5]
+4.75
+1.13
+Correct Score
+West Ham (Home)
+Draw
+Everton (Away)
+1:0
+7.25
+0:0
+10.50
+0:1
+10.50
+2:0
+9.25
+1:1
+6.30
+0:2
+18.00
+2:1
+7.50
+2:2
+10.50
+1:2
+10.50
+3:0
+18.00
+3:3
+40.00
+0:3
+40.00
+3:1
+14.50
+1:3
+25.00
+3:2
+21.00
+2:3
+30.00
+4:0
+40.00
+0:4
+80.00
+4:1
+30.00
+1:4
+60.00
+4:2
+40.00
+2:4
+70.00
+5:0
+70.00
+0:5
+300.0
+5:1
+70.00
+1:5
+200.0
+5:2
+100.0
+2:5
+250.0
+Home Others
+(Away No Goal)
+200.0
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Everton (Away)
+1:0
+13.10
+0:0
+1.05
+0:1
+19.10
+2:0
+600.0
+1:1
+150.0
+0:2
+1000
+2:1
+1000
+2:2
+1000
+1:2
+1000
+3:0
+1000
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+West Ham (Home)
+Draw
+Everton (Away)
+1:0
+3.85
+0:0
+2.78
+0:1
+5.60
+2:0
+8.25
+1:1
+6.40
+0:2
+14.00
+2:1
+13.50
+2:2
+50.00
+1:2
+18.00
+3:0
+35.00
+3:3
+700.0
+0:3
+70.00
+3:1
+60.00
+1:3
+100.0
+3:2
+150.0
+2:3
+250.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+600.0
+4:2
+700.0
+2:4
+900.0
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2000
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Everton (Away)
+1:0
+12.60
+0:0
+1.05
+0:1
+14.60
+2:0
+1000
+1:1
+400.0
+0:2
+2000
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+West Ham (Home)
+No Goals
+Everton (Away)
+1.65
+10.50
+2.27
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Everton (Away)
+1st Goal
+11.50
+1.05
+16.00
+Total Goals
+0
+10.50
+1
+4.65
+2
+3.45
+3
+3.75
+4
+4.90
+5
+8.00
+6
+16.00
+7+
+25.00
+Total Goals- Last Odds for In Play Betting
+0
+1.05
+1
+5.50
+2
+125.0
+3
+500.0
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+West Ham (Home)
+Everton (Away)
+101 Jarrod BOWEN
+4.95
+201 Dominic CALVERT-LEWIN
+7.00
+102 Michail ANTONIO
+5.60
+202 BETO Betuncal
+7.25
+103 Danny INGS
+5.90
+203 Dwight McNEIL
+9.00
+104 Crysencio SUMMERVILLE
+7.75
+204 Iliman NDIAYE
+10.50
+105 Tomas SOUCEK
+7.75
+206 Jesper LINDSTROM
+12.50
+106 LUCAS PAQUETA
+8.75
+205 Jack HARRISON
+13.00
+107 Carlos SOLER
+9.50
+207 Abdoulaye DOUCOURE
+18.00
+108 Andy IRVING
+9.75
+208 Idrissa GUEYE
+22.00
+109 Luis GUILHERME
+12.00
+209 Harrison ARMSTRONG
+25.00
+110 Guido RODRIGUEZ
+17.00
+210 Orel MANGALA
+28.00
+111 Konstantinos MAVROPANOS
+23.00
+211 Jarrad BRANTHWAITE
+30.00
+112 Jean-Clair TODIBO
+35.00
+212 Mike KEANE
+35.00
+113 Max KILMAN
+35.00
+213 Jake O'BRIEN
+35.00
+114 Aaron CRESSWELL
+45.00
+214 James TARKOWSKI
+35.00
+115 EMERSON PALMIERI dos Santos
+45.00
+215 Ashley YOUNG
+45.00
+116 Aaron WAN-BISSAKA
+60.00
+216 Vitaliy MYKOLENKO
+65.00
+117 Vladimir COUFAL
+65.00
+217 Nathan PATTERSON
+70.00
+218 Roman DIXON
+80.00
+219 Seamus COLEMAN
+80.00
+120 Home Others
+12.00
+220 Away Others
+16.00
+00 No First Scorer
+10.30
+HaFu
+H-H
+3.10
+H-D
+13.00
+H-A
+28.00
+D-H
+4.75
+D-D
+5.20
+D-A
+7.25
+A-H
+21.00
+A-D
+13.00
+A-A
+5.20

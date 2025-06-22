@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/01d155b4/Southampton-Arsenal-May-25-2025-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Arsenal",
+  "matchDate": "May 25, 2025",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 43,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Ben White"
+      },
+      {
+        "minute": 56,
+        "player": "Ross Stewart",
+        "playerId": "18986367",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Mateus Fernandes"
+      },
+      {
+        "minute": 89,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Myles Lewis-Skelly",
+        "playerId": "5dff6c28",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Paul Onuachu",
+        "playerId": "c06d1086",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "William Smallbone",
+        "playerId": "5e105217",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Joachim Kayi Sanda",
+        "playerId": "e2b2a181",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

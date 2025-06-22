@@ -1,0 +1,668 @@
+20/05/2023
+FB1610
+Bournemouth
+vs
+Manchester
+Utd
+0
+:
+1
+0
+:
+1
+%Event ID: FB1610
+Bournemouth
+0
+1
+Manchester Utd
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+7.00
+5.10
+1.28
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+1000
+18.00
+1.01
+First Half HAD
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+6.10
+2.70
+1.66
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+60.00
+14.00
+1.001
+Handicap HAD
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+[+2]
+1.75
+[+2]
+4.20
+[-2]
+3.05
+Handicap
+Bournemouth (Home)
+Manchester Utd (Away)
+[+1/+1.5]
+2.09
+[-1/-1.5]
+1.75
+Same Game All Up
+Bournemouth to win & Over [2.5] goals
+8.75
+Manchester Utd to win & Over [3.5] goals & Over [11.5] corners taken
+6.00
+Bruno Borges FERNANDES to score first & Manchester Utd to win & Over [3.5] goals
+14.00
+Marcus RASHFORD to score first & Manchester Utd to win & Over [3.5] goals
+11.50
+ANTONY Matheus dos Santos to score first & Manchester Utd to win & Over [3.5] goals
+16.00
+Bournemouth to score first & Manchester Utd to win by [2] goal(s) or more
+15.00
+Manchester Utd to win the first half & Over [2.5] goals in the first half
+5.70
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+8.00
+Bruno Borges FERNANDES to score first & Under [2.5] goals & Under [10.5] corners taken
+25.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+13.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.00
+Over [1.5] goals in the first half & Manchester Utd to win the match by exactly [2] goal(s)
+9.25
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:1] in the match
+55.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+First half to be drawn [0:0] & Manchester Utd to win [3:0] in the match
+40.00
+First half to be drawn [1:1] & Manchester Utd to win [2:1] in the match
+25.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:1] in the match
+30.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+35.00
+Both first half and the match to be drawn & Under [10.5] corners taken in the match
+13.00
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+7.25
+HiLo
+Line
+High
+Low
+[2.5]
+1.37
+2.82
+[3/3.5]
+1.84
+1.86
+[3.5]
+2.05
+1.68
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.10
+1.08
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+[2.5/3]
+2.22
+1.58
+[3/3.5]
+2.17
+1.61
+[3.5]
+5.30
+1.11
+[3.5/4]
+2.20
+1.59
+[4.5]
+4.40
+1.16
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.95
+1.75
+[1.5/2]
+2.40
+1.50
+[2.5]
+4.05
+1.19
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.50
+1.07
+[0.5/1]
+1.44
+2.58
+[1/1.5]
+2.17
+1.61
+[1.5]
+1.29
+3.20
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.10
+1.65
+[12.5]
+2.68
+1.41
+[14.5]
+4.55
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+4.40
+1.16
+[6.5]
+1.06
+7.00
+[7.5]
+1.07
+6.50
+[8.5]
+1.09
+5.80
+[9.5]
+1.74
+1.97
+[11.5]
+9.50
+1.02
+[12.5]
+3.35
+1.27
+[14.5]
+4.55
+1.15
+Correct Score
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+1:0
+25.00
+0:0
+21.00
+0:1
+8.75
+2:0
+40.00
+1:1
+9.50
+0:2
+7.25
+2:1
+18.00
+2:2
+14.50
+1:2
+7.00
+3:0
+80.00
+3:3
+40.00
+0:3
+8.75
+3:1
+40.00
+1:3
+9.00
+3:2
+40.00
+2:3
+18.00
+4:0
+300.0
+0:4
+14.50
+4:1
+125.0
+1:4
+14.50
+4:2
+125.0
+2:4
+29.00
+5:0
+900.0
+0:5
+28.00
+5:1
+600.0
+1:5
+29.00
+5:2
+500.0
+2:5
+40.00
+Home Others
+100.0
+Draw Others
+125.0
+Away Others
+14.50
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+1:0
+20.00
+0:0
+16.00
+0:1
+1.07
+2:0
+40.00
+1:1
+17.00
+0:2
+10.50
+2:1
+60.00
+2:2
+1000
+1:2
+400.0
+3:0
+100.0
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+400.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+900.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+1:0
+8.75
+0:0
+3.75
+0:1
+3.45
+2:0
+30.00
+1:1
+7.00
+0:2
+5.50
+2:1
+28.00
+2:2
+40.00
+1:2
+11.00
+3:0
+150.0
+3:3
+600.0
+0:3
+13.50
+3:1
+150.0
+1:3
+29.00
+3:2
+250.0
+2:3
+100.0
+4:0
+800.0
+0:4
+40.00
+4:1
+800.0
+1:4
+80.00
+4:2
+1000
+2:4
+400.0
+5:0
+5000
+0:5
+150.0
+5:1
+5000
+1:5
+400.0
+5:2
+5000
+2:5
+900.0
+Home Others
+2000
+Draw Others
+5000
+Away Others
+500.0
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester Utd (Away)
+1:0
+7.80
+0:0
+2.94
+0:1
+1.06
+2:0
+40.00
+1:1
+23.00
+0:2
+8.50
+2:1
+900.0
+2:2
+2500
+1:2
+125.0
+3:0
+250.0
+3:3
+2500
+0:3
+150.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Manchester Utd (Away)
+3.30
+21.00
+1.27
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Manchester Utd (Away)
+1st Goal
+3.35
+16.00
+1.29
+2nd Goal
+22.00
+1.07
+8.25
+Total Goals
+0
+21.00
+1
+7.00
+2
+4.15
+3
+3.75
+4
+4.25
+5
+6.10
+6
+11.00
+7+
+11.50
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Bournemouth (Home)
+Manchester Utd (Away)
+101 Dominic SOLANKE
+7.50
+201 Marcus RASHFORD
+3.30
+102 Kieffer MOORE
+10.50
+202 Anthony MARTIAL
+4.15
+103 Philip BILLING
+13.50
+203 Bruno Borges FERNANDES
+4.20
+104 Dango OUATTARA
+17.00
+204 ANTONY Matheus dos Santos
+5.80
+105 Ryan CHRISTIE
+17.00
+205 Jadon SANCHO
+6.40
+106 Jefferson LERMA
+25.00
+206 Alejandro GARNACHO
+7.25
+107 Lewis COOK
+30.00
+207 Wout WEGHORST
+7.25
+108 Joe ROTHWELL
+40.00
+208 Carlos CASEMIRO
+11.50
+109 Chris MEPHAM
+45.00
+210 FRED Rodrigues
+14.50
+110 Marcos SENESI
+45.00
+209 Christian ERIKSEN
+15.00
+111 Matias VINA
+45.00
+211 Harry MAGUIRE
+22.00
+112 Lloyd KELLY
+55.00
+212 Diogo DALOT
+27.00
+113 Adam SMITH
+65.00
+213 Raphael VARANE
+27.00
+214 Luke SHAW
+30.00
+215 Victor LINDELOF
+30.00
+216 Aaron WAN-BISSAKA
+40.00
+120 Home Others
+12.50
+220 Away Others
+14.00
+00 No First Scorer
+20.80
+HaFu
+H-H
+11.50
+H-D
+16.00
+H-A
+18.00
+D-H
+15.00
+D-D
+8.00
+D-A
+4.05
+A-H
+40.00
+A-D
+16.00
+A-A
+1.83
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.95
+(4) Be substituted
+2.35
+(5) None of the above
+4.70
+Item No.: 2 Which event will happen to Anthony MARTIAL (Manchester Utd) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+1.60
+(5) None of the above
+6.75
+Item No.: 3 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.30
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+9.00
+(5) None of the above
+2.13
+Item No.: 4 Which event will happen to ANTONY Matheus dos Santos (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.50
+(4) Be substituted
+1.90
+(5) None of the above
+3.90
+Item No.: 5 Which event will happen to Jadon SANCHO (Manchester Utd) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+1.48
+(5) None of the above
+4.90

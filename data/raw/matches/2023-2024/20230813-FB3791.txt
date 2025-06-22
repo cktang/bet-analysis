@@ -1,0 +1,377 @@
+13/08/2023
+FB3791
+Newcastle
+vs
+Aston
+Villa
+2
+:
+1
+5
+:
+1
+%Event ID: FB3791
+Newcastle
+5
+1
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+Aston Villa (Away)
+1.56
+3.80
+4.55
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Aston Villa (Away)
+1.001
+16.00
+60.00
+First Half HAD
+Newcastle (Home)
+Draw
+Aston Villa (Away)
+1.97
+2.39
+4.75
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Aston Villa (Away)
+1.03
+8.50
+300.0
+Handicap HAD
+Newcastle (Home)
+Draw
+Aston Villa (Away)
+[-1]
+2.62
+[-1]
+3.50
+[+1]
+2.13
+Handicap
+Newcastle (Home)
+Aston Villa (Away)
+[-0.5/-1]
+1.83
+[+0.5/+1]
+1.99
+Same Game All Up
+Newcastle to win & Over [2.5] goals & Over [10.5] corners taken
+4.10
+The match to be drawn & Under [10.5] corners taken
+7.50
+Aston Villa to win & Over [2.5] goals
+6.75
+Newcastle to score first in the match & Newcastle to win the first half & Over [2.5] goals in the first half
+9.50
+Newcastle to score first & Aston Villa to win or draw
+6.50
+Aston Villa to score first in the match & Over [1.5] goals in the first half
+5.80
+Aston Villa to score first & Newcastle to win by [2] goal(s) or more
+17.00
+First Half to be drawn & Newcastle to win the match by exactly [1] goal(s)
+7.75
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.50
+Newcastle to win both first half and the match & Exactly [4] goals in the Match
+11.00
+Newcastle to win both first half and the match & Under [2.5] goals in the match & Over [10.5] corners taken in the match
+14.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+11.00
+Aston Villa to win both first half and the match & Exactly [3] goals in the Match
+20.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.60
+2.19
+[2.5/3]
+1.77
+1.93
+[3.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.25
+3.45
+[2.5/3]
+1.27
+3.35
+[3.5]
+1.22
+3.70
+[3.5/4]
+1.27
+3.35
+[4/4.5]
+1.95
+1.75
+[4.5]
+1.24
+3.55
+[4.5/5]
+2.19
+1.60
+[5/5.5]
+3.80
+1.21
+[5.5]
+1.75
+1.95
+[5.5/6]
+5.55
+1.10
+[6/6.5]
+11.50
+1.002
+[6.5]
+11.50
+1.002
+[6.5/7]
+7.50
+1.05
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.20
+1.59
+[1.5/2]
+2.75
+1.39
+[2.5]
+4.55
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.45
+2.55
+[1/1.5]
+2.02
+1.70
+[1.5]
+1.28
+3.25
+[1.5/2]
+1.52
+2.35
+[2/2.5]
+2.29
+1.55
+[2.5]
+1.33
+3.00
+[2.5/3]
+1.70
+2.02
+[3/3.5]
+2.75
+1.39
+[3.5]
+1.48
+2.45
+[3.5/4]
+7.50
+1.05
+[4/4.5]
+8.50
+1.01
+[4.5]
+8.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.15
+1.62
+[12.5]
+2.65
+1.42
+[14.5]
+4.55
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+7.00
+1.06
+[7.5]
+1.09
+5.80
+[8.5]
+1.25
+3.45
+[9.5]
+1.37
+2.82
+[11.5]
+12.00
+1.001
+[12.5]
+5.55
+1.10
+[14.5]
+4.55
+1.15
+First Team to Score
+Newcastle (Home)
+No Goals
+Aston Villa (Away)
+1.45
+13.50
+2.68
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+1.44
+12.00
+2.80
+2nd Goal
+1.50
+12.50
+2.58
+3rd Goal
+1.49
+11.00
+2.65
+4th Goal
+2.00
+3.34
+2.98
+5th Goal
+2.50
+1.95
+4.50
+6th Goal
+4.45
+1.22
+10.50
+7th Goal
+7.60
+1.07
+18.00
+Total Goals
+0
+13.50
+1
+5.60
+2
+3.65
+3
+3.65
+4
+4.75
+5
+7.25
+6
+13.50
+7+
+18.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+2.35
+H-D
+14.00
+H-A
+30.00
+D-H
+4.35
+D-D
+6.10
+D-A
+10.50
+A-H
+19.00
+A-D
+14.00
+A-A
+7.25
+Specials
+Item No.: 1 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.20
+(4) Be substituted
+2.65
+(5) None of the above
+3.75
+Item No.: 2 Which event will happen to Miguel ALMIRON (Newcastle) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+1.54
+(5) None of the above
+5.30
+Item No.: 3 Which event will happen to Harvey BARNES (Newcastle) first?
+(1) Receive a Yellow Card
+6.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.45
+(4) Be substituted
+1.95
+(5) None of the above
+3.50
+Item No.: 4 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+4.80
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.15
+(4) Be substituted
+4.00
+(5) None of the above
+2.10
+Item No.: 5 Which event will happen to Moussa DIABY (Aston Villa) first?
+(1) Receive a Yellow Card
+4.80
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.95
+(4) Be substituted
+2.20
+(5) None of the above
+2.57

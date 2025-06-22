@@ -1,0 +1,199 @@
+{
+  "name": "Single_underperformingTeam",
+  "originalProfitability": 0.05126344086021505,
+  "calculatedProfitability": 5.126344086021505,
+  "factors": [
+    "((timeSeries.home.leaguePosition || 20) > 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0"
+  ],
+  "totalBets": 372,
+  "wins": 193,
+  "losses": 179,
+  "winRate": 51.88172043010753,
+  "totalProfit": 1907,
+  "profitability": 5.126344086021505,
+  "averageProfitPerBet": 5.126344086021505,
+  "bestThreshold": 25,
+  "validSamples": 746,
+  "sampleBets": [
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Luton",
+      "homeScore": 4,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 94,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.94,
+      "awayOdds": 1.88,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Nottingham Forest",
+      "homeScore": 2,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.84,
+      "awayOdds": 1.98,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-12T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Aston Villa",
+      "homeScore": 5,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 83,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.83,
+      "awayOdds": 1.99,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-14T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Wolves",
+      "homeScore": 1,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.94,
+      "awayOdds": 1.88,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-18T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Sheff Utd",
+      "homeScore": 2,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 54.5,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 2.09,
+      "awayOdds": 1.75,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-18T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "homeScore": 3,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 0,
+      "isWin": false,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.77,
+      "awayOdds": 2.07,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-19T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Everton",
+      "homeScore": 4,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 98,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 1.98,
+      "awayOdds": 1.84,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Luton",
+      "homeScore": 3,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": 100,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 2,
+      "awayOdds": 1.82,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "homeScore": 3,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 2.22,
+      "awayOdds": 1.67,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    },
+    {
+      "date": "2023-09-02T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Wolves",
+      "homeScore": 3,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": 56,
+      "isWin": true,
+      "factorValues": [
+        1
+      ],
+      "combinedValue": 1,
+      "homeOdds": 2.12,
+      "awayOdds": 1.73,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [1.000] Combined: 1.000 → BET HOME (Top 25%)"
+    }
+  ]
+}

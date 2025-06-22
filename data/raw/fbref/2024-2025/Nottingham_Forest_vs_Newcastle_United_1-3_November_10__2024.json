@@ -1,0 +1,152 @@
+{
+  "url": "https://fbref.com/en/matches/a41ce5c3/Nottingham-Forest-Newcastle-United-November-10-2024-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Newcastle United",
+  "matchDate": "November 10, 2024",
+  "score": "1-3",
+  "homeScore": 1,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 21,
+        "player": "Murillo",
+        "playerId": "1704b0b8",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Anthony Elanga"
+      },
+      {
+        "minute": 54,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 72,
+        "player": "Joelinton",
+        "playerId": "c17bfb65",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Alexander Isak"
+      },
+      {
+        "minute": 83,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Sandro Tonali"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 7,
+        "player": "Dan Burn",
+        "playerId": "b2d31e83",
+        "team": "Newcastle United"
+      },
+      {
+        "minute": 65,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "player": "Elliot Anderson",
+        "playerId": "de31038e",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Jota Silva",
+        "playerId": "4d77e622",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Sandro Tonali",
+        "playerId": "0db169ae",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Ramón Sosa",
+        "playerId": "2d3417a1",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 98,
+        "player": "William Osula",
+        "playerId": "7b355808",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

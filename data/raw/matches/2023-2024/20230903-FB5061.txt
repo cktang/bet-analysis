@@ -1,0 +1,414 @@
+03/09/2023
+FB5061
+Arsenal
+vs
+Manchester
+Utd
+1
+:
+1
+3
+:
+1
+%Event ID: FB5061
+Arsenal
+3
+1
+Manchester Utd
+Eng Premier
+Home/Away/Draw
+Arsenal (Home)
+Draw
+Manchester Utd (Away)
+1.58
+4.15
+3.95
+Home/Away/Draw- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Manchester Utd (Away)
+1.001
+17.00
+1000
+First Half HAD
+Arsenal (Home)
+Draw
+Manchester Utd (Away)
+1.97
+2.56
+4.15
+First Half HAD- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Manchester Utd (Away)
+7.00
+1.10
+12.00
+Handicap HAD
+Arsenal (Home)
+Draw
+Manchester Utd (Away)
+[-1]
+2.48
+[-1]
+3.75
+[+1]
+2.15
+Handicap
+Arsenal (Home)
+Manchester Utd (Away)
+[-0.5/-1]
+1.86
+[+0.5/+1]
+1.96
+Same Game All Up
+Bukayo SAKA to score first & Arsenal to win & Over [3.5] goals
+15.00
+Marcus RASHFORD to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+17.00
+Arsenal to win & Over [3.5] goals & Over [11.5] corners taken
+8.25
+The match to be drawn & Under [10.5] corners taken
+7.25
+Manchester Utd to win & Over [3.5] goals
+9.75
+Manchester Utd to score first in the match & Over [1.5] goals in the first half
+5.00
+Manchester Utd to score first & Arsenal to win by [2] goal(s) or more
+17.00
+First Half to be drawn & Arsenal to win the match by exactly [1] goal(s)
+8.25
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+4.85
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+11.00
+Arsenal to win both first half and the match & Exactly [4] goals in the Match
+12.00
+Arsenal to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+8.50
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+17.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+11.50
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.78
+1.92
+[3.5]
+1.98
+1.73
+[4.5]
+3.15
+1.30
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+6.50
+1.07
+[2/2.5]
+1.12
+5.10
+[2.5]
+1.23
+3.65
+[3/3.5]
+9.50
+1.01
+[3.5]
+9.50
+1.01
+[3.5/4]
+2.30
+1.54
+[4/4.5]
+2.50
+1.46
+[4.5]
+5.55
+1.10
+[5.5]
+4.75
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.93
+1.77
+[1.5/2]
+2.33
+1.53
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+5.80
+1.09
+[0.5/1]
+2.10
+1.65
+[1/1.5]
+3.80
+1.21
+[1.5]
+1.67
+2.07
+[1.5/2]
+2.08
+1.66
+[2/2.5]
+3.80
+1.21
+[2.5]
+1.77
+1.93
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.07
+1.67
+[12.5]
+2.65
+1.42
+[14.5]
+4.40
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+4.90
+1.13
+[10.5]
+1.63
+2.13
+[11.5]
+1.40
+2.70
+[12.5]
+1.40
+2.70
+[13.5]
+1.33
+3.00
+[14.5]
+1.22
+3.70
+[16.5]
+9.50
+1.02
+[17.5]
+5.55
+1.10
+First Team to Score
+Arsenal (Home)
+No Goals
+Manchester Utd (Away)
+1.46
+23.00
+2.44
+Next Team To Score- Last Odds for In Play Betting
+Arsenal (Home)
+No Goals
+Manchester Utd (Away)
+1st Goal
+1.54
+7.80
+2.80
+2nd Goal
+1.42
+9.25
+3.10
+3rd Goal
+9.25
+1.06
+17.00
+Total Goals
+0
+23.00
+1
+7.50
+2
+4.40
+3
+3.85
+4
+4.10
+5
+6.00
+6
+9.25
+7+
+10.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Arsenal (Home)
+Manchester Utd (Away)
+101 Bukayo SAKA
+3.90
+201 Marcus RASHFORD
+6.40
+102 Eddie NKETIAH
+4.80
+202 Anthony MARTIAL
+8.25
+103 GABRIEL Fernando JESUS
+5.10
+203 Bruno Borges FERNANDES
+9.25
+104 Leandro TROSSARD
+6.50
+204 Rasmus HOJLUND
+9.25
+105 GABRIEL Teodoro MARTINELLI
+7.25
+205 ANTONY Matheus dos Santos
+11.50
+106 Martin ODEGAARD
+9.00
+206 Alejandro GARNACHO
+11.50
+107 Kai HAVERTZ
+11.50
+207 Jadon SANCHO
+11.50
+108 Emile Smith ROWE
+13.00
+208 Carlos CASEMIRO
+21.00
+109 Fabio VIEIRA
+13.00
+209 Christian ERIKSEN
+30.00
+110 JORGINHO Luiz Frello
+20.00
+210 Harry MAGUIRE
+30.00
+111 Thomas PARTEY
+20.00
+211 Diogo DALOT
+40.00
+112 Declan RICE
+25.00
+212 Lisandro MARTINEZ
+50.00
+113 GABRIEL Magalhaes
+30.00
+213 Victor LINDELOF
+50.00
+114 William SALIBA
+30.00
+214 Aaron WAN-BISSAKA
+60.00
+115 Ben WHITE
+40.00
+116 Oleksandr ZINCHENKO
+40.00
+117 Takehiro TOMIYASU
+40.00
+120 Home Others
+21.00
+220 Away Others
+25.00
+00 No First Scorer
+18.80
+HaFu
+H-H
+2.38
+H-D
+13.00
+H-A
+28.00
+D-H
+4.70
+D-D
+7.25
+D-A
+10.00
+A-H
+17.00
+A-D
+13.00
+A-A
+6.30
+Specials
+Item No.: 1 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+6.20
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.12
+(4) Be substituted
+5.50
+(5) None of the above
+2.30
+Item No.: 2 Which event will happen to Eddie NKETIAH (Arsenal) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+1.65
+(5) None of the above
+5.80
+Item No.: 3 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+4.80
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.95
+(5) None of the above
+3.45
+Item No.: 4 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+3.60
+(5) None of the above
+2.45
+Item No.: 5 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+2.75
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+4.30
+(4) Be substituted
+8.00
+(5) None of the above
+1.90

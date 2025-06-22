@@ -1,0 +1,160 @@
+{
+  "url": "https://fbref.com/en/matches/d7b30e2b/Leeds-United-Fulham-October-23-2022-Premier-League",
+  "homeTeam": "Leeds United",
+  "awayTeam": "Fulham",
+  "matchDate": "October 23, 2022",
+  "score": "2-3",
+  "homeScore": 2,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Rodrigo",
+        "playerId": "1fb1c435",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 26,
+        "player": "Aleksandar Mitrović",
+        "playerId": "3925dbd6",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      },
+      {
+        "minute": 74,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      },
+      {
+        "minute": 84,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Harrison Reed"
+      },
+      {
+        "minute": 91,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Joe Gelhardt"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 39,
+        "player": "Liam Cooper",
+        "playerId": "dc64b8b3",
+        "team": "Leeds United"
+      },
+      {
+        "minute": 62,
+        "player": "Antonee Robinson",
+        "playerId": "289601e6",
+        "team": "Fulham"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Neeskens Kebano",
+        "playerId": "18b999f4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Patrick Bamford",
+        "playerId": "93feac6e",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Mateusz Klich",
+        "playerId": "282679b4",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Joe Gelhardt",
+        "playerId": "01962d0d",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Shane Duffy",
+        "playerId": "7314bba4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

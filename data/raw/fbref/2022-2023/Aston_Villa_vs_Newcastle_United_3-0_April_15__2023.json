@@ -1,0 +1,137 @@
+{
+  "url": "https://fbref.com/en/matches/7bbac622/Aston-Villa-Newcastle-United-April-15-2023-Premier-League",
+  "homeTeam": "Aston Villa",
+  "awayTeam": "Newcastle United",
+  "matchDate": "April 15, 2023",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Jacob Ramsey",
+        "playerId": "1544f145",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Ollie Watkins"
+      },
+      {
+        "minute": 64,
+        "player": "Ollie Watkins",
+        "playerId": "aed3a70f",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Álex Moreno"
+      },
+      {
+        "minute": 83,
+        "player": "Ollie Watkins",
+        "playerId": "aed3a70f",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Jacob Ramsey"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 22,
+        "player": "Fabian Schär",
+        "playerId": "c8aa95da",
+        "team": "Newcastle United"
+      },
+      {
+        "minute": 93,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "player": "Miguel Almirón",
+        "playerId": "862a1c15",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Matt Targett",
+        "playerId": "e514ab62",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Elliot Anderson",
+        "playerId": "de31038e",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Calum Chambers",
+        "playerId": "dc6f5bdd",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Jáder Durán",
+        "playerId": "414184f7",
+        "team": "Aston Villa",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

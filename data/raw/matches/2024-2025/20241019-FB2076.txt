@@ -1,0 +1,823 @@
+19/10/2024
+FB2076
+Manchester
+Utd
+vs
+Brentford
+0
+:
+1
+2
+:
+1
+%Event ID: FB2076
+Manchester Utd
+2
+1
+Brentford
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1.49
+4.20
+4.55
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1.02
+12.00
+80.00
+First Half HAD
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1.86
+2.54
+4.80
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+5.40
+1.17
+11.50
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+[-1]
+2.37
+[-1]
+3.65
+[+1]
+2.25
+Handicap HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+[-2]
+125.0
+[-2]
+5.50
+[+2]
+1.05
+[-1]
+1.97
+[-1]
+2.28
+[+1]
+5.20
+Handicap
+Manchester Utd (Home)
+Brentford (Away)
+[-1]
+1.98
+[+1]
+1.84
+Handicap- Last Odds for In Play Betting
+Manchester Utd (Home)
+Brentford (Away)
+[-1]
+1.46
+[+1]
+2.55
+[-0.5/-1]
+1.12
+[+0.5/+1]
+5.30
+[0/+0.5]
+1.16
+[0/-0.5]
+4.65
+[-1/-1.5]
+2.68
+[+1/+1.5]
+1.42
+[0/-0.5]
+3.18
+[0/+0.5]
+1.31
+Same Game All Up
+Bruno Borges FERNANDES to score first & Manchester Utd to win [3:0]
+50.00
+Marcus RASHFORD to score first & The match to be drawn
+35.00
+Both teams to score in the match & Over [1.5] goals in the first half & Manchester Utd to win the match by [2] goal(s) or more
+7.25
+Over [5.5] corners taken in the first half & Over [14.5] corners taken in the match
+4.50
+Over [4.5] corners taken in the first half & Manchester Utd to win the match & Over [2.5] goals in the match
+3.30
+Manchester Utd to win & Over [3.5] goals & Over [10.5] corners taken
+5.75
+Brentford to win & Over [3.5] goals
+10.00
+Both teams to score & Over [13.5] corners taken
+4.60
+Manchester Utd to score first in the match & Brentford to score in the first half & The match to be drawn [2:2]
+35.00
+Brentford to score first & Manchester Utd to win & Over [11.5] corners taken
+16.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+6.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [2:0] in the match
+19.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [3:1] in the match
+45.00
+Manchester Utd to win [2:1] in the first half & Manchester Utd to win [4:1] in the match
+90.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+22.00
+First half to be drawn [1:1] & Brentford to win [2:1] in the match
+45.00
+Manchester Utd to win by [2] goal(s) or more & Over [4.5] goals
+7.75
+Brentford to win first half and Manchester Utd to win the match & Over [10.5] corners taken in the match
+35.00
+Manchester Utd to win both first half and the match & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+12.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.45
+2.55
+[3/3.5]
+1.91
+1.79
+[3.5]
+2.17
+1.61
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.11
+5.15
+[1.5/2]
+1.13
+4.75
+[2/2.5]
+2.20
+1.59
+[2.5]
+1.14
+4.60
+[2.5/3]
+1.17
+4.15
+[3/3.5]
+2.00
+1.72
+[3.5]
+1.29
+3.20
+[3.5/4]
+4.75
+1.13
+[4/4.5]
+9.50
+1.02
+[4.5]
+9.50
+1.02
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.04
+1.69
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.15
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.15
+1.17
+[1/1.5]
+8.00
+1.04
+[1.5]
+8.50
+1.03
+[1.5/2]
+2.50
+1.46
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.79
+1.91
+[12.5]
+2.20
+1.59
+[15.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.36
+2.85
+[10.5]
+1.39
+2.70
+[11.5]
+2.85
+1.36
+[12.5]
+6.60
+1.06
+[13.5]
+10.50
+1.01
+[14.5]
+5.40
+1.10
+[15.5]
+5.40
+1.10
+[16.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.92
+1.78
+[6.5]
+2.68
+1.40
+[7.5]
+3.80
+1.21
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.24
+3.55
+[3.5]
+1.21
+3.80
+[4.5]
+1.08
+5.90
+[5.5]
+1.14
+4.60
+[6.5]
+1.21
+3.80
+[7.5]
+2.60
+1.43
+[8.5]
+5.60
+1.09
+Correct Score
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1:0
+9.00
+0:0
+17.00
+0:1
+20.00
+2:0
+8.00
+1:1
+8.00
+0:2
+27.00
+2:1
+6.90
+2:2
+11.00
+1:2
+12.50
+3:0
+11.50
+3:3
+40.00
+0:3
+50.00
+3:1
+10.00
+1:3
+35.00
+3:2
+17.00
+2:3
+30.00
+4:0
+21.00
+0:4
+150.0
+4:1
+19.00
+1:4
+70.00
+4:2
+35.00
+2:4
+70.00
+5:0
+40.00
+0:5
+500.0
+5:1
+40.00
+1:5
+300.0
+5:2
+50.00
+2:5
+300.0
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+25.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1:0
+3.55
+0:0
+4.65
+0:1
+5.60
+2:0
+6.00
+1:1
+3.25
+0:2
+8.50
+2:1
+1.13
+2:2
+12.10
+1:2
+8.25
+3:0
+15.50
+3:3
+1000
+0:3
+30.00
+3:1
+7.20
+1:3
+40.00
+3:2
+100.0
+2:3
+81.00
+4:0
+50.00
+0:4
+150.0
+4:1
+150.0
+1:4
+350.0
+4:2
+1000
+2:4
+1000
+5:0
+250.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1:0
+3.80
+0:0
+3.40
+0:1
+6.90
+2:0
+6.60
+1:1
+6.60
+0:2
+19.00
+2:1
+10.50
+2:2
+40.00
+1:2
+19.00
+3:0
+16.00
+3:3
+500.0
+0:3
+100.0
+3:1
+35.00
+1:3
+100.0
+3:2
+100.0
+2:3
+200.0
+4:0
+70.00
+0:4
+600.0
+4:1
+125.0
+1:4
+600.0
+4:2
+400.0
+2:4
+800.0
+5:0
+300.0
+0:5
+2000
+5:1
+500.0
+1:5
+2000
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brentford (Away)
+1:0
+5.50
+0:0
+1.18
+0:1
+11.60
+2:0
+80.00
+1:1
+70.00
+0:2
+250.0
+2:1
+700.0
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Brentford (Away)
+1.41
+17.00
+2.68
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Brentford (Away)
+1st Goal
+1.66
+4.65
+3.08
+2nd Goal
+1.49
+5.60
+3.44
+3rd Goal
+1.66
+3.25
+4.40
+4th Goal
+6.70
+1.13
+10.50
+Total Goals
+0
+17.00
+1
+6.50
+2
+4.05
+3
+3.70
+4
+4.30
+5
+6.20
+6
+10.50
+7+
+12.50
+Total Goals- Last Odds for In Play Betting
+0
+4.65
+1
+5.60
+2
+3.25
+3
+1.28
+4
+2.94
+5
+19.00
+6
+200.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Manchester Utd (Home)
+Brentford (Away)
+101 Rasmus HOJLUND
+4.60
+201 Bryan MBEUMO
+6.00
+102 Joshua ZIRKZEE
+4.70
+202 Kevin SCHADE
+9.75
+103 Alejandro GARNACHO
+5.20
+203 Fabio CARVALHO
+10.00
+104 Bruno Borges FERNANDES
+5.60
+204 Gustavo NUNES
+11.50
+105 Marcus RASHFORD
+5.60
+205 Keane LEWIS-POTTER
+18.00
+106 Amad DIALLO
+5.90
+206 Tony YOGANE
+21.00
+107 ANTONY Matheus dos Santos
+7.00
+207 Yehor YARMOLYUK
+22.00
+108 Carlos CASEMIRO
+15.00
+208 Mikkel DAMSGAARD
+23.00
+109 Mason MOUNT
+15.00
+209 Ryan TREVITT
+26.00
+110 Christian ERIKSEN
+16.00
+210 Mathias JENSEN
+30.00
+111 Kobbie MAINOO
+21.00
+211 Christian NORGAARD
+30.00
+112 Toby COLLYER
+21.00
+212 Ethan PINNOCK
+35.00
+113 Matthijs DE LIGT
+24.00
+213 Jayden MEGHOMA
+35.00
+114 Lisandro MARTINEZ
+35.00
+214 Ben MEE
+35.00
+115 Manuel UGARTE
+40.00
+215 Nathan COLLINS
+35.00
+116 Jonny EVANS
+45.00
+216 Vitaly JANELT
+35.00
+117 Noussair MAZRAOUI
+45.00
+217 Yunus Emre KONAK
+45.00
+118 Diogo DALOT
+50.00
+218 Sepp VAN DEN BERG
+60.00
+119 Luke SHAW
+50.00
+219 KIM Ji Soo
+70.00
+120 Home Others
+10.50
+220 Away Others
+19.00
+00 No First Scorer
+16.80
+HaFu
+H-H
+2.20
+H-D
+14.00
+H-A
+27.00
+D-H
+4.30
+D-D
+7.00
+D-A
+10.50
+A-H
+16.00
+A-D
+14.00
+A-A
+7.75
+Specials
+Item No.: 1 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+1.45
+(5) None of the above
+7.00
+Item No.: 2 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+1.63
+(5) None of the above
+4.40
+Item No.: 3 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.00
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+2.35
+(4) Be substituted
+9.00
+(5) None of the above
+2.10
+Item No.: 4 Which event will happen to Alejandro GARNACHO (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+2.00
+(5) None of the above
+3.60
+Item No.: 5 Which event will happen to Bryan MBEUMO (Brentford) first?
+(1) Receive a Yellow Card
+5.70
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+8.00
+(5) None of the above
+1.85

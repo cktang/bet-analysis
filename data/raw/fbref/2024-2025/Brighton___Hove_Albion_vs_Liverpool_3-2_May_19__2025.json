@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/1f3db37a/Brighton-and-Hove-Albion-Liverpool-May-19-2025-Premier-League",
+  "homeTeam": "Brighton & Hove Albion",
+  "awayTeam": "Liverpool",
+  "matchDate": "May 19, 2025",
+  "score": "3-2",
+  "homeScore": 3,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 9,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Conor Bradley"
+      },
+      {
+        "minute": 32,
+        "player": "Yasin Ayari",
+        "playerId": "f173303a",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Brajan Gruda"
+      },
+      {
+        "minute": 46,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Harvey Elliott"
+      },
+      {
+        "minute": 69,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 85,
+        "player": "Jack Hinshelwood",
+        "playerId": "e98211e7",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Matt O'Riley"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 77,
+        "player": "Adam Webster",
+        "playerId": "c40b6180",
+        "team": "Brighton & Hove Albion"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Matt O'Riley",
+        "playerId": "fb495bb8",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Diego Gómez",
+        "playerId": "916728da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Jack Hinshelwood",
+        "playerId": "e98211e7",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Harry Howell",
+        "playerId": "d8a7e52c",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

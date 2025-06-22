@@ -1,0 +1,657 @@
+28/12/2023
+FB9981
+Chelsea
+vs
+Crystal
+Palace
+1
+:
+1
+2
+:
+1
+%Event ID: FB9981
+Chelsea
+2
+1
+Crystal Palace
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1.62
+3.60
+4.30
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1.02
+12.00
+80.00
+First Half HAD
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+2.17
+2.14
+4.70
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1.02
+10.50
+90.00
+Handicap HAD
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+2.88
+[-1]
+3.25
+[+1]
+2.07
+Handicap
+Chelsea (Home)
+Crystal Palace (Away)
+[-0.5/-1]
+1.95
+[+0.5/+1]
+1.87
+Same Game All Up
+Nicolas JACKSON to score first & Chelsea to win by [2] goal(s) or more & Over [9.5] corners taken
+15.00
+Chelsea to win & Over [3.5] goals & Over [11.5] corners taken
+11.00
+The match to be drawn & Under [10.5] corners taken
+6.00
+Crystal Palace to win & Over [2.5] goals
+8.00
+Christopher NKUNKU to score first & Chelsea to win by [3] goal(s) or more
+17.00
+Chelsea to score first in the match & Chelsea to win the first half & Over [1.5] goals in the first half
+5.00
+Chelsea to score first & Crystal Palace to win or draw
+6.50
+Crystal Palace to score first in the match & Over [1.5] goals in the first half
+7.00
+Crystal Palace to score first & Chelsea to win by [2] goal(s) or more
+22.00
+First Half to be drawn & Chelsea to win the match by exactly [1] goal(s)
+5.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+10.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+12.00
+Chelsea to win [2:0] in the first half & Chelsea to win [2:1] in the match
+45.00
+Chelsea to win [1:0] in the first half & Chelsea to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Crystal Palace to win [2:1] in the match
+55.00
+Chelsea to win both first half and the match & Exactly [4] goals in the Match
+12.00
+Chelsea to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+9.50
+Crystal Palace to win both first half and the match & Exactly [3] goals in the Match
+22.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+10.00
+HiLo
+Line
+High
+Low
+[2/2.5]
+1.57
+2.25
+[2.5]
+1.78
+1.92
+[2.5/3]
+2.01
+1.71
+[3.5]
+2.85
+1.36
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+4.05
+1.18
+[2/2.5]
+1.65
+2.10
+[2.5]
+1.18
+4.05
+[2.5/3]
+3.55
+1.24
+[3/3.5]
+8.00
+1.04
+[3.5]
+8.50
+1.03
+[4/4.5]
+9.50
+1.02
+[4.5]
+8.00
+1.04
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.17
+1.61
+[1.5]
+2.48
+1.47
+[1.5/2]
+3.10
+1.31
+[2.5]
+5.60
+1.09
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.95
+1.12
+[0.5/1]
+1.74
+1.97
+[1/1.5]
+2.85
+1.36
+[1.5]
+1.45
+2.54
+[2/2.5]
+8.50
+1.02
+[2.5]
+8.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.52
+2.35
+[10.5]
+1.80
+1.90
+[11.5]
+2.17
+1.61
+[12.5]
+2.70
+1.39
+[14.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+3.05
+1.32
+[5.5]
+1.16
+4.30
+[6.5]
+1.26
+3.40
+[8.5]
+7.00
+1.05
+[9.5]
+5.40
+1.10
+[10.5]
+4.95
+1.12
+[11.5]
+3.45
+1.25
+[12.5]
+3.35
+1.27
+[13.5]
+4.15
+1.17
+[14.5]
+4.40
+1.15
+Correct Score
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1:0
+6.50
+0:0
+10.50
+0:1
+13.00
+2:0
+7.50
+1:1
+6.70
+0:2
+22.00
+2:1
+6.70
+2:2
+13.50
+1:2
+12.50
+3:0
+12.50
+3:3
+50.00
+0:3
+40.00
+3:1
+12.50
+1:3
+30.00
+3:2
+23.00
+2:3
+35.00
+4:0
+28.00
+0:4
+150.0
+4:1
+28.00
+1:4
+80.00
+4:2
+40.00
+2:4
+100.0
+5:0
+50.00
+0:5
+600.0
+5:1
+50.00
+1:5
+400.0
+5:2
+80.00
+2:5
+400.0
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+40.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1:0
+4.30
+0:0
+7.60
+0:1
+9.25
+2:0
+3.50
+1:1
+1.33
+0:2
+18.00
+2:1
+1.12
+2:2
+12.00
+1:2
+8.75
+3:0
+6.90
+3:3
+1000
+0:3
+60.00
+3:1
+8.25
+1:3
+125.0
+3:2
+125.0
+2:3
+90.00
+4:0
+20.00
+0:4
+300.0
+4:1
+250.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+80.00
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+350.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1:0
+3.45
+0:0
+2.75
+0:1
+6.60
+2:0
+6.80
+1:1
+6.70
+0:2
+19.00
+2:1
+13.50
+2:2
+60.00
+1:2
+24.00
+3:0
+24.00
+3:3
+800.0
+0:3
+100.0
+3:1
+50.00
+1:3
+150.0
+3:2
+200.0
+2:3
+400.0
+4:0
+100.0
+0:4
+700.0
+4:1
+250.0
+1:4
+700.0
+4:2
+700.0
+2:4
+1500
+5:0
+600.0
+0:5
+2500
+5:1
+800.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Crystal Palace (Away)
+1:0
+1.08
+0:0
+2.09
+0:1
+5.20
+2:0
+9.50
+1:1
+16.00
+0:2
+27.00
+2:1
+100.0
+2:2
+2500
+1:2
+400.0
+3:0
+150.0
+3:3
+2500
+0:3
+150.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Chelsea (Home)
+No Goals
+Crystal Palace (Away)
+1.49
+10.50
+2.68
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Crystal Palace (Away)
+1st Goal
+1.60
+7.60
+2.62
+2nd Goal
+1.78
+4.30
+2.88
+3rd Goal
+3.90
+1.33
+7.60
+4th Goal
+7.40
+1.12
+10.50
+Total Goals
+0
+10.50
+1
+4.65
+2
+3.35
+3
+3.70
+4
+4.95
+5
+8.00
+6
+18.00
+7+
+27.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+2.50
+H-D
+14.00
+H-A
+30.00
+D-H
+4.15
+D-D
+5.40
+D-A
+9.25
+A-H
+21.00
+A-D
+14.00
+A-A
+7.00
+Specials
+Item No.: 1 Which event will happen to Nicolas JACKSON (Chelsea) first?
+(1) Receive a Yellow Card
+4.20
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+2.17
+(5) None of the above
+3.90
+Item No.: 2 How many goal(s) will Nicolas JACKSON (Chelsea) score?
+(1) No Goal
+1.28
+(2) 1 Goal
+3.55
+(3) 2 Goals
+9.50
+(4) 3 Goals or more
+20.00
+Item No.: 3 Which event will happen to Armando BROJA (Chelsea) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.40
+(4) Be substituted
+1.60
+(5) None of the above
+4.40
+Item No.: 4 Which event will happen to Mykhaylo MUDRYK (Chelsea) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+1.96
+(5) None of the above
+3.20
+Item No.: 5 Which event will happen to Christopher NKUNKU (Chelsea) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+1.82
+(5) None of the above
+5.80

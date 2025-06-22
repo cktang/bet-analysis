@@ -1,0 +1,774 @@
+11/02/2024
+FB1357
+West
+Ham
+vs
+Arsenal
+0
+:
+4
+0
+:
+6
+%Event ID: FB1357
+West Ham
+0
+6
+Arsenal
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Arsenal (Away)
+5.80
+4.10
+1.40
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Arsenal (Away)
+700.0
+100.0
+1.001
+First Half HAD
+West Ham (Home)
+Draw
+Arsenal (Away)
+5.60
+2.37
+1.85
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Arsenal (Away)
+1000
+100.0
+1.001
+Handicap HAD
+West Ham (Home)
+Draw
+Arsenal (Away)
+[+1]
+2.52
+[+1]
+3.45
+[-1]
+2.20
+Handicap
+West Ham (Home)
+Arsenal (Away)
+[+1]
+1.99
+[-1]
+1.83
+Same Game All Up
+Bukayo SAKA to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+17.00
+GABRIEL Teodoro MARTINELLI to score first & Over [2.5] goals & Over [10.5] corners taken
+17.00
+Jarrod BOWEN to score first & West Ham to win & Over [2.5] goals
+30.00
+Arsenal to win & Over [3.5] goals & Over [10.5] corners taken
+6.25
+The match to be drawn & Under [8.5] corners taken
+11.00
+West Ham to win & Over [2.5] goals
+8.50
+Arsenal to score first & West Ham to win or draw
+7.00
+Arsenal to win the first half & Over [2.5] goals in the first half
+7.25
+First Half to be drawn & Arsenal to win the match by exactly [1] goal(s)
+6.00
+West Ham to win the first half & West Ham clean sheet in the first half
+6.25
+West Ham to score in the first half & First Half to be drawn and Arsenal to win the match & Over [11.5] corners taken in the match
+30.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+18.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.00
+Arsenal to win [1:0] in the first half & Arsenal to win [3:1] in the match
+35.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+40.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+22.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+First half to be drawn [0:0] & West Ham to win [1:0] in the match
+29.00
+West Ham to win [1:0] in the first half & West Ham to win [2:1] in the match
+40.00
+Arsenal to win by [3] goal(s) or more & Arsenal clean sheet
+6.25
+HiLo
+Line
+High
+Low
+[2.5]
+1.65
+2.10
+[2.5/3]
+1.83
+1.87
+[3/3.5]
+2.38
+1.51
+[3.5]
+2.60
+1.43
+[4.5]
+4.60
+1.14
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.08
+5.90
+[1.5/2]
+1.11
+5.15
+[2/2.5]
+2.20
+1.59
+[2.5]
+1.12
+4.95
+[2.5/3]
+1.16
+4.30
+[3/3.5]
+2.38
+1.51
+[3.5]
+1.15
+4.40
+[3.5/4]
+1.20
+3.90
+[4.5]
+1.12
+4.95
+[4.5/5]
+1.54
+2.30
+[5/5.5]
+2.35
+1.52
+[5.5]
+1.37
+2.80
+[5.5/6]
+1.56
+2.27
+[6/6.5]
+2.50
+1.46
+[6.5]
+1.41
+2.65
+[6.5/7]
+6.25
+1.07
+[7/7.5]
+12.00
+1.001
+[7.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.97
+1.74
+[1.5]
+2.29
+1.55
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.98
+1.33
+[1/1.5]
+5.90
+1.08
+[1.5]
+5.90
+1.08
+[1.5/2]
+4.95
+1.12
+[2.5]
+11.50
+1.002
+[2.5/3]
+6.25
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.60
+2.19
+[10.5]
+1.90
+1.80
+[11.5]
+2.35
+1.52
+[12.5]
+2.98
+1.33
+[13.5]
+3.80
+1.21
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+8.00
+1.04
+[8.5]
+1.28
+3.25
+[10.5]
+12.00
+1.001
+[11.5]
+12.00
+1.001
+[12.5]
+5.60
+1.09
+[13.5]
+5.90
+1.08
+[14.5]
+4.60
+1.14
+[15.5]
+4.60
+1.14
+[16.5]
+4.40
+1.15
+Correct Score
+West Ham (Home)
+Draw
+Arsenal (Away)
+1:0
+17.00
+0:0
+13.00
+0:1
+6.50
+2:0
+30.00
+1:1
+7.75
+0:2
+6.50
+2:1
+15.00
+2:2
+14.50
+1:2
+6.90
+3:0
+70.00
+3:3
+50.00
+0:3
+9.25
+3:1
+40.00
+1:3
+10.50
+3:2
+40.00
+2:3
+20.00
+4:0
+300.0
+0:4
+18.00
+4:1
+125.0
+1:4
+20.00
+4:2
+125.0
+2:4
+40.00
+5:0
+800.0
+0:5
+40.00
+5:1
+600.0
+1:5
+40.00
+5:2
+600.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+60.00
+Home Others
+(Away Scores)
+125.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Arsenal (Away)
+1:0
+10.00
+0:0
+6.50
+0:1
+5.20
+2:0
+30.00
+1:1
+7.00
+0:2
+4.90
+2:1
+22.00
+2:2
+18.00
+1:2
+7.00
+3:0
+150.0
+3:3
+150.0
+0:3
+5.50
+3:1
+100.0
+1:3
+8.25
+3:2
+50.00
+2:3
+30.00
+4:0
+1000
+0:4
+2.77
+4:1
+800.0
+1:4
+7.20
+4:2
+350.0
+2:4
+35.00
+5:0
+1000
+0:5
+2.64
+5:1
+1000
+1:5
+7.60
+5:2
+1000
+2:5
+45.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1.02
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+6.40
+First Half Correct Score
+West Ham (Home)
+Draw
+Arsenal (Away)
+1:0
+7.00
+0:0
+2.96
+0:1
+3.40
+2:0
+26.00
+1:1
+7.00
+0:2
+6.00
+2:1
+30.00
+2:2
+60.00
+1:2
+13.00
+3:0
+150.0
+3:3
+700.0
+0:3
+15.00
+3:1
+150.0
+1:3
+40.00
+3:2
+400.0
+2:3
+150.0
+4:0
+800.0
+0:4
+70.00
+4:1
+900.0
+1:4
+150.0
+4:2
+1500
+2:4
+600.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Arsenal (Away)
+1:0
+10.00
+0:0
+1.46
+0:1
+1.22
+2:0
+100.0
+1:1
+7.80
+0:2
+1.09
+2:1
+71.00
+2:2
+450.0
+1:2
+16.50
+3:0
+2500
+3:3
+2500
+0:3
+1.02
+3:1
+2500
+1:3
+55.00
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+21.00
+4:1
+2500
+1:4
+350.0
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+West Ham (Home)
+No Goals
+Arsenal (Away)
+3.10
+13.00
+1.35
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+3.36
+6.50
+1.45
+2nd Goal
+3.24
+5.20
+1.56
+3rd Goal
+3.22
+4.90
+1.60
+4th Goal
+3.46
+5.50
+1.49
+5th Goal
+4.30
+2.77
+1.83
+6th Goal
+4.55
+2.64
+1.85
+7th Goal
+18.00
+1.06
+9.00
+Total Goals
+0
+13.00
+1
+5.10
+2
+3.60
+3
+3.65
+4
+4.75
+5
+7.00
+6
+14.00
+7+
+21.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+West Ham (Home)
+Arsenal (Away)
+101 Jarrod BOWEN
+8.25
+201 Bukayo SAKA
+4.35
+102 Danny INGS
+10.50
+202 GABRIEL Fernando JESUS
+4.80
+103 LUCAS PAQUETA
+13.00
+204 Eddie NKETIAH
+5.00
+104 James WARD-PROWSE
+13.50
+206 Leandro TROSSARD
+5.30
+105 Mohammed KUDUS
+13.50
+205 GABRIEL Teodoro MARTINELLI
+5.60
+106 Maxwell CORNET
+18.00
+207 Reiss NELSON
+6.70
+108 Ben JOHNSON
+18.00
+203 Kai HAVERTZ
+7.00
+107 Tomas SOUCEK
+24.00
+209 Emile Smith ROWE
+7.75
+109 Edson Omar ALVAREZ
+55.00
+208 Martin ODEGAARD
+8.25
+110 Kurt ZOUMA
+55.00
+210 Declan RICE
+25.00
+111 Aaron CRESSWELL
+75.00
+211 JORGINHO Luiz Frello
+28.00
+112 Konstantinos MAVROPANOS
+75.00
+212 GABRIEL Magalhaes
+28.00
+113 Nayef AGUERD
+75.00
+213 William SALIBA
+40.00
+114 EMERSON PALMIERI dos Santos
+90.00
+214 Ben WHITE
+50.00
+115 Vladimir COUFAL
+90.00
+215 Jakub KIWIOR
+50.00
+216 Oleksandr ZINCHENKO
+50.00
+217 Takehiro TOMIYASU
+50.00
+120 Home Others
+18.00
+220 Away Others
+12.50
+00 No First Scorer
+12.80
+HaFu
+H-H
+10.50
+H-D
+15.00
+H-A
+20.00
+D-H
+12.50
+D-D
+6.40
+D-A
+3.85
+A-H
+35.00
+A-D
+15.00
+A-A
+2.04
+Specials
+Item No.: 1 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.25
+(4) Be substituted
+7.50
+(5) None of the above
+1.59
+Item No.: 2 Which event will happen to Mohammed KUDUS (West Ham) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.50
+(4) Be substituted
+1.68
+(5) None of the above
+3.40
+Item No.: 3 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.00
+(4) Be substituted
+5.00
+(5) None of the above
+2.20
+Item No.: 4 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.80
+(4) Be substituted
+1.58
+(5) None of the above
+5.50
+Item No.: 5 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+5.25
+(5) None of the above
+1.63

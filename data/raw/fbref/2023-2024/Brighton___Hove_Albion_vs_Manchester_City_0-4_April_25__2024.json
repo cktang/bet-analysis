@@ -1,0 +1,159 @@
+{
+  "url": "https://fbref.com/en/matches/45bb8cac/Brighton-and-Hove-Albion-Manchester-City-April-25-2024-Premier-League",
+  "homeTeam": "Brighton & Hove Albion",
+  "awayTeam": "Manchester City",
+  "matchDate": "April 25, 2024",
+  "score": "0-4",
+  "homeScore": 0,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kyle Walker"
+      },
+      {
+        "minute": 26,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 34,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Bernardo Silva"
+      },
+      {
+        "minute": 62,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kyle Walker"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 35,
+        "player": "Joël Veltman",
+        "playerId": "dad4b285",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 76,
+        "player": "Carlos Baleba",
+        "playerId": "a1390d2f",
+        "team": "Brighton & Hove Albion"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Odeluga Offiah",
+        "playerId": "65c3efa2",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Simon Adingra",
+        "playerId": "4dcec659",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Igor",
+        "playerId": "a4e85758",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Mark O'Mahony",
+        "playerId": "a3afdd69",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Sergio Gómez",
+        "playerId": "01e5f06e",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "url": "https://fbref.com/en/matches/0486198b/Nottingham-Forest-Everton-December-2-2023-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Everton",
+  "matchDate": "December 2, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 67,
+        "player": "Dwight McNeil",
+        "playerId": "fc15fb84",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 55,
+        "player": "Felipe",
+        "playerId": "51a3c4c8",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Felipe",
+        "playerId": "51a3c4c8",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Callum Hudson-Odoi",
+        "playerId": "15f3ec41",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Divock Origi",
+        "playerId": "43a166b4",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Youssef Chermiti",
+        "playerId": "890f108d",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 4
+  }
+}

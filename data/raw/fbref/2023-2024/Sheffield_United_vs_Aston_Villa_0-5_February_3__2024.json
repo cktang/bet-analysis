@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/b3e195c5/Sheffield-United-Aston-Villa-February-3-2024-Premier-League",
+  "homeTeam": "Sheffield United",
+  "awayTeam": "Aston Villa",
+  "matchDate": "February 3, 2024",
+  "score": "0-5",
+  "homeScore": 0,
+  "awayScore": 5,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 12,
+        "player": "John McGinn",
+        "playerId": "90f91999",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 16,
+        "player": "Ollie Watkins",
+        "playerId": "aed3a70f",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Douglas Luiz"
+      },
+      {
+        "minute": 20,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Ollie Watkins"
+      },
+      {
+        "minute": 30,
+        "player": "Youri Tielemans",
+        "playerId": "56f7a928",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 47,
+        "player": "Álex Moreno",
+        "playerId": "16e9d0ea",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Ollie Watkins"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 44,
+        "player": "Jayden Bogle",
+        "playerId": "ae5019e6",
+        "team": "Sheffield United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Gustavo Hamer",
+        "playerId": "eebacc07",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Jacob Ramsey",
+        "playerId": "1544f145",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 50,
+        "player": "Ben Osborn",
+        "playerId": "79bc4c45",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 50,
+        "player": "Jack Robinson",
+        "playerId": "7399c7a8",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Matty Cash",
+        "playerId": "2389cdc2",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Moussa Diaby",
+        "playerId": "aeed5c06",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Tim Iroegbunam",
+        "playerId": "84c5ceea",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Tom Davies",
+        "playerId": "9228b07c",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Morgan Rogers",
+        "playerId": "2e5915f1",
+        "team": "Aston Villa",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

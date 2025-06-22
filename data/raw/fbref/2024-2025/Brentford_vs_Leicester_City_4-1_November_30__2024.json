@@ -1,0 +1,174 @@
+{
+  "url": "https://fbref.com/en/matches/f4f9a64f/Brentford-Leicester-City-November-30-2024-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Leicester City",
+  "matchDate": "November 30, 2024",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 21,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": "Jamie Vardy"
+      },
+      {
+        "minute": 25,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Kevin Schade"
+      },
+      {
+        "minute": 29,
+        "player": "Kevin Schade",
+        "playerId": "52afb588",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 53,
+        "player": "Kevin Schade",
+        "playerId": "52afb588",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Mikkel Damsgaard"
+      },
+      {
+        "minute": 59,
+        "player": "Kevin Schade",
+        "playerId": "52afb588",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Nathan Collins"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 63,
+        "player": "Keane Lewis-Potter",
+        "playerId": "41f08ac8",
+        "team": "Brentford"
+      },
+      {
+        "minute": 82,
+        "player": "James Justin",
+        "playerId": "fb614c44",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 35,
+        "player": "Jannik Vestergaard",
+        "playerId": "1900032e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 42,
+        "player": "Vitaly Janelt",
+        "playerId": "8449d35e",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Oliver Skipp",
+        "playerId": "6250083a",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Thiago",
+        "playerId": "dc45ac24",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Mads Roerslev",
+        "playerId": "57c94db2",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "url": "https://fbref.com/en/matches/3091f0b8/Aston-Villa-Manchester-City-September-3-2022-Premier-League",
+  "homeTeam": "Aston Villa",
+  "awayTeam": "Manchester City",
+  "matchDate": "September 3, 2022",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 50,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 74,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Jacob Ramsey"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 26,
+        "player": "Matty Cash",
+        "playerId": "2389cdc2",
+        "team": "Aston Villa"
+      },
+      {
+        "minute": 71,
+        "player": "Lucas Digne",
+        "playerId": "1b84dbe1",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 27,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Philippe Coutinho",
+        "playerId": "0ef89a37",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Riyad Mahrez",
+        "playerId": "892d5bb1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Nathan Aké",
+        "playerId": "eaeca114",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Emi Buendía",
+        "playerId": "66b76d44",
+        "team": "Aston Villa",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

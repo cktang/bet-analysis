@@ -1,0 +1,858 @@
+27/12/2024
+FB5597
+Liverpool
+vs
+Leicester
+1
+:
+1
+3
+:
+1
+%Event ID: FB5597
+Liverpool
+3
+1
+Leicester
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Leicester (Away)
+1.05
+11.00
+20.00
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Leicester (Away)
+1.001
+35.00
+50.00
+First Half HAD
+Liverpool (Home)
+Draw
+Leicester (Away)
+1.21
+4.15
+13.50
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Leicester (Away)
+50.00
+4.35
+1.12
+Handicap HAD
+Liverpool (Home)
+Draw
+Leicester (Away)
+[-3]
+2.27
+[-3]
+4.30
+[+3]
+2.17
+Handicap HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Leicester (Away)
+[-3]
+50.00
+[-3]
+4.25
+[+3]
+1.13
+[-1]
+1.77
+[-1]
+3.07
+[+1]
+4.00
+[-2]
+1.89
+[-2]
+1.84
+[+2]
+15.00
+Handicap
+Liverpool (Home)
+Leicester (Away)
+[-2.5/-3]
+1.77
+[+2.5/+3]
+2.07
+Handicap- Last Odds for In Play Betting
+Liverpool (Home)
+Leicester (Away)
+[-3]
+2.76
+[+3]
+1.40
+[-1/-1.5]
+1.001
+[+1/+1.5]
+35.00
+[-1]
+1.32
+[+1]
+3.13
+[-2.5/-3]
+1.75
+[+2.5/+3]
+1.99
+[-2]
+2.09
+[+2]
+1.67
+[-1.5/-2]
+2.52
+[+1.5/+2]
+1.47
+[-2/-2.5]
+3.60
+[+2/+2.5]
+1.25
+Same Game All Up
+Mohamed SALAH to score first & Liverpool to win by [3] goal(s) or more & Over [10.5] corners taken
+9.00
+DIOGO Jota to score first & Liverpool to win by [4] goal(s) or more
+9.50
+Jamie VARDY to score first & Leicester to win
+60.00
+Both teams to score & Liverpool to win by [3] goal(s) or more & Over [11.5] corners taken
+8.50
+Both teams to score in the match & First Half to be drawn & Liverpool to win the match by [2] goal(s) or more
+14.50
+Both teams to score & Leicester to win & Under [11.5] corners taken
+50.00
+Both teams to score & The match to be drawn & Under [10.5] corners taken
+30.00
+Over [2.5] goals in the first half & Over [5.5] goals in the match & Over [12.5] corners taken in the match
+12.50
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+8.25
+Leicester to score first & Liverpool to win by [3] goal(s) or more
+14.50
+Leicester to score in the first half & Liverpool to win the match by exactly [2] goal(s)
+14.50
+Liverpool to win by [3] goal(s) or more & Over [13.5] corners taken
+5.20
+Liverpool to win by exactly [2] goal(s) & Under [10.5] corners taken
+9.25
+First half to be drawn [0:0] & Liverpool to win the match by [3] goal(s) or more
+18.00
+Liverpool to win [1:0] in the first half & Liverpool to win [2:0] in the match
+15.50
+Liverpool to win [2:0] in the first half & Liverpool to win [3:1] in the match
+40.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:0] in the match
+17.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:1] in the match
+35.00
+Liverpool to win [3:0] in the first half & Liverpool to win [5:0] in the match
+28.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.46
+2.50
+[4.5]
+2.10
+1.65
+[5.5]
+3.10
+1.31
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.37
+2.80
+[3.5/4]
+2.00
+1.72
+[4/4.5]
+3.40
+1.26
+[4.5]
+1.63
+2.13
+[4.5/5]
+5.90
+1.08
+[5/5.5]
+11.50
+1.002
+[5.5]
+11.50
+1.002
+[6.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5/2]
+1.66
+2.08
+[2.5]
+2.55
+1.45
+[3.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.09
+5.60
+[1.5/2]
+5.15
+1.11
+[2/2.5]
+11.50
+1.002
+[2.5]
+11.50
+1.002
+[2.5/3]
+2.13
+1.63
+[3.5]
+5.60
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.00
+1.72
+[12.5]
+2.55
+1.45
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.46
+2.50
+[11.5]
+1.40
+2.68
+[12.5]
+1.43
+2.60
+[13.5]
+1.46
+2.50
+[14.5]
+1.77
+1.93
+[15.5]
+6.25
+1.07
+[16.5]
+12.00
+1.001
+[17.5]
+12.00
+1.001
+[18.5]
+6.60
+1.06
+[19.5]
+4.05
+1.18
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.85
+1.85
+[6.5]
+2.62
+1.42
+[8.5]
+5.60
+1.09
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.25
+3.45
+[5.5]
+1.26
+3.40
+[6.5]
+1.15
+4.40
+[7.5]
+1.12
+4.95
+[8.5]
+1.18
+4.05
+[9.5]
+1.17
+4.15
+[10.5]
+5.60
+1.09
+[11.5]
+11.50
+1.002
+[12.5]
+12.00
+1.001
+Correct Score
+Liverpool (Home)
+Draw
+Leicester (Away)
+1:0
+14.50
+0:0
+35.00
+0:1
+60.00
+2:0
+8.25
+1:1
+25.00
+0:2
+125.0
+2:1
+12.00
+2:2
+30.00
+1:2
+40.00
+3:0
+6.70
+3:3
+80.00
+0:3
+500.0
+3:1
+9.75
+1:3
+150.0
+3:2
+28.00
+2:3
+80.00
+4:0
+6.90
+0:4
+1000
+4:1
+11.00
+1:4
+600.0
+4:2
+30.00
+2:4
+500.0
+5:0
+9.50
+0:5
+1000
+5:1
+14.00
+1:5
+1000
+5:2
+40.00
+2:5
+1000
+Home Others
+(Away No Goal)
+8.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+7.75
+Draw Others
+200.0
+Away Others
+(Home Scores)
+300.0
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Leicester (Away)
+1:0
+12.00
+0:0
+35.00
+0:1
+9.25
+2:0
+7.00
+1:1
+7.40
+0:2
+28.00
+2:1
+2.02
+2:2
+14.50
+1:2
+25.00
+3:0
+5.90
+3:3
+1000
+0:3
+200.0
+3:1
+1.08
+1:3
+150.0
+3:2
+25.00
+2:3
+46.00
+4:0
+6.60
+0:4
+1000
+4:1
+6.60
+1:4
+1000
+4:2
+150.0
+2:4
+900.0
+5:0
+9.25
+0:5
+1000
+5:1
+125.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+9.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Leicester (Away)
+1:0
+3.60
+0:0
+6.10
+0:1
+21.00
+2:0
+3.70
+1:1
+10.50
+0:2
+80.00
+2:1
+10.50
+2:2
+60.00
+1:2
+50.00
+3:0
+6.20
+3:3
+700.0
+0:3
+600.0
+3:1
+19.00
+1:3
+400.0
+3:2
+80.00
+2:3
+500.0
+4:0
+14.00
+0:4
+2500
+4:1
+40.00
+1:4
+2000
+4:2
+200.0
+2:4
+2000
+5:0
+35.00
+0:5
+2500
+5:1
+85.00
+1:5
+2500
+5:2
+500.0
+2:5
+2500
+Home Others
+(Away No Goal)
+85.00
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+175.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Leicester (Away)
+1:0
+3.00
+0:0
+5.50
+0:1
+1.14
+2:0
+3.50
+1:1
+4.40
+0:2
+35.00
+2:1
+51.00
+2:2
+500.0
+1:2
+80.00
+3:0
+6.50
+3:3
+2500
+0:3
+1000
+3:1
+450.0
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+17.00
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+50.00
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Leicester (Away)
+1.06
+35.00
+6.00
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Leicester (Away)
+1st Goal
+1.14
+17.00
+5.40
+2nd Goal
+1.15
+9.25
+6.50
+3rd Goal
+1.15
+8.00
+6.80
+4th Goal
+1.78
+2.02
+12.00
+5th Goal
+6.50
+1.08
+23.00
+Total Goals
+0
+35.00
+1
+12.00
+2
+6.40
+3
+4.50
+4
+4.10
+5
+4.70
+6
+6.20
+7+
+5.40
+Total Goals- Last Odds for In Play Betting
+0
+35.00
+1
+9.25
+2
+7.40
+3
+2.02
+4
+1.18
+5
+3.65
+6
+35.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Liverpool (Home)
+Leicester (Away)
+101 Mohamed SALAH
+2.70
+201 Jamie VARDY
+15.00
+102 DIOGO Jota
+3.45
+202 Odsonne EDOUARD
+17.00
+103 Darwin NUNEZ
+3.50
+203 Patson DAKA
+17.00
+104 Luis DIAZ
+3.95
+204 Jordan AYEW
+23.00
+105 Cody GAKPO
+4.40
+205 Stephy MAVIDIDI
+24.00
+106 Federico CHIESA
+4.80
+206 Bobby REID
+27.00
+107 Harvey ELLIOTT
+8.75
+207 Facundo BUONANOTTE
+28.00
+108 Dominik SZOBOSZLAI
+9.75
+208 Kasey McATEER
+28.00
+109 Curtis JONES
+10.50
+209 Bilal EL KHANNOUSS
+30.00
+110 Alexis MAC ALLISTER
+12.00
+210 Harry WINKS
+80.00
+111 Conor BRADLEY
+19.00
+211 James JUSTIN
+80.00
+112 Ryan GRAVENBERCH
+20.00
+212 Caleb OKOLI
+95.00
+113 Trent ALEXANDER-ARNOLD
+20.00
+213 Hamza CHOUDHURY
+95.00
+114 Tyler MORTON
+20.00
+214 Oliver SKIPP
+95.00
+115 Wataru ENDO
+24.00
+216 Conor COADY
+125.0
+118 Virgil VAN DIJK
+25.00
+217 Jannik VESTERGAARD
+125.0
+116 Ibrahima KONATE
+26.00
+218 Wout FAES
+125.0
+117 Jarell QUANSAH
+26.00
+215 Boubakary SOUMARE
+150.0
+119 Andrew ROBERTSON
+30.00
+219 Luke THOMAS
+175.0
+120 Home Others
+7.75
+220 Away Others
+40.00
+00 No First Scorer
+34.80
+HaFu
+H-H
+1.22
+H-D
+28.00
+H-A
+80.00
+D-H
+4.50
+D-D
+18.00
+D-A
+55.00
+A-H
+21.00
+A-D
+28.00
+A-A
+45.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+14.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.31
+(4) Be substituted
+4.30
+(5) None of the above
+4.75
+Item No.: 2 Which event will happen to Darwin NUNEZ (Liverpool) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.93
+(4) Be substituted
+1.93
+(5) None of the above
+7.75
+Item No.: 3 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.85
+(4) Be substituted
+2.25
+(5) None of the above
+5.20
+Item No.: 4 Which event will happen to Cody GAKPO (Liverpool) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.20
+(4) Be substituted
+1.70
+(5) None of the above
+7.00
+Item No.: 5 Which event will happen to DIOGO Jota (Liverpool) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.10
+(4) Be substituted
+1.75
+(5) None of the above
+6.75
+Item No.: 6 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.60
+(2) 1 Goal
+2.40
+(3) 2 Goals
+3.75
+(4) 3 Goals or more
+6.25

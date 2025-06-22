@@ -1,0 +1,145 @@
+{
+  "url": "https://fbref.com/en/matches/3f653d6f/Leeds-United-Brighton-and-Hove-Albion-March-11-2023-Premier-League",
+  "homeTeam": "Leeds United",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "March 11, 2023",
+  "score": "2-2",
+  "homeScore": 2,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 33,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Kaoru Mitoma"
+      },
+      {
+        "minute": 40,
+        "player": "Patrick Bamford",
+        "playerId": "93feac6e",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Jack Harrison"
+      },
+      {
+        "minute": 61,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 78,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Wilfried Gnonto"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 83,
+        "player": "Moisés Caicedo",
+        "playerId": "16264a81",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 90,
+        "player": "Junior Firpo",
+        "playerId": "24f59bb2",
+        "team": "Leeds United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Rodrigo",
+        "playerId": "1fb1c435",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Weston McKennie",
+        "playerId": "01c3aff5",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Wilfried Gnonto",
+        "playerId": "75fdd638",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Danny Welbeck",
+        "playerId": "ce5143da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Georginio Rutter",
+        "playerId": "c64c01fc",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Jan Paul van Hecke",
+        "playerId": "4fd08daa",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 94,
+        "player": "Luis Sinisterra",
+        "playerId": "8e16dd48",
+        "team": "Leeds United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

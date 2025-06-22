@@ -1,0 +1,139 @@
+{
+  "url": "https://fbref.com/en/matches/2b3630b6/Brentford-Manchester-City-February-5-2024-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Manchester City",
+  "matchDate": "February 5, 2024",
+  "score": "1-3",
+  "homeScore": 1,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 21,
+        "player": "Neal Maupay",
+        "playerId": "4bcf39f6",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Mark Flekken"
+      },
+      {
+        "minute": 48,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 53,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 70,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Erling Haaland"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 31,
+        "player": "Neal Maupay",
+        "playerId": "4bcf39f6",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Keane Lewis-Potter",
+        "playerId": "41f08ac8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Kristoffer Ajer",
+        "playerId": "a8c0acb7",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

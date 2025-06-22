@@ -1,0 +1,483 @@
+16/10/2022
+FB3776
+Aston
+Villa
+vs
+Chelsea
+0
+:
+1
+0
+:
+2
+%Event ID: FB3776
+Aston Villa
+0
+2
+Chelsea
+Eng Premier
+Home/Away/Draw
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+3.85
+3.30
+1.78
+Home/Away/Draw- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+200.0
+22.00
+1.001
+First Half HAD
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+4.30
+2.11
+2.33
+First Half HAD- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+125.0
+9.00
+1.03
+Handicap HAD
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+[+1]
+1.86
+[+1]
+3.45
+[-1]
+3.25
+Handicap
+Aston Villa (Home)
+Chelsea (Away)
+[+0.5/+1]
+1.69
+[-0.5/-1]
+2.19
+HiLo
+Line
+High
+Low
+[2.5]
+1.91
+1.79
+[2.5/3]
+2.15
+1.62
+[3.5]
+3.25
+1.28
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+8.50
+1.03
+[1.5/2]
+1.84
+1.86
+[2/2.5]
+3.15
+1.30
+[2.5]
+3.80
+1.21
+[3/3.5]
+5.30
+1.11
+[3.5]
+5.30
+1.11
+[4.5]
+4.90
+1.13
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.30
+1.54
+[1.5]
+2.70
+1.40
+[1.5/2]
+3.45
+1.25
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.15
+1.62
+[11.5]
+2.75
+1.39
+[13.5]
+4.90
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+4.90
+1.13
+[5.5]
+2.30
+1.54
+[6.5]
+1.63
+2.13
+[7.5]
+4.75
+1.14
+[9.5]
+2.75
+1.39
+[10.5]
+2.60
+1.43
+[11.5]
+2.75
+1.39
+[13.5]
+4.90
+1.13
+Correct Score
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+11.00
+0:0
+9.25
+0:1
+6.10
+2:0
+18.00
+1:1
+6.20
+0:2
+7.75
+2:1
+11.50
+2:2
+13.50
+1:2
+7.25
+3:0
+40.00
+3:3
+50.00
+0:3
+14.50
+3:1
+30.00
+1:3
+14.50
+3:2
+40.00
+2:3
+26.00
+4:0
+125.0
+0:4
+30.00
+4:1
+80.00
+1:4
+30.00
+4:2
+100.0
+2:4
+50.00
+5:0
+500.0
+0:5
+70.00
+5:1
+400.0
+1:5
+70.00
+5:2
+400.0
+2:5
+125.0
+Home Others
+125.0
+Draw Others
+200.0
+Away Others
+40.00
+Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+9.75
+0:0
+8.25
+0:1
+2.18
+2:0
+18.00
+1:1
+4.20
+0:2
+1.10
+2:1
+15.50
+2:2
+400.0
+1:2
+10.50
+3:0
+45.00
+3:3
+1000
+0:3
+9.25
+3:1
+100.0
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+150.0
+0:4
+300.0
+4:1
+900.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+600.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+6.10
+0:0
+2.57
+0:1
+3.60
+2:0
+17.00
+1:1
+6.90
+0:2
+7.75
+2:1
+25.00
+2:2
+60.00
+1:2
+15.00
+3:0
+100.0
+3:3
+800.0
+0:3
+35.00
+3:1
+150.0
+1:3
+60.00
+3:2
+400.0
+2:3
+250.0
+4:0
+700.0
+0:4
+150.0
+4:1
+700.0
+1:4
+300.0
+4:2
+1500
+2:4
+800.0
+5:0
+3000
+0:5
+700.0
+5:1
+4000
+1:5
+1000
+5:2
+5000
+2:5
+3000
+Home Others
+3000
+Draw Others
+5000
+Away Others
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+5.80
+0:0
+2.18
+0:1
+1.11
+2:0
+27.00
+1:1
+9.00
+0:2
+9.75
+2:1
+126.0
+2:2
+2500
+1:2
+100.0
+3:0
+150.0
+3:3
+2500
+0:3
+200.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2000
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Aston Villa (Home)
+No Goals
+Chelsea (Away)
+2.53
+9.25
+1.58
+Next Team To Score- Last Odds for In Play Betting
+Aston Villa (Home)
+No Goals
+Chelsea (Away)
+1st Goal
+2.60
+8.25
+1.58
+2nd Goal
+2.82
+2.18
+3.10
+3rd Goal
+10.00
+1.10
+9.00
+Total Goals
+0
+9.25
+1
+4.25
+2
+3.35
+3
+3.80
+4
+5.40
+5
+9.75
+6
+20.00
+7+
+30.00
+Odd/Even
+Odd
+Even
+1.89
+1.81
+HaFu
+H-H
+6.40
+H-D
+14.00
+H-A
+23.00
+D-H
+8.50
+D-D
+4.90
+D-A
+4.50
+A-H
+30.00
+A-D
+14.00
+A-A
+2.80

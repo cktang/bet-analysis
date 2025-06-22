@@ -1,0 +1,176 @@
+{
+  "url": "https://fbref.com/en/matches/9760b466/Manchester-City-Nottingham-Forest-August-31-2022-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "August 31, 2022",
+  "score": "6-0",
+  "homeScore": 6,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 12,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Phil Foden"
+      },
+      {
+        "minute": 23,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 38,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "John Stones"
+      },
+      {
+        "minute": 50,
+        "player": "João Cancelo",
+        "playerId": "bd6351cd",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Bernardo Silva"
+      },
+      {
+        "minute": 65,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 87,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 76,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "player": "Riyad Mahrez",
+        "playerId": "892d5bb1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 55,
+        "player": "Cole Palmer",
+        "playerId": "dc7f8a28",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Sergio Gómez",
+        "playerId": "01e5f06e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Harry Toffolo",
+        "playerId": "a105d46a",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Jack Colback",
+        "playerId": "963a9201",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Giulian Biancone",
+        "playerId": "de40e38c",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

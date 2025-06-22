@@ -1,0 +1,421 @@
+12/08/2023
+FB3978
+Arsenal
+vs
+Nottingham
+Forest
+2
+:
+0
+2
+:
+1
+%Event ID: FB3978
+Arsenal
+2
+1
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Arsenal (Home)
+Draw
+Nottingham Forest (Away)
+1.10
+7.00
+14.00
+Home/Away/Draw- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Nottingham Forest (Away)
+1.001
+45.00
+300.0
+First Half HAD
+Arsenal (Home)
+Draw
+Nottingham Forest (Away)
+1.40
+3.00
+11.00
+First Half HAD- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Nottingham Forest (Away)
+1.001
+100.0
+1000
+Handicap HAD
+Arsenal (Home)
+Draw
+Nottingham Forest (Away)
+[-2]
+2.18
+[-2]
+3.95
+[+2]
+2.37
+Handicap
+Arsenal (Home)
+Nottingham Forest (Away)
+[-2]
+1.84
+[+2]
+1.98
+Same Game All Up
+Bukayo SAKA to score first in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+14.50
+Bukayo SAKA to score first in the match & Over [2.5] goals in the first half & Arsenal to win the match by [3] goal(s) or more
+20.00
+Arsenal to win the match by [3] goal(s) or more & Over [2.5] goals in the first half & Over [4.5] goals in the match
+6.90
+Nottingham Forest to win & Over [2.5] goals
+20.00
+Arsenal to score first & Nottingham Forest to win or draw
+12.00
+Nottingham Forest to score first in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+22.00
+Nottingham Forest to score first in the match & Arsenal to win the first half
+22.00
+Nottingham Forest to score first & Arsenal to win by [2] goal(s) or more
+11.00
+Nottingham Forest to win the first half & Over [1.5] goals in the first half
+27.00
+First Half to be drawn & Arsenal to win the match by [2] goal(s) or more
+7.25
+Over [2.5] goals in the first half & Exactly [4] goals in the Match
+16.00
+Over [2.5] goals in the first half & Arsenal to win the match by [4] goal(s) or more
+7.25
+Nottingham Forest to win or draw & Over [3.5] goals
+15.00
+Arsenal to win both first half and the match & Exactly [4] goals in the Match
+6.40
+Nottingham Forest to win both first half and the match & Exactly [3] goals in the Match
+50.00
+Martin ODEGAARD to score first & Arsenal to win by [3] goal(s) or more & Over [10.5] corners taken
+25.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+7.60
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+7.50
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.87
+1.83
+[3.5]
+2.10
+1.65
+[4.5]
+3.40
+1.26
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+5.80
+1.09
+[2/2.5]
+1.20
+3.90
+[2.5]
+1.33
+3.00
+[2.5/3]
+2.70
+1.40
+[3/3.5]
+5.80
+1.09
+[3.5]
+6.50
+1.07
+[4/4.5]
+12.00
+1.001
+[4.5]
+10.50
+1.01
+[5.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.90
+1.80
+[1.5/2]
+2.48
+1.47
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+7.00
+1.06
+[0.5/1]
+2.08
+1.66
+[1/1.5]
+3.80
+1.21
+[1.5]
+1.71
+2.01
+[1.5/2]
+2.80
+1.38
+[2/2.5]
+5.80
+1.09
+[2.5]
+7.50
+1.05
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.80
+1.90
+[11.5]
+2.17
+1.61
+[14.5]
+4.90
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+6.10
+1.08
+[6.5]
+1.07
+6.50
+[7.5]
+1.05
+7.50
+[8.5]
+1.15
+4.55
+[9.5]
+1.16
+4.40
+[10.5]
+1.20
+3.90
+[11.5]
+1.44
+2.58
+[13.5]
+11.50
+1.002
+[14.5]
+3.55
+1.24
+First Team to Score
+Arsenal (Home)
+No Goals
+Nottingham Forest (Away)
+1.11
+21.00
+5.20
+Next Team To Score- Last Odds for In Play Betting
+Arsenal (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.20
+8.50
+5.50
+2nd Goal
+1.26
+7.20
+4.90
+3rd Goal
+2.70
+1.58
+7.40
+4th Goal
+5.80
+1.12
+18.00
+Total Goals
+0
+21.00
+1
+6.80
+2
+4.25
+3
+3.70
+4
+4.30
+5
+6.10
+6
+10.50
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Arsenal (Home)
+Nottingham Forest (Away)
+101 Bukayo SAKA
+3.80
+201 Brennan JOHNSON
+12.50
+102 Kai HAVERTZ
+4.70
+202 Chris WOOD
+15.00
+103 Eddie NKETIAH
+4.95
+203 Morgan GIBBS-WHITE
+17.00
+105 Leandro TROSSARD
+4.95
+204 DANILO Oliveira
+18.00
+104 GABRIEL Teodoro MARTINELLI
+5.20
+205 Anthony ELANGA
+25.00
+106 Martin ODEGAARD
+7.50
+206 Gustavo SCARPA
+29.00
+107 Emile Smith ROWE
+8.25
+207 HWANG Ui Jo
+29.00
+108 Fabio VIEIRA
+8.25
+208 Orel MANGALA
+55.00
+110 GABRIEL Magalhaes
+16.00
+209 Ryan YATES
+55.00
+109 Declan RICE
+18.00
+210 Cheikhou KOUYATE
+75.00
+111 Thomas PARTEY
+18.00
+211 Remo FREULER
+75.00
+112 William SALIBA
+28.00
+212 Willy BOLY
+75.00
+113 Ben WHITE
+40.00
+213 FELIPE Monteiro
+95.00
+114 Jurrien TIMBER
+40.00
+214 Joe WORRALL
+95.00
+115 Kieran TIERNEY
+40.00
+215 Ola AINA
+95.00
+216 Scott McKENNA
+95.00
+217 Serge AURIER
+95.00
+120 Home Others
+11.00
+220 Away Others
+25.00
+00 No First Scorer
+20.80
+HaFu
+H-H
+1.43
+H-D
+22.00
+H-A
+85.00
+D-H
+3.85
+D-D
+10.50
+D-A
+30.00
+A-H
+22.00
+A-D
+22.00
+A-A
+26.00
+Specials
+Item No.: 1 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.75
+(4) Be substituted
+3.95
+(5) None of the above
+3.00
+Item No.: 2 How many goal(s) will Bukayo SAKA (Arsenal) score?
+(1) No Goal
+1.75
+(2) 1 Goal
+2.55
+(3) 2 Goals
+6.00
+(4) 3 Goals or more
+16.00
+Item No.: 3 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.15
+(4) Be substituted
+1.95
+(5) None of the above
+5.75
+Item No.: 4 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+3.25
+(5) None of the above
+2.25
+Item No.: 5 Which event will happen to Leandro TROSSARD (Arsenal) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+1.85
+(5) None of the above
+4.25

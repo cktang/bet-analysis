@@ -1,0 +1,115 @@
+{
+  "url": "https://fbref.com/en/matches/67a0c715/Chelsea-Manchester-City-August-18-2024-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Manchester City",
+  "matchDate": "August 18, 2024",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 18,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Bernardo Silva"
+      },
+      {
+        "minute": 84,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 66,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City"
+      },
+      {
+        "minute": 89,
+        "player": "Moisés Caicedo",
+        "playerId": "16264a81",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Pedro Neto",
+        "playerId": "7ba2eaa9",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Marc Guiu",
+        "playerId": "d3d774cc",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Kiernan Dewsbury-Hall",
+        "playerId": "5c74c0f5",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Renato Veiga",
+        "playerId": "fc8fcbd1",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

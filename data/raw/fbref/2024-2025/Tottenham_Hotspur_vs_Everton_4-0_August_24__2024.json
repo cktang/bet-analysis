@@ -1,0 +1,146 @@
+{
+  "url": "https://fbref.com/en/matches/1eef1717/Tottenham-Hotspur-Everton-August-24-2024-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Everton",
+  "matchDate": "August 24, 2024",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Yves Bissouma",
+        "playerId": "6c203af0",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Dejan Kulusevski"
+      },
+      {
+        "minute": 25,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 71,
+        "player": "Cristian Romero",
+        "playerId": "a3d94a58",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "James Maddison"
+      },
+      {
+        "minute": 77,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Micky van de Ven"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "player": "Jesper Lindstrøm",
+        "playerId": "37dc1a48",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Iliman Ndiaye",
+        "playerId": "5ed97752",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Richarlison",
+        "playerId": "fa031b34",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Pape Matar Sarr",
+        "playerId": "feb5d972",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Archie Gray",
+        "playerId": "f58515f5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Djed Spence",
+        "playerId": "9bc9a519",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Lucas Bergvall",
+        "playerId": "a109e5c8",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Harrison Armstrong",
+        "playerId": "de59e609",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

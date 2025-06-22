@@ -1,0 +1,170 @@
+{
+  "url": "https://fbref.com/en/matches/4b7e6f44/Liverpool-Fulham-December-3-2023-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Fulham",
+  "matchDate": "December 3, 2023",
+  "score": "4-3",
+  "homeScore": 4,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Bernd Leno",
+        "playerId": "2628fd2b",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 24,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Antonee Robinson"
+      },
+      {
+        "minute": 38,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 48,
+        "player": "Kenny Tete",
+        "playerId": "77d7c96f",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 80,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Tom Cairney"
+      },
+      {
+        "minute": 87,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      },
+      {
+        "minute": 88,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Kostas Tsimikas"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Joe Gomez",
+        "playerId": "7a11550b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Ibrahima Konaté",
+        "playerId": "5ed9b537",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Timothy Castagne",
+        "playerId": "197640fd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 7,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

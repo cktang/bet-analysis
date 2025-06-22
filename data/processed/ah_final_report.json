@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2025-06-21T19:39:49.396Z",
+  "totalIterations": 3,
+  "bestOverallCombinations": [
+    {
+      "name": "Adaptive_XG_Odds_Efficiency_Plus_enhanced_performance_homeXGDiff",
+      "factors": [
+        "fbref.homeXG - fbref.awayXG",
+        "match.homeWinOdds / match.awayWinOdds",
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency",
+        "enhanced.performance.homeXGDiff"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful XG_Odds_Efficiency with enhanced.performance.homeXGDiff",
+      "homeCorrelation": 0.6798793938881401,
+      "awayCorrelation": -0.6730796346720125,
+      "correlation": 0.6798793938881401,
+      "profitability": 0.5479857397504456,
+      "accuracy": 0.7887700534759359,
+      "avgProfitPerBet": 54.79857397504456,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 885,
+        "totalReturn": 61484,
+        "threshold": 0.12601010101010113,
+        "homePicks": 560,
+        "awayPicks": 562,
+        "accuracy": 0.7887700534759359,
+        "profitability": 0.5479857397504456,
+        "avgProfitPerBet": 54.79857397504456
+      },
+      "error": null
+    },
+    {
+      "name": "Adaptive_Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency_Plus_enhanced_performance_homeXGDiff",
+      "factors": [
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency",
+        "enhanced.performance.homeXGDiff"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency with enhanced.performance.homeXGDiff",
+      "homeCorrelation": 0.5638119420127237,
+      "awayCorrelation": -0.5586118938733708,
+      "correlation": 0.5638119420127237,
+      "profitability": 0.3988279857397504,
+      "accuracy": 0.7005347593582888,
+      "avgProfitPerBet": 39.882798573975045,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 786,
+        "totalReturn": 44748.5,
+        "threshold": -0.4916666666666666,
+        "homePicks": 555,
+        "awayPicks": 567,
+        "accuracy": 0.7005347593582888,
+        "profitability": 0.3988279857397504,
+        "avgProfitPerBet": 39.882798573975045
+      },
+      "error": null
+    },
+    {
+      "name": "Adaptive_Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency_Plus_enhanced_performance_homeEfficiency",
+      "factors": [
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency",
+        "enhanced.performance.homeEfficiency"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency with enhanced.performance.homeEfficiency",
+      "homeCorrelation": 0.5344293720374982,
+      "awayCorrelation": -0.5314135455727443,
+      "correlation": 0.5344293720374982,
+      "profitability": 0.37383689839572193,
+      "accuracy": 0.6907308377896613,
+      "avgProfitPerBet": 37.38368983957219,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 775,
+        "totalReturn": 41944.5,
+        "threshold": 0,
+        "homePicks": 524,
+        "awayPicks": 598,
+        "accuracy": 0.6907308377896613,
+        "profitability": 0.37383689839572193,
+        "avgProfitPerBet": 37.38368983957219
+      },
+      "error": null
+    },
+    {
+      "name": "Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency",
+      "factors": [
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency"
+      ],
+      "type": "single",
+      "hypothesis": "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency directly predicts AH profit",
+      "homeCorrelation": 0.5120561764886877,
+      "awayCorrelation": -0.5084079985960848,
+      "correlation": 0.5120561764886877,
+      "profitability": 0.4149242424242424,
+      "accuracy": 0.7156862745098039,
+      "avgProfitPerBet": 41.49242424242424,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 803,
+        "totalReturn": 46554.5,
+        "threshold": 0,
+        "homePicks": 449,
+        "awayPicks": 673,
+        "accuracy": 0.7156862745098039,
+        "profitability": 0.4149242424242424,
+        "avgProfitPerBet": 41.49242424242424
+      },
+      "error": null
+    },
+    {
+      "name": "Single_enhanced_performance_homeXGDiff",
+      "factors": [
+        "enhanced.performance.homeXGDiff"
+      ],
+      "type": "single",
+      "hypothesis": "enhanced.performance.homeXGDiff directly predicts AH profit",
+      "homeCorrelation": 0.465781398467025,
+      "awayCorrelation": -0.4602512148795144,
+      "correlation": 0.465781398467025,
+      "profitability": 0.3136319073083779,
+      "accuracy": 0.6550802139037433,
+      "avgProfitPerBet": 31.36319073083779,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 735,
+        "totalReturn": 35189.5,
+        "threshold": -0.8,
+        "homePicks": 527,
+        "awayPicks": 595,
+        "accuracy": 0.6550802139037433,
+        "profitability": 0.3136319073083779,
+        "avgProfitPerBet": 31.36319073083779
+      },
+      "error": null
+    },
+    {
+      "name": "Single_enhanced_performance_homeEfficiency",
+      "factors": [
+        "enhanced.performance.homeEfficiency"
+      ],
+      "type": "single",
+      "hypothesis": "enhanced.performance.homeEfficiency directly predicts AH profit",
+      "homeCorrelation": 0.4467152600309627,
+      "awayCorrelation": -0.4454586124717477,
+      "correlation": 0.4467152600309627,
+      "profitability": 0.31766934046345807,
+      "accuracy": 0.6595365418894831,
+      "avgProfitPerBet": 31.76693404634581,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 740,
+        "totalReturn": 35642.5,
+        "threshold": 0.3448275862068966,
+        "homePicks": 557,
+        "awayPicks": 565,
+        "accuracy": 0.6595365418894831,
+        "profitability": 0.31766934046345807,
+        "avgProfitPerBet": 31.76693404634581
+      },
+      "error": null
+    },
+    {
+      "name": "Adaptive_Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency_Plus_enhanced_performance_awayEfficiency",
+      "factors": [
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency",
+        "enhanced.performance.awayEfficiency"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency with enhanced.performance.awayEfficiency",
+      "homeCorrelation": 0.4467152600309627,
+      "awayCorrelation": -0.4454586124717477,
+      "correlation": 0.4467152600309627,
+      "profitability": 0.31766934046345807,
+      "accuracy": 0.6595365418894831,
+      "avgProfitPerBet": 31.76693404634581,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 740,
+        "totalReturn": 35642.5,
+        "threshold": 0.1724137931034483,
+        "homePicks": 557,
+        "awayPicks": 565,
+        "accuracy": 0.6595365418894831,
+        "profitability": 0.31766934046345807,
+        "avgProfitPerBet": 31.76693404634581
+      },
+      "error": null
+    },
+    {
+      "name": "Single__match_homeScore___fbref_homeXG_",
+      "factors": [
+        "(match.homeScore / fbref.homeXG)"
+      ],
+      "type": "single",
+      "hypothesis": "(match.homeScore / fbref.homeXG) directly predicts AH profit",
+      "homeCorrelation": 0.4459966423588453,
+      "awayCorrelation": -0.4447332197425934,
+      "correlation": 0.4459966423588453,
+      "profitability": 0.31576957295373664,
+      "accuracy": 0.6583629893238434,
+      "avgProfitPerBet": 31.576957295373667,
+      "sampleSize": 1125,
+      "validSamples": 1124,
+      "strategy": {
+        "totalBets": 1124,
+        "correctPicks": 740,
+        "totalReturn": 35492.5,
+        "threshold": 0.3448275862068966,
+        "homePicks": 558,
+        "awayPicks": 566,
+        "accuracy": 0.6583629893238434,
+        "profitability": 0.31576957295373664,
+        "avgProfitPerBet": 31.576957295373667
+      },
+      "error": null
+    },
+    {
+      "name": "Adaptive_Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency_Plus_fbref_awayXG",
+      "factors": [
+        "enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency",
+        "fbref.awayXG"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_enhanced_performance_homeEfficiency___enhanced_performance_awayEfficiency with fbref.awayXG",
+      "homeCorrelation": 0.44588401064453254,
+      "awayCorrelation": -0.44316121355755816,
+      "correlation": 0.44588401064453254,
+      "profitability": 0.33760695187165773,
+      "accuracy": 0.6684491978609626,
+      "avgProfitPerBet": 33.76069518716577,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 750,
+        "totalReturn": 37879.5,
+        "threshold": 0.6612903225806451,
+        "homePicks": 560,
+        "awayPicks": 562,
+        "accuracy": 0.6684491978609626,
+        "profitability": 0.33760695187165773,
+        "avgProfitPerBet": 33.76069518716577
+      },
+      "error": null
+    },
+    {
+      "name": "Single_enhanced_performance_awayXGDiff",
+      "factors": [
+        "enhanced.performance.awayXGDiff"
+      ],
+      "type": "single",
+      "hypothesis": "enhanced.performance.awayXGDiff directly predicts AH profit",
+      "homeCorrelation": -0.42481926632165423,
+      "awayCorrelation": 0.4247816143960261,
+      "correlation": 0.42481926632165423,
+      "profitability": -0.3439928698752228,
+      "accuracy": 0.2914438502673797,
+      "avgProfitPerBet": -34.39928698752228,
+      "sampleSize": 1125,
+      "validSamples": 1122,
+      "strategy": {
+        "totalBets": 1122,
+        "correctPicks": 327,
+        "totalReturn": -38596,
+        "threshold": -0.7,
+        "homePicks": 537,
+        "awayPicks": 585,
+        "accuracy": 0.2914438502673797,
+        "profitability": -0.3439928698752228,
+        "avgProfitPerBet": -34.39928698752228
+      },
+      "error": null
+    }
+  ],
+  "iterationProgress": [
+    {
+      "timestamp": "2025-06-21T19:35:01.940Z",
+      "bestCorrelation": 0.5635665799482074,
+      "profitableStrategies": 28,
+      "significantCorrelations": 20
+    },
+    {
+      "timestamp": "2025-06-21T19:39:10.266Z",
+      "bestCorrelation": 0.5635665799482074,
+      "profitableStrategies": 13,
+      "significantCorrelations": 20
+    },
+    {
+      "timestamp": "2025-06-21T19:39:49.394Z",
+      "bestCorrelation": 0.6798793938881401,
+      "profitableStrategies": 110,
+      "significantCorrelations": 123
+    }
+  ],
+  "recommendations": [
+    "Focus on \"Adaptive_XG_Odds_Efficiency_Plus_enhanced_performance_homeXGDiff\" - shows 0.6799 correlation and 54.80% profitability",
+    "28 combinations show >2% profitability - consider ensemble approach",
+    "Expected Goals (XG) appears in 22 top combinations - strong predictive factor"
+  ],
+  "keyInsights": [
+    "Most frequent factors in top combinations: enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency (20 times), fbref.homeXG - fbref.awayXG (10 times), match.homeWinOdds / match.awayWinOdds (10 times)",
+    "Average correlation across best combinations: 0.3408",
+    "28/49 combinations profitable, avg 37.31%"
+  ]
+}

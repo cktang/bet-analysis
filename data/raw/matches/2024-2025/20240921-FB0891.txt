@@ -1,0 +1,595 @@
+21/09/2024
+FB0891
+Leicester
+vs
+Everton
+0
+:
+1
+1
+:
+1
+%Event ID: FB0891
+Leicester
+1
+1
+Everton
+Eng Premier
+Home/Away/Draw
+Leicester (Home)
+Draw
+Everton (Away)
+1.95
+3.35
+3.15
+Home/Away/Draw- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Everton (Away)
+18.00
+1.001
+80.00
+First Half HAD
+Leicester (Home)
+Draw
+Everton (Away)
+2.48
+2.18
+3.60
+First Half HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Everton (Away)
+60.00
+8.50
+1.04
+Handicap HAD
+Leicester (Home)
+Draw
+Everton (Away)
+[-1]
+3.55
+[-1]
+3.75
+[+1]
+1.68
+Handicap HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Everton (Away)
+[-1]
+17.00
+[-1]
+12.00
+[+1]
+1.001
+[+2]
+1.001
+[+2]
+7.60
+[-2]
+60.00
+Handicap
+Leicester (Home)
+Everton (Away)
+[0/-0.5]
+1.81
+[0/+0.5]
+2.02
+Same Game All Up
+Leicester to win & Over [2.5] goals & Over [12.5] corners taken
+10.00
+Both teams to score in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.50
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+7.20
+The match to be drawn & Under [8.5] corners taken
+9.75
+Leicester to score first & Everton to win or draw
+5.30
+Everton to score first in the match & Over [1.5] goals in the first half
+4.90
+Both teams to score & Everton to win
+5.00
+First Half to be drawn & Leicester to win the match by exactly [1] goal(s)
+6.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.90
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+18.00
+Under [4.5] corners taken in the first half & Over [12.5] corners taken in the match
+21.00
+Leicester to win both first half and the match & Exactly [4] goals in the Match
+18.00
+Leicester to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+13.50
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+9.75
+Leicester to win [1:0] in the first half & Leicester to win [3:0] in the match
+40.00
+Leicester to win [2:0] in the first half & Leicester to win [3:1] in the match
+60.00
+First half to be drawn [0:0] & Leicester to win [2:1] in the match
+35.00
+Everton to win [1:0] in the first half & Everton to win [2:1] in the match
+30.00
+Everton to win [2:1] in the first half & Everton to win [3:1] in the match
+90.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.64
+2.12
+[2.5/3]
+1.86
+1.84
+[3.5]
+2.70
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+2.50
+1.46
+[2/2.5]
+4.95
+1.12
+[2.5]
+2.00
+1.72
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+12.00
+1.001
+[3.5]
+9.50
+1.01
+[4.5]
+5.15
+1.11
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.01
+1.71
+[1.5]
+2.40
+1.50
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.66
+2.08
+[1/1.5]
+2.68
+1.40
+[1.5]
+1.42
+2.62
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+11.50
+1.002
+[2.5]
+11.50
+1.002
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.88
+1.82
+[11.5]
+2.38
+1.51
+[14.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.71
+2.01
+[5.5]
+2.43
+1.49
+[7.5]
+5.40
+1.10
+Correct Score
+Leicester (Home)
+Draw
+Everton (Away)
+1:0
+7.75
+0:0
+11.00
+0:1
+10.50
+2:0
+9.75
+1:1
+6.30
+0:2
+17.00
+2:1
+7.50
+2:2
+11.00
+1:2
+10.00
+3:0
+19.00
+3:3
+40.00
+0:3
+35.00
+3:1
+14.50
+1:3
+24.00
+3:2
+21.00
+2:3
+28.00
+4:0
+40.00
+0:4
+70.00
+4:1
+30.00
+1:4
+50.00
+4:2
+40.00
+2:4
+60.00
+5:0
+70.00
+0:5
+300.0
+5:1
+70.00
+1:5
+150.0
+5:2
+100.0
+2:5
+250.0
+Home Others
+(Away No Goal)
+250.0
+Away Others
+(Home No Goal)
+700.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Everton (Away)
+1:0
+5.80
+0:0
+9.00
+0:1
+1.66
+2:0
+8.00
+1:1
+1.01
+0:2
+4.90
+2:1
+16.00
+2:2
+1000
+1:2
+60.00
+3:0
+16.00
+3:3
+1000
+0:3
+40.00
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+45.00
+0:4
+500.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Leicester (Home)
+Draw
+Everton (Away)
+1:0
+4.15
+0:0
+2.87
+0:1
+5.10
+2:0
+8.25
+1:1
+6.30
+0:2
+13.50
+2:1
+13.50
+2:2
+50.00
+1:2
+17.00
+3:0
+35.00
+3:3
+700.0
+0:3
+70.00
+3:1
+60.00
+1:3
+80.00
+3:2
+150.0
+2:3
+250.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+500.0
+4:2
+700.0
+2:4
+800.0
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2000
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Everton (Away)
+1:0
+3.40
+0:0
+2.24
+0:1
+1.05
+2:0
+10.00
+1:1
+8.60
+0:2
+26.00
+2:1
+61.00
+2:2
+2500
+1:2
+150.0
+3:0
+50.00
+3:3
+2500
+0:3
+500.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+250.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Leicester (Home)
+No Goals
+Everton (Away)
+1.67
+11.00
+2.22
+Next Team To Score- Last Odds for In Play Betting
+Leicester (Home)
+No Goals
+Everton (Away)
+1st Goal
+1.67
+9.00
+2.27
+2nd Goal
+3.04
+1.66
+4.70
+3rd Goal
+15.00
+1.01
+21.00
+Total Goals
+0
+11.00
+1
+4.85
+2
+3.55
+3
+3.70
+4
+4.85
+5
+7.50
+6
+15.00
+7+
+22.00
+Total Goals- Last Odds for In Play Betting
+0
+9.00
+1
+1.66
+2
+1.01
+3
+9.50
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+3.10
+H-D
+13.00
+H-A
+27.00
+D-H
+4.90
+D-D
+5.20
+D-A
+7.00
+A-H
+21.00
+A-D
+13.00
+A-A
+5.00

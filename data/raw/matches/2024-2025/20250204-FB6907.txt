@@ -1,0 +1,778 @@
+04/02/2025
+FB6907
+Chelsea
+vs
+West
+Ham
+0
+:
+1
+2
+:
+1
+%Event ID: FB6907
+Chelsea
+2
+1
+West Ham
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+West Ham (Away)
+1.18
+6.00
+8.75
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+West Ham (Away)
+1.01
+17.00
+1000
+First Half HAD
+Chelsea (Home)
+Draw
+West Ham (Away)
+1.50
+3.05
+6.90
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+West Ham (Away)
+125.0
+5.10
+1.08
+Handicap HAD
+Chelsea (Home)
+Draw
+West Ham (Away)
+[-2]
+2.50
+[-2]
+3.95
+[+2]
+2.07
+[-3]
+4.45
+[-3]
+5.00
+[+3]
+1.40
+Handicap HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+West Ham (Away)
+[-3]
+4.45
+[-3]
+5.00
+[+3]
+1.40
+[-1]
+2.30
+[-1]
+1.89
+[+1]
+5.70
+[-2]
+35.00
+[-2]
+4.00
+[+2]
+1.16
+Handicap
+Chelsea (Home)
+West Ham (Away)
+[-1.5/-2]
+1.88
+[+1.5/+2]
+1.93
+Handicap- Last Odds for In Play Betting
+Chelsea (Home)
+West Ham (Away)
+[-1.5/-2]
+2.18
+[+1.5/+2]
+1.62
+[0/-0.5]
+1.002
+[0/+0.5]
+13.50
+[0/+0.5]
+1.07
+[0/-0.5]
+7.00
+[-1]
+1.29
+[+1]
+3.30
+[0]
+2.13
+[0]
+1.65
+[-0.5/-1]
+2.46
+[+0.5/+1]
+1.49
+[-1/-1.5]
+2.92
+[+1/+1.5]
+1.36
+Same Game All Up
+Cole PALMER to score first in the match & Chelsea to win the match by [2] goal(s) or more & Under [1.5] goals in the first half
+14.00
+Nicolas JACKSON to score first & Chelsea to win by exactly [1] goal(s) & Over [10.5] corners taken
+35.00
+Both teams to score & Chelsea to win by [2] goal(s) or more & Over [10.5] corners taken
+6.00
+Chelsea to win by [2] goal(s) or more & Over [4.5] goals & Over [11.5] corners taken
+8.25
+Chelsea to win [2:0] in the first half & Chelsea to win [4:0] in the match
+29.00
+First half to be drawn [0:0] & Both teams to score in the match
+12.00
+Both teams to score in the match & First Half to be drawn & Chelsea to win the match by [2] goal(s) or more
+14.50
+Both teams to score & West Ham to win & Under [9.5] corners taken
+29.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+5.10
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.10
+First Half to be drawn & Chelsea to win the match by exactly [2] goal(s)
+11.00
+The match to be drawn & Under [9.5] corners taken
+14.00
+West Ham to score first & Chelsea to win by exactly [1] goal(s)
+15.00
+Chelsea to score in the first half & West Ham to win or draw the match
+7.40
+West Ham to score in the first half & Chelsea to win the match by [2] goal(s) or more
+6.20
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+27.00
+Chelsea to win [1:0] in the first half & Chelsea to win [3:1] in the match
+30.00
+Chelsea to win [2:0] in the first half & Chelsea to win [4:1] in the match
+45.00
+First half to be drawn [0:0] & Chelsea to win [2:0] in the match
+24.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.56
+2.27
+[3.5]
+1.73
+1.98
+[4.5]
+2.58
+1.44
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+1.46
+2.50
+[2/2.5]
+2.25
+1.57
+[2.5]
+1.38
+2.75
+[2.5/3]
+1.74
+1.97
+[3/3.5]
+2.88
+1.35
+[3.5]
+1.53
+2.33
+[3.5/4]
+7.00
+1.05
+[4/4.5]
+12.00
+1.001
+[4.5]
+9.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.76
+1.94
+[1.5/2]
+2.04
+1.69
+[2.5]
+3.45
+1.25
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.60
+1.09
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+7.00
+1.05
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.74
+1.97
+[11.5]
+2.19
+1.60
+[14.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.32
+3.05
+[8.5]
+3.80
+1.21
+[9.5]
+9.50
+1.02
+[10.5]
+8.50
+1.03
+[11.5]
+5.40
+1.10
+[12.5]
+4.60
+1.14
+[13.5]
+4.30
+1.16
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.60
+2.19
+[5.5]
+2.20
+1.59
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.16
+4.30
+[5.5]
+9.50
+1.02
+[6.5]
+5.90
+1.08
+[7.5]
+10.50
+1.01
+[8.5]
+7.00
+1.05
+Correct Score
+Chelsea (Home)
+Draw
+West Ham (Away)
+1:0
+12.00
+0:0
+27.00
+0:1
+35.00
+2:0
+8.50
+1:1
+12.00
+0:2
+40.00
+2:1
+7.75
+2:2
+16.00
+1:2
+22.00
+3:0
+8.75
+3:3
+40.00
+0:3
+100.0
+3:1
+8.50
+1:3
+40.00
+3:2
+16.00
+2:3
+40.00
+4:0
+12.00
+0:4
+400.0
+4:1
+12.00
+1:4
+150.0
+4:2
+23.00
+2:4
+100.0
+5:0
+21.00
+0:5
+900.0
+5:1
+21.00
+1:5
+600.0
+5:2
+40.00
+2:5
+400.0
+Home Others
+(Away No Goal)
+27.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+11.50
+Draw Others
+80.00
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+West Ham (Away)
+1:0
+4.05
+0:0
+8.50
+0:1
+2.85
+2:0
+4.70
+1:1
+2.30
+0:2
+9.25
+2:1
+1.08
+2:2
+20.00
+1:2
+9.50
+3:0
+8.25
+3:3
+1000
+0:3
+70.00
+3:1
+9.00
+1:3
+70.00
+3:2
+250.0
+2:3
+900.0
+4:0
+19.00
+0:4
+800.0
+4:1
+450.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+60.00
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Chelsea (Home)
+Draw
+West Ham (Away)
+1:0
+3.65
+0:0
+4.50
+0:1
+10.00
+2:0
+4.85
+1:1
+7.00
+0:2
+35.00
+2:1
+10.00
+2:2
+40.00
+1:2
+26.00
+3:0
+10.00
+3:3
+500.0
+0:3
+150.0
+3:1
+21.00
+1:3
+150.0
+3:2
+80.00
+2:3
+200.0
+4:0
+30.00
+0:4
+800.0
+4:1
+60.00
+1:4
+700.0
+4:2
+250.0
+2:4
+900.0
+5:0
+100.0
+0:5
+2500
+5:1
+200.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+West Ham (Away)
+1:0
+5.50
+0:0
+1.18
+0:1
+1.13
+2:0
+60.00
+1:1
+5.20
+0:2
+27.00
+2:1
+126.0
+2:2
+2500
+1:2
+100.0
+3:0
+600.0
+3:3
+2500
+0:3
+600.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Chelsea (Home)
+No Goals
+West Ham (Away)
+1.22
+27.00
+3.50
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+West Ham (Away)
+1st Goal
+1.31
+8.50
+3.85
+2nd Goal
+1.50
+3.42
+5.50
+3rd Goal
+1.86
+2.30
+6.00
+4th Goal
+7.60
+1.08
+19.00
+Total Goals
+0
+27.00
+1
+9.00
+2
+5.00
+3
+3.95
+4
+4.00
+5
+5.30
+6
+7.50
+7+
+8.00
+Total Goals- Last Odds for In Play Betting
+0
+8.50
+1
+2.85
+2
+2.30
+3
+1.08
+4
+4.70
+5
+125.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Chelsea (Home)
+West Ham (Away)
+101 Cole PALMER
+3.50
+202 Danny INGS
+11.50
+102 Nicolas JACKSON
+4.30
+201 Mohammed KUDUS
+12.00
+103 Marc GUIU
+5.10
+203 Jarrod BOWEN
+13.00
+104 Christopher NKUNKU
+5.20
+204 LUCAS PAQUETA
+13.50
+105 Chukwunonso MADUEKE
+5.70
+205 Crysencio SUMMERVILLE
+15.00
+106 Joao FELIX
+5.70
+206 Tomas SOUCEK
+15.00
+107 Jadon SANCHO
+7.00
+207 Carlos SOLER
+19.00
+108 PEDRO Lomba NETO
+8.25
+208 Luis GUILHERME
+25.00
+109 Tyrique GEORGE
+8.75
+209 Andy IRVING
+30.00
+110 Carney CHUKWUEMEKA
+11.50
+210 Guido RODRIGUEZ
+35.00
+111 Enzo Jeremias FERNANDEZ
+12.00
+211 EMERSON PALMIERI dos Santos
+40.00
+112 Kiernan DEWSBURY-HALL
+14.00
+212 Aaron WAN-BISSAKA
+45.00
+119 Moises CAICEDO
+24.00
+213 Edson Omar ALVAREZ
+50.00
+116 Tosin ADARABIOYO
+25.00
+214 Oliver SCARLES
+50.00
+113 Malo GUSTO
+26.00
+215 Aaron CRESSWELL
+60.00
+114 Marc CUCURELLA
+29.00
+216 Kaelan CASEY
+75.00
+115 Reece JAMES
+29.00
+217 Konstantinos MAVROPANOS
+75.00
+117 Axel DISASI
+30.00
+218 Jean-Clair TODIBO
+90.00
+118 Josh ACHEAMPONG
+30.00
+219 Ezra MAYERS
+100.0
+120 Home Others
+6.10
+220 Away Others
+17.00
+00 No First Scorer
+26.80
+HaFu
+H-H
+1.61
+H-D
+17.00
+H-A
+45.00
+D-H
+4.05
+D-D
+10.00
+D-A
+19.00
+A-H
+15.00
+A-D
+17.00
+A-A
+14.00

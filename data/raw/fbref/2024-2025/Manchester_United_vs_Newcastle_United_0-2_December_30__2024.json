@@ -1,0 +1,129 @@
+{
+  "url": "https://fbref.com/en/matches/8cff7a63/Manchester-United-Newcastle-United-December-30-2024-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Newcastle United",
+  "matchDate": "December 30, 2024",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 4,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 19,
+        "player": "Joelinton",
+        "playerId": "c17bfb65",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Anthony Gordon"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 61,
+        "player": "Lisandro Martínez",
+        "playerId": "bac46a10",
+        "team": "Manchester United"
+      },
+      {
+        "minute": 80,
+        "player": "Fabian Schär",
+        "playerId": "c8aa95da",
+        "team": "Newcastle United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 33,
+        "player": "Kobbie Mainoo",
+        "playerId": "c6220452",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Valentino Livramento",
+        "playerId": "afed6722",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Leny Yoro",
+        "playerId": "6763f716",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Antony",
+        "playerId": "99127249",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

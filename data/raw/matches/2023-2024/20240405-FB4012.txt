@@ -1,0 +1,761 @@
+05/04/2024
+FB4012
+Chelsea
+vs
+Manchester
+Utd
+2
+:
+2
+4
+:
+3
+%Event ID: FB4012
+Chelsea
+4
+3
+Manchester Utd
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1.76
+3.80
+3.40
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1.03
+8.00
+250.0
+First Half HAD
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+2.10
+2.57
+3.65
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+6.50
+1.17
+7.40
+Handicap HAD
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+[-1]
+2.87
+[-1]
+3.90
+[+1]
+1.87
+Handicap
+Chelsea (Home)
+Manchester Utd (Away)
+[-0.5/-1]
+2.04
+[+0.5/+1]
+1.79
+Same Game All Up
+Cole PALMER to score first & Over [3.5] goals & Over [11.5] corners taken
+25.00
+Rasmus HOJLUND to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+20.00
+Manchester Utd to score in the first half & Chelsea to win the match
+5.10
+Chelsea to score first in the match & Chelsea to win the first half & Over [1.5] goals in the first half
+4.75
+Chelsea clean sheet in the first half & Over [2.5] goals in the first half
+23.00
+Chelsea to win [2:0] in the first half & Chelsea to win [3:1] in the match
+50.00
+Chelsea to win [1:0] in the first half & Chelsea to win [3:0] in the match
+35.00
+Chelsea to score first & Manchester Utd to win or draw
+5.20
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [2:1] in the match
+30.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [3:1] in the match
+80.00
+Manchester Utd to score first in the match & Over [1.5] goals in the first half
+4.30
+Manchester Utd to score first & Chelsea to win by [2] goal(s) or more
+19.00
+First Half to be drawn & Chelsea to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+7.50
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+9.50
+Chelsea to win both first half and the match & Exactly [4] goals in the Match
+13.00
+Chelsea to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+8.50
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+16.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.68
+2.05
+[3.5]
+1.87
+1.83
+[3.5/4]
+2.05
+1.68
+[4.5]
+2.85
+1.36
+[5.5]
+4.75
+1.13
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+1.27
+3.35
+[3.5]
+1.17
+4.15
+[3.5/4]
+1.21
+3.80
+[4/4.5]
+1.17
+4.15
+[4.5]
+1.30
+3.15
+[4.5/5]
+2.17
+1.61
+[5/5.5]
+1.89
+1.81
+[5.5]
+1.26
+3.40
+[5.5/6]
+4.05
+1.18
+[6/6.5]
+9.50
+1.02
+[6.5]
+9.50
+1.02
+[7.5]
+5.60
+1.09
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.61
+2.17
+[1.5]
+1.88
+1.82
+[1.5/2]
+2.20
+1.59
+[2.5]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.78
+1.92
+[1.5]
+1.21
+3.80
+[1.5/2]
+1.60
+2.19
+[2/2.5]
+2.55
+1.45
+[2.5]
+1.35
+2.88
+[2.5/3]
+2.80
+1.37
+[3/3.5]
+4.95
+1.12
+[3.5]
+5.60
+1.09
+[3.5/4]
+3.05
+1.32
+[4.5/5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.62
+2.15
+[11.5]
+1.91
+1.79
+[12.5]
+2.40
+1.50
+[13.5]
+2.98
+1.33
+[14.5]
+3.80
+1.21
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+2.85
+1.36
+[9.5]
+1.45
+2.55
+[10.5]
+1.39
+2.70
+[11.5]
+1.40
+2.68
+[12.5]
+1.07
+6.25
+[13.5]
+1.08
+5.90
+[14.5]
+1.26
+3.40
+[16.5]
+6.60
+1.06
+Correct Score
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1:0
+13.50
+0:0
+19.00
+0:1
+20.00
+2:0
+12.50
+1:1
+8.75
+0:2
+25.00
+2:1
+8.00
+2:2
+9.50
+1:2
+12.00
+3:0
+17.00
+3:3
+27.00
+0:3
+40.00
+3:1
+12.00
+1:3
+21.00
+3:2
+14.00
+2:3
+19.00
+4:0
+30.00
+0:4
+70.00
+4:1
+19.00
+1:4
+40.00
+4:2
+27.00
+2:4
+40.00
+5:0
+50.00
+0:5
+250.0
+5:1
+40.00
+1:5
+125.0
+5:2
+40.00
+2:5
+100.0
+Home Others
+(Away No Goal)
+65.00
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+18.00
+Draw Others
+55.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1:0
+11.50
+0:0
+11.50
+0:1
+17.00
+2:0
+9.00
+1:1
+9.00
+0:2
+22.00
+2:1
+9.25
+2:2
+3.45
+1:2
+13.50
+3:0
+6.60
+3:3
+1.11
+0:3
+45.00
+3:1
+6.70
+1:3
+28.00
+3:2
+3.95
+2:3
+1.15
+4:0
+9.25
+0:4
+125.0
+4:1
+9.75
+1:4
+80.00
+4:2
+9.50
+2:4
+10.50
+5:0
+20.00
+0:5
+500.0
+5:1
+22.00
+1:5
+350.0
+5:2
+35.00
+2:5
+250.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1.03
+Draw Others
+8.00
+Away Others
+(Home Scores)
+250.0
+First Half Correct Score
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1:0
+4.40
+0:0
+4.10
+0:1
+6.50
+2:0
+7.25
+1:1
+5.70
+0:2
+14.50
+2:1
+10.00
+2:2
+28.00
+1:2
+14.50
+3:0
+21.00
+3:3
+300.0
+0:3
+60.00
+3:1
+30.00
+1:3
+60.00
+3:2
+80.00
+2:3
+100.0
+4:0
+80.00
+0:4
+300.0
+4:1
+100.0
+1:4
+300.0
+4:2
+300.0
+2:4
+500.0
+5:0
+400.0
+0:5
+1000
+5:1
+500.0
+1:5
+1000
+5:2
+800.0
+2:5
+2000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+600.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Manchester Utd (Away)
+1:0
+2.55
+0:0
+3.65
+0:1
+5.70
+2:0
+1.50
+1:1
+4.60
+0:2
+17.00
+2:1
+1.36
+2:2
+1.23
+1:2
+12.00
+3:0
+3.70
+3:3
+35.00
+0:3
+80.00
+3:1
+4.40
+1:3
+70.00
+3:2
+6.10
+2:3
+6.70
+4:0
+24.00
+0:4
+350.0
+4:1
+35.00
+1:4
+350.0
+4:2
+80.00
+2:4
+90.00
+5:0
+150.0
+0:5
+2500
+5:1
+300.0
+1:5
+2500
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+350.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+400.0
+First Team to Score
+Chelsea (Home)
+No Goals
+Manchester Utd (Away)
+1.55
+19.00
+2.26
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Manchester Utd (Away)
+1st Goal
+1.64
+11.50
+2.24
+2nd Goal
+1.84
+11.50
+1.97
+3rd Goal
+1.76
+9.00
+2.17
+4th Goal
+1.76
+11.00
+2.08
+5th Goal
+2.02
+3.45
+2.82
+6th Goal
+6.00
+1.15
+10.00
+Total Goals
+0
+19.00
+1
+8.00
+2
+4.60
+3
+3.90
+4
+4.05
+5
+5.70
+6
+8.25
+7+
+9.50
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Chelsea (Home)
+Manchester Utd (Away)
+101 Cole PALMER
+4.15
+201 Rasmus HOJLUND
+7.00
+102 Nicolas JACKSON
+5.00
+202 Bruno Borges FERNANDES
+8.25
+103 Raheem STERLING
+6.80
+203 Marcus RASHFORD
+8.75
+104 Mykhaylo MUDRYK
+7.25
+204 Alejandro GARNACHO
+9.75
+105 Chukwunonso MADUEKE
+7.75
+205 ANTONY Matheus dos Santos
+11.50
+106 Conor GALLAGHER
+12.50
+206 Amad DIALLO
+11.50
+107 Enzo Jeremias FERNANDEZ
+12.50
+207 Scott McTOMINAY
+12.50
+108 Moises CAICEDO
+29.00
+208 Mason MOUNT
+14.00
+109 THIAGO Silva
+30.00
+209 Christian ERIKSEN
+19.00
+110 Axel DISASI
+35.00
+210 Kobbie MAINOO
+27.00
+111 Ben CHILWELL
+35.00
+211 Carlos CASEMIRO
+30.00
+112 Benoit BADIASHILE
+35.00
+212 Harry MAGUIRE
+45.00
+113 Malo GUSTO
+55.00
+213 Sofyan AMRABAT
+45.00
+114 Marc CUCURELLA
+55.00
+214 Jonny EVANS
+55.00
+215 Raphael VARANE
+55.00
+216 Victor LINDELOF
+65.00
+217 Diogo DALOT
+80.00
+218 Aaron WAN-BISSAKA
+100.0
+120 Home Others
+15.00
+220 Away Others
+27.00
+00 No First Scorer
+18.80
+HaFu
+H-H
+2.56
+H-D
+12.50
+H-A
+24.00
+D-H
+4.90
+D-D
+7.25
+D-A
+8.50
+A-H
+15.00
+A-D
+12.50
+A-A
+5.50
+Specials
+Item No.: 1 Which event will happen to Nicolas JACKSON (Chelsea) first?
+(1) Receive a Yellow Card
+3.70
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+4.15
+(5) None of the above
+2.67
+Item No.: 2 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+4.20
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.18
+(4) Be substituted
+4.75
+(5) None of the above
+2.77
+Item No.: 3 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.90
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+2.33
+(5) None of the above
+2.80
+Item No.: 4 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+2.60
+(5) None of the above
+2.28
+Item No.: 5 Which event will happen to Alejandro GARNACHO (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.60
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+2.25
+(5) None of the above
+2.70

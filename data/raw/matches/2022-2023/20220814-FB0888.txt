@@ -1,0 +1,645 @@
+14/08/2022
+FB0888
+Chelsea
+vs
+Tottenham
+1
+:
+0
+2
+:
+2
+%Event ID: FB0888
+Chelsea
+2
+2
+Tottenham
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Tottenham (Away)
+2.05
+3.45
+2.87
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.02
+12.50
+500.0
+First Half HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+2.57
+2.17
+3.50
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1.02
+11.50
+80.00
+Handicap HAD
+Chelsea (Home)
+Draw
+Tottenham (Away)
+[-1]
+3.80
+[-1]
+3.75
+[+1]
+1.65
+Handicap
+Chelsea (Home)
+Tottenham (Away)
+[0/-0.5]
+1.90
+[0/+0.5]
+1.91
+HiLo
+Line
+High
+Low
+[2.5]
+1.74
+1.97
+[2.5/3]
+1.94
+1.76
+[3.5]
+2.88
+1.36
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+8.50
+1.03
+[1.5/2]
+2.22
+1.58
+[2/2.5]
+4.30
+1.17
+[2.5]
+5.10
+1.12
+[2.5/3]
+2.45
+1.48
+[3/3.5]
+4.90
+1.13
+[3.5]
+5.30
+1.11
+[4/4.5]
+5.10
+1.12
+[4.5]
+4.55
+1.15
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.01
+1.71
+[1.5]
+2.40
+1.50
+[1.5/2]
+2.90
+1.35
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.80
+1.09
+[0.5/1]
+2.25
+1.57
+[1/1.5]
+2.20
+1.59
+[1.5]
+2.40
+1.50
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.79
+1.91
+[11.5]
+2.17
+1.61
+[13.5]
+3.40
+1.26
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+5.55
+1.10
+[7.5]
+1.70
+2.02
+[8.5]
+2.02
+1.70
+[9.5]
+1.94
+1.76
+[10.5]
+2.04
+1.69
+[11.5]
+1.83
+1.87
+[13.5]
+5.10
+1.12
+[14.5]
+4.75
+1.14
+Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+7.75
+0:0
+11.00
+0:1
+10.00
+2:0
+10.00
+1:1
+6.20
+0:2
+17.00
+2:1
+7.50
+2:2
+11.00
+1:2
+10.00
+3:0
+21.00
+3:3
+40.00
+0:3
+35.00
+3:1
+15.00
+1:3
+24.00
+3:2
+22.00
+2:3
+29.00
+4:0
+40.00
+0:4
+70.00
+4:1
+35.00
+1:4
+50.00
+4:2
+40.00
+2:4
+60.00
+5:0
+80.00
+0:5
+250.0
+5:1
+70.00
+1:5
+150.0
+5:2
+100.0
+2:5
+200.0
+Home Others
+40.00
+Draw Others
+125.0
+Away Others
+60.00
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+1.89
+0:0
+7.40
+0:1
+7.40
+2:0
+3.28
+1:1
+1.69
+0:2
+16.00
+2:1
+1.10
+2:2
+12.60
+1:2
+6.20
+3:0
+14.50
+3:3
+1000
+0:3
+50.00
+3:1
+9.25
+1:3
+45.00
+3:2
+150.0
+2:3
+501.0
+4:0
+100.0
+0:4
+250.0
+4:1
+350.0
+1:4
+500.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+4.25
+0:0
+2.82
+0:1
+5.60
+2:0
+9.00
+1:1
+6.50
+0:2
+13.50
+2:1
+14.00
+2:2
+50.00
+1:2
+17.00
+3:0
+40.00
+3:3
+500.0
+0:3
+70.00
+3:1
+60.00
+1:3
+80.00
+3:2
+125.0
+2:3
+200.0
+4:0
+125.0
+0:4
+300.0
+4:1
+250.0
+1:4
+350.0
+4:2
+400.0
+2:4
+450.0
+5:0
+400.0
+0:5
+600.0
+5:1
+500.0
+1:5
+700.0
+5:2
+700.0
+2:5
+800.0
+Home Others
+500.0
+Draw Others
+1500
+Away Others
+700.0
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Tottenham (Away)
+1:0
+1.10
+0:0
+1.79
+0:1
+5.20
+2:0
+9.25
+1:1
+12.60
+0:2
+35.00
+2:1
+125.0
+2:2
+2500
+1:2
+81.00
+3:0
+200.0
+3:3
+2500
+0:3
+250.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Chelsea (Home)
+No Goals
+Tottenham (Away)
+1.71
+11.00
+2.17
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+1.69
+7.40
+2.45
+2nd Goal
+2.78
+1.89
+4.05
+3rd Goal
+3.05
+1.69
+4.60
+4th Goal
+8.50
+1.10
+10.50
+Total Goals
+0
+11.00
+1
+4.80
+2
+3.70
+3
+3.75
+4
+4.95
+5
+8.00
+6
+15.00
+7+
+23.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Chelsea (Home)
+Tottenham (Away)
+101 Kai HAVERTZ
+5.30
+201 Harry KANE
+5.30
+102 Raheem STERLING
+6.00
+202 SON Heung Min
+5.60
+103 Mason MOUNT
+6.30
+205 Dejan KULUSEVSKI
+8.75
+104 Christian PULISIC
+9.00
+203 RICHARLISON de Andrade
+9.00
+105 Hakim ZIYECH
+10.00
+204 LUCAS Moura
+11.00
+106 Armando BROJA
+11.00
+206 Bryan GIL
+14.00
+109 JORGINHO Luiz Frello
+11.50
+207 Ivan PERISIC
+14.00
+107 Callum HUDSON-ODOI
+15.00
+208 Ryan SESSEGNON
+25.00
+108 Conor GALLAGHER
+15.00
+210 Rodrigo BENTANCUR
+35.00
+110 Ruben LOFTUS-CHEEK
+21.00
+209 Pierre HOJBJERG
+40.00
+113 N'Golo KANTE
+25.00
+212 Ben DAVIES
+40.00
+114 Reece JAMES
+25.00
+213 Cristian ROMERO
+40.00
+117 THIAGO Silva
+28.00
+215 EMERSON Aparecido
+40.00
+116 Kalidou KOULIBALY
+30.00
+216 Eric DIER
+40.00
+111 Ben CHILWELL
+32.00
+211 Yves BISSOUMA
+45.00
+112 Mateo KOVACIC
+32.00
+214 Davinson SANCHEZ
+50.00
+115 Trevoh CHALOBAH
+32.00
+217 Clement LENGLET
+50.00
+118 Cesar AZPILICUETA
+45.00
+218 Matt DOHERTY
+50.00
+120 Home Others
+8.25
+220 Away Others
+12.00
+00 No First Scorer
+10.80
+HaFu
+H-H
+3.45
+H-D
+11.50
+H-A
+21.00
+D-H
+5.20
+D-D
+5.20
+D-A
+7.25
+A-H
+18.00
+A-D
+11.50
+A-A
+5.30
+Specials
+Item No.: 1 Which event will happen to Raheem STERLING (Chelsea) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+2.58
+(5) None of the above
+2.30
+Item No.: 2 Which event will happen to Kai HAVERTZ (Chelsea) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+2.33
+(5) None of the above
+2.85
+Item No.: 3 Which event will happen to Mason MOUNT (Chelsea) first?
+(1) Receive a Yellow Card
+5.70
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+2.65
+(5) None of the above
+2.20
+Item No.: 4 Which event will happen to Harry KANE (Tottenham) first?
+(1) Receive a Yellow Card
+5.20
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+7.50
+(5) None of the above
+1.66
+Item No.: 5 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+3.20
+(4) Be substituted
+2.80
+(5) None of the above
+2.17

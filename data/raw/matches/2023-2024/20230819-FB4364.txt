@@ -1,0 +1,280 @@
+19/08/2023
+FB4364
+Nottingham
+Forest
+vs
+Sheff
+Utd
+1
+:
+0
+2
+:
+1
+%Event ID: FB4364
+Nottingham Forest
+2
+1
+Sheff Utd
+Eng Premier
+Home/Away/Draw
+Nottingham Forest (Home)
+Draw
+Sheff Utd (Away)
+1.72
+3.25
+4.25
+Home/Away/Draw- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Sheff Utd (Away)
+1.02
+13.50
+250.0
+First Half HAD
+Nottingham Forest (Home)
+Draw
+Sheff Utd (Away)
+2.34
+2.00
+4.80
+First Half HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Sheff Utd (Away)
+1.02
+9.00
+80.00
+Handicap HAD
+Nottingham Forest (Home)
+Draw
+Sheff Utd (Away)
+[-1]
+3.10
+[-1]
+3.35
+[+1]
+1.93
+Handicap
+Nottingham Forest (Home)
+Sheff Utd (Away)
+[-0.5/-1]
+2.09
+[+0.5/+1]
+1.75
+Same Game All Up
+Nottingham Forest to win & Over [3.5] goals & Over [10.5] corners taken
+12.00
+The match to be drawn & Under [8.5] corners taken
+8.75
+Sheff Utd to win & Over [2.5] goals
+7.00
+Nottingham Forest to win & Sheff Utd to score first & Over [11.5] corners taken
+29.00
+Nottingham Forest to score first & Sheff Utd to win or draw
+6.25
+Nottingham Forest to win the first half & Nottingham Forest to win the match by [2] goal(s) or more
+4.40
+First Half to be drawn & Nottingham Forest to win the match by exactly [1] goal(s)
+7.00
+Sheff Utd to win the first half & Over [1.5] goals in the first half
+13.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+13.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+3.90
+Nottingham Forest to win by exactly [2] goal(s) & Under [10.5] corners taken
+9.75
+First Half to be drawn and Nottingham Forest to win the match & Over [11.5] corners taken in the match
+12.00
+Nottingham Forest to win both first half and the match & Exactly [4] goals in the Match
+16.00
+Sheff Utd to win both first half and the match & Exactly [3] goals in the Match
+18.00
+Exactly [5] goals & Over [12.5] corners taken
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+2.05
+1.68
+[2.5/3]
+2.35
+1.52
+[3.5]
+3.55
+1.24
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+6.50
+1.07
+[2/2.5]
+1.98
+1.73
+[2.5]
+1.29
+3.20
+[2.5/3]
+5.30
+1.11
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+[4.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.45
+1.48
+[1.5]
+2.82
+1.37
+[1.5/2]
+3.70
+1.22
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.50
+1.07
+[0.5/1]
+1.71
+2.01
+[1/1.5]
+2.80
+1.38
+[1.5]
+1.45
+2.55
+[2/2.5]
+10.50
+1.01
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.12
+1.64
+[11.5]
+2.70
+1.40
+[13.5]
+4.90
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+3.55
+1.24
+[8.5]
+1.40
+2.70
+[9.5]
+1.38
+2.80
+[10.5]
+1.43
+2.60
+[11.5]
+1.46
+2.50
+[12.5]
+1.12
+5.10
+[13.5]
+1.09
+5.80
+[15.5]
+8.00
+1.04
+[16.5]
+5.55
+1.10
+First Team to Score
+Nottingham Forest (Home)
+No Goals
+Sheff Utd (Away)
+1.55
+8.00
+2.73
+Next Team To Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+No Goals
+Sheff Utd (Away)
+1st Goal
+1.59
+7.40
+2.70
+2nd Goal
+2.01
+3.27
+3.00
+3rd Goal
+5.00
+1.24
+7.55
+4th Goal
+8.50
+1.10
+10.00
+Total Goals
+0
+8.00
+1
+4.00
+2
+3.30
+3
+3.90
+4
+6.00
+5
+10.50
+6
+22.00
+7+
+28.00
+Odd/Even
+Odd
+Even
+1.90
+1.80
+HaFu
+H-H
+2.70
+H-D
+14.50
+H-A
+35.00
+D-H
+4.30
+D-D
+4.65
+D-A
+9.00
+A-H
+24.00
+A-D
+14.50
+A-A
+7.00

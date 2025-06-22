@@ -1,0 +1,423 @@
+17/12/2024
+FB5262
+Bournemouth
+vs
+West
+Ham
+0
+:
+0
+1
+:
+1
+%Event ID: FB5262
+Bournemouth
+1
+1
+West Ham
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+West Ham (Away)
+1.55
+4.05
+4.25
+First Half HAD
+Bournemouth (Home)
+Draw
+West Ham (Away)
+1.92
+2.55
+4.40
+Handicap HAD
+Bournemouth (Home)
+Draw
+West Ham (Away)
+[-1]
+2.64
+[-1]
+3.40
+[+1]
+2.13
+Handicap
+Bournemouth (Home)
+West Ham (Away)
+[-0.5/-1]
+1.81
+[+0.5/+1]
+2.02
+Same Game All Up
+Both teams to score & Bournemouth to win & Over [12.5] corners taken
+6.20
+Bournemouth to win & Over [3.5] goals & Over [11.5] corners taken
+6.20
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Bournemouth to win the match by [2] goal(s) or more
+6.90
+Both teams to score & West Ham to win & Under [11.5] corners taken
+11.50
+Both teams to score & West Ham to win or draw & Over [11.5] corners taken
+5.00
+West Ham to score first & Bournemouth to win by [2] goal(s) or more
+17.00
+Bournemouth to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+15.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+5.40
+Under [4.5] corners taken in the first half & Under [9.5] corners taken in the match
+3.95
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [11.5] corners taken in the match
+3.85
+First Half to be drawn & Bournemouth to win the match by [2] goal(s) or more
+11.00
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+10.50
+The match to be drawn & Under [11.5] corners taken
+7.40
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:1] in the match
+24.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:0] in the match
+35.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+West Ham to win [1:0] in the first half & West Ham to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.90
+1.80
+[3.5]
+2.13
+1.63
+[4.5]
+3.45
+1.25
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.15
+1.17
+Corner Taken HiLo
+Line
+High
+Low
+[12.5]
+2.20
+1.59
+[13.5]
+2.70
+1.39
+[15.5]
+4.40
+1.15
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.85
+1.85
+[6.5]
+2.60
+1.43
+[8.5]
+5.40
+1.10
+Correct Score
+Bournemouth (Home)
+Draw
+West Ham (Away)
+1:0
+9.50
+0:0
+18.00
+0:1
+21.00
+2:0
+9.25
+1:1
+8.00
+0:2
+25.00
+2:1
+6.90
+2:2
+11.50
+1:2
+12.50
+3:0
+12.50
+3:3
+35.00
+0:3
+40.00
+3:1
+11.00
+1:3
+28.00
+3:2
+16.00
+2:3
+26.00
+4:0
+23.00
+0:4
+125.0
+4:1
+18.00
+1:4
+60.00
+4:2
+30.00
+2:4
+60.00
+5:0
+40.00
+0:5
+400.0
+5:1
+40.00
+1:5
+250.0
+5:2
+50.00
+2:5
+200.0
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+24.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+50.00
+First Half Correct Score
+Bournemouth (Home)
+Draw
+West Ham (Away)
+1:0
+3.80
+0:0
+3.55
+0:1
+7.00
+2:0
+6.70
+1:1
+6.30
+0:2
+17.00
+2:1
+10.50
+2:2
+40.00
+1:2
+18.00
+3:0
+18.00
+3:3
+500.0
+0:3
+80.00
+3:1
+35.00
+1:3
+80.00
+3:2
+100.0
+2:3
+150.0
+4:0
+70.00
+0:4
+500.0
+4:1
+125.0
+1:4
+500.0
+4:2
+400.0
+2:4
+700.0
+5:0
+400.0
+0:5
+2000
+5:1
+500.0
+1:5
+2000
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Team to Score
+Bournemouth (Home)
+No Goals
+West Ham (Away)
+1.45
+18.00
+2.53
+Total Goals
+0
+18.00
+1
+6.80
+2
+4.00
+3
+3.70
+4
+4.25
+5
+6.00
+6
+11.00
+7+
+12.50
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Bournemouth (Home)
+West Ham (Away)
+101 Antoine SEMENYO
+4.60
+201 Jarrod BOWEN
+8.25
+102 Francisco EVANILSON
+4.80
+202 Niclas FULLKRUG
+8.50
+103 Enes UNAL
+5.40
+203 Danny INGS
+10.00
+104 Justin KLUIVERT
+5.50
+204 Mohammed KUDUS
+10.00
+105 Luis SINISTERRA
+6.00
+205 Tomas SOUCEK
+12.50
+106 Dango OUATTARA
+7.25
+206 Crysencio SUMMERVILLE
+13.00
+107 Marcus TAVERNIER
+7.50
+207 LUCAS PAQUETA
+17.00
+108 David BROOKS
+7.75
+208 Carlos SOLER
+19.00
+109 Philip BILLING
+10.00
+209 Andy IRVING
+25.00
+110 Ryan CHRISTIE
+16.00
+210 Luis GUILHERME
+27.00
+111 Tyler ADAMS
+21.00
+211 Edson Omar ALVAREZ
+35.00
+112 Ben WINTERBURN
+25.00
+212 Guido RODRIGUEZ
+35.00
+113 Lewis COOK
+27.00
+213 Oliver SCARLES
+35.00
+114 Milos KERKEZ
+30.00
+214 Aaron WAN-BISSAKA
+40.00
+115 Dean HUIJSEN
+35.00
+215 Konstantinos MAVROPANOS
+45.00
+116 Max KINSEY
+50.00
+216 Aaron CRESSWELL
+55.00
+117 Illya ZABARNYI
+60.00
+217 Max KILMAN
+65.00
+118 James HILL
+70.00
+218 Jean-Clair TODIBO
+75.00
+119 Max AARONS
+70.00
+219 Ezra MAYERS
+80.00
+120 Home Others
+10.50
+220 Away Others
+19.00
+00 No First Scorer
+17.80
+HaFu
+H-H
+2.26
+H-D
+13.50
+H-A
+30.00
+D-H
+4.40
+D-D
+7.00
+D-A
+10.00
+A-H
+18.00
+A-D
+13.50
+A-A
+6.80

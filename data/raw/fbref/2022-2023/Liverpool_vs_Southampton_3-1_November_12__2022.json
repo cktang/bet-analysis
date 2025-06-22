@@ -1,0 +1,166 @@
+{
+  "url": "https://fbref.com/en/matches/1579d34b/Liverpool-Southampton-November-12-2022-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Southampton",
+  "matchDate": "November 12, 2022",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 6,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      },
+      {
+        "minute": 9,
+        "player": "Che Adams",
+        "playerId": "f2bf1b0f",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "James Ward-Prowse"
+      },
+      {
+        "minute": 21,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Harvey Elliott"
+      },
+      {
+        "minute": 42,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 5,
+        "player": "Duje Ćaleta-Car",
+        "playerId": "94f8d10c",
+        "team": "Southampton"
+      },
+      {
+        "minute": 66,
+        "player": "Mohammed Salisu",
+        "playerId": "0b33f6ad",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "player": "Samuel Edozie",
+        "playerId": "007414dd",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Theo Walcott",
+        "playerId": "1ecb65be",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Ainsley Maitland-Niles",
+        "playerId": "e3a5814e",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Lyanco",
+        "playerId": "b5bf1770",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Alex Oxlade-Chamberlain",
+        "playerId": "38c7feef",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Joe Aribo",
+        "playerId": "328f7d51",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Nathaniel Phillips",
+        "playerId": "515ebe8d",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "url": "https://fbref.com/en/matches/535d70d7/Newcastle-United-Wolverhampton-Wanderers-January-15-2025-Premier-League",
+  "homeTeam": "Newcastle United",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "January 15, 2025",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 34,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 57,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Bruno Guimarães"
+      },
+      {
+        "minute": 74,
+        "player": "Anthony Gordon",
+        "playerId": "2bd83368",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Alexander Isak"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 26,
+        "player": "Matt Doherty",
+        "playerId": "d557d734",
+        "team": "Wolverhampton Wanderers"
+      },
+      {
+        "minute": 85,
+        "player": "Emmanuel Agbadou",
+        "playerId": "75f1ed80",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Matheus Cunha",
+        "playerId": "dc62b55d",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Nélson Semedo",
+        "playerId": "d04b94db",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Jean-Ricner Bellegarde",
+        "playerId": "10f0fdd3",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "William Osula",
+        "playerId": "7b355808",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Miguel Almirón",
+        "playerId": "862a1c15",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Kieran Trippier",
+        "playerId": "21512407",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Tommy Doyle",
+        "playerId": "5526deb1",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Pablo Sarabia",
+        "playerId": "9744ff80",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

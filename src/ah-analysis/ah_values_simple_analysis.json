@@ -1,0 +1,733 @@
+{
+  "generatedAt": "2025-06-22T17:31:13.316Z",
+  "totalMatches": 1125,
+  "ahStats": {
+    "0": {
+      "count": 119,
+      "homeWins": 49,
+      "awayWins": 41,
+      "draws": 29,
+      "homeOddsSum": 227.99999999999991,
+      "awayOddsSum": 227.23,
+      "homeBetsWon": 49,
+      "awayBetsWon": 41,
+      "homeBetsTotal": 119,
+      "awayBetsTotal": 119,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Fulham 3-2 Brentford",
+          "homeOdds": 1.87,
+          "awayOdds": 1.94,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Crystal Palace 3-1 Aston Villa",
+          "homeOdds": 1.72,
+          "awayOdds": 2.13,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Wolves 1-1 Newcastle",
+          "homeOdds": 1.86,
+          "awayOdds": 1.96,
+          "homeResult": "PUSH",
+          "awayResult": "PUSH"
+        }
+      ]
+    },
+    "+0.5/+1": {
+      "count": 119,
+      "homeWins": 26,
+      "awayWins": 64,
+      "draws": 29,
+      "homeOddsSum": 221.73999999999998,
+      "awayOddsSum": 235.14,
+      "homeBetsWon": 55,
+      "awayBetsWon": 64,
+      "homeBetsTotal": 119,
+      "awayBetsTotal": 119,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Crystal Palace 0-2 Arsenal",
+          "homeOdds": 1.82,
+          "awayOdds": 2,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Nottingham Forest 1-0 West Ham",
+          "homeOdds": 1.73,
+          "awayOdds": 2.12,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Brentford 4-0 Manchester Utd",
+          "homeOdds": 1.95,
+          "awayOdds": 1.87,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "0/+0.5": {
+      "count": 127,
+      "homeWins": 39,
+      "awayWins": 54,
+      "draws": 34,
+      "homeOddsSum": 246.36,
+      "awayOddsSum": 240.06999999999994,
+      "homeBetsWon": 73,
+      "awayBetsWon": 54,
+      "homeBetsTotal": 127,
+      "awayBetsTotal": 127,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Bournemouth 2-0 Aston Villa",
+          "homeOdds": 2.15,
+          "awayOdds": 1.71,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Fulham 2-1 Brighton",
+          "homeOdds": 1.88,
+          "awayOdds": 1.94,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Bournemouth 0-0 Wolves",
+          "homeOdds": 1.9,
+          "awayOdds": 1.92,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "0/-0.5": {
+      "count": 175,
+      "homeWins": 65,
+      "awayWins": 57,
+      "draws": 53,
+      "homeOddsSum": 330.3199999999998,
+      "awayOddsSum": 340.0899999999998,
+      "homeBetsWon": 65,
+      "awayBetsWon": 110,
+      "homeBetsTotal": 175,
+      "awayBetsTotal": 175,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Leeds 2-1 Wolves",
+          "homeOdds": 1.99,
+          "awayOdds": 1.83,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Brighton 0-0 Newcastle",
+          "homeOdds": 2.08,
+          "awayOdds": 1.76,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Southampton 2-2 Leeds",
+          "homeOdds": 2.04,
+          "awayOdds": 1.79,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-1": {
+      "count": 64,
+      "homeWins": 43,
+      "awayWins": 6,
+      "draws": 15,
+      "homeOddsSum": 121.88000000000005,
+      "awayOddsSum": 122.77000000000001,
+      "homeBetsWon": 26,
+      "awayBetsWon": 21,
+      "homeBetsTotal": 64,
+      "awayBetsTotal": 64,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Newcastle 2-0 Nottingham Forest",
+          "homeOdds": 1.94,
+          "awayOdds": 1.88,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Arsenal 4-2 Leicester",
+          "homeOdds": 1.86,
+          "awayOdds": 1.96,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Arsenal 2-1 Aston Villa",
+          "homeOdds": 1.8,
+          "awayOdds": 2.03,
+          "homeResult": "PUSH",
+          "awayResult": "PUSH"
+        }
+      ]
+    },
+    "-1/-1.5": {
+      "count": 83,
+      "homeWins": 53,
+      "awayWins": 12,
+      "draws": 18,
+      "homeOddsSum": 157.09000000000003,
+      "awayOddsSum": 160.76999999999998,
+      "homeBetsWon": 30,
+      "awayBetsWon": 53,
+      "homeBetsTotal": 83,
+      "awayBetsTotal": 83,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Tottenham 4-1 Southampton",
+          "homeOdds": 1.73,
+          "awayOdds": 2.12,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Tottenham 1-0 Wolves",
+          "homeOdds": 1.91,
+          "awayOdds": 1.9,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Chelsea 2-1 Leicester",
+          "homeOdds": 1.8,
+          "awayOdds": 2.03,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "+1.5/+2": {
+      "count": 31,
+      "homeWins": 1,
+      "awayWins": 27,
+      "draws": 3,
+      "homeOddsSum": 57.28999999999999,
+      "awayOddsSum": 61.84,
+      "homeBetsWon": 14,
+      "awayBetsWon": 17,
+      "homeBetsTotal": 31,
+      "awayBetsTotal": 31,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Fulham 2-2 Liverpool",
+          "homeOdds": 1.86,
+          "awayOdds": 1.96,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Aston Villa 1-1 Manchester City",
+          "homeOdds": 1.81,
+          "awayOdds": 2.01,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Wolves 0-3 Manchester City",
+          "homeOdds": 1.74,
+          "awayOdds": 2.11,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-0.5/-1": {
+      "count": 183,
+      "homeWins": 115,
+      "awayWins": 32,
+      "draws": 36,
+      "homeOddsSum": 357.13,
+      "awayOddsSum": 345.30999999999995,
+      "homeBetsWon": 115,
+      "awayBetsWon": 68,
+      "homeBetsTotal": 183,
+      "awayBetsTotal": 183,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Leicester 2-2 Brentford",
+          "homeOdds": 2.08,
+          "awayOdds": 1.76,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Manchester Utd 1-2 Brighton",
+          "homeOdds": 1.96,
+          "awayOdds": 1.86,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Aston Villa 2-1 Everton",
+          "homeOdds": 1.92,
+          "awayOdds": 1.89,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "+1": {
+      "count": 40,
+      "homeWins": 7,
+      "awayWins": 23,
+      "draws": 10,
+      "homeOddsSum": 76.4,
+      "awayOddsSum": 76.57999999999998,
+      "homeBetsWon": 17,
+      "awayBetsWon": 14,
+      "homeBetsTotal": 40,
+      "awayBetsTotal": 40,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Everton 0-1 Chelsea",
+          "homeOdds": 1.98,
+          "awayOdds": 1.84,
+          "homeResult": "PUSH",
+          "awayResult": "PUSH"
+        },
+        {
+          "match": "Leeds 3-0 Chelsea",
+          "homeOdds": 2.09,
+          "awayOdds": 1.75,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Leeds 0-1 Arsenal",
+          "homeOdds": 1.84,
+          "awayOdds": 1.98,
+          "homeResult": "PUSH",
+          "awayResult": "PUSH"
+        }
+      ]
+    },
+    "+1/+1.5": {
+      "count": 38,
+      "homeWins": 5,
+      "awayWins": 26,
+      "draws": 7,
+      "homeOddsSum": 74.71999999999997,
+      "awayOddsSum": 70.81,
+      "homeBetsWon": 20,
+      "awayBetsWon": 18,
+      "homeBetsTotal": 38,
+      "awayBetsTotal": 38,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "West Ham 0-2 Manchester City",
+          "homeOdds": 2.1,
+          "awayOdds": 1.75,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Newcastle 3-3 Manchester City",
+          "homeOdds": 1.92,
+          "awayOdds": 1.9,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Bournemouth 0-3 Arsenal",
+          "homeOdds": 1.96,
+          "awayOdds": 1.86,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-2.5/-3": {
+      "count": 14,
+      "homeWins": 14,
+      "awayWins": 0,
+      "draws": 0,
+      "homeOddsSum": 27.53,
+      "awayOddsSum": 26.060000000000002,
+      "homeBetsWon": 8,
+      "awayBetsWon": 6,
+      "homeBetsTotal": 14,
+      "awayBetsTotal": 14,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Manchester City 4-0 Bournemouth",
+          "homeOdds": 1.85,
+          "awayOdds": 1.97,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Manchester City 6-0 Nottingham Forest",
+          "homeOdds": 1.84,
+          "awayOdds": 1.98,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Manchester City 4-0 Southampton",
+          "homeOdds": 2.02,
+          "awayOdds": 1.81,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "-1.5/-2": {
+      "count": 82,
+      "homeWins": 57,
+      "awayWins": 7,
+      "draws": 18,
+      "homeOddsSum": 160.85999999999999,
+      "awayOddsSum": 153.67,
+      "homeBetsWon": 35,
+      "awayBetsWon": 47,
+      "homeBetsTotal": 82,
+      "awayBetsTotal": 82,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Liverpool 1-1 Crystal Palace",
+          "homeOdds": 1.96,
+          "awayOdds": 1.86,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Arsenal 2-1 Fulham",
+          "homeOdds": 2.26,
+          "awayOdds": 1.66,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Liverpool 2-1 Newcastle",
+          "homeOdds": 1.89,
+          "awayOdds": 1.93,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-2/-2.5": {
+      "count": 17,
+      "homeWins": 15,
+      "awayWins": 1,
+      "draws": 1,
+      "homeOddsSum": 32.51,
+      "awayOddsSum": 32.58,
+      "homeBetsWon": 5,
+      "awayBetsWon": 12,
+      "homeBetsTotal": 17,
+      "awayBetsTotal": 17,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Manchester City 4-2 Crystal Palace",
+          "homeOdds": 2.11,
+          "awayOdds": 1.74,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Liverpool 9-0 Bournemouth",
+          "homeOdds": 1.82,
+          "awayOdds": 2.01,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Manchester City 2-1 Fulham",
+          "homeOdds": 1.93,
+          "awayOdds": 1.89,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-2": {
+      "count": 25,
+      "homeWins": 19,
+      "awayWins": 2,
+      "draws": 4,
+      "homeOddsSum": 47.559999999999995,
+      "awayOddsSum": 48.07,
+      "homeBetsWon": 6,
+      "awayBetsWon": 11,
+      "homeBetsTotal": 25,
+      "awayBetsTotal": 25,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Manchester City 3-0 Wolves",
+          "homeOdds": 2.12,
+          "awayOdds": 1.73,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Arsenal 3-3 Southampton",
+          "homeOdds": 2.03,
+          "awayOdds": 1.8,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Manchester City 3-0 West Ham",
+          "homeOdds": 1.78,
+          "awayOdds": 2.05,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "+2": {
+      "count": 4,
+      "homeWins": 0,
+      "awayWins": 2,
+      "draws": 2,
+      "homeOddsSum": 7.57,
+      "awayOddsSum": 7.74,
+      "homeBetsWon": 3,
+      "awayBetsWon": 1,
+      "homeBetsTotal": 4,
+      "awayBetsTotal": 4,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Luton 1-1 Liverpool",
+          "homeOdds": 2.05,
+          "awayOdds": 1.78,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Fulham 0-4 Manchester City",
+          "homeOdds": 1.85,
+          "awayOdds": 1.97,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Manchester Utd 0-1 Arsenal",
+          "homeOdds": 1.75,
+          "awayOdds": 2.09,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        }
+      ]
+    },
+    "+2/+2.5": {
+      "count": 2,
+      "homeWins": 0,
+      "awayWins": 2,
+      "draws": 0,
+      "homeOddsSum": 3.6100000000000003,
+      "awayOddsSum": 4.06,
+      "homeBetsWon": 1,
+      "awayBetsWon": 1,
+      "homeBetsTotal": 2,
+      "awayBetsTotal": 2,
+      "isQuarterBall": true,
+      "examples": [
+        {
+          "match": "Sheff Utd 0-2 Liverpool",
+          "homeOdds": 1.87,
+          "awayOdds": 1.95,
+          "homeResult": "WIN",
+          "awayResult": "LOSE"
+        },
+        {
+          "match": "Sheff Utd 0-6 Arsenal",
+          "homeOdds": 1.74,
+          "awayOdds": 2.11,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    },
+    "-3": {
+      "count": 2,
+      "homeWins": 2,
+      "awayWins": 0,
+      "draws": 0,
+      "homeOddsSum": 3.7699999999999996,
+      "awayOddsSum": 3.86,
+      "homeBetsWon": 0,
+      "awayBetsWon": 2,
+      "homeBetsTotal": 2,
+      "awayBetsTotal": 2,
+      "isQuarterBall": false,
+      "examples": [
+        {
+          "match": "Liverpool 3-1 Sheff Utd",
+          "homeOdds": 1.88,
+          "awayOdds": 1.93,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        },
+        {
+          "match": "Manchester City 3-1 West Ham",
+          "homeOdds": 1.89,
+          "awayOdds": 1.93,
+          "homeResult": "LOSE",
+          "awayResult": "WIN"
+        }
+      ]
+    }
+  },
+  "quarterVsFullHalf": {
+    "quarterBall": {
+      "lines": [
+        "-0.5/-1",
+        "0/-0.5",
+        "0/+0.5",
+        "+0.5/+1",
+        "-1/-1.5",
+        "-1.5/-2",
+        "+1/+1.5",
+        "+1.5/+2",
+        "-2/-2.5",
+        "-2.5/-3",
+        "+2/+2.5"
+      ],
+      "matches": 871,
+      "homeWinRate": "48.3"
+    },
+    "fullHalfBall": {
+      "lines": [
+        "0",
+        "-1",
+        "+1",
+        "-2",
+        "+2",
+        "-3"
+      ],
+      "matches": 254,
+      "homeWinRate": "39.8"
+    }
+  },
+  "inefficiencies": [
+    {
+      "handicap": "-2",
+      "count": 25,
+      "homeEdge": "-28.6",
+      "awayEdge": "-8.0",
+      "bestSide": "HOME",
+      "bestEdge": "28.6"
+    },
+    {
+      "handicap": "-1",
+      "count": 64,
+      "homeEdge": "-11.9",
+      "awayEdge": "-19.3",
+      "bestSide": "AWAY",
+      "bestEdge": "19.3"
+    },
+    {
+      "handicap": "0",
+      "count": 119,
+      "homeEdge": "-11.0",
+      "awayEdge": "-17.9",
+      "bestSide": "AWAY",
+      "bestEdge": "17.9"
+    },
+    {
+      "handicap": "+1",
+      "count": 40,
+      "homeEdge": "-9.9",
+      "awayEdge": "-17.2",
+      "bestSide": "AWAY",
+      "bestEdge": "17.2"
+    },
+    {
+      "handicap": "-1/-1.5",
+      "count": 83,
+      "homeEdge": "-16.7",
+      "awayEdge": "12.2",
+      "bestSide": "HOME",
+      "bestEdge": "16.7"
+    },
+    {
+      "handicap": "-0.5/-1",
+      "count": 183,
+      "homeEdge": "11.6",
+      "awayEdge": "-15.8",
+      "bestSide": "AWAY",
+      "bestEdge": "15.8"
+    },
+    {
+      "handicap": "0/-0.5",
+      "count": 175,
+      "homeEdge": "-15.8",
+      "awayEdge": "11.4",
+      "bestSide": "HOME",
+      "bestEdge": "15.8"
+    },
+    {
+      "handicap": "0/+0.5",
+      "count": 127,
+      "homeEdge": "5.9",
+      "awayEdge": "-10.4",
+      "bestSide": "AWAY",
+      "bestEdge": "10.4"
+    },
+    {
+      "handicap": "+1.5/+2",
+      "count": 31,
+      "homeEdge": "-8.9",
+      "awayEdge": "4.7",
+      "bestSide": "HOME",
+      "bestEdge": "8.9"
+    },
+    {
+      "handicap": "-1.5/-2",
+      "count": 82,
+      "homeEdge": "-8.3",
+      "awayEdge": "4.0",
+      "bestSide": "HOME",
+      "bestEdge": "8.3"
+    },
+    {
+      "handicap": "+0.5/+1",
+      "count": 119,
+      "homeEdge": "-7.4",
+      "awayEdge": "3.2",
+      "bestSide": "HOME",
+      "bestEdge": "7.4"
+    },
+    {
+      "handicap": "+1/+1.5",
+      "count": 38,
+      "homeEdge": "1.8",
+      "awayEdge": "-6.3",
+      "bestSide": "AWAY",
+      "bestEdge": "6.3"
+    }
+  ]
+}

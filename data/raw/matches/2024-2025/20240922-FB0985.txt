@@ -1,0 +1,843 @@
+22/09/2024
+FB0985
+Manchester
+City
+vs
+Arsenal
+1
+:
+2
+2
+:
+2
+%Event ID: FB0985
+Manchester City
+2
+2
+Arsenal
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1.62
+3.50
+4.45
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1000
+9.00
+1.03
+First Half HAD
+Manchester City (Home)
+Draw
+Arsenal (Away)
+2.18
+2.11
+4.80
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Arsenal (Away)
+400.0
+9.50
+1.01
+Handicap HAD
+Manchester City (Home)
+Draw
+Arsenal (Away)
+[-1]
+2.80
+[-1]
+3.45
+[+1]
+2.03
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Arsenal (Away)
+[-2]
+9.00
+[-2]
+5.10
+[+2]
+1.20
+[-1]
+25.00
+[-1]
+10.00
+[+1]
+1.001
+Handicap
+Manchester City (Home)
+Arsenal (Away)
+[-0.5/-1]
+1.96
+[+0.5/+1]
+1.86
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Arsenal (Away)
+[-1/-1.5]
+3.60
+[+1/+1.5]
+1.25
+[0]
+2.02
+[0]
+1.72
+[0/-0.5]
+2.13
+[0/+0.5]
+1.65
+[-0.5/-1]
+2.24
+[+0.5/+1]
+1.59
+[0/+0.5]
+2.48
+[0/-0.5]
+1.49
+[+0.5/+1]
+6.30
+[-0.5/-1]
+1.09
+Same Game All Up
+Both teams to score in the match & Bukayo SAKA to score first in the match & Arsenal to win the first half
+26.00
+Both teams to score in the match & Arsenal to win the match & Over [2.5] goals in the first half
+28.00
+Manchester City to win & Over [2.5] goals & Over [11.5] corners taken
+6.00
+Arsenal to score first & Manchester City to win by [2] goal(s) or more
+24.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+5.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Arsenal to win & Over [2.5] goals
+6.70
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.50
+Both teams to score in the match & Manchester City to win the match & Under [1.5] goals in the first half
+8.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+11.50
+Manchester City to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+10.50
+Arsenal to win both first half and the match & Exactly [3] goals in the Match
+19.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+10.00
+Manchester City to win the match & Under [4.5] corners taken in the first half & Over [9.5] corners taken in the match
+10.50
+Arsenal to win the match & Over [5.5] corners taken in the first half & Under [10.5] corners taken in the match
+30.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:0] in the match
+16.00
+First half to be drawn [0:0] & Manchester City to win [2:1] in the match
+30.00
+First half to be drawn [1:1] & Manchester City to win [3:1] in the match
+40.00
+Arsenal to win [1:0] in the first half & The match to be drawn [1:1]
+24.00
+Arsenal to win [2:0] in the first half & Arsenal to win [2:1] in the match
+70.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.83
+1.87
+[2.5/3]
+2.07
+1.67
+[3.5]
+3.10
+1.31
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.23
+3.65
+[2.5]
+1.08
+5.90
+[2.5/3]
+1.10
+5.40
+[3/3.5]
+1.68
+2.05
+[3.5]
+1.18
+4.05
+[3.5/4]
+5.90
+1.08
+[4/4.5]
+8.50
+1.02
+[4.5]
+12.00
+1.001
+[4.5/5]
+2.22
+1.58
+[5.5]
+5.40
+1.10
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.15
+1.62
+[1.5]
+2.55
+1.45
+[2.5]
+5.60
+1.09
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.84
+1.86
+[1/1.5]
+2.88
+1.35
+[1.5]
+1.48
+2.45
+[1.5/2]
+2.13
+1.63
+[2/2.5]
+3.80
+1.21
+[2.5]
+1.80
+1.90
+[2.5/3]
+5.60
+1.09
+[3/3.5]
+11.50
+1.002
+[3.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.97
+1.74
+[11.5]
+2.40
+1.50
+[14.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.44
+2.58
+[8.5]
+1.26
+3.40
+[9.5]
+3.80
+1.21
+[10.5]
+9.50
+1.02
+[11.5]
+10.50
+1.001
+[12.5]
+5.60
+1.09
+[13.5]
+6.25
+1.07
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.76
+1.94
+[5.5]
+2.43
+1.49
+[7.5]
+4.95
+1.12
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.29
+3.20
+[3.5]
+1.34
+2.92
+[4.5]
+4.40
+1.15
+[5.5]
+8.50
+1.03
+[6.5]
+10.50
+1.001
+[7.5]
+4.95
+1.12
+Correct Score
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1:0
+6.40
+0:0
+9.75
+0:1
+12.50
+2:0
+6.80
+1:1
+6.60
+0:2
+22.00
+2:1
+6.90
+2:2
+13.00
+1:2
+13.00
+3:0
+12.50
+3:3
+50.00
+0:3
+50.00
+3:1
+13.00
+1:3
+35.00
+3:2
+25.00
+2:3
+40.00
+4:0
+27.00
+0:4
+150.0
+4:1
+28.00
+1:4
+100.0
+4:2
+40.00
+2:4
+100.0
+5:0
+50.00
+0:5
+600.0
+5:1
+50.00
+1:5
+400.0
+5:2
+100.0
+2:5
+500.0
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+40.00
+Draw Others
+200.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1:0
+7.40
+0:0
+7.60
+0:1
+9.75
+2:0
+4.55
+1:1
+3.75
+0:2
+20.00
+2:1
+3.55
+2:2
+9.00
+1:2
+1.05
+3:0
+6.90
+3:3
+1000
+0:3
+70.00
+3:1
+6.50
+1:3
+65.00
+3:2
+1000
+2:3
+700.0
+4:0
+15.50
+0:4
+350.0
+4:1
+19.00
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+45.00
+0:5
+1000
+5:1
+70.00
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1:0
+3.40
+0:0
+2.65
+0:1
+6.70
+2:0
+6.80
+1:1
+6.80
+0:2
+20.00
+2:1
+14.00
+2:2
+60.00
+1:2
+26.00
+3:0
+24.00
+3:3
+800.0
+0:3
+125.0
+3:1
+60.00
+1:3
+150.0
+3:2
+200.0
+2:3
+400.0
+4:0
+100.0
+0:4
+700.0
+4:1
+250.0
+1:4
+800.0
+4:2
+700.0
+2:4
+1500
+5:0
+600.0
+0:5
+2500
+5:1
+800.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Arsenal (Away)
+1:0
+1.71
+0:0
+2.03
+0:1
+6.00
+2:0
+2.98
+1:1
+1.11
+0:2
+30.00
+2:1
+7.00
+2:2
+8.10
+1:2
+1.06
+3:0
+13.50
+3:3
+2500
+0:3
+200.0
+3:1
+100.0
+1:3
+30.00
+3:2
+351.0
+2:3
+150.0
+4:0
+80.00
+0:4
+2500
+4:1
+2500
+1:4
+700.0
+4:2
+2500
+2:4
+2500
+5:0
+450.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Arsenal (Away)
+1.49
+9.75
+2.73
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+1.54
+7.60
+2.80
+2nd Goal
+1.62
+7.40
+2.58
+3rd Goal
+1.73
+4.15
+3.12
+4th Goal
+7.60
+1.05
+60.00
+Total Goals
+0
+9.75
+1
+4.60
+2
+3.45
+3
+3.65
+4
+5.00
+5
+8.50
+6
+17.00
+7+
+28.00
+Total Goals- Last Odds for In Play Betting
+0
+7.60
+1
+7.40
+2
+3.75
+3
+1.05
+4
+5.10
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.89
+1.81
+First Scorer
+Manchester City (Home)
+Arsenal (Away)
+101 Erling HAALAND
+2.94
+201 Kai HAVERTZ
+9.00
+102 Phil FODEN
+6.90
+202 Bukayo SAKA
+10.00
+103 Kevin DE BRUYNE
+7.75
+203 GABRIEL Fernando JESUS
+11.00
+105 BERNARDO SILVA
+9.50
+205 Raheem STERLING
+11.50
+106 Jack GREALISH
+9.50
+204 Leandro TROSSARD
+12.50
+107 James McATEE
+9.50
+206 GABRIEL Teodoro MARTINELLI
+13.50
+104 SAVINHO Moreira de Oliveira
+10.00
+207 Ethan NWANERI
+15.00
+110 Jeremy DOKU
+10.00
+208 Ismeal KABIA
+17.00
+108 RODRI Cascante
+12.00
+209 Declan RICE
+27.00
+109 Ilkay GUNDOGAN
+13.00
+211 JORGINHO Luiz Frello
+30.00
+112 Mateo KOVACIC
+26.00
+210 GABRIEL Magalhaes
+35.00
+113 Matheus NUNES
+26.00
+212 Ben WHITE
+45.00
+111 Josko GVARDIOL
+27.00
+213 Myles LEWIS-SKELLY
+50.00
+114 Rico LEWIS
+30.00
+214 Thomas PARTEY
+55.00
+115 John STONES
+35.00
+216 William SALIBA
+55.00
+116 RUBEN DIAS
+40.00
+215 Jurrien TIMBER
+60.00
+117 Manuel AKANJI
+40.00
+217 Jakub KIWIOR
+80.00
+118 Kyle WALKER
+60.00
+218 Maldini KACURRI
+80.00
+219 Ayden HEAVEN
+100.0
+120 Home Others
+11.00
+220 Away Others
+20.00
+00 No First Scorer
+8.80
+HaFu
+H-H
+2.45
+H-D
+14.00
+H-A
+30.00
+D-H
+4.05
+D-D
+5.30
+D-A
+9.75
+A-H
+21.00
+A-D
+14.00
+A-A
+7.75
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+1.72
+(4) Be substituted
+6.50
+(5) None of the above
+2.40
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.72
+(2) 1 Goal
+2.50
+(3) 2 Goals
+6.25
+(4) 3 Goals or more
+13.00
+Item No.: 3 Which event will happen to Jack GREALISH (Manchester City) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+4.75
+(4) Be substituted
+1.50
+(5) None of the above
+4.20
+Item No.: 4 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+1.54
+(5) None of the above
+4.20
+Item No.: 5 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+1.96
+(5) None of the above
+2.80
+Item No.: 6 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+3.05
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.55
+(4) Be substituted
+3.50
+(5) None of the above
+2.30

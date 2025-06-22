@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/ee86dc99/Fulham-Nottingham-Forest-February-11-2023-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "February 11, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 88,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 15,
+        "player": "Serge Aurier",
+        "playerId": "5c2b4f07",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 7,
+        "player": "Joe Worrall",
+        "playerId": "a5212312",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 7,
+        "player": "Felipe",
+        "playerId": "51a3c4c8",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Jonjo Shelvey",
+        "playerId": "3727dd3c",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "André Ayew",
+        "playerId": "5dbefa9d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Cédric Soares",
+        "playerId": "839c14e1",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

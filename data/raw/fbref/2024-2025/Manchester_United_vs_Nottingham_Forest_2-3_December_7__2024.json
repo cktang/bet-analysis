@@ -1,0 +1,167 @@
+{
+  "url": "https://fbref.com/en/matches/08966ea6/Manchester-United-Nottingham-Forest-December-7-2024-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "December 7, 2024",
+  "score": "2-3",
+  "homeScore": 2,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Nikola Milenković",
+        "playerId": "bee704fc",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Elliot Anderson"
+      },
+      {
+        "minute": 18,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 47,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Callum Hudson-Odoi"
+      },
+      {
+        "minute": 54,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Morgan Gibbs-White"
+      },
+      {
+        "minute": 61,
+        "player": "Bruno Fernandes",
+        "playerId": "507c7bdf",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Amad Diallo"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 31,
+        "player": "Jota Silva",
+        "playerId": "4d77e622",
+        "team": "Nottingham Forest"
+      },
+      {
+        "minute": 94,
+        "player": "Neco Williams",
+        "playerId": "dd323728",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "player": "Marcus Rashford",
+        "playerId": "a1d5bd30",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Noussair Mazraoui",
+        "playerId": "b74277a0",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Harry Maguire",
+        "playerId": "d8931174",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Morato",
+        "playerId": "0f41e2ee",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Joshua Zirkzee",
+        "playerId": "028e70b9",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Anthony Elanga",
+        "playerId": "2fba6108",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Nicolás Domínguez",
+        "playerId": "20b3a502",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "url": "https://fbref.com/en/matches/20a16b44/Nottingham-Forest-Arsenal-January-30-2024-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Arsenal",
+  "matchDate": "January 30, 2024",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 65,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Oleksandr Zinchenko"
+      },
+      {
+        "minute": 72,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      },
+      {
+        "minute": 89,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Gonzalo Montiel"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 40,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Taiwo Awoniyi",
+        "playerId": "e5478b87",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Callum Hudson-Odoi",
+        "playerId": "15f3ec41",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Anthony Elanga",
+        "playerId": "2fba6108",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

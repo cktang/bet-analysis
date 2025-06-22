@@ -1,0 +1,166 @@
+{
+  "url": "https://fbref.com/en/matches/2d551ff5/North-West-London-Derby-Arsenal-Chelsea-May-2-2023-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Chelsea",
+  "matchDate": "May 2, 2023",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 18,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Granit Xhaka"
+      },
+      {
+        "minute": 31,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Granit Xhaka"
+      },
+      {
+        "minute": 34,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 65,
+        "player": "Noni Madueke",
+        "playerId": "bf34eebd",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Mateo Kovačić"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 80,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Chelsea"
+      },
+      {
+        "minute": 95,
+        "player": "Conor Gallagher",
+        "playerId": "c2731c10",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Conor Gallagher",
+        "playerId": "c2731c10",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Mykhailo Mudryk",
+        "playerId": "049a888d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Hakim Ziyech",
+        "playerId": "6622454d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Rob Holding",
+        "playerId": "d79a8c87",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Trevoh Chalobah",
+        "playerId": "5515376c",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

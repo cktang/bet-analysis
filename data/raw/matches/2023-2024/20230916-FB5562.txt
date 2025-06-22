@@ -1,0 +1,717 @@
+16/09/2023
+FB5562
+Manchester
+Utd
+vs
+Brighton
+0
+:
+1
+1
+:
+3
+%Event ID: FB5562
+Manchester Utd
+1
+3
+Brighton
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+1.86
+3.85
+3.05
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+900.0
+60.00
+1.001
+First Half HAD
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+2.25
+2.54
+3.35
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+125.0
+5.60
+1.07
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+[-1]
+3.05
+[-1]
+4.05
+[+1]
+1.78
+Handicap
+Manchester Utd (Home)
+Brighton (Away)
+[0/-0.5]
+1.76
+[0/+0.5]
+2.08
+Same Game All Up
+Marcus RASHFORD to score first & Manchester Utd to win & Over [3.5] goals
+14.00
+Kaoru MITOMA to score first & Brighton to win & Over [3.5] goals
+32.00
+Manchester Utd to win & Over [4.5] goals & Over [10.5] corners taken
+9.50
+The match to be drawn & Under [8.5] corners taken
+12.00
+Brighton to win & Over [3.5] goals
+6.50
+Manchester Utd to score first & Brighton to win or draw
+5.10
+Manchester Utd to win the first half & Manchester Utd to win the match by [2] goal(s) or more
+4.00
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+8.75
+Brighton to win the first half & Over [1.5] goals in the first half
+6.90
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+12.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+7.50
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Manchester Utd to win [2:1] in the match
+35.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+First half to be drawn [0:0] & Brighton to win [1:0] in the match
+30.00
+Brighton to win [1:0] in the first half & Brighton to win [2:1] in the match
+30.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.74
+1.97
+[3.5]
+1.93
+1.77
+[4.5]
+3.05
+1.32
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+6.50
+1.07
+[2/2.5]
+1.59
+2.20
+[2.5]
+1.15
+4.55
+[2.5/3]
+1.66
+2.08
+[3/3.5]
+2.65
+1.42
+[3.5]
+1.43
+2.60
+[3.5/4]
+1.75
+1.95
+[4/4.5]
+2.90
+1.35
+[4.5]
+1.48
+2.45
+[5/5.5]
+9.50
+1.02
+[5.5]
+9.50
+1.02
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.90
+1.80
+[1.5/2]
+2.29
+1.55
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.90
+1.13
+[0.5/1]
+1.80
+1.90
+[1/1.5]
+3.00
+1.33
+[1.5]
+1.49
+2.43
+[2/2.5]
+9.50
+1.02
+[2.5]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.20
+1.59
+[12.5]
+2.88
+1.36
+[14.5]
+5.10
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+5.10
+1.12
+[7.5]
+1.15
+4.55
+[8.5]
+1.09
+5.80
+[10.5]
+9.50
+1.02
+[11.5]
+5.80
+1.09
+[12.5]
+3.70
+1.22
+[13.5]
+3.25
+1.28
+[14.5]
+5.10
+1.12
+Correct Score
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+1:0
+13.00
+0:0
+24.00
+0:1
+18.00
+2:0
+13.50
+1:1
+8.25
+0:2
+22.00
+2:1
+8.25
+2:2
+9.75
+1:2
+11.00
+3:0
+21.00
+3:3
+29.00
+0:3
+35.00
+3:1
+12.50
+1:3
+22.00
+3:2
+15.00
+2:3
+21.00
+4:0
+35.00
+0:4
+70.00
+4:1
+24.00
+1:4
+40.00
+4:2
+35.00
+2:4
+40.00
+5:0
+60.00
+0:5
+200.0
+5:1
+40.00
+1:5
+100.0
+5:2
+50.00
+2:5
+80.00
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+23.00
+Draw Others
+55.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+1:0
+6.80
+0:0
+12.50
+0:1
+3.90
+2:0
+8.50
+1:1
+3.60
+0:2
+2.16
+2:1
+6.90
+2:2
+10.00
+1:2
+3.30
+3:0
+15.50
+3:3
+250.0
+0:3
+2.29
+3:1
+19.00
+1:3
+1.11
+3:2
+23.00
+2:3
+7.65
+4:0
+40.00
+0:4
+5.10
+4:1
+80.00
+1:4
+12.00
+4:2
+150.0
+2:4
+100.0
+5:0
+125.0
+0:5
+28.00
+5:1
+400.0
+1:5
+600.0
+5:2
+900.0
+2:5
+1000
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+1:0
+4.65
+0:0
+4.05
+0:1
+6.00
+2:0
+8.50
+1:1
+5.90
+0:2
+14.50
+2:1
+11.50
+2:2
+35.00
+1:2
+16.00
+3:0
+28.00
+3:3
+300.0
+0:3
+50.00
+3:1
+35.00
+1:3
+50.00
+3:2
+80.00
+2:3
+100.0
+4:0
+80.00
+0:4
+250.0
+4:1
+125.0
+1:4
+300.0
+4:2
+400.0
+2:4
+500.0
+5:0
+500.0
+0:5
+900.0
+5:1
+600.0
+1:5
+900.0
+5:2
+900.0
+2:5
+2000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Brighton (Away)
+1:0
+3.24
+0:0
+2.10
+0:1
+1.21
+2:0
+12.00
+1:1
+4.95
+0:2
+9.75
+2:1
+41.00
+2:2
+500.0
+1:2
+70.00
+3:0
+70.00
+3:3
+2500
+0:3
+200.0
+3:1
+1500
+1:3
+1000
+3:2
+2500
+2:3
+2500
+4:0
+350.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Brighton (Away)
+1.61
+24.00
+2.11
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.60
+12.50
+2.31
+2nd Goal
+1.78
+3.90
+3.14
+3rd Goal
+2.07
+2.64
+3.65
+4th Goal
+2.35
+2.29
+3.65
+5th Goal
+7.40
+1.11
+11.50
+Total Goals
+0
+24.00
+1
+7.50
+2
+4.40
+3
+3.90
+4
+4.15
+5
+5.80
+6
+9.00
+7+
+10.50
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Manchester Utd (Home)
+Brighton (Away)
+101 Marcus RASHFORD
+4.20
+201 Evan FERGUSON
+5.90
+102 Anthony MARTIAL
+5.10
+202 Kaoru MITOMA
+8.50
+103 Rasmus HOJLUND
+5.20
+203 Solly MARCH
+8.50
+104 Bruno Borges FERNANDES
+6.10
+204 JOAO PEDRO Junqueira
+9.75
+105 Alejandro GARNACHO
+7.50
+205 Danny WELBECK
+10.00
+106 Carlos CASEMIRO
+10.00
+206 Ansu FATI
+12.50
+107 Christian ERIKSEN
+14.00
+207 Pascal GROSS
+18.00
+108 Sofyan AMRABAT
+17.00
+208 Adam LALLANA
+22.00
+109 Scott McTOMINAY
+21.00
+209 James MILNER
+26.00
+110 Harry MAGUIRE
+26.00
+210 Mahmoud DAHOUD
+26.00
+111 Diogo DALOT
+30.00
+211 Billy GILMOUR
+35.00
+112 Lisandro MARTINEZ
+30.00
+212 Lewis DUNK
+35.00
+114 Jonny EVANS
+35.00
+213 Pervis ESTUPINAN
+35.00
+113 Aaron WAN-BISSAKA
+40.00
+214 Adam WEBSTER
+50.00
+115 Victor LINDELOF
+40.00
+215 Jan Paul VAN HECKE
+50.00
+216 Joel VELTMAN
+50.00
+120 Home Others
+9.75
+220 Away Others
+17.00
+00 No First Scorer
+23.80
+HaFu
+H-H
+2.85
+H-D
+12.50
+H-A
+25.00
+D-H
+5.30
+D-D
+7.00
+D-A
+8.00
+A-H
+19.00
+A-D
+12.50
+A-A
+4.65
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.25
+(4) Be substituted
+3.75
+(5) None of the above
+2.80
+Item No.: 2 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+2.90
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+3.20
+(4) Be substituted
+6.50
+(5) None of the above
+2.30
+Item No.: 3 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.30
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+1.80
+(5) None of the above
+4.90
+Item No.: 4 Which event will happen to Evan FERGUSON (Brighton) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+2.55
+(5) None of the above
+3.00
+Item No.: 5 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+4.20
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+3.35
+(5) None of the above
+2.25

@@ -1,0 +1,143 @@
+{
+  "url": "https://fbref.com/en/matches/00ea7906/Manchester-City-Everton-February-10-2024-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Everton",
+  "matchDate": "February 10, 2024",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 71,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Nathan Aké"
+      },
+      {
+        "minute": 85,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 54,
+        "player": "Idrissa Gana Gueye",
+        "playerId": "72c812f3",
+        "team": "Everton"
+      },
+      {
+        "minute": 97,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "player": "Séamus Coleman",
+        "playerId": "0420d84f",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Kyle Walker",
+        "playerId": "86dd77d1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Amadou Onana",
+        "playerId": "828657ff",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Lewis Dobbin",
+        "playerId": "e814e1cf",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Youssef Chermiti",
+        "playerId": "890f108d",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

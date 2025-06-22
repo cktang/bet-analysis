@@ -1,0 +1,1097 @@
+{
+  "auditDate": "2025-06-22T18:00:20.946Z",
+  "summary": {
+    "totalFactors": 97,
+    "criticalErrors": 2,
+    "warnings": 23,
+    "cleanFactors": 72,
+    "errorRate": 2.0618556701030926
+  },
+  "criticalErrors": [
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "relegationPressure",
+      "expression": "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))",
+      "description": "Combined relegation pressure (higher = more pressure)",
+      "issues": [
+        "CRITICAL: Inverted relegation logic - formula gives high values to TOP teams",
+        "CRITICAL: Relegation pressure formula is inverted - gives high values to top teams"
+      ],
+      "severity": "CRITICAL"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "combinationName": "Relegation_Desperation_Index",
+      "factors": [
+        "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))",
+        "fbref.week"
+      ],
+      "hypothesis": "Relegation pressure intensifies throughout season affecting handicap performance",
+      "issues": [
+        "CRITICAL: Relegation combination uses inverted formula"
+      ],
+      "severity": "OK"
+    }
+  ],
+  "warnings": [
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "weekInSeason",
+      "expression": "fbref.week",
+      "description": "Week number in the season (fatigue/form effects)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "attendance",
+      "expression": "fbref.attendance",
+      "description": "Stadium attendance (home advantage indicator)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "handicapLine",
+      "expression": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
+      "description": "Asian Handicap line value",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "averagePosition",
+      "expression": "((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2",
+      "description": "Average league position of both teams",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "homeImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.homeImpliedProb",
+      "description": "Implied probability of home win from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "drawImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.drawImpliedProb",
+      "description": "Implied probability of draw from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "awayImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.awayImpliedProb",
+      "description": "Implied probability of away win from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "totalImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.totalImpliedProb",
+      "description": "Total implied probability (shows overround)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "cutPercentage",
+      "expression": "enhanced.preMatch.marketEfficiency.cutPercentage",
+      "description": "Bookmaker margin/cut percentage",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "goalDiffMomentum",
+      "expression": "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)",
+      "description": "Goal difference momentum comparison",
+      "issues": [
+        "WARNING: Goal difference calculation may not handle negative values"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "combinedOverRate",
+      "expression": "((timeSeries.home.cumulative.markets.overRate || 0) + (timeSeries.away.cumulative.markets.overRate || 0)) / 2",
+      "description": "Combined team over rate",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "europeanPressure",
+      "expression": "Math.max(0, 7 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 7 - (timeSeries.away.leaguePosition || 20))",
+      "description": "Combined European qualification pressure",
+      "issues": [
+        "WARNING: European pressure formula may be inverted"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "positionVsExpectation",
+      "expression": "(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)",
+      "description": "Home position vs market expectation ratio",
+      "issues": [
+        "WARNING: Potential division by zero",
+        "WARNING: Probability scaling may be incorrect"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "lateSeasonTopSix",
+      "expression": "(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Home team in top 6 during late season (European pressure)",
+      "issues": [
+        "SUSPICIOUS: Top teams using >= (higher numbers)"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "awayLateSeasonTopSix",
+      "expression": "(fbref.week >= 30 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Away team in top 6 during late season",
+      "issues": [
+        "SUSPICIOUS: Top teams using >= (higher numbers)"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "extremeHomeFavorite",
+      "expression": "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0",
+      "description": "Extreme home favorites (>80% implied probability)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "extremeAwayUnderdog",
+      "expression": "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.1) ? 1 : 0",
+      "description": "Extreme away underdogs (<10% implied probability)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "earlySeasonUncertainty",
+      "expression": "(fbref.week <= 6) ? 1 : 0",
+      "description": "Very early season when positions are unreliable",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "businessEnd",
+      "expression": "(fbref.week >= 35) ? 1 : 0",
+      "description": "Final stretch of season when every point matters",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "homeXG",
+      "expression": "fbref.homeXG",
+      "description": "Home team expected goals",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "awayXG",
+      "expression": "fbref.awayXG",
+      "description": "Away team expected goals",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "xgDifference",
+      "expression": "fbref.homeXG - fbref.awayXG",
+      "description": "XG difference (home - away)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "totalXG",
+      "expression": "fbref.homeXG + fbref.awayXG",
+      "description": "Total expected goals for both teams",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    }
+  ],
+  "allFactors": [
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "weekInSeason",
+      "expression": "fbref.week",
+      "description": "Week number in the season (fatigue/form effects)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "attendance",
+      "expression": "fbref.attendance",
+      "description": "Stadium attendance (home advantage indicator)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "contextual_factors.js",
+      "factorName": "handicapLine",
+      "expression": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
+      "description": "Asian Handicap line value",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeCurrentStreak",
+      "expression": "timeSeries.home.streaks.overall.current.count || 0",
+      "description": "Home team current streak length",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayCurrentStreak",
+      "expression": "timeSeries.away.streaks.overall.current.count || 0",
+      "description": "Away team current streak length",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeWinStreak",
+      "expression": "timeSeries.home.streaks.overall.longest.win || 0",
+      "description": "Home team longest win streak this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayWinStreak",
+      "expression": "timeSeries.away.streaks.overall.longest.win || 0",
+      "description": "Away team longest win streak this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeLossStreak",
+      "expression": "timeSeries.home.streaks.overall.longest.loss || 0",
+      "description": "Home team longest loss streak this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayLossStreak",
+      "expression": "timeSeries.away.streaks.overall.longest.loss || 0",
+      "description": "Away team longest loss streak this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeAHStreak",
+      "expression": "timeSeries.home.streaks.asianHandicap.current.count || 0",
+      "description": "Home team current Asian Handicap streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayAHStreak",
+      "expression": "timeSeries.away.streaks.asianHandicap.current.count || 0",
+      "description": "Away team current Asian Handicap streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeAHWinRate",
+      "expression": "timeSeries.home.cumulative.markets.asianHandicapWinRate || 0",
+      "description": "Home team Asian Handicap win rate this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayAHWinRate",
+      "expression": "timeSeries.away.cumulative.markets.asianHandicapWinRate || 0",
+      "description": "Away team Asian Handicap win rate this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeGoalDiff",
+      "expression": "timeSeries.home.cumulative.overall.goalDifference || 0",
+      "description": "Home team cumulative goal difference",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayGoalDiff",
+      "expression": "timeSeries.away.cumulative.overall.goalDifference || 0",
+      "description": "Away team cumulative goal difference",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeOverRate",
+      "expression": "timeSeries.home.cumulative.markets.overRate || 0",
+      "description": "Home team over 2.5 goals rate",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayOverRate",
+      "expression": "timeSeries.away.cumulative.markets.overRate || 0",
+      "description": "Away team over 2.5 goals rate",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "homeMatchesPlayed",
+      "expression": "timeSeries.home.matchesPlayed || 0",
+      "description": "Home team matches played this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "form_streaks.js",
+      "factorName": "awayMatchesPlayed",
+      "expression": "timeSeries.away.matchesPlayed || 0",
+      "description": "Away team matches played this season",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "homePosition",
+      "expression": "timeSeries.home.leaguePosition || 20",
+      "description": "Home team current league position",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "awayPosition",
+      "expression": "timeSeries.away.leaguePosition || 20",
+      "description": "Away team current league position",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "positionGap",
+      "expression": "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)",
+      "description": "League position gap (away - home, positive = home higher)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "positionGapAbs",
+      "expression": "Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))",
+      "description": "Absolute league position gap between teams",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "homeTopSix",
+      "expression": "(timeSeries.home.leaguePosition || 20) <= 6 ? 1 : 0",
+      "description": "Home team in top 6 positions (European spots)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "awayTopSix",
+      "expression": "(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0",
+      "description": "Away team in top 6 positions (European spots)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "homeBottomThree",
+      "expression": "(timeSeries.home.leaguePosition || 20) >= 18 ? 1 : 0",
+      "description": "Home team in relegation zone (bottom 3)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "awayBottomThree",
+      "expression": "(timeSeries.away.leaguePosition || 20) >= 18 ? 1 : 0",
+      "description": "Away team in relegation zone (bottom 3)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "combinedPosition",
+      "expression": "(timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)",
+      "description": "Combined league positions (lower = better teams)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "league_position.js",
+      "factorName": "averagePosition",
+      "expression": "((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2",
+      "description": "Average league position of both teams",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "homeImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.homeImpliedProb",
+      "description": "Implied probability of home win from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "drawImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.drawImpliedProb",
+      "description": "Implied probability of draw from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "awayImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.awayImpliedProb",
+      "description": "Implied probability of away win from odds",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "totalImpliedProb",
+      "expression": "enhanced.preMatch.marketEfficiency.totalImpliedProb",
+      "description": "Total implied probability (shows overround)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "market_efficiency.js",
+      "factorName": "cutPercentage",
+      "expression": "enhanced.preMatch.marketEfficiency.cutPercentage",
+      "description": "Bookmaker margin/cut percentage",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "streakDifferential",
+      "expression": "(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)",
+      "description": "Current streak differential (home - away)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "goalDiffMomentum",
+      "expression": "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)",
+      "description": "Goal difference momentum comparison",
+      "issues": [
+        "WARNING: Goal difference calculation may not handle negative values"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "ahSuccessGap",
+      "expression": "(timeSeries.home.cumulative.markets.asianHandicapWinRate || 0) - (timeSeries.away.cumulative.markets.asianHandicapWinRate || 0)",
+      "description": "Asian Handicap success rate gap",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "homeFormLength",
+      "expression": "timeSeries.home.streaks.overall.form.length || 0",
+      "description": "Home team form sample size",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "awayFormLength",
+      "expression": "timeSeries.away.streaks.overall.form.length || 0",
+      "description": "Away team form sample size",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "homeVenueMatches",
+      "expression": "timeSeries.home.venueMatches || 0",
+      "description": "Home team matches at this venue",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "awayVenueMatches",
+      "expression": "timeSeries.away.venueMatches || 0",
+      "description": "Away team matches at this venue",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "homeVenueStreak",
+      "expression": "timeSeries.home.streaks.venue.current.count || 0",
+      "description": "Home team current venue streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "awayVenueStreak",
+      "expression": "timeSeries.away.streaks.venue.current.count || 0",
+      "description": "Away team current venue streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "homeOverStreak",
+      "expression": "timeSeries.home.streaks.overUnder.current.count || 0",
+      "description": "Home team over/under streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "awayOverStreak",
+      "expression": "timeSeries.away.streaks.overUnder.current.count || 0",
+      "description": "Away team over/under streak",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "momentum_patterns.js",
+      "factorName": "combinedOverRate",
+      "expression": "((timeSeries.home.cumulative.markets.overRate || 0) + (timeSeries.away.cumulative.markets.overRate || 0)) / 2",
+      "description": "Combined team over rate",
+      "issues": [
+        "WARNING: Potential division by zero"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "homeWinOdds",
+      "expression": "match.homeWinOdds",
+      "description": "1X2 home win odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "drawOdds",
+      "expression": "match.drawOdds",
+      "description": "1X2 draw odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "awayWinOdds",
+      "expression": "match.awayWinOdds",
+      "description": "1X2 away win odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "over2_5Odds",
+      "expression": "match.over2_5Odds",
+      "description": "Over 2.5 goals odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "under2_5Odds",
+      "expression": "match.under2_5Odds",
+      "description": "Under 2.5 goals odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "ahHomeOdds",
+      "expression": "match.asianHandicapOdds.homeOdds",
+      "description": "Asian Handicap home odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "odds_factors.js",
+      "factorName": "ahAwayOdds",
+      "expression": "match.asianHandicapOdds.awayOdds",
+      "description": "Asian Handicap away odds",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "relegationPressure",
+      "expression": "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))",
+      "description": "Combined relegation pressure (higher = more pressure)",
+      "issues": [
+        "CRITICAL: Inverted relegation logic - formula gives high values to TOP teams",
+        "CRITICAL: Relegation pressure formula is inverted - gives high values to top teams"
+      ],
+      "severity": "CRITICAL"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "europeanPressure",
+      "expression": "Math.max(0, 7 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 7 - (timeSeries.away.leaguePosition || 20))",
+      "description": "Combined European qualification pressure",
+      "issues": [
+        "WARNING: European pressure formula may be inverted"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "titlePressure",
+      "expression": "Math.max(0, 5 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 5 - (timeSeries.away.leaguePosition || 20))",
+      "description": "Combined title race pressure (top 4)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "positionVsExpectation",
+      "expression": "(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)",
+      "description": "Home position vs market expectation ratio",
+      "issues": [
+        "WARNING: Potential division by zero",
+        "WARNING: Probability scaling may be incorrect"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "underperformingTeam",
+      "expression": "((timeSeries.home.leaguePosition || 20) > 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
+      "description": "Team in lower half but market still favors them",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "overperformingTeam",
+      "expression": "((timeSeries.home.leaguePosition || 20) < 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb < 0.3) ? 1 : 0",
+      "description": "Team in upper half but market doesn't favor them",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "topSixBattle",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0",
+      "description": "Both teams competing for European spots",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "relegationBattle",
+      "expression": "((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16) ? 1 : 0",
+      "description": "Both teams fighting relegation",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "giantKilling",
+      "expression": "((timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Lower team vs top 6 (giant killing scenario)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "safeMidTable",
+      "expression": "((timeSeries.home.leaguePosition || 20) > 8 && (timeSeries.home.leaguePosition || 20) < 16 && (timeSeries.away.leaguePosition || 20) > 8 && (timeSeries.away.leaguePosition || 20) < 16) ? 1 : 0",
+      "description": "Both teams in safe mid-table positions",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "lateSeasonPressure",
+      "expression": "(fbref.week >= 30) ? (Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))) : 0",
+      "description": "Late season relegation pressure multiplier",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "positional_strategy.js",
+      "factorName": "earlySeasonPosition",
+      "expression": "(fbref.week <= 10) ? Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) : 0",
+      "description": "Early season position gaps (less reliable)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "motivatedPositionHome",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 6 && fbref.week >= 30) ? (7 - (timeSeries.home.leaguePosition || 20)) : (((timeSeries.home.leaguePosition || 20) >= 17 && fbref.week >= 25) ? (21 - (timeSeries.home.leaguePosition || 20)) : 0)",
+      "description": "Position matters when stakes are high: Late season European or relegation pressure",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "motivatedPositionAway",
+      "expression": "((timeSeries.away.leaguePosition || 20) <= 6 && fbref.week >= 30) ? (7 - (timeSeries.away.leaguePosition || 20)) : (((timeSeries.away.leaguePosition || 20) >= 17 && fbref.week >= 25) ? (21 - (timeSeries.away.leaguePosition || 20)) : 0)",
+      "description": "Away team position with late season motivation multiplier",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "recentFormDivergence",
+      "expression": "(timeSeries.home.streaks.overall.form.length >= 3) && (timeSeries.away.streaks.overall.form.length >= 3) ? Math.abs((timeSeries.home.streaks.overall.form.winRate || 0) - (timeSeries.away.streaks.overall.form.winRate || 0)) : 0",
+      "description": "Recent form divergence when both teams have reliable sample size",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "qualityTeamBadForm",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 10 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.home.streaks.overall.form.length || 0) >= 3) ? 1 : 0",
+      "description": "Quality home team (top 10) in recent bad form - potential overreaction",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "qualityAwayBadForm",
+      "expression": "((timeSeries.away.leaguePosition || 20) <= 10 && (timeSeries.away.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.away.streaks.overall.form.length || 0) >= 3) ? 1 : 0",
+      "description": "Quality away team (top 10) in recent bad form - market overreaction",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "extremeMarketOverconfidence",
+      "expression": "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.75 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
+      "description": "Market extremely confident in home team despite poor recent form",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "extremeAwayUndervaluation",
+      "expression": "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0",
+      "description": "Market undervalues quality away team with good recent form",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "meaningfulPositionGap",
+      "expression": "(Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) >= 8) && (((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6) || ((timeSeries.home.leaguePosition || 20) >= 15 || (timeSeries.away.leaguePosition || 20) >= 15)) ? 1 : 0",
+      "description": "Large position gaps only matter when European spots or relegation involved",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "positionFormAlignment",
+      "expression": "((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20) > 5) && ((timeSeries.home.streaks.overall.form.winRate || 0) - (timeSeries.away.streaks.overall.form.winRate || 0) > 0.3) ? 1 : 0",
+      "description": "Position gap supported by recent form - home team much better in both",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "fallingGiantHome",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
+      "description": "Good home team on losing streak but market still backs them - fade the favorite",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "risingUnderdog",
+      "expression": "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0",
+      "description": "Lower table away team on winning streak but market still undervalues",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "earlySeasonUncertainty",
+      "expression": "(fbref.week <= 8) ? Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) : 0",
+      "description": "Early season position gaps when table is unreliable",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "lateSeasonDesperation",
+      "expression": "(fbref.week >= 32) ? Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20)) : 0",
+      "description": "Late season relegation desperation multiplier",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "marketLagIndicator",
+      "expression": "((timeSeries.home.leaguePosition || 20) > 12 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6 && (timeSeries.home.streaks.overall.form.winRate || 0) < 0.3) ? 1 : 0",
+      "description": "Market slow to adjust to declining form of lower table home team",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "rescue_strategies.js",
+      "factorName": "reputationVsReality",
+      "expression": "((timeSeries.away.leaguePosition || 20) <= 6 && enhanced.preMatch.marketEfficiency.awayImpliedProb > 0.7 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0",
+      "description": "Top 6 away team with poor goal difference but market still overvalues",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "lateSeasonTopSix",
+      "expression": "(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Home team in top 6 during late season (European pressure)",
+      "issues": [
+        "SUSPICIOUS: Top teams using >= (higher numbers)"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "lateSeasonRelegation",
+      "expression": "(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) >= 17) ? 1 : 0",
+      "description": "Home team in relegation zone during late season (survival pressure)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "awayLateSeasonTopSix",
+      "expression": "(fbref.week >= 30 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Away team in top 6 during late season",
+      "issues": [
+        "SUSPICIOUS: Top teams using >= (higher numbers)"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "goodTeamBadForm",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
+      "description": "Quality home team (top 8) with poor recent form",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "badTeamGoodForm",
+      "expression": "((timeSeries.away.leaguePosition || 20) >= 15 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.6) ? 1 : 0",
+      "description": "Lower table away team with good recent form",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "extremeHomeFavorite",
+      "expression": "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0",
+      "description": "Extreme home favorites (>80% implied probability)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "extremeAwayUnderdog",
+      "expression": "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.1) ? 1 : 0",
+      "description": "Extreme away underdogs (<10% implied probability)",
+      "issues": [
+        "WARNING: Missing null handling for enhanced"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "earlySeasonUncertainty",
+      "expression": "(fbref.week <= 6) ? 1 : 0",
+      "description": "Very early season when positions are unreliable",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "businessEnd",
+      "expression": "(fbref.week >= 35) ? 1 : 0",
+      "description": "Final stretch of season when every point matters",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "favoriteOnLosers",
+      "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0",
+      "description": "Home team on losing streak but still market favorite",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "underdogOnWinners",
+      "expression": "((timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.3) ? 1 : 0",
+      "description": "Away team on winning streak but still underdog",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "bigSixClash",
+      "expression": "((timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0",
+      "description": "Both teams in traditional 'Big 6' positions",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "simple_rescue_strategies.js",
+      "factorName": "relegationSixPointer",
+      "expression": "((timeSeries.home.leaguePosition || 20) >= 17 && (timeSeries.away.leaguePosition || 20) >= 17) ? 1 : 0",
+      "description": "Both teams in relegation zone (six-pointer)",
+      "issues": [],
+      "severity": "OK"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "homeXG",
+      "expression": "fbref.homeXG",
+      "description": "Home team expected goals",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "awayXG",
+      "expression": "fbref.awayXG",
+      "description": "Away team expected goals",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "xgDifference",
+      "expression": "fbref.homeXG - fbref.awayXG",
+      "description": "XG difference (home - away)",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    },
+    {
+      "fileName": "xg_factors.js",
+      "factorName": "totalXG",
+      "expression": "fbref.homeXG + fbref.awayXG",
+      "description": "Total expected goals for both teams",
+      "issues": [
+        "WARNING: Missing null handling for fbref"
+      ],
+      "severity": "WARNING"
+    }
+  ]
+}

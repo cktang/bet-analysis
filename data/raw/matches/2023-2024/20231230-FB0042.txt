@@ -1,0 +1,642 @@
+30/12/2023
+FB0042
+Manchester
+City
+vs
+Sheff
+Utd
+1
+:
+0
+2
+:
+0
+%Event ID: FB0042
+Manchester City
+2
+0
+Sheff Utd
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1.04
+10.50
+30.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1.001
+60.00
+150.0
+First Half HAD
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1.21
+3.90
+17.00
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1.001
+17.00
+150.0
+Handicap HAD
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+[-3]
+2.53
+[-3]
+4.05
+[+3]
+1.98
+Handicap
+Manchester City (Home)
+Sheff Utd (Away)
+[-2.5/-3]
+1.97
+[+2.5/+3]
+1.85
+Same Game All Up
+Julian ALVAREZ to score first & Over [5.5] goals
+16.00
+Phil FODEN to score first & Over [4.5] goals
+12.50
+Jack GREALISH to score first & Over [4.5] goals
+12.50
+Julian ALVAREZ to score first & Under [10.5] corners taken
+7.25
+Manchester City to win the match by [5] goal(s) or more & Over [2.5] goals in the first half
+7.50
+Sheff Utd to score first & Manchester City to win by [4] goal(s) or more
+30.00
+Sheff Utd to score first & Sheff Utd to win or draw
+19.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+4.75
+First Half to be drawn & Manchester City to win the match by exactly [3] goal(s)
+17.00
+First Half to be drawn & Over [13.5] corners taken in the match
+12.50
+Manchester City to win [1:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+Manchester City to win [1:0] in the first half & Manchester City to win [4:1] in the match
+50.00
+Manchester City to win [2:0] in the first half & Manchester City to win [5:0] in the match
+23.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+14.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+27.00
+Manchester City to win [4:0] in the first half & Manchester City to win [5:0] in the match
+65.00
+Manchester City to win both first half and the match & Exactly [3] goals in the Match
+5.50
+Manchester City to win both first half and the match & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+12.00
+First Half to be drawn and Manchester City to win the match & Total even number of goals in the match
+9.50
+HiLo
+Line
+High
+Low
+[3.5]
+1.75
+1.95
+[3.5/4]
+1.93
+1.77
+[4.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+4.60
+1.14
+[2/2.5]
+1.62
+2.15
+[2.5]
+1.18
+4.05
+[3/3.5]
+10.50
+1.01
+[3.5]
+11.00
+1.005
+[3.5/4]
+2.13
+1.63
+[4/4.5]
+2.15
+1.62
+[4.5]
+5.40
+1.10
+[5.5]
+4.05
+1.18
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.68
+2.05
+[1.5/2]
+1.91
+1.79
+[2.5]
+3.15
+1.30
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.90
+1.08
+[1/1.5]
+1.82
+1.88
+[1.5]
+1.23
+3.65
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+[3.5]
+5.60
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.08
+1.66
+[12.5]
+2.62
+1.42
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+4.60
+1.14
+[7.5]
+1.57
+2.25
+[8.5]
+1.34
+2.92
+[9.5]
+1.37
+2.80
+[10.5]
+1.30
+3.15
+[11.5]
+1.18
+4.05
+[12.5]
+1.33
+2.98
+[13.5]
+1.36
+2.85
+[15.5]
+11.00
+1.005
+Correct Score
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1:0
+9.25
+0:0
+30.00
+0:1
+50.00
+2:0
+5.80
+1:1
+22.00
+0:2
+125.0
+2:1
+11.00
+2:2
+40.00
+1:2
+50.00
+3:0
+5.60
+3:3
+125.0
+0:3
+600.0
+3:1
+10.50
+1:3
+250.0
+3:2
+35.00
+2:3
+150.0
+4:0
+6.20
+0:4
+1000
+4:1
+12.00
+1:4
+900.0
+4:2
+40.00
+2:4
+700.0
+5:0
+9.25
+0:5
+1000
+5:1
+19.00
+1:5
+1000
+5:2
+50.00
+2:5
+1000
+Home Others
+(Away No Goal)
+9.25
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+13.50
+Draw Others
+400.0
+Away Others
+(Home Scores)
+600.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1:0
+4.20
+0:0
+18.00
+0:1
+40.00
+2:0
+1.17
+1:1
+13.50
+0:2
+150.0
+2:1
+21.00
+2:2
+1000
+1:2
+65.00
+3:0
+4.30
+3:3
+1000
+0:3
+1000
+3:1
+100.0
+1:3
+800.0
+3:2
+1000
+2:3
+1000
+4:0
+60.00
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.10
+0:0
+4.95
+0:1
+20.00
+2:0
+3.50
+1:1
+11.50
+0:2
+100.0
+2:1
+12.50
+2:2
+80.00
+1:2
+70.00
+3:0
+6.60
+3:3
+1000
+0:3
+800.0
+3:1
+24.00
+1:3
+600.0
+3:2
+150.0
+2:3
+700.0
+4:0
+14.50
+0:4
+2500
+4:1
+60.00
+1:4
+2500
+4:2
+400.0
+2:4
+2500
+5:0
+50.00
+0:5
+2500
+5:1
+150.0
+1:5
+2500
+5:2
+800.0
+2:5
+2500
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+400.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Sheff Utd (Away)
+1:0
+1.05
+0:0
+3.29
+0:1
+17.00
+2:0
+8.75
+1:1
+55.00
+0:2
+125.0
+2:1
+300.0
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Sheff Utd (Away)
+1.03
+30.00
+7.00
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Sheff Utd (Away)
+1st Goal
+1.11
+18.00
+6.10
+2nd Goal
+1.33
+4.20
+6.50
+3rd Goal
+4.25
+1.17
+20.00
+Total Goals
+0
+30.00
+1
+8.50
+2
+5.00
+3
+3.90
+4
+4.00
+5
+5.30
+6
+7.75
+7+
+8.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.25
+H-D
+30.00
+H-A
+80.00
+D-H
+4.10
+D-D
+15.00
+D-A
+55.00
+A-H
+25.00
+A-D
+30.00
+A-A
+45.00
+Specials
+Item No.: 1 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.37
+(4) Be substituted
+5.00
+(5) None of the above
+4.00
+Item No.: 2 How many goal(s) will Julian ALVAREZ (Manchester City) score?
+(1) No Goal
+2.45
+(2) 1 Goal
+2.30
+(3) 2 Goals
+4.05
+(4) 3 Goals or more
+7.75
+Item No.: 3 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+11.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.15
+(4) Be substituted
+1.85
+(5) None of the above
+5.60
+Item No.: 4 Which event will happen to BERNARDO SILVA (Manchester City) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.12
+(4) Be substituted
+4.35
+(5) None of the above
+2.25
+Item No.: 5 Which event will happen to Jack GREALISH (Manchester City) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.42
+(4) Be substituted
+4.00
+(5) None of the above
+2.35

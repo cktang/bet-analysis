@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/704aa0f3/Everton-Manchester-City-May-14-2023-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Manchester City",
+  "matchDate": "May 14, 2023",
+  "score": "0-3",
+  "homeScore": 0,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 37,
+        "player": "İlkay Gündoğan",
+        "playerId": "819b3158",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Riyad Mahrez"
+      },
+      {
+        "minute": 39,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "İlkay Gündoğan"
+      },
+      {
+        "minute": 51,
+        "player": "İlkay Gündoğan",
+        "playerId": "819b3158",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 49,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Neal Maupay",
+        "playerId": "4bcf39f6",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 55,
+        "player": "Conor Coady",
+        "playerId": "2928dca2",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Amadou Onana",
+        "playerId": "828657ff",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Demarai Gray",
+        "playerId": "4468ec10",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Sergio Gómez",
+        "playerId": "01e5f06e",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

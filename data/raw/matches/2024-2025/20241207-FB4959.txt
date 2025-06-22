@@ -1,0 +1,737 @@
+07/12/2024
+FB4959
+Brentford
+vs
+Newcastle
+2
+:
+2
+4
+:
+2
+%Event ID: FB4959
+Brentford
+4
+2
+Newcastle
+Eng Premier
+Home/Away/Draw
+Brentford (Home)
+Draw
+Newcastle (Away)
+2.80
+3.60
+2.03
+Home/Away/Draw- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Newcastle (Away)
+1.02
+200.0
+28.00
+First Half HAD
+Brentford (Home)
+Draw
+Newcastle (Away)
+3.15
+2.39
+2.48
+First Half HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Newcastle (Away)
+10.50
+1.08
+8.00
+Handicap HAD
+Brentford (Home)
+Draw
+Newcastle (Away)
+[+1]
+1.62
+[+1]
+4.00
+[-1]
+3.65
+Handicap HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Newcastle (Away)
+[-2]
+11.00
+[-2]
+1.08
+[+2]
+8.00
+[+1]
+1.03
+[+1]
+8.50
+[-1]
+19.00
+[-1]
+1.05
+[-1]
+5.50
+[+1]
+150.0
+Handicap
+Brentford (Home)
+Newcastle (Away)
+[0/+0.5]
+1.90
+[0/-0.5]
+1.92
+Same Game All Up
+Yoane WISSA to score first & Brentford to win & Over [11.5] corners taken
+21.00
+Alexander ISAK to score first & Over [3.5] goals & Over [10.5] corners taken
+18.00
+Both teams to score & Brentford to win & Over [3.5] goals
+7.00
+Both teams to score & Newcastle to win & Over [12.5] corners taken
+8.50
+Both teams to score in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+4.80
+Newcastle to win & Over [3.5] goals & Over [12.5] corners taken
+12.00
+Newcastle to score first in the match & Newcastle to win the first half & Over [1.5] goals in the first half
+6.00
+Newcastle to score first & Brentford to win or draw
+5.00
+Brentford to score first in the match & Over [1.5] goals in the first half
+4.20
+Brentford to score first & Newcastle to win by [2] goal(s) or more
+24.00
+First Half to be drawn & Newcastle to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+12.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [8.5] corners taken in the match
+7.00
+Newcastle to win both first half and the match & Exactly [4] goals in the Match
+15.00
+Brentford to win both first half and the match & Exactly [3] goals in the Match
+13.00
+Brentford to win [1:0] in the first half & Brentford to win [2:0] in the match
+28.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+19.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+28.00
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+25.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:0] in the match
+45.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.97
+1.74
+[3.5]
+2.20
+1.59
+[4.5]
+3.55
+1.24
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.16
+4.30
+[2.5/3]
+1.20
+3.90
+[3/3.5]
+2.12
+1.64
+[3.5]
+1.19
+3.95
+[3.5/4]
+1.23
+3.65
+[4/4.5]
+1.20
+3.90
+[4.5]
+1.35
+2.88
+[4.5/5]
+2.17
+1.61
+[5/5.5]
+1.74
+1.97
+[5.5]
+1.22
+3.70
+[5.5/6]
+5.60
+1.09
+[6/6.5]
+11.50
+1.002
+[6.5]
+11.50
+1.002
+[7.5]
+5.60
+1.09
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.48
+1.47
+[2.5]
+4.05
+1.18
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.46
+2.50
+[1/1.5]
+2.19
+1.60
+[1.5]
+1.30
+3.15
+[1.5/2]
+1.46
+2.50
+[2/2.5]
+2.15
+1.62
+[2.5]
+1.39
+2.70
+[2.5/3]
+2.40
+1.50
+[3/3.5]
+4.60
+1.14
+[3.5]
+5.40
+1.10
+[3.5/4]
+2.75
+1.38
+[4/4.5]
+5.90
+1.08
+[4.5/5]
+8.00
+1.04
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.97
+1.74
+[12.5]
+2.48
+1.47
+[15.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.02
+1.70
+[6.5]
+2.80
+1.37
+[8.5]
+5.90
+1.08
+Correct Score
+Brentford (Home)
+Draw
+Newcastle (Away)
+1:0
+13.00
+0:0
+17.00
+0:1
+11.00
+2:0
+17.00
+1:1
+7.25
+0:2
+13.00
+2:1
+9.50
+2:2
+9.75
+1:2
+7.25
+3:0
+30.00
+3:3
+30.00
+0:3
+21.00
+3:1
+20.00
+1:3
+13.50
+3:2
+21.00
+2:3
+17.00
+4:0
+60.00
+0:4
+40.00
+4:1
+40.00
+1:4
+30.00
+4:2
+40.00
+2:4
+35.00
+5:0
+150.0
+0:5
+70.00
+5:1
+100.0
+1:5
+50.00
+5:2
+100.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+200.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Newcastle (Away)
+1:0
+14.00
+0:0
+12.00
+0:1
+8.25
+2:0
+11.00
+1:1
+9.00
+0:2
+10.00
+2:1
+9.00
+2:2
+3.85
+1:2
+5.90
+3:0
+18.00
+3:3
+8.00
+0:3
+18.00
+3:1
+7.40
+1:3
+8.25
+3:2
+1.14
+2:3
+4.00
+4:0
+45.00
+0:4
+45.00
+4:1
+15.00
+1:4
+18.00
+4:2
+1.09
+2:4
+9.25
+5:0
+150.0
+0:5
+125.0
+5:1
+45.00
+1:5
+50.00
+5:2
+12.00
+2:5
+35.00
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+5.60
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Brentford (Home)
+Draw
+Newcastle (Away)
+1:0
+5.50
+0:0
+3.45
+0:1
+4.45
+2:0
+12.00
+1:1
+5.80
+0:2
+8.75
+2:1
+14.00
+2:2
+35.00
+1:2
+12.00
+3:0
+50.00
+3:3
+500.0
+0:3
+30.00
+3:1
+60.00
+1:3
+40.00
+3:2
+125.0
+2:3
+100.0
+4:0
+250.0
+0:4
+125.0
+4:1
+300.0
+1:4
+200.0
+4:2
+600.0
+2:4
+500.0
+5:0
+900.0
+0:5
+600.0
+5:1
+1000
+1:5
+700.0
+5:2
+2000
+2:5
+1500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+900.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Newcastle (Away)
+1:0
+2.85
+0:0
+2.64
+0:1
+3.75
+2:0
+4.20
+1:1
+1.67
+0:2
+10.00
+2:1
+1.51
+2:2
+1.05
+1:2
+3.95
+3:0
+17.00
+3:3
+100.0
+0:3
+45.00
+3:1
+4.90
+1:3
+18.00
+3:2
+16.00
+2:3
+12.50
+4:0
+90.00
+0:4
+200.0
+4:1
+35.00
+1:4
+100.0
+4:2
+400.0
+2:4
+250.0
+5:0
+450.0
+0:5
+1500
+5:1
+300.0
+1:5
+1000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Brentford (Home)
+No Goals
+Newcastle (Away)
+2.03
+17.00
+1.70
+Next Team To Score- Last Odds for In Play Betting
+Brentford (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+2.07
+12.00
+1.71
+2nd Goal
+2.26
+14.00
+1.58
+3rd Goal
+2.23
+9.00
+1.71
+4th Goal
+2.31
+9.50
+1.66
+5th Goal
+2.62
+3.85
+2.01
+6th Goal
+10.00
+1.14
+5.80
+Total Goals
+0
+17.00
+1
+6.20
+2
+4.05
+3
+3.80
+4
+4.30
+5
+6.20
+6
+10.50
+7+
+12.50
+Total Goals- Last Odds for In Play Betting
+0
+12.00
+1
+14.00
+2
+9.00
+3
+9.00
+4
+3.85
+5
+1.17
+6
+4.80
+7+
+11.50
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Brentford (Home)
+Newcastle (Away)
+101 Yoane WISSA
+6.10
+201 Alexander ISAK
+4.25
+102 Bryan MBEUMO
+6.80
+202 Callum WILSON
+4.50
+103 Igor THIAGO
+6.90
+203 William OSULA
+4.95
+104 Kevin SCHADE
+7.50
+204 Harvey BARNES
+5.70
+105 Gustavo NUNES
+8.50
+205 Anthony GORDON
+6.00
+106 Fabio CARVALHO
+9.75
+206 JOELINTON Cassio
+9.00
+107 Paris MAGHOMA
+17.00
+207 Jacob MURPHY
+9.50
+108 Mikkel DAMSGAARD
+23.00
+208 Miguel ALMIRON
+10.50
+109 Yehor YARMOLYUK
+23.00
+209 Joe WILLOCK
+15.00
+110 Ryan TREVITT
+29.00
+210 BRUNO GUIMARAES
+18.00
+111 Keane LEWIS-POTTER
+30.00
+211 Sandro TONALI
+18.00
+112 Mathias JENSEN
+30.00
+212 Sean LONGSTAFF
+19.00
+113 Vitaly JANELT
+30.00
+213 Lewis MILEY
+21.00
+114 Ben MEE
+35.00
+214 Fabian SCHAR
+23.00
+115 Christian NORGAARD
+35.00
+215 Dan BURN
+35.00
+116 Ethan PINNOCK
+35.00
+216 Kieran TRIPPIER
+35.00
+117 Nathan COLLINS
+35.00
+217 Lewis HALL
+45.00
+118 Sepp VAN DEN BERG
+35.00
+218 Alex MURPHY
+50.00
+119 Jayden MEGHOMA
+40.00
+219 Lloyd KELLY
+50.00
+120 Home Others
+15.00
+220 Away Others
+12.50
+00 No First Scorer
+16.80
+HaFu
+H-H
+4.25
+H-D
+12.00
+H-A
+20.00
+D-H
+7.00
+D-D
+6.20
+D-A
+5.40
+A-H
+24.00
+A-D
+12.00
+A-A
+3.20

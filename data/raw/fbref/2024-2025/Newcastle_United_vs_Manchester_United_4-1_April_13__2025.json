@@ -1,0 +1,174 @@
+{
+  "url": "https://fbref.com/en/matches/4254acea/Newcastle-United-Manchester-United-April-13-2025-Premier-League",
+  "homeTeam": "Newcastle United",
+  "awayTeam": "Manchester United",
+  "matchDate": "April 13, 2025",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 24,
+        "player": "Sandro Tonali",
+        "playerId": "0db169ae",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Alexander Isak"
+      },
+      {
+        "minute": 37,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Diogo Dalot"
+      },
+      {
+        "minute": 49,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Jacob Murphy"
+      },
+      {
+        "minute": 64,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 77,
+        "player": "Bruno Guimarães",
+        "playerId": "82518f62",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Joelinton"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 16,
+        "player": "Manuel Ugarte Ribeiro",
+        "playerId": "c9817014",
+        "team": "Manchester United"
+      },
+      {
+        "minute": 43,
+        "player": "Leny Yoro",
+        "playerId": "6763f716",
+        "team": "Manchester United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "player": "Patrick Dorgu",
+        "playerId": "e6536124",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 55,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 55,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Emil Krafth",
+        "playerId": "77cf6852",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Anthony Gordon",
+        "playerId": "2bd83368",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Luke Shaw",
+        "playerId": "9c94165b",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Kobbie Mainoo",
+        "playerId": "c6220452",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

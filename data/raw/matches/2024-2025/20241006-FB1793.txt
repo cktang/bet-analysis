@@ -1,0 +1,862 @@
+06/10/2024
+FB1793
+Brighton
+vs
+Tottenham
+0
+:
+2
+3
+:
+2
+%Event ID: FB1793
+Brighton
+3
+2
+Tottenham
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Tottenham (Away)
+2.70
+3.75
+2.04
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Tottenham (Away)
+1.06
+6.90
+300.0
+First Half HAD
+Brighton (Home)
+Draw
+Tottenham (Away)
+2.97
+2.58
+2.41
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Tottenham (Away)
+600.0
+45.00
+1.001
+Handicap HAD
+Brighton (Home)
+Draw
+Tottenham (Away)
+[+1]
+1.61
+[+1]
+4.20
+[-1]
+3.55
+Handicap HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Tottenham (Away)
+[-2]
+350.0
+[-2]
+6.40
+[+2]
+1.02
+[+1]
+1.001
+[+1]
+12.00
+[-1]
+17.00
+[+2]
+1.06
+[+2]
+6.70
+[-2]
+21.00
+[+3]
+1.11
+[+3]
+6.10
+[-3]
+13.50
+Handicap
+Brighton (Home)
+Tottenham (Away)
+[0/+0.5]
+1.90
+[0/-0.5]
+1.92
+Handicap- Last Odds for In Play Betting
+Brighton (Home)
+Tottenham (Away)
+[-1]
+2.28
+[+1]
+1.57
+[0]
+1.04
+[0]
+8.25
+[+1]
+1.08
+[-1]
+6.60
+[+2]
+1.10
+[-2]
+6.10
+[+2/+2.5]
+1.68
+[-2/-2.5]
+2.08
+[+1/+1.5]
+3.60
+[-1/-1.5]
+1.25
+[0/+0.5]
+3.70
+[0/-0.5]
+1.24
+Same Game All Up
+Dominic SOLANKE to score first & Tottenham to win [3:2]
+45.00
+Tottenham to win & Over [3.5] goals & Over [11.5] corners taken
+7.00
+Kaoru MITOMA to score first & Both teams to score & Over [10.5] corners taken
+20.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:0] in the match
+30.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:0] in the match
+50.00
+Tottenham to win [2:0] in the first half & Tottenham to win [4:0] in the match
+70.00
+Tottenham to win [1:0] in the first half & Tottenham to win [3:1] in the match
+45.00
+Tottenham to win [1:0] in the first half & Tottenham to win [3:0] in the match
+45.00
+Brighton to win [1:0] in the first half & Brighton to win [2:1] in the match
+30.00
+Brighton to win [1:0] in the first half & Brighton to win [3:1] in the match
+50.00
+Brighton to win [2:0] in the first half & Brighton to win [3:0] in the match
+60.00
+Brighton to win [2:0] in the first half & Brighton to win [3:1] in the match
+60.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+6.20
+Under [5.5] corners taken in the first half & Over [12.5] corners taken in the match
+9.25
+Brighton to win & Over [3.5] goals
+4.80
+Brighton to score first & Tottenham to win by [2] goal(s) or more
+20.00
+Both teams to score in the match & Over [2.5] goals in the first half & Over [5.5] goals in the match
+7.20
+Brighton to score first & Tottenham to score & Over [11.5] corners taken
+4.70
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+5.60
+Tottenham to win by [2] goal(s) or more & Brighton to score
+5.90
+HiLo
+Line
+High
+Low
+[3.5]
+1.79
+1.91
+[3.5/4]
+1.95
+1.75
+[4.5]
+2.65
+1.41
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.20
+3.90
+[2.5/3]
+1.23
+3.65
+[3/3.5]
+1.22
+3.70
+[3.5]
+1.09
+5.60
+[3.5/4]
+1.12
+4.95
+[4/4.5]
+1.70
+2.02
+[4.5]
+1.22
+3.70
+[4.5/5]
+1.44
+2.58
+[5/5.5]
+2.15
+1.62
+[5.5]
+1.32
+3.05
+[5.5/6]
+7.00
+1.05
+[6/6.5]
+12.00
+1.001
+[6.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.82
+1.88
+[1.5/2]
+2.10
+1.65
+[2.5]
+3.45
+1.25
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.80
+1.90
+[1/1.5]
+2.98
+1.33
+[1.5]
+1.51
+2.38
+[1.5/2]
+2.98
+1.33
+[2/2.5]
+6.60
+1.06
+[2.5]
+8.00
+1.04
+[2.5/3]
+6.25
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.76
+1.94
+[12.5]
+2.08
+1.66
+[15.5]
+4.05
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.31
+3.10
+[9.5]
+1.12
+4.95
+[10.5]
+1.14
+4.60
+[11.5]
+1.62
+2.15
+[12.5]
+5.40
+1.10
+[13.5]
+11.50
+1.002
+[14.5]
+12.00
+1.001
+[15.5]
+4.05
+1.18
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.85
+1.85
+[6.5]
+2.55
+1.45
+[7.5]
+3.55
+1.24
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.16
+4.30
+[4.5]
+5.90
+1.08
+[5.5]
+10.50
+1.01
+[6.5]
+9.50
+1.005
+[7.5]
+5.40
+1.10
+[8.5]
+4.95
+1.12
+Correct Score
+Brighton (Home)
+Draw
+Tottenham (Away)
+1:0
+18.00
+0:0
+25.00
+0:1
+15.00
+2:0
+21.00
+1:1
+8.75
+0:2
+16.00
+2:1
+9.75
+2:2
+8.75
+1:2
+8.25
+3:0
+30.00
+3:3
+23.00
+0:3
+23.00
+3:1
+18.00
+1:3
+13.00
+3:2
+17.00
+2:3
+14.00
+4:0
+50.00
+0:4
+40.00
+4:1
+35.00
+1:4
+25.00
+4:2
+35.00
+2:4
+29.00
+5:0
+125.0
+0:5
+70.00
+5:1
+70.00
+1:5
+40.00
+5:2
+70.00
+2:5
+50.00
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+125.0
+Home Others
+(Away Scores)
+25.00
+Draw Others
+50.00
+Away Others
+(Home Scores)
+21.00
+Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Tottenham (Away)
+1:0
+10.00
+0:0
+12.50
+0:1
+9.00
+2:0
+16.00
+1:1
+6.40
+0:2
+6.20
+2:1
+12.50
+2:2
+2.90
+1:2
+4.10
+3:0
+40.00
+3:3
+7.45
+0:3
+5.30
+3:1
+35.00
+1:3
+4.45
+3:2
+1.13
+2:3
+4.65
+4:0
+125.0
+0:4
+9.50
+4:1
+125.0
+1:4
+10.50
+4:2
+10.50
+2:4
+13.50
+5:0
+500.0
+0:5
+25.00
+5:1
+600.0
+1:5
+35.00
+5:2
+600.0
+2:5
+45.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+45.00
+Home Others
+(Away Scores)
+100.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+300.0
+First Half Correct Score
+Brighton (Home)
+Draw
+Tottenham (Away)
+1:0
+5.80
+0:0
+4.30
+0:1
+4.95
+2:0
+11.50
+1:1
+5.60
+0:2
+8.75
+2:1
+12.00
+2:2
+25.00
+1:2
+10.50
+3:0
+40.00
+3:3
+250.0
+0:3
+28.00
+3:1
+40.00
+1:3
+35.00
+3:2
+80.00
+2:3
+70.00
+4:0
+150.0
+0:4
+100.0
+4:1
+200.0
+1:4
+125.0
+4:2
+400.0
+2:4
+300.0
+5:0
+700.0
+0:5
+500.0
+5:1
+700.0
+1:5
+600.0
+5:2
+1000
+2:5
+900.0
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+1500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+600.0
+First Half Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Tottenham (Away)
+1:0
+4.90
+0:0
+1.97
+0:1
+1.35
+2:0
+23.00
+1:1
+5.50
+0:2
+1.14
+2:1
+51.00
+2:2
+100.0
+1:2
+7.65
+3:0
+125.0
+3:3
+2500
+0:3
+6.80
+3:1
+350.0
+1:3
+50.00
+3:2
+2500
+2:3
+700.0
+4:0
+1500
+0:4
+90.00
+4:1
+2500
+1:4
+600.0
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Brighton (Home)
+No Goals
+Tottenham (Away)
+1.96
+25.00
+1.69
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+2.19
+12.50
+1.66
+2nd Goal
+2.09
+9.00
+1.82
+3rd Goal
+2.14
+6.20
+1.95
+4th Goal
+2.31
+4.10
+2.16
+5th Goal
+2.54
+3.12
+2.35
+6th Goal
+10.00
+1.13
+7.20
+Total Goals
+0
+25.00
+1
+8.50
+2
+4.85
+3
+3.90
+4
+4.05
+5
+5.40
+6
+8.00
+7+
+8.25
+Total Goals- Last Odds for In Play Betting
+0
+12.50
+1
+9.00
+2
+6.20
+3
+4.10
+4
+2.90
+5
+1.13
+6
+5.50
+7+
+12.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Brighton (Home)
+Tottenham (Away)
+101 JOAO PEDRO Junqueira
+6.20
+201 Dominic SOLANKE
+4.90
+102 Danny WELBECK
+6.30
+202 Will LANKSHEAR
+6.10
+103 Evan FERGUSON
+6.80
+203 Brennan JOHNSON
+6.80
+104 Georginio RUTTER
+7.25
+204 SON Heung Min
+7.50
+105 Julio ENCISO
+8.00
+205 Mikey MOORE
+8.50
+106 Kaoru MITOMA
+8.75
+206 Timo WERNER
+9.00
+107 Simon ADINGRA
+8.75
+207 Dejan KULUSEVSKI
+12.50
+108 Brajan GRUDA
+9.75
+208 James MADDISON
+13.50
+109 Yankuba MINTEH
+9.75
+209 Lucas BERGVALL
+16.00
+110 Yasin AYARI
+10.00
+210 Pape Matar SARR
+17.00
+111 Carlos BALEBA
+17.00
+211 Cristian ROMERO
+22.00
+112 Jack HINSHELWOOD
+18.00
+212 Pedro PORRO
+23.00
+113 Jakub MODER
+18.00
+213 Rodrigo BENTANCUR
+24.00
+114 Mats WIEFFER
+25.00
+214 Archie GRAY
+28.00
+115 Pervis ESTUPINAN
+26.00
+215 Radu DRAGUSIN
+30.00
+116 James MILNER
+29.00
+216 Yves BISSOUMA
+30.00
+117 Ferdi KADIOGLU
+30.00
+217 Micky VAN DE VEN
+35.00
+118 Lewis DUNK
+35.00
+218 Destiny UDOGIE
+50.00
+119 Adam WEBSTER
+40.00
+219 Ben DAVIES
+55.00
+120 Home Others
+14.50
+220 Away Others
+12.50
+00 No First Scorer
+24.80
+HaFu
+H-H
+4.00
+H-D
+12.00
+H-A
+16.00
+D-H
+7.00
+D-D
+7.25
+D-A
+5.70
+A-H
+19.00
+A-D
+12.00
+A-A
+3.20
+Specials
+Item No.: 1 Which event will happen to Danny WELBECK (Brighton) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+1.86
+(5) None of the above
+5.55
+Item No.: 2 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+3.15
+(5) None of the above
+2.02
+Item No.: 3 Which event will happen to Dominic SOLANKE (Tottenham) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.15
+(4) Be substituted
+3.05
+(5) None of the above
+3.00
+Item No.: 4 Which event will happen to Brennan JOHNSON (Tottenham) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+1.55
+(5) None of the above
+6.00
+Item No.: 5 Which event will happen to Dejan KULUSEVSKI (Tottenham) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.60
+(4) Be substituted
+3.75
+(5) None of the above
+1.87

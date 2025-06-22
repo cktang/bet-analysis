@@ -1,0 +1,705 @@
+15/03/2025
+FB8947
+Southampton
+vs
+Wolves
+0
+:
+1
+1
+:
+2
+%Event ID: FB8947
+Southampton
+1
+2
+Wolves
+Eng Premier
+Home/Away/Draw
+Southampton (Home)
+Draw
+Wolves (Away)
+3.55
+3.30
+1.84
+Home/Away/Draw- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Wolves (Away)
+70.00
+7.20
+1.04
+First Half HAD
+Southampton (Home)
+Draw
+Wolves (Away)
+4.00
+2.13
+2.38
+First Half HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Wolves (Away)
+80.00
+7.60
+1.04
+Handicap HAD
+Southampton (Home)
+Draw
+Wolves (Away)
+[+2]
+1.23
+[+2]
+5.30
+[-2]
+7.25
+[+1]
+1.77
+[+1]
+3.50
+[-1]
+3.45
+Handicap HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Wolves (Away)
+[-1]
+8.00
+[-1]
+5.50
+[+1]
+1.20
+[+2]
+1.08
+[+2]
+5.20
+[-2]
+50.00
+[+1]
+3.70
+[+1]
+1.60
+[-1]
+4.10
+Handicap
+Southampton (Home)
+Wolves (Away)
+[0/+0.5]
+2.17
+[0/-0.5]
+1.70
+Same Game All Up
+Both teams to score & Wolves to win & Over [11.5] corners taken
+10.00
+Wolves to win & Over [3.5] goals & Over [10.5] corners taken
+11.00
+Wolves to win [1:0] in the first half & Wolves to win [2:1] in the match
+25.00
+Both teams to score in the match & Over [1.5] goals in the first half & Wolves to win the match by [2] goal(s) or more
+11.00
+Both teams to score & Southampton to win & Under [9.5] corners taken
+12.00
+Both teams to score & Wolves to win by exactly [1] goal(s) & Over [10.5] corners taken
+13.00
+Southampton to score first & Wolves to win by [2] goal(s) or more
+27.00
+Wolves to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+22.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+13.00
+Under [2.5] corners taken in the first half & Under [6.5] corners taken in the match
+10.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+11.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+8.00
+First Half to be drawn & Wolves to win the match by [2] goal(s) or more
+13.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.00
+The match to be drawn & Under [7.5] corners taken
+12.00
+Wolves to win [1:0] in the first half & Wolves to win [3:0] in the match
+35.00
+Wolves to win [2:0] in the first half & Wolves to win [3:1] in the match
+60.00
+Wolves to win [2:0] in the first half & Wolves to win [4:0] in the match
+80.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Southampton to win [1:0] in the first half & Southampton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.87
+1.83
+[2.5/3]
+2.13
+1.63
+[3.5]
+3.20
+1.29
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.10
+5.40
+[1.5/2]
+1.10
+5.40
+[2/2.5]
+1.85
+1.85
+[2.5]
+1.22
+3.70
+[2.5/3]
+2.35
+1.52
+[3/3.5]
+4.40
+1.15
+[3.5]
+1.85
+1.85
+[3.5/4]
+4.60
+1.14
+[4/4.5]
+10.50
+1.01
+[4.5]
+11.00
+1.005
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.62
+1.42
+[1.5/2]
+3.35
+1.27
+[2.5]
+6.25
+1.07
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.13
+1.63
+[1/1.5]
+3.70
+1.22
+[1.5]
+1.70
+2.02
+[1.5/2]
+5.15
+1.11
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.08
+1.66
+[11.5]
+2.70
+1.39
+[13.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.82
+1.88
+[5.5]
+2.65
+1.41
+[7.5]
+6.25
+1.07
+Correct Score
+Southampton (Home)
+Draw
+Wolves (Away)
+1:0
+9.50
+0:0
+9.50
+0:1
+6.50
+2:0
+17.00
+1:1
+6.20
+0:2
+8.25
+2:1
+11.50
+2:2
+13.00
+1:2
+7.25
+3:0
+40.00
+3:3
+50.00
+0:3
+16.00
+3:1
+29.00
+1:3
+14.50
+3:2
+35.00
+2:3
+24.00
+4:0
+100.0
+0:4
+35.00
+4:1
+70.00
+1:4
+30.00
+4:2
+80.00
+2:4
+40.00
+5:0
+400.0
+0:5
+70.00
+5:1
+300.0
+1:5
+70.00
+5:2
+400.0
+2:5
+125.0
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+200.0
+Home Others
+(Away Scores)
+100.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Wolves (Away)
+1:0
+6.80
+0:0
+6.10
+0:1
+3.70
+2:0
+15.00
+1:1
+4.25
+0:2
+1.78
+2:1
+11.00
+2:2
+7.85
+1:2
+1.16
+3:0
+50.00
+3:3
+1000
+0:3
+4.25
+3:1
+40.00
+1:3
+7.80
+3:2
+71.00
+2:3
+80.00
+4:0
+200.0
+0:4
+27.00
+4:1
+250.0
+1:4
+200.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+250.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+150.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+150.0
+First Half Correct Score
+Southampton (Home)
+Draw
+Wolves (Away)
+1:0
+5.80
+0:0
+2.62
+0:1
+3.65
+2:0
+15.00
+1:1
+6.70
+0:2
+8.00
+2:1
+22.00
+2:2
+60.00
+1:2
+14.00
+3:0
+80.00
+3:3
+800.0
+0:3
+35.00
+3:1
+125.0
+1:3
+60.00
+3:2
+300.0
+2:3
+200.0
+4:0
+600.0
+0:4
+150.0
+4:1
+700.0
+1:4
+300.0
+4:2
+1000
+2:4
+700.0
+5:0
+2000
+0:5
+700.0
+5:1
+2500
+1:5
+1000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Wolves (Away)
+1:0
+4.90
+0:0
+1.74
+0:1
+1.09
+2:0
+28.00
+1:1
+7.70
+0:2
+18.00
+2:1
+81.00
+2:2
+2500
+1:2
+125.0
+3:0
+200.0
+3:3
+2500
+0:3
+300.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Southampton (Home)
+No Goals
+Wolves (Away)
+2.40
+9.50
+1.62
+Next Team To Score- Last Odds for In Play Betting
+Southampton (Home)
+No Goals
+Wolves (Away)
+1st Goal
+2.45
+6.10
+1.78
+2nd Goal
+2.30
+3.70
+2.30
+3rd Goal
+3.34
+1.78
+3.55
+4th Goal
+7.60
+1.16
+7.60
+Total Goals
+0
+9.50
+1
+4.25
+2
+3.35
+3
+3.75
+4
+5.20
+5
+9.25
+6
+18.00
+7+
+27.00
+Total Goals- Last Odds for In Play Betting
+0
+6.10
+1
+3.70
+2
+1.78
+3
+1.24
+4
+3.06
+5
+24.00
+6
+300.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Southampton (Home)
+Wolves (Away)
+101 Paul ONUACHU
+7.75
+201 Jorgen Strand LARSEN
+4.45
+102 Cameron ARCHER
+8.50
+202 Marshall MUNETSI
+5.60
+103 Ross STEWART
+8.75
+203 HWANG Hee chan
+5.70
+104 Albert GRONBAEK
+9.75
+204 Goncalo GUEDES
+7.50
+105 Joe ARIBO
+10.00
+205 Pablo SARABIA
+8.00
+106 Tyler DIBLING
+10.50
+206 Jeanricner BELLEGARDE
+8.25
+107 Kamaldeen SULEMANA
+11.50
+207 Carlos FORBS
+9.25
+108 Mateus FERNANDES
+12.00
+208 Joao GOMES
+12.00
+109 Ryan FRASER
+15.00
+209 Rayan AIT-NOURI
+12.00
+110 Adam LALLANA
+23.00
+210 Rodrigo Martins GOMES
+16.00
+111 Will SMALLBONE
+23.00
+211 Tommy DOYLE
+20.00
+112 Flynn DOWNES
+28.00
+212 Boubacar TRAORE
+24.00
+113 Jan BEDNAREK
+30.00
+213 Matt DOHERTY
+24.00
+115 Taylor HARWOOD-BELLIS
+30.00
+214 Craig DAWSON
+35.00
+114 Kyle WALKER-PETERS
+35.00
+215 Emmanuel AGBADOU
+35.00
+116 Lesley UGOCHUKWU
+35.00
+216 Nasser DJIGA
+35.00
+117 Yukinari SUGAWARA
+35.00
+217 Nelson SEMEDO
+35.00
+118 Juan LARIOS
+40.00
+218 Pedro LIMA
+35.00
+119 Ryan MANNING
+55.00
+219 ANDRE Trindade da Costa Neto
+40.00
+120 Home Others
+11.50
+220 Away Others
+8.00
+00 No First Scorer
+9.30
+HaFu
+H-H
+5.60
+H-D
+13.50
+H-A
+23.00
+D-H
+7.75
+D-D
+4.95
+D-A
+4.50
+A-H
+28.00
+A-D
+13.50
+A-A
+2.95

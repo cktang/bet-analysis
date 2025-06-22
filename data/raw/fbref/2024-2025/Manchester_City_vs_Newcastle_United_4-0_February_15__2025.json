@@ -1,0 +1,160 @@
+{
+  "url": "https://fbref.com/en/matches/8c51fa01/Manchester-City-Newcastle-United-February-15-2025-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Newcastle United",
+  "matchDate": "February 15, 2025",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 19,
+        "player": "Omar Marmoush",
+        "playerId": "0e0102eb",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Ederson"
+      },
+      {
+        "minute": 24,
+        "player": "Omar Marmoush",
+        "playerId": "0e0102eb",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "İlkay Gündoğan"
+      },
+      {
+        "minute": 33,
+        "player": "Omar Marmoush",
+        "playerId": "0e0102eb",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Sávio"
+      },
+      {
+        "minute": 84,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Erling Haaland"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 50,
+        "player": "Bruno Guimarães",
+        "playerId": "82518f62",
+        "team": "Newcastle United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Valentino Livramento",
+        "playerId": "afed6722",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Nico O’Reilly",
+        "playerId": "91ca4a16",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Emil Krafth",
+        "playerId": "77cf6852",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

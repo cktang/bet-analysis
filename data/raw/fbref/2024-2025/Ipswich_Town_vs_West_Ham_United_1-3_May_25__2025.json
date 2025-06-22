@@ -1,0 +1,166 @@
+{
+  "url": "https://fbref.com/en/matches/15559cff/Ipswich-Town-West-Ham-United-May-25-2025-Premier-League",
+  "homeTeam": "Ipswich Town",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 25, 2025",
+  "score": "1-3",
+  "homeScore": 1,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 43,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      },
+      {
+        "minute": 52,
+        "player": "Nathan Broadhead",
+        "playerId": "43309491",
+        "team": "Ipswich Town",
+        "isPenalty": false,
+        "assist": "Jens Cajuste"
+      },
+      {
+        "minute": 55,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Aaron Wan-Bissaka"
+      },
+      {
+        "minute": 87,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Guido Rodríguez"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 35,
+        "player": "Max Kilman",
+        "playerId": "d0f72bf1",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 81,
+        "player": "Liam Delap",
+        "playerId": "dd897ee7",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "player": "Jack Clarke",
+        "playerId": "e16932d8",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Liam Delap",
+        "playerId": "dd897ee7",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Sammie Szmodics",
+        "playerId": "39944392",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Guido Rodríguez",
+        "playerId": "34e393f2",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Massimo Luongo",
+        "playerId": "967ac6e1",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

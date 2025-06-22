@@ -1,0 +1,365 @@
+13/08/2023
+FB3796
+Brentford
+vs
+Tottenham
+2
+:
+2
+2
+:
+2
+%Event ID: FB3796
+Brentford
+2
+2
+Tottenham
+Eng Premier
+Home/Away/Draw
+Brentford (Home)
+Draw
+Tottenham (Away)
+2.35
+3.35
+2.50
+Home/Away/Draw- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+11.00
+1.08
+10.50
+First Half HAD
+Brentford (Home)
+Draw
+Tottenham (Away)
+2.88
+2.20
+3.00
+First Half HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+11.00
+1.06
+12.00
+Handicap HAD
+Brentford (Home)
+Draw
+Tottenham (Away)
+[-1]
+4.55
+[-1]
+4.15
+[+1]
+1.48
+Handicap
+Brentford (Home)
+Tottenham (Away)
+[0]
+1.84
+[0]
+1.98
+Same Game All Up
+SON Heung Min to score first & Under [2.5] goals & Under [10.5] corners taken
+25.00
+SON Heung Min to score first & Tottenham to win by [2] goal(s) or more & Over [3.5] goals
+32.00
+Tottenham to win & Over [3.5] goals & Over [10.5] corners taken
+11.00
+The match to be drawn & Under [10.5] corners taken
+6.00
+Brentford to win & Over [3.5] goals
+6.00
+Tottenham to score first in the match & Tottenham to win the first half & Over [1.5] goals in the first half
+7.50
+Tottenham to score first & Brentford to win or draw
+5.00
+Brentford to score first in the match & Over [1.5] goals in the first half
+4.40
+Brentford to score first & Tottenham to win by [2] goal(s) or more
+32.00
+First Half to be drawn & Tottenham to win the match by [2] goal(s) or more
+17.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.50
+Brentford to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+13.00
+Tottenham to win both first half and the match & Exactly [3] goals in the Match
+12.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.60
+2.19
+[2.5/3]
+1.76
+1.94
+[3.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.14
+4.75
+[2.5]
+1.26
+3.40
+[2.5/3]
+2.19
+1.60
+[3/3.5]
+1.27
+3.35
+[3.5]
+1.09
+5.80
+[3.5/4]
+1.12
+5.10
+[4/4.5]
+2.25
+1.57
+[4.5]
+1.12
+5.10
+[4.5/5]
+6.50
+1.07
+[5/5.5]
+9.50
+1.01
+[5.5]
+9.50
+1.01
+[5.5/6]
+2.30
+1.54
+[6.5]
+5.55
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.19
+1.60
+[1.5/2]
+2.65
+1.42
+[2.5]
+4.40
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.64
+2.12
+[1/1.5]
+2.48
+1.47
+[1.5]
+1.36
+2.88
+[1.5/2]
+2.25
+1.57
+[2/2.5]
+4.05
+1.19
+[2.5]
+1.83
+1.87
+[2.5/3]
+3.35
+1.27
+[3/3.5]
+8.00
+1.04
+[3.5]
+8.50
+1.03
+[3.5/4]
+5.30
+1.11
+[4.5/5]
+6.50
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.74
+1.97
+[11.5]
+2.08
+1.66
+[14.5]
+4.30
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+5.10
+1.12
+[9.5]
+1.68
+2.05
+[11.5]
+8.50
+1.03
+[12.5]
+6.50
+1.07
+[13.5]
+5.55
+1.10
+[14.5]
+5.10
+1.12
+[15.5]
+3.45
+1.25
+First Team to Score
+Brentford (Home)
+No Goals
+Tottenham (Away)
+1.85
+14.00
+1.91
+Next Team To Score- Last Odds for In Play Betting
+Brentford (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+1.90
+9.75
+1.97
+2nd Goal
+1.77
+9.25
+2.16
+3rd Goal
+2.00
+6.10
+2.12
+4th Goal
+2.08
+6.00
+2.05
+5th Goal
+9.50
+1.11
+8.50
+Total Goals
+0
+14.00
+1
+5.50
+2
+3.70
+3
+3.70
+4
+4.70
+5
+7.25
+6
+13.00
+7+
+17.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+3.80
+H-D
+12.50
+H-A
+23.00
+D-H
+5.90
+D-D
+5.40
+D-A
+6.20
+A-H
+21.00
+A-D
+12.50
+A-A
+4.00
+Specials
+Item No.: 1 Which event will happen to Bryan MBEUMO (Brentford) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.75
+(4) Be substituted
+2.80
+(5) None of the above
+2.65
+Item No.: 2 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+4.00
+(5) None of the above
+2.20
+Item No.: 3 Which event will happen to RICHARLISON de Andrade (Tottenham) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.05
+(4) Be substituted
+2.70
+(5) None of the above
+2.65
+Item No.: 4 Which event will happen to Dejan KULUSEVSKI (Tottenham) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.30
+(4) Be substituted
+1.65
+(5) None of the above
+3.30
+Item No.: 5 Which event will happen to James MADDISON (Tottenham) first?
+(1) Receive a Yellow Card
+4.80
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.00
+(4) Be substituted
+2.40
+(5) None of the above
+2.35

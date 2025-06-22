@@ -1,0 +1,107 @@
+{
+  "url": "https://fbref.com/en/matches/15addfc7/Everton-Fulham-August-12-2023-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Fulham",
+  "matchDate": "August 12, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 73,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 30,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham"
+      },
+      {
+        "minute": 87,
+        "player": "Kenny Tete",
+        "playerId": "77d7c96f",
+        "team": "Fulham"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Aleksandar Mitrović",
+        "playerId": "3925dbd6",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Andreas Pereira",
+        "playerId": "6639e500",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Arnaut Danjuma",
+        "playerId": "f08490a6",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Lewis Dobbin",
+        "playerId": "e814e1cf",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

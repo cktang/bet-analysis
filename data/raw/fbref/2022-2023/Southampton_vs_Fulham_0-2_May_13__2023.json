@@ -1,0 +1,150 @@
+{
+  "url": "https://fbref.com/en/matches/e05f67be/Southampton-Fulham-May-13-2023-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Fulham",
+  "matchDate": "May 13, 2023",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 48,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Harrison Reed"
+      },
+      {
+        "minute": 72,
+        "player": "Aleksandar Mitrović",
+        "playerId": "3925dbd6",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Harry Wilson"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 53,
+        "player": "Roméo Lavia",
+        "playerId": "ecad9aa5",
+        "team": "Southampton"
+      },
+      {
+        "minute": 77,
+        "player": "Moussa Djenepo",
+        "playerId": "254147d4",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Kamaldeen Sulemana",
+        "playerId": "a62f8bf1",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Sekou Mara",
+        "playerId": "3544641e",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Aleksandar Mitrović",
+        "playerId": "3925dbd6",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Mohamed Elyounoussi",
+        "playerId": "68dc0dac",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Moussa Djenepo",
+        "playerId": "254147d4",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Neeskens Kebano",
+        "playerId": "18b999f4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Adam Armstrong",
+        "playerId": "68c720b5",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

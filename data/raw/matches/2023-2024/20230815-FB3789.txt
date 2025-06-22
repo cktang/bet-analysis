@@ -1,0 +1,331 @@
+15/08/2023
+FB3789
+Manchester
+Utd
+vs
+Wolves
+0
+:
+0
+1
+:
+0
+%Event ID: FB3789
+Manchester Utd
+1
+0
+Wolves
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Wolves (Away)
+1.16
+5.90
+11.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Wolves (Away)
+1.001
+15.50
+1000
+First Half HAD
+Manchester Utd (Home)
+Draw
+Wolves (Away)
+1.51
+2.78
+8.75
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Wolves (Away)
+9.50
+1.03
+26.00
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Wolves (Away)
+[-2]
+2.68
+[-2]
+3.85
+[+2]
+1.99
+Handicap
+Manchester Utd (Home)
+Wolves (Away)
+[-1.5/-2]
+1.94
+[+1.5/+2]
+1.88
+Same Game All Up
+Manchester Utd to win & Over [3.5] goals & Over [10.5] corners taken
+5.00
+The match to be drawn & Under [8.5] corners taken
+15.00
+Wolves to win & Over [2.5] goals
+13.00
+Manchester Utd to win & Wolves to score first & Over [11.5] corners taken
+17.00
+Manchester Utd to score first & Wolves to win or draw
+8.50
+Manchester Utd to win the first half & Manchester Utd to win the match by [3] goal(s) or more
+3.30
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+7.75
+Wolves to win the first half & Over [1.5] goals in the first half
+20.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+16.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.25
+Manchester Utd to win by exactly [2] goal(s) & Under [10.5] corners taken
+7.75
+First Half to be drawn and Manchester Utd to win the match & Over [11.5] corners taken in the match
+9.50
+Manchester Utd to win both first half and the match & Exactly [4] goals in the Match
+7.75
+Wolves to win both first half and the match & Exactly [3] goals in the Match
+40.00
+Exactly [5] goals & Over [12.5] corners taken
+19.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.49
+2.43
+[3/3.5]
+2.05
+1.68
+[3.5]
+2.30
+1.54
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+7.50
+1.05
+[0.5/1]
+1.90
+1.80
+[1/1.5]
+3.15
+1.30
+[1.5]
+1.53
+2.33
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+[2.5/3]
+2.20
+1.59
+[3/3.5]
+2.19
+1.60
+[3.5]
+4.90
+1.13
+[4.5]
+4.30
+1.17
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.40
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+6.10
+1.08
+[1/1.5]
+9.50
+1.01
+[1.5]
+9.50
+1.01
+[1.5/2]
+2.55
+1.45
+[2.5]
+5.55
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.70
+2.02
+[11.5]
+2.07
+1.67
+[14.5]
+4.40
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+3.05
+1.32
+[9.5]
+1.46
+2.50
+[10.5]
+1.36
+2.88
+[11.5]
+1.36
+2.88
+[12.5]
+1.41
+2.68
+[13.5]
+1.04
+8.00
+[14.5]
+1.41
+2.68
+[16.5]
+7.50
+1.05
+[17.5]
+5.10
+1.12
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Wolves (Away)
+1.18
+17.00
+4.30
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Wolves (Away)
+1st Goal
+2.21
+2.04
+5.20
+2nd Goal
+22.00
+1.01
+29.00
+Total Goals
+0
+17.00
+1
+6.10
+2
+4.05
+3
+3.70
+4
+4.45
+5
+6.60
+6
+11.00
+7+
+14.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.60
+H-D
+20.00
+H-A
+70.00
+D-H
+3.75
+D-D
+8.25
+D-A
+22.00
+A-H
+22.00
+A-D
+20.00
+A-A
+17.00
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+1.68
+(4) Be substituted
+4.65
+(5) None of the above
+3.00
+Item No.: 2 How many goal(s) will Marcus RASHFORD (Manchester Utd) score?
+(1) No Goal
+1.84
+(2) 1 Goal
+2.45
+(3) 2 Goals
+5.75
+(4) 3 Goals or more
+14.00
+Item No.: 3 Which event will happen to ANTONY Matheus dos Santos (Manchester Utd) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+90.00
+(3) Score a Goal
+3.55
+(4) Be substituted
+1.50
+(5) None of the above
+6.25
+Item No.: 4 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+2.30
+(4) Be substituted
+6.50
+(5) None of the above
+2.15
+Item No.: 5 Which event will happen to Mason MOUNT (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+70.00
+(3) Score a Goal
+3.90
+(4) Be substituted
+2.75
+(5) None of the above
+2.12

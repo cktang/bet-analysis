@@ -1,0 +1,200 @@
+{
+  "url": "https://fbref.com/en/matches/de515487/Liverpool-Bournemouth-August-27-2022-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Bournemouth",
+  "matchDate": "August 27, 2022",
+  "score": "9-0",
+  "homeScore": 9,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 3,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Roberto Firmino"
+      },
+      {
+        "minute": 6,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Roberto Firmino"
+      },
+      {
+        "minute": 28,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Roberto Firmino"
+      },
+      {
+        "minute": 31,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 45,
+        "player": "Virgil van Dijk",
+        "playerId": "e06683ca",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      },
+      {
+        "minute": 46,
+        "player": "Chris Mepham",
+        "playerId": "fed96827",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 62,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 80,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Kostas Tsimikas"
+      },
+      {
+        "minute": 85,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Kostas Tsimikas"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 35,
+        "player": "Adam Smith",
+        "playerId": "20b104bc",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Philip Billing",
+        "playerId": "d328a254",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Dominic Solanke",
+        "playerId": "e77dc3b2",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Stefan Bajcetic",
+        "playerId": "32e8417f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Ben Pearson",
+        "playerId": "a6b461e7",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Emiliano Marcondes",
+        "playerId": "4d960fc3",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Owen Bevan",
+        "playerId": "87966294",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Bobby Clark",
+        "playerId": "73341ace",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 9,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

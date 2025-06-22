@@ -1,0 +1,154 @@
+{
+  "url": "https://fbref.com/en/matches/006fb5b5/Arsenal-Crystal-Palace-January-20-2024-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "January 20, 2024",
+  "score": "5-0",
+  "homeScore": 5,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Gabriel Magalhães",
+        "playerId": "67ac5bb8",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Declan Rice"
+      },
+      {
+        "minute": 37,
+        "player": "Gabriel Magalhães",
+        "playerId": "67ac5bb8",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      },
+      {
+        "minute": 59,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      },
+      {
+        "minute": 94,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Eddie Nketiah"
+      },
+      {
+        "minute": 95,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Jorginho"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "David Ozoh",
+        "playerId": "d00d45ab",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Matheus França",
+        "playerId": "077faf72",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "James Tomkins",
+        "playerId": "e7ca0439",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

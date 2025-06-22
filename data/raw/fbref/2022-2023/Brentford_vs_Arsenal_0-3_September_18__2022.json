@@ -1,0 +1,151 @@
+{
+  "url": "https://fbref.com/en/matches/fd5626e6/Brentford-Arsenal-September-18-2022-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Arsenal",
+  "matchDate": "September 18, 2022",
+  "score": "0-3",
+  "homeScore": 0,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "William Saliba",
+        "playerId": "972aeb2a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      },
+      {
+        "minute": 28,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Granit Xhaka"
+      },
+      {
+        "minute": 49,
+        "player": "Fabio Vieira",
+        "playerId": "6412cc03",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 58,
+        "player": "Granit Xhaka",
+        "playerId": "e61b8aee",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 90,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Frank Onyeka",
+        "playerId": "2944f86f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Albert Sambi Lokonga",
+        "playerId": "1b4f1169",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Takehiro Tomiyasu",
+        "playerId": "b3af9be1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Ethan Nwaneri",
+        "playerId": "7f94982c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Marquinhos",
+        "playerId": "59878425",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

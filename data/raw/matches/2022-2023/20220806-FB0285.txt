@@ -1,0 +1,534 @@
+06/08/2022
+FB0285
+Tottenham
+vs
+Southampton
+2
+:
+1
+4
+:
+1
+%Event ID: FB0285
+Tottenham
+4
+1
+Southampton
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Southampton (Away)
+1.25
+4.95
+8.25
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Southampton (Away)
+1.001
+35.00
+300.0
+First Half HAD
+Tottenham (Home)
+Draw
+Southampton (Away)
+1.61
+2.67
+7.25
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Southampton (Away)
+1.03
+9.75
+150.0
+Handicap HAD
+Tottenham (Home)
+Draw
+Southampton (Away)
+[-1]
+1.84
+[-1]
+3.65
+[+1]
+3.15
+Handicap
+Tottenham (Home)
+Southampton (Away)
+[-1/-1.5]
+1.73
+[+1/+1.5]
+2.12
+HiLo
+Line
+High
+Low
+[2.5]
+1.53
+2.33
+[3/3.5]
+2.15
+1.62
+[3.5]
+2.43
+1.49
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5/6]
+6.50
+1.07
+[2.5]
+1.74
+1.97
+[2.5/3]
+1.94
+1.76
+[3/3.5]
+1.68
+2.05
+[3.5]
+1.91
+1.79
+[3.5/4]
+1.43
+2.60
+[4/4.5]
+2.15
+1.62
+[4.5]
+2.60
+1.43
+[4.5/5]
+1.48
+2.45
+[5/5.5]
+2.30
+1.54
+[5.5]
+2.75
+1.39
+[6/6.5]
+5.10
+1.12
+[6.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.68
+1.41
+[2.5]
+4.40
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+10.50
+1.01
+[0.5/1]
+1.62
+2.15
+[1/1.5]
+2.25
+1.57
+[1.5]
+2.22
+1.58
+[1.5/2]
+1.97
+1.74
+[2.5]
+4.40
+1.16
+[2.5/3]
+3.15
+1.30
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.86
+1.84
+[11.5]
+2.32
+1.53
+[14.5]
+4.70
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[13.5]
+6.50
+1.07
+[9.5]
+1.68
+2.05
+[10.5]
+1.76
+1.94
+[11.5]
+1.92
+1.78
+[12.5]
+1.33
+3.00
+[14.5]
+4.75
+1.14
+[15.5]
+5.10
+1.12
+Correct Score
+Tottenham (Home)
+Draw
+Southampton (Away)
+1:0
+6.90
+0:0
+16.00
+0:1
+23.00
+2:0
+6.10
+1:1
+9.50
+0:2
+40.00
+2:1
+7.00
+2:2
+16.00
+1:2
+20.00
+3:0
+7.75
+3:3
+60.00
+0:3
+100.0
+3:1
+9.50
+1:3
+50.00
+3:2
+23.00
+2:3
+40.00
+4:0
+12.50
+0:4
+500.0
+4:1
+16.00
+1:4
+250.0
+4:2
+35.00
+2:4
+200.0
+5:0
+28.00
+0:5
+1000
+5:1
+30.00
+1:5
+800.0
+5:2
+60.00
+2:5
+700.0
+Home Others
+19.00
+Draw Others
+200.0
+Away Others
+200.0
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Southampton (Away)
+1:0
+5.70
+0:0
+13.50
+0:1
+11.00
+2:0
+5.60
+1:1
+7.00
+0:2
+17.00
+2:1
+3.04
+2:2
+7.20
+1:2
+12.00
+3:0
+8.00
+3:3
+40.00
+0:3
+60.00
+3:1
+2.90
+1:3
+40.00
+3:2
+7.80
+2:3
+30.00
+4:0
+15.50
+0:4
+300.0
+4:1
+1.08
+1:4
+200.0
+4:2
+18.00
+2:4
+300.0
+5:0
+40.00
+0:5
+1000
+5:1
+6.50
+1:5
+1000
+5:2
+150.0
+2:5
+1000
+Home Others
+125.0
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Southampton (Away)
+1:0
+3.15
+0:0
+3.20
+0:1
+9.75
+2:0
+5.10
+1:1
+7.75
+0:2
+40.00
+2:1
+12.50
+2:2
+60.00
+1:2
+40.00
+3:0
+13.00
+3:3
+800.0
+0:3
+250.0
+3:1
+35.00
+1:3
+250.0
+3:2
+150.0
+2:3
+500.0
+4:0
+50.00
+0:4
+1000
+4:1
+100.0
+1:4
+1000
+4:2
+500.0
+2:4
+2000
+5:0
+200.0
+0:5
+5000
+5:1
+500.0
+1:5
+5000
+5:2
+1000
+2:5
+5000
+Home Others
+500.0
+Draw Others
+5000
+Away Others
+4000
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Southampton (Away)
+1:0
+2.80
+0:0
+2.46
+0:1
+1.97
+2:0
+6.70
+1:1
+1.43
+0:2
+8.00
+2:1
+1.03
+2:2
+40.00
+1:2
+11.00
+3:0
+26.00
+3:3
+5000
+0:3
+80.00
+3:1
+14.50
+1:3
+125.0
+3:2
+300.0
+2:3
+5000
+4:0
+125.0
+0:4
+900.0
+4:1
+500.0
+1:4
+4000
+4:2
+5000
+2:4
+5000
+5:0
+500.0
+0:5
+5000
+5:1
+5000
+1:5
+5000
+5:2
+5000
+2:5
+5000
+Home Others
+5000
+Draw Others
+5000
+Away Others
+5000
+First Team to Score
+Tottenham (Home)
+No Goals
+Southampton (Away)
+1.24
+16.00
+3.70
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.28
+13.50
+3.55
+2nd Goal
+1.26
+11.00
+4.05
+3rd Goal
+1.37
+7.00
+3.80
+4th Goal
+1.71
+3.04
+4.55
+5th Goal
+1.76
+2.90
+4.50
+6th Goal
+6.40
+1.08
+17.00
+Total Goals
+0
+16.00
+1
+6.00
+2
+3.90
+3
+3.70
+4
+4.50
+5
+6.70
+6
+11.50
+7+
+17.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+1.77
+H-D
+18.00
+H-A
+60.00
+D-H
+3.80
+D-D
+7.25
+D-A
+17.00
+A-H
+23.00
+A-D
+18.00
+A-A
+13.00

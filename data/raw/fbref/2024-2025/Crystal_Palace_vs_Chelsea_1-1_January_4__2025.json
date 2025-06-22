@@ -1,0 +1,108 @@
+{
+  "url": "https://fbref.com/en/matches/cd9861d5/Crystal-Palace-Chelsea-January-4-2025-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Chelsea",
+  "matchDate": "January 4, 2025",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Cole Palmer",
+        "playerId": "dc7f8a28",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Jadon Sancho"
+      },
+      {
+        "minute": 82,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Eberechi Eze"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 65,
+        "player": "Levi Colwill",
+        "playerId": "700783e7",
+        "team": "Chelsea"
+      },
+      {
+        "minute": 80,
+        "player": "Enzo Fernández",
+        "playerId": "5ff4ab71",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "player": "Daichi Kamada",
+        "playerId": "15b287da",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Marc Guiu",
+        "playerId": "d3d774cc",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Noni Madueke",
+        "playerId": "bf34eebd",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 4
+  }
+}

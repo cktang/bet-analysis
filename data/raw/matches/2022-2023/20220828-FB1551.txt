@@ -1,0 +1,614 @@
+28/08/2022
+FB1551
+Aston
+Villa
+vs
+West
+Ham
+0
+:
+0
+0
+:
+1
+%Event ID: FB1551
+Aston Villa
+0
+1
+West Ham
+Eng Premier
+Home/Away/Draw
+Aston Villa (Home)
+Draw
+West Ham (Away)
+1.97
+3.35
+3.15
+Home/Away/Draw- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+West Ham (Away)
+600.0
+11.00
+1.03
+First Half HAD
+Aston Villa (Home)
+Draw
+West Ham (Away)
+2.50
+2.16
+3.65
+First Half HAD- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+West Ham (Away)
+8.25
+1.09
+18.00
+Handicap HAD
+Aston Villa (Home)
+Draw
+West Ham (Away)
+[-1]
+3.65
+[-1]
+3.70
+[+1]
+1.69
+Handicap
+Aston Villa (Home)
+West Ham (Away)
+[0/-0.5]
+1.82
+[0/+0.5]
+2.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.76
+1.94
+[2.5/3]
+1.97
+1.74
+[3.5]
+2.90
+1.35
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+8.00
+1.04
+[0.5/1]
+2.60
+1.43
+[1/1.5]
+5.10
+1.12
+[1.5]
+5.30
+1.11
+[2/2.5]
+5.30
+1.11
+[2.5]
+5.30
+1.11
+[2.5/3]
+2.07
+1.67
+[3.5]
+4.75
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.40
+1.50
+[1.5/2]
+2.88
+1.36
+[2.5]
+5.10
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.95
+1.75
+[11.5]
+2.45
+1.48
+[13.5]
+4.05
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5]
+4.05
+1.19
+[6.5]
+5.10
+1.12
+[7.5]
+4.40
+1.16
+[8.5]
+3.80
+1.21
+[9.5]
+3.40
+1.26
+[10.5]
+2.95
+1.34
+[11.5]
+2.80
+1.38
+[13.5]
+4.05
+1.19
+Correct Score
+Aston Villa (Home)
+Draw
+West Ham (Away)
+1:0
+7.50
+0:0
+11.00
+0:1
+10.00
+2:0
+9.75
+1:1
+6.30
+0:2
+17.00
+2:1
+7.50
+2:2
+11.00
+1:2
+10.00
+3:0
+19.00
+3:3
+40.00
+0:3
+35.00
+3:1
+15.00
+1:3
+25.00
+3:2
+23.00
+2:3
+30.00
+4:0
+40.00
+0:4
+70.00
+4:1
+30.00
+1:4
+50.00
+4:2
+40.00
+2:4
+70.00
+5:0
+80.00
+0:5
+300.0
+5:1
+70.00
+1:5
+200.0
+5:2
+100.0
+2:5
+250.0
+Home Others
+40.00
+Draw Others
+150.0
+Away Others
+70.00
+Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+West Ham (Away)
+1:0
+4.25
+0:0
+1.61
+0:1
+1.08
+2:0
+21.00
+1:1
+10.50
+0:2
+14.00
+2:1
+450.0
+2:2
+1000
+1:2
+150.0
+3:0
+200.0
+3:3
+1000
+0:3
+900.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Aston Villa (Home)
+Draw
+West Ham (Away)
+1:0
+4.05
+0:0
+2.78
+0:1
+5.50
+2:0
+8.75
+1:1
+6.50
+0:2
+14.00
+2:1
+14.00
+2:2
+50.00
+1:2
+18.00
+3:0
+40.00
+3:3
+700.0
+0:3
+70.00
+3:1
+60.00
+1:3
+80.00
+3:2
+200.0
+2:3
+250.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+600.0
+4:2
+700.0
+2:4
+900.0
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2000
+5:2
+2000
+2:5
+5000
+Home Others
+1000
+Draw Others
+5000
+Away Others
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+West Ham (Away)
+1:0
+8.50
+0:0
+1.10
+0:1
+18.10
+2:0
+250.0
+1:1
+200.0
+0:2
+600.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Aston Villa (Home)
+No Goals
+West Ham (Away)
+1.68
+11.00
+2.22
+Next Team To Score- Last Odds for In Play Betting
+Aston Villa (Home)
+No Goals
+West Ham (Away)
+1st Goal
+3.28
+1.61
+4.75
+2nd Goal
+10.00
+1.08
+13.50
+Total Goals
+0
+11.00
+1
+4.70
+2
+3.50
+3
+3.75
+4
+5.00
+5
+8.25
+6
+16.00
+7+
+27.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Aston Villa (Home)
+West Ham (Away)
+101 Ollie WATKINS
+4.45
+201 Michail ANTONIO
+7.00
+102 Danny INGS
+4.65
+202 Gianluca SCAMACCA
+7.00
+103 PHILIPPE COUTINHO Correia
+6.90
+203 Jarrod BOWEN
+7.00
+104 Emiliano BUENDIA
+8.25
+204 Maxwell CORNET
+8.25
+105 Cameron ARCHER
+10.00
+205 Said BENRAHMA
+8.75
+106 Leon BAILEY
+10.00
+206 Declan RICE
+11.50
+107 John McGINN
+12.50
+208 Pablo FORNALS
+13.00
+108 Jacob RAMSEY
+13.50
+207 Manuel LANZINI
+15.00
+109 DOUGLAS LUIZ Soares de Paulo
+20.00
+209 Tomas SOUCEK
+17.00
+110 Boubacar KAMARA
+25.00
+210 Angelo OGBONNA
+30.00
+111 Ezri KONSA
+25.00
+211 Aaron CRESSWELL
+40.00
+112 Tyrone MINGS
+25.00
+212 EMERSON PALMIERI dos Santos
+40.00
+113 Lucas DIGNE
+30.00
+213 Kurt ZOUMA
+40.00
+114 Matty CASH
+30.00
+214 Thilo KEHRER
+40.00
+115 Ashley YOUNG
+40.00
+215 Vladimir COUFAL
+40.00
+116 Calum CHAMBERS
+40.00
+216 Ben JOHNSON
+80.00
+117 Ludwig AUGUSTINSSON
+40.00
+120 Home Others
+15.00
+220 Away Others
+20.00
+00 No First Scorer
+10.80
+HaFu
+H-H
+3.15
+H-D
+13.00
+H-A
+30.00
+D-H
+5.00
+D-D
+5.20
+D-A
+7.25
+A-H
+24.00
+A-D
+13.00
+A-A
+5.00
+Specials
+Item No.: 1 Which event will happen to Danny INGS (Aston Villa) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+1.59
+(5) None of the above
+5.75
+Item No.: 2 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+3.15
+(5) None of the above
+2.30
+Item No.: 3 Which event will happen to PHILIPPE COUTINHO Correia (Aston Villa) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.10
+(4) Be substituted
+1.65
+(5) None of the above
+3.50
+Item No.: 4 Which event will happen to Michail ANTONIO (West Ham) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+1.48
+(5) None of the above
+4.25
+Item No.: 5 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.68
+(5) None of the above
+3.40

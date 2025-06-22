@@ -1,0 +1,121 @@
+{
+  "url": "https://fbref.com/en/matches/20fbd1a1/Wolverhampton-Wanderers-West-Ham-United-January-14-2023-Premier-League",
+  "homeTeam": "Wolverhampton Wanderers",
+  "awayTeam": "West Ham United",
+  "matchDate": "January 14, 2023",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 48,
+        "player": "Daniel Podence",
+        "playerId": "7fcc71d8",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 70,
+        "player": "Nayef Aguerd",
+        "playerId": "288e1e13",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 93,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Mario Lemina",
+        "playerId": "2b471f99",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Gianluca Scamacca",
+        "playerId": "8790f988",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Toti Gomes",
+        "playerId": "f0caab96",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

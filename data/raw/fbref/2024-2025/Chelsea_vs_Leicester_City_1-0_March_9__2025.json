@@ -1,0 +1,122 @@
+{
+  "url": "https://fbref.com/en/matches/236640be/Chelsea-Leicester-City-March-9-2025-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Leicester City",
+  "matchDate": "March 9, 2025",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 60,
+        "player": "Marc Cucurella",
+        "playerId": "1daec722",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Enzo Fernández"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 96,
+        "player": "Joshua Acheampong",
+        "playerId": "b7e62e1d",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Harry Winks",
+        "playerId": "2f7acede",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Tyrique George",
+        "playerId": "e6f7797e",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Trevoh Chalobah",
+        "playerId": "5515376c",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Ricardo Pereira",
+        "playerId": "75a72a99",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Joshua Acheampong",
+        "playerId": "b7e62e1d",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 1
+    },
+    "away": {
+      "won": 1,
+      "conceded": 1,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

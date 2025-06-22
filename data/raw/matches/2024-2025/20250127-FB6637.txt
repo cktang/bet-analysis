@@ -1,0 +1,823 @@
+27/01/2025
+FB6637
+Fulham
+vs
+Manchester
+Utd
+0
+:
+0
+0
+:
+1
+%Event ID: FB6637
+Fulham
+0
+1
+Manchester Utd
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+2.17
+3.35
+2.70
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+80.00
+7.20
+1.04
+First Half HAD
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+2.68
+2.16
+3.30
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+12.00
+1.07
+12.00
+Handicap HAD
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+[+1]
+1.34
+[+1]
+4.75
+[-1]
+5.50
+[-1]
+4.25
+[-1]
+3.90
+[+1]
+1.54
+Handicap HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+[-1]
+29.00
+[-1]
+26.00
+[+1]
+1.001
+[+2]
+1.01
+[+2]
+6.80
+[-2]
+300.0
+[+1]
+4.50
+[+1]
+1.44
+[-1]
+4.50
+Handicap
+Fulham (Home)
+Manchester Utd (Away)
+[0/-0.5]
+2.00
+[0/+0.5]
+1.82
+Handicap- Last Odds for In Play Betting
+Fulham (Home)
+Manchester Utd (Away)
+[0]
+14.50
+[0]
+1.001
+[+1]
+1.60
+[-1]
+2.22
+[0/-0.5]
+2.10
+[0/+0.5]
+1.67
+[+0.5/+1]
+3.80
+[-0.5/-1]
+1.23
+Same Game All Up
+Bruno Borges FERNANDES to score first & Over [3.5] goals
+24.00
+Bruno Borges FERNANDES to score first & Over [12.5] corners taken
+30.00
+Both teams to score & Fulham to win & Over [10.5] corners taken
+8.50
+Fulham to win & Over [2.5] goals & Over [9.5] corners taken
+5.50
+Fulham to win [2:0] in the first half & Fulham to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Fulham to win the match by [2] goal(s) or more
+13.00
+Both teams to score & Manchester Utd to win & Under [9.5] corners taken
+11.00
+Manchester Utd to score first & Fulham to win by [2] goal(s) or more
+30.00
+Fulham to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+23.00
+Over [6.5] corners taken in the first half & Over [12.5] corners taken in the match
+5.75
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+8.50
+First Half to be drawn & Fulham to win the match by [2] goal(s) or more
+15.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.50
+The match to be drawn & Under [9.5] corners taken
+6.50
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+25.00
+Fulham to win [2:0] in the first half & Fulham to win [3:0] in the match
+40.00
+Fulham to win [2:0] in the first half & Fulham to win [4:0] in the match
+80.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [2:0] in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.68
+2.05
+[2.5/3]
+1.87
+1.83
+[3.5]
+2.65
+1.41
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.70
+1.39
+[1/1.5]
+4.95
+1.12
+[1.5]
+5.60
+1.09
+[1.5/2]
+6.25
+1.07
+[2/2.5]
+11.50
+1.002
+[2.5]
+9.50
+1.01
+[2.5/3]
+2.15
+1.62
+[3.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.45
+1.48
+[1.5/2]
+2.98
+1.33
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.60
+1.09
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.98
+1.33
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.94
+1.76
+[11.5]
+2.55
+1.45
+[13.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.34
+2.92
+[3.5]
+1.40
+2.68
+[4.5]
+5.40
+1.10
+[5.5]
+7.00
+1.05
+[6.5]
+5.40
+1.10
+[7.5]
+4.60
+1.14
+[8.5]
+4.60
+1.14
+[9.5]
+4.30
+1.16
+[10.5]
+3.95
+1.19
+[11.5]
+3.80
+1.21
+[13.5]
+4.40
+1.15
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.72
+2.00
+[5.5]
+2.48
+1.47
+[6.5]
+3.70
+1.22
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+6.25
+1.07
+[2.5]
+5.15
+1.11
+[3.5]
+8.50
+1.03
+[4.5]
+7.00
+1.05
+[5.5]
+5.90
+1.08
+[6.5]
+5.15
+1.11
+Correct Score
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+1:0
+8.50
+0:0
+11.00
+0:1
+9.75
+2:0
+11.00
+1:1
+6.40
+0:2
+15.00
+2:1
+8.00
+2:2
+11.00
+1:2
+9.00
+3:0
+21.00
+3:3
+40.00
+0:3
+35.00
+3:1
+17.00
+1:3
+21.00
+3:2
+22.00
+2:3
+25.00
+4:0
+40.00
+0:4
+60.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+100.0
+0:5
+200.0
+5:1
+70.00
+1:5
+125.0
+5:2
+100.0
+2:5
+150.0
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+1:0
+5.10
+0:0
+1.59
+0:1
+1.09
+2:0
+35.00
+1:1
+7.45
+0:2
+15.50
+2:1
+70.00
+2:2
+1000
+1:2
+200.0
+3:0
+400.0
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+1:0
+4.40
+0:0
+2.92
+0:1
+4.90
+2:0
+9.25
+1:1
+6.20
+0:2
+12.00
+2:1
+13.50
+2:2
+40.00
+1:2
+15.00
+3:0
+40.00
+3:3
+600.0
+0:3
+60.00
+3:1
+60.00
+1:3
+80.00
+3:2
+150.0
+2:3
+200.0
+4:0
+200.0
+0:4
+400.0
+4:1
+300.0
+1:4
+500.0
+4:2
+700.0
+2:4
+800.0
+5:0
+800.0
+0:5
+1000
+5:1
+1000
+1:5
+1500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Manchester Utd (Away)
+1:0
+10.10
+0:0
+1.08
+0:1
+11.60
+2:0
+350.0
+1:1
+125.0
+0:2
+400.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Fulham (Home)
+No Goals
+Manchester Utd (Away)
+1.78
+11.00
+2.06
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Manchester Utd (Away)
+1st Goal
+4.05
+1.59
+3.75
+2nd Goal
+7.20
+1.09
+12.50
+Total Goals
+0
+11.00
+1
+5.20
+2
+3.55
+3
+3.70
+4
+4.75
+5
+7.00
+6
+15.00
+7+
+23.00
+Total Goals- Last Odds for In Play Betting
+0
+1.59
+1
+1.31
+2
+2.82
+3
+19.00
+4
+200.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Fulham (Home)
+Manchester Utd (Away)
+101 Raul JIMENEZ
+5.10
+201 Amad DIALLO
+5.80
+102 Harry WILSON
+6.20
+202 Rasmus HOJLUND
+6.70
+103 Rodrigo MUNIZ Carvalho
+6.30
+203 Bruno Borges FERNANDES
+7.25
+104 Carlos VINICIUS
+6.70
+204 Joshua ZIRKZEE
+7.50
+105 Alex IWOBI
+7.25
+205 Alejandro GARNACHO
+7.75
+106 Emile Smith ROWE
+9.50
+206 Marcus RASHFORD
+8.00
+107 Martial GODO
+11.00
+207 ANTONY Matheus dos Santos
+11.00
+108 Adama TRAORE Diarra
+12.00
+208 Mason MOUNT
+13.50
+109 Joshua David KING
+17.00
+209 Kobbie MAINOO
+17.00
+110 Andreas PEREIRA
+17.00
+210 Carlos CASEMIRO
+18.00
+111 Tom CAIRNEY
+24.00
+211 Christian ERIKSEN
+26.00
+112 Sander BERGE
+26.00
+212 Toby COLLYER
+28.00
+113 Timothy CASTAGNE
+29.00
+213 Harry MAGUIRE
+30.00
+114 Harrison REED
+35.00
+214 Lisandro MARTINEZ
+35.00
+115 Joachim ANDERSEN
+35.00
+215 Matthijs DE LIGT
+35.00
+116 Ryan SESSEGNON
+35.00
+216 Diogo DALOT
+40.00
+117 Issa DIOP
+35.00
+217 Leny YORO
+40.00
+118 Sasa LUKIC
+35.00
+218 Manuel UGARTE
+50.00
+119 Jorge CUENCA
+40.00
+219 Noussair MAZRAOUI
+50.00
+120 Home Others
+8.75
+220 Away Others
+10.00
+00 No First Scorer
+10.80
+HaFu
+H-H
+3.35
+H-D
+12.50
+H-A
+24.00
+D-H
+5.30
+D-D
+5.20
+D-A
+6.60
+A-H
+20.00
+A-D
+12.50
+A-A
+4.60
+Specials
+Item No.: 1 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.85
+(5) None of the above
+3.85
+Item No.: 2 Which event will happen to Emile Smith ROWE (Fulham) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.75
+(4) Be substituted
+1.29
+(5) None of the above
+5.80
+Item No.: 3 Which event will happen to Joshua ZIRKZEE (Manchester Utd) first?
+(1) Receive a Yellow Card
+8.75
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.75
+(4) Be substituted
+1.35
+(5) None of the above
+5.00
+Item No.: 4 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.00
+(2) Receive a Red Card
+60.00
+(3) Score a Goal
+3.50
+(4) Be substituted
+7.00
+(5) None of the above
+1.72
+Item No.: 5 Which event will happen to Amad DIALLO (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+3.55
+(5) None of the above
+1.82

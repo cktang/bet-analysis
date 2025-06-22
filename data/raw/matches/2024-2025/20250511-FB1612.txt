@@ -1,0 +1,815 @@
+11/05/2025
+FB1612
+Tottenham
+vs
+Crystal
+Palace
+0
+:
+1
+0
+:
+2
+%Event ID: FB1612
+Tottenham
+0
+2
+Crystal Palace
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+2.75
+3.45
+2.11
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+200.0
+17.00
+1.001
+First Half HAD
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+3.15
+2.30
+2.58
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+12.00
+1.10
+7.00
+Handicap HAD
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+[+1]
+1.57
+[+1]
+4.00
+[-1]
+3.95
+[-1]
+5.60
+[-1]
+4.65
+[+1]
+1.34
+Handicap HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+9.25
+[-1]
+6.10
+[+1]
+1.15
+[+3]
+1.07
+[+3]
+5.70
+[-3]
+29.00
+[+2]
+3.36
+[+2]
+2.54
+[-2]
+2.23
+[+1]
+40.00
+[+1]
+4.85
+[-1]
+1.10
+Handicap
+Tottenham (Home)
+Crystal Palace (Away)
+[0/+0.5]
+1.85
+[0/-0.5]
+1.97
+Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Crystal Palace (Away)
+[0]
+2.04
+[0]
+1.79
+[+2/+2.5]
+1.43
+[-2/-2.5]
+2.65
+[+2]
+2.49
+[-2]
+1.48
+[+1/+1.5]
+5.20
+[-1/-1.5]
+1.13
+[0/+0.5]
+5.40
+[0/-0.5]
+1.12
+Same Game All Up
+Both teams to score & Tottenham to win & Over [11.5] corners taken
+10.00
+Tottenham to win & Over [2.5] goals & Over [10.5] corners taken
+6.80
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Tottenham to win the match by [2] goal(s) or more
+12.00
+Both teams to score & Crystal Palace to win & Under [10.5] corners taken
+6.90
+Both teams to score & Crystal Palace to win or draw & Over [11.5] corners taken
+5.50
+Crystal Palace to score first & Tottenham to win by [2] goal(s) or more
+30.00
+Tottenham to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+25.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.80
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.40
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.50
+First Half to be drawn & Tottenham to win the match by [2] goal(s) or more
+17.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.40
+The match to be drawn & Under [10.5] corners taken
+5.90
+Tottenham to win [1:0] in the first half & Tottenham to win [2:1] in the match
+28.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:0] in the match
+55.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+First half to be drawn [0:0] & Crystal Palace to win [1:0] in the match
+19.00
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:0] in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.55
+2.29
+[3/3.5]
+2.19
+1.60
+[3.5]
+2.40
+1.50
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.12
+4.95
+[1.5/2]
+1.15
+4.40
+[2/2.5]
+1.65
+2.10
+[2.5]
+1.17
+4.15
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[4.5]
+5.60
+1.09
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.15
+1.11
+[1/1.5]
+11.00
+1.005
+[1.5]
+11.00
+1.005
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.92
+1.78
+[11.5]
+2.50
+1.46
+[13.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.59
+2.20
+[11.5]
+1.51
+2.38
+[12.5]
+3.65
+1.23
+[13.5]
+5.60
+1.09
+[14.5]
+8.50
+1.03
+[15.5]
+8.50
+1.03
+[16.5]
+4.60
+1.14
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.73
+1.98
+[5.5]
+2.50
+1.46
+[7.5]
+5.90
+1.08
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.30
+3.15
+[5.5]
+1.12
+4.95
+[6.5]
+1.17
+4.15
+[7.5]
+1.20
+3.90
+[8.5]
+3.05
+1.32
+[9.5]
+5.90
+1.08
+Corner Taken Handicap
+Tottenham (Home)
+Crystal Palace (Away)
+[-1.5]
+2.15
+[+1.5]
+1.62
+Corner Taken Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Crystal Palace (Away)
+[-2.5]
+2.35
+[+2.5]
+1.52
+[+5.5]
+1.32
+[-5.5]
+3.05
+[+3.5]
+2.29
+[-3.5]
+1.55
+[-1.5]
+2.35
+[+1.5]
+1.52
+[-0.5]
+2.45
+[+0.5]
+1.48
+[+0.5]
+2.45
+[-0.5]
+1.48
+[+1.5]
+2.45
+[-1.5]
+1.48
+[+4.5]
+2.92
+[-4.5]
+1.34
+[+2.5]
+3.40
+[-2.5]
+1.26
+Correct Score
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+11.50
+0:0
+14.00
+0:1
+9.75
+2:0
+17.00
+1:1
+6.80
+0:2
+12.00
+2:1
+9.00
+2:2
+10.00
+1:2
+7.75
+3:0
+30.00
+3:3
+35.00
+0:3
+21.00
+3:1
+20.00
+1:3
+14.00
+3:2
+22.00
+2:3
+20.00
+4:0
+60.00
+0:4
+40.00
+4:1
+40.00
+1:4
+30.00
+4:2
+40.00
+2:4
+40.00
+5:0
+150.0
+0:5
+80.00
+5:1
+100.0
+1:5
+70.00
+5:2
+125.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+6.70
+0:0
+4.50
+0:1
+4.45
+2:0
+18.00
+1:1
+5.40
+0:2
+1.13
+2:1
+16.00
+2:2
+350.0
+1:2
+11.50
+3:0
+80.00
+3:3
+1000
+0:3
+7.00
+3:1
+70.00
+1:3
+80.00
+3:2
+1000
+2:3
+1000
+4:0
+500.0
+0:4
+125.0
+4:1
+400.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+5.30
+0:0
+3.10
+0:1
+4.40
+2:0
+11.50
+1:1
+5.90
+0:2
+9.25
+2:1
+14.50
+2:2
+40.00
+1:2
+13.00
+3:0
+50.00
+3:3
+500.0
+0:3
+40.00
+3:1
+60.00
+1:3
+50.00
+3:2
+150.0
+2:3
+125.0
+4:0
+300.0
+0:4
+150.0
+4:1
+400.0
+1:4
+250.0
+4:2
+700.0
+2:4
+600.0
+5:0
+1000
+0:5
+700.0
+5:1
+1000
+1:5
+800.0
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Crystal Palace (Away)
+1:0
+12.10
+0:0
+1.12
+0:1
+7.20
+2:0
+300.0
+1:1
+60.00
+0:2
+125.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Crystal Palace (Away)
+2.02
+14.00
+1.74
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Crystal Palace (Away)
+1st Goal
+2.80
+5.20
+1.69
+2nd Goal
+2.62
+4.45
+1.87
+3rd Goal
+11.00
+1.13
+6.90
+Total Goals
+0
+14.00
+1
+5.60
+2
+3.80
+3
+3.70
+4
+4.45
+5
+6.80
+6
+12.00
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+4.50
+1
+4.45
+2
+1.13
+3
+4.10
+4
+60.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Tottenham (Home)
+Crystal Palace (Away)
+101 RICHARLISON de Andrade
+7.00
+201 Jean-Philippe MATETA
+3.90
+102 Dominic SOLANKE
+7.50
+202 Eddie NKETIAH
+4.90
+103 Brennan JOHNSON
+7.75
+203 Ismaila SARR
+6.30
+104 Mathys TEL
+8.00
+204 Eberechi EZE
+8.75
+105 SON Heung Min
+8.00
+205 Romain ESSE
+10.00
+106 Dane SCARLETT
+8.50
+206 Matheus FRANCA
+11.00
+107 Wilson ODOBERT
+10.00
+207 Justin DEVENNY
+11.50
+108 Mikey MOORE
+10.00
+208 Daniel MUNOZ
+18.00
+109 Timo WERNER
+10.50
+209 Daichi KAMADA
+20.00
+110 Damola AJAYI
+11.00
+210 Marc GUEHI
+21.00
+111 Dejan KULUSEVSKI
+11.00
+211 Adam WHARTON
+26.00
+112 Callum OLUSESI
+13.00
+212 Caleb KPORHA
+26.00
+113 Pape Matar SARR
+18.00
+213 Jefferson LERMA
+26.00
+114 Pedro PORRO
+30.00
+214 Ben CHILWELL
+30.00
+115 Rodrigo BENTANCUR
+30.00
+215 Will HUGHES
+30.00
+116 Cristian ROMERO
+30.00
+216 Chris RICHARDS
+45.00
+117 Yves BISSOUMA
+35.00
+217 Maxence LACROIX
+50.00
+118 Kevin DANSO
+40.00
+218 Joel WARD
+70.00
+119 Djed SPENCE
+50.00
+219 Nathaniel CLYNE
+85.00
+120 Home Others
+10.00
+220 Away Others
+8.50
+00 No First Scorer
+13.80
+HaFu
+H-H
+4.45
+H-D
+12.50
+H-A
+22.00
+D-H
+6.70
+D-D
+5.60
+D-A
+5.40
+A-H
+25.00
+A-D
+12.50
+A-A
+3.20

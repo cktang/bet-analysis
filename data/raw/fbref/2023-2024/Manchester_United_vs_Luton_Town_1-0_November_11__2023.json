@@ -1,0 +1,135 @@
+{
+  "url": "https://fbref.com/en/matches/4b9f3f25/Manchester-United-Luton-Town-November-11-2023-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Luton Town",
+  "matchDate": "November 11, 2023",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 59,
+        "player": "Victor Lindelöf",
+        "playerId": "f5deef4c",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 74,
+        "player": "Issa Kaboré",
+        "playerId": "c066d1a5",
+        "team": "Luton Town"
+      },
+      {
+        "minute": 93,
+        "player": "Tom Lockyer",
+        "playerId": "37118440",
+        "team": "Luton Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 40,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Tahith Chong",
+        "playerId": "2696b6a9",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Antony",
+        "playerId": "99127249",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jordan Clark",
+        "playerId": "7c5fa6cf",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Anthony Martial",
+        "playerId": "8b788c01",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Raphaël Varane",
+        "playerId": "9f8e9423",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Pelly Ruddock Mpanzu",
+        "playerId": "a9b1c319",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Ryan Giles",
+        "playerId": "73b1d65b",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Elijah Adebayo",
+        "playerId": "0480ebc7",
+        "team": "Luton Town",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

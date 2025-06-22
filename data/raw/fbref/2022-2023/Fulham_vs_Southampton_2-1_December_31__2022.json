@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/a15bf99e/Fulham-Southampton-December-31-2022-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Southampton",
+  "matchDate": "December 31, 2022",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 32,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 56,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 88,
+        "player": "João Palhinha",
+        "playerId": "a78ff07f",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Kenny Tete"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 70,
+        "player": "Mohamed Elyounoussi",
+        "playerId": "68dc0dac",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Daniel James",
+        "playerId": "c931d9f9",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Stuart Armstrong",
+        "playerId": "97333cf5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Romain Perraud",
+        "playerId": "6dfd8f05",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Adam Armstrong",
+        "playerId": "68c720b5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Sekou Mara",
+        "playerId": "3544641e",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Roméo Lavia",
+        "playerId": "ecad9aa5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 98,
+        "player": "Tosin Adarabioyo",
+        "playerId": "c81d773d",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 1
+    },
+    "away": {
+      "won": 1,
+      "conceded": 1,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

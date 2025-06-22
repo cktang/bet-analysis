@@ -1,0 +1,176 @@
+{
+  "url": "https://fbref.com/en/matches/6c829b8f/Ipswich-Town-Manchester-City-January-19-2025-Premier-League",
+  "homeTeam": "Ipswich Town",
+  "awayTeam": "Manchester City",
+  "matchDate": "January 19, 2025",
+  "score": "0-6",
+  "homeScore": 0,
+  "awayScore": 6,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 27,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 30,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Phil Foden"
+      },
+      {
+        "minute": 42,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 49,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 57,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 69,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Mateo Kovačić"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 79,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Divin Mubama",
+        "playerId": "92868cb5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Axel Tuanzebe",
+        "playerId": "2baec6ce",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Massimo Luongo",
+        "playerId": "967ac6e1",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Jaden Philogene Bidace",
+        "playerId": "19f4d211",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Nico O’Reilly",
+        "playerId": "91ca4a16",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "George Hirst",
+        "playerId": "78e87179",
+        "team": "Ipswich Town",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

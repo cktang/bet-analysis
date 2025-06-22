@@ -1,0 +1,275 @@
+12/08/2023
+FB3793
+Bournemouth
+vs
+West
+Ham
+0
+:
+0
+1
+:
+1
+%Event ID: FB3793
+Bournemouth
+1
+1
+West Ham
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+West Ham (Away)
+2.55
+3.30
+2.33
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+West Ham (Away)
+9.25
+1.09
+10.00
+First Half HAD
+Bournemouth (Home)
+Draw
+West Ham (Away)
+3.00
+2.23
+2.83
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+West Ham (Away)
+9.50
+1.12
+7.20
+Handicap HAD
+Bournemouth (Home)
+Draw
+West Ham (Away)
+[+1]
+1.49
+[+1]
+4.15
+[-1]
+4.45
+Handicap
+Bournemouth (Home)
+West Ham (Away)
+[0]
+2.00
+[0]
+1.82
+Same Game All Up
+West Ham to win the match & Over [1.5] goals in the first half & Over [2.5] goals in the match
+7.00
+Bournemouth to win & Over [2.5] goals
+4.10
+Bournemouth to score first & The match to be drawn
+8.00
+West Ham to score first in the match & West Ham to win the first half & Over [1.5] goals in the first half
+8.75
+West Ham to score first & Bournemouth to win or draw
+5.25
+West Ham to score first & West Ham to win by [3] goal(s) or more
+14.00
+Bournemouth to score first & West Ham to win by [2] goal(s) or more
+40.00
+First Half to be drawn & West Ham to win the match by exactly [1] goal(s)
+8.50
+Bournemouth to win the first half & Over [1.5] goals in the first half
+8.25
+Over [1.5] goals in the first half & Over [3.5] goals in the match
+4.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [10.5] corners taken in the match
+22.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.75
+West Ham to win by [2] goal(s) or more & Over [11.5] corners taken
+12.50
+Bournemouth to win both first half and the match & Under [2.5] goals in the match & Over [10.5] corners taken in the match
+18.00
+West Ham to win both first half and the match & Exactly [3] goals in the Match & Under [9.5] corners taken in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.63
+2.13
+[2.5/3]
+1.80
+1.90
+[3.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+8.00
+1.04
+[1/1.5]
+1.97
+1.74
+[1.5]
+1.26
+3.40
+[1.5/2]
+3.35
+1.27
+[2/2.5]
+7.50
+1.05
+[2.5]
+8.00
+1.04
+[3.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.82
+1.37
+[2.5]
+4.75
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.55
+1.15
+[1/1.5]
+10.50
+1.01
+[1.5]
+11.00
+1.005
+[1.5/2]
+2.82
+1.37
+[2.5]
+4.75
+1.14
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.84
+1.86
+[11.5]
+2.30
+1.54
+[14.5]
+5.10
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+7.50
+1.05
+[8.5]
+1.46
+2.50
+[9.5]
+1.57
+2.25
+[10.5]
+1.49
+2.43
+[11.5]
+1.44
+2.58
+[12.5]
+1.35
+2.90
+[13.5]
+1.23
+3.65
+[14.5]
+1.59
+2.20
+[16.5]
+12.00
+1.001
+[17.5]
+6.10
+1.08
+First Team to Score
+Bournemouth (Home)
+No Goals
+West Ham (Away)
+1.94
+13.00
+1.84
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+West Ham (Away)
+1st Goal
+2.62
+3.22
+2.25
+2nd Goal
+4.50
+1.40
+5.00
+3rd Goal
+8.50
+1.11
+8.50
+Total Goals
+0
+13.00
+1
+5.40
+2
+3.70
+3
+3.75
+4
+4.75
+5
+7.25
+6
+13.00
+7+
+19.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+4.20
+H-D
+12.50
+H-A
+23.00
+D-H
+6.30
+D-D
+5.30
+D-A
+5.80
+A-H
+24.00
+A-D
+12.50
+A-A
+3.70

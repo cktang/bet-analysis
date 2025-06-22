@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/30193251/Tottenham-Hotspur-Wolverhampton-Wanderers-February-17-2024-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "February 17, 2024",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 42,
+        "player": "João Gomes",
+        "playerId": "8b57ad2c",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Pablo Sarabia"
+      },
+      {
+        "minute": 46,
+        "player": "Dejan Kulusevski",
+        "playerId": "df3cda47",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 63,
+        "player": "João Gomes",
+        "playerId": "8b57ad2c",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Pedro Neto"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 66,
+        "player": "João Gomes",
+        "playerId": "8b57ad2c",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "player": "Brennan Johnson",
+        "playerId": "0cd31129",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Rodrigo Bentancur",
+        "playerId": "3b8674e6",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Timo Werner",
+        "playerId": "49fe9070",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jean-Ricner Bellegarde",
+        "playerId": "10f0fdd3",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Giovani Lo Celso",
+        "playerId": "d7553721",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Pierre Højbjerg",
+        "playerId": "8b04d6c1",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Boubacar Traoré",
+        "playerId": "999ceb5f",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Matt Doherty",
+        "playerId": "d557d734",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

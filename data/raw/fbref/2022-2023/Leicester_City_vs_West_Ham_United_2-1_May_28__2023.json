@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/a96c9915/Leicester-City-West-Ham-United-May-28-2023-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 28, 2023",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 34,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": "Kelechi Iheanacho"
+      },
+      {
+        "minute": 62,
+        "player": "Wout Faes",
+        "playerId": "9c221d14",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": "Youri Tielemans"
+      },
+      {
+        "minute": 79,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Danny Ings"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 66,
+        "player": "Jonny Evans",
+        "playerId": "f8fcd2a5",
+        "team": "Leicester City"
+      },
+      {
+        "minute": 67,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Emerson Palmieri",
+        "playerId": "e0bc6fdc",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Maxwel Cornet",
+        "playerId": "beb391dd",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Nampalys Mendy",
+        "playerId": "1598599e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jamie Vardy",
+        "playerId": "45963054",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Manuel Lanzini",
+        "playerId": "26f6dca8",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Ricardo Pereira",
+        "playerId": "75a72a99",
+        "team": "Leicester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

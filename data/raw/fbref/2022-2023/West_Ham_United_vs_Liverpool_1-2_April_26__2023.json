@@ -1,0 +1,117 @@
+{
+  "url": "https://fbref.com/en/matches/f2f795ae/West-Ham-United-Liverpool-April-26-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Liverpool",
+  "matchDate": "April 26, 2023",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 12,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Michail Antonio"
+      },
+      {
+        "minute": 18,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      },
+      {
+        "minute": 67,
+        "player": "Joël Matip",
+        "playerId": "b217ef29",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "player": "Thiago Alcántara",
+        "playerId": "77e84962",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Maxwel Cornet",
+        "playerId": "beb391dd",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

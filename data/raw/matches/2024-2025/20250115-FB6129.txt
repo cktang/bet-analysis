@@ -1,0 +1,784 @@
+15/01/2025
+FB6129
+West
+Ham
+vs
+Fulham
+2
+:
+0
+3
+:
+2
+%Event ID: FB6129
+West Ham
+3
+2
+Fulham
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Fulham (Away)
+2.75
+3.25
+2.19
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Fulham (Away)
+1.05
+7.60
+150.0
+First Half HAD
+West Ham (Home)
+Draw
+Fulham (Away)
+3.25
+2.15
+2.73
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Fulham (Away)
+1.001
+30.00
+400.0
+Handicap HAD
+West Ham (Home)
+Draw
+Fulham (Away)
+[+1]
+1.53
+[+1]
+3.90
+[-1]
+4.35
+[-1]
+5.80
+[-1]
+4.50
+[+1]
+1.34
+Handicap HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Fulham (Away)
+[-3]
+90.00
+[-3]
+7.60
+[+3]
+1.001
+[+1]
+1.08
+[+1]
+7.20
+[-1]
+13.00
+[-1]
+5.30
+[-1]
+1.52
+[+1]
+3.40
+[-2]
+250.0
+[-2]
+6.40
+[+2]
+1.02
+Handicap
+West Ham (Home)
+Fulham (Away)
+[0/+0.5]
+1.79
+[0/-0.5]
+2.04
+Same Game All Up
+Both teams to score & Fulham to win & Over [11.5] corners taken
+9.00
+Fulham to win & Over [2.5] goals & Over [10.5] corners taken
+6.00
+Fulham to win [2:0] in the first half & Fulham to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Fulham to win the match by [2] goal(s) or more
+12.50
+Both teams to score & West Ham to win & Under [10.5] corners taken
+9.00
+Both teams to score & West Ham to win or draw & Over [11.5] corners taken
+5.10
+West Ham to score first & Fulham to win by [2] goal(s) or more
+30.00
+Fulham to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+23.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+7.00
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+6.90
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.70
+First Half to be drawn & Fulham to win the match by [2] goal(s) or more
+16.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.00
+The match to be drawn & Under [10.5] corners taken
+6.40
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+27.00
+Fulham to win [2:0] in the first half & Fulham to win [3:0] in the match
+50.00
+Fulham to win [2:0] in the first half & Fulham to win [4:0] in the match
+90.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+West Ham to win [1:0] in the first half & West Ham to win [2:0] in the match
+28.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.75
+1.95
+[2.5/3]
+1.97
+1.74
+[3.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.10
+5.40
+[1.5/2]
+1.12
+4.95
+[2/2.5]
+2.29
+1.55
+[2.5]
+1.10
+5.40
+[2.5/3]
+1.12
+4.95
+[3/3.5]
+1.85
+1.85
+[3.5]
+1.23
+3.65
+[3.5/4]
+1.81
+1.89
+[4/4.5]
+3.10
+1.31
+[4.5]
+1.56
+2.27
+[4.5/5]
+2.43
+1.49
+[5/5.5]
+4.75
+1.13
+[5.5]
+5.40
+1.10
+[5.5/6]
+4.75
+1.13
+[6/6.5]
+10.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.55
+1.45
+[1.5/2]
+3.15
+1.30
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+3.15
+1.30
+[1/1.5]
+6.60
+1.06
+[1.5]
+7.00
+1.05
+[1.5/2]
+3.45
+1.25
+[2.5]
+8.50
+1.03
+[2.5/3]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.25
+1.57
+[12.5]
+2.85
+1.36
+[14.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+4.15
+1.17
+[5.5]
+5.40
+1.10
+[6.5]
+10.50
+1.01
+[7.5]
+8.50
+1.03
+[8.5]
+6.60
+1.06
+[9.5]
+5.90
+1.08
+[10.5]
+4.15
+1.17
+[11.5]
+3.95
+1.19
+[12.5]
+3.65
+1.23
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.64
+2.12
+[5.5]
+2.22
+1.58
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+4.05
+1.18
+[3.5]
+5.90
+1.08
+[4.5]
+4.60
+1.14
+[5.5]
+3.65
+1.23
+[7.5]
+4.75
+1.13
+Correct Score
+West Ham (Home)
+Draw
+Fulham (Away)
+1:0
+9.25
+0:0
+10.50
+0:1
+8.00
+2:0
+14.50
+1:1
+6.20
+0:2
+10.50
+2:1
+9.00
+2:2
+10.50
+1:2
+7.75
+3:0
+40.00
+3:3
+40.00
+0:3
+22.00
+3:1
+22.00
+1:3
+17.00
+3:2
+27.00
+2:3
+24.00
+4:0
+60.00
+0:4
+40.00
+4:1
+40.00
+1:4
+40.00
+4:2
+60.00
+2:4
+40.00
+5:0
+200.0
+0:5
+100.0
+5:1
+125.0
+1:5
+80.00
+5:2
+200.0
+2:5
+125.0
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+300.0
+Home Others
+(Away Scores)
+60.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Fulham (Away)
+1:0
+6.00
+0:0
+5.40
+0:1
+4.70
+2:0
+3.55
+1:1
+4.15
+0:2
+9.25
+2:1
+2.18
+2:2
+3.55
+1:2
+8.00
+3:0
+5.20
+3:3
+8.25
+0:3
+28.00
+3:1
+1.70
+1:3
+21.00
+3:2
+1.02
+2:3
+13.00
+4:0
+19.00
+0:4
+100.0
+4:1
+5.10
+1:4
+70.00
+4:2
+12.50
+2:4
+60.00
+5:0
+100.0
+0:5
+500.0
+5:1
+40.00
+1:5
+350.0
+5:2
+600.0
+2:5
+500.0
+Home Others
+(Away No Goal)
+700.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+125.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+250.0
+First Half Correct Score
+West Ham (Home)
+Draw
+Fulham (Away)
+1:0
+5.10
+0:0
+2.77
+0:1
+4.30
+2:0
+12.00
+1:1
+6.40
+0:2
+9.25
+2:1
+15.00
+2:2
+50.00
+1:2
+14.00
+3:0
+60.00
+3:3
+700.0
+0:3
+40.00
+3:1
+80.00
+1:3
+60.00
+3:2
+200.0
+2:3
+200.0
+4:0
+400.0
+0:4
+200.0
+4:1
+500.0
+1:4
+400.0
+4:2
+800.0
+2:4
+700.0
+5:0
+1000
+0:5
+800.0
+5:1
+2000
+1:5
+1000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Fulham (Away)
+1:0
+1.34
+0:0
+1.39
+0:1
+5.10
+2:0
+1.08
+1:1
+5.40
+0:2
+35.00
+2:1
+11.00
+2:2
+250.0
+1:2
+41.00
+3:0
+13.00
+3:3
+2500
+0:3
+250.0
+3:1
+100.0
+1:3
+250.0
+3:2
+2500
+2:3
+2500
+4:0
+350.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+West Ham (Home)
+No Goals
+Fulham (Away)
+2.05
+10.50
+1.79
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Fulham (Away)
+1st Goal
+2.25
+5.40
+1.96
+3rd Goal
+3.00
+3.55
+1.90
+4th Goal
+3.75
+2.18
+2.41
+5th Goal
+4.50
+1.70
+3.04
+6th Goal
+10.00
+1.15
+6.60
+Total Goals
+0
+10.50
+1
+4.70
+2
+3.40
+3
+3.75
+4
+4.95
+5
+8.00
+6
+16.00
+7+
+26.00
+Total Goals- Last Odds for In Play Betting
+0
+5.40
+1
+6.00
+2
+3.55
+3
+2.18
+4
+1.70
+5
+1.24
+6
+3.34
+7+
+22.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+West Ham (Home)
+Fulham (Away)
+101 Mohammed KUDUS
+6.80
+201 Raul JIMENEZ
+4.80
+102 Danny INGS
+6.90
+202 Rodrigo MUNIZ Carvalho
+5.00
+105 LUCAS PAQUETA
+8.25
+203 Carlos VINICIUS
+5.10
+103 Tomas SOUCEK
+9.00
+204 Alex IWOBI
+7.75
+104 Crysencio SUMMERVILLE
+9.75
+205 Harry WILSON
+8.50
+106 Carlos SOLER
+10.50
+207 Adama TRAORE Diarra
+8.75
+107 Luis GUILHERME
+12.50
+208 Martial GODO
+8.75
+108 Andy IRVING
+16.00
+206 Emile Smith ROWE
+9.25
+109 Guido RODRIGUEZ
+23.00
+209 Joshua David KING
+13.00
+110 Aaron WAN-BISSAKA
+29.00
+211 Tom CAIRNEY
+19.00
+111 EMERSON PALMIERI dos Santos
+30.00
+210 Andreas PEREIRA
+20.00
+112 Oliver SCARLES
+30.00
+212 Sander BERGE
+22.00
+114 Konstantinos MAVROPANOS
+30.00
+213 Timothy CASTAGNE
+27.00
+113 Edson Omar ALVAREZ
+35.00
+216 Issa DIOP
+29.00
+115 Aaron CRESSWELL
+35.00
+214 Joachim ANDERSEN
+30.00
+116 Kaelan CASEY
+40.00
+215 Harrison REED
+30.00
+117 Ezra MAYERS
+60.00
+217 Ryan SESSEGNON
+30.00
+118 Jean-Clair TODIBO
+60.00
+218 Sasa LUKIC
+30.00
+119 Max KILMAN
+60.00
+219 Antonee ROBINSON
+40.00
+120 Home Others
+10.00
+220 Away Others
+8.75
+00 No First Scorer
+10.30
+HaFu
+H-H
+4.55
+H-D
+12.50
+H-A
+22.00
+D-H
+6.30
+D-D
+4.95
+D-A
+5.30
+A-H
+27.00
+A-D
+12.50
+A-A
+3.50

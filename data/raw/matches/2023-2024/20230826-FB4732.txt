@@ -1,0 +1,345 @@
+26/08/2023
+FB4732
+Arsenal
+vs
+Fulham
+0
+:
+1
+2
+:
+2
+%Event ID: FB4732
+Arsenal
+2
+2
+Fulham
+Eng Premier
+Home/Away/Draw
+Arsenal (Home)
+Draw
+Fulham (Away)
+1.17
+5.80
+10.00
+Home/Away/Draw- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Fulham (Away)
+6.50
+1.08
+80.00
+First Half HAD
+Arsenal (Home)
+Draw
+Fulham (Away)
+1.51
+2.86
+8.00
+First Half HAD- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Fulham (Away)
+35.00
+4.45
+1.15
+Handicap HAD
+Arsenal (Home)
+Draw
+Fulham (Away)
+[-2]
+2.53
+[-2]
+3.90
+[+2]
+2.06
+Handicap
+Arsenal (Home)
+Fulham (Away)
+[-1.5/-2]
+1.91
+[+1.5/+2]
+1.91
+Same Game All Up
+Bukayo SAKA to score first & Over [3.5] goals & Over [10.5] corners taken
+16.00
+The match to be drawn & Under [8.5] corners taken
+17.00
+Fulham to win & Over [2.5] goals
+17.00
+Arsenal to win & Fulham to score first & Over [11.5] corners taken
+17.00
+Arsenal to score first & Fulham to win or draw
+10.50
+Arsenal to win the first half & Arsenal to win the match by [4] goal(s) or more
+4.75
+First Half to be drawn & Arsenal to win the match by exactly [1] goal(s)
+8.25
+Fulham to win the first half & Over [1.5] goals in the first half
+27.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+15.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.75
+Arsenal to win by exactly [2] goal(s) & Under [10.5] corners taken
+7.50
+First Half to be drawn and Arsenal to win the match & Over [11.5] corners taken in the match
+9.50
+Arsenal to win both first half and the match & Exactly [4] goals in the Match
+7.00
+Fulham to win both first half and the match & Exactly [3] goals in the Match
+45.00
+Exactly [5] goals & Over [12.5] corners taken
+18.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.90
+1.80
+[3.5]
+2.15
+1.62
+[4.5]
+3.45
+1.25
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+5.30
+1.11
+[1.5/2]
+1.58
+2.22
+[2/2.5]
+2.60
+1.43
+[2.5]
+3.05
+1.32
+[2.5/3]
+1.79
+1.91
+[3/3.5]
+3.05
+1.32
+[3.5]
+1.56
+2.27
+[3.5/4]
+3.00
+1.33
+[4/4.5]
+7.00
+1.06
+[4.5]
+7.50
+1.05
+[5.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.30
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.55
+1.15
+[1/1.5]
+1.85
+1.85
+[1.5]
+1.20
+3.90
+[2/2.5]
+8.50
+1.03
+[2.5]
+11.50
+1.002
+[3.5]
+5.80
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.85
+1.85
+[11.5]
+2.30
+1.54
+[14.5]
+5.10
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+5.55
+1.10
+[7.5]
+1.23
+3.65
+[8.5]
+1.27
+3.35
+[9.5]
+1.32
+3.05
+[11.5]
+11.50
+1.002
+[12.5]
+5.10
+1.12
+[13.5]
+4.75
+1.14
+[14.5]
+5.10
+1.12
+First Team to Score
+Arsenal (Home)
+No Goals
+Fulham (Away)
+1.19
+20.00
+4.05
+Next Team To Score- Last Odds for In Play Betting
+Arsenal (Home)
+No Goals
+Fulham (Away)
+1st Goal
+1.19
+20.00
+4.00
+2nd Goal
+1.57
+2.70
+8.00
+3rd Goal
+1.68
+2.31
+9.25
+4th Goal
+2.37
+1.48
+26.00
+5th Goal
+5.90
+1.09
+70.00
+Total Goals
+0
+20.00
+1
+6.70
+2
+4.15
+3
+3.75
+4
+4.25
+5
+6.00
+6
+11.00
+7+
+12.50
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.65
+H-D
+18.00
+H-A
+60.00
+D-H
+3.85
+D-D
+8.50
+D-A
+20.00
+A-H
+20.00
+A-D
+18.00
+A-A
+15.00
+Specials
+Item No.: 1 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.95
+(4) Be substituted
+4.50
+(5) None of the above
+2.50
+Item No.: 2 How many goal(s) will Bukayo SAKA (Arsenal) score?
+(1) No Goal
+1.58
+(2) 1 Goal
+2.65
+(3) 2 Goals
+7.25
+(4) 3 Goals or more
+20.00
+Item No.: 3 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+1.56
+(5) None of the above
+7.50
+Item No.: 4 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+2.45
+(5) None of the above
+2.95
+Item No.: 5 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+3.15
+(5) None of the above
+2.55

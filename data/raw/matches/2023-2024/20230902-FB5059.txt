@@ -1,0 +1,326 @@
+02/09/2023
+FB5059
+Chelsea
+vs
+Nottingham
+Forest
+0
+:
+0
+0
+:
+1
+%Event ID: FB5059
+Chelsea
+0
+1
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Nottingham Forest (Away)
+1.26
+4.75
+8.00
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Nottingham Forest (Away)
+200.0
+6.20
+1.07
+First Half HAD
+Chelsea (Home)
+Draw
+Nottingham Forest (Away)
+1.64
+2.58
+7.25
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Nottingham Forest (Away)
+5.70
+1.11
+18.00
+Handicap HAD
+Chelsea (Home)
+Draw
+Nottingham Forest (Away)
+[-2]
+3.30
+[-2]
+4.05
+[+2]
+1.71
+Handicap
+Chelsea (Home)
+Nottingham Forest (Away)
+[-1/-1.5]
+1.82
+[+1/+1.5]
+2.00
+Same Game All Up
+Chelsea to win & Over [3.5] goals & Over [11.5] corners taken
+6.00
+The match to be drawn & Under [8.5] corners taken
+16.00
+Nottingham Forest to win & Over [2.5] goals
+12.50
+Chelsea to win & Nottingham Forest to score first & Over [12.5] corners taken
+20.00
+Chelsea to score first & Nottingham Forest to win or draw
+8.50
+Chelsea to win the first half & Chelsea to win the match by [4] goal(s) or more
+6.75
+First Half to be drawn & Chelsea to win the match by exactly [1] goal(s)
+7.75
+Nottingham Forest to win the first half & Over [1.5] goals in the first half
+19.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+19.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.20
+Chelsea to win by [3] goal(s) or more & Under [10.5] corners taken
+6.30
+First Half to be drawn and Chelsea to win the match & Over [11.5] corners taken in the match
+9.00
+Chelsea to win both first half and the match & Exactly [4] goals in the Match
+8.00
+Nottingham Forest to win both first half and the match & Exactly [3] goals in the Match
+34.00
+Exactly [5] goals & Over [12.5] corners taken
+18.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.62
+2.15
+[3/3.5]
+2.33
+1.53
+[3.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+7.50
+1.05
+[1/1.5]
+1.61
+2.17
+[1.5]
+1.14
+4.75
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+[2.5/3]
+2.29
+1.55
+[3/3.5]
+2.33
+1.53
+[3.5]
+5.55
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.75
+1.39
+[2.5]
+4.75
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+7.50
+1.05
+[1/1.5]
+9.50
+1.01
+[1.5]
+9.50
+1.01
+[1.5/2]
+2.75
+1.39
+[2.5]
+5.80
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.12
+1.64
+[12.5]
+2.68
+1.41
+[14.5]
+4.55
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+5.30
+1.11
+[5.5]
+1.22
+3.70
+[6.5]
+1.33
+3.00
+[7.5]
+1.50
+2.40
+[9.5]
+11.50
+1.002
+[10.5]
+5.10
+1.12
+[11.5]
+3.45
+1.25
+[12.5]
+3.65
+1.23
+[13.5]
+3.45
+1.25
+[14.5]
+4.55
+1.15
+First Team to Score
+Chelsea (Home)
+No Goals
+Nottingham Forest (Away)
+1.26
+14.00
+3.70
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.53
+4.00
+4.35
+2nd Goal
+5.80
+1.11
+21.00
+Total Goals
+0
+14.00
+1
+5.30
+2
+3.75
+3
+3.70
+4
+4.65
+5
+7.00
+6
+13.50
+7+
+20.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+1.87
+H-D
+16.00
+H-A
+45.00
+D-H
+3.80
+D-D
+6.90
+D-A
+16.00
+A-H
+22.00
+A-D
+16.00
+A-A
+12.50
+Specials
+Item No.: 1 Which event will happen to Nicolas JACKSON (Chelsea) first?
+(1) Receive a Yellow Card
+5.60
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.05
+(4) Be substituted
+4.80
+(5) None of the above
+2.65
+Item No.: 2 How many goal(s) will Nicolas JACKSON (Chelsea) score?
+(1) No Goal
+1.48
+(2) 1 Goal
+2.70
+(3) 2 Goals
+8.75
+(4) 3 Goals or more
+26.00
+Item No.: 3 Which event will happen to Raheem STERLING (Chelsea) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.97
+(4) Be substituted
+3.55
+(5) None of the above
+3.05
+Item No.: 4 How many goal(s) will Raheem STERLING (Chelsea) score?
+(1) No Goal
+1.55
+(2) 1 Goal
+2.60
+(3) 2 Goals
+7.75
+(4) 3 Goals or more
+25.00
+Item No.: 5 Which event will happen to Taiwo AWONIYI (Nottingham Forest) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.60
+(4) Be substituted
+1.71
+(5) None of the above
+3.75

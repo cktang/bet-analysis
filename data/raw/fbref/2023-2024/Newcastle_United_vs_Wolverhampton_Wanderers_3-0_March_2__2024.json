@@ -1,0 +1,152 @@
+{
+  "url": "https://fbref.com/en/matches/bbae8356/Newcastle-United-Wolverhampton-Wanderers-March-2-2024-Premier-League",
+  "homeTeam": "Newcastle United",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "March 2, 2024",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Alexander Isak",
+        "playerId": "8e92be30",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 33,
+        "player": "Anthony Gordon",
+        "playerId": "2bd83368",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 92,
+        "player": "Valentino Livramento",
+        "playerId": "afed6722",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Fabian Schär"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 85,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Daniel Bentley",
+        "playerId": "68db6358",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Nathan Fraser",
+        "playerId": "00b77ecf",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 52,
+        "player": "Valentino Livramento",
+        "playerId": "afed6722",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Hugo Bueno",
+        "playerId": "bfc3b3a0",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Miguel Almirón",
+        "playerId": "862a1c15",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Boubacar Traoré",
+        "playerId": "999ceb5f",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Tawanda Chirewa",
+        "playerId": "34721c11",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Elliot Anderson",
+        "playerId": "de31038e",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

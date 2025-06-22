@@ -1,0 +1,137 @@
+{
+  "url": "https://fbref.com/en/matches/4f7b1a0d/Chelsea-Newcastle-United-May-28-2023-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Newcastle United",
+  "matchDate": "May 28, 2023",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 9,
+        "player": "Anthony Gordon",
+        "playerId": "2bd83368",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Elliot Anderson"
+      },
+      {
+        "minute": 27,
+        "player": "Kieran Trippier",
+        "playerId": "21512407",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Wesley Fofana",
+        "playerId": "132a82f1",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "João Félix",
+        "playerId": "8aafd64f",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Carney Chukwuemeka",
+        "playerId": "b2f9c73e",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Dan Burn",
+        "playerId": "b2d31e83",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Christian Pulisic",
+        "playerId": "1bf33a9a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Jamal Lewis",
+        "playerId": "efb9215a",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

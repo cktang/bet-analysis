@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/c4548397/Manchester-United-West-Ham-United-May-11-2025-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 11, 2025",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 26,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Mohammed Kudus"
+      },
+      {
+        "minute": 57,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Aaron Wan-Bissaka"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 61,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 52,
+        "player": "Harry Maguire",
+        "playerId": "d8931174",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 52,
+        "player": "Victor Lindelöf",
+        "playerId": "f5deef4c",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Patrick Dorgu",
+        "playerId": "e6536124",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Niclas Füllkrug",
+        "playerId": "4f16405e",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Carlos Soler",
+        "playerId": "fed17f5a",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Christian Eriksen",
+        "playerId": "980522ec",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Emerson Palmieri",
+        "playerId": "e0bc6fdc",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Konstantinos Mavropanos",
+        "playerId": "00963611",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

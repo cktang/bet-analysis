@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/61428001/Fulham-Tottenham-Hotspur-March-16-2025-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "March 16, 2025",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 78,
+        "player": "Rodrigo Muniz",
+        "playerId": "a755db8c",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      },
+      {
+        "minute": 88,
+        "player": "Ryan Sessegnon",
+        "playerId": "6aa3e78b",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Lucas Bergvall",
+        "playerId": "a109e5c8",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Rodrigo Muniz",
+        "playerId": "a755db8c",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Wilson Odobert",
+        "playerId": "35516eac",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Dane Scarlett",
+        "playerId": "21945a9e",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Ryan Sessegnon",
+        "playerId": "6aa3e78b",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

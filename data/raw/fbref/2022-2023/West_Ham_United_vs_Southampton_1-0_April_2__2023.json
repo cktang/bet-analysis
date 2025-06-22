@@ -1,0 +1,128 @@
+{
+  "url": "https://fbref.com/en/matches/42e1f38d/West-Ham-United-Southampton-April-2-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Southampton",
+  "matchDate": "April 2, 2023",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 25,
+        "player": "Nayef Aguerd",
+        "playerId": "288e1e13",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Thilo Kehrer"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 43,
+        "player": "Duje Ćaleta-Car",
+        "playerId": "94f8d10c",
+        "team": "Southampton"
+      },
+      {
+        "minute": 74,
+        "player": "Jan Bednarek",
+        "playerId": "4115ce4e",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 54,
+        "player": "Kamaldeen Sulemana",
+        "playerId": "a62f8bf1",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 54,
+        "player": "Carlos Alcaraz",
+        "playerId": "4abac767",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Ainsley Maitland-Niles",
+        "playerId": "e3a5814e",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Paul Onuachu",
+        "playerId": "c06d1086",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

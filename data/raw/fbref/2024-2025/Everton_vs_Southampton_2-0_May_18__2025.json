@@ -1,0 +1,150 @@
+{
+  "url": "https://fbref.com/en/matches/9e338dfb/Everton-Southampton-May-18-2025-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Southampton",
+  "matchDate": "May 18, 2025",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 6,
+        "player": "Iliman Ndiaye",
+        "playerId": "5ed97752",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 47,
+        "player": "Iliman Ndiaye",
+        "playerId": "5ed97752",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Dwight McNeil"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 80,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "Southampton"
+      },
+      {
+        "minute": 88,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 18,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "William Smallbone",
+        "playerId": "5e105217",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Ross Stewart",
+        "playerId": "18986367",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Carlos Alcaraz",
+        "playerId": "4abac767",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Jay Robinson",
+        "playerId": "2a616c85",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Michael Keane",
+        "playerId": "c5b7c315",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Dominic Calvert-Lewin",
+        "playerId": "59e6e5bf",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Joachim Kayi Sanda",
+        "playerId": "e2b2a181",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

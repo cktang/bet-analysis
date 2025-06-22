@@ -1,0 +1,739 @@
+23/11/2024
+FB3940
+Bournemouth
+vs
+Brighton
+0
+:
+1
+1
+:
+2
+%Event ID: FB3940
+Bournemouth
+1
+2
+Brighton
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Brighton (Away)
+2.25
+3.55
+2.49
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Brighton (Away)
+60.00
+18.00
+1.005
+First Half HAD
+Bournemouth (Home)
+Draw
+Brighton (Away)
+2.73
+2.31
+2.94
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Brighton (Away)
+60.00
+6.40
+1.05
+Handicap HAD
+Bournemouth (Home)
+Draw
+Brighton (Away)
+[-1]
+4.20
+[-1]
+4.25
+[+1]
+1.50
+Handicap HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Brighton (Away)
+[-1]
+4.25
+[-1]
+4.20
+[+1]
+1.50
+[+2]
+1.01
+[+2]
+6.80
+[-2]
+500.0
+[+1]
+5.60
+[+1]
+1.10
+[-1]
+19.00
+Handicap
+Bournemouth (Home)
+Brighton (Away)
+[0]
+1.81
+[0]
+2.02
+Same Game All Up
+Both teams to score & Bournemouth to win & Over [12.5] corners taken
+9.25
+Bournemouth to win & Over [3.5] goals & Over [11.5] corners taken
+10.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Bournemouth to win the match by [2] goal(s) or more
+10.50
+Both teams to score & Brighton to win & Under [11.5] corners taken
+6.80
+Both teams to score & Brighton to win or draw & Over [11.5] corners taken
+4.25
+Brighton to score first & Bournemouth to win by [2] goal(s) or more
+26.00
+Bournemouth to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+23.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+6.90
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+11.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [11.5] corners taken in the match
+3.40
+First Half to be drawn & Bournemouth to win the match by [2] goal(s) or more
+16.00
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+10.50
+The match to be drawn & Under [11.5] corners taken
+5.90
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:1] in the match
+28.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:0] in the match
+50.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:0] in the match
+100.0
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Brighton to win [1:0] in the first half & Brighton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3/3.5]
+1.94
+1.76
+[3.5]
+2.17
+1.61
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.14
+4.60
+[2.5/3]
+3.95
+1.19
+[3/3.5]
+9.50
+1.02
+[3.5]
+8.50
+1.03
+[3.5/4]
+2.20
+1.59
+[4/4.5]
+2.15
+1.62
+[4.5]
+5.60
+1.09
+[5.5]
+3.95
+1.19
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.15
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.90
+1.80
+[1.5]
+2.27
+1.56
+[1.5/2]
+4.75
+1.13
+[2/2.5]
+8.50
+1.02
+[2.5]
+8.50
+1.02
+[3.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.01
+1.71
+[12.5]
+2.50
+1.46
+[14.5]
+4.05
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.31
+3.10
+[7.5]
+2.80
+1.37
+[8.5]
+7.00
+1.05
+[9.5]
+9.50
+1.02
+[10.5]
+5.60
+1.09
+[11.5]
+4.15
+1.17
+[12.5]
+3.80
+1.21
+[14.5]
+4.05
+1.18
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.01
+1.71
+[6.5]
+2.85
+1.36
+[7.5]
+4.15
+1.17
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.17
+4.15
+[3.5]
+1.22
+3.70
+[4.5]
+3.20
+1.29
+[5.5]
+2.01
+1.71
+[6.5]
+2.85
+1.36
+[7.5]
+4.15
+1.17
+Correct Score
+Bournemouth (Home)
+Draw
+Brighton (Away)
+1:0
+12.00
+0:0
+17.00
+0:1
+12.50
+2:0
+14.00
+1:1
+7.25
+0:2
+16.00
+2:1
+8.50
+2:2
+9.25
+1:2
+8.75
+3:0
+25.00
+3:3
+30.00
+0:3
+30.00
+3:1
+15.00
+1:3
+17.00
+3:2
+17.00
+2:3
+17.00
+4:0
+40.00
+0:4
+50.00
+4:1
+30.00
+1:4
+35.00
+4:2
+40.00
+2:4
+40.00
+5:0
+100.0
+0:5
+125.0
+5:1
+70.00
+1:5
+70.00
+5:2
+70.00
+2:5
+80.00
+Home Others
+(Away No Goal)
+250.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+30.00
+Draw Others
+60.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Brighton (Away)
+1:0
+10.00
+0:0
+11.50
+0:1
+4.90
+2:0
+12.50
+1:1
+4.00
+0:2
+1.14
+2:1
+8.00
+2:2
+5.60
+1:2
+1.13
+3:0
+22.00
+3:3
+1000
+0:3
+19.00
+3:1
+22.00
+1:3
+19.00
+3:2
+100.0
+2:3
+100.0
+4:0
+50.00
+0:4
+900.0
+4:1
+90.00
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+1000
+5:1
+500.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Brighton (Away)
+1:0
+4.85
+0:0
+3.45
+0:1
+5.20
+2:0
+9.75
+1:1
+5.70
+0:2
+10.50
+2:1
+12.50
+2:2
+30.00
+1:2
+13.00
+3:0
+40.00
+3:3
+400.0
+0:3
+40.00
+3:1
+50.00
+1:3
+50.00
+3:2
+100.0
+2:3
+100.0
+4:0
+150.0
+0:4
+200.0
+4:1
+200.0
+1:4
+250.0
+4:2
+500.0
+2:4
+500.0
+5:0
+700.0
+0:5
+800.0
+5:1
+800.0
+1:5
+900.0
+5:2
+1500
+2:5
+2000
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+800.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Brighton (Away)
+1:0
+4.20
+0:0
+3.04
+0:1
+1.14
+2:0
+12.00
+1:1
+6.50
+0:2
+12.00
+2:1
+61.00
+2:2
+1000
+1:2
+80.00
+3:0
+50.00
+3:3
+2500
+0:3
+200.0
+3:1
+2000
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+200.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+1500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Brighton (Away)
+1.80
+17.00
+1.90
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.83
+11.50
+1.96
+2nd Goal
+1.87
+4.90
+2.50
+3rd Goal
+5.30
+1.14
+18.00
+Total Goals
+0
+17.00
+1
+6.40
+2
+3.95
+3
+3.80
+4
+4.30
+5
+6.20
+6
+10.50
+7+
+13.00
+Total Goals- Last Odds for In Play Betting
+0
+11.50
+1
+4.90
+2
+1.32
+3
+2.86
+4
+16.00
+5
+150.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Bournemouth (Home)
+Brighton (Away)
+101 Antoine SEMENYO
+5.20
+201 Danny WELBECK
+6.60
+102 Francisco EVANILSON
+5.90
+202 JOAO PEDRO Junqueira
+6.70
+103 Enes UNAL
+6.10
+203 Evan FERGUSON
+7.00
+104 Justin KLUIVERT
+8.25
+204 Georginio RUTTER
+9.00
+105 Marcus TAVERNIER
+9.00
+205 Kaoru MITOMA
+9.25
+106 Dango OUATTARA
+9.00
+206 Simon ADINGRA
+9.75
+107 David BROOKS
+10.00
+207 Julio ENCISO
+10.00
+108 Philip BILLING
+12.00
+208 Yankuba MINTEH
+10.00
+109 Ryan CHRISTIE
+15.00
+209 Matt O'RILEY
+10.50
+110 Lewis COOK
+25.00
+210 Brajan GRUDA
+11.00
+111 Tyler ADAMS
+28.00
+211 Ferdi KADIOGLU
+11.00
+112 Milos KERKEZ
+35.00
+212 Yasin AYARI
+15.00
+113 Marcos SENESI
+40.00
+213 Jakub MODER
+17.00
+114 Dean HUIJSEN
+45.00
+214 Carlos BALEBA
+19.00
+115 Illya ZABARNYI
+75.00
+215 Jack HINSHELWOOD
+20.00
+116 James HILL
+90.00
+216 Mats WIEFFER
+20.00
+117 Julian ARAUJO
+90.00
+217 James MILNER
+30.00
+118 Adam SMITH
+100.0
+218 Pervis ESTUPINAN
+35.00
+119 Max AARONS
+100.0
+219 Adam WEBSTER
+45.00
+120 Home Others
+13.50
+220 Away Others
+14.00
+00 No First Scorer
+16.80
+HaFu
+H-H
+3.55
+H-D
+12.00
+H-A
+21.00
+D-H
+5.80
+D-D
+5.90
+D-A
+6.30
+A-H
+20.00
+A-D
+12.00
+A-A
+4.00

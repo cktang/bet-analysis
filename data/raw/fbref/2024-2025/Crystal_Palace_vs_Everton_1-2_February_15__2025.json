@@ -1,0 +1,131 @@
+{
+  "url": "https://fbref.com/en/matches/35ee3617/Crystal-Palace-Everton-February-15-2025-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Everton",
+  "matchDate": "February 15, 2025",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 42,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Carlos Alcaraz"
+      },
+      {
+        "minute": 47,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Marc Guéhi"
+      },
+      {
+        "minute": 80,
+        "player": "Carlos Alcaraz",
+        "playerId": "4abac767",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 67,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Adam Wharton",
+        "playerId": "4b542852",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Ben Chilwell",
+        "playerId": "d2424d1b",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Daichi Kamada",
+        "playerId": "15b287da",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Tim Iroegbunam",
+        "playerId": "84c5ceea",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

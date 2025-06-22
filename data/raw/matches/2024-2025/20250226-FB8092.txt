@@ -1,0 +1,774 @@
+26/02/2025
+FB8092
+Crystal
+Palace
+vs
+Aston
+Villa
+1
+:
+0
+4
+:
+1
+%Event ID: FB8092
+Crystal Palace
+4
+1
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+2.19
+3.15
+2.84
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1.001
+15.00
+125.0
+First Half HAD
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+2.65
+2.18
+3.30
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1.03
+9.00
+90.00
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+[+1]
+1.32
+[+1]
+4.65
+[-1]
+6.00
+[-1]
+4.30
+[-1]
+3.95
+[+1]
+1.53
+Handicap HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+[-2]
+1.05
+[-2]
+5.50
+[+2]
+125.0
+[-1]
+1.001
+[-1]
+7.40
+[+1]
+250.0
+[+1]
+1.32
+[+1]
+4.65
+[-1]
+6.00
+Handicap
+Crystal Palace (Home)
+Aston Villa (Away)
+[0/-0.5]
+1.96
+[0/+0.5]
+1.86
+Same Game All Up
+Both teams to score & Crystal Palace to win & Over [11.5] corners taken
+8.75
+Crystal Palace to win & Over [2.5] goals & Over [10.5] corners taken
+5.90
+Crystal Palace to win [2:0] in the first half & Crystal Palace to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Crystal Palace to win the match by [2] goal(s) or more
+12.50
+Both teams to score & Aston Villa to win & Under [9.5] corners taken
+12.00
+Both teams to score & Aston Villa to win or draw & Over [11.5] corners taken
+5.00
+Aston Villa to score first & Crystal Palace to win by [2] goal(s) or more
+30.00
+Crystal Palace to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+23.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.75
+Under [4.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.50
+First Half to be drawn & Crystal Palace to win the match by [2] goal(s) or more
+16.00
+The match to be drawn & Under [9.5] corners taken
+7.75
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:1] in the match
+27.00
+Crystal Palace to win [2:0] in the first half & Crystal Palace to win [3:0] in the match
+50.00
+First half to be drawn [0:0] & Crystal Palace to win [2:0] in the match
+30.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Aston Villa to win [1:0] in the first half & Aston Villa to win [2:0] in the match
+25.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.61
+2.17
+[2.5/3]
+1.82
+1.88
+[3.5]
+2.55
+1.45
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.48
+2.45
+[1.5/2]
+1.64
+2.12
+[2/2.5]
+1.75
+1.95
+[2.5]
+1.23
+3.65
+[2.5/3]
+1.43
+2.60
+[3/3.5]
+2.22
+1.58
+[3.5]
+1.31
+3.10
+[3.5/4]
+1.74
+1.97
+[4/4.5]
+2.88
+1.35
+[4.5]
+1.50
+2.40
+[4.5/5]
+4.60
+1.14
+[5/5.5]
+10.50
+1.01
+[5.5]
+11.00
+1.005
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.94
+1.76
+[1.5]
+2.35
+1.52
+[1.5/2]
+2.88
+1.35
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.85
+1.36
+[1/1.5]
+5.90
+1.08
+[1.5]
+6.60
+1.06
+[1.5/2]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.19
+1.60
+[12.5]
+2.80
+1.37
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.66
+2.08
+[5.5]
+2.29
+1.55
+[7.5]
+5.15
+1.11
+Correct Score
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1:0
+8.75
+0:0
+12.50
+0:1
+10.50
+2:0
+11.00
+1:1
+6.40
+0:2
+15.00
+2:1
+7.75
+2:2
+10.50
+1:2
+9.25
+3:0
+21.00
+3:3
+40.00
+0:3
+35.00
+3:1
+15.00
+1:3
+21.00
+3:2
+21.00
+2:3
+23.00
+4:0
+40.00
+0:4
+60.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+80.00
+0:5
+200.0
+5:1
+70.00
+1:5
+125.0
+5:2
+100.0
+2:5
+150.0
+Home Others
+(Away No Goal)
+250.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1:0
+3.85
+0:0
+6.70
+0:1
+5.60
+2:0
+4.15
+1:1
+2.93
+0:2
+11.00
+2:1
+2.13
+2:2
+4.25
+1:2
+4.50
+3:0
+10.50
+3:3
+100.0
+0:3
+30.00
+3:1
+1.10
+1:3
+14.00
+3:2
+6.40
+2:3
+11.50
+4:0
+45.00
+0:4
+125.0
+4:1
+1.10
+1:4
+70.00
+4:2
+9.25
+2:4
+80.00
+5:0
+250.0
+0:5
+700.0
+5:1
+10.50
+1:5
+500.0
+5:2
+90.00
+2:5
+700.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+150.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1:0
+4.45
+0:0
+2.96
+0:1
+4.95
+2:0
+9.25
+1:1
+6.00
+0:2
+12.50
+2:1
+13.50
+2:2
+40.00
+1:2
+15.00
+3:0
+40.00
+3:3
+600.0
+0:3
+60.00
+3:1
+60.00
+1:3
+70.00
+3:2
+150.0
+2:3
+150.0
+4:0
+150.0
+0:4
+300.0
+4:1
+300.0
+1:4
+400.0
+4:2
+700.0
+2:4
+700.0
+5:0
+700.0
+0:5
+1000
+5:1
+900.0
+1:5
+1500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Aston Villa (Away)
+1:0
+1.07
+0:0
+1.48
+0:1
+5.00
+2:0
+30.00
+1:1
+9.10
+0:2
+29.00
+2:1
+300.0
+2:2
+2500
+1:2
+80.00
+3:0
+1500
+3:3
+2500
+0:3
+250.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Aston Villa (Away)
+1.75
+12.50
+2.05
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+1.93
+6.70
+2.12
+2nd Goal
+2.31
+3.85
+2.22
+3rd Goal
+2.40
+2.93
+2.62
+4th Goal
+2.86
+2.38
+2.70
+5th Goal
+6.10
+1.24
+5.50
+6th Goal
+10.00
+1.10
+9.00
+Total Goals
+0
+12.50
+1
+5.20
+2
+3.70
+3
+3.70
+4
+4.65
+5
+7.00
+6
+13.50
+7+
+19.00
+Total Goals- Last Odds for In Play Betting
+0
+6.70
+1
+3.85
+2
+2.93
+3
+2.13
+4
+1.10
+5
+1.10
+6
+4.35
+7+
+80.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Crystal Palace (Home)
+Aston Villa (Away)
+101 Jean-Philippe MATETA
+3.40
+201 Ollie WATKINS
+4.60
+102 Eddie NKETIAH
+7.00
+202 Marcus RASHFORD
+7.50
+103 Ismaila SARR
+7.25
+205 Morgan ROGERS
+8.00
+104 Eberechi EZE
+8.25
+206 Jacob RAMSEY
+8.25
+105 Justin DEVENNY
+9.50
+203 Donyell MALEN
+9.50
+106 Romain ESSE
+10.00
+204 Marco ASENSIO
+9.75
+107 Franco UMEH-CHIBUEZE
+10.50
+207 Leon BAILEY
+11.00
+108 Matheus FRANCA
+11.50
+208 Jamaldeen JIMOH
+16.00
+109 Daichi KAMADA
+14.50
+209 Ross BARKLEY
+19.00
+110 Daniel MUNOZ
+21.00
+210 John McGINN
+20.00
+111 Marc GUEHI
+21.00
+211 Youri TIELEMANS
+22.00
+112 Adam WHARTON
+23.00
+214 Andres GARCIA
+40.00
+113 Caleb KPORHA
+26.00
+212 Ian MAATSEN
+45.00
+114 Jefferson LERMA
+26.00
+213 Matty CASH
+45.00
+115 Ben CHILWELL
+40.00
+216 Axel DISASI
+50.00
+116 Maxence LACROIX
+40.00
+217 Ezri KONSA
+50.00
+117 Will HUGHES
+40.00
+218 Lamare BOGARDE
+50.00
+118 Chris RICHARDS
+55.00
+219 Lucas DIGNE
+50.00
+119 Tyrick MITCHELL
+60.00
+215 Tyrone MINGS
+55.00
+120 Home Others
+8.50
+220 Away Others
+10.00
+00 No First Scorer
+12.30
+HaFu
+H-H
+3.25
+H-D
+12.50
+H-A
+25.00
+D-H
+5.30
+D-D
+5.20
+D-A
+6.70
+A-H
+21.00
+A-D
+12.50
+A-A
+4.65
+Specials
+Item No.: 1 Which event will happen to Jean-Philippe MATETA (Crystal Palace) first?
+(1) Receive a Yellow Card
+7.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.45
+(4) Be substituted
+3.25
+(5) None of the above
+2.35
+Item No.: 2 Which event will happen to Eberechi EZE (Crystal Palace) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.35
+(4) Be substituted
+1.55
+(5) None of the above
+3.50
+Item No.: 3 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.50
+(4) Be substituted
+2.50
+(5) None of the above
+2.85
+Item No.: 4 Which event will happen to Marcus RASHFORD (Aston Villa) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.85
+(4) Be substituted
+1.52
+(5) None of the above
+4.15
+Item No.: 5 Which event will happen to Morgan ROGERS (Aston Villa) first?
+(1) Receive a Yellow Card
+3.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+6.25
+(4) Be substituted
+1.70
+(5) None of the above
+4.55

@@ -1,0 +1,688 @@
+09/10/2022
+FB3517
+Arsenal
+vs
+Liverpool
+2
+:
+1
+3
+:
+2
+%Event ID: FB3517
+Arsenal
+3
+2
+Liverpool
+Eng Premier
+Home/Away/Draw
+Arsenal (Home)
+Draw
+Liverpool (Away)
+2.28
+3.55
+2.47
+Home/Away/Draw- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Liverpool (Away)
+1.02
+10.00
+80.00
+First Half HAD
+Arsenal (Home)
+Draw
+Liverpool (Away)
+2.80
+2.29
+2.93
+First Half HAD- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Liverpool (Away)
+10.50
+1.08
+10.00
+Handicap HAD
+Arsenal (Home)
+Draw
+Liverpool (Away)
+[-1]
+4.20
+[-1]
+4.25
+[+1]
+1.51
+Handicap
+Arsenal (Home)
+Liverpool (Away)
+[0]
+1.85
+[0]
+1.97
+Same Game All Up
+GABRIEL Fernando JESUS to score first & Arsenal to win by [2] goal(s) or more
+14.00
+Arsenal to win & Over [3.5] goals
+5.20
+Liverpool to win & Over [2.5] goals
+3.45
+Mohamed SALAH to score first & Over [3.5] goals & Over [10.5] corners taken
+27.00
+GABRIEL Teodoro MARTINELLI to score first & Over [2.5] goals & Over [9.5] corners taken
+20.00
+Mohamed SALAH to score first in the match & Arsenal to win the first half
+70.00
+Arsenal to win the first half & Over [2.5] goals in the first half
+9.50
+Liverpool to win the first half & Over [1.5] goals in the first half
+6.25
+Liverpool to score first & Arsenal to win by [2] goal(s) or more & Over [10.5] corners taken
+65.00
+Arsenal to score first & Liverpool to win or draw & Over [10.5] corners taken
+10.50
+Over [2.5] goals in the first half & Over [3.5] goals in the match & Over [9.5] corners taken in the match
+10.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.50
+Arsenal to win [2:0] in the first half & The match to be drawn [2:2]
+70.00
+Arsenal to win both first half and the match & Over [3.5] goals in the match & Over [9.5] corners taken in the match
+12.00
+Liverpool to win both first half and the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+11.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3/3.5]
+1.93
+1.77
+[3.5]
+2.17
+1.61
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5/6]
+6.10
+1.08
+[2.5]
+1.46
+2.50
+[3/3.5]
+2.04
+1.69
+[3.5]
+1.79
+1.91
+[3.5/4]
+2.04
+1.69
+[4/4.5]
+1.63
+2.13
+[4.5]
+1.89
+1.81
+[4.5/5]
+2.19
+1.60
+[5/5.5]
+3.80
+1.21
+[5.5]
+4.40
+1.16
+[6/6.5]
+4.90
+1.13
+[6.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.00
+1.72
+[1.5/2]
+2.45
+1.48
+[2.5]
+4.05
+1.19
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+7.00
+1.06
+[1/1.5]
+1.74
+1.97
+[1.5]
+2.02
+1.70
+[1.5/2]
+2.80
+1.38
+[2/2.5]
+5.10
+1.12
+[2.5]
+5.30
+1.11
+[3.5]
+5.30
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.98
+1.73
+[11.5]
+2.48
+1.47
+[13.5]
+3.90
+1.20
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+7.00
+1.06
+[6.5]
+1.65
+2.10
+[7.5]
+3.90
+1.20
+[9.5]
+5.10
+1.12
+[10.5]
+5.10
+1.12
+[11.5]
+4.75
+1.14
+[12.5]
+3.45
+1.25
+[13.5]
+3.90
+1.20
+Correct Score
+Arsenal (Home)
+Draw
+Liverpool (Away)
+1:0
+11.50
+0:0
+18.00
+0:1
+12.50
+2:0
+15.00
+1:1
+7.25
+0:2
+16.00
+2:1
+8.25
+2:2
+9.25
+1:2
+8.75
+3:0
+25.00
+3:3
+28.00
+0:3
+28.00
+3:1
+16.00
+1:3
+18.00
+3:2
+18.00
+2:3
+18.00
+4:0
+40.00
+0:4
+50.00
+4:1
+30.00
+1:4
+35.00
+4:2
+40.00
+2:4
+40.00
+5:0
+100.0
+0:5
+125.0
+5:1
+70.00
+1:5
+70.00
+5:2
+80.00
+2:5
+80.00
+Home Others
+27.00
+Draw Others
+55.00
+Away Others
+30.00
+Correct Score- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Liverpool (Away)
+1:0
+8.00
+0:0
+18.00
+0:1
+12.50
+2:0
+6.50
+1:1
+5.20
+0:2
+16.00
+2:1
+4.60
+2:2
+1.96
+1:2
+4.65
+3:0
+12.50
+3:3
+10.00
+0:3
+28.00
+3:1
+4.90
+1:3
+9.75
+3:2
+1.07
+2:3
+5.10
+4:0
+35.00
+0:4
+50.00
+4:1
+12.00
+1:4
+35.00
+4:2
+11.00
+2:4
+28.00
+5:0
+100.0
+0:5
+150.0
+5:1
+50.00
+1:5
+125.0
+5:2
+400.0
+2:5
+90.00
+Home Others
+125.0
+Draw Others
+1000
+Away Others
+80.00
+First Half Correct Score
+Arsenal (Home)
+Draw
+Liverpool (Away)
+1:0
+4.90
+0:0
+3.45
+0:1
+5.10
+2:0
+10.00
+1:1
+5.90
+0:2
+11.00
+2:1
+13.50
+2:2
+30.00
+1:2
+13.50
+3:0
+40.00
+3:3
+350.0
+0:3
+40.00
+3:1
+50.00
+1:3
+50.00
+3:2
+100.0
+2:3
+100.0
+4:0
+150.0
+0:4
+200.0
+4:1
+200.0
+1:4
+250.0
+4:2
+500.0
+2:4
+500.0
+5:0
+700.0
+0:5
+800.0
+5:1
+800.0
+1:5
+900.0
+5:2
+1500
+2:5
+2000
+Home Others
+800.0
+Draw Others
+4000
+Away Others
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Arsenal (Home)
+Draw
+Liverpool (Away)
+1:0
+1.46
+0:0
+3.38
+0:1
+5.10
+2:0
+4.90
+1:1
+1.09
+0:2
+11.00
+2:1
+10.60
+2:2
+150.0
+1:2
+10.10
+3:0
+35.00
+3:3
+2500
+0:3
+40.00
+3:1
+350.0
+1:3
+300.0
+3:2
+2500
+2:3
+2500
+4:0
+300.0
+0:4
+200.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+1000
+0:5
+1000
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+1000
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Arsenal (Home)
+No Goals
+Liverpool (Away)
+1.82
+18.00
+1.88
+Next Team To Score- Last Odds for In Play Betting
+Arsenal (Home)
+No Goals
+Liverpool (Away)
+1st Goal
+1.81
+18.00
+1.89
+2nd Goal
+2.07
+8.00
+1.87
+3rd Goal
+2.20
+5.20
+2.04
+4th Goal
+2.24
+4.60
+2.11
+5th Goal
+2.82
+1.96
+3.65
+6th Goal
+10.50
+1.07
+11.00
+Total Goals
+0
+18.00
+1
+6.50
+2
+4.05
+3
+3.75
+4
+4.35
+5
+6.40
+6
+11.00
+7+
+13.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Arsenal (Home)
+Liverpool (Away)
+101 GABRIEL Fernando JESUS
+4.85
+201 Mohamed SALAH
+4.55
+102 Eddie NKETIAH
+6.10
+202 ROBERTO FIRMINO Barbosa
+6.70
+103 Bukayo SAKA
+7.25
+203 DIOGO Jota
+7.00
+104 GABRIEL Teodoro MARTINELLI
+7.75
+204 Darwin NUNEZ
+7.00
+105 Fabio VIEIRA
+9.00
+205 Luis DIAZ
+7.00
+106 MARQUINHOS Alencar
+9.50
+206 Fabio CARVALHO
+8.75
+107 Reiss NELSON
+9.50
+207 Harvey ELLIOTT
+10.00
+108 Martin ODEGAARD
+10.00
+208 James MILNER
+15.00
+109 Granit XHAKA
+20.00
+209 Trent ALEXANDER-ARNOLD
+25.00
+110 Thomas PARTEY
+27.00
+210 FABINHO Tavares
+28.00
+111 GABRIEL Magalhaes
+30.00
+211 Virgil VAN DIJK
+30.00
+112 William SALIBA
+30.00
+212 Joel MATIP
+35.00
+113 Ben WHITE
+60.00
+213 Jordan HENDERSON
+35.00
+114 Oleksandr ZINCHENKO
+60.00
+214 THIAGO Alcantara
+40.00
+215 Kostas TSIMIKAS
+60.00
+120 Home Others
+9.00
+220 Away Others
+9.25
+00 No First Scorer
+17.80
+HaFu
+H-H
+3.70
+H-D
+12.50
+H-A
+19.00
+D-H
+6.00
+D-D
+5.90
+D-A
+6.40
+A-H
+18.00
+A-D
+12.50
+A-A
+4.05
+Specials
+Item No.: 1 Which event will happen to GABRIEL Fernando JESUS (Arsenal) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+3.00
+(5) None of the above
+3.20
+Item No.: 2 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+3.00
+(5) None of the above
+1.95
+Item No.: 3 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+2.20
+(5) None of the above
+2.58
+Item No.: 4 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.25
+(4) Be substituted
+5.40
+(5) None of the above
+1.92
+Item No.: 5 Which event will happen to ROBERTO FIRMINO Barbosa (Liverpool) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+1.63
+(5) None of the above
+3.75

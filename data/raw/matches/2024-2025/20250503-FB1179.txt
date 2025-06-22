@@ -1,0 +1,859 @@
+03/05/2025
+FB1179
+Manchester
+City
+vs
+Wolves
+1
+:
+0
+1
+:
+0
+%Event ID: FB1179
+Manchester City
+1
+0
+Wolves
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Wolves (Away)
+1.23
+5.20
+8.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Wolves (Away)
+1.01
+9.50
+90.00
+First Half HAD
+Manchester City (Home)
+Draw
+Wolves (Away)
+1.57
+2.80
+6.90
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Wolves (Away)
+1.01
+8.25
+90.00
+Handicap HAD
+Manchester City (Home)
+Draw
+Wolves (Away)
+[-1]
+1.79
+[-1]
+3.60
+[+1]
+3.25
+[-2]
+2.93
+[-2]
+3.85
+[+2]
+1.83
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Wolves (Away)
+[-3]
+18.00
+[-3]
+5.70
+[+3]
+1.10
+[-1]
+1.56
+[-1]
+3.42
+[+1]
+4.80
+[-2]
+60.00
+[-2]
+4.85
+[+2]
+1.09
+Handicap
+Manchester City (Home)
+Wolves (Away)
+[-1/-1.5]
+1.69
+[+1/+1.5]
+2.19
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Wolves (Away)
+[-1.5/-2]
+2.42
+[+1.5/+2]
+1.51
+[-0.5/-1]
+1.15
+[+0.5/+1]
+4.80
+[-1]
+1.38
+[+1]
+2.84
+[-1/-1.5]
+2.97
+[+1/+1.5]
+1.35
+Same Game All Up
+Omar MARMOUSH to score first & Over [3.5] goals & Over [10.5] corners taken
+16.00
+Kevin DE BRUYNE to score first in the match & Manchester City to win the match by [2] goal(s) or more & Over [1.5] goals in the first half
+20.00
+Both teams to score & Manchester City to win by [2] goal(s) or more & Over [10.5] corners taken
+8.50
+Manchester City to win by [2] goal(s) or more & Over [4.5] goals & Over [11.5] corners taken
+12.50
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+30.00
+First half to be drawn [0:0] & Both teams to score in the match
+11.50
+Both teams to score in the match & First Half to be drawn & Manchester City to win the match by [2] goal(s) or more
+17.00
+Both teams to score & Wolves to win & Under [10.5] corners taken
+21.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.25
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.50
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+4.50
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.50
+First Half to be drawn & Manchester City to win the match by exactly [2] goal(s)
+11.00
+Wolves to score first & Manchester City to win by exactly [1] goal(s)
+15.00
+Manchester City to score in the first half & Wolves to win or draw the match
+7.50
+Wolves to score in the first half & Manchester City to win the match by [2] goal(s) or more
+8.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:1] in the match
+25.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Manchester City to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Manchester City to win [2:0] in the match
+21.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.89
+1.81
+[3.5]
+2.10
+1.65
+[4.5]
+3.35
+1.27
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.90
+1.08
+[2/2.5]
+11.50
+1.002
+[2.5]
+11.50
+1.002
+[2.5/3]
+2.29
+1.55
+[3/3.5]
+2.40
+1.50
+[3.5]
+4.95
+1.12
+[4.5]
+5.15
+1.11
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.02
+1.70
+[1.5/2]
+2.43
+1.49
+[2.5]
+4.15
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.88
+1.35
+[1/1.5]
+5.60
+1.09
+[1.5]
+5.90
+1.08
+[1.5/2]
+7.00
+1.05
+[2.5]
+9.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.01
+1.71
+[11.5]
+2.55
+1.45
+[13.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.15
+4.40
+[9.5]
+4.75
+1.13
+[10.5]
+5.40
+1.10
+[11.5]
+8.50
+1.03
+[12.5]
+7.00
+1.05
+[13.5]
+4.30
+1.16
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.75
+1.95
+[5.5]
+2.55
+1.45
+[7.5]
+5.90
+1.08
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.08
+5.90
+[4.5]
+1.15
+4.40
+[5.5]
+1.19
+3.95
+[6.5]
+5.90
+1.08
+[7.5]
+5.40
+1.10
+[8.5]
+9.50
+1.02
+Corner Taken Handicap
+Manchester City (Home)
+Wolves (Away)
+[-4.5]
+2.10
+[+4.5]
+1.65
+Corner Taken Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Wolves (Away)
+[-4.5]
+2.10
+[+4.5]
+1.65
+[-3.5]
+2.50
+[+3.5]
+1.46
+[-2.5]
+2.65
+[+2.5]
+1.41
+[-1.5]
+2.65
+[+1.5]
+1.41
+[-0.5]
+2.85
+[+0.5]
+1.36
+First Half Corner Taken Handicap
+Manchester City (Home)
+Wolves (Away)
+[-2.5]
+2.33
+[+2.5]
+1.53
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Wolves (Away)
+[-2.5]
+2.33
+[+2.5]
+1.53
+[-0.5]
+1.12
+[+0.5]
+4.95
+[+0.5]
+1.12
+[-0.5]
+4.95
+[-1.5]
+3.35
+[+1.5]
+1.27
+Correct Score
+Manchester City (Home)
+Draw
+Wolves (Away)
+1:0
+8.00
+0:0
+21.00
+0:1
+26.00
+2:0
+6.80
+1:1
+10.50
+0:2
+40.00
+2:1
+7.25
+2:2
+16.00
+1:2
+20.00
+3:0
+7.75
+3:3
+40.00
+0:3
+100.0
+3:1
+9.00
+1:3
+40.00
+3:2
+19.00
+2:3
+40.00
+4:0
+12.50
+0:4
+400.0
+4:1
+14.00
+1:4
+150.0
+4:2
+35.00
+2:4
+125.0
+5:0
+25.00
+0:5
+900.0
+5:1
+28.00
+1:5
+600.0
+5:2
+40.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+20.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Wolves (Away)
+1:0
+1.09
+0:0
+8.25
+0:1
+11.00
+2:0
+9.00
+1:1
+16.50
+0:2
+30.00
+2:1
+200.0
+2:2
+1000
+1:2
+90.00
+3:0
+450.0
+3:3
+1000
+0:3
+125.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+900.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Wolves (Away)
+1:0
+3.30
+0:0
+3.60
+0:1
+9.75
+2:0
+5.00
+1:1
+7.25
+0:2
+35.00
+2:1
+10.50
+2:2
+50.00
+1:2
+30.00
+3:0
+12.00
+3:3
+700.0
+0:3
+200.0
+3:1
+29.00
+1:3
+200.0
+3:2
+100.0
+2:3
+300.0
+4:0
+40.00
+0:4
+1000
+4:1
+80.00
+1:4
+900.0
+4:2
+400.0
+2:4
+1500
+5:0
+150.0
+0:5
+2500
+5:1
+400.0
+1:5
+2500
+5:2
+900.0
+2:5
+2500
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Wolves (Away)
+1:0
+1.13
+0:0
+1.46
+0:1
+7.85
+2:0
+9.25
+1:1
+8.30
+0:2
+90.00
+2:1
+100.0
+2:2
+2500
+1:2
+91.00
+3:0
+100.0
+3:3
+2500
+0:3
+2000
+3:1
+2000
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Wolves (Away)
+1.24
+21.00
+3.50
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Wolves (Away)
+1st Goal
+1.42
+8.25
+3.18
+2nd Goal
+7.60
+1.09
+15.50
+Total Goals
+0
+21.00
+1
+6.60
+2
+4.15
+3
+3.70
+4
+4.25
+5
+6.00
+6
+9.50
+7+
+12.50
+Total Goals- Last Odds for In Play Betting
+0
+8.25
+1
+1.30
+2
+2.88
+3
+19.00
+4
+200.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester City (Home)
+Wolves (Away)
+101 Omar MARMOUSH
+2.92
+201 MATHEUS CUNHA
+7.50
+102 Phil FODEN
+5.50
+202 Jorgen Strand LARSEN
+10.00
+103 Oscar BOBB
+5.80
+204 Marshall MUNETSI
+15.00
+104 James McATEE
+6.60
+203 HWANG Hee chan
+17.00
+105 Kevin DE BRUYNE
+6.90
+205 Pablo SARABIA
+17.00
+106 Jack GREALISH
+7.25
+207 Jeanricner BELLEGARDE
+17.00
+107 SAVINHO Moreira de Oliveira
+8.00
+206 Goncalo GUEDES
+18.00
+108 Jeremy DOKU
+8.75
+208 Carlos FORBS
+22.00
+109 Mateo KOVACIC
+9.25
+209 Rayan AIT-NOURI
+28.00
+110 Josko GVARDIOL
+12.00
+210 Tommy DOYLE
+35.00
+111 Nico O'REILLY
+12.00
+211 Joao GOMES
+35.00
+112 BERNARDO SILVA
+13.00
+212 Rodrigo Martins GOMES
+50.00
+113 Ilkay GUNDOGAN
+15.00
+214 Matt DOHERTY
+50.00
+114 Nico GONZALEZ Iglesias
+18.00
+213 Boubacar TRAORE
+55.00
+115 Rico LEWIS
+18.00
+215 Emmanuel AGBADOU
+70.00
+116 Manuel AKANJI
+24.00
+216 Pedro LIMA
+90.00
+117 Abdukodir KHUSANOV
+30.00
+219 Nelson SEMEDO
+90.00
+118 Matheus NUNES
+30.00
+217 ANDRE Trindade da Costa Neto
+100.0
+119 RUBEN DIAS
+30.00
+218 Nasser DJIGA
+100.0
+120 Home Others
+3.10
+220 Away Others
+17.00
+00 No First Scorer
+20.80
+HaFu
+H-H
+1.72
+H-D
+17.00
+H-A
+50.00
+D-H
+3.80
+D-D
+8.00
+D-A
+16.00
+A-H
+19.00
+A-D
+17.00
+A-A
+13.00
+Specials
+Item No.: 1 Which event will happen to Omar MARMOUSH (Manchester City) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.71
+(4) Be substituted
+3.20
+(5) None of the above
+3.45
+Item No.: 2 How many goal(s) will Omar MARMOUSH (Manchester City) score?
+(1) No Goal
+1.82
+(2) 1 Goal
+2.32
+(3) 2 Goals
+6.00
+(4) 3 Goals or more
+14.00
+Item No.: 3 Which event will happen to Kevin DE BRUYNE (Manchester City) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.45
+(4) Be substituted
+1.55
+(5) None of the above
+3.95
+Item No.: 4 Which event will happen to MATHEUS CUNHA (Wolves) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+3.00
+(5) None of the above
+2.02
+Item No.: 5 Which event will happen to Jorgen Strand LARSEN (Wolves) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+1.46
+(5) None of the above
+4.65

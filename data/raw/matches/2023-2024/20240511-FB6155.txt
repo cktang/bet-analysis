@@ -1,0 +1,580 @@
+11/05/2024
+FB6155
+Newcastle
+vs
+Brighton
+1
+:
+1
+1
+:
+1
+%Event ID: FB6155
+Newcastle
+1
+1
+Brighton
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+Brighton (Away)
+1.41
+4.65
+4.90
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+7.00
+1.11
+15.00
+First Half HAD
+Newcastle (Home)
+Draw
+Brighton (Away)
+1.73
+2.85
+4.75
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+70.00
+5.40
+1.08
+Handicap HAD
+Newcastle (Home)
+Draw
+Brighton (Away)
+[-1]
+2.05
+[-1]
+3.95
+[+1]
+2.52
+Handicap
+Newcastle (Home)
+Brighton (Away)
+[-1]
+1.80
+[+1]
+2.03
+Same Game All Up
+Alexander ISAK to score first & Newcastle to win
+4.40
+Alexander ISAK to score first & Newcastle to win by [2] goal(s) or more & Over [3.5] goals
+9.25
+Anthony GORDON to score first & Newcastle to win
+7.80
+Newcastle to win & Over [2.5] goals & Over [10.5] corners taken
+3.45
+Newcastle to win by [2] goal(s) or more & Over [3.5] goals & Over [12.5] corners taken
+9.50
+Newcastle to win & Under [3.5] goals & Under [9.5] corners taken
+7.00
+Brighton to win & Over [2.5] goals & Over [10.5] corners taken
+11.50
+Brighton to score first & Newcastle to win
+6.50
+Brighton to score first in the match & Newcastle to win both first half and the match
+21.00
+First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+9.50
+First half to be drawn [0:0] & Over [2.5] goals in the match
+11.50
+Brighton to score & Newcastle to win by [2] goal(s) or more
+3.65
+Newcastle to score & Brighton to win
+6.30
+Newcastle clean sheet & Over [2.5] goals
+6.70
+Over [3.5] goals & Under [10.5] corners taken
+3.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+35.00
+Newcastle to win [2:1] in the first half & Newcastle to win [4:2] in the match
+80.00
+First half to be drawn [0:0] & Newcastle to win [1:0] in the match
+23.00
+Brighton to win [1:0] in the first half & Newcastle to win [2:1] in the match
+45.00
+Brighton to win [1:0] in the first half & Brighton to win [3:1] in the match
+100.0
+HiLo
+Line
+High
+Low
+[3.5]
+1.75
+1.95
+[3.5/4]
+1.93
+1.77
+[4.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.13
+4.75
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+9.50
+1.001
+[3.5]
+9.50
+1.001
+[3.5/4]
+2.20
+1.59
+[4/4.5]
+2.05
+1.68
+[4.5]
+5.40
+1.10
+[5.5]
+3.65
+1.23
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.77
+1.93
+[1.5/2]
+2.05
+1.68
+[2.5]
+3.25
+1.28
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.54
+2.30
+[1/1.5]
+2.33
+1.53
+[1.5]
+1.33
+2.98
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.88
+1.82
+[11.5]
+2.29
+1.55
+[14.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.43
+2.60
+[11.5]
+1.08
+5.90
+[12.5]
+1.11
+5.15
+[13.5]
+5.15
+1.11
+[14.5]
+9.50
+1.02
+[15.5]
+9.50
+1.005
+[16.5]
+4.95
+1.12
+[17.5]
+3.95
+1.19
+Correct Score
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+13.50
+0:0
+27.00
+0:1
+30.00
+2:0
+10.50
+1:1
+10.00
+0:2
+30.00
+2:1
+7.50
+2:2
+11.50
+1:2
+14.50
+3:0
+12.50
+3:3
+30.00
+0:3
+50.00
+3:1
+9.50
+1:3
+30.00
+3:2
+13.50
+2:3
+26.00
+4:0
+20.00
+0:4
+125.0
+4:1
+15.00
+1:4
+70.00
+4:2
+22.00
+2:4
+50.00
+5:0
+35.00
+0:5
+500.0
+5:1
+30.00
+1:5
+250.0
+5:2
+40.00
+2:5
+150.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+14.00
+Draw Others
+55.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+6.90
+0:0
+15.50
+0:1
+8.00
+2:0
+7.00
+1:1
+1.13
+0:2
+9.75
+2:1
+7.20
+2:2
+70.00
+1:2
+15.10
+3:0
+10.50
+3:3
+1000
+0:3
+28.00
+3:1
+200.0
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+21.00
+0:4
+125.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+50.00
+0:5
+400.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+4.00
+0:0
+4.45
+0:1
+8.00
+2:0
+6.10
+1:1
+6.20
+0:2
+19.00
+2:1
+9.50
+2:2
+28.00
+1:2
+17.00
+3:0
+14.50
+3:3
+300.0
+0:3
+80.00
+3:1
+25.00
+1:3
+70.00
+3:2
+70.00
+2:3
+125.0
+4:0
+50.00
+0:4
+500.0
+4:1
+70.00
+1:4
+500.0
+4:2
+250.0
+2:4
+600.0
+5:0
+200.0
+0:5
+2000
+5:1
+300.0
+1:5
+2000
+5:2
+700.0
+2:5
+2000
+Home Others
+(Away No Goal)
+700.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Brighton (Away)
+1:0
+3.00
+0:0
+2.54
+0:1
+1.11
+2:0
+7.80
+1:1
+5.50
+0:2
+23.00
+2:1
+71.00
+2:2
+2500
+1:2
+100.0
+3:0
+29.00
+3:3
+2500
+0:3
+450.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+125.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+600.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Newcastle (Home)
+No Goals
+Brighton (Away)
+1.37
+27.00
+2.65
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.42
+15.50
+2.72
+2nd Goal
+1.41
+8.00
+3.25
+3rd Goal
+6.30
+1.13
+13.00
+Total Goals
+0
+27.00
+1
+9.00
+2
+5.00
+3
+3.95
+4
+4.00
+5
+5.30
+6
+7.50
+7+
+8.25
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+1.98
+H-D
+14.00
+H-A
+27.00
+D-H
+4.45
+D-D
+8.75
+D-A
+12.00
+A-H
+15.00
+A-D
+14.00
+A-A
+8.00

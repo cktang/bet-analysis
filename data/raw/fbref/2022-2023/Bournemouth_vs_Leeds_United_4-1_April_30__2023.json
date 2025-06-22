@@ -1,0 +1,154 @@
+{
+  "url": "https://fbref.com/en/matches/0b0733ce/Bournemouth-Leeds-United-April-30-2023-Premier-League",
+  "homeTeam": "Bournemouth",
+  "awayTeam": "Leeds United",
+  "matchDate": "April 30, 2023",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 24,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 32,
+        "player": "Patrick Bamford",
+        "playerId": "93feac6e",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Wilfried Gnonto"
+      },
+      {
+        "minute": 63,
+        "player": "Dominic Solanke",
+        "playerId": "e77dc3b2",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 91,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": "Jaidon Anthony"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 55,
+        "player": "Adam Smith",
+        "playerId": "20b104bc",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 34,
+        "player": "Maximilian Wöber",
+        "playerId": "4b803b3c",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Jaidon Anthony",
+        "playerId": "e4238fb1",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Kieffer Moore",
+        "playerId": "01ce9e70",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Rodrigo",
+        "playerId": "1fb1c435",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Adam Forshaw",
+        "playerId": "9f1938ab",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Lewis Cook",
+        "playerId": "2afc7272",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Jack Stacey",
+        "playerId": "558807c0",
+        "team": "Bournemouth",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

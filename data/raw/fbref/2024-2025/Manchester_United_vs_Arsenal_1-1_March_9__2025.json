@@ -1,0 +1,116 @@
+{
+  "url": "https://fbref.com/en/matches/8efec987/Manchester-United-Arsenal-March-9-2025-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Arsenal",
+  "matchDate": "March 9, 2025",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 47,
+        "player": "Bruno Fernandes",
+        "playerId": "507c7bdf",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 74,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Jurriën Timber"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 46,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Ayden Heaven",
+        "playerId": "64e17fab",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Myles Lewis-Skelly",
+        "playerId": "5dff6c28",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Toby Collyer",
+        "playerId": "4f9091bc",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

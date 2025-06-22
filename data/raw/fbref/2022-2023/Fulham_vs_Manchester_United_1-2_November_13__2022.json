@@ -1,0 +1,116 @@
+{
+  "url": "https://fbref.com/en/matches/af75b6b0/Fulham-Manchester-United-November-13-2022-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Manchester United",
+  "matchDate": "November 13, 2022",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Christian Eriksen",
+        "playerId": "980522ec",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 61,
+        "player": "Daniel James",
+        "playerId": "c931d9f9",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 93,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Christian Eriksen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 33,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham"
+      },
+      {
+        "minute": 94,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "player": "Scott McTominay",
+        "playerId": "d93c2511",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Daniel James",
+        "playerId": "c931d9f9",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Josh Onomah",
+        "playerId": "6612cd8c",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 4
+  }
+}

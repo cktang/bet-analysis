@@ -1,0 +1,137 @@
+{
+  "url": "https://fbref.com/en/matches/80bbb25e/Nottingham-Forest-Manchester-City-April-28-2024-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Manchester City",
+  "matchDate": "April 28, 2024",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 32,
+        "player": "Joško Gvardiol",
+        "playerId": "5ad50391",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 71,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 35,
+        "player": "Gonzalo Montiel",
+        "playerId": "374d5158",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Stefan Ortega",
+        "playerId": "c1242d4e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Gio Reyna",
+        "playerId": "7fa4e703",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Andrew Omobamidele",
+        "playerId": "c393a6c4",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Ibrahim Sangaré",
+        "playerId": "bced0375",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Oscar Bobb",
+        "playerId": "eed2427e",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

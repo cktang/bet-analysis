@@ -1,0 +1,918 @@
+22/04/2025
+FB0615
+Tottenham
+vs
+Nottingham
+Forest
+0
+:
+2
+1
+:
+2
+%Event ID: FB0615
+Tottenham
+1
+2
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+2.18
+3.40
+2.67
+Home/Away/Draw- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+70.00
+17.00
+1.01
+First Half HAD
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+2.74
+2.16
+3.20
+First Half HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+250.0
+15.00
+1.001
+Handicap HAD
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+[+1]
+1.36
+[+1]
+4.55
+[-1]
+5.40
+[-1]
+4.10
+[-1]
+4.05
+[+1]
+1.54
+Handicap HAD- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+[-1]
+9.50
+[-1]
+6.30
+[+1]
+1.14
+[+2]
+1.05
+[+2]
+5.70
+[-2]
+80.00
+[+3]
+1.10
+[+3]
+4.85
+[-3]
+40.00
+[+1]
+35.00
+[+1]
+4.15
+[-1]
+1.15
+Handicap
+Tottenham (Home)
+Nottingham Forest (Away)
+[0/-0.5]
+2.05
+[0/+0.5]
+1.78
+Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Nottingham Forest (Away)
+[0]
+1.73
+[0]
+2.12
+[+2]
+1.47
+[-2]
+2.52
+[+1]
+1.47
+[-1]
+2.52
+[+0.5/+1]
+1.80
+[-0.5/-1]
+1.92
+[+1.5/+2]
+2.58
+[-1.5/-2]
+1.45
+[0/-0.5]
+3.70
+[0/+0.5]
+1.24
+Same Game All Up
+Dejan KULUSEVSKI to score first & Over [3.5] goals
+19.00
+Chris WOOD to score first & Nottingham Forest to win
+6.75
+Chris WOOD to score first & Nottingham Forest to win [2:0]
+30.00
+Both teams to score & Tottenham to win & Over [12.5] corners taken
+11.00
+Tottenham to win & Over [2.5] goals & Over [11.5] corners taken
+7.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Tottenham to win the match by [2] goal(s) or more
+12.00
+Both teams to score & Nottingham Forest to win & Under [10.5] corners taken
+8.25
+Both teams to score & Nottingham Forest to win or draw & Over [12.5] corners taken
+6.00
+Nottingham Forest to score first & Tottenham to win by [2] goal(s) or more
+30.00
+Tottenham to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+27.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+8.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.75
+First Half to be drawn & Tottenham to win the match by [2] goal(s) or more
+17.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:1] in the match
+28.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:0] in the match
+60.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.56
+2.27
+[2.5/3]
+1.73
+1.98
+[3.5]
+2.38
+1.51
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.20
+3.90
+[2.5/3]
+4.15
+1.17
+[3/3.5]
+9.50
+1.02
+[3.5]
+10.50
+1.01
+[3.5/4]
+4.40
+1.15
+[4/4.5]
+10.50
+1.01
+[4.5]
+10.50
+1.01
+[5.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.80
+1.37
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.48
+2.45
+[1/1.5]
+2.25
+1.57
+[1.5]
+1.32
+3.05
+[1.5/2]
+1.73
+1.98
+[2/2.5]
+2.85
+1.36
+[2.5]
+3.45
+1.25
+[2.5/3]
+4.60
+1.14
+[3/3.5]
+10.50
+1.01
+[3.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.00
+1.72
+[12.5]
+2.58
+1.44
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.12
+4.95
+[8.5]
+1.15
+4.40
+[9.5]
+2.85
+1.36
+[10.5]
+5.90
+1.08
+[11.5]
+10.50
+1.01
+[12.5]
+4.60
+1.14
+[13.5]
+4.15
+1.17
+[14.5]
+3.90
+1.20
+[15.5]
+3.80
+1.21
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.08
+1.66
+[6.5]
+2.98
+1.33
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.14
+4.60
+[5.5]
+3.25
+1.28
+[6.5]
+5.40
+1.10
+[7.5]
+9.50
+1.02
+[8.5]
+8.50
+1.03
+Corner Taken Handicap
+Tottenham (Home)
+Nottingham Forest (Away)
+[-1.5]
+1.73
+[+1.5]
+1.98
+Corner Taken Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Nottingham Forest (Away)
+[-7.5]
+2.80
+[+7.5]
+1.37
+[-3.5]
+1.27
+[+3.5]
+3.35
+[-5.5]
+1.32
+[+5.5]
+3.05
+[-0.5]
+1.35
+[+0.5]
+2.88
+[-4.5]
+1.35
+[+4.5]
+2.88
+[-2.5]
+1.55
+[+2.5]
+2.29
+[-6.5]
+1.64
+[+6.5]
+2.12
+[-1.5]
+2.27
+[+1.5]
+1.56
+First Half Corner Taken Handicap
+Tottenham (Home)
+Nottingham Forest (Away)
+[-0.5]
+1.66
+[+0.5]
+2.08
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Tottenham (Home)
+Nottingham Forest (Away)
+[-3.5]
+2.55
+[+3.5]
+1.45
+[-0.5]
+1.40
+[+0.5]
+2.68
+[+0.5]
+1.42
+[-0.5]
+2.62
+[-1.5]
+1.45
+[+1.5]
+2.55
+[-2.5]
+2.35
+[+2.5]
+1.52
+Correct Score
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+9.50
+0:0
+13.50
+0:1
+11.00
+2:0
+12.50
+1:1
+6.60
+0:2
+15.00
+2:1
+7.75
+2:2
+10.00
+1:2
+8.75
+3:0
+22.00
+3:3
+35.00
+0:3
+30.00
+3:1
+16.00
+1:3
+20.00
+3:2
+20.00
+2:3
+22.00
+4:0
+40.00
+0:4
+60.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+40.00
+5:0
+100.0
+0:5
+150.0
+5:1
+70.00
+1:5
+100.0
+5:2
+80.00
+2:5
+125.0
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+8.25
+0:0
+12.00
+0:1
+10.50
+2:0
+11.50
+1:1
+5.90
+0:2
+1.27
+2:1
+9.00
+2:2
+7.00
+1:2
+1.13
+3:0
+22.00
+3:3
+1000
+0:3
+7.65
+3:1
+18.00
+1:3
+11.50
+3:2
+125.0
+2:3
+80.00
+4:0
+45.00
+0:4
+100.0
+4:1
+50.00
+1:4
+400.0
+4:2
+1000
+2:4
+1000
+5:0
+100.0
+0:5
+1000
+5:1
+150.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.60
+0:0
+3.05
+0:1
+4.95
+2:0
+10.00
+1:1
+6.00
+0:2
+11.00
+2:1
+13.50
+2:2
+40.00
+1:2
+14.50
+3:0
+40.00
+3:3
+500.0
+0:3
+50.00
+3:1
+50.00
+1:3
+60.00
+3:2
+150.0
+2:3
+150.0
+4:0
+150.0
+0:4
+250.0
+4:1
+250.0
+1:4
+400.0
+4:2
+600.0
+2:4
+700.0
+5:0
+700.0
+0:5
+900.0
+5:1
+900.0
+1:5
+1000
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Tottenham (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.10
+0:0
+2.74
+0:1
+2.26
+2:0
+11.50
+1:1
+3.85
+0:2
+1.11
+2:1
+15.00
+2:2
+125.0
+1:2
+7.85
+3:0
+50.00
+3:3
+2500
+0:3
+11.50
+3:1
+70.00
+1:3
+70.00
+3:2
+2500
+2:3
+2500
+4:0
+200.0
+0:4
+250.0
+4:1
+350.0
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Tottenham (Home)
+No Goals
+Nottingham Forest (Away)
+1.78
+13.50
+1.98
+Next Team To Score- Last Odds for In Play Betting
+Tottenham (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.79
+12.00
+2.00
+2nd Goal
+1.66
+15.00
+2.12
+3rd Goal
+4.60
+1.27
+7.40
+4th Goal
+7.60
+1.10
+12.50
+Total Goals
+0
+13.50
+1
+5.50
+2
+3.75
+3
+3.70
+4
+4.50
+5
+6.90
+6
+12.50
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+12.00
+1
+10.50
+2
+1.27
+3
+1.26
+4
+3.04
+5
+19.00
+6
+200.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Tottenham (Home)
+Nottingham Forest (Away)
+101 RICHARLISON de Andrade
+4.90
+201 Chris WOOD
+4.35
+102 Dominic SOLANKE
+5.30
+202 Taiwo AWONIYI
+4.85
+105 Mathys TEL
+6.30
+203 Morgan GIBBS-WHITE
+10.50
+103 Brennan JOHNSON
+7.00
+204 Jota SILVA
+11.00
+104 James MADDISON
+7.25
+205 Callum HUDSON-ODOI
+11.50
+106 SON Heung Min
+7.50
+206 Anthony ELANGA
+12.00
+107 Dane SCARLETT
+7.75
+207 Ramon SOSA
+12.50
+109 Dejan KULUSEVSKI
+7.75
+208 Nikola MILENKOVIC
+19.00
+108 Wilson ODOBERT
+8.25
+209 Ryan YATES
+22.00
+110 Mikey MOORE
+9.50
+210 DANILO Oliveira
+24.00
+111 Timo WERNER
+10.00
+211 Elliot ANDERSON
+27.00
+112 Pape Matar SARR
+18.00
+212 Eric Da SILVA MOREIRA
+29.00
+113 Rodrigo BENTANCUR
+22.00
+213 Ibrahim SANGARE
+30.00
+114 Yves BISSOUMA
+22.00
+214 Nicolas DOMINGUEZ
+30.00
+115 Cristian ROMERO
+26.00
+215 Neco WILLIAMS
+35.00
+116 Lucas BERGVALL
+29.00
+216 Ola AINA
+35.00
+117 Pedro PORRO
+30.00
+217 ALEX MORENO
+40.00
+118 Archie GRAY
+50.00
+218 Harry TOFFOLO
+45.00
+119 Ben DAVIES
+50.00
+219 MURILLO Costa
+50.00
+120 Home Others
+8.75
+220 Away Others
+9.75
+00 No First Scorer
+13.30
+HaFu
+H-H
+3.45
+H-D
+12.50
+H-A
+22.00
+D-H
+5.50
+D-D
+5.40
+D-A
+6.50
+A-H
+20.00
+A-D
+12.50
+A-A
+4.35
+Specials
+Item No.: 1 Which event will happen to Dominic SOLANKE (Tottenham) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.75
+(4) Be substituted
+1.91
+(5) None of the above
+3.45
+Item No.: 2 Which event will happen to Chris WOOD (Nottingham Forest) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+1.90
+(5) None of the above
+4.35
+Item No.: 3 How many goal(s) will Chris WOOD (Nottingham Forest) score?
+(1) No Goal
+1.46
+(2) 1 Goal
+2.70
+(3) 2 Goals
+8.00
+(4) 3 Goals or more
+26.00
+Item No.: 4 Which event will happen to Morgan GIBBS-WHITE (Nottingham Forest) first?
+(1) Receive a Yellow Card
+3.45
+(2) Receive a Red Card
+110.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+4.25
+(5) None of the above
+1.88
+Item No.: 5 Which event will happen to Anthony ELANGA (Nottingham Forest) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.90
+(4) Be substituted
+1.38
+(5) None of the above
+4.20

@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/c1a66ac0/West-Ham-United-Liverpool-December-29-2024-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Liverpool",
+  "matchDate": "December 29, 2024",
+  "score": "0-5",
+  "homeScore": 0,
+  "awayScore": 5,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 30,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 40,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      },
+      {
+        "minute": 44,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Curtis Jones"
+      },
+      {
+        "minute": 54,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Ryan Gravenberch"
+      },
+      {
+        "minute": 84,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 37,
+        "player": "Jarell Quansah",
+        "playerId": "4125cb98",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Jean-Clair Todibo",
+        "playerId": "88f130ed",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Niclas Füllkrug",
+        "playerId": "4f16405e",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Andy Irving",
+        "playerId": "b1be9fc0",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Luis Guilherme",
+        "playerId": "b7672d43",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

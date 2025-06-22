@@ -1,0 +1,151 @@
+{
+  "url": "https://fbref.com/en/matches/d8efb6cc/Leicester-City-Newcastle-United-April-7-2025-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "Newcastle United",
+  "matchDate": "April 7, 2025",
+  "score": "0-3",
+  "homeScore": 0,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Valentino Livramento"
+      },
+      {
+        "minute": 11,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 34,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 14,
+        "player": "Wilfred Ndidi",
+        "playerId": "6b47c5db",
+        "team": "Leicester City"
+      },
+      {
+        "minute": 47,
+        "player": "James Justin",
+        "playerId": "fb614c44",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Callum Wilson",
+        "playerId": "c596fcb0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "William Osula",
+        "playerId": "7b355808",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Ricardo Pereira",
+        "playerId": "75a72a99",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Jeremy Monga",
+        "playerId": "4c168d3a",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Emil Krafth",
+        "playerId": "77cf6852",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

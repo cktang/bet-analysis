@@ -1,0 +1,816 @@
+20/10/2024
+FB2082
+Bournemouth
+vs
+Arsenal
+0
+:
+0
+2
+:
+0
+%Event ID: FB2082
+Bournemouth
+2
+0
+Arsenal
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+4.45
+3.70
+1.58
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+1.001
+45.00
+600.0
+First Half HAD
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+4.90
+2.31
+1.99
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+8.75
+1.08
+14.00
+Handicap HAD
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+[+1]
+2.07
+[+1]
+3.45
+[-1]
+2.72
+Handicap HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+[-3]
+90.00
+[-3]
+5.40
+[+3]
+1.06
+[+1]
+1.20
+[+1]
+4.75
+[-1]
+10.50
+[-1]
+3.50
+[-1]
+1.59
+[+1]
+4.45
+[-2]
+4.00
+[-2]
+1.43
+[+2]
+5.20
+Handicap
+Bournemouth (Home)
+Arsenal (Away)
+[+0.5/+1]
+1.93
+[-0.5/-1]
+1.89
+Handicap- Last Odds for In Play Betting
+Bournemouth (Home)
+Arsenal (Away)
+[-2]
+1.58
+[+2]
+2.26
+[-1]
+1.001
+[+1]
+50.00
+[0/-0.5]
+1.03
+[0/+0.5]
+9.50
+[+0.5/+1]
+1.24
+[-0.5/-1]
+3.70
+[0]
+1.49
+[0]
+2.46
+[-1/-1.5]
+2.52
+[+1/+1.5]
+1.47
+Same Game All Up
+Kai HAVERTZ to score first & Arsenal to win [2:0]
+24.00
+Kai HAVERTZ to score first & Arsenal to win by [2] goal(s) or more & Over [12.5] corners taken
+25.00
+Both teams to score & Arsenal to win & Over [11.5] corners taken
+7.40
+Arsenal to win [2:0] in the first half & Arsenal to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Arsenal to win the match by [2] goal(s) or more
+8.00
+Arsenal to win [2:0] in the first half & Arsenal to win [3:0] in the match
+30.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+50.00
+Bournemouth to score first & Arsenal to win by [2] goal(s) or more
+19.00
+Arsenal to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+18.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.00
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.60
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.30
+First Half to be drawn & Arsenal to win the match by [2] goal(s) or more
+10.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.00
+Arsenal to win [1:0] in the first half & Arsenal to win [2:1] in the match
+24.00
+Both teams to score & Bournemouth to win & Under [10.5] corners taken
+14.00
+Both teams to score & Bournemouth to win or draw & Over [10.5] corners taken
+5.50
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.76
+1.94
+[2.5/3]
+1.98
+1.73
+[3.5]
+2.70
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.35
+1.52
+[1/1.5]
+4.40
+1.15
+[1.5]
+1.83
+1.87
+[1.5/2]
+2.92
+1.34
+[2/2.5]
+6.25
+1.07
+[2.5]
+7.00
+1.05
+[2.5/3]
+7.00
+1.05
+[3.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.43
+1.49
+[1.5/2]
+2.98
+1.33
+[2.5]
+4.95
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+8.00
+1.04
+[1/1.5]
+9.50
+1.001
+[1.5]
+9.50
+1.001
+[1.5/2]
+2.98
+1.33
+[2.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.81
+1.89
+[11.5]
+2.08
+1.66
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.12
+4.95
+[10.5]
+1.05
+7.00
+[11.5]
+1.98
+1.73
+[12.5]
+5.90
+1.08
+[13.5]
+11.50
+1.002
+[14.5]
+12.00
+1.001
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.63
+2.13
+[5.5]
+2.13
+1.63
+[7.5]
+4.30
+1.16
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.22
+3.70
+[4.5]
+1.41
+2.65
+[5.5]
+1.46
+2.50
+[6.5]
+8.50
+1.03
+[7.5]
+12.00
+1.001
+Correct Score
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+1:0
+14.00
+0:0
+10.50
+0:1
+6.80
+2:0
+23.00
+1:1
+7.00
+0:2
+7.00
+2:1
+12.50
+2:2
+13.50
+1:2
+6.90
+3:0
+50.00
+3:3
+40.00
+0:3
+12.50
+3:1
+30.00
+1:3
+12.50
+3:2
+35.00
+2:3
+22.00
+4:0
+150.0
+0:4
+26.00
+4:1
+80.00
+1:4
+25.00
+4:2
+80.00
+2:4
+40.00
+5:0
+600.0
+0:5
+50.00
+5:1
+400.0
+1:5
+50.00
+5:2
+400.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+100.0
+Home Others
+(Away Scores)
+100.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+1:0
+1.46
+0:0
+1.73
+0:1
+5.50
+2:0
+1.08
+1:1
+5.80
+0:2
+40.00
+2:1
+13.50
+2:2
+700.0
+1:2
+26.00
+3:0
+9.50
+3:3
+1000
+0:3
+500.0
+3:1
+125.0
+1:3
+350.0
+3:2
+1000
+2:3
+1000
+4:0
+350.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+1:0
+6.30
+0:0
+2.88
+0:1
+3.60
+2:0
+19.00
+1:1
+6.70
+0:2
+6.70
+2:1
+24.00
+2:2
+50.00
+1:2
+13.00
+3:0
+100.0
+3:3
+700.0
+0:3
+21.00
+3:1
+125.0
+1:3
+50.00
+3:2
+300.0
+2:3
+150.0
+4:0
+700.0
+0:4
+100.0
+4:1
+700.0
+1:4
+200.0
+4:2
+1000
+2:4
+600.0
+5:0
+2500
+0:5
+500.0
+5:1
+2500
+1:5
+700.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Arsenal (Away)
+1:0
+10.50
+0:0
+1.07
+0:1
+16.00
+2:0
+200.0
+1:1
+125.0
+0:2
+450.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Arsenal (Away)
+2.70
+10.50
+1.48
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+2.80
+1.73
+4.90
+2nd Goal
+3.90
+1.46
+5.00
+3rd Goal
+9.25
+1.08
+13.00
+Total Goals
+0
+10.50
+1
+4.95
+2
+3.55
+3
+3.70
+4
+4.90
+5
+7.50
+6
+15.00
+7+
+24.00
+Total Goals- Last Odds for In Play Betting
+0
+1.73
+1
+1.46
+2
+1.08
+3
+4.75
+4
+100.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Bournemouth (Home)
+Arsenal (Away)
+101 Antoine SEMENYO
+7.75
+201 Kai HAVERTZ
+4.05
+102 Francisco EVANILSON
+9.50
+202 Bukayo SAKA
+5.40
+103 Enes UNAL
+10.00
+204 Leandro TROSSARD
+5.70
+105 Marcus TAVERNIER
+10.50
+207 Raheem STERLING
+5.70
+104 Luis SINISTERRA
+11.00
+203 GABRIEL Fernando JESUS
+6.60
+107 Justin KLUIVERT
+13.00
+205 Nathan BUTLER-OYEDEJI
+6.80
+106 Dango OUATTARA
+13.50
+206 GABRIEL Teodoro MARTINELLI
+6.90
+108 David BROOKS
+15.00
+208 Ethan NWANERI
+7.75
+109 Philip BILLING
+25.00
+209 Declan RICE
+11.50
+110 Alex SCOTT
+30.00
+210 GABRIEL Magalhaes
+15.00
+111 Ryan CHRISTIE
+30.00
+211 Mikel MERINO
+15.00
+112 Lewis COOK
+45.00
+212 JORGINHO Luiz Frello
+20.00
+113 Tyler ADAMS
+50.00
+213 Thomas PARTEY
+20.00
+114 Dean HUIJSEN
+60.00
+214 Riccardo CALAFIORI
+25.00
+115 Marcos SENESI
+60.00
+215 Myles LEWIS-SKELLY
+28.00
+116 Milos KERKEZ
+70.00
+216 Ben WHITE
+30.00
+117 Illya ZABARNYI
+100.0
+217 Jurrien TIMBER
+30.00
+118 Julian ARAUJO
+100.0
+218 Jakub KIWIOR
+35.00
+119 James HILL
+125.0
+219 Oleksandr ZINCHENKO
+35.00
+120 Home Others
+20.00
+220 Away Others
+10.50
+00 No First Scorer
+10.30
+HaFu
+H-H
+7.25
+H-D
+14.00
+H-A
+19.00
+D-H
+9.75
+D-D
+5.70
+D-A
+4.15
+A-H
+30.00
+A-D
+14.00
+A-A
+2.41
+Specials
+Item No.: 1 Which event will happen to Francisco EVANILSON (Bournemouth) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.80
+(4) Be substituted
+1.40
+(5) None of the above
+6.00
+Item No.: 2 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.10
+(4) Be substituted
+5.35
+(5) None of the above
+2.23
+Item No.: 3 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+1.84
+(5) None of the above
+5.25
+Item No.: 4 Which event will happen to GABRIEL Fernando JESUS (Arsenal) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+2.25
+(5) None of the above
+3.30
+Item No.: 5 Which event will happen to Leandro TROSSARD (Arsenal) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+2.00
+(5) None of the above
+3.75

@@ -1,0 +1,146 @@
+{
+  "url": "https://fbref.com/en/matches/e9d5dd9b/Crystal-Palace-Brentford-December-30-2023-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Brentford",
+  "matchDate": "December 30, 2023",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Keane Lewis-Potter",
+        "playerId": "41f08ac8",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Mads Roerslev"
+      },
+      {
+        "minute": 14,
+        "player": "Michael Olise",
+        "playerId": "c4486bac",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Jordan Ayew"
+      },
+      {
+        "minute": 39,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Tyrick Mitchell"
+      },
+      {
+        "minute": 58,
+        "player": "Michael Olise",
+        "playerId": "c4486bac",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Marc Guéhi"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 47,
+        "player": "Saman Ghoddos",
+        "playerId": "f7b1d4e0",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Frank Onyeka",
+        "playerId": "2944f86f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Neal Maupay",
+        "playerId": "4bcf39f6",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Michael Olakigbe",
+        "playerId": "cdd70dc0",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Matheus França",
+        "playerId": "077faf72",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://fbref.com/en/matches/ee8223ec/Sheffield-United-Burnley-April-20-2024-Premier-League",
+  "homeTeam": "Sheffield United",
+  "awayTeam": "Burnley",
+  "matchDate": "April 20, 2024",
+  "score": "1-4",
+  "homeScore": 1,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 38,
+        "player": "Jacob Bruun Larsen",
+        "playerId": "4e204552",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 40,
+        "player": "Lorenz Assignon",
+        "playerId": "b026bbf6",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": "Vitinho"
+      },
+      {
+        "minute": 52,
+        "player": "Gustavo Hamer",
+        "playerId": "eebacc07",
+        "team": "Sheffield United",
+        "isPenalty": false,
+        "assist": "James Mcatee"
+      },
+      {
+        "minute": 57,
+        "player": "Lyle Foster",
+        "playerId": "f84a807c",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": "Lorenz Assignon"
+      },
+      {
+        "minute": 71,
+        "player": "Jóhann Berg Guðmundsson",
+        "playerId": "f72293fc",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": "Josh Cullen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 76,
+        "player": "Ben Osborn",
+        "playerId": "79bc4c45",
+        "team": "Sheffield United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "player": "Josh Brownhill",
+        "playerId": "47369df8",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Jóhann Berg Guðmundsson",
+        "playerId": "f72293fc",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Andre Brooks",
+        "playerId": "5f346071",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Oliver Norwood",
+        "playerId": "43439614",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "David Datro Fofana",
+        "playerId": "e82900ef",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Zeki Amdouni",
+        "playerId": "2ee5b0c9",
+        "team": "Burnley",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

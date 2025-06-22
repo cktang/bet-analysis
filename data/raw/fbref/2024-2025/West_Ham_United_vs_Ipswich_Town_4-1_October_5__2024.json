@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/93e19c5e/West-Ham-United-Ipswich-Town-October-5-2024-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Ipswich Town",
+  "matchDate": "October 5, 2024",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 1,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      },
+      {
+        "minute": 6,
+        "player": "Liam Delap",
+        "playerId": "dd897ee7",
+        "team": "Ipswich Town",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 43,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 49,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 69,
+        "player": "Lucas Paquetá",
+        "playerId": "9b6f7fd5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 31,
+        "player": "Jack Clarke",
+        "playerId": "e16932d8",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Carlos Soler",
+        "playerId": "fed17f5a",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Chiedozie Ogbene",
+        "playerId": "788c0277",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Sammie Szmodics",
+        "playerId": "39944392",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "George Hirst",
+        "playerId": "78e87179",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Conor Chaplin",
+        "playerId": "4ec55b87",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Luis Guilherme",
+        "playerId": "b7672d43",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

@@ -1,0 +1,821 @@
+15/01/2025
+FB6130
+Nottingham
+Forest
+vs
+Liverpool
+1
+:
+0
+1
+:
+1
+%Event ID: FB6130
+Nottingham Forest
+1
+1
+Liverpool
+Eng Premier
+Home/Away/Draw
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+4.65
+3.85
+1.54
+Home/Away/Draw- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+40.00
+1.03
+18.00
+First Half HAD
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+4.85
+2.41
+1.93
+First Half HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+1.05
+13.50
+1000
+Handicap HAD
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+[+2]
+1.43
+[+2]
+4.50
+[-2]
+4.50
+[+1]
+2.15
+[+1]
+3.65
+[-1]
+2.50
+Handicap HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+[+1]
+1.001
+[+1]
+11.00
+[-1]
+1000
+[+2]
+1.10
+[+2]
+6.40
+[-2]
+12.00
+Handicap
+Nottingham Forest (Home)
+Liverpool (Away)
+[+0.5/+1]
+2.12
+[-0.5/-1]
+1.73
+Handicap- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Liverpool (Away)
+[-0.5/-1]
+13.50
+[+0.5/+1]
+1.002
+[+0.5/+1]
+1.33
+[-0.5/-1]
+3.07
+[0/+0.5]
+1.33
+[0/-0.5]
+3.07
+[0/-0.5]
+1.49
+[0/+0.5]
+2.46
+[0]
+1.68
+[0]
+2.08
+[+1]
+1.70
+[-1]
+2.05
+Same Game All Up
+Mohamed SALAH to score first & Over [3.5] goals & Over [11.5] corners taken
+27.00
+Cody GAKPO to score first & Over [3.5] goals & Over [11.5] corners taken
+35.00
+Both teams to score & Liverpool to win & Over [11.5] corners taken
+7.60
+Liverpool to win & Over [2.5] goals & Over [10.5] corners taken
+4.40
+Liverpool to win [2:0] in the first half & Liverpool to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Liverpool to win the match by [2] goal(s) or more
+7.80
+Both teams to score & Nottingham Forest to win & Under [10.5] corners taken
+13.50
+Nottingham Forest to score first & Liverpool to win by [2] goal(s) or more
+19.00
+Liverpool to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+18.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.20
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.70
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.25
+First Half to be drawn & Liverpool to win the match by [2] goal(s) or more
+10.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.75
+The match to be drawn & Under [10.5] corners taken
+6.70
+Liverpool to win [2:0] in the first half & Liverpool to win [3:0] in the match
+30.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+45.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.53
+2.33
+[2.5/3]
+1.67
+2.07
+[3.5]
+2.38
+1.51
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+1.64
+2.12
+[2/2.5]
+2.70
+1.39
+[2.5]
+1.52
+2.35
+[2.5/3]
+11.50
+1.002
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.13
+1.63
+[4.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.20
+1.59
+[1.5/2]
+2.68
+1.40
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.44
+2.58
+[1/1.5]
+2.13
+1.63
+[1.5]
+1.29
+3.20
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+11.50
+1.002
+[2.5]
+11.50
+1.002
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.85
+1.85
+[11.5]
+2.35
+1.52
+[13.5]
+3.95
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.19
+3.95
+[7.5]
+1.38
+2.75
+[8.5]
+1.50
+2.40
+[9.5]
+3.95
+1.19
+[10.5]
+6.60
+1.06
+[11.5]
+3.65
+1.23
+[12.5]
+3.70
+1.22
+[13.5]
+4.05
+1.18
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.67
+2.07
+[5.5]
+2.27
+1.56
+[7.5]
+5.15
+1.11
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+3.25
+1.28
+[3.5]
+5.90
+1.08
+[4.5]
+8.50
+1.03
+[5.5]
+9.50
+1.02
+[6.5]
+5.60
+1.09
+[7.5]
+5.60
+1.09
+Correct Score
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+1:0
+18.00
+0:0
+14.50
+0:1
+7.50
+2:0
+27.00
+1:1
+7.50
+0:2
+7.50
+2:1
+13.50
+2:2
+12.50
+1:2
+6.90
+3:0
+50.00
+3:3
+40.00
+0:3
+11.50
+3:1
+35.00
+1:3
+11.00
+3:2
+30.00
+2:3
+19.00
+4:0
+150.0
+0:4
+21.00
+4:1
+80.00
+1:4
+20.00
+4:2
+80.00
+2:4
+35.00
+5:0
+600.0
+0:5
+40.00
+5:1
+400.0
+1:5
+40.00
+5:2
+400.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+70.00
+Home Others
+(Away Scores)
+80.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+1:0
+2.47
+0:0
+10.50
+0:1
+6.30
+2:0
+8.00
+1:1
+1.08
+0:2
+6.90
+2:1
+26.00
+2:2
+40.00
+1:2
+9.75
+3:0
+70.00
+3:3
+1000
+0:3
+11.00
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+900.0
+0:4
+23.00
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+50.00
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+100.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+1:0
+6.80
+0:0
+3.10
+0:1
+3.65
+2:0
+20.00
+1:1
+6.80
+0:2
+6.70
+2:1
+23.00
+2:2
+40.00
+1:2
+11.50
+3:0
+100.0
+3:3
+600.0
+0:3
+17.00
+3:1
+125.0
+1:3
+40.00
+3:2
+250.0
+2:3
+125.0
+4:0
+700.0
+0:4
+70.00
+4:1
+700.0
+1:4
+125.0
+4:2
+900.0
+2:4
+500.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+1000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Liverpool (Away)
+1:0
+1.001
+0:0
+2.72
+0:1
+3.04
+2:0
+100.0
+1:1
+13.50
+0:2
+7.00
+2:1
+2000
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+26.00
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+100.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+450.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Nottingham Forest (Home)
+No Goals
+Liverpool (Away)
+2.77
+14.50
+1.41
+Next Team To Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+No Goals
+Liverpool (Away)
+1st Goal
+2.78
+10.50
+1.46
+2nd Goal
+5.20
+2.47
+1.83
+3rd Goal
+25.00
+1.08
+7.00
+Total Goals
+0
+14.50
+1
+5.80
+2
+3.85
+3
+3.60
+4
+4.45
+5
+6.70
+6
+12.00
+7+
+16.00
+Total Goals- Last Odds for In Play Betting
+0
+10.50
+1
+2.47
+2
+1.08
+3
+4.50
+4
+250.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Nottingham Forest (Home)
+Liverpool (Away)
+101 Chris WOOD
+5.70
+201 Mohamed SALAH
+3.30
+102 Taiwo AWONIYI
+6.60
+202 DIOGO Jota
+5.00
+103 Morgan GIBBS-WHITE
+12.00
+203 Darwin NUNEZ
+5.00
+104 Anthony ELANGA
+17.00
+204 Luis DIAZ
+5.00
+105 Jota SILVA
+17.00
+205 Cody GAKPO
+6.40
+106 Ramon SOSA
+17.00
+206 Federico CHIESA
+6.60
+107 Callum HUDSON-ODOI
+18.00
+207 Trey NYONI
+10.50
+108 Eric Da SILVA MOREIRA
+18.00
+208 Harvey ELLIOTT
+11.50
+109 DANILO Oliveira
+30.00
+209 Curtis JONES
+12.00
+110 James WARD-PROWSE
+30.00
+210 Dominik SZOBOSZLAI
+16.00
+111 Ryan YATES
+30.00
+211 Alexis MAC ALLISTER
+16.00
+112 Nicolas DOMINGUEZ
+35.00
+212 Conor BRADLEY
+23.00
+113 Elliot ANDERSON
+40.00
+213 Trent ALEXANDER-ARNOLD
+23.00
+114 Nikola MILENKOVIC
+40.00
+214 Tyler MORTON
+23.00
+115 Neco WILLIAMS
+60.00
+215 Virgil VAN DIJK
+30.00
+116 Ola AINA
+65.00
+216 Ibrahima KONATE
+35.00
+117 ALEX MORENO
+70.00
+217 Jarell QUANSAH
+35.00
+118 Andrew OMOBAMIDELE
+80.00
+218 Ryan GRAVENBERCH
+35.00
+119 Harry TOFFOLO
+80.00
+219 Wataru ENDO
+35.00
+120 Home Others
+13.50
+220 Away Others
+7.00
+00 No First Scorer
+14.30
+HaFu
+H-H
+8.00
+H-D
+14.00
+H-A
+17.00
+D-H
+11.00
+D-D
+6.80
+D-A
+4.15
+A-H
+30.00
+A-D
+14.00
+A-A
+2.19
+Specials
+Item No.: 1 Which event will happen to Chris WOOD (Nottingham Forest) first?
+(1) Receive a Yellow Card
+7.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+1.58
+(5) None of the above
+5.50
+Item No.: 2 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.75
+(4) Be substituted
+7.00
+(5) None of the above
+2.25
+Item No.: 3 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+1.70
+(2) 1 Goal
+2.50
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+14.00
+Item No.: 4 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+7.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.90
+(5) None of the above
+3.85
+Item No.: 5 Which event will happen to Cody GAKPO (Liverpool) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.15
+(4) Be substituted
+1.70
+(5) None of the above
+4.70

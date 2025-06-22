@@ -1,0 +1,85 @@
+{
+  "url": "https://fbref.com/en/matches/d557afd0/West-Ham-United-Brighton-and-Hove-Albion-January-2-2024-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "January 2, 2024",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [
+      {
+        "minute": 31,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Divin Mubama",
+        "playerId": "92868cb5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Adam Lallana",
+        "playerId": "99813635",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Jakub Moder",
+        "playerId": "f230bc30",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 4
+  }
+}

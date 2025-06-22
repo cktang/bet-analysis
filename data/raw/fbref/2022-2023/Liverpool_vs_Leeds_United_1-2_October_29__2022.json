@@ -1,0 +1,124 @@
+{
+  "url": "https://fbref.com/en/matches/b5b1e744/Liverpool-Leeds-United-October-29-2022-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Leeds United",
+  "matchDate": "October 29, 2022",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 4,
+        "player": "Rodrigo",
+        "playerId": "1fb1c435",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 14,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      },
+      {
+        "minute": 89,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United",
+        "isPenalty": false,
+        "assist": "Patrick Bamford"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 90,
+        "player": "Crysencio Summerville",
+        "playerId": "df04eb4b",
+        "team": "Leeds United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 52,
+        "player": "Patrick Bamford",
+        "playerId": "93feac6e",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Jordan Henderson",
+        "playerId": "935e6b8f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Wilfried Gnonto",
+        "playerId": "75fdd638",
+        "team": "Leeds United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Luke Ayling",
+        "playerId": "420d7c7d",
+        "team": "Leeds United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

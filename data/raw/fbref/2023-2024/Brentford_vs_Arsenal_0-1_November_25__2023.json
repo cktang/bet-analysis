@@ -1,0 +1,128 @@
+{
+  "url": "https://fbref.com/en/matches/626c6561/Brentford-Arsenal-November-25-2023-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Arsenal",
+  "matchDate": "November 25, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 89,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 46,
+        "player": "Kristoffer Ajer",
+        "playerId": "a8c0acb7",
+        "team": "Brentford"
+      },
+      {
+        "minute": 56,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Neal Maupay",
+        "playerId": "4bcf39f6",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Mathias Jørgensen",
+        "playerId": "0db5d2c8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Keane Lewis-Potter",
+        "playerId": "41f08ac8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Ben White",
+        "playerId": "35e413f1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

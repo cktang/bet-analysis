@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/540cfb68/Crystal-Palace-West-Ham-United-August-24-2024-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "West Ham United",
+  "matchDate": "August 24, 2024",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 67,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 72,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Max Kilman"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 55,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Crystal Palace"
+      },
+      {
+        "minute": 63,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Aaron Wan-Bissaka",
+        "playerId": "9e525177",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Daichi Kamada",
+        "playerId": "15b287da",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Niclas Füllkrug",
+        "playerId": "4f16405e",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Ismaila Sarr",
+        "playerId": "bfdb33aa",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Jean-Clair Todibo",
+        "playerId": "88f130ed",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Aaron Cresswell",
+        "playerId": "4f974391",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

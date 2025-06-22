@@ -1,0 +1,151 @@
+{
+  "url": "https://fbref.com/en/matches/c83cb314/Chelsea-Wolverhampton-Wanderers-October-8-2022-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "October 8, 2022",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 48,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Mason Mount"
+      },
+      {
+        "minute": 54,
+        "player": "Christian Pulisic",
+        "playerId": "1bf33a9a",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Mason Mount"
+      },
+      {
+        "minute": 89,
+        "player": "Armando Broja",
+        "playerId": "97220da2",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Mateo Kovačić"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 22,
+        "player": "César Azpilicueta",
+        "playerId": "53cad200",
+        "team": "Chelsea"
+      },
+      {
+        "minute": 61,
+        "player": "Jorginho",
+        "playerId": "45db685d",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Joseph Hodge",
+        "playerId": "bd8a5d95",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 57,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Chem Campbell",
+        "playerId": "6f711f67",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Reece James",
+        "playerId": "1265a93a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Armando Broja",
+        "playerId": "97220da2",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Hakim Ziyech",
+        "playerId": "6622454d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Carney Chukwuemeka",
+        "playerId": "b2f9c73e",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

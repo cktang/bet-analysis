@@ -1,0 +1,839 @@
+29/09/2024
+FB1325
+Ipswich
+vs
+Aston
+Villa
+1
+:
+2
+2
+:
+2
+%Event ID: FB1325
+Ipswich
+2
+2
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+3.55
+3.45
+1.80
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+13.00
+1.07
+10.50
+First Half HAD
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+3.95
+2.21
+2.30
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+600.0
+10.50
+1.01
+Handicap HAD
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+[+1]
+1.81
+[+1]
+3.60
+[-1]
+3.20
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+[+1]
+1.02
+[+1]
+8.00
+[-1]
+29.00
+[+2]
+1.02
+[+2]
+8.25
+[-2]
+25.00
+Handicap
+Ipswich (Home)
+Aston Villa (Away)
+[+0.5/+1]
+1.68
+[-0.5/-1]
+2.20
+Handicap- Last Odds for In Play Betting
+Ipswich (Home)
+Aston Villa (Away)
+[0]
+2.08
+[0]
+1.68
+[+1]
+1.001
+[-1]
+16.00
+[+0.5/+1]
+1.61
+[-0.5/-1]
+2.20
+[+1/+1.5]
+1.64
+[-1/-1.5]
+2.15
+[0/-0.5]
+4.20
+[0/+0.5]
+1.19
+[0/+0.5]
+5.70
+[0/-0.5]
+1.11
+Same Game All Up
+Ollie WATKINS to score first & Over [3.5] goals & Over [12.5] corners taken
+40.00
+Both teams to score & Aston Villa to win & Over [11.5] corners taken
+8.25
+Aston Villa to win & Over [2.5] goals & Over [10.5] corners taken
+5.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Aston Villa to win the match by [2] goal(s) or more
+10.00
+Both teams to score & Ipswich to win & Under [10.5] corners taken
+11.00
+Ipswich to score first & Aston Villa to win by [2] goal(s) or more
+24.00
+Aston Villa to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+22.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.50
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.20
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.75
+First Half to be drawn & Aston Villa to win the match by [2] goal(s) or more
+12.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.75
+The match to be drawn & Under [10.5] corners taken
+5.75
+Aston Villa to win [1:0] in the first half & Aston Villa to win [2:1] in the match
+25.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:0] in the match
+40.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [4:0] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Ipswich to win [1:0] in the first half & Ipswich to win [2:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.68
+2.05
+[2.5/3]
+1.88
+1.82
+[3.5]
+2.70
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.63
+2.13
+[2.5]
+1.23
+3.65
+[2.5/3]
+1.27
+3.35
+[3/3.5]
+1.25
+3.45
+[3.5]
+1.11
+5.15
+[3.5/4]
+2.07
+1.67
+[4/4.5]
+3.70
+1.22
+[4.5]
+1.78
+1.92
+[4.5/5]
+5.15
+1.11
+[5/5.5]
+11.50
+1.002
+[5.5]
+10.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.02
+1.70
+[1.5]
+2.40
+1.50
+[2.5]
+5.15
+1.11
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.58
+2.22
+[1/1.5]
+2.45
+1.48
+[1.5]
+1.33
+2.98
+[1.5/2]
+1.68
+2.05
+[2/2.5]
+2.70
+1.39
+[2.5]
+1.56
+2.27
+[2.5/3]
+2.92
+1.34
+[3/3.5]
+5.60
+1.09
+[3.5]
+7.00
+1.05
+[3.5/4]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.87
+1.83
+[11.5]
+2.22
+1.58
+[14.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5]
+1.11
+5.15
+[6.5]
+1.17
+4.15
+[7.5]
+1.35
+2.88
+[8.5]
+4.75
+1.13
+[9.5]
+11.00
+1.005
+[10.5]
+9.50
+1.001
+[11.5]
+3.40
+1.26
+[12.5]
+3.35
+1.27
+[14.5]
+4.60
+1.14
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.67
+2.07
+[5.5]
+2.30
+1.54
+[7.5]
+4.95
+1.12
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.36
+2.85
+[2.5]
+1.54
+2.30
+[3.5]
+5.40
+1.10
+[4.5]
+8.50
+1.02
+[5.5]
+9.50
+1.005
+[6.5]
+5.15
+1.11
+[7.5]
+4.95
+1.12
+Correct Score
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+1:0
+11.00
+0:0
+11.00
+0:1
+7.25
+2:0
+20.00
+1:1
+6.50
+0:2
+8.75
+2:1
+11.00
+2:2
+11.00
+1:2
+7.25
+3:0
+40.00
+3:3
+40.00
+0:3
+16.00
+3:1
+29.00
+1:3
+13.50
+3:2
+30.00
+2:3
+21.00
+4:0
+100.0
+0:4
+30.00
+4:1
+60.00
+1:4
+30.00
+4:2
+70.00
+2:4
+40.00
+5:0
+400.0
+0:5
+70.00
+5:1
+250.0
+1:5
+60.00
+5:2
+300.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+150.0
+Home Others
+(Away Scores)
+70.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+1:0
+10.50
+0:0
+10.50
+0:1
+5.80
+2:0
+10.50
+1:1
+5.90
+0:2
+7.00
+2:1
+7.40
+2:2
+1.08
+1:2
+1.91
+3:0
+26.00
+3:3
+125.0
+0:3
+12.50
+3:1
+19.00
+1:3
+4.00
+3:2
+13.10
+2:3
+10.60
+4:0
+90.00
+0:4
+30.00
+4:1
+80.00
+1:4
+15.50
+4:2
+700.0
+2:4
+450.0
+5:0
+500.0
+0:5
+90.00
+5:1
+450.0
+1:5
+125.0
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+1:0
+5.60
+0:0
+2.87
+0:1
+3.95
+2:0
+14.50
+1:1
+6.50
+0:2
+7.50
+2:1
+19.00
+2:2
+50.00
+1:2
+13.00
+3:0
+80.00
+3:3
+700.0
+0:3
+30.00
+3:1
+100.0
+1:3
+50.00
+3:2
+250.0
+2:3
+150.0
+4:0
+500.0
+0:4
+125.0
+4:1
+600.0
+1:4
+250.0
+4:2
+900.0
+2:4
+700.0
+5:0
+2000
+0:5
+600.0
+5:1
+2000
+1:5
+800.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Aston Villa (Away)
+1:0
+2.14
+0:0
+2.34
+0:1
+3.16
+2:0
+5.30
+1:1
+1.46
+0:2
+9.00
+2:1
+6.80
+2:2
+13.50
+1:2
+1.06
+3:0
+30.00
+3:3
+2500
+0:3
+40.00
+3:1
+70.00
+1:3
+9.50
+3:2
+350.0
+2:3
+100.0
+4:0
+200.0
+0:4
+150.0
+4:1
+500.0
+1:4
+200.0
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+1000
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Aston Villa (Away)
+2.38
+11.00
+1.59
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+2.60
+10.50
+1.53
+2nd Goal
+2.92
+10.50
+1.42
+3rd Goal
+2.74
+5.90
+1.65
+4th Goal
+3.55
+1.91
+3.02
+5th Goal
+12.00
+1.08
+9.75
+Total Goals
+0
+11.00
+1
+4.95
+2
+3.50
+3
+3.70
+4
+4.85
+5
+7.50
+6
+15.00
+7+
+23.00
+Total Goals- Last Odds for In Play Betting
+0
+10.50
+1
+10.50
+2
+5.90
+3
+1.91
+4
+1.08
+5
+4.70
+6
+90.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Ipswich (Home)
+Aston Villa (Away)
+101 Sammie SZMODICS
+6.60
+201 Ollie WATKINS
+4.45
+102 Liam DELAP
+7.50
+202 Jhon DURAN
+4.75
+103 Jack CLARKE
+7.75
+203 Morgan ROGERS
+6.30
+107 Omari HUTCHINSON
+8.75
+204 Leon BAILEY
+7.25
+104 Ali AL HAMADI
+9.00
+205 Jacob RAMSEY
+7.75
+105 George HIRST
+9.50
+206 Emiliano BUENDIA
+9.25
+106 Nathan BROADHEAD
+9.50
+207 Kadan YOUNG
+9.25
+108 Conor CHAPLIN
+12.00
+208 Amadou ONANA
+12.00
+109 Wes BURNS
+17.00
+209 Ross BARKLEY
+15.00
+110 Chiedozie OGBENE
+17.00
+210 Youri TIELEMANS
+20.00
+111 Dara O'SHEA
+30.00
+211 Ian MAATSEN
+30.00
+112 Jack TAYLOR
+35.00
+212 Matty CASH
+30.00
+113 Jens CAJUSTE
+45.00
+213 Ezri KONSA
+40.00
+115 Jacob GREAVES
+45.00
+214 Pau TORRES
+45.00
+114 Harry CLARKE
+55.00
+215 Sil SWINKELS
+45.00
+116 Kalvin PHILLIPS
+55.00
+216 DIEGO CARLOS Santos Silva
+50.00
+117 Leif DAVIS
+55.00
+217 Kosta NEDELJKOVIC
+50.00
+118 Cameron BURGESS
+70.00
+218 Lamare BOGARDE
+50.00
+119 Axel TUANZEBE
+95.00
+219 Lucas DIGNE
+60.00
+120 Home Others
+16.00
+220 Away Others
+11.50
+00 No First Scorer
+10.80
+HaFu
+H-H
+5.70
+H-D
+13.00
+H-A
+20.00
+D-H
+8.00
+D-D
+5.40
+D-A
+4.50
+A-H
+28.00
+A-D
+13.00
+A-A
+2.85
+Specials
+Item No.: 1 Which event will happen to Liam DELAP (Ipswich) first?
+(1) Receive a Yellow Card
+5.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.45
+(4) Be substituted
+1.54
+(5) None of the above
+7.25
+Item No.: 2 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.43
+(4) Be substituted
+1.66
+(5) None of the above
+6.75
+Item No.: 3 How many goal(s) will Ollie WATKINS (Aston Villa) score?
+(1) No Goal
+1.45
+(2) 1 Goal
+2.75
+(3) 2 Goals
+8.50
+(4) 3 Goals or more
+21.00
+Item No.: 4 Which event will happen to Leon BAILEY (Aston Villa) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.15
+(4) Be substituted
+1.47
+(5) None of the above
+5.40

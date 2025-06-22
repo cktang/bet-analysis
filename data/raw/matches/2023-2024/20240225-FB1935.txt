@@ -1,0 +1,619 @@
+25/02/2024
+FB1935
+Wolves
+vs
+Sheff
+Utd
+1
+:
+0
+1
+:
+0
+%Event ID: FB1935
+Wolves
+1
+0
+Sheff Utd
+Eng Premier
+Home/Away/Draw
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1.34
+4.35
+6.40
+Home/Away/Draw- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1.01
+13.50
+150.0
+First Half HAD
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1.74
+2.49
+6.10
+First Half HAD- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1.01
+12.00
+150.0
+Handicap HAD
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+[-1]
+2.12
+[-1]
+3.25
+[+1]
+2.75
+Handicap
+Wolves (Home)
+Sheff Utd (Away)
+[-1/-1.5]
+2.00
+[+1/+1.5]
+1.82
+Same Game All Up
+Wolves to win by [2] goal(s) or more & Over [4.5] goals & Over [10.5] corners taken
+13.00
+Wolves to win by [2] goal(s) or more & Sheff Utd to score
+5.10
+Wolves clean sheet & Wolves to win by [3] goal(s) or more & Over [10.5] corners taken
+11.00
+Wolves to score in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+5.40
+Wolves to score in the first half & First Half to be drawn & Wolves to win the match by [2] goal(s) or more
+26.00
+Wolves to win [1:0] in the first half & Wolves to win [3:0] in the match
+22.00
+Wolves to win [2:0] in the first half & Wolves to win [3:0] in the match
+27.00
+Wolves to win [2:0] in the first half & Wolves to win [3:1] in the match
+45.00
+Wolves to win [2:0] in the first half & Wolves to win [4:1] in the match
+60.00
+Wolves to win [3:0] in the first half & Wolves to win [5:0] in the match
+80.00
+Wolves to score first in the match & Sheff Utd to score in the first half & Over [2.5] goals in the first half
+12.00
+Sheff Utd to score first & Wolves to win by [2] goal(s) or more
+16.00
+Wolves to win the first half & Over [2.5] goals in the first half
+6.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.60
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.25
+First half to be drawn [1:1] & Sheff Utd to win [2:1] in the match
+50.00
+Sheff Utd to win [1:0] in the first half & Sheff Utd to win [2:0] in the match
+50.00
+Wolves to win both first half and the match & Exactly [3] goals in the Match
+7.20
+First Half to be drawn and Wolves to win the match & Wolves to score in the first half & Over [10.5] corners taken in the match
+23.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.61
+2.17
+[3/3.5]
+2.22
+1.58
+[3.5]
+2.48
+1.47
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.25
+1.07
+[2/2.5]
+9.50
+1.01
+[2.5]
+12.00
+1.001
+[2.5/3]
+2.22
+1.58
+[3/3.5]
+2.27
+1.56
+[3.5]
+5.40
+1.10
+[4.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.85
+1.36
+[2.5]
+5.15
+1.11
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.60
+1.09
+[0.5/1]
+2.55
+1.45
+[1/1.5]
+4.95
+1.12
+[1.5]
+5.60
+1.09
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.20
+1.59
+[12.5]
+2.75
+1.38
+[14.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+4.75
+1.13
+[9.5]
+1.20
+3.90
+[10.5]
+1.15
+4.40
+[11.5]
+1.13
+4.75
+[13.5]
+9.50
+1.02
+[14.5]
+12.00
+1.001
+Correct Score
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1:0
+6.60
+0:0
+14.00
+0:1
+18.00
+2:0
+6.40
+1:1
+8.25
+0:2
+30.00
+2:1
+6.80
+2:2
+15.00
+1:2
+17.00
+3:0
+8.75
+3:3
+50.00
+0:3
+70.00
+3:1
+10.00
+1:3
+40.00
+3:2
+21.00
+2:3
+40.00
+4:0
+16.00
+0:4
+300.0
+4:1
+19.00
+1:4
+150.0
+4:2
+40.00
+2:4
+125.0
+5:0
+35.00
+0:5
+900.0
+5:1
+40.00
+1:5
+600.0
+5:2
+70.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+50.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+35.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+150.0
+Correct Score- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1:0
+1.08
+0:0
+7.80
+0:1
+12.00
+2:0
+8.50
+1:1
+13.50
+0:2
+35.00
+2:1
+100.0
+2:2
+1000
+1:2
+151.0
+3:0
+200.0
+3:3
+1000
+0:3
+200.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.15
+0:0
+3.10
+0:1
+7.50
+2:0
+5.60
+1:1
+7.50
+0:2
+30.00
+2:1
+12.50
+2:2
+60.00
+1:2
+30.00
+3:0
+15.00
+3:3
+700.0
+0:3
+200.0
+3:1
+40.00
+1:3
+200.0
+3:2
+150.0
+2:3
+400.0
+4:0
+60.00
+0:4
+900.0
+4:1
+150.0
+1:4
+900.0
+4:2
+600.0
+2:4
+1500
+5:0
+300.0
+0:5
+2500
+5:1
+600.0
+1:5
+2500
+5:2
+1500
+2:5
+2500
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+900.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Wolves (Home)
+Draw
+Sheff Utd (Away)
+1:0
+1.11
+0:0
+1.53
+0:1
+9.75
+2:0
+6.80
+1:1
+14.50
+0:2
+90.00
+2:1
+100.0
+2:2
+2500
+1:2
+151.0
+3:0
+100.0
+3:3
+2500
+0:3
+1500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Wolves (Home)
+No Goals
+Sheff Utd (Away)
+1.31
+14.00
+3.25
+Next Team To Score- Last Odds for In Play Betting
+Wolves (Home)
+No Goals
+Sheff Utd (Away)
+1st Goal
+1.34
+7.80
+3.75
+2nd Goal
+8.25
+1.08
+13.50
+Total Goals
+0
+14.00
+1
+5.40
+2
+3.70
+3
+3.60
+4
+4.60
+5
+6.80
+6
+13.00
+7+
+20.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+1.99
+H-D
+16.00
+H-A
+45.00
+D-H
+3.75
+D-D
+6.40
+D-A
+13.00
+A-H
+22.00
+A-D
+16.00
+A-A
+10.00
+Specials
+Item No.: 1 Which event will happen to HWANG Hee chan (Wolves) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.02
+(4) Be substituted
+2.50
+(5) None of the above
+3.70
+Item No.: 2 How many goal(s) will HWANG Hee chan (Wolves) score?
+(1) No Goal
+1.66
+(2) 1 Goal
+2.53
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+14.50
+Item No.: 3 Which event will happen to PEDRO Lomba NETO (Wolves) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+2.12
+(5) None of the above
+3.45
+Item No.: 4 Which event will happen to Pablo SARABIA (Wolves) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.70
+(4) Be substituted
+1.53
+(5) None of the above
+4.65
+Item No.: 5 Which event will happen to James McATEE (Sheff Utd) first?
+(1) Receive a Yellow Card
+4.90
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.85
+(4) Be substituted
+1.87
+(5) None of the above
+3.05

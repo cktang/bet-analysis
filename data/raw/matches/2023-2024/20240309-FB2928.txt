@@ -1,0 +1,592 @@
+09/03/2024
+FB2928
+Bournemouth
+vs
+Sheff
+Utd
+0
+:
+1
+2
+:
+2
+%Event ID: FB2928
+Bournemouth
+2
+2
+Sheff Utd
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1.21
+5.40
+8.50
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+5.00
+1.13
+18.00
+First Half HAD
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1.55
+2.84
+7.00
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+40.00
+5.00
+1.10
+Handicap HAD
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+[-1]
+1.69
+[-1]
+3.85
+[+1]
+3.45
+Handicap
+Bournemouth (Home)
+Sheff Utd (Away)
+[-1.5/-2]
+2.08
+[+1.5/+2]
+1.76
+Same Game All Up
+Dominic SOLANKE to score first & Over [4.5] goals & Over [11.5] corners taken
+21.00
+Dominic SOLANKE to score first & Bournemouth to win by [3] goal(s) or more & Sheff Utd to score
+23.00
+Bournemouth to win & Over [3.5] goals & Over [12.5] corners taken
+6.25
+Sheff Utd to score & Bournemouth to win by [3] goal(s) or more & Over [11.5] corners taken
+16.00
+Bournemouth to win the first half & Bournemouth clean sheet in the match & Over [11.5] corners taken in the match
+6.00
+Sheff Utd to score in the first half & Sheff Utd to win the match
+10.00
+Sheff Utd clean sheet in the first half & Over [2.5] goals in the match
+6.40
+Bournemouth to score first in the match & Bournemouth to win the first half & Over [1.5] goals in the first half
+3.20
+Sheff Utd to score first & Bournemouth to win by [2] goal(s) or more
+14.00
+First Half to be drawn & Bournemouth to win the match by exactly [1] goal(s)
+6.40
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+4.25
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+10.50
+Bournemouth to win [1:0] in the first half & Bournemouth to win [3:0] in the match
+17.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:0] in the match
+28.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [4:1] in the match
+50.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [5:0] in the match
+50.00
+Bournemouth to win [3:0] in the first half & Bournemouth to win [5:0] in the match
+60.00
+Bournemouth to win both first half and the match & Over [1.5] goals in the first half & Over [11.5] corners taken in the match
+6.25
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+15.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.82
+1.88
+[3.5]
+2.08
+1.66
+[4.5]
+3.35
+1.27
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+3.95
+1.19
+[1.5/2]
+1.37
+2.80
+[2/2.5]
+2.00
+1.72
+[2.5]
+2.43
+1.49
+[2.5/3]
+1.66
+2.08
+[3/3.5]
+2.70
+1.39
+[3.5]
+1.46
+2.50
+[3.5/4]
+3.45
+1.25
+[4/4.5]
+8.00
+1.04
+[4.5]
+8.50
+1.03
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.97
+1.74
+[1.5/2]
+2.43
+1.49
+[2.5]
+3.90
+1.20
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.15
+1.17
+[0.5/1]
+2.25
+1.57
+[1/1.5]
+4.15
+1.17
+[1.5]
+1.78
+1.92
+[2/2.5]
+10.50
+1.01
+[2.5]
+10.50
+1.01
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.80
+1.90
+[12.5]
+2.17
+1.61
+[15.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[13.5]
+1.46
+2.50
+[9.5]
+1.56
+2.27
+[10.5]
+1.39
+2.70
+[11.5]
+1.17
+4.15
+[12.5]
+1.04
+8.00
+[14.5]
+2.50
+1.46
+[15.5]
+4.60
+1.14
+Correct Score
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1:0
+8.75
+0:0
+20.00
+0:1
+27.00
+2:0
+7.25
+1:1
+10.00
+0:2
+40.00
+2:1
+7.75
+2:2
+16.00
+1:2
+20.00
+3:0
+8.00
+3:3
+40.00
+0:3
+100.0
+3:1
+8.75
+1:3
+50.00
+3:2
+19.00
+2:3
+40.00
+4:0
+12.00
+0:4
+400.0
+4:1
+13.50
+1:4
+200.0
+4:2
+28.00
+2:4
+150.0
+5:0
+24.00
+0:5
+1000
+5:1
+27.00
+1:5
+700.0
+5:2
+35.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+30.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+18.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1:0
+5.10
+0:0
+10.50
+0:1
+3.24
+2:0
+5.30
+1:1
+2.70
+0:2
+2.42
+2:1
+5.10
+2:2
+1.19
+1:2
+1.32
+3:0
+7.80
+3:3
+60.00
+0:3
+10.00
+3:1
+13.50
+1:3
+11.00
+3:2
+5.00
+2:3
+18.00
+4:0
+16.00
+0:4
+100.0
+4:1
+50.00
+1:4
+250.0
+4:2
+60.00
+2:4
+700.0
+5:0
+40.00
+0:5
+1000
+5:1
+250.0
+1:5
+1000
+5:2
+300.0
+2:5
+1000
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+150.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.40
+0:0
+3.65
+0:1
+9.50
+2:0
+5.00
+1:1
+7.25
+0:2
+40.00
+2:1
+10.50
+2:2
+50.00
+1:2
+30.00
+3:0
+11.50
+3:3
+600.0
+0:3
+200.0
+3:1
+28.00
+1:3
+200.0
+3:2
+100.0
+2:3
+300.0
+4:0
+40.00
+0:4
+1000
+4:1
+75.00
+1:4
+900.0
+4:2
+350.0
+2:4
+1500
+5:0
+125.0
+0:5
+2500
+5:1
+350.0
+1:5
+2500
+5:2
+800.0
+2:5
+2500
+Home Others
+(Away No Goal)
+450.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.02
+0:0
+1.68
+0:1
+1.15
+2:0
+11.00
+1:1
+4.80
+0:2
+19.00
+2:1
+41.00
+2:2
+600.0
+1:2
+90.00
+3:0
+70.00
+3:3
+2500
+0:3
+500.0
+3:1
+500.0
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+350.0
+0:4
+2500
+4:1
+700.0
+1:4
+2500
+4:2
+1000
+2:4
+2500
+5:0
+500.0
+0:5
+2500
+5:1
+1000
+1:5
+2500
+5:2
+1500
+2:5
+2500
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Sheff Utd (Away)
+1.23
+20.00
+3.60
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Sheff Utd (Away)
+1st Goal
+1.30
+10.50
+3.65
+2nd Goal
+1.49
+3.24
+6.20
+3rd Goal
+1.70
+2.42
+7.20
+4th Goal
+2.92
+1.44
+9.75
+5th Goal
+4.40
+1.19
+14.00
+Total Goals
+0
+20.00
+1
+6.90
+2
+4.20
+3
+3.80
+4
+4.20
+5
+6.00
+6
+9.50
+7+
+11.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.70
+H-D
+17.00
+H-A
+50.00
+D-H
+3.80
+D-D
+8.25
+D-A
+17.00
+A-H
+18.00
+A-D
+17.00
+A-A
+13.50

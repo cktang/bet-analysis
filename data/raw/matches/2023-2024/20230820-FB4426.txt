@@ -1,0 +1,328 @@
+20/08/2023
+FB4426
+Manchester
+City
+vs
+Newcastle
+1
+:
+0
+1
+:
+0
+%Event ID: FB4426
+Manchester City
+1
+0
+Newcastle
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.68
+3.60
+4.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.001
+14.50
+600.0
+First Half HAD
+Manchester City (Home)
+Draw
+Newcastle (Away)
+2.22
+2.18
+4.40
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.06
+6.50
+70.00
+Handicap HAD
+Manchester City (Home)
+Draw
+Newcastle (Away)
+[-1]
+2.94
+[-1]
+3.50
+[+1]
+1.96
+Handicap
+Manchester City (Home)
+Newcastle (Away)
+[-0.5/-1]
+2.02
+[+0.5/+1]
+1.81
+Same Game All Up
+Erling HAALAND to score first & Over [3.5] goals
+9.25
+Erling HAALAND to score first & Over [11.5] corners taken
+9.00
+Erling HAALAND to score first & Manchester City to win
+4.40
+Manchester City to win & Over [2.5] goals & Over [11.5] corners taken
+6.00
+The match to be drawn & Under [10.5] corners taken
+6.75
+Newcastle to win & Over [2.5] goals
+6.25
+Manchester City to score first in the match & Manchester City to win the first half & Over [2.5] goals in the first half
+10.50
+Manchester City to score first & Newcastle to win or draw
+6.00
+Newcastle to score first in the match & Over [1.5] goals in the first half
+5.60
+Newcastle to score first & Manchester City to win by [2] goal(s) or more
+21.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+7.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.75
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.25
+Manchester City to win both first half and the match & Exactly [4] goals in the Match
+13.00
+Manchester City to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+9.50
+HiLo
+Line
+High
+Low
+[2.5]
+1.72
+2.00
+[2.5/3]
+1.92
+1.78
+[3.5]
+2.80
+1.38
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.80
+1.09
+[1.5]
+1.08
+6.10
+[2/2.5]
+11.50
+1.002
+[2.5]
+11.50
+1.002
+[2.5/3]
+2.25
+1.57
+[3.5]
+5.55
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.40
+1.50
+[1.5/2]
+2.95
+1.34
+[2.5]
+5.10
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.55
+1.10
+[0.5/1]
+2.80
+1.38
+[1/1.5]
+6.50
+1.07
+[1.5]
+7.50
+1.05
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.92
+1.78
+[11.5]
+2.45
+1.48
+[14.5]
+5.55
+1.10
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+4.40
+1.16
+[2.5]
+1.70
+2.02
+[4.5]
+8.50
+1.03
+[5.5]
+5.10
+1.12
+[6.5]
+5.30
+1.11
+[7.5]
+4.90
+1.13
+[8.5]
+4.40
+1.16
+[9.5]
+4.30
+1.17
+[10.5]
+3.90
+1.20
+[11.5]
+3.65
+1.23
+[12.5]
+3.65
+1.23
+[14.5]
+5.55
+1.10
+First Team to Score
+Manchester City (Home)
+No Goals
+Newcastle (Away)
+1.52
+11.50
+2.55
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+1.64
+5.50
+2.88
+2nd Goal
+9.75
+1.07
+12.00
+Total Goals
+0
+11.50
+1
+4.95
+2
+3.60
+3
+3.70
+4
+4.90
+5
+8.00
+6
+14.50
+7+
+22.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+2.60
+H-D
+13.50
+H-A
+27.00
+D-H
+4.50
+D-D
+5.60
+D-A
+9.25
+A-H
+20.00
+A-D
+13.50
+A-A
+6.70
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.76
+(4) Be substituted
+2.88
+(5) None of the above
+4.30
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.88
+(2) 1 Goal
+2.50
+(3) 2 Goals
+5.80
+(4) 3 Goals or more
+10.50
+Item No.: 3 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.87
+(4) Be substituted
+2.90
+(5) None of the above
+2.28
+Item No.: 4 Which event will happen to Jack GREALISH (Manchester City) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.92
+(5) None of the above
+2.95
+Item No.: 5 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.50
+(4) Be substituted
+2.18
+(5) None of the above
+2.87

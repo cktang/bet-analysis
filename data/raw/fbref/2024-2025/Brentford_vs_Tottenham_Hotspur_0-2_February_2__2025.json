@@ -1,0 +1,116 @@
+{
+  "url": "https://fbref.com/en/matches/7193a229/Brentford-Tottenham-Hotspur-February-2-2025-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "February 2, 2025",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 29,
+        "player": "Vitaly Janelt",
+        "playerId": "8449d35e",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 87,
+        "player": "Pape Matar Sarr",
+        "playerId": "feb5d972",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Son Heung-min"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 41,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Lucas Bergvall",
+        "playerId": "a109e5c8",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Mathias Jensen",
+        "playerId": "0f134faf",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Pape Matar Sarr",
+        "playerId": "feb5d972",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Michael Kayode",
+        "playerId": "e19660a8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Dane Scarlett",
+        "playerId": "21945a9e",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

@@ -1,0 +1,427 @@
+26/08/2023
+FB4729
+Manchester
+Utd
+vs
+Nottingham
+Forest
+1
+:
+2
+3
+:
+2
+%Event ID: FB4729
+Manchester Utd
+3
+2
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Nottingham Forest (Away)
+1.25
+5.00
+8.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Nottingham Forest (Away)
+1.005
+19.00
+1000
+First Half HAD
+Manchester Utd (Home)
+Draw
+Nottingham Forest (Away)
+1.60
+2.72
+7.00
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Nottingham Forest (Away)
+19.00
+4.50
+1.16
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Nottingham Forest (Away)
+[-2]
+3.05
+[-2]
+3.95
+[+2]
+1.80
+Handicap
+Manchester Utd (Home)
+Nottingham Forest (Away)
+[-1.5/-2]
+2.22
+[+1.5/+2]
+1.67
+Same Game All Up
+Marcus RASHFORD to score first in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+23.00
+Marcus RASHFORD to score first in the match & First Half to be drawn & Over [3.5] goals in the match
+35.00
+Marcus RASHFORD to score first in the match & Manchester Utd to win the first half & Manchester Utd to win the match by [4] goal(s) or more
+16.00
+Marcus RASHFORD to score first & The match to be drawn & Over [12.5] corners taken
+55.00
+Bruno Borges FERNANDES to score first in the match & Over [1.5] goals in the first half & Over [11.5] corners taken in the match
+21.00
+Manchester Utd to win & Over [4.5] goals & Over [12.5] corners taken
+11.00
+Nottingham Forest to win & Over [2.5] goals
+13.50
+Nottingham Forest to score first & The match to be drawn
+14.00
+Manchester Utd to score first & Nottingham Forest to win or draw
+9.00
+Nottingham Forest to score first & Manchester Utd to win by [3] goal(s) or more
+26.00
+Manchester Utd to win the first half & Over [2.5] goals in the first half
+5.50
+First Half to be drawn & Manchester Utd to win the match by exactly [2] goal(s)
+12.50
+Nottingham Forest to win the first half & Over [1.5] goals in the first half
+20.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [13.5] corners taken in the match
+10.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.00
+Manchester Utd to win by [4] goal(s) or more & Under [11.5] corners taken
+9.75
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+6.50
+Nottingham Forest to win both first half and the match & Exactly [3] goals in the Match
+35.00
+Both first half and the match to be drawn & Over [12.5] corners taken in the match
+19.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+2.00
+1.72
+[3.5]
+2.25
+1.57
+[4.5]
+3.70
+1.22
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5/6]
+5.80
+1.09
+[3/3.5]
+1.30
+3.15
+[3.5]
+1.43
+2.60
+[4/4.5]
+1.35
+2.90
+[4.5]
+1.15
+4.55
+[4.5/5]
+1.75
+1.95
+[5/5.5]
+2.95
+1.34
+[5.5]
+1.56
+2.27
+[6/6.5]
+11.50
+1.002
+[6.5]
+10.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.10
+1.65
+[1.5/2]
+2.58
+1.44
+[2.5]
+4.55
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+4.05
+1.19
+[1/1.5]
+1.82
+1.88
+[1.5]
+1.20
+3.90
+[1.5/2]
+2.58
+1.44
+[2/2.5]
+1.84
+1.86
+[2.5]
+1.22
+3.70
+[2.5/3]
+1.64
+2.12
+[3/3.5]
+2.48
+1.47
+[3.5]
+1.42
+2.65
+[4/4.5]
+8.00
+1.04
+[4.5]
+8.00
+1.04
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.05
+1.68
+[12.5]
+2.60
+1.43
+[15.5]
+5.55
+1.10
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[15.5]
+5.80
+1.09
+[10.5]
+1.56
+2.27
+[11.5]
+1.23
+3.65
+[12.5]
+1.13
+4.90
+[13.5]
+1.20
+3.90
+[14.5]
+1.30
+3.15
+[16.5]
+8.50
+1.01
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Nottingham Forest (Away)
+1.25
+18.00
+3.55
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.26
+16.00
+3.55
+2nd Goal
+1.18
+20.00
+4.20
+3rd Goal
+1.21
+13.00
+4.30
+4th Goal
+1.33
+5.30
+5.20
+5th Goal
+1.55
+2.29
+18.00
+6th Goal
+4.30
+1.17
+20.00
+Total Goals
+0
+18.00
+1
+6.30
+2
+4.05
+3
+3.70
+4
+4.35
+5
+6.50
+6
+10.50
+7+
+14.50
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Manchester Utd (Home)
+Nottingham Forest (Away)
+101 Marcus RASHFORD
+3.75
+201 Brennan JOHNSON
+10.50
+102 Anthony MARTIAL
+4.45
+202 Taiwo AWONIYI
+10.50
+103 Bruno Borges FERNANDES
+4.70
+203 Chris WOOD
+11.50
+104 Jadon SANCHO
+6.20
+204 Morgan GIBBS-WHITE
+11.50
+105 ANTONY Matheus dos Santos
+6.70
+205 Anthony ELANGA
+17.00
+106 Alejandro GARNACHO
+7.50
+206 DANILO Oliveira
+29.00
+107 Christian ERIKSEN
+9.75
+207 Orel MANGALA
+45.00
+108 Carlos CASEMIRO
+14.00
+208 Neco WILLIAMS
+75.00
+109 Scott McTOMINAY
+15.00
+209 Serge AURIER
+75.00
+110 Raphael VARANE
+18.00
+111 Harry MAGUIRE
+23.00
+112 Diogo DALOT
+30.00
+113 Lisandro MARTINEZ
+35.00
+114 Victor LINDELOF
+35.00
+115 Aaron WAN-BISSAKA
+45.00
+120 Home Others
+11.50
+220 Away Others
+13.00
+00 No First Scorer
+17.80
+HaFu
+H-H
+1.78
+H-D
+16.00
+H-A
+50.00
+D-H
+3.90
+D-D
+7.75
+D-A
+17.00
+A-H
+20.00
+A-D
+16.00
+A-A
+12.50
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.07
+(4) Be substituted
+1.98
+(5) None of the above
+5.90
+Item No.: 2 How many goal(s) will Marcus RASHFORD (Manchester Utd) score?
+(1) No Goal
+1.62
+(2) 1 Goal
+2.63
+(3) 2 Goals
+6.75
+(4) 3 Goals or more
+19.00
+Item No.: 3 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.40
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+6.50
+(5) None of the above
+2.27
+Item No.: 4 Which event will happen to ANTONY Matheus dos Santos (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.55
+(4) Be substituted
+1.42
+(5) None of the above
+9.50
+Item No.: 5 Which event will happen to Jadon SANCHO (Manchester Utd) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.25
+(4) Be substituted
+1.45
+(5) None of the above
+6.50

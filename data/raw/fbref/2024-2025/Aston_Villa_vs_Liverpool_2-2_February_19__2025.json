@@ -1,0 +1,153 @@
+{
+  "url": "https://fbref.com/en/matches/39c7b656/Aston-Villa-Liverpool-February-19-2025-Premier-League",
+  "homeTeam": "Aston Villa",
+  "awayTeam": "Liverpool",
+  "matchDate": "February 19, 2025",
+  "score": "2-2",
+  "homeScore": 2,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 29,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Diogo Jota"
+      },
+      {
+        "minute": 38,
+        "player": "Youri Tielemans",
+        "playerId": "56f7a928",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 48,
+        "player": "Ollie Watkins",
+        "playerId": "aed3a70f",
+        "team": "Aston Villa",
+        "isPenalty": false,
+        "assist": "Lucas Digne"
+      },
+      {
+        "minute": 61,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 23,
+        "player": "Axel Disasi",
+        "playerId": "ad82197c",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Conor Bradley",
+        "playerId": "bbd67769",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Jacob Ramsey",
+        "playerId": "1544f145",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Donyell Malen",
+        "playerId": "116c35df",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Matty Cash",
+        "playerId": "2389cdc2",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Ian Maatsen",
+        "playerId": "cab9634e",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Lamare Bogarde",
+        "playerId": "bca5c4a7",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Jarell Quansah",
+        "playerId": "4125cb98",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

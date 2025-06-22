@@ -1,0 +1,131 @@
+{
+  "url": "https://fbref.com/en/matches/ba04d7d8/West-Ham-United-Liverpool-April-27-2024-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Liverpool",
+  "matchDate": "April 27, 2024",
+  "score": "2-2",
+  "homeScore": 2,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 43,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Mohammed Kudus"
+      },
+      {
+        "minute": 48,
+        "player": "Andrew Robertson",
+        "playerId": "2e4f5f03",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Luis Díaz"
+      },
+      {
+        "minute": 65,
+        "player": "Alphonse Areola",
+        "playerId": "2f965a72",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 77,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 30,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool"
+      },
+      {
+        "minute": 95,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Liverpool"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 74,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Joe Gomez",
+        "playerId": "7a11550b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

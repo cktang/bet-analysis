@@ -1,0 +1,158 @@
+{
+  "url": "https://fbref.com/en/matches/d67a16c8/Wolverhampton-Wanderers-Liverpool-February-4-2023-Premier-League",
+  "homeTeam": "Wolverhampton Wanderers",
+  "awayTeam": "Liverpool",
+  "matchDate": "February 4, 2023",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 5,
+        "player": "Joël Matip",
+        "playerId": "b217ef29",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 12,
+        "player": "Craig Dawson",
+        "playerId": "3e9e06cb",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 71,
+        "player": "Rúben Neves",
+        "playerId": "44bfb6c5",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Adama Traoré"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 49,
+        "player": "Craig Dawson",
+        "playerId": "3e9e06cb",
+        "team": "Wolverhampton Wanderers"
+      },
+      {
+        "minute": 75,
+        "player": "Joe Gomez",
+        "playerId": "7a11550b",
+        "team": "Liverpool"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 42,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "João Moutinho",
+        "playerId": "f5a00fa4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Jordan Henderson",
+        "playerId": "935e6b8f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Daniel Podence",
+        "playerId": "7fcc71d8",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Jonny Castro",
+        "playerId": "e28868f3",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Alex Oxlade-Chamberlain",
+        "playerId": "38c7feef",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

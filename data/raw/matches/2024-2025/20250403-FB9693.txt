@@ -1,0 +1,889 @@
+03/04/2025
+FB9693
+Manchester
+City
+vs
+Leicester
+2
+:
+0
+2
+:
+0
+%Event ID: FB9693
+Manchester City
+2
+0
+Leicester
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Leicester (Away)
+1.09
+7.25
+13.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Leicester (Away)
+1.001
+19.00
+100.0
+First Half HAD
+Manchester City (Home)
+Draw
+Leicester (Away)
+1.39
+3.20
+9.25
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Leicester (Away)
+1.04
+6.70
+90.00
+Handicap HAD
+Manchester City (Home)
+Draw
+Leicester (Away)
+[-2]
+2.20
+[-2]
+4.00
+[+2]
+2.30
+[-3]
+3.65
+[-3]
+4.60
+[+3]
+1.54
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Leicester (Away)
+[-4]
+19.00
+[-4]
+5.60
+[+4]
+1.10
+[-2]
+1.37
+[-2]
+3.80
+[+2]
+6.80
+[-3]
+70.00
+[-3]
+4.80
+[+3]
+1.09
+Handicap
+Manchester City (Home)
+Leicester (Away)
+[-2]
+1.86
+[+2]
+1.96
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Leicester (Away)
+[-3]
+2.15
+[+3]
+1.64
+[-2]
+1.26
+[+2]
+3.52
+[-3/-3.5]
+2.07
+[+3/+3.5]
+1.69
+[-2.5/-3]
+2.39
+[+2.5/+3]
+1.52
+[-2/-2.5]
+4.00
+[+2/+2.5]
+1.21
+Same Game All Up
+Omar MARMOUSH to score first & Manchester City to win by exactly [2] goal(s) & Over [2.5] goals
+25.00
+Phil FODEN to score first & Over [3.5] goals & Over [12.5] corners taken
+21.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+Both teams to score & Leicester to win & Under [11.5] corners taken
+29.00
+Both teams to score & The match to be drawn & Under [10.5] corners taken
+17.00
+First half to be drawn [0:0] & Both teams to score in the match & Over [12.5] corners taken in the match
+30.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [13.5] corners taken in the match
+15.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+9.50
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+7.75
+Leicester to score first & Manchester City to win by [3] goal(s) or more
+18.00
+Leicester to score in the first half & Manchester City to win the match by exactly [2] goal(s)
+13.50
+Manchester City to win by [3] goal(s) or more & Over [13.5] corners taken
+7.00
+First half to be drawn [0:0] & Manchester City to win the match by [3] goal(s) or more
+22.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:0] in the match
+14.50
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+24.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:1] in the match
+45.00
+Manchester City to win [3:0] in the first half & Manchester City to win [4:0] in the match
+40.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+45.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:1] in the match
+90.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.79
+1.91
+[3.5/4]
+1.98
+1.73
+[4.5]
+2.70
+1.39
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.20
+1.59
+[4/4.5]
+2.22
+1.58
+[4.5]
+4.95
+1.12
+[5.5]
+4.60
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.80
+1.90
+[1.5/2]
+2.10
+1.65
+[2.5]
+3.55
+1.24
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.64
+2.12
+[1.5]
+1.18
+4.05
+[1.5/2]
+2.48
+1.47
+[2/2.5]
+4.95
+1.12
+[2.5]
+6.25
+1.07
+[2.5/3]
+6.25
+1.07
+[3.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.07
+1.67
+[12.5]
+2.60
+1.43
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[5.5]
+1.08
+5.90
+[6.5]
+8.50
+1.03
+[7.5]
+5.40
+1.10
+[8.5]
+9.50
+1.02
+[9.5]
+6.60
+1.06
+[10.5]
+5.40
+1.10
+[11.5]
+4.60
+1.14
+[12.5]
+4.60
+1.14
+[13.5]
+3.55
+1.24
+[14.5]
+4.30
+1.16
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.02
+1.70
+[6.5]
+2.85
+1.36
+[8.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.49
+2.43
+[2.5]
+1.60
+2.19
+[3.5]
+1.73
+1.98
+[4.5]
+6.60
+1.06
+[5.5]
+6.60
+1.06
+[6.5]
+5.90
+1.08
+[7.5]
+5.15
+1.11
+[8.5]
+6.25
+1.07
+Corner Taken Handicap
+Manchester City (Home)
+Leicester (Away)
+[-5.5]
+1.80
+[+5.5]
+1.90
+Corner Taken Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Leicester (Away)
+[-5.5]
+2.92
+[+5.5]
+1.34
+[-4.5]
+1.12
+[+4.5]
+4.95
+[-3.5]
+1.36
+[+3.5]
+2.85
+[-2.5]
+1.36
+[+2.5]
+2.85
+[-1.5]
+1.36
+[+1.5]
+2.85
+First Half Corner Taken Handicap
+Manchester City (Home)
+Leicester (Away)
+[-2.5]
+1.72
+[+2.5]
+2.00
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Leicester (Away)
+[-3.5]
+3.20
+[+3.5]
+1.29
+[-2.5]
+1.11
+[+2.5]
+5.15
+[-1.5]
+1.12
+[+1.5]
+4.95
+[-0.5]
+1.13
+[+0.5]
+4.75
+Correct Score
+Manchester City (Home)
+Draw
+Leicester (Away)
+1:0
+10.00
+0:0
+28.00
+0:1
+40.00
+2:0
+7.00
+1:1
+14.00
+0:2
+60.00
+2:1
+8.25
+2:2
+20.00
+1:2
+30.00
+3:0
+6.80
+3:3
+50.00
+0:3
+200.0
+3:1
+8.50
+1:3
+70.00
+3:2
+20.00
+2:3
+50.00
+4:0
+9.00
+0:4
+600.0
+4:1
+11.50
+1:4
+300.0
+4:2
+28.00
+2:4
+250.0
+5:0
+16.00
+0:5
+1000
+5:1
+19.00
+1:5
+900.0
+5:2
+40.00
+2:5
+800.0
+Home Others
+(Away No Goal)
+20.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+13.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+150.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Leicester (Away)
+1:0
+9.00
+0:0
+26.00
+0:1
+35.00
+2:0
+1.07
+1:1
+13.00
+0:2
+60.00
+2:1
+35.00
+2:2
+1000
+1:2
+45.00
+3:0
+7.65
+3:3
+1000
+0:3
+200.0
+3:1
+250.0
+1:3
+250.0
+3:2
+1000
+2:3
+1000
+4:0
+200.0
+0:4
+600.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Leicester (Away)
+1:0
+3.25
+0:0
+4.35
+0:1
+13.00
+2:0
+4.30
+1:1
+8.25
+0:2
+50.00
+2:1
+11.00
+2:2
+50.00
+1:2
+40.00
+3:0
+8.50
+3:3
+600.0
+0:3
+400.0
+3:1
+21.00
+1:3
+250.0
+3:2
+100.0
+2:3
+400.0
+4:0
+24.00
+0:4
+1500
+4:1
+60.00
+1:4
+1000
+4:2
+300.0
+2:4
+2000
+5:0
+80.00
+0:5
+2500
+5:1
+200.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Leicester (Away)
+1:0
+1.59
+0:0
+3.90
+0:1
+12.00
+2:0
+1.14
+1:1
+7.70
+0:2
+50.00
+2:1
+18.00
+2:2
+450.0
+1:2
+101.0
+3:0
+5.50
+3:3
+2500
+0:3
+350.0
+3:1
+80.00
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+70.00
+0:4
+2000
+4:1
+1500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Leicester (Away)
+1.14
+28.00
+4.35
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Leicester (Away)
+1st Goal
+1.14
+28.00
+4.30
+2nd Goal
+1.25
+10.50
+4.10
+3rd Goal
+7.45
+1.07
+30.00
+Total Goals
+0
+28.00
+1
+8.25
+2
+4.90
+3
+4.00
+4
+4.10
+5
+5.40
+6
+7.50
+7+
+8.25
+Total Goals- Last Odds for In Play Betting
+0
+26.00
+1
+9.00
+2
+1.07
+3
+4.80
+4
+150.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester City (Home)
+Leicester (Away)
+101 Omar MARMOUSH
+2.62
+201 Jamie VARDY
+10.50
+102 Phil FODEN
+4.25
+202 Patson DAKA
+13.50
+103 Oscar BOBB
+4.50
+203 Jordan AYEW
+14.50
+104 James McATEE
+5.50
+204 Facundo BUONANOTTE
+15.00
+105 Jeremy DOKU
+7.00
+205 Stephy MAVIDIDI
+16.00
+106 Jack GREALISH
+7.25
+206 Bobby REID
+19.00
+107 Kevin DE BRUYNE
+7.75
+207 Bilal EL KHANNOUSS
+20.00
+108 SAVINHO Moreira de Oliveira
+8.25
+208 Kasey McATEER
+21.00
+109 Nico O'REILLY
+10.00
+209 James JUSTIN
+30.00
+110 Josko GVARDIOL
+11.00
+210 Onyinye NDIDI
+35.00
+111 BERNARDO SILVA
+12.00
+211 RICARDO Domingos Pereira
+80.00
+112 Nico GONZALEZ Iglesias
+15.00
+212 Caleb OKOLI
+90.00
+113 Mateo KOVACIC
+16.00
+213 Jannik VESTERGAARD
+90.00
+114 Ilkay GUNDOGAN
+16.00
+214 Harry WINKS
+95.00
+115 RUBEN DIAS
+27.00
+215 Boubakary SOUMARE
+100.0
+116 Matheus NUNES
+30.00
+216 Conor COADY
+100.0
+117 Rico LEWIS
+30.00
+217 Oliver SKIPP
+100.0
+118 Vitor REIS
+30.00
+218 Wout FAES
+100.0
+119 Abdukodir KHUSANOV
+35.00
+219 Woyo COULIBALY
+125.0
+120 Home Others
+5.70
+220 Away Others
+21.00
+00 No First Scorer
+27.80
+HaFu
+H-H
+1.43
+H-D
+21.00
+H-A
+60.00
+D-H
+3.90
+D-D
+11.50
+D-A
+26.00
+A-H
+18.00
+A-D
+21.00
+A-A
+20.00
+Specials
+Item No.: 1 Which event will happen to Omar MARMOUSH (Manchester City) first?
+(1) Receive a Yellow Card
+16.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.80
+(4) Be substituted
+2.40
+(5) None of the above
+4.20
+Item No.: 2 How many goal(s) will Omar MARMOUSH (Manchester City) score?
+(1) No Goal
+1.75
+(2) 1 Goal
+2.45
+(3) 2 Goals
+5.80
+(4) 3 Goals or more
+15.00
+Item No.: 3 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+15.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.90
+(4) Be substituted
+2.25
+(5) None of the above
+4.25
+Item No.: 4 How many goal(s) will Phil FODEN (Manchester City) score?
+(1) No Goal
+1.65
+(2) 1 Goal
+2.50
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+18.00
+Item No.: 5 Which event will happen to Jeremy DOKU (Manchester City) first?
+(1) Receive a Yellow Card
+12.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+2.30
+(5) None of the above
+2.65

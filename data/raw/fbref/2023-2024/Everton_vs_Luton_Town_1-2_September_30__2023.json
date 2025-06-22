@@ -1,0 +1,138 @@
+{
+  "url": "https://fbref.com/en/matches/921d5f17/Everton-Luton-Town-September-30-2023-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Luton Town",
+  "matchDate": "September 30, 2023",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 24,
+        "player": "Tom Lockyer",
+        "playerId": "37118440",
+        "team": "Luton Town",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 31,
+        "player": "Carlton Morris",
+        "playerId": "2da834f1",
+        "team": "Luton Town",
+        "isPenalty": false,
+        "assist": "Alfie Doughty"
+      },
+      {
+        "minute": 41,
+        "player": "Dominic Calvert-Lewin",
+        "playerId": "59e6e5bf",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 66,
+        "player": "Issa Kaboré",
+        "playerId": "c066d1a5",
+        "team": "Luton Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Mads Juel Andersen",
+        "playerId": "f098c03e",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Teden Mengi",
+        "playerId": "91748070",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Beto",
+        "playerId": "ed5c0319",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Nathan Patterson",
+        "playerId": "230f0471",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Elijah Adebayo",
+        "playerId": "0480ebc7",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Cauley Woodrow",
+        "playerId": "d3085b49",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Arnaut Danjuma",
+        "playerId": "f08490a6",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

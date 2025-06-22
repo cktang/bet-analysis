@@ -1,0 +1,828 @@
+26/11/2024
+FB3945
+Newcastle
+vs
+West
+Ham
+0
+:
+1
+0
+:
+2
+%Event ID: FB3945
+Newcastle
+0
+2
+West Ham
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+West Ham (Away)
+1.33
+4.70
+6.10
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+West Ham (Away)
+600.0
+35.00
+1.001
+First Half HAD
+Newcastle (Home)
+Draw
+West Ham (Away)
+1.68
+2.73
+5.60
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+West Ham (Away)
+150.0
+5.20
+1.08
+Handicap HAD
+Newcastle (Home)
+Draw
+West Ham (Away)
+[-1]
+2.05
+[-1]
+3.65
+[+1]
+2.65
+Handicap HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+West Ham (Away)
+[-1]
+20.00
+[-1]
+11.00
+[+1]
+1.001
+[+1]
+40.00
+[+1]
+4.20
+[-1]
+1.13
+Handicap
+Newcastle (Home)
+West Ham (Away)
+[-1/-1.5]
+1.93
+[+1/+1.5]
+1.89
+Handicap- Last Odds for In Play Betting
+Newcastle (Home)
+West Ham (Away)
+[-1]
+1.76
+[+1]
+2.08
+[+2]
+1.27
+[-2]
+3.45
+[0/-0.5]
+2.07
+[0/+0.5]
+1.69
+[0]
+2.09
+[0]
+1.68
+[+1/+1.5]
+2.37
+[-1/-1.5]
+1.53
+[-1/-1.5]
+2.88
+[+1/+1.5]
+1.37
+[+1.5/+2]
+3.50
+[-1.5/-2]
+1.26
+[0/+0.5]
+4.45
+[0/-0.5]
+1.17
+Same Game All Up
+West Ham to win & Anthony GORDON to score first
+60.00
+Newcastle to win & Alexander ISAK to score first & Under [9.5] corners taken
+14.50
+Both teams to score & Newcastle to win by [2] goal(s) or more & Over [11.5] corners taken
+9.00
+Newcastle to win by [2] goal(s) or more & Over [4.5] goals & Over [12.5] corners taken
+14.50
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+40.00
+First half to be drawn [0:0] & Both teams to score in the match
+10.00
+Both teams to score in the match & First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+19.00
+Both teams to score & West Ham to win & Under [11.5] corners taken
+14.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+6.75
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+5.75
+First Half to be drawn & Newcastle to win the match by exactly [2] goal(s)
+12.00
+The match to be drawn & Under [10.5] corners taken
+9.50
+West Ham to score first & Newcastle to win by exactly [1] goal(s)
+14.00
+Newcastle to score in the first half & West Ham to win or draw the match
+5.50
+West Ham to score in the first half & Newcastle to win the match by [2] goal(s) or more
+8.75
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+24.00
+Newcastle to win [1:0] in the first half & Newcastle to win [3:1] in the match
+35.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Newcastle to win [3:1] in the match
+45.00
+First half to be drawn [0:0] & Newcastle to win [2:0] in the match
+24.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.82
+1.88
+[3.5]
+2.04
+1.69
+[4.5]
+3.25
+1.28
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.14
+4.60
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.22
+1.58
+[4/4.5]
+2.17
+1.61
+[4.5]
+5.40
+1.10
+[5.5]
+4.05
+1.18
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.94
+1.76
+[1.5/2]
+2.35
+1.52
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.93
+1.77
+[1.5]
+1.21
+3.80
+[1.5/2]
+4.40
+1.15
+[2/2.5]
+9.50
+1.02
+[2.5]
+11.00
+1.005
+[3.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.02
+1.70
+[12.5]
+2.58
+1.44
+[15.5]
+5.40
+1.10
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.08
+5.90
+[8.5]
+1.15
+4.40
+[9.5]
+1.32
+3.05
+[10.5]
+1.37
+2.80
+[11.5]
+1.57
+2.25
+[12.5]
+4.40
+1.15
+[13.5]
+10.50
+1.01
+[14.5]
+12.00
+1.001
+[15.5]
+3.70
+1.22
+[16.5]
+3.65
+1.23
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.02
+1.70
+[6.5]
+2.85
+1.36
+[8.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.23
+3.65
+[4.5]
+1.24
+3.55
+[5.5]
+4.75
+1.13
+[6.5]
+8.50
+1.03
+[7.5]
+12.00
+1.001
+[8.5]
+5.40
+1.10
+[9.5]
+5.60
+1.09
+Correct Score
+Newcastle (Home)
+Draw
+West Ham (Away)
+1:0
+8.75
+0:0
+20.00
+0:1
+24.00
+2:0
+7.75
+1:1
+9.25
+0:2
+35.00
+2:1
+6.90
+2:2
+13.00
+1:2
+17.00
+3:0
+9.25
+3:3
+40.00
+0:3
+70.00
+3:1
+9.00
+1:3
+40.00
+3:2
+17.00
+2:3
+35.00
+4:0
+17.00
+0:4
+250.0
+4:1
+15.00
+1:4
+100.0
+4:2
+28.00
+2:4
+80.00
+5:0
+35.00
+0:5
+700.0
+5:1
+35.00
+1:5
+400.0
+5:2
+40.00
+2:5
+400.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+20.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+West Ham (Away)
+1:0
+6.80
+0:0
+15.50
+0:1
+4.90
+2:0
+6.10
+1:1
+3.38
+0:2
+1.15
+2:1
+4.60
+2:2
+100.0
+1:2
+5.60
+3:0
+8.00
+3:3
+1000
+0:3
+14.00
+3:1
+10.00
+1:3
+80.00
+3:2
+1000
+2:3
+1000
+4:0
+14.50
+0:4
+600.0
+4:1
+29.00
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+30.00
+0:5
+1000
+5:1
+125.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+60.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Newcastle (Home)
+Draw
+West Ham (Away)
+1:0
+3.55
+0:0
+3.65
+0:1
+8.50
+2:0
+5.50
+1:1
+6.90
+0:2
+26.00
+2:1
+10.00
+2:2
+40.00
+1:2
+23.00
+3:0
+14.00
+3:3
+500.0
+0:3
+125.0
+3:1
+28.00
+1:3
+125.0
+3:2
+100.0
+2:3
+200.0
+4:0
+50.00
+0:4
+700.0
+4:1
+80.00
+1:4
+700.0
+4:2
+400.0
+2:4
+900.0
+5:0
+200.0
+0:5
+2500
+5:1
+400.0
+1:5
+2500
+5:2
+900.0
+2:5
+2500
+Home Others
+(Away No Goal)
+700.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+West Ham (Away)
+1:0
+2.85
+0:0
+2.94
+0:1
+1.14
+2:0
+5.90
+1:1
+5.00
+0:2
+25.00
+2:1
+101.0
+2:2
+1500
+1:2
+100.0
+3:0
+18.00
+3:3
+2500
+0:3
+450.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+80.00
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+250.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Newcastle (Home)
+No Goals
+West Ham (Away)
+1.31
+20.00
+3.05
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+West Ham (Away)
+1st Goal
+1.30
+17.00
+3.22
+2nd Goal
+1.43
+4.90
+4.20
+3rd Goal
+5.50
+1.15
+13.50
+Total Goals
+0
+20.00
+1
+7.00
+2
+4.15
+3
+3.75
+4
+4.20
+5
+6.00
+6
+9.50
+7+
+11.50
+Total Goals- Last Odds for In Play Betting
+0
+15.50
+1
+4.90
+2
+1.28
+3
+2.96
+4
+19.00
+5
+200.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Newcastle (Home)
+West Ham (Away)
+101 Alexander ISAK
+3.05
+201 Jarrod BOWEN
+9.75
+102 Callum WILSON
+3.50
+202 Michail ANTONIO
+11.00
+103 William OSULA
+4.50
+203 Danny INGS
+12.00
+104 Harvey BARNES
+4.95
+204 Crysencio SUMMERVILLE
+15.00
+105 Anthony GORDON
+5.20
+205 Tomas SOUCEK
+15.00
+106 JOELINTON Cassio
+6.10
+206 Carlos SOLER
+19.00
+107 Jacob MURPHY
+7.50
+207 LUCAS PAQUETA
+19.00
+108 Miguel ALMIRON
+8.25
+208 Andy IRVING
+20.00
+109 Joe WILLOCK
+11.50
+209 Luis GUILHERME
+22.00
+110 BRUNO GUIMARAES
+14.00
+210 Guido RODRIGUEZ
+40.00
+111 Sandro TONALI
+14.00
+211 Konstantinos MAVROPANOS
+45.00
+112 Lewis MILEY
+16.00
+212 Jean-Clair TODIBO
+65.00
+113 Sean LONGSTAFF
+16.00
+213 Max KILMAN
+80.00
+114 Fabian SCHAR
+19.00
+214 Aaron CRESSWELL
+100.0
+115 Dan BURN
+26.00
+215 Aaron WAN-BISSAKA
+100.0
+116 Kieran TRIPPIER
+30.00
+216 EMERSON PALMIERI dos Santos
+100.0
+117 Alex MURPHY
+35.00
+217 Vladimir COUFAL
+125.0
+118 Lewis HALL
+35.00
+119 Matt TARGETT
+40.00
+120 Home Others
+9.75
+220 Away Others
+22.00
+00 No First Scorer
+19.80
+HaFu
+H-H
+1.92
+H-D
+15.00
+H-A
+35.00
+D-H
+3.95
+D-D
+7.50
+D-A
+13.50
+A-H
+19.00
+A-D
+15.00
+A-A
+10.00
+Specials
+Item No.: 1 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.77
+(4) Be substituted
+3.85
+(5) None of the above
+3.05
+Item No.: 2 How many goal(s) will Alexander ISAK (Newcastle) score?
+(1) No Goal
+1.68
+(2) 1 Goal
+2.37
+(3) 2 Goals
+6.50
+(4) 3 Goals or more
+22.00
+Item No.: 3 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.50
+(4) Be substituted
+1.53
+(5) None of the above
+5.50
+Item No.: 4 Which event will happen to Michail ANTONIO (West Ham) first?
+(1) Receive a Yellow Card
+5.35
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.35
+(4) Be substituted
+1.43
+(5) None of the above
+5.10
+Item No.: 5 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+4.30
+(5) None of the above
+1.65

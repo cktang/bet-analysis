@@ -1,0 +1,759 @@
+12/04/2025
+FB0245
+Southampton
+vs
+Aston
+Villa
+0
+:
+0
+0
+:
+3
+%Event ID: FB0245
+Southampton
+0
+3
+Aston Villa
+Eng Premier
+Home/Away/Draw
+Southampton (Home)
+Draw
+Aston Villa (Away)
+5.90
+4.35
+1.37
+Home/Away/Draw- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Aston Villa (Away)
+90.00
+40.00
+1.001
+First Half HAD
+Southampton (Home)
+Draw
+Aston Villa (Away)
+5.50
+2.50
+1.79
+First Half HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Aston Villa (Away)
+16.00
+1.14
+5.00
+Handicap HAD
+Southampton (Home)
+Draw
+Aston Villa (Away)
+[+2]
+1.54
+[+2]
+4.30
+[-2]
+3.85
+[+1]
+2.55
+[+1]
+3.50
+[-1]
+2.16
+Handicap HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Aston Villa (Away)
+[+1]
+1.61
+[+1]
+2.88
+[-1]
+5.70
+[+4]
+1.07
+[+4]
+5.10
+[-4]
+90.00
+[+2]
+6.80
+[+2]
+1.62
+[-2]
+2.66
+[+3]
+15.00
+[+3]
+1.09
+[-3]
+6.40
+Handicap
+Southampton (Home)
+Aston Villa (Away)
+[+1]
+2.09
+[-1]
+1.75
+Same Game All Up
+Both teams to score & Aston Villa to win & Over [12.5] corners taken
+10.50
+Aston Villa to win & Over [3.5] goals & Over [12.5] corners taken
+12.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [4:1] in the match
+70.00
+Both teams to score & Over [3.5] goals & Over [13.5] corners taken
+15.50
+Both teams to score & Southampton to win & Under [11.5] corners taken
+14.00
+Both teams to score in the match & First Half to be drawn & Aston Villa to win the match by [2] goal(s) or more
+21.00
+Southampton to score first & Aston Villa to win by exactly [1] goal(s)
+15.00
+Aston Villa to score first in the match & Aston Villa to win the first half & Over [2.5] goals in the first half
+8.75
+Over [6.5] corners taken in the first half & Over [14.5] corners taken in the match
+9.50
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.25
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+12.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.90
+First Half to be drawn & Aston Villa to win the match by [2] goal(s) or more
+9.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.75
+Aston Villa to win [1:0] in the first half & Aston Villa to win [3:1] in the match
+35.00
+Aston Villa to win [1:0] in the first half & Aston Villa to win [4:0] in the match
+45.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [3:1] in the match
+45.00
+Aston Villa to win [2:0] in the first half & Aston Villa to win [4:0] in the match
+40.00
+First half to be drawn [1:1] & Southampton to win [2:1] in the match
+50.00
+Both first half and the match to be drawn & Under [9.5] corners taken in the match
+13.50
+HiLo
+Line
+High
+Low
+[2.5]
+1.49
+2.43
+[3/3.5]
+1.98
+1.73
+[3.5]
+2.35
+1.52
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.85
+1.85
+[1/1.5]
+3.20
+1.29
+[1.5]
+3.80
+1.21
+[1.5/2]
+2.27
+1.56
+[2/2.5]
+4.40
+1.15
+[2.5]
+1.81
+1.89
+[2.5/3]
+5.90
+1.08
+[3/3.5]
+11.50
+1.002
+[3.5]
+11.50
+1.002
+[3.5/4]
+6.60
+1.06
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.17
+1.61
+[1.5/2]
+2.62
+1.42
+[2.5]
+4.60
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.60
+1.09
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.62
+1.42
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.12
+1.64
+[11.5]
+2.65
+1.41
+[13.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.39
+2.70
+[10.5]
+1.41
+2.65
+[11.5]
+1.35
+2.88
+[12.5]
+1.40
+2.68
+[13.5]
+1.17
+4.15
+[14.5]
+1.40
+2.68
+[15.5]
+1.60
+2.19
+[16.5]
+3.90
+1.20
+[17.5]
+8.00
+1.04
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.80
+1.90
+[5.5]
+2.65
+1.41
+[7.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.30
+3.15
+[5.5]
+1.30
+3.15
+[6.5]
+3.20
+1.29
+[7.5]
+10.50
+1.01
+[8.5]
+8.50
+1.03
+Correct Score
+Southampton (Home)
+Draw
+Aston Villa (Away)
+1:0
+21.00
+0:0
+15.00
+0:1
+7.75
+2:0
+30.00
+1:1
+8.25
+0:2
+6.90
+2:1
+15.00
+2:2
+14.00
+1:2
+6.90
+3:0
+70.00
+3:3
+40.00
+0:3
+9.75
+3:1
+40.00
+1:3
+9.75
+3:2
+40.00
+2:3
+19.00
+4:0
+250.0
+0:4
+17.00
+4:1
+125.0
+1:4
+18.00
+4:2
+100.0
+2:4
+30.00
+5:0
+700.0
+0:5
+35.00
+5:1
+500.0
+1:5
+35.00
+5:2
+400.0
+2:5
+50.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+50.00
+Home Others
+(Away Scores)
+100.0
+Draw Others
+150.0
+Away Others
+(Home Scores)
+28.00
+Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Aston Villa (Away)
+1:0
+8.50
+0:0
+2.02
+0:1
+1.61
+2:0
+60.00
+1:1
+6.60
+0:2
+1.14
+2:1
+41.00
+2:2
+400.0
+1:2
+12.00
+3:0
+800.0
+3:3
+1000
+0:3
+1.10
+3:1
+600.0
+1:3
+16.50
+3:2
+1000
+2:3
+500.0
+4:0
+1000
+0:4
+6.90
+4:1
+1000
+1:4
+80.00
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+90.00
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Southampton (Home)
+Draw
+Aston Villa (Away)
+1:0
+7.50
+0:0
+3.25
+0:1
+3.50
+2:0
+25.00
+1:1
+6.90
+0:2
+5.80
+2:1
+25.00
+2:2
+50.00
+1:2
+11.00
+3:0
+150.0
+3:3
+700.0
+0:3
+14.50
+3:1
+150.0
+1:3
+35.00
+3:2
+300.0
+2:3
+125.0
+4:0
+800.0
+0:4
+60.00
+4:1
+800.0
+1:4
+125.0
+4:2
+1000
+2:4
+500.0
+5:0
+2500
+0:5
+300.0
+5:1
+2500
+1:5
+500.0
+5:2
+2500
+2:5
+1000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Aston Villa (Away)
+1:0
+14.00
+0:0
+1.09
+0:1
+6.00
+2:0
+250.0
+1:1
+60.00
+0:2
+60.00
+2:1
+2500
+2:2
+2500
+1:2
+500.0
+3:0
+2500
+3:3
+2500
+0:3
+2000
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Southampton (Home)
+No Goals
+Aston Villa (Away)
+3.05
+15.00
+1.34
+Next Team To Score- Last Odds for In Play Betting
+Southampton (Home)
+No Goals
+Aston Villa (Away)
+1st Goal
+5.40
+2.35
+1.87
+2nd Goal
+6.00
+1.75
+2.49
+3rd Goal
+11.50
+1.14
+5.90
+4th Goal
+15.50
+1.07
+7.00
+Total Goals
+0
+15.00
+1
+5.90
+2
+3.90
+3
+3.65
+4
+4.40
+5
+6.50
+6
+11.50
+7+
+15.00
+Total Goals- Last Odds for In Play Betting
+0
+2.02
+1
+1.61
+2
+1.14
+3
+1.07
+4
+5.00
+5
+80.00
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Southampton (Home)
+Aston Villa (Away)
+101 Paul ONUACHU
+8.00
+201 Ollie WATKINS
+3.85
+102 Cameron ARCHER
+9.00
+202 Marcus RASHFORD
+4.05
+103 Ross STEWART
+10.00
+203 Marco ASENSIO
+4.70
+104 Albert GRONBAEK
+13.00
+204 Morgan ROGERS
+6.40
+105 Joe ARIBO
+13.00
+205 Leon BAILEY
+7.00
+106 Tyler DIBLING
+16.00
+206 Donyell MALEN
+7.25
+107 Kamaldeen SULEMANA
+20.00
+207 Jacob RAMSEY
+7.50
+108 Mateus FERNANDES
+20.00
+208 Ross BARKLEY
+9.00
+109 Will SMALLBONE
+28.00
+209 John McGINN
+13.00
+110 Adam LALLANA
+30.00
+210 Amadou ONANA
+14.50
+111 Jan BEDNAREK
+35.00
+211 Youri TIELEMANS
+20.00
+113 Taylor HARWOOD-BELLIS
+45.00
+212 Matty CASH
+23.00
+112 Kyle WALKER-PETERS
+50.00
+213 Ian MAATSEN
+26.00
+114 Yukinari SUGAWARA
+50.00
+214 Tyrone MINGS
+30.00
+115 Juan LARIOS
+55.00
+215 Andres GARCIA
+35.00
+116 Lesley UGOCHUKWU
+65.00
+216 Ezri KONSA
+35.00
+117 Ryan MANNING
+75.00
+217 Lucas DIGNE
+35.00
+118 Armel BELLA-KOTCHAP
+80.00
+218 Boubacar KAMARA
+40.00
+119 Nathan WOOD
+80.00
+219 Lamare BOGARDE
+40.00
+120 Home Others
+15.00
+220 Away Others
+6.70
+00 No First Scorer
+14.80
+HaFu
+H-H
+10.50
+H-D
+15.00
+H-A
+17.00
+D-H
+13.00
+D-D
+7.00
+D-A
+3.95
+A-H
+35.00
+A-D
+15.00
+A-A
+1.97

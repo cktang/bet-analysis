@@ -1,0 +1,816 @@
+26/12/2024
+FB5598
+Manchester
+City
+vs
+Everton
+1
+:
+1
+1
+:
+1
+%Event ID: FB5598
+Manchester City
+1
+1
+Everton
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Everton (Away)
+1.24
+5.30
+7.25
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Everton (Away)
+6.60
+1.08
+30.00
+First Half HAD
+Manchester City (Home)
+Draw
+Everton (Away)
+1.56
+2.87
+6.50
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Everton (Away)
+5.80
+1.09
+24.00
+Handicap HAD
+Manchester City (Home)
+Draw
+Everton (Away)
+[-2]
+2.88
+[-2]
+3.95
+[+2]
+1.85
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Everton (Away)
+[-2]
+5.30
+[-2]
+4.10
+[+2]
+1.41
+[-1]
+30.00
+[-1]
+6.90
+[+1]
+1.04
+Handicap
+Manchester City (Home)
+Everton (Away)
+[-1.5/-2]
+2.09
+[+1.5/+2]
+1.75
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Everton (Away)
+[-2]
+5.20
+[+2]
+1.13
+[-1/-1.5]
+1.18
+[+1/+1.5]
+4.35
+[-2/-2.5]
+2.05
+[+2/+2.5]
+1.70
+[-1.5/-2]
+2.09
+[+1.5/+2]
+1.75
+[-1]
+2.16
+[+1]
+1.63
+[-0.5/-1]
+2.35
+[+0.5/+1]
+1.54
+[0/-0.5]
+4.65
+[0/+0.5]
+1.16
+Same Game All Up
+Erling HAALAND to score first & Over [3.5] goals & Over [10.5] corners taken
+12.50
+Dominic CALVERT-LEWIN to score first in the match & Under [1.5] goals in the first half & Under [9.5] corners taken in the match
+40.00
+Both teams to score & Manchester City to win by [2] goal(s) or more & Over [10.5] corners taken
+7.25
+Manchester City to win by [2] goal(s) or more & Over [3.5] goals & Over [11.5] corners taken
+6.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+25.00
+First half to be drawn [0:0] & Both teams to score in the match
+12.00
+Both teams to score in the match & First Half to be drawn & Manchester City to win the match by [2] goal(s) or more
+18.00
+Both teams to score & Everton to win & Under [9.5] corners taken
+29.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+6.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+7.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.00
+First Half to be drawn & Manchester City to win the match by exactly [2] goal(s)
+10.50
+The match to be drawn & Under [9.5] corners taken
+12.50
+Manchester City to score in the first half & Everton to win or draw the match
+8.00
+Everton to score in the first half & Manchester City to win the match by [2] goal(s) or more
+8.25
+Manchester City to win [1:0] in the first half & Manchester City to win [3:1] in the match
+30.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+50.00
+First half to be drawn [0:0] & Manchester City to win [2:0] in the match
+20.00
+First half to be drawn [1:1] & Manchester City to win [3:1] in the match
+35.00
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.42
+2.62
+[3/3.5]
+1.87
+1.83
+[3.5]
+2.10
+1.65
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.20
+3.90
+[2.5/3]
+6.25
+1.07
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.27
+1.56
+[4/4.5]
+2.29
+1.55
+[4.5]
+5.40
+1.10
+[5.5]
+4.60
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.90
+1.80
+[1.5/2]
+2.33
+1.53
+[2.5]
+3.70
+1.22
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.51
+2.38
+[1/1.5]
+2.25
+1.57
+[1.5]
+1.32
+3.05
+[1.5/2]
+3.40
+1.26
+[2/2.5]
+7.00
+1.05
+[2.5]
+8.00
+1.04
+[2.5/3]
+5.90
+1.08
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.02
+1.70
+[12.5]
+2.62
+1.42
+[14.5]
+4.40
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.55
+2.29
+[10.5]
+1.52
+2.35
+[11.5]
+1.53
+2.33
+[12.5]
+1.14
+4.60
+[13.5]
+1.31
+3.10
+[14.5]
+4.30
+1.16
+[15.5]
+10.50
+1.01
+[16.5]
+12.00
+1.001
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.91
+1.79
+[6.5]
+2.80
+1.37
+[8.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.07
+6.25
+[4.5]
+4.15
+1.17
+[5.5]
+8.50
+1.03
+[6.5]
+9.50
+1.001
+[7.5]
+5.40
+1.10
+[8.5]
+6.25
+1.07
+Correct Score
+Manchester City (Home)
+Draw
+Everton (Away)
+1:0
+8.00
+0:0
+18.00
+0:1
+27.00
+2:0
+6.70
+1:1
+10.00
+0:2
+40.00
+2:1
+7.25
+2:2
+16.00
+1:2
+20.00
+3:0
+8.00
+3:3
+50.00
+0:3
+100.0
+3:1
+9.00
+1:3
+50.00
+3:2
+20.00
+2:3
+40.00
+4:0
+12.00
+0:4
+400.0
+4:1
+14.00
+1:4
+200.0
+4:2
+35.00
+2:4
+150.0
+5:0
+24.00
+0:5
+1000
+5:1
+28.00
+1:5
+700.0
+5:2
+40.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+35.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+21.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Everton (Away)
+1:0
+7.20
+0:0
+11.50
+0:1
+21.00
+2:0
+3.90
+1:1
+1.09
+0:2
+50.00
+2:1
+6.80
+2:2
+150.0
+1:2
+30.10
+3:0
+4.75
+3:3
+1000
+0:3
+200.0
+3:1
+150.0
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+8.75
+0:4
+900.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+23.00
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+50.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Everton (Away)
+1:0
+3.25
+0:0
+3.80
+0:1
+9.50
+2:0
+4.90
+1:1
+7.25
+0:2
+40.00
+2:1
+10.50
+2:2
+50.00
+1:2
+30.00
+3:0
+11.50
+3:3
+600.0
+0:3
+200.0
+3:1
+27.00
+1:3
+200.0
+3:2
+100.0
+2:3
+300.0
+4:0
+40.00
+0:4
+1000
+4:1
+80.00
+1:4
+900.0
+4:2
+400.0
+2:4
+1500
+5:0
+150.0
+0:5
+2500
+5:1
+400.0
+1:5
+2500
+5:2
+900.0
+2:5
+2500
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Everton (Away)
+1:0
+1.35
+0:0
+2.54
+0:1
+9.50
+2:0
+3.65
+1:1
+1.10
+0:2
+60.00
+2:1
+5.90
+2:2
+100.0
+1:2
+24.10
+3:0
+22.00
+3:3
+2500
+0:3
+400.0
+3:1
+100.0
+1:3
+1000
+3:2
+2500
+2:3
+2500
+4:0
+150.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Everton (Away)
+1.24
+18.00
+3.60
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Everton (Away)
+1st Goal
+1.23
+11.50
+4.10
+2nd Goal
+1.38
+7.00
+3.65
+3rd Goal
+6.10
+1.09
+25.00
+Total Goals
+0
+18.00
+1
+6.80
+2
+4.15
+3
+3.70
+4
+4.25
+5
+6.00
+6
+11.00
+7+
+11.00
+Total Goals- Last Odds for In Play Betting
+0
+11.50
+1
+7.20
+2
+1.09
+3
+4.65
+4
+80.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester City (Home)
+Everton (Away)
+101 Erling HAALAND
+2.50
+201 Dominic CALVERT-LEWIN
+10.00
+102 Phil FODEN
+6.70
+202 Armando BROJA
+11.00
+103 Kevin DE BRUYNE
+7.50
+203 BETO Betuncal
+11.50
+106 SAVINHO Moreira de Oliveira
+8.00
+204 Youssef CHERMITI
+14.00
+107 Jeremy DOKU
+8.00
+205 Dwight McNEIL
+16.00
+104 Jack GREALISH
+8.25
+206 Jesper LINDSTROM
+16.00
+105 James McATEE
+8.25
+207 Iliman NDIAYE
+17.00
+108 BERNARDO SILVA
+13.00
+208 Jack HARRISON
+18.00
+109 Josko GVARDIOL
+16.00
+209 Abdoulaye DOUCOURE
+26.00
+110 Ilkay GUNDOGAN
+16.00
+210 Idrissa GUEYE
+30.00
+111 Mateo KOVACIC
+18.00
+211 Orel MANGALA
+30.00
+112 Matheus NUNES
+18.00
+212 Harrison ARMSTRONG
+35.00
+113 John STONES
+21.00
+213 James TARKOWSKI
+50.00
+114 Rico LEWIS
+30.00
+214 Mike KEANE
+60.00
+115 Manuel AKANJI
+35.00
+215 Jake O'BRIEN
+65.00
+116 Kyle WALKER
+45.00
+216 Jarrad BRANTHWAITE
+65.00
+217 Vitaliy MYKOLENKO
+65.00
+218 Nathan PATTERSON
+90.00
+219 Roman DIXON
+100.0
+120 Home Others
+9.25
+220 Away Others
+27.00
+00 No First Scorer
+17.80
+HaFu
+H-H
+1.70
+H-D
+17.00
+H-A
+50.00
+D-H
+3.75
+D-D
+8.50
+D-A
+17.00
+A-H
+19.00
+A-D
+17.00
+A-A
+13.00
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+12.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.60
+(4) Be substituted
+4.75
+(5) None of the above
+2.80
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.95
+(2) 1 Goal
+2.40
+(3) 2 Goals
+5.50
+(4) 3 Goals or more
+9.50
+Item No.: 3 Which event will happen to Jack GREALISH (Manchester City) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.25
+(4) Be substituted
+1.53
+(5) None of the above
+3.85
+Item No.: 4 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.60
+(4) Be substituted
+2.10
+(5) None of the above
+3.00
+Item No.: 5 Which event will happen to SAVINHO Moreira de Oliveira (Manchester City) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.30
+(4) Be substituted
+1.37
+(5) None of the above
+5.25

@@ -1,0 +1,135 @@
+{
+  "url": "https://fbref.com/en/matches/79406a7e/West-Ham-United-Brentford-February-15-2025-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Brentford",
+  "matchDate": "February 15, 2025",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 4,
+        "player": "Kevin Schade",
+        "playerId": "52afb588",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 28,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 32,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Oliver Scarles",
+        "playerId": "242e5e6d",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Ethan Pinnock",
+        "playerId": "e541326e",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Mathias Jensen",
+        "playerId": "0f134faf",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Luis Guilherme",
+        "playerId": "b7672d43",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Michael Kayode",
+        "playerId": "e19660a8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Fabio Carvalho",
+        "playerId": "966e28d0",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

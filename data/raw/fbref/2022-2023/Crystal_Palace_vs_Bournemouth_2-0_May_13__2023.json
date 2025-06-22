@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/a4ffd11f/Crystal-Palace-Bournemouth-May-13-2023-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Bournemouth",
+  "matchDate": "May 13, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 39,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Jordan Ayew"
+      },
+      {
+        "minute": 58,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Michael Olise"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 92,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Bournemouth"
+      },
+      {
+        "minute": 94,
+        "player": "David Brooks",
+        "playerId": "dc4cae05",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 51,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Kieffer Moore",
+        "playerId": "01ce9e70",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "David Brooks",
+        "playerId": "dc4cae05",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Adam Smith",
+        "playerId": "20b104bc",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jaidon Anthony",
+        "playerId": "e4238fb1",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jaïro Riedewald",
+        "playerId": "7a1f2c08",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "James McArthur",
+        "playerId": "cee31595",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Lewis Cook",
+        "playerId": "2afc7272",
+        "team": "Bournemouth",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

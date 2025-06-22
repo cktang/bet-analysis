@@ -1,0 +1,128 @@
+{
+  "url": "https://fbref.com/en/matches/0ba42648/Fulham-West-Ham-United-April-8-2023-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "West Ham United",
+  "matchDate": "April 8, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "Harrison Reed",
+        "playerId": "803ae100",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 62,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham"
+      },
+      {
+        "minute": 73,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Manor Solomon",
+        "playerId": "886f9aac",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Kenny Tete",
+        "playerId": "77d7c96f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Daniel James",
+        "playerId": "c931d9f9",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Maxwel Cornet",
+        "playerId": "beb391dd",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

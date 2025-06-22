@@ -1,0 +1,323 @@
+02/09/2023
+FB5062
+Burnley
+vs
+Tottenham
+1
+:
+2
+2
+:
+5
+%Event ID: FB5062
+Burnley
+2
+5
+Tottenham
+Eng Premier
+Home/Away/Draw
+Burnley (Home)
+Draw
+Tottenham (Away)
+3.60
+3.55
+1.77
+Home/Away/Draw- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Tottenham (Away)
+1000
+100.0
+1.001
+First Half HAD
+Burnley (Home)
+Draw
+Tottenham (Away)
+3.90
+2.37
+2.19
+First Half HAD- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Tottenham (Away)
+14.00
+1.10
+6.90
+Handicap HAD
+Burnley (Home)
+Draw
+Tottenham (Away)
+[+1]
+1.87
+[+1]
+3.60
+[-1]
+3.10
+Handicap
+Burnley (Home)
+Tottenham (Away)
+[+0.5/+1]
+1.71
+[-0.5/-1]
+2.16
+Same Game All Up
+SON Heung Min to score first & Tottenham to win & Over [10.5] corners taken
+14.00
+Tottenham to win & Over [3.5] goals & Over [11.5] corners taken
+11.00
+The match to be drawn & Under [8.5] corners taken
+9.75
+Burnley to win & Over [2.5] goals
+5.10
+Tottenham to score first & Burnley to win or draw
+5.60
+Tottenham to win the first half & Tottenham to win the match by [3] goal(s) or more
+8.00
+First Half to be drawn & Tottenham to win the match by exactly [1] goal(s)
+7.75
+Burnley to win the first half & Over [1.5] goals in the first half
+9.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+21.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.10
+Tottenham to win by exactly [2] goal(s) & Under [10.5] corners taken
+9.75
+First Half to be drawn and Tottenham to win the match & Over [11.5] corners taken in the match
+13.00
+Tottenham to win both first half and the match & Exactly [4] goals in the Match
+14.00
+Burnley to win both first half and the match & Exactly [3] goals in the Match
+16.00
+Exactly [5] goals & Over [12.5] corners taken
+25.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.62
+2.15
+[2.5/3]
+1.77
+1.93
+[3.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.19
+4.05
+[2.5/3]
+1.23
+3.65
+[3/3.5]
+1.21
+3.80
+[3.5]
+1.16
+4.40
+[3.5/4]
+1.22
+3.70
+[4/4.5]
+1.79
+1.91
+[4.5]
+1.21
+3.80
+[4.5/5]
+1.45
+2.55
+[5/5.5]
+2.15
+1.62
+[5.5]
+1.34
+2.95
+[5.5/6]
+1.54
+2.30
+[6/6.5]
+2.45
+1.48
+[6.5]
+1.41
+2.68
+[6.5/7]
+6.10
+1.08
+[7/7.5]
+9.50
+1.02
+[7.5]
+9.50
+1.02
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.88
+1.36
+[2.5]
+5.30
+1.11
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.51
+2.38
+[1/1.5]
+2.20
+1.59
+[1.5]
+1.30
+3.15
+[1.5/2]
+1.77
+1.93
+[2/2.5]
+2.82
+1.37
+[2.5]
+1.54
+2.30
+[2.5/3]
+6.10
+1.08
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.90
+1.80
+[11.5]
+2.40
+1.50
+[14.5]
+5.30
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+5.10
+1.12
+[7.5]
+1.14
+4.75
+[8.5]
+1.14
+4.75
+[9.5]
+1.14
+4.75
+[10.5]
+1.15
+4.55
+[11.5]
+1.19
+4.05
+[13.5]
+9.50
+1.02
+[14.5]
+5.30
+1.11
+First Team to Score
+Burnley (Home)
+No Goals
+Tottenham (Away)
+2.35
+13.50
+1.57
+Next Team To Score- Last Odds for In Play Betting
+Burnley (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+2.32
+12.50
+1.60
+2nd Goal
+2.72
+10.00
+1.49
+3rd Goal
+3.14
+4.55
+1.67
+4th Goal
+3.16
+3.80
+1.80
+5th Goal
+3.42
+3.15
+1.90
+6th Goal
+3.48
+2.67
+2.11
+7th Goal
+11.00
+1.12
+7.20
+Total Goals
+0
+13.50
+1
+5.50
+2
+3.70
+3
+3.70
+4
+4.60
+5
+7.00
+6
+13.50
+7+
+20.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+5.70
+H-D
+13.00
+H-A
+21.00
+D-H
+8.50
+D-D
+5.80
+D-A
+4.75
+A-H
+30.00
+A-D
+13.00
+A-A
+2.72

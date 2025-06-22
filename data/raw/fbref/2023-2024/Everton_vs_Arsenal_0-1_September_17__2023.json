@@ -1,0 +1,128 @@
+{
+  "url": "https://fbref.com/en/matches/b1278924/Everton-Arsenal-September-17-2023-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Arsenal",
+  "matchDate": "September 17, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 69,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 47,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Everton"
+      },
+      {
+        "minute": 48,
+        "player": "Gabriel Magalhães",
+        "playerId": "67ac5bb8",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 24,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Dominic Calvert-Lewin",
+        "playerId": "59e6e5bf",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Takehiro Tomiyasu",
+        "playerId": "b3af9be1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Nathan Patterson",
+        "playerId": "230f0471",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Youssef Chermiti",
+        "playerId": "890f108d",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

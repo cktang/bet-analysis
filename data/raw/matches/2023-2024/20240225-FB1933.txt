@@ -1,0 +1,634 @@
+25/02/2024
+FB1933
+Bournemouth
+vs
+Manchester
+City
+0
+:
+1
+0
+:
+1
+%Event ID: FB1933
+Bournemouth
+0
+1
+Manchester City
+Eng Premier
+Home/Away/Draw
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+6.10
+4.80
+1.32
+Home/Away/Draw- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+1000
+16.00
+1.01
+First Half HAD
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+5.40
+2.77
+1.68
+First Half HAD- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+900.0
+17.00
+1.01
+Handicap HAD
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+[+1]
+2.80
+[+1]
+3.60
+[-1]
+1.98
+Handicap
+Bournemouth (Home)
+Manchester City (Away)
+[+1/+1.5]
+1.96
+[-1/-1.5]
+1.86
+Same Game All Up
+Erling HAALAND to score first & Over [3.5] goals & Over [11.5] corners taken
+15.00
+Erling HAALAND to score first & Manchester City clean sheet & Under [8.5] corners taken
+22.00
+Erling HAALAND to score first & Manchester City to win [3:0]
+24.00
+Erling HAALAND to score first & Manchester City to win by [2] goal(s) or more & Bournemouth to score
+14.00
+Manchester City to win & Over [3.5] goals & Over [12.5] corners taken
+7.00
+Bournemouth to win & Over [2.5] goals
+8.50
+Bournemouth to score first & Manchester City to win & Over [10.5] corners taken
+13.00
+Manchester City to score first in the match & Bournemouth to score in the first half & The match to be drawn [2:2]
+45.00
+Manchester City to win the first half & Over [2.5] goals in the first half
+5.75
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+6.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+6.00
+Bournemouth clean sheet in the first half & Manchester City to win the match by exactly [2] goal(s) & Over [9.5] corners taken in the match
+24.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:1] in the match
+25.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+35.00
+Manchester City to win [2:1] in the first half & Manchester City to win [4:1] in the match
+60.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+80.00
+First half to be drawn [0:0] & Bournemouth to win [1:0] in the match
+40.00
+Manchester City to win by [3] goal(s) or more & Manchester City clean sheet & Under [8.5] corners taken
+19.00
+Manchester City to win both first half and the match & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+12.00
+Bournemouth to win first half and Manchester City to win the match & Over [10.5] corners taken in the match
+35.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.77
+1.93
+[3.5]
+2.00
+1.72
+[4.5]
+3.15
+1.30
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.40
+1.10
+[2/2.5]
+11.50
+1.002
+[2.5]
+9.50
+1.02
+[2.5/3]
+2.22
+1.58
+[3/3.5]
+2.38
+1.51
+[3.5]
+4.95
+1.12
+[3.5/4]
+2.17
+1.61
+[4.5]
+4.60
+1.14
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.91
+1.79
+[1.5/2]
+2.25
+1.57
+[2.5]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+7.00
+1.05
+[0.5/1]
+2.02
+1.70
+[1/1.5]
+3.55
+1.24
+[1.5]
+1.66
+2.08
+[2/2.5]
+9.50
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.07
+1.67
+[12.5]
+2.55
+1.45
+[14.5]
+4.05
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+4.75
+1.13
+[6.5]
+1.32
+3.05
+[7.5]
+1.39
+2.70
+[8.5]
+1.12
+4.95
+[9.5]
+1.14
+4.60
+[10.5]
+1.04
+8.00
+[11.5]
+1.17
+4.15
+[13.5]
+9.50
+1.02
+[14.5]
+12.00
+1.001
+Correct Score
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+1:0
+25.00
+0:0
+23.00
+0:1
+9.25
+2:0
+35.00
+1:1
+9.50
+0:2
+8.00
+2:1
+17.00
+2:2
+12.50
+1:2
+7.00
+3:0
+70.00
+3:3
+40.00
+0:3
+9.50
+3:1
+40.00
+1:3
+9.00
+3:2
+30.00
+2:3
+17.00
+4:0
+250.0
+0:4
+17.00
+4:1
+100.0
+1:4
+14.50
+4:2
+80.00
+2:4
+27.00
+5:0
+700.0
+0:5
+30.00
+5:1
+400.0
+1:5
+30.00
+5:2
+400.0
+2:5
+40.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+40.00
+Home Others
+(Away Scores)
+70.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+19.00
+Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+1:0
+15.50
+0:0
+11.00
+0:1
+1.11
+2:0
+35.00
+1:1
+15.00
+0:2
+6.80
+2:1
+900.0
+2:2
+1000
+1:2
+150.0
+3:0
+125.0
+3:3
+1000
+0:3
+200.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+700.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+1:0
+8.00
+0:0
+3.90
+0:1
+3.60
+2:0
+25.00
+1:1
+6.80
+0:2
+5.40
+2:1
+22.00
+2:2
+40.00
+1:2
+10.00
+3:0
+125.0
+3:3
+500.0
+0:3
+14.00
+3:1
+100.0
+1:3
+28.00
+3:2
+200.0
+2:3
+80.00
+4:0
+700.0
+0:4
+50.00
+4:1
+700.0
+1:4
+80.00
+4:2
+900.0
+2:4
+400.0
+5:0
+2500
+0:5
+200.0
+5:1
+2500
+1:5
+400.0
+5:2
+2500
+2:5
+800.0
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+700.0
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+600.0
+First Half Correct Score- Last Odds for In Play Betting
+Bournemouth (Home)
+Draw
+Manchester City (Away)
+1:0
+7.60
+0:0
+1.86
+0:1
+1.10
+2:0
+60.00
+1:1
+17.00
+0:2
+6.90
+2:1
+901.0
+2:2
+2500
+1:2
+125.0
+3:0
+450.0
+3:3
+2500
+0:3
+125.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Bournemouth (Home)
+No Goals
+Manchester City (Away)
+3.00
+23.00
+1.31
+Next Team To Score- Last Odds for In Play Betting
+Bournemouth (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+3.34
+11.00
+1.33
+2nd Goal
+15.00
+1.11
+6.50
+Total Goals
+0
+23.00
+1
+7.00
+2
+4.35
+3
+3.75
+4
+4.15
+5
+6.00
+6
+9.00
+7+
+10.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+9.50
+H-D
+14.00
+H-A
+17.00
+D-H
+13.50
+D-D
+8.00
+D-A
+4.05
+A-H
+35.00
+A-D
+14.00
+A-A
+1.93
+Specials
+Item No.: 1 Which event will happen to Dominic SOLANKE (Bournemouth) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+7.75
+(5) None of the above
+1.60
+Item No.: 2 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+1.47
+(4) Be substituted
+8.00
+(5) None of the above
+2.70
+Item No.: 3 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.99
+(2) 1 Goal
+2.35
+(3) 2 Goals
+5.00
+(4) 3 Goals or more
+11.00
+Item No.: 4 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+10.50
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.90
+(5) None of the above
+3.35
+Item No.: 5 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+120.0
+(3) Score a Goal
+2.45
+(4) Be substituted
+3.95
+(5) None of the above
+2.01

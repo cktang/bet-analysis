@@ -1,0 +1,150 @@
+{
+  "url": "https://fbref.com/en/matches/1ff370e8/Bournemouth-Leicester-City-May-25-2025-Premier-League",
+  "homeTeam": "Bournemouth",
+  "awayTeam": "Leicester City",
+  "matchDate": "May 25, 2025",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 74,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": "Illia Zabarnyi"
+      },
+      {
+        "minute": 88,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": "Dean Huijsen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 16,
+        "player": "Luke Thomas",
+        "playerId": "fc027d02",
+        "team": "Leicester City"
+      },
+      {
+        "minute": 38,
+        "player": "Conor Coady",
+        "playerId": "2928dca2",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Daniel Jebbison",
+        "playerId": "03edb878",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Ricardo Pereira",
+        "playerId": "75a72a99",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Jeremy Monga",
+        "playerId": "4c168d3a",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Dean Huijsen",
+        "playerId": "87278bce",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Jake Evans",
+        "playerId": "cb7bcef0",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Olabade Aluko",
+        "playerId": "12bb637a",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Alex Scott",
+        "playerId": "104d0bb8",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Julio Soler",
+        "playerId": "98c8559a",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Ben Winterburn",
+        "playerId": "ba31eee2",
+        "team": "Bournemouth",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

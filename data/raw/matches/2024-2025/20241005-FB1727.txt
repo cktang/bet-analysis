@@ -1,0 +1,759 @@
+05/10/2024
+FB1727
+Brentford
+vs
+Wolves
+4
+:
+2
+5
+:
+3
+%Event ID: FB1727
+Brentford
+5
+3
+Wolves
+Eng Premier
+Home/Away/Draw
+Brentford (Home)
+Draw
+Wolves (Away)
+1.81
+3.50
+3.45
+Home/Away/Draw- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Wolves (Away)
+1.001
+15.50
+60.00
+First Half HAD
+Brentford (Home)
+Draw
+Wolves (Away)
+2.33
+2.22
+3.85
+First Half HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Wolves (Away)
+1.03
+7.00
+250.0
+Handicap HAD
+Brentford (Home)
+Draw
+Wolves (Away)
+[-1]
+3.20
+[-1]
+3.65
+[+1]
+1.80
+Handicap HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Wolves (Away)
+[-4]
+1000
+[-4]
+6.70
+[+4]
+1.01
+[-1]
+2.31
+[-1]
+2.92
+[+1]
+2.75
+[-2]
+2.46
+[-2]
+2.74
+[+2]
+2.72
+[-3]
+9.00
+[-3]
+1.05
+[+3]
+11.50
+Handicap
+Brentford (Home)
+Wolves (Away)
+[0/-0.5]
+1.71
+[0/+0.5]
+2.16
+Same Game All Up
+Both teams to score & Brentford to win & Over [11.5] corners taken
+8.00
+Brentford to win & Over [2.5] goals & Over [10.5] corners taken
+5.10
+Brentford to win [2:0] in the first half & Brentford to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Brentford to win the match by [2] goal(s) or more
+10.00
+Both teams to score & Wolves to win & Under [10.5] corners taken
+11.50
+Both teams to score & Wolves to win or draw & Over [10.5] corners taken
+4.90
+Wolves to score first & Brentford to win by [2] goal(s) or more
+24.00
+Brentford to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+21.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.70
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+3.60
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.20
+First Half to be drawn & Brentford to win the match by [2] goal(s) or more
+13.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.75
+The match to be drawn & Under [10.5] corners taken
+6.40
+Brentford to win [1:0] in the first half & Brentford to win [2:1] in the match
+25.00
+Brentford to win [2:0] in the first half & Brentford to win [3:0] in the match
+40.00
+Brentford to win [2:0] in the first half & Brentford to win [4:0] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Wolves to win [1:0] in the first half & Wolves to win [2:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.63
+2.13
+[2.5/3]
+1.80
+1.90
+[3.5]
+2.58
+1.44
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.19
+3.95
+[2.5/3]
+1.23
+3.65
+[3.5]
+1.23
+3.65
+[3.5/4]
+1.27
+3.35
+[4/4.5]
+1.22
+3.70
+[4.5]
+1.37
+2.80
+[4.5/5]
+2.13
+1.63
+[5/5.5]
+1.29
+3.20
+[5.5]
+1.07
+6.25
+[5.5/6]
+1.09
+5.60
+[6/6.5]
+2.22
+1.58
+[6.5]
+1.11
+5.15
+[6.5/7]
+5.90
+1.08
+[7/7.5]
+10.50
+1.01
+[7.5]
+10.50
+1.01
+[7.5/8]
+2.17
+1.61
+[8.5]
+5.40
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.80
+1.37
+[2.5]
+4.95
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.44
+2.58
+[1/1.5]
+2.13
+1.63
+[1.5]
+1.30
+3.15
+[1.5/2]
+1.42
+2.62
+[2/2.5]
+2.13
+1.63
+[2.5]
+1.34
+2.92
+[2.5/3]
+1.97
+1.74
+[3/3.5]
+3.45
+1.25
+[3.5]
+1.63
+2.13
+[3.5/4]
+2.33
+1.53
+[4/4.5]
+4.95
+1.12
+[4.5]
+5.40
+1.10
+[4.5/5]
+2.68
+1.40
+[5/5.5]
+5.40
+1.10
+[5.5/6]
+4.60
+1.14
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.25
+1.57
+[12.5]
+2.85
+1.36
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.67
+2.07
+[5.5]
+2.35
+1.52
+[7.5]
+5.15
+1.11
+Correct Score
+Brentford (Home)
+Draw
+Wolves (Away)
+1:0
+7.75
+0:0
+11.50
+0:1
+11.50
+2:0
+9.25
+1:1
+6.60
+0:2
+19.00
+2:1
+7.25
+2:2
+11.50
+1:2
+11.00
+3:0
+16.00
+3:3
+40.00
+0:3
+40.00
+3:1
+13.00
+1:3
+26.00
+3:2
+20.00
+2:3
+29.00
+4:0
+30.00
+0:4
+80.00
+4:1
+28.00
+1:4
+60.00
+4:2
+40.00
+2:4
+60.00
+5:0
+70.00
+0:5
+300.0
+5:1
+60.00
+1:5
+200.0
+5:2
+80.00
+2:5
+250.0
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Wolves (Away)
+1:0
+14.50
+0:0
+11.00
+0:1
+10.50
+2:0
+7.20
+1:1
+8.25
+0:2
+17.00
+2:1
+7.40
+2:2
+7.20
+1:2
+7.40
+3:0
+9.50
+3:3
+5.20
+0:3
+40.00
+3:1
+5.40
+1:3
+14.50
+3:2
+5.40
+2:3
+6.60
+4:0
+19.00
+0:4
+150.0
+4:1
+9.00
+1:4
+40.00
+4:2
+1.06
+2:4
+13.50
+5:0
+50.00
+0:5
+600.0
+5:1
+23.00
+1:5
+150.0
+5:2
+1.02
+2:5
+40.00
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+5.20
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Brentford (Home)
+Draw
+Wolves (Away)
+1:0
+3.85
+0:0
+2.98
+0:1
+5.90
+2:0
+7.75
+1:1
+6.30
+0:2
+14.50
+2:1
+13.50
+2:2
+40.00
+1:2
+18.00
+3:0
+27.00
+3:3
+600.0
+0:3
+80.00
+3:1
+50.00
+1:3
+80.00
+3:2
+150.0
+2:3
+200.0
+4:0
+125.0
+0:4
+500.0
+4:1
+200.0
+1:4
+500.0
+4:2
+600.0
+2:4
+800.0
+5:0
+600.0
+0:5
+2000
+5:1
+800.0
+1:5
+2000
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Wolves (Away)
+1:0
+2.80
+0:0
+2.70
+0:1
+5.20
+2:0
+3.40
+1:1
+1.95
+0:2
+18.00
+2:1
+1.65
+2:2
+1.54
+1:2
+4.45
+3:0
+9.75
+3:3
+10.50
+0:3
+90.00
+3:1
+3.43
+1:3
+23.00
+3:2
+1.07
+2:3
+5.40
+4:0
+40.00
+0:4
+450.0
+4:1
+19.00
+1:4
+150.0
+4:2
+9.75
+2:4
+30.00
+5:0
+150.0
+0:5
+2500
+5:1
+125.0
+1:5
+2000
+5:2
+125.0
+2:5
+250.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+60.00
+Draw Others
+2000
+Away Others
+(Home Scores)
+150.0
+First Team to Score
+Brentford (Home)
+No Goals
+Wolves (Away)
+1.60
+11.50
+2.32
+Next Team To Score- Last Odds for In Play Betting
+Brentford (Home)
+No Goals
+Wolves (Away)
+1st Goal
+1.61
+11.00
+2.33
+2nd Goal
+1.71
+14.50
+2.06
+3rd Goal
+1.71
+8.25
+2.25
+4th Goal
+1.85
+7.40
+2.11
+6th Goal
+1.97
+5.40
+2.14
+7th Goal
+8.25
+1.11
+8.75
+Total Goals
+0
+11.50
+1
+5.20
+2
+3.65
+3
+3.75
+4
+4.70
+5
+7.25
+6
+13.50
+7+
+20.00
+Total Goals- Last Odds for In Play Betting
+0
+11.00
+1
+14.50
+2
+8.25
+3
+7.40
+4
+7.20
+5
+5.40
+6
+1.06
+7+
+6.50
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Brentford (Home)
+Wolves (Away)
+101 Bryan MBEUMO
+3.65
+201 Jorgen Strand LARSEN
+6.40
+102 Kevin SCHADE
+5.80
+202 MATHEUS CUNHA
+6.40
+103 Fabio CARVALHO
+7.00
+203 HWANG Hee chan
+7.00
+104 Keane LEWIS-POTTER
+9.25
+204 Goncalo GUEDES
+7.50
+105 Tony YOGANE
+12.50
+205 Rodrigo Martins GOMES
+12.00
+106 Mikkel DAMSGAARD
+13.00
+206 Pablo SARABIA
+13.00
+107 Yehor YARMOLYUK
+14.50
+207 Carlos FORBS
+14.00
+108 Ryan TREVITT
+18.00
+208 Jeanricner BELLEGARDE
+14.00
+109 Mathias JENSEN
+19.00
+209 Mario LEMINA
+19.00
+110 Christian NORGAARD
+22.00
+210 Rayan AIT-NOURI
+21.00
+111 Vitaly JANELT
+23.00
+211 Tommy DOYLE
+28.00
+114 Nathan COLLINS
+24.00
+212 Joao GOMES
+30.00
+112 Ben MEE
+26.00
+213 Craig DAWSON
+40.00
+113 Jayden MEGHOMA
+26.00
+214 Matt DOHERTY
+45.00
+115 Ethan PINNOCK
+27.00
+215 ANDRE Trindade da Costa Neto
+65.00
+116 Yunus Emre KONAK
+29.00
+216 Nelson SEMEDO
+65.00
+117 Kristoffer AJER
+35.00
+217 Santiago BUENO
+65.00
+118 KIM Ji Soo
+45.00
+218 Tote GOMES
+65.00
+119 Sepp VAN DEN BERG
+45.00
+120 Home Others
+11.50
+220 Away Others
+17.00
+00 No First Scorer
+11.30
+HaFu
+H-H
+2.80
+H-D
+13.00
+H-A
+28.00
+D-H
+4.65
+D-D
+5.60
+D-A
+7.75
+A-H
+19.00
+A-D
+13.00
+A-A
+5.60

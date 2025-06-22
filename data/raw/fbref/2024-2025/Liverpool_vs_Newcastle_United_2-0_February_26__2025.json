@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/a0975f8c/Liverpool-Newcastle-United-February-26-2025-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Newcastle United",
+  "matchDate": "February 26, 2025",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Luis Díaz"
+      },
+      {
+        "minute": 63,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 80,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Kieran Trippier",
+        "playerId": "21512407",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Lewis Miley",
+        "playerId": "2c6835e5",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "William Osula",
+        "playerId": "7b355808",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Jarell Quansah",
+        "playerId": "4125cb98",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Sean Longstaff",
+        "playerId": "a2b105e0",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

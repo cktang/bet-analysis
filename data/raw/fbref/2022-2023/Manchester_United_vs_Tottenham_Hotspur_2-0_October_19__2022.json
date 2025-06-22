@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/eebe78c1/Manchester-United-Tottenham-Hotspur-October-19-2022-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "October 19, 2022",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 47,
+        "player": "Fred",
+        "playerId": "b853e0ad",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Jadon Sancho"
+      },
+      {
+        "minute": 69,
+        "player": "Bruno Fernandes",
+        "playerId": "507c7bdf",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 52,
+        "player": "Casemiro",
+        "playerId": "4d224fe8",
+        "team": "Manchester United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 76,
+        "player": "Scott McTominay",
+        "playerId": "d93c2511",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Ryan Sessegnon",
+        "playerId": "6aa3e78b",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Davinson Sánchez",
+        "playerId": "da7b447d",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Lucas Moura",
+        "playerId": "2b622f01",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Anthony Elanga",
+        "playerId": "2fba6108",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Christian Eriksen",
+        "playerId": "980522ec",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Oliver Skipp",
+        "playerId": "6250083a",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Djed Spence",
+        "playerId": "9bc9a519",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

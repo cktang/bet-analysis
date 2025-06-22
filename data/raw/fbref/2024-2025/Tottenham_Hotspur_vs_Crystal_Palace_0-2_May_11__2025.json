@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/a442e11f/Tottenham-Hotspur-Crystal-Palace-May-11-2025-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "May 11, 2025",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 45,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Daniel Muñoz"
+      },
+      {
+        "minute": 48,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Ismaila Sarr"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 37,
+        "player": "Rodrigo Bentancur",
+        "playerId": "3b8674e6",
+        "team": "Tottenham Hotspur"
+      },
+      {
+        "minute": 47,
+        "player": "Jefferson Lerma",
+        "playerId": "9b5ce51a",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 19,
+        "player": "Mikey Moore",
+        "playerId": "00953a9d",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Yves Bissouma",
+        "playerId": "6c203af0",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Ben Chilwell",
+        "playerId": "d2424d1b",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Daichi Kamada",
+        "playerId": "15b287da",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Romain Esse",
+        "playerId": "87189f25",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Justin Devenny",
+        "playerId": "6c2b66fc",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

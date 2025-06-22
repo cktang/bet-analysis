@@ -1,0 +1,824 @@
+17/01/2025
+FB6145
+Manchester
+Utd
+vs
+Southampton
+0
+:
+1
+3
+:
+1
+%Event ID: FB6145
+Manchester Utd
+3
+1
+Southampton
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1.17
+5.80
+10.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1.001
+45.00
+1000
+First Half HAD
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1.50
+2.82
+8.25
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1000
+18.00
+1.001
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+[-1]
+1.62
+[-1]
+3.80
+[+1]
+3.80
+[-2]
+2.63
+[-2]
+3.80
+[+2]
+2.02
+Handicap HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+[-2]
+90.00
+[-2]
+4.95
+[+2]
+1.08
+[-1]
+5.00
+[-1]
+1.20
+[+1]
+7.90
+Handicap
+Manchester Utd (Home)
+Southampton (Away)
+[-1.5/-2]
+1.93
+[+1.5/+2]
+1.90
+Handicap- Last Odds for In Play Betting
+Manchester Utd (Home)
+Southampton (Away)
+[-2]
+1000
+[+2]
+1000
+[-1]
+1.001
+[+1]
+14.50
+[0/-0.5]
+1.001
+[0/+0.5]
+14.50
+[-0.5/-1]
+1.79
+[+0.5/+1]
+1.94
+[+0.5/+1]
+1.99
+[-0.5/-1]
+1.75
+[0]
+2.17
+[0]
+1.63
+[-1.5/-2]
+2.18
+[+1.5/+2]
+1.62
+[0/+0.5]
+2.30
+[0/-0.5]
+1.56
+[-1/-1.5]
+4.10
+[+1/+1.5]
+1.20
+Same Game All Up
+Bruno Borges FERNANDES to score first & Manchester Utd to win by [2] goal(s) or more & Over [11.5] corners taken
+18.00
+Both teams to score & Southampton to win
+13.00
+Both teams to score in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+5.50
+Manchester Utd to win & Over [3.5] goals & Over [11.5] corners taken
+6.00
+Southampton to win & Over [2.5] goals
+12.00
+Southampton to score first & The match to be drawn
+11.50
+Manchester Utd to win the first half & Over [2.5] goals in the first half
+5.50
+First Half to be drawn & Manchester Utd to win the match by exactly [2] goal(s)
+10.00
+Southampton to win the first half & Over [1.5] goals in the first half
+18.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.50
+Manchester Utd to win both first half and the match & Exactly [4] goals in the Match
+7.50
+Southampton to win both first half and the match & Exactly [3] goals in the Match
+28.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+17.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:0] in the match
+18.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+28.00
+Manchester Utd to win [2:1] in the first half & Manchester Utd to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+26.00
+First half to be drawn [1:1] & Southampton to win [2:1] in the match
+60.00
+First half to be drawn [0:0] & Southampton to win [1:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.95
+1.75
+[3.5]
+2.15
+1.62
+[4.5]
+3.65
+1.23
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.61
+2.17
+[1.5/2]
+2.50
+1.46
+[2/2.5]
+4.60
+1.14
+[2.5]
+5.40
+1.10
+[2.5/3]
+3.90
+1.20
+[3/3.5]
+9.50
+1.02
+[3.5]
+10.50
+1.01
+[3.5/4]
+5.90
+1.08
+[4.5]
+11.50
+1.002
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.07
+1.67
+[1.5/2]
+2.58
+1.44
+[2.5]
+4.15
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.95
+1.12
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.58
+1.44
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.25
+1.57
+[12.5]
+2.88
+1.35
+[14.5]
+5.15
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+5.90
+1.08
+[9.5]
+5.90
+1.08
+[10.5]
+10.50
+1.01
+[11.5]
+8.00
+1.04
+[12.5]
+6.25
+1.07
+[13.5]
+5.40
+1.10
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.19
+1.60
+[6.5]
+3.20
+1.29
+[7.5]
+4.95
+1.12
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+5.60
+1.09
+[5.5]
+5.40
+1.10
+[6.5]
+8.50
+1.03
+[7.5]
+9.50
+1.02
+Correct Score
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1:0
+7.25
+0:0
+19.00
+0:1
+27.00
+2:0
+5.90
+1:1
+11.00
+0:2
+50.00
+2:1
+7.50
+2:2
+19.00
+1:2
+25.00
+3:0
+6.80
+3:3
+60.00
+0:3
+150.0
+3:1
+9.00
+1:3
+70.00
+3:2
+23.00
+2:3
+50.00
+4:0
+10.50
+0:4
+600.0
+4:1
+14.00
+1:4
+300.0
+4:2
+35.00
+2:4
+250.0
+5:0
+19.00
+0:5
+1000
+5:1
+27.00
+1:5
+900.0
+5:2
+50.00
+2:5
+900.0
+Home Others
+(Away No Goal)
+30.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+22.00
+Draw Others
+200.0
+Away Others
+(Home Scores)
+250.0
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1:0
+3.36
+0:0
+5.70
+0:1
+1.70
+2:0
+4.70
+1:1
+1.31
+0:2
+7.00
+2:1
+1.08
+2:2
+22.00
+1:2
+15.00
+3:0
+9.75
+3:3
+1000
+0:3
+90.00
+3:1
+1.03
+1:3
+300.0
+3:2
+40.00
+2:3
+151.0
+4:0
+28.00
+0:4
+1000
+4:1
+11.50
+1:4
+1000
+4:2
+250.0
+2:4
+1000
+5:0
+100.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1:0
+3.05
+0:0
+3.60
+0:1
+10.00
+2:0
+4.60
+1:1
+8.25
+0:2
+50.00
+2:1
+11.50
+2:2
+60.00
+1:2
+40.00
+3:0
+10.00
+3:3
+800.0
+0:3
+400.0
+3:1
+30.00
+1:3
+300.0
+3:2
+150.0
+2:3
+500.0
+4:0
+40.00
+0:4
+2000
+4:1
+80.00
+1:4
+1500
+4:2
+500.0
+2:4
+2000
+5:0
+125.0
+0:5
+2500
+5:1
+400.0
+1:5
+2500
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Southampton (Away)
+1:0
+6.00
+0:0
+1.11
+0:1
+1.005
+2:0
+100.0
+1:1
+18.00
+0:2
+100.0
+2:1
+2500
+2:2
+2500
+1:2
+1000
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Southampton (Away)
+1.18
+19.00
+4.15
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.42
+5.70
+3.85
+2nd Goal
+2.55
+1.70
+6.30
+3rd Goal
+3.38
+1.31
+11.50
+4th Goal
+6.40
+1.08
+17.00
+Total Goals
+0
+19.00
+1
+6.20
+2
+4.00
+3
+3.70
+4
+4.30
+5
+6.20
+6
+10.50
+7+
+13.00
+Total Goals- Last Odds for In Play Betting
+0
+5.70
+1
+1.70
+2
+1.31
+3
+1.08
+4
+1.03
+5
+5.60
+6
+400.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester Utd (Home)
+Southampton (Away)
+105 Joshua ZIRKZEE
+4.05
+201 Adam ARMSTRONG
+13.50
+106 Marcus RASHFORD
+4.20
+202 Paul ONUACHU
+13.50
+101 Rasmus HOJLUND
+4.50
+203 Cameron ARCHER
+14.00
+102 Bruno Borges FERNANDES
+4.70
+204 Ben BRERETON
+15.00
+103 Alejandro GARNACHO
+4.80
+205 Tyler DIBLING
+16.00
+104 Amad DIALLO
+4.80
+206 Kamaldeen SULEMANA
+17.00
+107 ANTONY Matheus dos Santos
+5.90
+207 Mateus FERNANDES
+17.00
+108 Carlos CASEMIRO
+10.00
+208 Samuel AMO-AMEYAW
+20.00
+109 Kobbie MAINOO
+12.50
+209 Maxwell CORNET
+24.00
+110 Christian ERIKSEN
+14.50
+210 Joe ARIBO
+25.00
+111 Toby COLLYER
+17.00
+211 Ryan FRASER
+26.00
+112 Harry MAGUIRE
+19.00
+212 Adam LALLANA
+28.00
+117 Noussair MAZRAOUI
+19.00
+213 Flynn DOWNES
+30.00
+113 Matthijs DE LIGT
+24.00
+214 Will SMALLBONE
+30.00
+116 Manuel UGARTE
+27.00
+215 Lesley UGOCHUKWU
+35.00
+114 Lisandro MARTINEZ
+28.00
+216 Kyle WALKER-PETERS
+35.00
+115 Leny YORO
+30.00
+217 Taylor HARWOOD-BELLIS
+50.00
+118 Tyrell MALACIA
+30.00
+218 Yukinari SUGAWARA
+50.00
+219 Charlie TAYLOR
+100.0
+120 Home Others
+5.90
+220 Away Others
+20.00
+00 No First Scorer
+18.80
+HaFu
+H-H
+1.59
+H-D
+19.00
+H-A
+55.00
+D-H
+3.65
+D-D
+8.50
+D-A
+21.00
+A-H
+19.00
+A-D
+19.00
+A-A
+18.00
+Specials
+Item No.: 1 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.27
+(4) Be substituted
+1.85
+(5) None of the above
+5.25
+Item No.: 2 How many goal(s) will Rasmus HOJLUND (Manchester Utd) score?
+(1) No Goal
+1.53
+(2) 1 Goal
+2.65
+(3) 2 Goals
+7.50
+(4) 3 Goals or more
+20.00
+Item No.: 3 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.13
+(4) Be substituted
+7.00
+(5) None of the above
+2.37
+Item No.: 4 How many goal(s) will Bruno Borges FERNANDES (Manchester Utd) score?
+(1) No Goal
+1.55
+(2) 1 Goal
+2.65
+(3) 2 Goals
+7.00
+(4) 3 Goals or more
+20.00
+Item No.: 5 Which event will happen to Amad DIALLO (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.92
+(4) Be substituted
+2.75
+(5) None of the above
+2.47

@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/18dea268/West-Ham-United-Chelsea-February-11-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Chelsea",
+  "matchDate": "February 11, 2023",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 16,
+        "player": "João Félix",
+        "playerId": "8aafd64f",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Enzo Fernández"
+      },
+      {
+        "minute": 28,
+        "player": "Emerson Palmieri",
+        "playerId": "e0bc6fdc",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Jarrod Bowen"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 55,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 64,
+        "player": "Benoît Badiashile",
+        "playerId": "06df8256",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 14,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Ben Chilwell",
+        "playerId": "d2424d1b",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Hakim Ziyech",
+        "playerId": "6622454d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Conor Gallagher",
+        "playerId": "c2731c10",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

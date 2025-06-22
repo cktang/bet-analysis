@@ -1,0 +1,335 @@
+12/08/2023
+FB3794
+Brighton
+vs
+Luton
+1
+:
+0
+4
+:
+1
+%Event ID: FB3794
+Brighton
+4
+1
+Luton
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Luton (Away)
+1.17
+5.70
+10.50
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Luton (Away)
+1.001
+90.00
+1000
+First Half HAD
+Brighton (Home)
+Draw
+Luton (Away)
+1.51
+2.80
+8.50
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Luton (Away)
+1.01
+26.00
+1000
+Handicap HAD
+Brighton (Home)
+Draw
+Luton (Away)
+[-2]
+2.70
+[-2]
+3.85
+[+2]
+1.98
+Handicap
+Brighton (Home)
+Luton (Away)
+[-1.5/-2]
+1.94
+[+1.5/+2]
+1.88
+Same Game All Up
+Brighton to win & Over [2.5] goals & Over [12.5] corners taken
+6.20
+Luton to win & Over [1.5] goals
+13.00
+Luton to score first & The match to be drawn
+14.50
+Brighton to score first & Luton to win or draw
+9.50
+Luton to score first & Brighton to win by [3] goal(s) or more
+29.00
+Brighton to win the first half & Over [2.5] goals in the first half
+6.00
+First Half to be drawn & Brighton to win the match by exactly [2] goal(s)
+12.00
+Luton to win the first half & Over [1.5] goals in the first half
+24.00
+Over [1.5] goals in the first half & Over [2.5] goals in the match & Over [12.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.25
+Over [2.5] goals in the first half & Over [3.5] goals in the match
+5.90
+Brighton to win by [4] goal(s) or more & Under [10.5] corners taken
+10.00
+Brighton to win both first half and the match & Exactly [3] goals in the Match
+6.25
+Luton to win both first half and the match & Exactly [3] goals in the Match
+40.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+18.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3/3.5]
+1.97
+1.74
+[3.5]
+2.22
+1.58
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+6.10
+1.08
+[1.5/2]
+1.67
+2.07
+[2/2.5]
+2.58
+1.44
+[2.5]
+1.39
+2.75
+[2.5/3]
+2.20
+1.59
+[3/3.5]
+4.15
+1.18
+[3.5]
+1.72
+2.00
+[3.5/4]
+2.65
+1.42
+[4/4.5]
+5.55
+1.10
+[4.5]
+6.50
+1.07
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.10
+1.65
+[1.5/2]
+2.60
+1.43
+[2.5]
+4.30
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+8.50
+1.03
+[0.5/1]
+2.90
+1.35
+[1/1.5]
+6.10
+1.08
+[1.5]
+6.50
+1.07
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.94
+1.76
+[11.5]
+2.48
+1.47
+[13.5]
+4.15
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[14.5]
+4.75
+1.14
+[9.5]
+1.61
+2.17
+[10.5]
+1.15
+4.55
+[11.5]
+1.46
+2.50
+[12.5]
+1.52
+2.35
+[13.5]
+1.79
+1.91
+First Team to Score
+Brighton (Home)
+No Goals
+Luton (Away)
+1.18
+18.00
+4.25
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Luton (Away)
+1st Goal
+1.28
+7.60
+4.50
+2nd Goal
+1.96
+2.49
+4.50
+3rd Goal
+2.40
+1.84
+5.70
+4th Goal
+2.75
+1.60
+6.80
+5th Goal
+6.40
+1.09
+15.50
+Total Goals
+0
+18.00
+1
+6.20
+2
+4.05
+3
+3.70
+4
+4.45
+5
+6.50
+6
+10.50
+7+
+14.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.59
+H-D
+20.00
+H-A
+60.00
+D-H
+3.75
+D-D
+8.50
+D-A
+22.00
+A-H
+21.00
+A-D
+20.00
+A-A
+18.00
+Specials
+Item No.: 1 Which event will happen to Danny WELBECK (Brighton) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.18
+(4) Be substituted
+1.82
+(5) None of the above
+6.50
+Item No.: 2 Which event will happen to Julio ENCISO (Brighton) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.83
+(5) None of the above
+4.00
+Item No.: 3 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.18
+(4) Be substituted
+2.90
+(5) None of the above
+2.90
+Item No.: 4 Which event will happen to Solly MARCH (Brighton) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+3.50
+(5) None of the above
+2.35
+Item No.: 5 Which event will happen to Carlton MORRIS (Luton) first?
+(1) Receive a Yellow Card
+3.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+2.80
+(5) None of the above
+2.70

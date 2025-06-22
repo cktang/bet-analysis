@@ -1,0 +1,112 @@
+{
+  "url": "https://fbref.com/en/matches/76b4b194/Manchester-City-Arsenal-March-31-2024-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Arsenal",
+  "matchDate": "March 31, 2024",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [
+      {
+        "minute": 67,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 79,
+        "player": "David Raya",
+        "playerId": "98ea5115",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 27,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Takehiro Tomiyasu",
+        "playerId": "b3af9be1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

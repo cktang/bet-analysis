@@ -1,0 +1,622 @@
+16/03/2024
+FB3254
+Burnley
+vs
+Brentford
+1
+:
+0
+2
+:
+1
+%Event ID: FB3254
+Burnley
+2
+1
+Brentford
+Eng Premier
+Home/Away/Draw
+Burnley (Home)
+Draw
+Brentford (Away)
+3.00
+3.40
+2.00
+Home/Away/Draw- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Brentford (Away)
+1.02
+17.00
+90.00
+First Half HAD
+Burnley (Home)
+Draw
+Brentford (Away)
+3.45
+2.24
+2.48
+First Half HAD- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Brentford (Away)
+1.03
+8.00
+150.0
+Handicap HAD
+Burnley (Home)
+Draw
+Brentford (Away)
+[+1]
+1.65
+[+1]
+3.80
+[-1]
+3.65
+Handicap
+Burnley (Home)
+Brentford (Away)
+[0/+0.5]
+1.96
+[0/-0.5]
+1.86
+Same Game All Up
+Ivan TONEY to score first & Brentford to win & Over [3.5] goals
+17.00
+Ivan TONEY to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+15.00
+Brentford to win & Over [3.5] goals & Over [10.5] corners taken
+10.50
+The match to be drawn & Under [8.5] corners taken
+9.75
+Burnley to win & Over [2.5] goals
+4.50
+Brentford to score first & Burnley to win or draw
+5.30
+Brentford to win the first half & Over [2.5] goals in the first half
+10.50
+Brentford to win the first half & Brentford to win the match by [2] goal(s) or more
+5.20
+First Half to be drawn & Brentford to win the match by exactly [1] goal(s)
+6.70
+Burnley to win the first half & Over [1.5] goals in the first half
+8.25
+Burnley to win the first half & Burnley clean sheet in the first half
+3.95
+Burnley to score in the first half & First Half to be drawn and Brentford to win the match & Over [10.5] corners taken in the match
+29.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.90
+Brentford to win [1:0] in the first half & Brentford to win [3:1] in the match
+50.00
+First half to be drawn [0:0] & Brentford to win [2:1] in the match
+35.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+18.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+First half to be drawn [0:0] & Burnley to win [1:0] in the match
+18.00
+Burnley to win [1:0] in the first half & Burnley to win [2:1] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.62
+2.15
+[2.5/3]
+1.79
+1.91
+[3.5]
+2.60
+1.43
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+2.70
+1.39
+[1.5/2]
+1.53
+2.33
+[2/2.5]
+2.40
+1.50
+[2.5]
+2.85
+1.36
+[2.5/3]
+2.65
+1.41
+[3/3.5]
+5.40
+1.10
+[3.5]
+6.25
+1.07
+[4.5]
+6.25
+1.07
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.29
+1.55
+[1.5/2]
+2.78
+1.37
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.30
+1.16
+[0.5/1]
+1.67
+2.07
+[1/1.5]
+2.58
+1.44
+[1.5]
+1.42
+2.62
+[2/2.5]
+10.50
+1.01
+[2.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.88
+1.82
+[11.5]
+2.35
+1.52
+[14.5]
+5.15
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+2.10
+1.65
+[7.5]
+1.05
+7.00
+[8.5]
+1.22
+3.70
+[10.5]
+4.30
+1.16
+[11.5]
+9.50
+1.02
+[12.5]
+4.05
+1.18
+[14.5]
+5.15
+1.11
+Correct Score
+Burnley (Home)
+Draw
+Brentford (Away)
+1:0
+11.50
+0:0
+12.00
+0:1
+8.50
+2:0
+17.00
+1:1
+6.50
+0:2
+11.00
+2:1
+9.75
+2:2
+10.50
+1:2
+7.50
+3:0
+35.00
+3:3
+40.00
+0:3
+20.00
+3:1
+21.00
+1:3
+13.50
+3:2
+25.00
+2:3
+20.00
+4:0
+70.00
+0:4
+40.00
+4:1
+40.00
+1:4
+35.00
+4:2
+50.00
+2:4
+40.00
+5:0
+250.0
+0:5
+70.00
+5:1
+125.0
+1:5
+60.00
+5:2
+150.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+200.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Brentford (Away)
+1:0
+2.73
+0:0
+10.00
+0:1
+10.50
+2:0
+1.59
+1:1
+7.20
+0:2
+19.00
+2:1
+1.18
+2:2
+12.50
+1:2
+30.00
+3:0
+3.14
+3:3
+1000
+0:3
+60.00
+3:1
+5.30
+1:3
+250.0
+3:2
+80.00
+2:3
+80.00
+4:0
+15.50
+0:4
+250.0
+4:1
+100.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+125.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Burnley (Home)
+Draw
+Brentford (Away)
+1:0
+5.50
+0:0
+2.98
+0:1
+4.15
+2:0
+13.50
+1:1
+6.00
+0:2
+8.50
+2:1
+15.00
+2:2
+40.00
+1:2
+13.50
+3:0
+60.00
+3:3
+600.0
+0:3
+35.00
+3:1
+80.00
+1:3
+50.00
+3:2
+200.0
+2:3
+150.0
+4:0
+400.0
+0:4
+150.0
+4:1
+500.0
+1:4
+250.0
+4:2
+700.0
+2:4
+600.0
+5:0
+1500
+0:5
+700.0
+5:1
+1500
+1:5
+800.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Burnley (Home)
+Draw
+Brentford (Away)
+1:0
+1.24
+0:0
+2.32
+0:1
+5.80
+2:0
+4.80
+1:1
+7.00
+0:2
+26.00
+2:1
+35.00
+2:2
+400.0
+1:2
+151.0
+3:0
+50.00
+3:3
+2500
+0:3
+150.0
+3:1
+250.0
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+450.0
+0:4
+1500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Burnley (Home)
+No Goals
+Brentford (Away)
+2.14
+12.00
+1.70
+Next Team To Score- Last Odds for In Play Betting
+Burnley (Home)
+No Goals
+Brentford (Away)
+1st Goal
+1.53
+10.00
+2.58
+2nd Goal
+1.83
+2.73
+4.40
+3rd Goal
+2.76
+1.59
+6.70
+4th Goal
+5.10
+1.18
+11.50
+Total Goals
+0
+12.00
+1
+5.30
+2
+3.75
+3
+3.75
+4
+4.60
+5
+7.00
+6
+12.50
+7+
+18.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+4.70
+H-D
+12.50
+H-A
+20.00
+D-H
+7.00
+D-D
+5.50
+D-A
+5.00
+A-H
+26.00
+A-D
+12.50
+A-A
+3.20
+Specials
+Item No.: 1 Which event will happen to Ivan TONEY (Brentford) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.98
+(4) Be substituted
+9.75
+(5) None of the above
+2.15
+Item No.: 2 How many goal(s) will Ivan TONEY (Brentford) score?
+(1) No Goal
+1.57
+(2) 1 Goal
+2.68
+(3) 2 Goals
+6.75
+(4) 3 Goals or more
+17.00
+Item No.: 3 Which event will happen to Yoane WISSA (Brentford) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+1.80
+(5) None of the above
+3.95
+Item No.: 4 How many goal(s) will Yoane WISSA (Brentford) score?
+(1) No Goal
+1.24
+(2) 1 Goal
+3.45
+(3) 2 Goals
+11.50
+(4) 3 Goals or more
+30.00

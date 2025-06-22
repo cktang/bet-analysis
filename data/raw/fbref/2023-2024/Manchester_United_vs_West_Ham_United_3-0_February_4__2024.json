@@ -1,0 +1,131 @@
+{
+  "url": "https://fbref.com/en/matches/dc1428be/Manchester-United-West-Ham-United-February-4-2024-Premier-League",
+  "homeTeam": "Manchester United",
+  "awayTeam": "West Ham United",
+  "matchDate": "February 4, 2024",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Casemiro"
+      },
+      {
+        "minute": 49,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Bruno Fernandes"
+      },
+      {
+        "minute": 84,
+        "player": "Alejandro Garnacho",
+        "playerId": "7aa8adfe",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Scott McTominay"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 37,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Łukasz Fabiański",
+        "playerId": "9328b835",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Scott McTominay",
+        "playerId": "d93c2511",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Raphaël Varane",
+        "playerId": "9f8e9423",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Maxwel Cornet",
+        "playerId": "beb391dd",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Victor Lindelöf",
+        "playerId": "f5deef4c",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Antony",
+        "playerId": "99127249",
+        "team": "Manchester United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

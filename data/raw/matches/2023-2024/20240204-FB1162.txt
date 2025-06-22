@@ -1,0 +1,633 @@
+04/02/2024
+FB1162
+Manchester
+Utd
+vs
+West
+Ham
+1
+:
+0
+3
+:
+0
+%Event ID: FB1162
+Manchester Utd
+3
+0
+West Ham
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1.42
+4.45
+4.95
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1.001
+40.00
+450.0
+First Half HAD
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1.83
+2.58
+4.85
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1.04
+7.60
+50.00
+Handicap HAD
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+[-1]
+2.16
+[-1]
+3.55
+[+1]
+2.50
+Handicap
+Manchester Utd (Home)
+West Ham (Away)
+[-1]
+1.86
+[+1]
+1.96
+Same Game All Up
+Marcus RASHFORD to score first & Manchester Utd to win & Over [10.5] corners taken
+10.50
+Bruno Borges FERNANDES to score first & Manchester Utd to win by [2] goal(s) or more
+12.00
+Manchester Utd to win & Over [3.5] goals & Over [11.5] corners taken
+6.50
+Manchester Utd to win by [2] goal(s) or more & Over [4.5] goals & Over [13.5] corners taken
+20.00
+West Ham to win & Over [2.5] goals & Over [10.5] corners taken
+10.50
+West Ham to score first & Manchester Utd to win
+8.00
+Manchester Utd to score first & West Ham to win
+17.50
+West Ham to score first in the match & Manchester Utd to win both first half and the match
+30.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match
+4.60
+Under [1.5] goals in the first half & Over [4.5] goals in the match
+17.00
+West Ham to score & Manchester Utd to win
+2.60
+West Ham to score & Manchester Utd to win by [2] goal(s) or more
+5.00
+Over [5.5] goals & Over [12.5] corners taken
+18.00
+Under [2.5] goals & Under [9.5] corners taken
+6.75
+First half to be drawn [0:0] & Over [2.5] goals in the match
+12.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:1] in the match
+30.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+40.00
+West Ham to win [2:1] in the first half & Manchester Utd to win [3:2] in the match
+100.0
+Manchester Utd to win [2:1] in the first half & Manchester Utd to win [4:2] in the match
+85.00
+West Ham to win [1:0] in the first half & West Ham to win [3:1] in the match
+90.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.93
+1.77
+[3.5]
+2.13
+1.63
+[4.5]
+3.55
+1.24
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+5.90
+1.08
+[2/2.5]
+1.62
+2.15
+[2.5]
+1.92
+1.78
+[2.5/3]
+3.55
+1.24
+[3/3.5]
+8.00
+1.04
+[3.5]
+7.00
+1.05
+[4.5]
+9.50
+1.02
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.50
+1.46
+[2.5]
+4.05
+1.18
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+7.00
+1.05
+[0.5/1]
+2.07
+1.67
+[1/1.5]
+3.65
+1.23
+[1.5]
+1.66
+2.08
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.88
+1.82
+[12.5]
+2.35
+1.52
+[14.5]
+3.70
+1.22
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[13.5]
+4.05
+1.18
+[10.5]
+1.11
+5.15
+[11.5]
+1.24
+3.55
+[12.5]
+1.21
+3.80
+[14.5]
+8.50
+1.03
+[15.5]
+9.50
+1.001
+Correct Score
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1:0
+8.25
+0:0
+19.00
+0:1
+19.00
+2:0
+8.00
+1:1
+8.25
+0:2
+30.00
+2:1
+6.90
+2:2
+12.50
+1:2
+13.50
+3:0
+10.50
+3:3
+40.00
+0:3
+60.00
+3:1
+9.75
+1:3
+35.00
+3:2
+18.00
+2:3
+30.00
+4:0
+19.00
+0:4
+200.0
+4:1
+18.00
+1:4
+80.00
+4:2
+30.00
+2:4
+70.00
+5:0
+40.00
+0:5
+600.0
+5:1
+35.00
+1:5
+400.0
+5:2
+50.00
+2:5
+300.0
+Home Others
+(Away No Goal)
+60.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+24.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1:0
+4.45
+0:0
+7.60
+0:1
+10.50
+2:0
+1.35
+1:1
+5.40
+0:2
+24.00
+2:1
+6.00
+2:2
+70.00
+1:2
+14.50
+3:0
+1.05
+3:3
+1000
+0:3
+90.00
+3:1
+16.50
+1:3
+60.00
+3:2
+900.0
+2:3
+1000
+4:0
+11.00
+0:4
+450.0
+4:1
+150.0
+1:4
+400.0
+4:2
+1000
+2:4
+1000
+5:0
+400.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1:0
+3.55
+0:0
+3.45
+0:1
+7.75
+2:0
+6.40
+1:1
+6.60
+0:2
+21.00
+2:1
+10.50
+2:2
+40.00
+1:2
+21.00
+3:0
+15.00
+3:3
+500.0
+0:3
+100.0
+3:1
+35.00
+1:3
+100.0
+3:2
+100.0
+2:3
+200.0
+4:0
+60.00
+0:4
+700.0
+4:1
+100.0
+1:4
+700.0
+4:2
+400.0
+2:4
+900.0
+5:0
+300.0
+0:5
+2500
+5:1
+500.0
+1:5
+2500
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+800.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+West Ham (Away)
+1:0
+1.12
+0:0
+1.81
+0:1
+6.70
+2:0
+9.25
+1:1
+8.80
+0:2
+45.00
+2:1
+100.0
+2:2
+2500
+1:2
+60.00
+3:0
+150.0
+3:3
+2500
+0:3
+300.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+West Ham (Away)
+1.37
+19.00
+2.80
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+West Ham (Away)
+1st Goal
+1.49
+7.60
+2.94
+2nd Goal
+1.84
+4.45
+2.68
+3rd Goal
+4.35
+1.35
+5.90
+4th Goal
+10.50
+1.05
+15.50
+Total Goals
+0
+19.00
+1
+6.40
+2
+4.00
+3
+3.75
+4
+4.30
+5
+6.20
+6
+10.00
+7+
+13.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+2.06
+H-D
+14.50
+H-A
+30.00
+D-H
+4.15
+D-D
+7.25
+D-A
+11.50
+A-H
+17.00
+A-D
+14.50
+A-A
+8.50
+Specials
+Item No.: 1 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.60
+(5) None of the above
+5.50
+Item No.: 2 Which event will happen to Alejandro GARNACHO (Manchester Utd) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.55
+(4) Be substituted
+1.90
+(5) None of the above
+3.25
+Item No.: 3 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+11.00
+(5) None of the above
+1.88
+Item No.: 4 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+8.50
+(5) None of the above
+1.55
+Item No.: 5 Which event will happen to Mohammed KUDUS (West Ham) first?
+(1) Receive a Yellow Card
+6.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+1.55
+(5) None of the above
+4.10

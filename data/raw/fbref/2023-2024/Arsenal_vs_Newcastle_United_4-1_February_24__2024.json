@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/8f922133/Arsenal-Newcastle-United-February-24-2024-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Newcastle United",
+  "matchDate": "February 24, 2024",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 18,
+        "player": "Sven Botman",
+        "playerId": "ccce7025",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 24,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Martinelli"
+      },
+      {
+        "minute": 65,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Kai Havertz"
+      },
+      {
+        "minute": 69,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Declan Rice"
+      },
+      {
+        "minute": 84,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Dan Burn"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 7,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "player": "Harvey Barnes",
+        "playerId": "3ea50f67",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Jacob Murphy",
+        "playerId": "de112b84",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jamaal Lascelles",
+        "playerId": "450ab6fc",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Dan Burn",
+        "playerId": "b2d31e83",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Mohamed Elneny",
+        "playerId": "47a34c4f",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

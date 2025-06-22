@@ -1,0 +1,184 @@
+{
+  "url": "https://fbref.com/en/matches/e75a870b/Manchester-City-Bournemouth-November-4-2023-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Bournemouth",
+  "matchDate": "November 4, 2023",
+  "score": "6-1",
+  "homeScore": 6,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 30,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Rodri"
+      },
+      {
+        "minute": 33,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 37,
+        "player": "Manuel Akanji",
+        "playerId": "89ac64a6",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 64,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 74,
+        "player": "Luis Sinisterra",
+        "playerId": "8e16dd48",
+        "team": "Bournemouth",
+        "isPenalty": false,
+        "assist": "Max Aarons"
+      },
+      {
+        "minute": 83,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jeremy Doku"
+      },
+      {
+        "minute": 88,
+        "player": "Nathan Aké",
+        "playerId": "eaeca114",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Oscar Bobb"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 32,
+        "player": "Philip Billing",
+        "playerId": "d328a254",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 44,
+        "player": "Joe Rothwell",
+        "playerId": "10a10454",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Marcos Senesi",
+        "playerId": "35141f4c",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Luis Sinisterra",
+        "playerId": "8e16dd48",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Justin Kluivert",
+        "playerId": "4c3a6744",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Oscar Bobb",
+        "playerId": "eed2427e",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 7,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

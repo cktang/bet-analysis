@@ -1,0 +1,739 @@
+27/02/2025
+FB8118
+Nottingham
+Forest
+vs
+Arsenal
+0
+:
+0
+0
+:
+0
+%Event ID: FB8118
+Nottingham Forest
+0
+0
+Arsenal
+Eng Premier
+Home/Away/Draw
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+3.75
+3.20
+1.82
+Home/Away/Draw- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+13.50
+1.11
+6.60
+First Half HAD
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+4.25
+2.06
+2.39
+First Half HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+14.00
+1.12
+5.70
+Handicap HAD
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+[+2]
+1.22
+[+2]
+5.20
+[-2]
+7.75
+[+1]
+1.77
+[+1]
+3.40
+[-1]
+3.50
+Handicap HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+[+1]
+1.04
+[+1]
+7.80
+[-1]
+20.00
+[+2]
+1.22
+[+2]
+5.20
+[-2]
+7.75
+Handicap
+Nottingham Forest (Home)
+Arsenal (Away)
+[0/+0.5]
+2.20
+[0/-0.5]
+1.68
+Handicap- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Arsenal (Away)
+[0]
+2.84
+[0]
+1.38
+[0/+0.5]
+1.33
+[0/-0.5]
+3.07
+[+0.5/+1]
+1.67
+[-0.5/-1]
+2.22
+Same Game All Up
+Chris WOOD to score first & Nottingham Forest to win & Over [3.5] goals
+35.00
+Both teams to score & Arsenal to win by [2] goal(s) or more & Over [11.5] corners taken
+27.00
+Both teams to score & Nottingham Forest to win & Over [10.5] corners taken
+18.00
+Arsenal to win & Over [3.5] goals & Over [10.5] corners taken
+13.00
+The match to be drawn & Under [9.5] corners taken
+5.80
+Nottingham Forest to win & Over [2.5] goals
+7.00
+Arsenal to score first in the match & Arsenal to win the first half & Over [1.5] goals in the first half
+6.00
+Arsenal to score first & Nottingham Forest to win or draw
+6.50
+Nottingham Forest to score first in the match & Over [1.5] goals in the first half
+6.50
+Nottingham Forest to score first & Arsenal to win by [2] goal(s) or more
+27.00
+First Half to be drawn & Arsenal to win the match by exactly [1] goal(s)
+5.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+21.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+6.00
+Arsenal to win both first half and the match & Exactly [4] goals in the Match
+15.00
+Nottingham Forest to win both first half and the match & Exactly [3] goals in the Match
+19.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+30.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [2:1] in the match
+70.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+17.00
+Arsenal to win [1:0] in the first half & Arsenal to win [3:0] in the match
+28.00
+Arsenal to win [2:0] in the first half & Arsenal to win [3:1] in the match
+50.00
+HiLo
+Line
+High
+Low
+[2.5]
+2.00
+1.72
+[2.5/3]
+2.30
+1.54
+[3.5]
+3.45
+1.25
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.40
+1.10
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+2.40
+1.50
+[2/2.5]
+2.22
+1.58
+[2.5]
+5.40
+1.10
+[2.5/3]
+2.30
+1.54
+[3.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.40
+1.50
+[1.5]
+2.80
+1.37
+[1.5/2]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.95
+1.12
+[1/1.5]
+11.00
+1.005
+[1.5]
+11.00
+1.005
+[1.5/2]
+3.65
+1.23
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.79
+1.91
+[10.5]
+2.27
+1.56
+[12.5]
+3.95
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.30
+3.15
+[9.5]
+1.32
+3.05
+[10.5]
+1.42
+2.62
+[11.5]
+1.23
+3.65
+[12.5]
+1.11
+5.15
+[13.5]
+1.12
+4.95
+[14.5]
+3.55
+1.24
+[15.5]
+8.50
+1.03
+[16.5]
+12.00
+1.001
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.92
+1.78
+[5.5]
+2.85
+1.36
+[6.5]
+4.40
+1.15
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.23
+3.65
+[4.5]
+4.40
+1.15
+[5.5]
+10.50
+1.01
+[6.5]
+12.00
+1.001
+[7.5]
+8.50
+1.03
+Correct Score
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+1:0
+9.50
+0:0
+8.25
+0:1
+5.90
+2:0
+18.00
+1:1
+6.10
+0:2
+7.75
+2:1
+11.00
+2:2
+13.50
+1:2
+7.50
+3:0
+40.00
+3:3
+60.00
+0:3
+15.00
+3:1
+30.00
+1:3
+15.00
+3:2
+40.00
+2:3
+27.00
+4:0
+125.0
+0:4
+35.00
+4:1
+80.00
+1:4
+35.00
+4:2
+100.0
+2:4
+50.00
+5:0
+500.0
+0:5
+70.00
+5:1
+400.0
+1:5
+70.00
+5:2
+400.0
+2:5
+125.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+125.0
+Draw Others
+200.0
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+1:0
+13.60
+0:0
+1.14
+0:1
+6.90
+2:0
+500.0
+1:1
+45.00
+0:2
+125.0
+2:1
+1000
+2:2
+1000
+1:2
+1000
+3:0
+1000
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+1:0
+5.60
+0:0
+2.49
+0:1
+3.60
+2:0
+16.00
+1:1
+6.80
+0:2
+8.00
+2:1
+25.00
+2:2
+70.00
+1:2
+15.00
+3:0
+100.0
+3:3
+900.0
+0:3
+35.00
+3:1
+150.0
+1:3
+70.00
+3:2
+400.0
+2:3
+300.0
+4:0
+700.0
+0:4
+150.0
+4:1
+800.0
+1:4
+400.0
+4:2
+1500
+2:4
+800.0
+5:0
+2500
+0:5
+700.0
+5:1
+2500
+1:5
+1000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+Arsenal (Away)
+1:0
+13.00
+0:0
+1.19
+0:1
+5.10
+2:0
+150.0
+1:1
+45.00
+0:2
+60.00
+2:1
+600.0
+2:2
+2500
+1:2
+400.0
+3:0
+2500
+3:3
+2500
+0:3
+500.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Nottingham Forest (Home)
+No Goals
+Arsenal (Away)
+2.52
+8.25
+1.61
+Next Team To Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+11.50
+1.14
+5.80
+Total Goals
+0
+8.25
+1
+4.00
+2
+3.30
+3
+3.85
+4
+5.60
+5
+10.00
+6
+21.00
+7+
+29.00
+Total Goals- Last Odds for In Play Betting
+0
+1.20
+1
+3.32
+2
+28.00
+3
+400.0
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.89
+1.81
+First Scorer
+Nottingham Forest (Home)
+Arsenal (Away)
+101 Chris WOOD
+4.55
+201 Mikel MERINO
+6.00
+102 Taiwo AWONIYI
+6.90
+202 Ethan NWANERI
+6.30
+103 Morgan GIBBS-WHITE
+12.50
+203 Leandro TROSSARD
+6.50
+104 Ramon SOSA
+14.00
+204 Raheem STERLING
+6.60
+105 Callum HUDSON-ODOI
+17.00
+205 Nathan BUTLER-OYEDEJI
+7.00
+106 Jota SILVA
+17.00
+206 Ismeal KABIA
+9.00
+107 Anthony ELANGA
+22.00
+207 Martin ODEGAARD
+10.00
+108 Eric Da SILVA MOREIRA
+23.00
+208 GABRIEL Magalhaes
+16.00
+110 Ryan YATES
+29.00
+209 Declan RICE
+17.00
+109 DANILO Oliveira
+30.00
+210 Thomas PARTEY
+17.00
+111 Elliot ANDERSON
+30.00
+211 JORGINHO Luiz Frello
+24.00
+114 Nikola MILENKOVIC
+30.00
+212 Riccardo CALAFIORI
+24.00
+112 Ibrahim SANGARE
+35.00
+213 Ben WHITE
+26.00
+113 Nicolas DOMINGUEZ
+35.00
+214 Kieran TIERNEY
+26.00
+115 ALEX MORENO
+40.00
+215 Oleksandr ZINCHENKO
+30.00
+116 Neco WILLIAMS
+50.00
+216 Jakub KIWIOR
+40.00
+117 Ola AINA
+60.00
+217 Jurrien TIMBER
+45.00
+118 Harry TOFFOLO
+70.00
+218 William SALIBA
+45.00
+119 MURILLO Costa
+70.00
+120 Home Others
+12.00
+220 Away Others
+8.00
+00 No First Scorer
+8.05
+HaFu
+H-H
+6.00
+H-D
+13.50
+H-A
+23.00
+D-H
+8.00
+D-D
+4.65
+D-A
+4.40
+A-H
+30.00
+A-D
+13.50
+A-A
+2.92

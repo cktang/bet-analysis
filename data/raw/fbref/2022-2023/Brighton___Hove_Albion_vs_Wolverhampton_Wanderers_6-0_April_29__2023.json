@@ -1,0 +1,182 @@
+{
+  "url": "https://fbref.com/en/matches/21f920e0/Brighton-and-Hove-Albion-Wolverhampton-Wanderers-April-29-2023-Premier-League",
+  "homeTeam": "Brighton & Hove Albion",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "April 29, 2023",
+  "score": "6-0",
+  "homeScore": 6,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 6,
+        "player": "Deniz Undav",
+        "playerId": "dd549382",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Danny Welbeck"
+      },
+      {
+        "minute": 13,
+        "player": "Pascal Groß",
+        "playerId": "8aec0537",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Julio Enciso"
+      },
+      {
+        "minute": 26,
+        "player": "Pascal Groß",
+        "playerId": "8aec0537",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Julio Enciso"
+      },
+      {
+        "minute": 39,
+        "player": "Danny Welbeck",
+        "playerId": "ce5143da",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Pervis Estupiñán"
+      },
+      {
+        "minute": 48,
+        "player": "Danny Welbeck",
+        "playerId": "ce5143da",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 66,
+        "player": "Deniz Undav",
+        "playerId": "dd549382",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 50,
+        "player": "Joël Veltman",
+        "playerId": "dad4b285",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 91,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Daniel Podence",
+        "playerId": "7fcc71d8",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Nathan Collins",
+        "playerId": "a8c19eb8",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Toti Gomes",
+        "playerId": "f0caab96",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Moisés Caicedo",
+        "playerId": "16264a81",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Yasin Ayari",
+        "playerId": "f173303a",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

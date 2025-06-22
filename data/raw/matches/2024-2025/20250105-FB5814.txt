@@ -1,0 +1,794 @@
+05/01/2025
+FB5814
+Brighton
+vs
+Arsenal
+0
+:
+1
+1
+:
+1
+%Event ID: FB5814
+Brighton
+1
+1
+Arsenal
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Arsenal (Away)
+4.25
+3.50
+1.65
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Arsenal (Away)
+12.50
+1.09
+8.75
+First Half HAD
+Brighton (Home)
+Draw
+Arsenal (Away)
+4.55
+2.24
+2.11
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Arsenal (Away)
+600.0
+11.00
+1.02
+Handicap HAD
+Brighton (Home)
+Draw
+Arsenal (Away)
+[+1]
+2.01
+[+1]
+3.45
+[-1]
+2.84
+Handicap HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Arsenal (Away)
+[+1]
+1.01
+[+1]
+9.25
+[-1]
+23.00
+[+2]
+1.06
+[+2]
+6.60
+[-2]
+21.00
+Handicap
+Brighton (Home)
+Arsenal (Away)
+[+0.5/+1]
+1.84
+[-0.5/-1]
+1.98
+Handicap- Last Odds for In Play Betting
+Brighton (Home)
+Arsenal (Away)
+[0]
+2.22
+[0]
+1.60
+[+1/+1.5]
+1.05
+[-1/-1.5]
+8.00
+[0/+0.5]
+1.50
+[0/-0.5]
+2.43
+[+0.5/+1]
+3.45
+[-0.5/-1]
+1.27
+Same Game All Up
+Arsenal to win & Over [2.5] goals & Over [11.5] corners taken
+6.00
+Arsenal to win the match & Kai HAVERTZ to score first in the match & Over [2.5] goals in the first half
+40.00
+Arsenal to win & GABRIEL Fernando JESUS to score first & Exactly [4] goals
+40.00
+Arsenal to win [1:0] in the first half & Arsenal to win [2:1] in the match
+24.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+50.00
+Both teams to score & Arsenal to win & Over [10.5] corners taken
+6.90
+Both teams to score in the match & Over [1.5] goals in the first half & Arsenal to win the match by [2] goal(s) or more
+8.50
+Both teams to score & Brighton to win & Under [9.5] corners taken
+13.00
+Brighton to score first & Arsenal to win by [2] goal(s) or more
+20.00
+Arsenal to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+17.00
+Over [6.5] corners taken in the first half & Over [12.5] corners taken in the match
+6.10
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+7.60
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.75
+First Half to be drawn & Arsenal to win the match by [2] goal(s) or more
+11.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.50
+The match to be drawn & Under [9.5] corners taken
+7.20
+Arsenal to win [2:0] in the first half & Arsenal to win [3:0] in the match
+35.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Brighton to win [1:0] in the first half & Brighton to win [2:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.79
+1.91
+[2.5/3]
+2.02
+1.70
+[3.5]
+2.98
+1.33
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+1.62
+2.15
+[2/2.5]
+2.50
+1.46
+[2.5]
+1.41
+2.65
+[2.5/3]
+8.00
+1.04
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[4.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.38
+1.51
+[1.5/2]
+3.05
+1.32
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.85
+1.85
+[1/1.5]
+3.25
+1.28
+[1.5]
+1.55
+2.29
+[1.5/2]
+8.50
+1.03
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.01
+1.71
+[11.5]
+2.58
+1.44
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+6.25
+1.07
+[9.5]
+11.50
+1.002
+[10.5]
+10.50
+1.001
+[11.5]
+8.50
+1.03
+[12.5]
+4.95
+1.12
+[13.5]
+4.60
+1.14
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.70
+2.02
+[5.5]
+2.45
+1.48
+[7.5]
+5.40
+1.10
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.47
+2.48
+[4.5]
+1.71
+2.01
+[5.5]
+8.50
+1.03
+[6.5]
+12.00
+1.001
+[7.5]
+12.00
+1.001
+Correct Score
+Brighton (Home)
+Draw
+Arsenal (Away)
+1:0
+12.50
+0:0
+9.75
+0:1
+6.40
+2:0
+21.00
+1:1
+6.60
+0:2
+7.75
+2:1
+12.50
+2:2
+13.50
+1:2
+6.90
+3:0
+40.00
+3:3
+50.00
+0:3
+13.00
+3:1
+30.00
+1:3
+13.00
+3:2
+35.00
+2:3
+24.00
+4:0
+150.0
+0:4
+29.00
+4:1
+80.00
+1:4
+29.00
+4:2
+100.0
+2:4
+40.00
+5:0
+600.0
+0:5
+50.00
+5:1
+400.0
+1:5
+50.00
+5:2
+400.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+125.0
+Home Others
+(Away Scores)
+125.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Arsenal (Away)
+1:0
+9.25
+0:0
+8.25
+0:1
+2.67
+2:0
+19.00
+1:1
+1.11
+0:2
+3.65
+2:1
+11.10
+2:2
+125.0
+1:2
+8.25
+3:0
+60.00
+3:3
+1000
+0:3
+9.25
+3:1
+600.0
+1:3
+300.0
+3:2
+1000
+2:3
+1000
+4:0
+300.0
+0:4
+35.00
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+900.0
+0:5
+150.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+300.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Brighton (Home)
+Draw
+Arsenal (Away)
+1:0
+6.50
+0:0
+2.73
+0:1
+3.50
+2:0
+18.00
+1:1
+6.70
+0:2
+6.90
+2:1
+24.00
+2:2
+60.00
+1:2
+13.50
+3:0
+100.0
+3:3
+800.0
+0:3
+25.00
+3:1
+150.0
+1:3
+50.00
+3:2
+400.0
+2:3
+200.0
+4:0
+700.0
+0:4
+100.0
+4:1
+700.0
+1:4
+250.0
+4:2
+1500
+2:4
+700.0
+5:0
+2500
+0:5
+600.0
+5:1
+2500
+1:5
+800.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Arsenal (Away)
+1:0
+5.90
+0:0
+1.90
+0:1
+1.10
+2:0
+29.00
+1:1
+12.50
+0:2
+8.75
+2:1
+250.0
+2:2
+2500
+1:2
+90.00
+3:0
+200.0
+3:3
+2500
+0:3
+150.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Brighton (Home)
+No Goals
+Arsenal (Away)
+2.65
+9.75
+1.51
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+2.72
+8.25
+1.53
+2nd Goal
+3.18
+2.67
+2.22
+3rd Goal
+10.00
+1.11
+7.40
+Total Goals
+0
+9.75
+1
+4.55
+2
+3.45
+3
+3.75
+4
+5.00
+5
+8.25
+6
+17.00
+7+
+28.00
+Total Goals- Last Odds for In Play Betting
+0
+8.25
+1
+2.67
+2
+1.11
+3
+4.35
+4
+70.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Brighton (Home)
+Arsenal (Away)
+101 JOAO PEDRO Junqueira
+8.00
+201 GABRIEL Fernando JESUS
+4.80
+102 Danny WELBECK
+10.00
+204 Leandro TROSSARD
+5.70
+103 Evan FERGUSON
+10.00
+202 Kai HAVERTZ
+6.10
+104 Julio ENCISO
+11.00
+203 GABRIEL Teodoro MARTINELLI
+6.70
+107 Simon ADINGRA
+11.00
+205 Raheem STERLING
+6.90
+105 Kaoru MITOMA
+11.50
+206 Ethan NWANERI
+7.00
+106 Georginio RUTTER
+11.50
+207 Ismeal KABIA
+9.50
+108 Yankuba MINTEH
+14.50
+208 Martin ODEGAARD
+10.00
+109 Solly MARCH
+14.50
+209 Mikel MERINO
+13.00
+110 Brajan GRUDA
+14.50
+210 GABRIEL Magalhaes
+14.50
+111 Matt O'RILEY
+15.00
+211 Declan RICE
+15.00
+113 Carlos BALEBA
+20.00
+212 JORGINHO Luiz Frello
+18.00
+112 Ferdi KADIOGLU
+22.00
+213 Thomas PARTEY
+18.00
+115 Yasin AYARI
+25.00
+214 Riccardo CALAFIORI
+30.00
+114 Mats WIEFFER
+29.00
+215 Kieran TIERNEY
+35.00
+116 Jack HINSHELWOOD
+30.00
+216 Oleksandr ZINCHENKO
+35.00
+117 Jakub MODER
+30.00
+218 William SALIBA
+35.00
+118 Tariq LAMPTEY
+40.00
+217 Jakub KIWIOR
+40.00
+119 James MILNER
+45.00
+219 Josh NICHOLS
+55.00
+120 Home Others
+20.00
+220 Away Others
+11.00
+00 No First Scorer
+9.55
+HaFu
+H-H
+7.00
+H-D
+14.00
+H-A
+20.00
+D-H
+9.00
+D-D
+5.40
+D-A
+4.20
+A-H
+30.00
+A-D
+14.00
+A-A
+2.52
+Specials
+Item No.: 1 Which event will happen to JOAO PEDRO Junqueira (Brighton) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.80
+(4) Be substituted
+3.30
+(5) None of the above
+2.20
+Item No.: 2 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+5.30
+(4) Be substituted
+1.71
+(5) None of the above
+2.92
+Item No.: 3 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+5.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+3.30
+(5) None of the above
+2.13
+Item No.: 4 How many goal(s) will Kai HAVERTZ (Arsenal) score?
+(1) No Goal
+1.19
+(2) 1 Goal
+3.70
+(3) 2 Goals
+11.00
+(4) 3 Goals or more
+60.00
+Item No.: 5 Which event will happen to GABRIEL Fernando JESUS (Arsenal) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.25
+(4) Be substituted
+3.70
+(5) None of the above
+2.50

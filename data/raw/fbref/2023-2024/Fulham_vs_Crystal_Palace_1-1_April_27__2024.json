@@ -1,0 +1,136 @@
+{
+  "url": "https://fbref.com/en/matches/9fe4ec6e/Fulham-Crystal-Palace-April-27-2024-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "April 27, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 52,
+        "player": "Rodrigo Muniz",
+        "playerId": "a755db8c",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Timothy Castagne"
+      },
+      {
+        "minute": 87,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Adam Wharton"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 83,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace"
+      },
+      {
+        "minute": 90,
+        "player": "Joachim Andersen",
+        "playerId": "e34fc66d",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Armando Broja",
+        "playerId": "97220da2",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

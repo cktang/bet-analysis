@@ -1,0 +1,161 @@
+{
+  "url": "https://fbref.com/en/matches/7483b97f/Arsenal-Leicester-City-August-13-2022-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Leicester City",
+  "matchDate": "August 13, 2022",
+  "score": "4-2",
+  "homeScore": 4,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Granit Xhaka"
+      },
+      {
+        "minute": 35,
+        "player": "Gabriel Jesus",
+        "playerId": "b66315ae",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 53,
+        "player": "William Saliba",
+        "playerId": "972aeb2a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 55,
+        "player": "Granit Xhaka",
+        "playerId": "e61b8aee",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      },
+      {
+        "minute": 74,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": "Kelechi Iheanacho"
+      },
+      {
+        "minute": 75,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 16,
+        "player": "Wesley Fofana",
+        "playerId": "132a82f1",
+        "team": "Leicester City"
+      },
+      {
+        "minute": 90,
+        "player": "Takehiro Tomiyasu",
+        "playerId": "b3af9be1",
+        "team": "Arsenal"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Dennis Praet",
+        "playerId": "86695068",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Kelechi Iheanacho",
+        "playerId": "c92e1a31",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Takehiro Tomiyasu",
+        "playerId": "b3af9be1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

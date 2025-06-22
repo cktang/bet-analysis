@@ -1,0 +1,113 @@
+{
+  "url": "https://fbref.com/en/matches/b7a32aeb/Brentford-Chelsea-October-19-2022-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Chelsea",
+  "matchDate": "October 19, 2022",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 15,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Christian Pulisic",
+        "playerId": "1bf33a9a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Raheem Sterling",
+        "playerId": "b400bde0",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Carney Chukwuemeka",
+        "playerId": "b2f9c73e",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Josh Dasilva",
+        "playerId": "60344e4f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Pierre-Emerick Aubameyang",
+        "playerId": "d5dd5f1f",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Saman Ghoddos",
+        "playerId": "f7b1d4e0",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

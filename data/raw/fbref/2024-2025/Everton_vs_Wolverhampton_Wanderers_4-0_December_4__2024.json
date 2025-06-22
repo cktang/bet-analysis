@@ -1,0 +1,152 @@
+{
+  "url": "https://fbref.com/en/matches/71f00b04/Everton-Wolverhampton-Wanderers-December-4-2024-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "December 4, 2024",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 10,
+        "player": "Ashley Young",
+        "playerId": "be927d03",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 33,
+        "player": "Orel Mangala",
+        "playerId": "a572e291",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 49,
+        "player": "Craig Dawson",
+        "playerId": "3e9e06cb",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 72,
+        "player": "Craig Dawson",
+        "playerId": "3e9e06cb",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 35,
+        "player": "Orel Mangala",
+        "playerId": "a572e291",
+        "team": "Everton"
+      },
+      {
+        "minute": 91,
+        "player": "Harrison Armstrong",
+        "playerId": "de59e609",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "player": "Hwang Hee-chan",
+        "playerId": "169fd162",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Rodrigo Gomes",
+        "playerId": "8dcf77c0",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Toti Gomes",
+        "playerId": "f0caab96",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Armando Broja",
+        "playerId": "97220da2",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Jesper Lindstrøm",
+        "playerId": "37dc1a48",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Tommy Doyle",
+        "playerId": "5526deb1",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Harrison Armstrong",
+        "playerId": "de59e609",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

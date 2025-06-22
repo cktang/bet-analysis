@@ -1,0 +1,775 @@
+27/02/2025
+FB8121
+Manchester
+Utd
+vs
+Ipswich
+2
+:
+2
+3
+:
+2
+%Event ID: FB8121
+Manchester Utd
+3
+2
+Ipswich
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1.36
+4.35
+6.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1.02
+10.00
+1000
+First Half HAD
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1.75
+2.53
+5.80
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1.02
+7.80
+80.00
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+[-1]
+2.16
+[-1]
+3.50
+[+1]
+2.55
+[-2]
+3.85
+[-2]
+4.25
+[+2]
+1.55
+Handicap HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+[-2]
+500.0
+[-2]
+6.80
+[+2]
+1.01
+[+1]
+1.38
+[+1]
+3.65
+[-1]
+7.00
+[-1]
+1.53
+[-1]
+3.38
+[+1]
+5.00
+Handicap
+Manchester Utd (Home)
+Ipswich (Away)
+[-1/-1.5]
+2.02
+[+1/+1.5]
+1.81
+Same Game All Up
+Bruno Borges FERNANDES to score first & Manchester Utd to win by [2] goal(s) or more & Over [11.5] corners taken
+28.00
+Both teams to score & Manchester Utd to win by [2] goal(s) or more & Over [13.5] corners taken
+23.00
+Both teams to score & Ipswich to win & Over [9.5] corners taken
+14.00
+Manchester Utd to win & Over [2.5] goals & Over [11.5] corners taken
+5.00
+Ipswich to score first & The match to be drawn
+8.50
+Manchester Utd to score first & Ipswich to win or draw
+6.80
+Ipswich to score first & Manchester Utd to win by [2] goal(s) or more
+16.00
+Manchester Utd to win the first half & Over [2.5] goals in the first half
+7.00
+First Half to be drawn & Manchester Utd to win the match by exactly [1] goal(s)
+6.00
+Ipswich to win the first half & Over [1.5] goals in the first half
+13.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+11.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+7.00
+Manchester Utd to win both first half and the match & Exactly [3] goals in the Match
+7.00
+Ipswich to win both first half and the match & Exactly [3] goals in the Match
+23.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [3:0] in the match
+23.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+35.00
+Manchester Utd to win [2:1] in the first half & Manchester Utd to win [3:1] in the match
+45.00
+First half to be drawn [0:0] & The match to be drawn [1:1]
+21.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+First half to be drawn [1:1] & Ipswich to win [2:1] in the match
+45.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.53
+2.33
+[2.5/3]
+1.68
+2.05
+[3.5]
+2.35
+1.52
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.53
+2.33
+[2.5/3]
+1.68
+2.05
+[3/3.5]
+1.81
+1.89
+[3.5]
+2.07
+1.67
+[3.5/4]
+2.20
+1.59
+[4/4.5]
+1.64
+2.12
+[4.5]
+1.95
+1.75
+[4.5/5]
+2.33
+1.53
+[5/5.5]
+1.81
+1.89
+[5.5]
+2.07
+1.67
+[5.5/6]
+5.15
+1.11
+[6/6.5]
+11.00
+1.005
+[6.5]
+11.50
+1.002
+[7.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.68
+1.40
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.19
+1.60
+[2/2.5]
+4.05
+1.18
+[2.5]
+4.95
+1.12
+[2.5/3]
+2.38
+1.51
+[3/3.5]
+4.60
+1.14
+[3.5]
+1.91
+1.79
+[3.5/4]
+7.00
+1.05
+[4/4.5]
+12.00
+1.001
+[4.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.85
+1.85
+[11.5]
+2.35
+1.52
+[13.5]
+3.95
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.30
+3.15
+[9.5]
+1.23
+3.65
+[10.5]
+1.24
+3.55
+[11.5]
+1.42
+2.62
+[12.5]
+3.45
+1.25
+[13.5]
+8.50
+1.03
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.65
+2.10
+[5.5]
+2.35
+1.52
+[7.5]
+5.40
+1.10
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.24
+3.55
+[4.5]
+9.50
+1.02
+[5.5]
+12.00
+1.001
+[6.5]
+4.95
+1.12
+[7.5]
+5.40
+1.10
+Correct Score
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1:0
+7.25
+0:0
+15.00
+0:1
+19.00
+2:0
+6.90
+1:1
+8.25
+0:2
+30.00
+2:1
+6.90
+2:2
+13.50
+1:2
+15.00
+3:0
+9.25
+3:3
+40.00
+0:3
+70.00
+3:1
+9.75
+1:3
+40.00
+3:2
+20.00
+2:3
+40.00
+4:0
+17.00
+0:4
+300.0
+4:1
+18.00
+1:4
+125.0
+4:2
+35.00
+2:4
+125.0
+5:0
+35.00
+0:5
+800.0
+5:1
+40.00
+1:5
+500.0
+5:2
+60.00
+2:5
+500.0
+Home Others
+(Away No Goal)
+50.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+30.00
+Draw Others
+150.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1:0
+7.25
+0:0
+15.00
+0:1
+10.50
+2:0
+6.90
+1:1
+7.40
+0:2
+12.50
+2:1
+4.40
+2:2
+3.65
+1:2
+10.50
+3:0
+9.25
+3:3
+10.50
+0:3
+40.00
+3:1
+4.75
+1:3
+30.00
+3:2
+1.001
+2:3
+4.20
+4:0
+17.00
+0:4
+200.0
+4:1
+12.50
+1:4
+150.0
+4:2
+14.00
+2:4
+10.00
+5:0
+35.00
+0:5
+1000
+5:1
+50.00
+1:5
+900.0
+5:2
+1000
+2:5
+40.00
+Home Others
+(Away No Goal)
+50.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+900.0
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1:0
+3.45
+0:0
+3.15
+0:1
+7.25
+2:0
+5.80
+1:1
+7.00
+0:2
+27.00
+2:1
+11.50
+2:2
+50.00
+1:2
+27.00
+3:0
+15.00
+3:3
+700.0
+0:3
+150.0
+3:1
+40.00
+1:3
+150.0
+3:2
+150.0
+2:3
+300.0
+4:0
+60.00
+0:4
+800.0
+4:1
+125.0
+1:4
+800.0
+4:2
+500.0
+2:4
+1000
+5:0
+300.0
+0:5
+2500
+5:1
+600.0
+1:5
+2500
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+800.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+800.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Ipswich (Away)
+1:0
+3.45
+0:0
+3.15
+0:1
+1.80
+2:0
+5.80
+1:1
+1.66
+0:2
+6.60
+2:1
+1.12
+2:2
+9.50
+1:2
+7.40
+3:0
+15.00
+3:3
+2500
+0:3
+60.00
+3:1
+8.50
+1:3
+70.00
+3:2
+60.00
+2:3
+150.0
+4:0
+60.00
+0:4
+600.0
+4:1
+125.0
+1:4
+500.0
+4:2
+2000
+2:4
+2500
+5:0
+300.0
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+800.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Ipswich (Away)
+1.33
+15.00
+3.10
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Ipswich (Away)
+2nd Goal
+1.28
+10.50
+3.80
+3rd Goal
+1.40
+7.40
+3.44
+4th Goal
+2.44
+4.40
+1.99
+5th Goal
+2.50
+3.65
+2.15
+6th Goal
+11.50
+1.10
+8.00
+Total Goals
+0
+15.00
+1
+5.70
+2
+3.85
+3
+3.60
+4
+4.40
+5
+6.70
+6
+12.00
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+15.00
+1
+10.50
+2
+7.40
+3
+4.40
+4
+3.65
+5
+1.001
+6
+10.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Manchester Utd (Home)
+Ipswich (Away)
+101 Bruno Borges FERNANDES
+4.70
+201 Liam DELAP
+5.60
+102 Joshua ZIRKZEE
+4.90
+203 Sammie SZMODICS
+9.25
+103 Rasmus HOJLUND
+5.10
+202 George HIRST
+9.50
+104 Alejandro GARNACHO
+6.00
+204 Nathan BROADHEAD
+14.00
+105 Mason MOUNT
+9.00
+205 Jack CLARKE
+14.00
+106 Carlos CASEMIRO
+10.00
+206 Omari HUTCHINSON
+16.00
+107 Jack FLETCHER
+11.50
+207 Jaden PHILOGENE
+19.00
+108 Christian ERIKSEN
+14.50
+208 Conor CHAPLIN
+21.00
+109 Patrick DORGU
+18.00
+209 Jack TAYLOR
+29.00
+110 Toby COLLYER
+18.00
+210 Kalvin PHILLIPS
+55.00
+111 Diogo DALOT
+28.00
+211 Ben JOHNSON
+70.00
+112 Leny YORO
+28.00
+212 Cameron BURGESS
+75.00
+113 Manuel UGARTE
+28.00
+213 Dara O'SHEA
+75.00
+114 Harry MAGUIRE
+30.00
+214 Massimo LUONGO
+75.00
+115 Matthijs DE LIGT
+30.00
+215 Jacob GREAVES
+80.00
+116 Harry AMASS
+40.00
+216 Leif DAVIS
+80.00
+117 Noussair MAZRAOUI
+40.00
+217 Conor TOWNSEND
+90.00
+118 Ayden HEAVEN
+50.00
+218 Jens CAJUSTE
+90.00
+119 Victor LINDELOF
+50.00
+219 Luke WOOLFENDEN
+100.0
+120 Home Others
+5.50
+220 Away Others
+15.00
+00 No First Scorer
+14.80
+HaFu
+H-H
+1.96
+H-D
+15.00
+H-A
+35.00
+D-H
+3.95
+D-D
+6.90
+D-A
+13.00
+A-H
+17.00
+A-D
+15.00
+A-A
+10.50

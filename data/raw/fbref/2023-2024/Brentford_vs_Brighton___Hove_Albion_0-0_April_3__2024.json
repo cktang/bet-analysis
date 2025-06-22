@@ -1,0 +1,119 @@
+{
+  "url": "https://fbref.com/en/matches/8ec55f05/Brentford-Brighton-and-Hove-Albion-April-3-2024-Premier-League",
+  "homeTeam": "Brentford",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "April 3, 2024",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [
+      {
+        "minute": 53,
+        "player": "Facundo Buonanotte",
+        "playerId": "468a7a91",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 76,
+        "player": "Vitaly Janelt",
+        "playerId": "8449d35e",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Julio Enciso",
+        "playerId": "9cfbad36",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Sergio Reguilón",
+        "playerId": "3353737a",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Bryan Mbeumo",
+        "playerId": "6afaebf2",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Danny Welbeck",
+        "playerId": "ce5143da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Tariq Lamptey",
+        "playerId": "f4e433d4",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Frank Onyeka",
+        "playerId": "2944f86f",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Jakub Moder",
+        "playerId": "f230bc30",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

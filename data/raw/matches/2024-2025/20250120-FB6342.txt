@@ -1,0 +1,908 @@
+20/01/2025
+FB6342
+Ipswich
+vs
+Manchester
+City
+0
+:
+3
+0
+:
+6
+%Event ID: FB6342
+Ipswich
+0
+6
+Manchester City
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Manchester City (Away)
+7.25
+5.00
+1.26
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Manchester City (Away)
+500.0
+90.00
+1.001
+First Half HAD
+Ipswich (Home)
+Draw
+Manchester City (Away)
+6.20
+2.70
+1.64
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Manchester City (Away)
+800.0
+60.00
+1.001
+Handicap HAD
+Ipswich (Home)
+Draw
+Manchester City (Away)
+[+2]
+1.79
+[+2]
+4.15
+[-2]
+2.92
+[+1]
+3.00
+[+1]
+3.75
+[-1]
+1.85
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Manchester City (Away)
+[+1]
+1000
+[+1]
+1000
+[-1]
+1.001
+[+7]
+1.05
+[+7]
+5.50
+[-7]
+125.0
+[+2]
+4.90
+[+2]
+3.65
+[-2]
+1.51
+[+3]
+5.10
+[+3]
+3.28
+[-3]
+1.57
+[+4]
+6.10
+[+4]
+3.10
+[-4]
+1.52
+[+5]
+6.20
+[+5]
+2.68
+[-5]
+1.65
+[+6]
+6.60
+[+6]
+2.07
+[-6]
+1.98
+Handicap
+Ipswich (Home)
+Manchester City (Away)
+[+1/+1.5]
+2.09
+[-1/-1.5]
+1.75
+Handicap- Last Odds for In Play Betting
+Ipswich (Home)
+Manchester City (Away)
+[+1/+1.5]
+3.18
+[-1/-1.5]
+1.31
+[+6/+6.5]
+1.33
+[-6/-6.5]
+3.07
+[+5.5/+6]
+1.53
+[-5.5/-6]
+2.36
+[+3]
+1.68
+[-3]
+2.08
+[+6]
+2.84
+[-6]
+1.38
+[+2]
+4.10
+[-2]
+1.20
+[+2.5/+3]
+4.65
+[-2.5/-3]
+1.16
+[+3.5/+4]
+5.40
+[-3.5/-4]
+1.12
+[+4.5/+5]
+5.40
+[-4.5/-5]
+1.12
+[+5/+5.5]
+10.50
+[-5/-5.5]
+1.02
+Same Game All Up
+Erling HAALAND to score first in the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+13.50
+Erling HAALAND to score first & Manchester City to win by [3] goal(s) or more
+10.00
+Phil FODEN to score first & Manchester City to win [3:0]
+45.00
+Both teams to score & Manchester City to win by [2] goal(s) or more & Over [10.5] corners taken
+8.50
+Manchester City to win by [2] goal(s) or more & Over [4.5] goals & Over [11.5] corners taken
+14.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+40.00
+First half to be drawn [0:0] & Both teams to score in the match
+10.50
+Both teams to score in the match & First Half to be drawn & Manchester City to win the match by [2] goal(s) or more
+18.00
+Both teams to score & Ipswich to win & Under [10.5] corners taken
+15.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+6.90
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.20
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [10.5] corners taken in the match
+3.70
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+6.00
+First Half to be drawn & Manchester City to win the match by exactly [2] goal(s)
+12.00
+The match to be drawn & Under [9.5] corners taken
+10.00
+Ipswich to score first & Manchester City to win by exactly [1] goal(s)
+14.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:1] in the match
+24.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Manchester City to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Manchester City to win [2:0] in the match
+24.00
+HiLo
+Line
+High
+Low
+[3.5]
+2.08
+1.66
+[3.5/4]
+2.38
+1.51
+[4.5]
+3.40
+1.26
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.25
+3.45
+[2.5/3]
+1.30
+3.15
+[3/3.5]
+1.15
+4.40
+[3.5]
+1.07
+6.25
+[3.5/4]
+1.08
+5.90
+[4/4.5]
+2.22
+1.58
+[4.5]
+1.14
+4.60
+[4.5/5]
+1.17
+4.15
+[5/5.5]
+1.68
+2.05
+[5.5]
+1.20
+3.90
+[5.5/6]
+1.63
+2.13
+[6/6.5]
+2.65
+1.41
+[6.5]
+1.44
+2.58
+[6.5/7]
+6.25
+1.07
+[7/7.5]
+11.50
+1.002
+[7.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.94
+1.76
+[1.5/2]
+2.35
+1.52
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.98
+1.73
+[1/1.5]
+3.45
+1.25
+[1.5]
+1.65
+2.10
+[1.5/2]
+2.33
+1.53
+[2/2.5]
+4.40
+1.15
+[2.5]
+1.84
+1.86
+[2.5/3]
+4.60
+1.14
+[3/3.5]
+8.50
+1.03
+[3.5/4]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.88
+1.82
+[11.5]
+2.25
+1.57
+[13.5]
+3.65
+1.23
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.36
+2.85
+[11.5]
+1.33
+2.98
+[12.5]
+4.95
+1.12
+[13.5]
+5.60
+1.09
+[14.5]
+9.50
+1.02
+[15.5]
+7.00
+1.05
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.68
+2.05
+[5.5]
+2.27
+1.56
+[6.5]
+3.35
+1.27
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.39
+2.70
+[5.5]
+1.16
+4.30
+[6.5]
+1.62
+2.15
+[7.5]
+5.15
+1.11
+[8.5]
+8.50
+1.03
+[9.5]
+8.00
+1.04
+Correct Score
+Ipswich (Home)
+Draw
+Manchester City (Away)
+1:0
+26.00
+0:0
+20.00
+0:1
+8.75
+2:0
+40.00
+1:1
+9.75
+0:2
+7.00
+2:1
+18.00
+2:2
+14.50
+1:2
+7.00
+3:0
+80.00
+3:3
+40.00
+0:3
+8.75
+3:1
+40.00
+1:3
+9.00
+3:2
+40.00
+2:3
+18.00
+4:0
+300.0
+0:4
+14.00
+4:1
+125.0
+1:4
+14.50
+4:2
+125.0
+2:4
+29.00
+5:0
+900.0
+0:5
+27.00
+5:1
+600.0
+1:5
+28.00
+5:2
+500.0
+2:5
+40.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+40.00
+Home Others
+(Away Scores)
+100.0
+Draw Others
+125.0
+Away Others
+(Home Scores)
+20.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Manchester City (Away)
+1:0
+14.00
+0:0
+11.00
+0:1
+9.75
+2:0
+35.00
+1:1
+10.50
+0:2
+7.00
+2:1
+26.00
+2:2
+14.00
+1:2
+9.50
+3:0
+125.0
+3:3
+200.0
+0:3
+5.70
+3:1
+90.00
+1:3
+9.50
+3:2
+50.00
+2:3
+35.00
+4:0
+700.0
+0:4
+4.15
+4:1
+500.0
+1:4
+9.00
+4:2
+350.0
+2:4
+35.00
+5:0
+1000
+0:5
+2.49
+5:1
+1000
+1:5
+8.25
+5:2
+1000
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1.17
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+3.50
+First Half Correct Score
+Ipswich (Home)
+Draw
+Manchester City (Away)
+1:0
+9.25
+0:0
+3.70
+0:1
+3.40
+2:0
+30.00
+1:1
+6.90
+0:2
+5.30
+2:1
+27.00
+2:2
+40.00
+1:2
+10.50
+3:0
+150.0
+3:3
+600.0
+0:3
+12.50
+3:1
+150.0
+1:3
+28.00
+3:2
+300.0
+2:3
+100.0
+4:0
+800.0
+0:4
+40.00
+4:1
+800.0
+1:4
+80.00
+4:2
+1000
+2:4
+400.0
+5:0
+2500
+0:5
+150.0
+5:1
+2500
+1:5
+400.0
+5:2
+2500
+2:5
+900.0
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+700.0
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Manchester City (Away)
+1:0
+7.20
+0:0
+1.88
+0:1
+1.69
+2:0
+60.00
+1:1
+5.20
+0:2
+1.20
+2:1
+41.00
+2:2
+150.0
+1:2
+10.50
+3:0
+450.0
+3:3
+2500
+0:3
+1.15
+3:1
+350.0
+1:3
+13.50
+3:2
+2500
+2:3
+250.0
+4:0
+2500
+0:4
+5.80
+4:1
+2500
+1:4
+60.00
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+70.00
+5:1
+2500
+1:5
+800.0
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Manchester City (Away)
+3.30
+20.00
+1.27
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+3.20
+11.00
+1.35
+2nd Goal
+2.96
+9.75
+1.43
+3rd Goal
+3.04
+7.00
+1.49
+4th Goal
+3.65
+5.70
+1.45
+5th Goal
+3.85
+4.15
+1.56
+6th Goal
+5.00
+2.49
+1.86
+7th Goal
+16.00
+1.07
+7.40
+Total Goals
+0
+20.00
+1
+6.90
+2
+4.20
+3
+3.70
+4
+4.20
+5
+6.00
+6
+10.00
+7+
+11.50
+Total Goals- Last Odds for In Play Betting
+0
+11.00
+1
+9.75
+2
+7.00
+3
+5.70
+4
+4.15
+5
+2.49
+6
+2.40
+7+
+1.42
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Ipswich (Home)
+Manchester City (Away)
+101 Liam DELAP
+6.40
+201 Erling HAALAND
+2.58
+102 George HIRST
+9.75
+202 Oscar BOBB
+5.60
+103 Sammie SZMODICS
+10.00
+203 Phil FODEN
+7.50
+104 Ali AL HAMADI
+11.00
+204 Kevin DE BRUYNE
+7.75
+106 Nathan BROADHEAD
+13.00
+205 SAVINHO Moreira de Oliveira
+7.75
+105 Jack CLARKE
+14.00
+206 James McATEE
+8.25
+107 Omari HUTCHINSON
+16.00
+207 Jack GREALISH
+8.50
+108 Jaden PHILOGENE
+16.00
+208 Nico O'REILLY
+8.50
+109 Jack TAYLOR
+20.00
+209 Jeremy DOKU
+9.25
+110 Wes BURNS
+20.00
+210 BERNARDO SILVA
+12.50
+111 Ben JOHNSON
+40.00
+211 Ilkay GUNDOGAN
+15.00
+112 Sam MORSY
+45.00
+212 Jacob Anthony WRIGHT
+15.00
+113 Massimo LUONGO
+45.00
+213 Mateo KOVACIC
+16.00
+114 Harry CLARKE
+55.00
+214 Matheus NUNES
+17.00
+115 Leif DAVIS
+55.00
+215 Josko GVARDIOL
+18.00
+116 Cameron BURGESS
+60.00
+216 John STONES
+23.00
+117 Jens CAJUSTE
+60.00
+217 Nathan AKE
+30.00
+118 Jacob GREAVES
+65.00
+218 RUBEN DIAS
+30.00
+119 Dara O'SHEA
+75.00
+219 Manuel AKANJI
+40.00
+120 Home Others
+16.00
+220 Away Others
+6.30
+00 No First Scorer
+19.80
+HaFu
+H-H
+11.00
+H-D
+16.00
+H-A
+19.00
+D-H
+15.00
+D-D
+8.00
+D-A
+3.90
+A-H
+50.00
+A-D
+16.00
+A-A
+1.79
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+12.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.46
+(4) Be substituted
+5.75
+(5) None of the above
+3.05
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+2.20
+(2) 1 Goal
+2.45
+(3) 2 Goals
+4.25
+(4) 3 Goals or more
+8.25
+Item No.: 3 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.50
+(4) Be substituted
+2.22
+(5) None of the above
+3.25
+Item No.: 4 How many goal(s) will Phil FODEN (Manchester City) score?
+(1) No Goal
+1.45
+(2) 1 Goal
+2.80
+(3) 2 Goals
+9.00
+(4) 3 Goals or more
+18.00
+Item No.: 5 Which event will happen to Kevin DE BRUYNE (Manchester City) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+2.50
+(5) None of the above
+2.45

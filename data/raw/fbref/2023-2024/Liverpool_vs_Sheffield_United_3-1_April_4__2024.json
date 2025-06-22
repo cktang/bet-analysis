@@ -1,0 +1,153 @@
+{
+  "url": "https://fbref.com/en/matches/1f5973e2/Liverpool-Sheffield-United-April-4-2024-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Sheffield United",
+  "matchDate": "April 4, 2024",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 58,
+        "player": "Conor Bradley",
+        "playerId": "bbd67769",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 76,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Luis Díaz"
+      },
+      {
+        "minute": 90,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Andrew Robertson"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 87,
+        "player": "Oliver McBurnie",
+        "playerId": "78b8ac63",
+        "team": "Sheffield United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Andrew Robertson",
+        "playerId": "2e4f5f03",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Ben Osborn",
+        "playerId": "79bc4c45",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Oliver McBurnie",
+        "playerId": "78b8ac63",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "William Osula",
+        "playerId": "7b355808",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Andre Brooks",
+        "playerId": "5f346071",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Anis Ben Slimane",
+        "playerId": "9ade9ce1",
+        "team": "Sheffield United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

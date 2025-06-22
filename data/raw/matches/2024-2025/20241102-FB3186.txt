@@ -1,0 +1,758 @@
+02/11/2024
+FB3186
+Nottingham
+Forest
+vs
+West
+Ham
+1
+:
+0
+3
+:
+0
+%Event ID: FB3186
+Nottingham Forest
+3
+0
+West Ham
+Eng Premier
+Home/Away/Draw
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1.87
+3.30
+3.45
+Home/Away/Draw- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1.001
+35.00
+80.00
+First Half HAD
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+2.42
+2.11
+3.95
+First Half HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1.005
+12.00
+600.0
+Handicap HAD
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+[-1]
+3.50
+[-1]
+3.55
+[+1]
+1.74
+Handicap HAD- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+[-4]
+1000
+[-4]
+6.70
+[+4]
+1.009
+[-2]
+1.80
+[-2]
+2.23
+[+2]
+7.00
+[-1]
+2.17
+[-1]
+2.80
+[+1]
+3.10
+[-3]
+2.56
+[-3]
+1.56
+[+3]
+9.25
+Handicap
+Nottingham Forest (Home)
+West Ham (Away)
+[0/-0.5]
+1.72
+[0/+0.5]
+2.14
+Same Game All Up
+Both teams to score & Nottingham Forest to win & Over [11.5] corners taken
+8.50
+Nottingham Forest to win & Over [2.5] goals & Over [10.5] corners taken
+5.60
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Nottingham Forest to win the match by [2] goal(s) or more
+12.50
+Both teams to score & West Ham to win & Under [10.5] corners taken
+12.00
+Both teams to score & West Ham to win or draw & Over [10.5] corners taken
+4.80
+West Ham to score first & Nottingham Forest to win by [2] goal(s) or more
+29.00
+Nottingham Forest to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+23.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.30
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+3.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+3.90
+First Half to be drawn & Nottingham Forest to win the match by [2] goal(s) or more
+14.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+11.50
+The match to be drawn & Under [10.5] corners taken
+6.30
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:1] in the match
+26.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [3:0] in the match
+40.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [4:0] in the match
+90.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+West Ham to win [1:0] in the first half & West Ham to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.83
+1.87
+[2.5/3]
+2.07
+1.67
+[3.5]
+2.98
+1.33
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.10
+5.40
+[1.5/2]
+1.55
+2.29
+[2/2.5]
+2.48
+1.47
+[2.5]
+2.88
+1.39
+[2.5/3]
+2.48
+1.47
+[3/3.5]
+4.95
+1.12
+[3.5]
+1.93
+1.77
+[3.5/4]
+4.95
+1.12
+[4/4.5]
+11.00
+1.005
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.60
+1.43
+[1.5/2]
+3.35
+1.27
+[2.5]
+6.25
+1.07
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.92
+1.34
+[1/1.5]
+6.25
+1.07
+[1.5]
+7.00
+1.05
+[1.5/2]
+6.25
+1.07
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.17
+1.61
+[12.5]
+2.70
+1.39
+[14.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.32
+3.05
+[7.5]
+1.33
+2.98
+[8.5]
+1.01
+10.50
+[9.5]
+1.09
+5.60
+[10.5]
+1.29
+3.20
+[11.5]
+1.46
+2.50
+[12.5]
+1.07
+6.25
+[13.5]
+1.47
+2.48
+[14.5]
+1.56
+2.27
+[15.5]
+1.67
+2.07
+[16.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.19
+1.60
+[6.5]
+3.15
+1.30
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+2.08
+1.66
+[3.5]
+2.40
+1.50
+[4.5]
+12.00
+1.001
+[5.5]
+2.25
+1.57
+[6.5]
+3.20
+1.29
+[7.5]
+4.95
+1.12
+Correct Score
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1:0
+6.90
+0:0
+10.00
+0:1
+10.00
+2:0
+8.75
+1:1
+6.20
+0:2
+18.00
+2:1
+7.25
+2:2
+12.50
+1:2
+10.00
+3:0
+17.00
+3:3
+40.00
+0:3
+40.00
+3:1
+14.50
+1:3
+29.00
+3:2
+24.00
+2:3
+30.00
+4:0
+35.00
+0:4
+100.0
+4:1
+30.00
+1:4
+70.00
+4:2
+40.00
+2:4
+70.00
+5:0
+70.00
+0:5
+400.0
+5:1
+70.00
+1:5
+250.0
+5:2
+100.0
+2:5
+300.0
+Home Others
+(Away No Goal)
+200.0
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1:0
+2.64
+0:0
+4.70
+0:1
+6.10
+2:0
+1.70
+1:1
+7.40
+0:2
+14.50
+2:1
+8.75
+2:2
+100.0
+1:2
+45.00
+3:0
+1.01
+3:3
+1000
+0:3
+50.00
+3:1
+45.00
+1:3
+400.0
+3:2
+1000
+2:3
+1000
+4:0
+16.50
+0:4
+300.0
+4:1
+500.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1:0
+3.75
+0:0
+2.68
+0:1
+5.80
+2:0
+8.00
+1:1
+6.60
+0:2
+14.50
+2:1
+14.00
+2:2
+50.00
+1:2
+20.00
+3:0
+35.00
+3:3
+700.0
+0:3
+80.00
+3:1
+60.00
+1:3
+100.0
+3:2
+200.0
+2:3
+300.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+700.0
+4:2
+700.0
+2:4
+1000
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+Draw
+West Ham (Away)
+1:0
+1.05
+0:0
+1.43
+0:1
+6.30
+2:0
+12.50
+1:1
+16.50
+0:2
+45.00
+2:1
+100.0
+2:2
+2500
+1:2
+300.0
+3:0
+200.0
+3:3
+2500
+0:3
+350.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Nottingham Forest (Home)
+No Goals
+West Ham (Away)
+1.62
+10.00
+2.36
+Next Team To Score- Last Odds for In Play Betting
+Nottingham Forest (Home)
+No Goals
+West Ham (Away)
+1st Goal
+1.81
+4.70
+2.60
+2nd Goal
+1.75
+2.64
+5.20
+3rd Goal
+2.32
+1.70
+7.80
+4th Goal
+15.50
+1.01
+40.00
+Total Goals
+0
+10.00
+1
+4.50
+2
+3.35
+3
+3.75
+4
+5.00
+5
+8.25
+6
+18.00
+7+
+30.00
+Total Goals- Last Odds for In Play Betting
+0
+4.70
+1
+2.64
+2
+1.70
+3
+1.01
+4
+9.50
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Nottingham Forest (Home)
+West Ham (Away)
+101 Chris WOOD
+4.35
+201 Jarrod BOWEN
+7.75
+102 Taiwo AWONIYI
+4.85
+202 Michail ANTONIO
+8.50
+103 Morgan GIBBS-WHITE
+7.00
+203 Danny INGS
+9.25
+104 Jota SILVA
+7.25
+204 Tomas SOUCEK
+10.50
+105 Ramon SOSA
+8.00
+205 Crysencio SUMMERVILLE
+11.50
+106 Callum HUDSON-ODOI
+8.25
+206 Carlos SOLER
+12.00
+107 Elliot ANDERSON
+8.50
+207 LUCAS PAQUETA
+13.50
+108 Eric Da SILVA MOREIRA
+9.25
+208 Andy IRVING
+15.00
+109 Anthony ELANGA
+9.75
+209 Luis GUILHERME
+24.00
+110 Ryan YATES
+11.00
+210 Edson Omar ALVAREZ
+30.00
+111 Nicolas DOMINGUEZ
+18.00
+211 Guido RODRIGUEZ
+30.00
+112 Neco WILLIAMS
+24.00
+212 Konstantinos MAVROPANOS
+45.00
+113 ALEX MORENO
+40.00
+213 Jean-Clair TODIBO
+65.00
+114 Andrew OMOBAMIDELE
+40.00
+214 Max KILMAN
+65.00
+115 Nikola MILENKOVIC
+40.00
+215 Aaron CRESSWELL
+75.00
+116 Harry TOFFOLO
+45.00
+216 EMERSON PALMIERI dos Santos
+75.00
+117 Willy BOLY
+45.00
+217 Aaron WAN-BISSAKA
+95.00
+118 MORATO
+60.00
+218 Vladimir COUFAL
+125.0
+119 MURILLO Costa
+60.00
+120 Home Others
+12.00
+220 Away Others
+17.00
+00 No First Scorer
+9.80
+HaFu
+H-H
+2.95
+H-D
+13.00
+H-A
+30.00
+D-H
+4.65
+D-D
+5.00
+D-A
+7.75
+A-H
+23.00
+A-D
+13.00
+A-A
+5.50

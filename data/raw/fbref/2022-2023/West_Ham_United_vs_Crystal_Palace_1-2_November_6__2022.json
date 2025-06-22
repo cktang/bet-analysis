@@ -1,0 +1,123 @@
+{
+  "url": "https://fbref.com/en/matches/2586fb04/West-Ham-United-Crystal-Palace-November-6-2022-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "November 6, 2022",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Lucas Paquetá"
+      },
+      {
+        "minute": 41,
+        "player": "Wilfried Zaha",
+        "playerId": "b2bc3b1f",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Eberechi Eze"
+      },
+      {
+        "minute": 94,
+        "player": "Michael Olise",
+        "playerId": "c4486bac",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Wilfried Zaha"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 58,
+        "player": "Craig Dawson",
+        "playerId": "3e9e06cb",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 88,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Manuel Lanzini",
+        "playerId": "26f6dca8",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Luka Milivojević",
+        "playerId": "2ce2508a",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

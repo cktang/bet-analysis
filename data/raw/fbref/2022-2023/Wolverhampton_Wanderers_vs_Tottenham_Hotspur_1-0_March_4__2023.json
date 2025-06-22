@@ -1,0 +1,128 @@
+{
+  "url": "https://fbref.com/en/matches/bf4ac62d/Wolverhampton-Wanderers-Tottenham-Hotspur-March-4-2023-Premier-League",
+  "homeTeam": "Wolverhampton Wanderers",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "March 4, 2023",
+  "score": "1-0",
+  "homeScore": 1,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 82,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 49,
+        "player": "Rúben Neves",
+        "playerId": "44bfb6c5",
+        "team": "Wolverhampton Wanderers"
+      },
+      {
+        "minute": 61,
+        "player": "Dejan Kulusevski",
+        "playerId": "df3cda47",
+        "team": "Tottenham Hotspur"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 28,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Nathan Collins",
+        "playerId": "a8c19eb8",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Matheus Cunha",
+        "playerId": "dc62b55d",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "João Moutinho",
+        "playerId": "f5a00fa4",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Lucas Moura",
+        "playerId": "2b622f01",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Emerson",
+        "playerId": "df8b52a5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Richarlison",
+        "playerId": "fa031b34",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

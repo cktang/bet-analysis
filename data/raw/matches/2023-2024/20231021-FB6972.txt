@@ -1,0 +1,642 @@
+21/10/2023
+FB6972
+Liverpool
+vs
+Everton
+0
+:
+0
+2
+:
+0
+%Event ID: FB6972
+Liverpool
+2
+0
+Everton
+Eng Premier
+Home/Away/Draw
+Liverpool (Home)
+Draw
+Everton (Away)
+1.26
+5.20
+6.90
+Home/Away/Draw- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Everton (Away)
+1.01
+15.50
+150.0
+First Half HAD
+Liverpool (Home)
+Draw
+Everton (Away)
+1.59
+2.90
+6.00
+First Half HAD- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Everton (Away)
+5.70
+1.09
+35.00
+Handicap HAD
+Liverpool (Home)
+Draw
+Everton (Away)
+[-2]
+2.96
+[-2]
+4.00
+[+2]
+1.82
+Handicap
+Liverpool (Home)
+Everton (Away)
+[-1.5/-2]
+2.22
+[+1.5/+2]
+1.67
+Same Game All Up
+Mohamed SALAH to score first & Liverpool to win by [2] goal(s) or more & Over [10.5] corners taken
+10.00
+Darwin NUNEZ to score first & Liverpool to win & Over [4.5] goals
+16.00
+Liverpool to win & Over [3.5] goals & Over [11.5] corners taken
+5.20
+Everton to win & Over [2.5] goals
+9.25
+Liverpool to score first & Everton to win or draw
+7.50
+Everton to score first & Liverpool to win by [3] goal(s) or more
+21.00
+Liverpool to win the first half & Over [2.5] goals in the first half
+4.60
+First Half to be drawn & Liverpool to win the match by exactly [2] goal(s)
+13.50
+Everton to win the first half & Over [1.5] goals in the first half
+14.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+7.10
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+6.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+5.10
+Liverpool to win by [4] goal(s) or more & Under [10.5] corners taken
+10.50
+Liverpool to win both first half and the match & Exactly [3] goals in the Match
+7.25
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+19.00
+Everton to win both first half and the match & Exactly [4] goals in the Match
+60.00
+Liverpool to win [1:0] in the first half & Liverpool to win [3:1] in the match
+30.00
+Liverpool to win [2:1] in the first half & Liverpool to win [4:1] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+First half to be drawn [0:0] & Everton to win [1:0] in the match
+45.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.86
+1.84
+[3.5/4]
+2.04
+1.69
+[4.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+8.50
+1.03
+[0.5/1]
+1.63
+2.13
+[1/1.5]
+2.65
+1.41
+[1.5]
+1.44
+2.58
+[1.5/2]
+8.50
+1.03
+[2/2.5]
+12.00
+1.001
+[2.5]
+10.50
+1.001
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.04
+1.69
+[4.5]
+4.05
+1.18
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.83
+1.87
+[1.5/2]
+2.13
+1.63
+[2.5]
+3.40
+1.26
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+8.00
+1.04
+[1/1.5]
+9.50
+1.001
+[1.5]
+9.50
+1.001
+[1.5/2]
+2.13
+1.63
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.15
+1.62
+[12.5]
+2.65
+1.41
+[14.5]
+4.05
+1.18
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[17.5]
+5.15
+1.11
+[9.5]
+1.59
+2.20
+[10.5]
+1.58
+2.22
+[11.5]
+1.62
+2.15
+[12.5]
+1.62
+2.15
+[13.5]
+1.14
+4.60
+[14.5]
+1.41
+2.65
+[15.5]
+1.56
+2.27
+[16.5]
+1.39
+2.70
+[18.5]
+11.50
+1.002
+Correct Score
+Liverpool (Home)
+Draw
+Everton (Away)
+1:0
+10.50
+0:0
+27.00
+0:1
+30.00
+2:0
+8.00
+1:1
+10.50
+0:2
+40.00
+2:1
+7.25
+2:2
+13.50
+1:2
+18.00
+3:0
+9.25
+3:3
+40.00
+0:3
+70.00
+3:1
+8.50
+1:3
+40.00
+3:2
+16.00
+2:3
+35.00
+4:0
+14.00
+0:4
+300.0
+4:1
+13.50
+1:4
+125.0
+4:2
+24.00
+2:4
+80.00
+5:0
+26.00
+0:5
+800.0
+5:1
+25.00
+1:5
+400.0
+5:2
+40.00
+2:5
+400.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+15.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Everton (Away)
+1:0
+1.07
+0:0
+2.26
+0:1
+17.00
+2:0
+1.06
+1:1
+35.00
+0:2
+250.0
+2:1
+40.00
+2:2
+1000
+1:2
+1000
+3:0
+6.80
+3:3
+1000
+0:3
+1000
+3:1
+200.0
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+150.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Liverpool (Home)
+Draw
+Everton (Away)
+1:0
+3.60
+0:0
+4.10
+0:1
+9.25
+2:0
+5.20
+1:1
+6.80
+0:2
+28.00
+2:1
+9.75
+2:2
+40.00
+1:2
+23.00
+3:0
+12.00
+3:3
+500.0
+0:3
+150.0
+3:1
+24.00
+1:3
+125.0
+3:2
+80.00
+2:3
+200.0
+4:0
+40.00
+0:4
+700.0
+4:1
+70.00
+1:4
+700.0
+4:2
+300.0
+2:4
+800.0
+5:0
+150.0
+0:5
+2500
+5:1
+300.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Liverpool (Home)
+Draw
+Everton (Away)
+1:0
+6.80
+0:0
+1.08
+0:1
+45.00
+2:0
+150.0
+1:1
+200.0
+0:2
+2500
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Liverpool (Home)
+No Goals
+Everton (Away)
+1.27
+27.00
+3.15
+Next Team To Score- Last Odds for In Play Betting
+Liverpool (Home)
+No Goals
+Everton (Away)
+1st Goal
+1.56
+2.50
+10.00
+2nd Goal
+6.50
+1.07
+30.00
+Total Goals
+0
+27.00
+1
+7.75
+2
+4.60
+3
+3.85
+4
+4.05
+5
+5.60
+6
+8.25
+7+
+9.50
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.75
+H-D
+16.00
+H-A
+35.00
+D-H
+4.10
+D-D
+8.75
+D-A
+15.00
+A-H
+17.00
+A-D
+16.00
+A-A
+11.00
+Specials
+Item No.: 1 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+9.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.59
+(4) Be substituted
+3.35
+(5) None of the above
+4.20
+Item No.: 2 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+2.07
+(2) 1 Goal
+2.42
+(3) 2 Goals
+5.00
+(4) 3 Goals or more
+8.25
+Item No.: 3 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+8.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.67
+(4) Be substituted
+1.73
+(5) None of the above
+4.90
+Item No.: 4 Which event will happen to DIOGO Jota (Liverpool) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+2.28
+(5) None of the above
+3.90
+Item No.: 5 Which event will happen to Dominic CALVERT-LEWIN (Everton) first?
+(1) Receive a Yellow Card
+5.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.45
+(4) Be substituted
+1.98
+(5) None of the above
+3.55

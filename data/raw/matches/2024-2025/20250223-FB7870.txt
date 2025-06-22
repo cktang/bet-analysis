@@ -1,0 +1,835 @@
+23/02/2025
+FB7870
+Aston
+Villa
+vs
+Chelsea
+0
+:
+1
+2
+:
+1
+%Event ID: FB7870
+Aston Villa
+2
+1
+Chelsea
+Eng Premier
+Home/Away/Draw
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+2.30
+3.45
+2.48
+Home/Away/Draw- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1.03
+7.20
+80.00
+First Half HAD
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+2.78
+2.27
+2.95
+First Half HAD- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+150.0
+9.50
+1.02
+Handicap HAD
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+[+1]
+1.41
+[+1]
+4.45
+[-1]
+4.85
+[-1]
+4.40
+[-1]
+4.20
+[+1]
+1.48
+Handicap HAD- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+[-2]
+80.00
+[-2]
+6.40
+[+2]
+1.03
+[+2]
+1.07
+[+2]
+7.00
+[-2]
+15.00
+[+1]
+1.15
+[+1]
+4.60
+[-1]
+19.00
+[-1]
+7.60
+[-1]
+1.20
+[+1]
+5.70
+Handicap
+Aston Villa (Home)
+Chelsea (Away)
+[0]
+1.83
+[0]
+1.99
+Handicap- Last Odds for In Play Betting
+Aston Villa (Home)
+Chelsea (Away)
+[-1]
+2.26
+[+1]
+1.58
+[0]
+1.001
+[0]
+14.50
+[+0.5/+1]
+1.17
+[-0.5/-1]
+4.50
+[+1]
+1.66
+[-1]
+2.12
+Same Game All Up
+Ollie WATKINS to score first & Over [3.5] goals & Over [12.5] corners taken
+35.00
+Cole PALMER to score first & Over [3.5] goals & Over [11.5] corners taken
+30.00
+Cole PALMER to score first in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+35.00
+Both teams to score & Chelsea to win & Over [11.5] corners taken
+9.75
+Chelsea to win & Over [2.5] goals & Over [10.5] corners taken
+6.40
+Chelsea to win [2:0] in the first half & Chelsea to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Chelsea to win the match by [2] goal(s) or more
+11.50
+Both teams to score & Aston Villa to win & Under [10.5] corners taken
+7.40
+Aston Villa to score first & Chelsea to win by [2] goal(s) or more
+29.00
+Chelsea to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+24.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.60
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.35
+First Half to be drawn & Chelsea to win the match by [2] goal(s) or more
+16.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.80
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+27.00
+Chelsea to win [2:0] in the first half & Chelsea to win [3:0] in the match
+50.00
+Chelsea to win [2:0] in the first half & Chelsea to win [4:0] in the match
+100.0
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Aston Villa to win [1:0] in the first half & Aston Villa to win [2:0] in the match
+28.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.49
+2.43
+[3/3.5]
+2.04
+1.69
+[3.5]
+2.25
+1.57
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.76
+1.94
+[2.5]
+1.23
+3.65
+[2.5/3]
+4.40
+1.15
+[3/3.5]
+9.50
+1.02
+[3.5]
+10.50
+1.01
+[3.5/4]
+8.00
+1.04
+[4.5]
+10.50
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.58
+1.44
+[2.5]
+4.40
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.44
+2.58
+[1/1.5]
+2.13
+1.63
+[1.5]
+1.29
+3.20
+[1.5/2]
+8.00
+1.04
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.83
+1.87
+[11.5]
+2.30
+1.54
+[13.5]
+3.80
+1.21
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.18
+4.05
+[4.5]
+1.51
+2.38
+[5.5]
+4.95
+1.12
+[6.5]
+11.00
+1.005
+[7.5]
+12.00
+1.001
+[8.5]
+5.60
+1.09
+[9.5]
+4.60
+1.14
+[10.5]
+4.40
+1.15
+[11.5]
+3.65
+1.23
+[12.5]
+3.95
+1.19
+[13.5]
+3.80
+1.21
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.66
+2.08
+[5.5]
+2.38
+1.51
+[7.5]
+5.40
+1.10
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.73
+1.98
+[3.5]
+5.15
+1.11
+[4.5]
+8.00
+1.02
+[5.5]
+8.50
+1.005
+[6.5]
+5.60
+1.09
+[7.5]
+5.40
+1.10
+Correct Score
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+11.00
+0:0
+15.00
+0:1
+11.50
+2:0
+14.00
+1:1
+6.90
+0:2
+15.00
+2:1
+8.25
+2:2
+9.50
+1:2
+8.50
+3:0
+25.00
+3:3
+35.00
+0:3
+27.00
+3:1
+15.00
+1:3
+17.00
+3:2
+18.00
+2:3
+19.00
+4:0
+40.00
+0:4
+50.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+40.00
+5:0
+100.0
+0:5
+125.0
+5:1
+70.00
+1:5
+80.00
+5:2
+80.00
+2:5
+80.00
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+8.75
+0:0
+12.00
+0:1
+3.90
+2:0
+12.50
+1:1
+1.25
+0:2
+4.40
+2:1
+1.07
+2:2
+9.25
+1:2
+6.70
+3:0
+26.00
+3:3
+1000
+0:3
+12.50
+3:1
+12.00
+1:3
+90.00
+3:2
+125.0
+2:3
+95.00
+4:0
+60.00
+0:4
+50.00
+4:1
+700.0
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+350.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+90.00
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+4.85
+0:0
+3.30
+0:1
+4.90
+2:0
+9.75
+1:1
+5.80
+0:2
+10.50
+2:1
+13.00
+2:2
+35.00
+1:2
+13.50
+3:0
+40.00
+3:3
+500.0
+0:3
+40.00
+3:1
+50.00
+1:3
+60.00
+3:2
+125.0
+2:3
+125.0
+4:0
+150.0
+0:4
+200.0
+4:1
+250.0
+1:4
+300.0
+4:2
+600.0
+2:4
+600.0
+5:0
+700.0
+0:5
+800.0
+5:1
+800.0
+1:5
+900.0
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+900.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Chelsea (Away)
+1:0
+4.40
+0:0
+2.88
+0:1
+1.08
+2:0
+13.50
+1:1
+9.60
+0:2
+16.00
+2:1
+125.0
+2:2
+2500
+1:2
+150.0
+3:0
+60.00
+3:3
+2500
+0:3
+500.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+250.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Aston Villa (Home)
+No Goals
+Chelsea (Away)
+1.82
+15.00
+1.91
+Next Team To Score- Last Odds for In Play Betting
+Aston Villa (Home)
+No Goals
+Chelsea (Away)
+1st Goal
+1.94
+11.50
+1.85
+2nd Goal
+2.09
+3.90
+2.47
+3rd Goal
+5.50
+1.28
+5.60
+4th Goal
+11.50
+1.07
+9.00
+Total Goals
+0
+15.00
+1
+5.90
+2
+3.95
+3
+3.80
+4
+4.40
+5
+6.40
+6
+11.00
+7+
+14.00
+Total Goals- Last Odds for In Play Betting
+0
+12.00
+1
+3.90
+2
+1.25
+3
+1.07
+4
+4.90
+5
+90.00
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Aston Villa (Home)
+Chelsea (Away)
+101 Ollie WATKINS
+5.00
+201 Cole PALMER
+4.80
+102 Marcus RASHFORD
+6.90
+202 Christopher NKUNKU
+6.50
+103 Donyell MALEN
+8.50
+203 Deivid WASHINGTON
+7.00
+104 Marco ASENSIO
+8.50
+204 Shumaira MHEUKA
+7.25
+105 Morgan ROGERS
+8.50
+206 PEDRO Lomba NETO
+8.25
+106 Jacob RAMSEY
+8.75
+205 Jadon SANCHO
+10.50
+107 Leon BAILEY
+10.00
+207 Tyrique GEORGE
+11.50
+108 Jamaldeen JIMOH
+14.50
+208 Kiernan DEWSBURY-HALL
+15.00
+109 Ross BARKLEY
+17.00
+209 Enzo Jeremias FERNANDEZ
+17.00
+110 Amadou ONANA
+20.00
+215 Malo GUSTO
+26.00
+111 John McGINN
+20.00
+216 Marc CUCURELLA
+28.00
+112 Youri TIELEMANS
+24.00
+210 Mathis AMOUGOU
+30.00
+113 Andres GARCIA
+40.00
+211 Trevoh CHALOBAH
+35.00
+114 Ian MAATSEN
+40.00
+213 Tosin ADARABIOYO
+35.00
+115 Matty CASH
+40.00
+217 Moises CAICEDO
+35.00
+116 Tyrone MINGS
+45.00
+212 Reece JAMES
+40.00
+117 Ezri KONSA
+50.00
+214 Josh ACHEAMPONG
+45.00
+118 Pau TORRES
+55.00
+218 Levi COLWILL
+60.00
+119 Lamare BOGARDE
+60.00
+120 Home Others
+9.00
+220 Away Others
+9.25
+00 No First Scorer
+14.80
+HaFu
+H-H
+3.65
+H-D
+12.00
+H-A
+21.00
+D-H
+5.80
+D-D
+5.80
+D-A
+6.10
+A-H
+20.00
+A-D
+12.00
+A-A
+4.05
+Specials
+Item No.: 1 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+3.15
+(5) None of the above
+2.72
+Item No.: 2 Which event will happen to Morgan ROGERS (Aston Villa) first?
+(1) Receive a Yellow Card
+2.70
+(2) Receive a Red Card
+90.00
+(3) Score a Goal
+3.80
+(4) Be substituted
+5.20
+(5) None of the above
+2.25
+Item No.: 3 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.15
+(4) Be substituted
+5.20
+(5) None of the above
+2.30
+Item No.: 4 Which event will happen to Christopher NKUNKU (Chelsea) first?
+(1) Receive a Yellow Card
+6.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+3.15
+(5) None of the above
+2.24
+Item No.: 5 Which event will happen to PEDRO Lomba NETO (Chelsea) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.30
+(4) Be substituted
+1.55
+(5) None of the above
+5.50

@@ -1,0 +1,830 @@
+02/02/2025
+FB6971
+Manchester
+Utd
+vs
+Crystal
+Palace
+0
+:
+0
+0
+:
+2
+%Event ID: FB6971
+Manchester Utd
+0
+2
+Crystal Palace
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+1.61
+3.60
+4.35
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+800.0
+45.00
+1.001
+First Half HAD
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+2.15
+2.16
+4.70
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+6.70
+1.10
+13.00
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+[-1]
+2.76
+[-1]
+3.45
+[+1]
+2.05
+[-2]
+5.60
+[-2]
+4.75
+[+2]
+1.33
+Handicap HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+[-2]
+15.00
+[-2]
+5.80
+[+2]
+1.11
+[+2]
+4.30
+[+2]
+1.25
+[-2]
+9.25
+[-1]
+19.00
+[-1]
+8.00
+[+1]
+1.04
+[+1]
+150.0
+[+1]
+5.50
+[-1]
+1.05
+Handicap
+Manchester Utd (Home)
+Crystal Palace (Away)
+[-0.5/-1]
+1.93
+[+0.5/+1]
+1.89
+Handicap- Last Odds for In Play Betting
+Manchester Utd (Home)
+Crystal Palace (Away)
+[-0.5/-1]
+2.22
+[+0.5/+1]
+1.60
+[+2]
+1.38
+[-2]
+2.84
+[+0.5/+1]
+3.02
+[-0.5/-1]
+1.34
+[0/-0.5]
+7.00
+[0/+0.5]
+1.07
+[+1]
+14.50
+[-1]
+1.001
+Same Game All Up
+Bruno Borges FERNANDES to score first & Manchester Utd to win by [2] goal(s) or more & Over [11.5] corners taken
+35.00
+Rasmus HOJLUND to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+24.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Manchester Utd to win the match by [2] goal(s) or more
+9.50
+Both teams to score & Crystal Palace to win & Under [8.5] corners taken
+19.00
+Both teams to score & Crystal Palace to win or draw & Over [11.5] corners taken
+8.25
+Crystal Palace to score first & Manchester Utd to win by [2] goal(s) or more
+22.00
+Manchester Utd to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+19.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+8.00
+Under [3.5] corners taken in the first half & Under [6.5] corners taken in the match
+6.80
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+8.70
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+8.00
+First Half to be drawn & Manchester Utd to win the match by [2] goal(s) or more
+11.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.50
+The match to be drawn & Under [8.5] corners taken
+9.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [2:1] in the match
+24.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [3:0] in the match
+35.00
+Manchester Utd to win [2:0] in the first half & Manchester Utd to win [4:0] in the match
+60.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.74
+1.97
+[2.5/3]
+1.95
+1.75
+[3.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.71
+2.01
+[1/1.5]
+2.80
+1.37
+[1.5]
+1.44
+2.58
+[1.5/2]
+3.70
+1.22
+[2/2.5]
+9.50
+1.02
+[2.5]
+9.50
+1.02
+[2.5/3]
+6.60
+1.06
+[3.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.48
+1.47
+[1.5/2]
+3.15
+1.30
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.90
+1.08
+[1/1.5]
+11.50
+1.002
+[1.5]
+11.50
+1.002
+[1.5/2]
+3.15
+1.30
+[2.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.12
+1.64
+[11.5]
+2.55
+1.45
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.14
+4.60
+[10.5]
+1.16
+4.30
+[11.5]
+1.39
+2.70
+[12.5]
+4.15
+1.17
+[13.5]
+8.50
+1.03
+[14.5]
+4.95
+1.12
+[15.5]
+3.80
+1.21
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.80
+1.90
+[5.5]
+2.48
+1.47
+[7.5]
+5.60
+1.09
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.24
+3.55
+[4.5]
+1.39
+2.70
+[5.5]
+1.41
+2.65
+[6.5]
+1.38
+2.75
+[7.5]
+3.80
+1.21
+[8.5]
+5.40
+1.10
+[9.5]
+9.50
+1.02
+[10.5]
+8.00
+1.04
+Correct Score
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+1:0
+6.60
+0:0
+10.50
+0:1
+13.50
+2:0
+7.50
+1:1
+6.70
+0:2
+22.00
+2:1
+6.70
+2:2
+13.00
+1:2
+13.00
+3:0
+13.00
+3:3
+40.00
+0:3
+40.00
+3:1
+13.00
+1:3
+30.00
+3:2
+23.00
+2:3
+35.00
+4:0
+27.00
+0:4
+150.0
+4:1
+27.00
+1:4
+80.00
+4:2
+40.00
+2:4
+100.0
+5:0
+50.00
+0:5
+600.0
+5:1
+50.00
+1:5
+400.0
+5:2
+80.00
+2:5
+400.0
+Home Others
+(Away No Goal)
+100.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+40.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+100.0
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+1:0
+3.28
+0:0
+2.32
+0:1
+1.23
+2:0
+9.50
+1:1
+4.60
+0:2
+1.06
+2:1
+30.00
+2:2
+200.0
+1:2
+9.00
+3:0
+45.00
+3:3
+1000
+0:3
+17.00
+3:1
+400.0
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+250.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+1:0
+3.50
+0:0
+2.78
+0:1
+6.70
+2:0
+6.80
+1:1
+6.80
+0:2
+18.00
+2:1
+13.00
+2:2
+60.00
+1:2
+23.00
+3:0
+23.00
+3:3
+700.0
+0:3
+100.0
+3:1
+50.00
+1:3
+125.0
+3:2
+200.0
+2:3
+300.0
+4:0
+100.0
+0:4
+700.0
+4:1
+200.0
+1:4
+700.0
+4:2
+700.0
+2:4
+1000
+5:0
+500.0
+0:5
+2500
+5:1
+800.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Crystal Palace (Away)
+1:0
+6.80
+0:0
+1.11
+0:1
+13.10
+2:0
+100.0
+1:1
+80.00
+0:2
+350.0
+2:1
+1500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Crystal Palace (Away)
+1.49
+10.50
+2.68
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Crystal Palace (Away)
+1st Goal
+2.14
+2.32
+4.15
+2nd Goal
+3.95
+1.35
+6.90
+3rd Goal
+8.75
+1.06
+16.00
+Total Goals
+0
+10.50
+1
+4.85
+2
+3.45
+3
+3.70
+4
+4.80
+5
+7.75
+6
+16.00
+7+
+27.00
+Total Goals- Last Odds for In Play Betting
+0
+2.32
+1
+1.23
+2
+1.06
+3
+5.20
+4
+100.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Manchester Utd (Home)
+Crystal Palace (Away)
+101 Amad DIALLO
+5.10
+201 Jean-Philippe MATETA
+6.40
+102 Rasmus HOJLUND
+5.20
+202 Ismaila SARR
+9.50
+103 Joshua ZIRKZEE
+5.70
+203 Eddie NKETIAH
+10.50
+104 Alejandro GARNACHO
+5.80
+204 Eberechi EZE
+11.00
+105 Bruno Borges FERNANDES
+5.90
+205 Romain ESSE
+12.50
+106 Marcus RASHFORD
+6.10
+206 Franco UMEH-CHIBUEZE
+15.00
+108 Kobbie MAINOO
+7.75
+208 Daichi KAMADA
+16.00
+107 Carlos CASEMIRO
+13.50
+207 Justin DEVENNY
+25.00
+109 Christian ERIKSEN
+15.00
+209 Jeffrey SCHLUPP
+28.00
+115 Noussair MAZRAOUI
+20.00
+212 Jefferson LERMA
+28.00
+117 Diogo DALOT
+20.00
+210 Marc GUEHI
+29.00
+111 Harry MAGUIRE
+24.00
+211 Daniel MUNOZ
+30.00
+110 Lisandro MARTINEZ
+25.00
+214 Will HUGHES
+30.00
+114 Manuel UGARTE
+27.00
+213 Cheick Oumar DOUCOURE
+40.00
+112 Matthijs DE LIGT
+30.00
+215 Caleb KPORHA
+55.00
+113 Toby COLLYER
+30.00
+216 Kaden RODNEY
+65.00
+116 Tyrell MALACIA
+35.00
+217 Maxence LACROIX
+70.00
+118 Leny YORO
+40.00
+218 Chadi RIAD
+80.00
+119 Victor LINDELOF
+55.00
+219 Chris RICHARDS
+85.00
+120 Home Others
+7.25
+220 Away Others
+13.00
+00 No First Scorer
+10.30
+HaFu
+H-H
+2.46
+H-D
+14.00
+H-A
+35.00
+D-H
+4.15
+D-D
+5.40
+D-A
+9.50
+A-H
+23.00
+A-D
+14.00
+A-A
+7.00
+Specials
+Item No.: 1 Which event will happen to Bruno Borges FERNANDES (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.15
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+2.85
+(4) Be substituted
+10.00
+(5) None of the above
+1.75
+Item No.: 2 How many goal(s) will Bruno Borges FERNANDES (Manchester Utd) score?
+(1) No Goal
+1.27
+(2) 1 Goal
+3.30
+(3) 2 Goals
+10.50
+(4) 3 Goals or more
+35.00
+Item No.: 3 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.00
+(4) Be substituted
+1.43
+(5) None of the above
+4.90
+Item No.: 4 Which event will happen to Jean-Philippe MATETA (Crystal Palace) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+3.85
+(5) None of the above
+2.00
+Item No.: 5 Which event will happen to Ismaila SARR (Crystal Palace) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.80
+(4) Be substituted
+1.92
+(5) None of the above
+2.75

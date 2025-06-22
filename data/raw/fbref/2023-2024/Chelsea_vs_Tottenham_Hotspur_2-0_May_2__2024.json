@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/6b489131/Chelsea-Tottenham-Hotspur-May-2-2024-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "May 2, 2024",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 24,
+        "player": "Trevoh Chalobah",
+        "playerId": "5515376c",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Conor Gallagher"
+      },
+      {
+        "minute": 72,
+        "player": "Nicolas Jackson",
+        "playerId": "9c36ed83",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 67,
+        "player": "Micky van de Ven",
+        "playerId": "8fe2a392",
+        "team": "Tottenham Hotspur"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Rodrigo Bentancur",
+        "playerId": "3b8674e6",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Pierre Højbjerg",
+        "playerId": "8b04d6c1",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Cesare Casadei",
+        "playerId": "fb920f3a",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Bryan Gil",
+        "playerId": "7b5ab7f2",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Joshua Acheampong",
+        "playerId": "b7e62e1d",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Giovani Lo Celso",
+        "playerId": "d7553721",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 94,
+        "player": "Jimi Tauriainen",
+        "playerId": "cac9e583",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

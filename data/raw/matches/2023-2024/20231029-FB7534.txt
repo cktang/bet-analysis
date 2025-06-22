@@ -1,0 +1,741 @@
+29/10/2023
+FB7534
+Manchester
+Utd
+vs
+Manchester
+City
+0
+:
+1
+0
+:
+3
+%Event ID: FB7534
+Manchester Utd
+0
+3
+Manchester City
+Eng Premier
+Home/Away/Draw
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+5.00
+4.20
+1.44
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+90.00
+30.00
+1.001
+First Half HAD
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+5.10
+2.41
+1.89
+First Half HAD- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+150.0
+10.00
+1.03
+Handicap HAD
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+[+1]
+2.45
+[+1]
+3.70
+[-1]
+2.17
+Handicap
+Manchester Utd (Home)
+Manchester City (Away)
+[+1]
+1.92
+[-1]
+1.90
+Same Game All Up
+Erling HAALAND to score first in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+25.00
+Erling HAALAND to score first & Manchester City to win by [2] goal(s) or more & Over [3.5] goals
+12.00
+Manchester City to win & Over [2.5] goals & Over [10.5] corners taken
+4.50
+Marcus RASHFORD to score first in the match & Manchester Utd to win the first half & Over [3.5] goals in the match
+35.00
+Bruno Borges FERNANDES to score first & Manchester Utd to win & Over [2.5] goals
+40.00
+Manchester Utd to win & Over [2.5] goals
+7.25
+The match to be drawn & Under [9.5] corners taken
+7.25
+Manchester City to score first in the match & Manchester City to win the first half & Over [1.5] goals in the first half
+4.00
+Manchester City to score first & Manchester Utd to win or draw
+6.50
+Manchester Utd to score first in the match & Over [1.5] goals in the first half
+6.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+7.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+6.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:1] in the match
+20.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:0] in the match
+25.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Manchester Utd to win [1:0] in the first half & Manchester Utd to win [2:0] in the match
+40.00
+Manchester City to win both first half and the match & Exactly [4] goals in the Match
+11.00
+Manchester City to win both first half and the match & Over [1.5] goals in the first half & Over [9.5] corners taken in the match
+7.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.54
+2.30
+[2.5/3]
+1.68
+2.05
+[3/3.5]
+2.13
+1.63
+[3.5]
+2.40
+1.50
+[4.5]
+3.90
+1.20
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+8.00
+1.04
+[2/2.5]
+1.61
+2.17
+[2.5]
+1.16
+4.30
+[2.5/3]
+2.60
+1.43
+[3/3.5]
+4.75
+1.13
+[3.5]
+5.40
+1.10
+[4.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.86
+1.84
+[1.5]
+2.17
+1.61
+[1.5/2]
+2.58
+1.44
+[2.5]
+4.40
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.60
+1.14
+[0.5/1]
+2.33
+1.53
+[1/1.5]
+4.05
+1.18
+[1.5]
+1.79
+1.91
+[2/2.5]
+8.50
+1.02
+[2.5]
+11.50
+1.002
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.75
+1.95
+[10.5]
+2.12
+1.64
+[11.5]
+2.65
+1.41
+[12.5]
+3.45
+1.25
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[19.5]
+3.95
+1.19
+[8.5]
+1.39
+2.70
+[9.5]
+1.53
+2.33
+[10.5]
+1.30
+3.15
+[11.5]
+1.39
+2.70
+[12.5]
+1.40
+2.68
+[13.5]
+1.34
+2.92
+[14.5]
+1.16
+4.30
+[15.5]
+1.17
+4.15
+[16.5]
+1.25
+3.45
+[17.5]
+2.55
+1.45
+[18.5]
+1.53
+2.33
+Correct Score
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+1:0
+18.00
+0:0
+15.00
+0:1
+7.25
+2:0
+28.00
+1:1
+7.75
+0:2
+7.00
+2:1
+14.00
+2:2
+12.50
+1:2
+6.80
+3:0
+60.00
+3:3
+40.00
+0:3
+10.50
+3:1
+40.00
+1:3
+10.50
+3:2
+35.00
+2:3
+18.00
+4:0
+200.0
+0:4
+20.00
+4:1
+100.0
+1:4
+20.00
+4:2
+100.0
+2:4
+35.00
+5:0
+600.0
+0:5
+40.00
+5:1
+400.0
+1:5
+40.00
+5:2
+400.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+70.00
+Home Others
+(Away Scores)
+100.0
+Draw Others
+150.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+1:0
+10.50
+0:0
+7.60
+0:1
+4.20
+2:0
+25.00
+1:1
+5.90
+0:2
+1.50
+2:1
+16.00
+2:2
+60.00
+1:2
+6.80
+3:0
+100.0
+3:3
+1000
+0:3
+1.11
+3:1
+80.00
+1:3
+12.50
+3:2
+1000
+2:3
+500.0
+4:0
+500.0
+0:4
+7.45
+4:1
+500.0
+1:4
+100.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+150.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+1:0
+6.90
+0:0
+3.05
+0:1
+3.55
+2:0
+23.00
+1:1
+6.90
+0:2
+6.50
+2:1
+24.00
+2:2
+50.00
+1:2
+11.50
+3:0
+125.0
+3:3
+700.0
+0:3
+16.00
+3:1
+125.0
+1:3
+40.00
+3:2
+300.0
+2:3
+125.0
+4:0
+700.0
+0:4
+70.00
+4:1
+700.0
+1:4
+125.0
+4:2
+1000
+2:4
+500.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+1500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+Draw
+Manchester City (Away)
+1:0
+7.20
+0:0
+1.67
+0:1
+1.10
+2:0
+50.00
+1:1
+12.00
+0:2
+8.50
+2:1
+150.0
+2:2
+2500
+1:2
+125.0
+3:0
+400.0
+3:3
+2500
+0:3
+200.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester Utd (Home)
+No Goals
+Manchester City (Away)
+2.88
+15.00
+1.37
+Next Team To Score- Last Odds for In Play Betting
+Manchester Utd (Home)
+No Goals
+Manchester City (Away)
+1st Goal
+3.04
+7.60
+1.47
+2nd Goal
+2.88
+4.20
+1.80
+3rd Goal
+5.10
+1.68
+2.86
+4th Goal
+15.00
+1.08
+8.50
+Total Goals
+0
+15.00
+1
+5.60
+2
+3.95
+3
+3.65
+4
+4.45
+5
+6.70
+6
+12.00
+7+
+15.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Manchester Utd (Home)
+Manchester City (Away)
+101 Marcus RASHFORD
+8.25
+201 Erling HAALAND
+2.58
+103 Rasmus HOJLUND
+9.50
+202 Julian ALVAREZ
+5.30
+102 Anthony MARTIAL
+10.00
+203 Jack GREALISH
+8.50
+104 Alejandro GARNACHO
+10.50
+204 Jeremy DOKU
+9.25
+106 Bruno Borges FERNANDES
+12.00
+205 Phil FODEN
+10.00
+105 Facundo PELLISTRI
+12.50
+206 RODRI Cascante
+12.00
+107 ANTONY Matheus dos Santos
+15.00
+207 BERNARDO SILVA
+13.50
+108 Mason MOUNT
+15.00
+208 Matheus NUNES
+25.00
+110 Scott McTOMINAY
+24.00
+209 Kalvin PHILLIPS
+30.00
+109 Carlos CASEMIRO
+30.00
+210 Mateo KOVACIC
+30.00
+111 Christian ERIKSEN
+30.00
+211 John STONES
+35.00
+112 Harry MAGUIRE
+30.00
+212 Nathan AKE
+40.00
+113 Raphael VARANE
+45.00
+213 RUBEN DIAS
+40.00
+114 Sofyan AMRABAT
+50.00
+214 Rico LEWIS
+40.00
+115 Victor LINDELOF
+50.00
+215 Josko GVARDIOL
+45.00
+116 Diogo DALOT
+60.00
+216 Kyle WALKER
+45.00
+118 Sergio REGUILON
+60.00
+117 Jonny EVANS
+65.00
+120 Home Others
+27.00
+220 Away Others
+12.50
+00 No First Scorer
+14.30
+HaFu
+H-H
+8.50
+H-D
+14.50
+H-A
+18.00
+D-H
+11.50
+D-D
+6.50
+D-A
+4.15
+A-H
+30.00
+A-D
+14.50
+A-A
+2.12
+Specials
+Item No.: 1 Which event will happen to Rasmus HOJLUND (Manchester Utd) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+2.70
+(5) None of the above
+2.05
+Item No.: 2 Which event will happen to Marcus RASHFORD (Manchester Utd) first?
+(1) Receive a Yellow Card
+4.70
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+1.93
+(5) None of the above
+3.15
+Item No.: 3 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.56
+(4) Be substituted
+8.00
+(5) None of the above
+2.70
+Item No.: 4 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.83
+(2) 1 Goal
+2.55
+(3) 2 Goals
+5.10
+(4) 3 Goals or more
+12.00
+Item No.: 5 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+5.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+3.20
+(5) None of the above
+2.40

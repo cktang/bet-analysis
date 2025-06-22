@@ -1,0 +1,835 @@
+21/12/2024
+FB5464
+Ipswich
+vs
+Newcastle
+0
+:
+3
+0
+:
+4
+%Event ID: FB5464
+Ipswich
+0
+4
+Newcastle
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Newcastle (Away)
+4.50
+4.00
+1.52
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Newcastle (Away)
+50.00
+40.00
+1.001
+First Half HAD
+Ipswich (Home)
+Draw
+Newcastle (Away)
+4.50
+2.44
+1.97
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Newcastle (Away)
+90.00
+30.00
+1.01
+Handicap HAD
+Ipswich (Home)
+Draw
+Newcastle (Away)
+[+1]
+2.15
+[+1]
+3.60
+[-1]
+2.52
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Newcastle (Away)
+[+1]
+3.90
+[+1]
+3.75
+[-1]
+1.62
+[+6]
+1.001
+[+6]
+7.00
+[-6]
+1000
+[+2]
+3.34
+[+2]
+3.16
+[-2]
+1.91
+[+3]
+3.60
+[+3]
+2.73
+[-3]
+2.02
+[+4]
+4.00
+[+4]
+2.45
+[-4]
+2.05
+[+5]
+14.00
+[+5]
+1.04
+[-5]
+9.25
+Handicap
+Ipswich (Home)
+Newcastle (Away)
+[+1]
+1.76
+[-1]
+2.08
+Same Game All Up
+Both teams to score & Newcastle to win & Over [12.5] corners taken
+7.80
+Newcastle to win & Over [2.5] goals & Over [11.5] corners taken
+4.50
+Newcastle to win [2:0] in the first half & Newcastle to win [3:1] in the match
+40.00
+Both teams to score in the match & Over [1.5] goals in the first half & Newcastle to win the match by [2] goal(s) or more
+7.20
+Both teams to score & Ipswich to win & Under [11.5] corners taken
+11.00
+Both teams to score & Ipswich to win or draw & Over [11.5] corners taken
+5.75
+Ipswich to score first & Newcastle to win by [2] goal(s) or more
+17.00
+Newcastle to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+19.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+7.50
+Under [4.5] corners taken in the first half & Under [9.5] corners taken in the match
+3.25
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [11.5] corners taken in the match
+4.25
+First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+10.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.50
+The match to be drawn & Under [11.5] corners taken
+6.25
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+22.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:0] in the match
+30.00
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+40.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Ipswich to win [1:0] in the first half & Ipswich to win [2:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.48
+2.45
+[3/3.5]
+2.05
+1.68
+[3.5]
+2.30
+1.54
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.16
+4.30
+[2.5/3]
+1.20
+3.90
+[3/3.5]
+1.23
+3.65
+[3.5]
+1.12
+4.95
+[3.5/4]
+1.16
+4.30
+[4/4.5]
+1.74
+1.97
+[4.5]
+1.21
+3.80
+[4.5/5]
+5.40
+1.10
+[5/5.5]
+11.00
+1.005
+[5.5]
+11.50
+1.002
+[6.5]
+5.60
+1.09
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.05
+1.68
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.30
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.40
+2.68
+[1/1.5]
+2.02
+1.70
+[1.5]
+1.30
+3.15
+[1.5/2]
+2.65
+1.41
+[2/2.5]
+5.90
+1.08
+[2.5]
+6.60
+1.06
+[2.5/3]
+4.60
+1.14
+[3.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.97
+1.74
+[12.5]
+2.43
+1.49
+[14.5]
+3.95
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.44
+2.58
+[4.5]
+4.95
+1.12
+[5.5]
+8.50
+1.02
+[6.5]
+12.00
+1.001
+[7.5]
+8.00
+1.04
+[8.5]
+4.60
+1.14
+[9.5]
+4.60
+1.14
+[10.5]
+3.95
+1.19
+[11.5]
+3.65
+1.23
+[12.5]
+3.45
+1.25
+[14.5]
+3.95
+1.19
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.94
+1.76
+[6.5]
+2.75
+1.38
+[7.5]
+3.95
+1.19
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+3.70
+1.22
+[2.5]
+9.50
+1.02
+[3.5]
+12.00
+1.001
+[4.5]
+8.50
+1.03
+[5.5]
+6.25
+1.07
+[6.5]
+5.60
+1.09
+[7.5]
+4.75
+1.13
+Correct Score
+Ipswich (Home)
+Draw
+Newcastle (Away)
+1:0
+19.00
+0:0
+16.00
+0:1
+8.50
+2:0
+25.00
+1:1
+7.75
+0:2
+8.50
+2:1
+12.00
+2:2
+11.50
+1:2
+6.90
+3:0
+50.00
+3:3
+40.00
+0:3
+12.00
+3:1
+30.00
+1:3
+11.00
+3:2
+30.00
+2:3
+16.00
+4:0
+125.0
+0:4
+22.00
+4:1
+70.00
+1:4
+20.00
+4:2
+70.00
+2:4
+30.00
+5:0
+500.0
+0:5
+40.00
+5:1
+300.0
+1:5
+40.00
+5:2
+300.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+70.00
+Home Others
+(Away Scores)
+70.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+28.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Newcastle (Away)
+1:0
+17.00
+0:0
+15.00
+0:1
+7.80
+2:0
+24.00
+1:1
+7.40
+0:2
+5.30
+2:1
+14.50
+2:2
+15.50
+1:2
+5.80
+3:0
+50.00
+3:3
+100.0
+0:3
+4.10
+3:1
+45.00
+1:3
+5.70
+3:2
+35.00
+2:3
+19.00
+4:0
+150.0
+0:4
+1.08
+4:1
+200.0
+1:4
+18.00
+4:2
+150.0
+2:4
+600.0
+5:0
+500.0
+0:5
+1.001
+5:1
+900.0
+1:5
+55.00
+5:2
+900.0
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+9.50
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score
+Ipswich (Home)
+Draw
+Newcastle (Away)
+1:0
+6.70
+0:0
+3.25
+0:1
+3.80
+2:0
+18.00
+1:1
+6.70
+0:2
+6.70
+2:1
+20.00
+2:2
+40.00
+1:2
+11.00
+3:0
+80.00
+3:3
+500.0
+0:3
+18.00
+3:1
+100.0
+1:3
+40.00
+3:2
+200.0
+2:3
+100.0
+4:0
+600.0
+0:4
+70.00
+4:1
+600.0
+1:4
+125.0
+4:2
+800.0
+2:4
+500.0
+5:0
+2000
+0:5
+400.0
+5:1
+2000
+1:5
+600.0
+5:2
+2500
+2:5
+1000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Newcastle (Away)
+1:0
+6.40
+0:0
+2.98
+0:1
+1.44
+2:0
+21.00
+1:1
+5.50
+0:2
+1.18
+2:1
+36.00
+2:2
+90.00
+1:2
+7.60
+3:0
+90.00
+3:3
+2500
+0:3
+4.90
+3:1
+300.0
+1:3
+30.00
+3:2
+2500
+2:3
+350.0
+4:0
+600.0
+0:4
+45.00
+4:1
+2500
+1:4
+250.0
+4:2
+2500
+2:4
+2500
+5:0
+2000
+0:5
+500.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Newcastle (Away)
+2.63
+16.00
+1.43
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+2.60
+15.00
+1.45
+2nd Goal
+2.48
+7.80
+1.63
+3rd Goal
+2.68
+5.30
+1.72
+4th Goal
+2.90
+4.10
+1.81
+5th Goal
+17.00
+1.08
+6.80
+Total Goals
+0
+16.00
+1
+6.10
+2
+3.95
+3
+3.65
+4
+4.35
+5
+6.40
+6
+11.00
+7+
+15.00
+Total Goals- Last Odds for In Play Betting
+0
+15.00
+1
+7.80
+2
+5.30
+3
+4.10
+4
+1.08
+5
+1.001
+6
+10.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Ipswich (Home)
+Newcastle (Away)
+101 Ali AL HAMADI
+7.50
+201 Alexander ISAK
+3.60
+102 Sammie SZMODICS
+8.00
+202 William OSULA
+4.75
+103 Omari HUTCHINSON
+9.50
+203 Harvey BARNES
+5.10
+104 Nathan BROADHEAD
+10.50
+204 Anthony GORDON
+5.60
+105 Jack CLARKE
+11.50
+205 Jacob MURPHY
+7.25
+106 Conor CHAPLIN
+12.50
+206 JOELINTON Cassio
+8.50
+107 Wes BURNS
+14.50
+207 Miguel ALMIRON
+9.75
+108 Jack TAYLOR
+17.00
+208 Joe WILLOCK
+11.00
+109 Cameron BURGESS
+30.00
+209 BRUNO GUIMARAES
+14.50
+110 Dara O'SHEA
+35.00
+210 Sandro TONALI
+16.00
+111 Jacob GREAVES
+35.00
+211 Sean LONGSTAFF
+16.00
+112 Leif DAVIS
+40.00
+212 Lewis MILEY
+17.00
+113 Kalvin PHILLIPS
+45.00
+213 Fabian SCHAR
+23.00
+114 Massimo LUONGO
+50.00
+214 Dan BURN
+29.00
+115 Jens CAJUSTE
+55.00
+216 Lewis HALL
+30.00
+116 Sam MORSY
+55.00
+215 Kieran TRIPPIER
+35.00
+117 Ben JOHNSON
+55.00
+217 Alex MURPHY
+40.00
+118 Harry CLARKE
+60.00
+218 Lloyd KELLY
+40.00
+119 Conor TOWNSEND
+70.00
+219 Matt TARGETT
+45.00
+120 Home Others
+19.00
+220 Away Others
+10.50
+00 No First Scorer
+15.80
+HaFu
+H-H
+7.00
+H-D
+14.00
+H-A
+19.00
+D-H
+10.00
+D-D
+6.60
+D-A
+4.35
+A-H
+30.00
+A-D
+14.00
+A-A
+2.26
+Specials
+Item No.: 1 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.85
+(4) Be substituted
+4.50
+(5) None of the above
+2.50
+Item No.: 2 How many goal(s) will Alexander ISAK (Newcastle) score?
+(1) No Goal
+1.65
+(2) 1 Goal
+2.60
+(3) 2 Goals
+6.75
+(4) 3 Goals or more
+13.00
+Item No.: 3 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.75
+(4) Be substituted
+1.42
+(5) None of the above
+6.25
+Item No.: 4 Which event will happen to Jacob MURPHY (Newcastle) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.25
+(4) Be substituted
+1.36
+(5) None of the above
+5.80

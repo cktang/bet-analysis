@@ -1,0 +1,199 @@
+{
+  "name": "Single_awayGoalDiff",
+  "originalProfitability": 0.17725225225225225,
+  "calculatedProfitability": 17.725225225225223,
+  "factors": [
+    "timeSeries.away.cumulative.overall.goalDifference || 0"
+  ],
+  "totalBets": 222,
+  "wins": 130,
+  "losses": 92,
+  "winRate": 58.55855855855856,
+  "totalProfit": 3935,
+  "profitability": 17.725225225225223,
+  "averageProfitPerBet": 17.725225225225227,
+  "bestThreshold": 15,
+  "validSamples": 746,
+  "sampleBets": [
+    {
+      "date": "2024-05-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "homeScore": 0,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 75,
+      "isWin": true,
+      "factorValues": [
+        60
+      ],
+      "combinedValue": 60,
+      "homeOdds": 1.75,
+      "awayOdds": 2.09,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [60.000] Combined: 60.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-05-14T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Manchester City",
+      "homeScore": 0,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        58
+      ],
+      "combinedValue": 58,
+      "homeOdds": 2.11,
+      "awayOdds": 1.74,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [58.000] Combined: 58.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Arsenal",
+      "homeScore": 2,
+      "awayScore": 3,
+      "betChoice": "HOME",
+      "profit": -50,
+      "isWin": false,
+      "factorValues": [
+        56
+      ],
+      "combinedValue": 56,
+      "homeOdds": 1.98,
+      "awayOdds": 1.84,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [56.000] Combined: 56.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester City",
+      "homeScore": 0,
+      "awayScore": 4,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        54
+      ],
+      "combinedValue": 54,
+      "homeOdds": 1.85,
+      "awayOdds": 1.97,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [54.000] Combined: 54.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-04-20T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Arsenal",
+      "homeScore": 0,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": -50,
+      "isWin": false,
+      "factorValues": [
+        49
+      ],
+      "combinedValue": 49,
+      "homeOdds": 1.91,
+      "awayOdds": 1.91,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [49.000] Combined: 49.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-04-06T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Arsenal",
+      "homeScore": 0,
+      "awayScore": 3,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        48
+      ],
+      "combinedValue": 48,
+      "homeOdds": 2.07,
+      "awayOdds": 1.77,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [48.000] Combined: 48.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "homeScore": 0,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": -50,
+      "isWin": false,
+      "factorValues": [
+        48
+      ],
+      "combinedValue": 48,
+      "homeOdds": 1.85,
+      "awayOdds": 1.97,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [48.000] Combined: 48.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Liverpool",
+      "homeScore": 3,
+      "awayScore": 1,
+      "betChoice": "HOME",
+      "profit": 92,
+      "isWin": true,
+      "factorValues": [
+        48
+      ],
+      "combinedValue": 48,
+      "homeOdds": 1.92,
+      "awayOdds": 1.9,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [48.000] Combined: 48.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2024-03-30T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Arsenal",
+      "homeScore": 0,
+      "awayScore": 0,
+      "betChoice": "HOME",
+      "profit": -100,
+      "isWin": false,
+      "factorValues": [
+        46
+      ],
+      "combinedValue": 46,
+      "homeOdds": 2.19,
+      "awayOdds": 1.69,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [46.000] Combined: 46.000 → BET HOME (Top 15%)"
+    },
+    {
+      "date": "2025-05-19T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Liverpool",
+      "homeScore": 3,
+      "awayScore": 2,
+      "betChoice": "HOME",
+      "profit": 89,
+      "isWin": true,
+      "factorValues": [
+        46
+      ],
+      "combinedValue": 46,
+      "homeOdds": 1.89,
+      "awayOdds": 1.93,
+      "handicap": "Unknown",
+      "decisionLogic": "Factors: [46.000] Combined: 46.000 → BET HOME (Top 15%)"
+    }
+  ]
+}

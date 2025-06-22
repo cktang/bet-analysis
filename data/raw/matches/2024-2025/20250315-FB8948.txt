@@ -1,0 +1,722 @@
+15/03/2025
+FB8948
+Ipswich
+vs
+Nottingham
+Forest
+0
+:
+3
+2
+:
+4
+%Event ID: FB8948
+Ipswich
+2
+4
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+3.75
+3.40
+1.76
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+40.00
+17.00
+1.001
+First Half HAD
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+4.15
+2.17
+2.28
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+90.00
+70.00
+1.001
+Handicap HAD
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+[+2]
+1.26
+[+2]
+5.10
+[-2]
+6.60
+[+1]
+1.85
+[+1]
+3.55
+[-1]
+3.15
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+[+1]
+3.50
+[+1]
+2.78
+[-1]
+2.02
+[+4]
+1.09
+[+4]
+4.85
+[-4]
+60.00
+[+2]
+3.20
+[+2]
+2.75
+[-2]
+2.16
+[+3]
+6.80
+[+3]
+1.24
+[-3]
+5.00
+Handicap
+Ipswich (Home)
+Nottingham Forest (Away)
+[+0.5/+1]
+1.71
+[-0.5/-1]
+2.16
+Same Game All Up
+Both teams to score & Nottingham Forest to win & Over [11.5] corners taken
+9.50
+Nottingham Forest to win & Over [3.5] goals & Over [10.5] corners taken
+11.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Nottingham Forest to win the match by [2] goal(s) or more
+12.00
+Both teams to score & Ipswich to win & Under [10.5] corners taken
+12.00
+Both teams to score & Ipswich to win or draw & Over [12.5] corners taken
+8.50
+Ipswich to score first & Nottingham Forest to win by [2] goal(s) or more
+28.00
+Nottingham Forest to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+25.00
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+10.00
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+6.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+10.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+9.00
+First Half to be drawn & Nottingham Forest to win the match by [2] goal(s) or more
+13.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+12.00
+The match to be drawn & Under [8.5] corners taken
+10.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:1] in the match
+25.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [3:0] in the match
+40.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [4:0] in the match
+80.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Ipswich to win [1:0] in the first half & Ipswich to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.76
+1.94
+[2.5/3]
+1.97
+1.74
+[3.5]
+2.88
+1.35
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.12
+4.95
+[1.5/2]
+1.13
+4.75
+[2/2.5]
+2.25
+1.57
+[2.5]
+1.13
+4.75
+[2.5/3]
+1.13
+4.75
+[3.5]
+1.81
+1.89
+[3.5/4]
+3.25
+1.28
+[4/4.5]
+6.60
+1.06
+[4.5]
+8.00
+1.04
+[4.5/5]
+4.05
+1.18
+[5.5]
+9.50
+1.02
+[5.5/6]
+4.60
+1.14
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.15
+1.62
+[1.5]
+2.58
+1.44
+[2.5]
+5.90
+1.08
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+3.55
+1.24
+[1/1.5]
+7.00
+1.05
+[1.5]
+7.00
+1.05
+[1.5/2]
+4.05
+1.18
+[2.5]
+10.50
+1.01
+[2.5/3]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.90
+1.80
+[11.5]
+2.45
+1.48
+[13.5]
+4.15
+1.17
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.71
+2.01
+[5.5]
+2.43
+1.49
+[7.5]
+5.40
+1.10
+Correct Score
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+11.50
+0:0
+10.00
+0:1
+6.80
+2:0
+20.00
+1:1
+6.40
+0:2
+8.25
+2:1
+11.50
+2:2
+12.50
+1:2
+7.00
+3:0
+40.00
+3:3
+40.00
+0:3
+14.50
+3:1
+30.00
+1:3
+13.50
+3:2
+30.00
+2:3
+24.00
+4:0
+125.0
+0:4
+30.00
+4:1
+70.00
+1:4
+30.00
+4:2
+80.00
+2:4
+40.00
+5:0
+400.0
+0:5
+70.00
+5:1
+300.0
+1:5
+60.00
+5:2
+400.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+150.0
+Home Others
+(Away Scores)
+80.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+6.90
+0:0
+4.80
+0:1
+5.60
+2:0
+17.00
+1:1
+5.60
+0:2
+4.65
+2:1
+13.50
+2:2
+11.00
+1:2
+5.20
+3:0
+70.00
+3:3
+80.00
+0:3
+1.44
+3:1
+45.00
+1:3
+1.28
+3:2
+27.00
+2:3
+5.90
+4:0
+400.0
+0:4
+4.45
+4:1
+250.0
+1:4
+1.15
+4:2
+125.0
+2:4
+9.00
+5:0
+1000
+0:5
+35.00
+5:1
+1000
+1:5
+7.45
+5:2
+900.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+80.00
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+80.00
+First Half Correct Score
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+6.10
+0:0
+2.73
+0:1
+3.65
+2:0
+15.00
+1:1
+6.70
+0:2
+7.50
+2:1
+21.00
+2:2
+50.00
+1:2
+13.50
+3:0
+80.00
+3:3
+700.0
+0:3
+30.00
+3:1
+125.0
+1:3
+60.00
+3:2
+300.0
+2:3
+200.0
+4:0
+600.0
+0:4
+125.0
+4:1
+700.0
+1:4
+250.0
+4:2
+1000
+2:4
+700.0
+5:0
+2000
+0:5
+700.0
+5:1
+2500
+1:5
+900.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+7.80
+0:0
+1.32
+0:1
+1.25
+2:0
+100.0
+1:1
+6.20
+0:2
+1.13
+2:1
+51.00
+2:2
+150.0
+1:2
+10.50
+3:0
+2000
+3:3
+2500
+0:3
+1.09
+3:1
+900.0
+1:3
+12.50
+3:2
+2500
+2:3
+300.0
+4:0
+2500
+0:4
+9.25
+4:1
+2500
+1:4
+90.00
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+150.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Nottingham Forest (Away)
+2.47
+10.00
+1.57
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+2.74
+4.80
+1.76
+3rd Goal
+2.45
+4.65
+1.93
+4th Goal
+5.30
+1.44
+3.85
+5th Goal
+5.80
+1.28
+5.30
+6th Goal
+8.75
+1.15
+7.20
+Total Goals
+0
+10.00
+1
+4.60
+2
+3.40
+3
+3.70
+4
+5.00
+5
+8.25
+6
+17.00
+7+
+27.00
+Total Goals- Last Odds for In Play Betting
+0
+4.80
+1
+5.60
+2
+4.65
+3
+1.44
+4
+1.28
+5
+1.24
+6
+3.30
+7+
+24.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Ipswich (Home)
+Nottingham Forest (Away)
+101 Liam DELAP
+4.50
+201 Chris WOOD
+3.00
+102 George HIRST
+7.00
+202 Taiwo AWONIYI
+4.15
+103 Julio ENCISO
+12.50
+203 Morgan GIBBS-WHITE
+7.00
+105 Nathan BROADHEAD
+12.50
+204 Ramon SOSA
+9.25
+104 Jaden PHILOGENE
+13.00
+205 Callum HUDSON-ODOI
+9.50
+106 Omari HUTCHINSON
+13.50
+206 Jota SILVA
+10.50
+107 Jack CLARKE
+15.00
+207 Anthony ELANGA
+12.00
+108 Conor CHAPLIN
+16.00
+208 Ryan YATES
+16.00
+109 Jack TAYLOR
+23.00
+209 Nikola MILENKOVIC
+19.00
+110 Ben JOHNSON
+30.00
+210 DANILO Oliveira
+23.00
+111 Kalvin PHILLIPS
+40.00
+211 Elliot ANDERSON
+23.00
+112 Cameron BURGESS
+60.00
+212 Eric Da SILVA MOREIRA
+23.00
+113 Dara O'SHEA
+60.00
+213 Ibrahim SANGARE
+29.00
+114 Jacob GREAVES
+65.00
+214 Nicolas DOMINGUEZ
+30.00
+115 Leif DAVIS
+65.00
+215 ALEX MORENO
+35.00
+116 Massimo LUONGO
+65.00
+216 Neco WILLIAMS
+35.00
+117 Sam MORSY
+65.00
+217 Ola AINA
+40.00
+118 Conor TOWNSEND
+70.00
+218 Harry TOFFOLO
+45.00
+119 Jens CAJUSTE
+75.00
+219 MURILLO Costa
+45.00
+120 Home Others
+12.00
+220 Away Others
+7.75
+00 No First Scorer
+9.80
+HaFu
+H-H
+6.00
+H-D
+13.50
+H-A
+21.00
+D-H
+8.25
+D-D
+5.20
+D-A
+4.40
+A-H
+28.00
+A-D
+13.50
+A-A
+2.78

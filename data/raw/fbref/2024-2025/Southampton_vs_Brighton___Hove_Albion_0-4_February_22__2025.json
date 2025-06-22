@@ -1,0 +1,166 @@
+{
+  "url": "https://fbref.com/en/matches/e757bea1/Southampton-Brighton-and-Hove-Albion-February-22-2025-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "February 22, 2025",
+  "score": "0-4",
+  "homeScore": 0,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 23,
+        "player": "João Pedro",
+        "playerId": "e8832875",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 56,
+        "player": "Georginio Rutter",
+        "playerId": "c64c01fc",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Yankuba Minteh"
+      },
+      {
+        "minute": 71,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "João Pedro"
+      },
+      {
+        "minute": 82,
+        "player": "Jack Hinshelwood",
+        "playerId": "e98211e7",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Brajan Gruda"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 2,
+        "player": "Lesley Ugochukwu",
+        "playerId": "1df4a109",
+        "team": "Southampton"
+      },
+      {
+        "minute": 57,
+        "player": "Aaron Ramsdale",
+        "playerId": "466fb2c5",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 12,
+        "player": "Armel Bella Kotchap",
+        "playerId": "a39d11bc",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Yukinari Sugawara",
+        "playerId": "580bcd18",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Diego Gómez",
+        "playerId": "916728da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Pervis Estupiñán",
+        "playerId": "d38fdf53",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "William Smallbone",
+        "playerId": "5e105217",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Paul Onuachu",
+        "playerId": "c06d1086",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Simon Adingra",
+        "playerId": "4dcec659",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Brajan Gruda",
+        "playerId": "ae9b998d",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Mats Wieffer",
+        "playerId": "4876c9ab",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Albert Grønbaek",
+        "playerId": "0da5076f",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

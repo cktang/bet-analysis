@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/db1e4ea5/Ipswich-Town-Manchester-United-November-24-2024-Premier-League",
+  "homeTeam": "Ipswich Town",
+  "awayTeam": "Manchester United",
+  "matchDate": "November 24, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 2,
+        "player": "Marcus Rashford",
+        "playerId": "a1d5bd30",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Amad Diallo"
+      },
+      {
+        "minute": 43,
+        "player": "Omari Hutchinson",
+        "playerId": "bd9553e6",
+        "team": "Ipswich Town",
+        "isPenalty": false,
+        "assist": "Wes Burns"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "player": "Luke Shaw",
+        "playerId": "9c94165b",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Manuel Ugarte Ribeiro",
+        "playerId": "c9817014",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Jack Clarke",
+        "playerId": "e16932d8",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Joshua Zirkzee",
+        "playerId": "028e70b9",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Rasmus Højlund",
+        "playerId": "491a433d",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Ali Al Hamadi",
+        "playerId": "8450467d",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Conor Chaplin",
+        "playerId": "4ec55b87",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Manchester United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

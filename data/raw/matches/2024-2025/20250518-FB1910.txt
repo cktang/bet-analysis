@@ -1,0 +1,766 @@
+18/05/2025
+FB1910
+Leicester
+vs
+Ipswich
+1
+:
+0
+2
+:
+0
+%Event ID: FB1910
+Leicester
+2
+0
+Ipswich
+Eng Premier
+Home/Away/Draw
+Leicester (Home)
+Draw
+Ipswich (Away)
+2.01
+3.50
+2.90
+Home/Away/Draw- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Ipswich (Away)
+1.001
+45.00
+700.0
+First Half HAD
+Leicester (Home)
+Draw
+Ipswich (Away)
+2.49
+2.30
+3.30
+First Half HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Ipswich (Away)
+1.03
+6.50
+80.00
+Handicap HAD
+Leicester (Home)
+Draw
+Ipswich (Away)
+[+1]
+1.31
+[+1]
+4.85
+[-1]
+5.90
+[-1]
+3.75
+[-1]
+3.85
+[+1]
+1.63
+Handicap HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Ipswich (Away)
+[-3]
+50.00
+[-3]
+4.95
+[+3]
+1.09
+[-1]
+1.02
+[-1]
+6.40
+[+1]
+350.0
+[+1]
+1.05
+[+1]
+8.25
+[-1]
+15.00
+[-2]
+3.70
+[-2]
+1.81
+[+2]
+3.14
+Handicap
+Leicester (Home)
+Ipswich (Away)
+[0/-0.5]
+1.90
+[0/+0.5]
+1.92
+Handicap- Last Odds for In Play Betting
+Leicester (Home)
+Ipswich (Away)
+[-2]
+1.96
+[+2]
+1.77
+[-1]
+1.01
+[+1]
+11.50
+[0/-0.5]
+1.29
+[0/+0.5]
+3.30
+Same Game All Up
+Both teams to score & Leicester to win & Over [11.5] corners taken
+9.00
+Leicester to win & Over [3.5] goals & Over [12.5] corners taken
+16.00
+Leicester to win [2:0] in the first half & Leicester to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Leicester to win the match by [2] goal(s) or more
+12.00
+Both teams to score & Ipswich to win & Under [8.5] corners taken
+16.00
+Both teams to score & Ipswich to win or draw & Over [12.5] corners taken
+7.50
+Ipswich to score first & Leicester to win by [2] goal(s) or more
+28.00
+Leicester to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+23.00
+Over [6.5] corners taken in the first half & Over [14.5] corners taken in the match
+7.50
+Under [3.5] corners taken in the first half & Under [6.5] corners taken in the match
+9.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+10.50
+First Half to be drawn & Leicester to win the match by [2] goal(s) or more
+15.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.50
+The match to be drawn & Under [8.5] corners taken
+10.50
+Leicester to win [1:0] in the first half & Leicester to win [2:1] in the match
+25.00
+Leicester to win [2:0] in the first half & Leicester to win [3:0] in the match
+40.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Ipswich to win [1:0] in the first half & Ipswich to win [2:0] in the match
+29.00
+Ipswich to win [2:0] in the first half & Ipswich to win [3:0] in the match
+80.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.57
+2.25
+[2.5/3]
+1.72
+2.00
+[3.5]
+2.38
+1.51
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+1.85
+1.85
+[2/2.5]
+3.10
+1.31
+[2.5]
+1.55
+2.29
+[2.5/3]
+6.25
+1.07
+[3/3.5]
+11.50
+1.002
+[3.5]
+12.00
+1.001
+[4.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.25
+1.57
+[1.5/2]
+2.80
+1.37
+[2.5]
+4.60
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.45
+1.48
+[1/1.5]
+4.40
+1.15
+[1.5]
+1.85
+1.85
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.10
+1.65
+[11.5]
+2.70
+1.39
+[14.5]
+6.60
+1.06
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.14
+4.60
+[5.5]
+5.40
+1.10
+[6.5]
+5.40
+1.10
+[7.5]
+9.50
+1.02
+[8.5]
+6.60
+1.06
+[9.5]
+5.60
+1.09
+[10.5]
+3.90
+1.20
+[11.5]
+3.90
+1.20
+[14.5]
+6.60
+1.06
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.83
+1.87
+[5.5]
+2.65
+1.41
+[6.5]
+4.05
+1.18
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.28
+3.25
+[2.5]
+5.15
+1.11
+[3.5]
+5.40
+1.10
+[4.5]
+8.50
+1.03
+[5.5]
+5.90
+1.08
+[6.5]
+5.40
+1.10
+Correct Score
+Leicester (Home)
+Draw
+Ipswich (Away)
+1:0
+9.00
+0:0
+14.50
+0:1
+11.50
+2:0
+11.50
+1:1
+6.80
+0:2
+16.00
+2:1
+7.50
+2:2
+10.00
+1:2
+9.50
+3:0
+20.00
+3:3
+35.00
+0:3
+30.00
+3:1
+13.50
+1:3
+20.00
+3:2
+20.00
+2:3
+24.00
+4:0
+40.00
+0:4
+70.00
+4:1
+30.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+80.00
+0:5
+200.0
+5:1
+60.00
+1:5
+125.0
+5:2
+80.00
+2:5
+125.0
+Home Others
+(Away No Goal)
+200.0
+Away Others
+(Home No Goal)
+600.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Ipswich (Away)
+1:0
+2.11
+0:0
+7.80
+0:1
+6.50
+2:0
+1.10
+1:1
+3.85
+0:2
+12.00
+2:1
+10.00
+2:2
+400.0
+1:2
+14.00
+3:0
+10.50
+3:3
+1000
+0:3
+30.00
+3:1
+100.0
+1:3
+90.00
+3:2
+1000
+2:3
+1000
+4:0
+500.0
+0:4
+125.0
+4:1
+1000
+1:4
+900.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+600.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Leicester (Home)
+Draw
+Ipswich (Away)
+1:0
+4.20
+0:0
+3.10
+0:1
+5.40
+2:0
+8.75
+1:1
+6.00
+0:2
+12.50
+2:1
+13.00
+2:2
+40.00
+1:2
+15.00
+3:0
+35.00
+3:3
+500.0
+0:3
+60.00
+3:1
+50.00
+1:3
+70.00
+3:2
+125.0
+2:3
+150.0
+4:0
+150.0
+0:4
+300.0
+4:1
+250.0
+1:4
+400.0
+4:2
+600.0
+2:4
+700.0
+5:0
+700.0
+0:5
+1000
+5:1
+800.0
+1:5
+1500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Ipswich (Away)
+1:0
+1.14
+0:0
+1.59
+0:1
+4.70
+2:0
+14.00
+1:1
+6.00
+0:2
+28.00
+2:1
+100.0
+2:2
+2000
+1:2
+71.00
+3:0
+200.0
+3:3
+2500
+0:3
+200.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Leicester (Home)
+No Goals
+Ipswich (Away)
+1.69
+14.50
+2.09
+Next Team To Score- Last Odds for In Play Betting
+Leicester (Home)
+No Goals
+Ipswich (Away)
+1st Goal
+1.87
+7.80
+2.09
+2nd Goal
+3.22
+2.11
+2.82
+3rd Goal
+10.00
+1.10
+9.75
+Total Goals
+0
+14.50
+1
+5.40
+2
+3.80
+3
+3.65
+4
+4.50
+5
+6.80
+6
+12.50
+7+
+18.00
+Total Goals- Last Odds for In Play Betting
+0
+7.80
+1
+2.11
+2
+1.25
+3
+3.08
+4
+21.00
+5
+200.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Leicester (Home)
+Ipswich (Away)
+101 Jamie VARDY
+3.75
+201 Liam DELAP
+4.25
+102 Patson DAKA
+5.50
+202 George HIRST
+5.10
+103 Facundo BUONANOTTE
+6.50
+203 Sammie SZMODICS
+6.90
+104 Jordan AYEW
+6.50
+204 Julio ENCISO
+8.50
+105 Jake EVANS
+6.80
+205 Jack CLARKE
+10.50
+106 Kasey McATEER
+8.25
+206 Omari HUTCHINSON
+12.50
+107 Jeremy MONGA
+8.75
+207 Conor CHAPLIN
+13.00
+108 Bilal EL KHANNOUSS
+10.00
+208 Jack TAYLOR
+24.00
+109 Michael GOLDING
+16.00
+209 Ben JOHNSON
+26.00
+110 James JUSTIN
+21.00
+210 Kalvin PHILLIPS
+30.00
+111 RICARDO Domingos Pereira
+21.00
+211 Dara O'SHEA
+40.00
+112 Onyinye NDIDI
+28.00
+212 Cameron BURGESS
+45.00
+113 Caleb OKOLI
+35.00
+213 Massimo LUONGO
+45.00
+114 Jannik VESTERGAARD
+35.00
+214 Jacob GREAVES
+50.00
+115 Boubakary SOUMARE
+50.00
+215 Jens CAJUSTE
+50.00
+116 Conor COADY
+50.00
+216 Leif DAVIS
+50.00
+117 Oliver SKIPP
+50.00
+217 Sam MORSY
+50.00
+118 Wout FAES
+50.00
+218 Axel TUANZEBE
+65.00
+119 Woyo COULIBALY
+50.00
+219 Conor TOWNSEND
+65.00
+120 Home Others
+6.30
+220 Away Others
+7.75
+00 No First Scorer
+14.30
+HaFu
+H-H
+3.15
+H-D
+12.50
+H-A
+26.00
+D-H
+5.20
+D-D
+5.80
+D-A
+6.90
+A-H
+21.00
+A-D
+12.50
+A-A
+4.50

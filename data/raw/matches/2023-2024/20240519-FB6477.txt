@@ -1,0 +1,325 @@
+19/05/2024
+FB6477
+Burnley
+vs
+Nottingham
+Forest
+0
+:
+2
+1
+:
+2
+%Event ID: FB6477
+Burnley
+1
+2
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Burnley (Home)
+Draw
+Nottingham Forest (Away)
+2.76
+3.55
+2.07
+First Half HAD
+Burnley (Home)
+Draw
+Nottingham Forest (Away)
+3.10
+2.36
+2.54
+Handicap HAD
+Burnley (Home)
+Draw
+Nottingham Forest (Away)
+[+1]
+1.62
+[+1]
+4.00
+[-1]
+3.65
+Handicap
+Burnley (Home)
+Nottingham Forest (Away)
+[0/+0.5]
+1.87
+[0/-0.5]
+1.95
+Same Game All Up
+Nottingham Forest to win & Over [3.5] goals & Over [10.5] corners taken
+9.50
+Nottingham Forest to win by [2] goal(s) or more & Burnley to score
+8.25
+Nottingham Forest to score in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+5.70
+Burnley to win & Over [3.5] goals
+6.60
+Burnley to win & Burnley clean sheet
+5.60
+Nottingham Forest to score first in the match & Burnley to score in the first half & Over [2.5] goals in the first half
+11.50
+Nottingham Forest to score first in the match & Nottingham Forest to win the first half & Over [1.5] goals in the first half
+6.50
+Nottingham Forest to score first & Burnley to win or draw
+5.00
+Burnley to score first & Nottingham Forest to win by [2] goal(s) or more
+28.00
+First Half to be drawn & Nottingham Forest to win the match by exactly [2] goal(s)
+19.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+5.80
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.10
+Nottingham Forest clean sheet & Under [9.5] corners taken
+9.25
+Burnley to win [1:0] in the first half & Burnley to win [2:1] in the match
+30.00
+Burnley to win [1:0] in the first half & Burnley to win [3:1] in the match
+55.00
+Burnley to win [2:0] in the first half & Burnley to win [3:0] in the match
+60.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+24.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [3:0] in the match
+45.00
+Nottingham Forest to win [2:0] in the first half & Nottingham Forest to win [3:1] in the match
+55.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.48
+2.45
+[3/3.5]
+1.98
+1.73
+[3.5]
+2.19
+1.60
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.04
+1.69
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.30
+1.16
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.13
+1.63
+[12.5]
+2.65
+1.41
+[14.5]
+4.40
+1.15
+Correct Score
+Burnley (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+12.50
+0:0
+16.00
+0:1
+10.50
+2:0
+16.00
+1:1
+7.00
+0:2
+12.50
+2:1
+9.25
+2:2
+9.75
+1:2
+7.75
+3:0
+35.00
+3:3
+35.00
+0:3
+20.00
+3:1
+19.00
+1:3
+13.50
+3:2
+20.00
+2:3
+16.00
+4:0
+60.00
+0:4
+40.00
+4:1
+40.00
+1:4
+35.00
+4:2
+40.00
+2:4
+40.00
+5:0
+150.0
+0:5
+80.00
+5:1
+100.0
+1:5
+60.00
+5:2
+100.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+200.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+35.00
+First Half Correct Score
+Burnley (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+5.10
+0:0
+3.30
+0:1
+4.60
+2:0
+12.00
+1:1
+5.80
+0:2
+9.25
+2:1
+14.00
+2:2
+35.00
+1:2
+12.00
+3:0
+50.00
+3:3
+500.0
+0:3
+35.00
+3:1
+60.00
+1:3
+50.00
+3:2
+125.0
+2:3
+100.0
+4:0
+250.0
+0:4
+150.0
+4:1
+300.0
+1:4
+200.0
+4:2
+600.0
+2:4
+500.0
+5:0
+900.0
+0:5
+700.0
+5:1
+1000
+1:5
+800.0
+5:2
+2000
+2:5
+1500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Team to Score
+Burnley (Home)
+No Goals
+Nottingham Forest (Away)
+2.01
+16.00
+1.72
+Total Goals
+0
+16.00
+1
+6.00
+2
+3.95
+3
+3.70
+4
+4.40
+5
+6.50
+6
+10.50
+7+
+15.00
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+4.15
+H-D
+12.00
+H-A
+21.00
+D-H
+6.80
+D-D
+6.10
+D-A
+5.40
+A-H
+24.00
+A-D
+12.00
+A-A
+3.30

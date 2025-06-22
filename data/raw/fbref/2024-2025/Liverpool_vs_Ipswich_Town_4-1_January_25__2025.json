@@ -1,0 +1,174 @@
+{
+  "url": "https://fbref.com/en/matches/ee59115f/Liverpool-Ipswich-Town-January-25-2025-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Ipswich Town",
+  "matchDate": "January 25, 2025",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Dominik Szoboszlai",
+        "playerId": "934e1968",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Ibrahima Konaté"
+      },
+      {
+        "minute": 35,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Cody Gakpo"
+      },
+      {
+        "minute": 44,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 65,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Trent Alexander-Arnold"
+      },
+      {
+        "minute": 90,
+        "player": "Jacob Greaves",
+        "playerId": "1f169636",
+        "team": "Ipswich Town",
+        "isPenalty": false,
+        "assist": "Julio Enciso"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 75,
+        "player": "Liam Delap",
+        "playerId": "dd897ee7",
+        "team": "Ipswich Town"
+      },
+      {
+        "minute": 81,
+        "player": "Julio Enciso",
+        "playerId": "9cfbad36",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 29,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Conor Townsend",
+        "playerId": "4dc4f138",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Julio Enciso",
+        "playerId": "9cfbad36",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "George Hirst",
+        "playerId": "78e87179",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Nathan Broadhead",
+        "playerId": "43309491",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Jayden Danns",
+        "playerId": "003cf4d1",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Federico Chiesa",
+        "playerId": "b0f7e36c",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

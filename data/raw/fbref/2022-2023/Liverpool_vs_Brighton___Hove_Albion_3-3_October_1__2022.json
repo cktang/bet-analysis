@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/aadd2e80/Liverpool-Brighton-and-Hove-Albion-October-1-2022-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "October 1, 2022",
+  "score": "3-3",
+  "homeScore": 3,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 4,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Danny Welbeck"
+      },
+      {
+        "minute": 17,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Solly March"
+      },
+      {
+        "minute": 33,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Mohamed Salah"
+      },
+      {
+        "minute": 54,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Luis Díaz"
+      },
+      {
+        "minute": 63,
+        "player": "Adam Webster",
+        "playerId": "c40b6180",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 83,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 29,
+        "player": "Pervis Estupiñán",
+        "playerId": "d38fdf53",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 86,
+        "player": "Trent Alexander-Arnold",
+        "playerId": "cd1acf9d",
+        "team": "Liverpool"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 59,
+        "player": "Harvey Elliott",
+        "playerId": "b9e1436c",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Kaoru Mitoma",
+        "playerId": "74618572",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Diogo Jota",
+        "playerId": "178ae8f8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Adam Lallana",
+        "playerId": "99813635",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Tariq Lamptey",
+        "playerId": "f4e433d4",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

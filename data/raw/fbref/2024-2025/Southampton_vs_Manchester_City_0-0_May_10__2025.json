@@ -1,0 +1,126 @@
+{
+  "url": "https://fbref.com/en/matches/35a46606/Southampton-Manchester-City-May-10-2025-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Manchester City",
+  "matchDate": "May 10, 2025",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [
+      {
+        "minute": 43,
+        "player": "Lesley Ugochukwu",
+        "playerId": "1df4a109",
+        "team": "Southampton"
+      },
+      {
+        "minute": 56,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Jeremy Doku",
+        "playerId": "fffea3e5",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Joe Aribo",
+        "playerId": "328f7d51",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Nico O’Reilly",
+        "playerId": "91ca4a16",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Sávio",
+        "playerId": "fe6e7156",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Omar Marmoush",
+        "playerId": "0e0102eb",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Ross Stewart",
+        "playerId": "18986367",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Ryan Manning",
+        "playerId": "847b53eb",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "William Smallbone",
+        "playerId": "5e105217",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "url": "https://fbref.com/en/matches/95a97dc6/Bournemouth-Brighton-and-Hove-Albion-April-4-2023-Premier-League",
+  "homeTeam": "Bournemouth",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "April 4, 2023",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 27,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Kaoru Mitoma"
+      },
+      {
+        "minute": 91,
+        "player": "Julio Enciso",
+        "playerId": "9cfbad36",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Pascal Groß"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 60,
+        "player": "Jason Steele",
+        "playerId": "28300a16",
+        "team": "Brighton & Hove Albion"
+      },
+      {
+        "minute": 95,
+        "player": "Lewis Cook",
+        "playerId": "2afc7272",
+        "team": "Bournemouth"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "player": "Marcus Tavernier",
+        "playerId": "5c0da4a4",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "David Brooks",
+        "playerId": "dc4cae05",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Danny Welbeck",
+        "playerId": "ce5143da",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Julio Enciso",
+        "playerId": "9cfbad36",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Yasin Ayari",
+        "playerId": "f173303a",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Antoine Semenyo",
+        "playerId": "efd2ec23",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Lewis Cook",
+        "playerId": "2afc7272",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Illia Zabarnyi",
+        "playerId": "88968486",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Deniz Undav",
+        "playerId": "dd549382",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

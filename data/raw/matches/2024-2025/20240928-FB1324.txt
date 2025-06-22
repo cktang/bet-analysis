@@ -1,0 +1,906 @@
+28/09/2024
+FB1324
+Chelsea
+vs
+Brighton
+4
+:
+2
+4
+:
+2
+%Event ID: FB1324
+Chelsea
+4
+2
+Brighton
+Eng Premier
+Home/Away/Draw
+Chelsea (Home)
+Draw
+Brighton (Away)
+1.58
+4.05
+4.00
+Home/Away/Draw- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Brighton (Away)
+1.001
+35.00
+350.0
+First Half HAD
+Chelsea (Home)
+Draw
+Brighton (Away)
+1.94
+2.60
+4.15
+First Half HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Brighton (Away)
+1.001
+80.00
+1000
+Handicap HAD
+Chelsea (Home)
+Draw
+Brighton (Away)
+[-1]
+2.63
+[-1]
+3.60
+[+1]
+2.07
+Handicap HAD- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Brighton (Away)
+[-3]
+90.00
+[-3]
+5.60
+[+3]
+1.05
+[-1]
+1.73
+[-1]
+3.46
+[+1]
+3.65
+[-2]
+1.85
+[-2]
+3.28
+[+2]
+3.40
+Handicap
+Chelsea (Home)
+Brighton (Away)
+[-0.5/-1]
+1.87
+[+0.5/+1]
+1.95
+Handicap- Last Odds for In Play Betting
+Chelsea (Home)
+Brighton (Away)
+[-2.5/-3]
+4.35
+[+2.5/+3]
+1.18
+[-1/-1.5]
+1.15
+[+1/+1.5]
+4.80
+[0/+0.5]
+1.23
+[0/-0.5]
+3.80
+[-0.5/-1]
+1.27
+[+0.5/+1]
+3.45
+[-2]
+1.51
+[+2]
+2.42
+[0]
+2.01
+[0]
+1.73
+[-1.5/-2]
+2.08
+[+1.5/+2]
+1.68
+[-2/-2.5]
+2.64
+[+2/+2.5]
+1.43
+Same Game All Up
+Both teams to score & Chelsea to win & Over [11.5] corners taken
+7.00
+Nicolas JACKSON to score first & Chelsea to win by [2] goal(s) or more & Over [4.5] goals
+30.00
+Cole PALMER to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+16.00
+Chelsea to win & Over [3.5] goals & Over [10.5] corners taken
+6.80
+Both teams to score in the match & Over [1.5] goals in the first half & Chelsea to win the match by [2] goal(s) or more
+6.80
+Both teams to score & Brighton to win & Under [10.5] corners taken
+10.00
+Both teams to score & Brighton to win or draw & Over [10.5] corners taken
+5.40
+Brighton to score first & Chelsea to win by [2] goal(s) or more
+17.00
+Chelsea to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+17.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.20
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.15
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+10.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.00
+First Half to be drawn & Chelsea to win the match by [2] goal(s) or more
+11.00
+The match to be drawn & Under [10.5] corners taken
+6.70
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+25.00
+Chelsea to win [2:0] in the first half & Chelsea to win [3:1] in the match
+45.00
+Chelsea to win [2:0] in the first half & Chelsea to win [4:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Brighton to win [1:0] in the first half & Brighton to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.78
+1.92
+[3.5]
+1.95
+1.75
+[4.5]
+3.10
+1.31
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+2.08
+1.66
+[3.5]
+1.27
+3.35
+[3.5/4]
+1.34
+2.92
+[4/4.5]
+1.16
+4.30
+[4.5]
+1.29
+3.20
+[4.5/5]
+2.13
+1.63
+[5/5.5]
+1.16
+4.30
+[5.5]
+1.29
+3.20
+[6/6.5]
+1.14
+4.60
+[6.5]
+1.26
+3.40
+[6.5/7]
+7.00
+1.05
+[7/7.5]
+12.00
+1.001
+[7.5]
+12.00
+1.001
+[7.5/8]
+2.27
+1.56
+[8/8.5]
+2.20
+1.59
+[8.5]
+5.15
+1.11
+[9.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.89
+1.81
+[1.5/2]
+2.29
+1.55
+[2.5]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.98
+1.73
+[1.5]
+2.35
+1.52
+[1.5/2]
+1.67
+2.07
+[2/2.5]
+2.70
+1.39
+[2.5]
+1.54
+2.30
+[2.5/3]
+2.05
+1.68
+[3/3.5]
+3.55
+1.24
+[3.5]
+1.68
+2.05
+[3.5/4]
+2.20
+1.59
+[4/4.5]
+3.95
+1.19
+[4.5]
+1.86
+1.84
+[4.5/5]
+2.45
+1.48
+[5/5.5]
+5.15
+1.11
+[5.5]
+5.90
+1.08
+[5.5/6]
+3.25
+1.28
+[6/6.5]
+8.00
+1.04
+[6.5/7]
+7.00
+1.05
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.89
+1.81
+[11.5]
+2.38
+1.51
+[13.5]
+3.90
+1.20
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[6.5]
+1.39
+2.70
+[7.5]
+1.29
+3.20
+[8.5]
+1.04
+8.00
+[9.5]
+1.06
+6.60
+[10.5]
+5.60
+1.09
+[11.5]
+11.50
+1.002
+[12.5]
+12.00
+1.001
+[13.5]
+3.90
+1.20
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.72
+2.00
+[5.5]
+2.35
+1.52
+[7.5]
+4.95
+1.12
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+2.25
+1.57
+[3.5]
+7.00
+1.05
+[4.5]
+9.50
+1.01
+[5.5]
+9.50
+1.001
+[6.5]
+5.40
+1.10
+[7.5]
+4.95
+1.12
+Correct Score
+Chelsea (Home)
+Draw
+Brighton (Away)
+1:0
+11.00
+0:0
+20.00
+0:1
+20.00
+2:0
+10.50
+1:1
+8.50
+0:2
+26.00
+2:1
+7.25
+2:2
+10.50
+1:2
+12.00
+3:0
+14.00
+3:3
+35.00
+0:3
+40.00
+3:1
+11.00
+1:3
+26.00
+3:2
+15.00
+2:3
+23.00
+4:0
+24.00
+0:4
+100.0
+4:1
+20.00
+1:4
+50.00
+4:2
+27.00
+2:4
+50.00
+5:0
+40.00
+0:5
+400.0
+5:1
+40.00
+1:5
+150.0
+5:2
+40.00
+2:5
+150.0
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+20.00
+Draw Others
+60.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Brighton (Away)
+1:0
+8.00
+0:0
+16.00
+0:1
+12.50
+2:0
+8.25
+1:1
+11.50
+0:2
+12.00
+2:1
+11.00
+2:2
+9.00
+1:2
+10.00
+3:0
+12.00
+3:3
+9.25
+0:3
+25.00
+3:1
+11.50
+1:3
+21.00
+3:2
+10.50
+2:3
+19.00
+4:0
+24.00
+0:4
+80.00
+4:1
+6.20
+1:4
+60.00
+4:2
+1.02
+2:4
+60.00
+5:0
+60.00
+0:5
+350.0
+5:1
+7.40
+1:5
+250.0
+5:2
+11.00
+2:5
+250.0
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+15.00
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Chelsea (Home)
+Draw
+Brighton (Away)
+1:0
+4.05
+0:0
+3.85
+0:1
+6.90
+2:0
+6.90
+1:1
+6.10
+0:2
+16.00
+2:1
+10.00
+2:2
+35.00
+1:2
+16.00
+3:0
+18.00
+3:3
+400.0
+0:3
+70.00
+3:1
+30.00
+1:3
+70.00
+3:2
+80.00
+2:3
+125.0
+4:0
+70.00
+0:4
+500.0
+4:1
+100.0
+1:4
+500.0
+4:2
+400.0
+2:4
+700.0
+5:0
+300.0
+0:5
+1500
+5:1
+500.0
+1:5
+1500
+5:2
+900.0
+2:5
+2000
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Chelsea (Home)
+Draw
+Brighton (Away)
+1:0
+3.32
+0:0
+2.98
+0:1
+2.14
+2:0
+8.00
+1:1
+1.81
+0:2
+5.10
+2:1
+1.71
+2:2
+5.60
+1:2
+6.00
+3:0
+30.00
+3:3
+5.70
+0:3
+30.00
+3:1
+1.59
+1:3
+35.00
+3:2
+1.36
+2:3
+41.00
+4:0
+100.0
+0:4
+200.0
+4:1
+3.25
+1:4
+250.0
+4:2
+1.17
+2:4
+300.0
+5:0
+450.0
+0:5
+2500
+5:1
+18.00
+1:5
+2500
+5:2
+6.40
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+6.60
+Draw Others
+150.0
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Chelsea (Home)
+No Goals
+Brighton (Away)
+1.47
+20.00
+2.43
+Next Team To Score- Last Odds for In Play Betting
+Chelsea (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.49
+16.00
+2.47
+2nd Goal
+1.45
+12.50
+2.70
+3rd Goal
+1.50
+11.50
+2.58
+4th Goal
+1.55
+11.00
+2.48
+5th Goal
+1.53
+11.50
+2.50
+6th Goal
+1.57
+10.50
+2.45
+7th Goal
+7.20
+1.11
+11.00
+Total Goals
+0
+20.00
+1
+7.50
+2
+4.35
+3
+3.80
+4
+4.10
+5
+6.00
+6
+9.00
+7+
+10.00
+Total Goals- Last Odds for In Play Betting
+0
+16.00
+1
+12.50
+2
+11.50
+3
+11.00
+4
+11.50
+5
+10.50
+6
+10.50
+7+
+1.04
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Chelsea (Home)
+Brighton (Away)
+101 Nicolas JACKSON
+4.60
+201 JOAO PEDRO Junqueira
+7.75
+102 Cole PALMER
+4.80
+202 Danny WELBECK
+7.75
+103 Christopher NKUNKU
+5.00
+203 Evan FERGUSON
+8.50
+104 Chukwunonso MADUEKE
+5.40
+204 Georginio RUTTER
+9.25
+105 Marc GUIU
+5.50
+205 Julio ENCISO
+10.50
+106 Joao FELIX
+5.80
+206 Simon ADINGRA
+11.00
+107 Jadon SANCHO
+6.90
+207 Kaoru MITOMA
+11.00
+108 PEDRO Lomba NETO
+7.00
+208 Yankuba MINTEH
+13.00
+109 Mykhaylo MUDRYK
+8.00
+209 Yasin AYARI
+20.00
+110 Carney CHUKWUEMEKA
+12.00
+210 Jakub MODER
+24.00
+111 Kiernan DEWSBURY-HALL
+13.50
+211 Carlos BALEBA
+24.00
+112 Cesare CASADEI
+16.00
+212 Jack HINSHELWOOD
+26.00
+113 Enzo Jeremias FERNANDEZ
+17.00
+213 Mats WIEFFER
+26.00
+114 Renato VEIGA
+22.00
+214 Pervis ESTUPINAN
+28.00
+115 Ben CHILWELL
+30.00
+215 Ferdi KADIOGLU
+30.00
+116 Romeo LAVIA
+30.00
+216 Adam WEBSTER
+40.00
+117 Moises CAICEDO
+35.00
+217 Lewis DUNK
+45.00
+118 Levi COLWILL
+40.00
+218 Jan Paul VAN HECKE
+60.00
+119 Axel DISASI
+45.00
+219 IGOR Julio dos Santos de Paulo
+90.00
+120 Home Others
+11.00
+220 Away Others
+18.00
+00 No First Scorer
+19.80
+HaFu
+H-H
+2.39
+H-D
+13.00
+H-A
+24.00
+D-H
+4.55
+D-D
+7.25
+D-A
+9.75
+A-H
+14.50
+A-D
+13.00
+A-A
+6.50
+Specials
+Item No.: 1 Which event will happen to Nicolas JACKSON (Chelsea) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.70
+(4) Be substituted
+2.07
+(5) None of the above
+5.10
+Item No.: 2 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.10
+(4) Be substituted
+5.75
+(5) None of the above
+2.45
+Item No.: 3 Which event will happen to Jadon SANCHO (Chelsea) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+1.40
+(5) None of the above
+6.50
+Item No.: 4 Which event will happen to Danny WELBECK (Brighton) first?
+(1) Receive a Yellow Card
+4.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.05
+(4) Be substituted
+3.95
+(5) None of the above
+2.10
+Item No.: 5 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+4.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.00
+(4) Be substituted
+4.60
+(5) None of the above
+1.82

@@ -1,0 +1,878 @@
+05/04/2025
+FB9792
+Crystal
+Palace
+vs
+Brighton
+1
+:
+1
+2
+:
+1
+%Event ID: FB9792
+Crystal Palace
+2
+1
+Brighton
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+2.29
+3.15
+2.68
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+1.08
+5.70
+60.00
+First Half HAD
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+2.87
+2.09
+3.20
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+10.50
+1.08
+10.00
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+[+1]
+1.37
+[+1]
+4.40
+[-1]
+5.50
+[-1]
+4.50
+[-1]
+4.05
+[+1]
+1.49
+Handicap HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+[-2]
+150.0
+[-2]
+6.50
+[+2]
+1.02
+[+1]
+1.001
+[+1]
+10.50
+[-1]
+22.00
+[-1]
+3.25
+[-1]
+2.20
+[+1]
+2.65
+Handicap
+Crystal Palace (Home)
+Brighton (Away)
+[0]
+1.78
+[0]
+2.05
+Handicap- Last Odds for In Play Betting
+Crystal Palace (Home)
+Brighton (Away)
+[-1]
+3.70
+[+1]
+1.24
+[0]
+1.06
+[0]
+7.50
+[-0.5/-1]
+1.47
+[+0.5/+1]
+2.52
+[0/-0.5]
+2.12
+[0/+0.5]
+1.73
+Same Game All Up
+Both teams to score & Crystal Palace to win & Over [11.5] corners taken
+11.00
+Crystal Palace to win & Over [2.5] goals & Under [9.5] corners taken
+7.80
+Crystal Palace to win [2:0] in the first half & Crystal Palace to win [3:1] in the match
+70.00
+Both teams to score in the match & Over [1.5] goals in the first half & Crystal Palace to win the match by [2] goal(s) or more
+14.50
+Both teams to score & Brighton to win & Under [10.5] corners taken
+8.50
+Both teams to score & Brighton to win or draw & Over [11.5] corners taken
+6.10
+Brighton to score first & Crystal Palace to win by [2] goal(s) or more
+30.00
+Crystal Palace to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+24.00
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.70
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.60
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+14.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+6.10
+First Half to be drawn & Crystal Palace to win the match by [2] goal(s) or more
+17.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+11.00
+The match to be drawn & Under [9.5] corners taken
+6.80
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:1] in the match
+27.00
+Crystal Palace to win [2:0] in the first half & Crystal Palace to win [3:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+First half to be drawn [0:0] & Brighton to win [2:1] in the match
+40.00
+Brighton to win [1:0] in the first half & Brighton to win [2:0] in the match
+27.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.71
+2.01
+[2.5/3]
+1.91
+1.79
+[3.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.10
+5.40
+[2.5/3]
+1.12
+4.95
+[3/3.5]
+2.00
+1.72
+[3.5]
+1.27
+3.35
+[3.5/4]
+7.00
+1.05
+[4/4.5]
+12.00
+1.001
+[4.5]
+12.00
+1.001
+[5.5]
+5.40
+1.10
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.50
+1.46
+[1.5/2]
+3.05
+1.32
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.52
+2.35
+[1/1.5]
+2.22
+1.58
+[1.5]
+1.32
+3.05
+[1.5/2]
+2.98
+1.33
+[2/2.5]
+6.60
+1.06
+[2.5]
+7.00
+1.05
+[2.5/3]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.00
+1.72
+[11.5]
+2.60
+1.43
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.20
+3.90
+[4.5]
+1.18
+4.05
+[5.5]
+1.17
+4.15
+[6.5]
+3.65
+1.23
+[7.5]
+5.60
+1.09
+[8.5]
+9.50
+1.02
+[9.5]
+4.95
+1.12
+[10.5]
+4.75
+1.13
+[11.5]
+4.40
+1.15
+[12.5]
+3.95
+1.19
+[13.5]
+4.60
+1.14
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.77
+1.93
+[5.5]
+2.60
+1.43
+[7.5]
+6.25
+1.07
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+4.60
+1.14
+[4.5]
+5.60
+1.09
+[5.5]
+10.50
+1.01
+[6.5]
+8.50
+1.03
+[7.5]
+7.00
+1.05
+Corner Taken Handicap
+Crystal Palace (Home)
+Brighton (Away)
+[-0.5]
+1.88
+[+0.5]
+1.82
+Corner Taken Handicap- Last Odds for In Play Betting
+Crystal Palace (Home)
+Brighton (Away)
+[-0.5]
+2.85
+[+0.5]
+1.36
+[+2.5]
+1.13
+[-2.5]
+4.75
+[+1.5]
+1.74
+[-1.5]
+1.97
+[+0.5]
+4.15
+[-0.5]
+1.17
+First Half Corner Taken Handicap
+Crystal Palace (Home)
+Brighton (Away)
+[-0.5]
+2.08
+[+0.5]
+1.66
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Crystal Palace (Home)
+Brighton (Away)
+[-0.5]
+3.35
+[+0.5]
+1.27
+[+0.5]
+1.38
+[-0.5]
+2.75
+Correct Score
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+1:0
+8.25
+0:0
+10.50
+0:1
+9.00
+2:0
+12.00
+1:1
+6.10
+0:2
+14.00
+2:1
+8.00
+2:2
+10.50
+1:2
+8.75
+3:0
+24.00
+3:3
+40.00
+0:3
+30.00
+3:1
+18.00
+1:3
+21.00
+3:2
+23.00
+2:3
+26.00
+4:0
+40.00
+0:4
+60.00
+4:1
+40.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+125.0
+0:5
+200.0
+5:1
+80.00
+1:5
+125.0
+5:2
+125.0
+2:5
+150.0
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+1:0
+6.70
+0:0
+10.50
+0:1
+8.50
+2:0
+5.70
+1:1
+3.44
+0:2
+14.00
+2:1
+1.13
+2:2
+6.00
+1:2
+4.10
+3:0
+12.50
+3:3
+1000
+0:3
+30.00
+3:1
+22.00
+1:3
+11.00
+3:2
+200.0
+2:3
+71.00
+4:0
+40.00
+0:4
+70.00
+4:1
+1000
+1:4
+50.00
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+250.0
+5:1
+1000
+1:5
+300.0
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+1:0
+4.40
+0:0
+2.78
+0:1
+4.95
+2:0
+9.75
+1:1
+6.20
+0:2
+11.50
+2:1
+14.00
+2:2
+50.00
+1:2
+15.00
+3:0
+40.00
+3:3
+700.0
+0:3
+60.00
+3:1
+70.00
+1:3
+80.00
+3:2
+200.0
+2:3
+200.0
+4:0
+250.0
+0:4
+300.0
+4:1
+400.0
+1:4
+500.0
+4:2
+700.0
+2:4
+800.0
+5:0
+900.0
+0:5
+1000
+5:1
+1000
+1:5
+1500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Brighton (Away)
+1:0
+1.36
+0:0
+2.48
+0:1
+4.80
+2:0
+5.10
+1:1
+1.09
+0:2
+13.50
+2:1
+10.60
+2:2
+125.0
+1:2
+10.10
+3:0
+40.00
+3:3
+2500
+0:3
+60.00
+3:1
+300.0
+1:3
+250.0
+3:2
+2500
+2:3
+2500
+4:0
+350.0
+0:4
+350.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+1000
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Brighton (Away)
+1.84
+10.50
+1.99
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.83
+10.50
+2.01
+2nd Goal
+2.24
+6.70
+1.84
+3rd Goal
+2.46
+3.44
+2.26
+4th Goal
+17.00
+1.13
+5.60
+Total Goals
+0
+10.50
+1
+4.75
+2
+3.45
+3
+3.75
+4
+4.90
+5
+7.75
+6
+16.00
+7+
+24.00
+Total Goals- Last Odds for In Play Betting
+0
+10.50
+1
+6.70
+2
+3.44
+3
+1.30
+4
+2.90
+5
+17.00
+6
+150.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Crystal Palace (Home)
+Brighton (Away)
+101 Jean-Philippe MATETA
+4.15
+202 Danny WELBECK
+6.50
+102 Eddie NKETIAH
+5.10
+201 JOAO PEDRO Junqueira
+6.70
+103 Ismaila SARR
+6.90
+203 Yankuba MINTEH
+7.00
+104 Eberechi EZE
+9.25
+206 Kaoru MITOMA
+8.75
+105 Justin DEVENNY
+10.00
+204 Georginio RUTTER
+9.00
+106 Romain ESSE
+10.00
+205 Simon ADINGRA
+9.25
+107 Franco UMEH-CHIBUEZE
+10.50
+207 Solly MARCH
+11.00
+108 Matheus FRANCA
+11.00
+208 Matt O'RILEY
+12.00
+109 Daichi KAMADA
+18.00
+209 Brajan GRUDA
+14.00
+110 Daniel MUNOZ
+21.00
+210 Diego Alexander GOMEZ
+24.00
+111 Marc GUEHI
+25.00
+211 Jack HINSHELWOOD
+24.00
+112 Adam WHARTON
+29.00
+213 Carlos BALEBA
+26.00
+113 Caleb KPORHA
+30.00
+212 Yasin AYARI
+27.00
+114 Jefferson LERMA
+30.00
+214 Mats WIEFFER
+29.00
+115 Ben CHILWELL
+35.00
+215 Adam WEBSTER
+50.00
+116 Will HUGHES
+40.00
+216 Jacob SLATER
+50.00
+117 Maxence LACROIX
+45.00
+218 Jan Paul VAN HECKE
+50.00
+118 Chris RICHARDS
+50.00
+217 Eiran CASHIN
+55.00
+119 Joel WARD
+75.00
+219 Joel VELTMAN
+55.00
+120 Home Others
+9.00
+220 Away Others
+9.75
+00 No First Scorer
+10.30
+HaFu
+H-H
+3.60
+H-D
+12.50
+H-A
+25.00
+D-H
+5.50
+D-D
+4.95
+D-A
+6.10
+A-H
+23.00
+A-D
+12.50
+A-A
+4.35
+Specials
+Item No.: 1 Which event will happen to Jean-Philippe MATETA (Crystal Palace) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.40
+(4) Be substituted
+3.15
+(5) None of the above
+2.60
+Item No.: 2 Which event will happen to Eberechi EZE (Crystal Palace) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.90
+(4) Be substituted
+1.65
+(5) None of the above
+3.50
+Item No.: 3 Which event will happen to Ismaila SARR (Crystal Palace) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.45
+(4) Be substituted
+1.70
+(5) None of the above
+4.00
+Item No.: 4 Which event will happen to JOAO PEDRO Junqueira (Brighton) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+2.90
+(5) None of the above
+2.45
+Item No.: 5 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.20
+(4) Be substituted
+1.70
+(5) None of the above
+3.25

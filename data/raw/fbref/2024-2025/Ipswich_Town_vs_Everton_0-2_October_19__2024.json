@@ -1,0 +1,122 @@
+{
+  "url": "https://fbref.com/en/matches/2273e126/Ipswich-Town-Everton-October-19-2024-Premier-League",
+  "homeTeam": "Ipswich Town",
+  "awayTeam": "Everton",
+  "matchDate": "October 19, 2024",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "Iliman Ndiaye",
+        "playerId": "5ed97752",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 40,
+        "player": "Michael Keane",
+        "playerId": "c5b7c315",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Dwight McNeil"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 24,
+        "player": "Michael Keane",
+        "playerId": "c5b7c315",
+        "team": "Everton"
+      },
+      {
+        "minute": 93,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "player": "Conor Chaplin",
+        "playerId": "4ec55b87",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Harry Clarke",
+        "playerId": "a64f2573",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Sammie Szmodics",
+        "playerId": "39944392",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Jack Taylor",
+        "playerId": "48eed8d5",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "George Hirst",
+        "playerId": "78e87179",
+        "team": "Ipswich Town",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Orel Mangala",
+        "playerId": "a572e291",
+        "team": "Everton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

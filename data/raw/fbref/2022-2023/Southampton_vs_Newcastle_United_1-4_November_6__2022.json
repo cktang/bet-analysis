@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/57f9bcc9/Southampton-Newcastle-United-November-6-2022-Premier-League",
+  "homeTeam": "Southampton",
+  "awayTeam": "Newcastle United",
+  "matchDate": "November 6, 2022",
+  "score": "1-4",
+  "homeScore": 1,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 35,
+        "player": "Miguel Almirón",
+        "playerId": "862a1c15",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 58,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Jacob Murphy"
+      },
+      {
+        "minute": 62,
+        "player": "Joe Willock",
+        "playerId": "a3b03921",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Kieran Trippier"
+      },
+      {
+        "minute": 89,
+        "player": "Romain Perraud",
+        "playerId": "6dfd8f05",
+        "team": "Southampton",
+        "isPenalty": false,
+        "assist": "Mohammed Salisu"
+      },
+      {
+        "minute": 91,
+        "player": "Bruno Guimarães",
+        "playerId": "82518f62",
+        "team": "Newcastle United",
+        "isPenalty": false,
+        "assist": "Allan Saint-Maximin"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 75,
+        "player": "Roméo Lavia",
+        "playerId": "ecad9aa5",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 34,
+        "player": "Roméo Lavia",
+        "playerId": "ecad9aa5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Jonjo Shelvey",
+        "playerId": "3727dd3c",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Samuel Edozie",
+        "playerId": "007414dd",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Adam Armstrong",
+        "playerId": "68c720b5",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Joe Aribo",
+        "playerId": "328f7d51",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Duje Ćaleta-Car",
+        "playerId": "94f8d10c",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Allan Saint-Maximin",
+        "playerId": "2b16cb1a",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Javier Manquillo",
+        "playerId": "758dd7f0",
+        "team": "Newcastle United",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Elliot Anderson",
+        "playerId": "de31038e",
+        "team": "Newcastle United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

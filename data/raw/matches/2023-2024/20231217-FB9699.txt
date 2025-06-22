@@ -1,0 +1,585 @@
+17/12/2023
+FB9699
+West
+Ham
+vs
+Wolves
+2
+:
+0
+3
+:
+0
+%Event ID: FB9699
+West Ham
+3
+0
+Wolves
+Eng Premier
+Home/Away/Draw
+West Ham (Home)
+Draw
+Wolves (Away)
+1.76
+3.40
+3.75
+Home/Away/Draw- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Wolves (Away)
+1.001
+50.00
+200.0
+First Half HAD
+West Ham (Home)
+Draw
+Wolves (Away)
+2.32
+2.12
+4.20
+First Half HAD- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Wolves (Away)
+1.001
+40.00
+150.0
+Handicap HAD
+West Ham (Home)
+Draw
+Wolves (Away)
+[-1]
+3.10
+[-1]
+3.50
+[+1]
+1.88
+Handicap
+West Ham (Home)
+Wolves (Away)
+[-0.5/-1]
+2.14
+[+0.5/+1]
+1.72
+Same Game All Up
+Jarrod BOWEN to score first & West Ham to win & Over [2.5] goals
+12.00
+James WARD-PROWSE to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+28.00
+West Ham to win & Over [3.5] goals & Over [10.5] corners taken
+11.00
+The match to be drawn & Under [8.5] corners taken
+8.75
+Wolves to win & Over [2.5] goals
+5.20
+West Ham to win & Wolves to score first & Over [11.5] corners taken
+29.00
+West Ham to score first & Wolves to win or draw
+5.60
+West Ham to win the first half & West Ham to win the match by [3] goal(s) or more
+9.50
+First Half to be drawn & West Ham to win the match by exactly [1] goal(s)
+6.25
+Wolves to win the first half & Over [1.5] goals in the first half
+9.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+29.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.25
+West Ham to win [1:0] in the first half & West Ham to win [3:1] in the match
+45.00
+First half to be drawn [0:0] & West Ham to win [2:1] in the match
+35.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+First half to be drawn [0:0] & Wolves to win [1:0] in the match
+17.00
+Wolves to win [1:0] in the first half & Wolves to win [2:1] in the match
+32.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.79
+1.91
+[2.5/3]
+2.02
+1.70
+[3.5]
+2.98
+1.33
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+6.25
+1.07
+[2/2.5]
+1.26
+3.40
+[2.5]
+1.11
+5.15
+[2.5/3]
+1.94
+1.76
+[3/3.5]
+3.25
+1.28
+[3.5]
+1.65
+2.10
+[4/4.5]
+10.50
+1.01
+[4.5]
+10.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.13
+1.63
+[1.5]
+2.55
+1.45
+[2.5]
+5.40
+1.10
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+4.60
+1.14
+[0.5/1]
+2.29
+1.55
+[1/1.5]
+4.15
+1.17
+[1.5]
+1.78
+1.92
+[1.5/2]
+3.35
+1.27
+[2/2.5]
+7.00
+1.05
+[2.5]
+7.00
+1.05
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.00
+1.72
+[11.5]
+2.55
+1.45
+[13.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+4.95
+1.12
+[9.5]
+1.54
+2.30
+[10.5]
+1.58
+2.22
+[11.5]
+1.37
+2.80
+[13.5]
+9.50
+1.02
+[14.5]
+5.60
+1.09
+[15.5]
+5.40
+1.10
+[16.5]
+5.60
+1.09
+[17.5]
+5.40
+1.10
+Correct Score
+West Ham (Home)
+Draw
+Wolves (Away)
+1:0
+6.90
+0:0
+10.50
+0:1
+10.50
+2:0
+8.50
+1:1
+6.40
+0:2
+20.00
+2:1
+7.25
+2:2
+13.00
+1:2
+10.50
+3:0
+14.50
+3:3
+40.00
+0:3
+40.00
+3:1
+13.50
+1:3
+30.00
+3:2
+23.00
+2:3
+30.00
+4:0
+30.00
+0:4
+125.0
+4:1
+30.00
+1:4
+70.00
+4:2
+40.00
+2:4
+80.00
+5:0
+70.00
+0:5
+400.0
+5:1
+60.00
+1:5
+300.0
+5:2
+100.0
+2:5
+400.0
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+900.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Wolves (Away)
+1:0
+5.80
+0:0
+7.40
+0:1
+8.25
+2:0
+2.07
+1:1
+5.80
+0:2
+18.00
+2:1
+4.15
+2:2
+15.60
+1:2
+15.00
+3:0
+1.06
+3:3
+1000
+0:3
+60.00
+3:1
+11.00
+1:3
+60.00
+3:2
+350.0
+2:3
+85.00
+4:0
+10.50
+0:4
+300.0
+4:1
+100.0
+1:4
+300.0
+4:2
+1000
+2:4
+900.0
+5:0
+300.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+West Ham (Home)
+Draw
+Wolves (Away)
+1:0
+3.70
+0:0
+2.72
+0:1
+6.10
+2:0
+7.25
+1:1
+6.80
+0:2
+15.00
+2:1
+13.50
+2:2
+50.00
+1:2
+21.00
+3:0
+30.00
+3:3
+700.0
+0:3
+80.00
+3:1
+60.00
+1:3
+125.0
+3:2
+200.0
+2:3
+300.0
+4:0
+125.0
+0:4
+600.0
+4:1
+250.0
+1:4
+700.0
+4:2
+700.0
+2:4
+1000
+5:0
+700.0
+0:5
+2000
+5:1
+900.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+West Ham (Home)
+Draw
+Wolves (Away)
+1:0
+1.34
+0:0
+1.67
+0:1
+6.20
+2:0
+1.14
+1:1
+5.70
+0:2
+40.00
+2:1
+9.75
+2:2
+150.0
+1:2
+51.00
+3:0
+7.45
+3:3
+1000
+0:3
+300.0
+3:1
+60.00
+1:3
+450.0
+3:2
+1000
+2:3
+1000
+4:0
+100.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Team to Score
+West Ham (Home)
+No Goals
+Wolves (Away)
+1.56
+10.50
+2.46
+Next Team To Score- Last Odds for In Play Betting
+West Ham (Home)
+No Goals
+Wolves (Away)
+1st Goal
+1.60
+7.40
+2.63
+2nd Goal
+1.76
+5.80
+2.50
+3rd Goal
+2.98
+2.07
+3.12
+4th Goal
+10.00
+1.06
+10.50
+Total Goals
+0
+10.50
+1
+4.60
+2
+3.40
+3
+3.65
+4
+5.00
+5
+8.25
+6
+17.00
+7+
+29.00
+Odd/Even
+Odd
+Even
+1.89
+1.81
+HaFu
+H-H
+2.76
+H-D
+13.50
+H-A
+30.00
+D-H
+4.50
+D-D
+5.10
+D-A
+8.25
+A-H
+22.00
+A-D
+13.50
+A-A
+5.90

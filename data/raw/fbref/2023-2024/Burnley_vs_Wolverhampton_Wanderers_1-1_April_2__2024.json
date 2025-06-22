@@ -1,0 +1,115 @@
+{
+  "url": "https://fbref.com/en/matches/feadec6f/Burnley-Wolverhampton-Wanderers-April-2-2024-Premier-League",
+  "homeTeam": "Burnley",
+  "awayTeam": "Wolverhampton Wanderers",
+  "matchDate": "April 2, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 37,
+        "player": "Jacob Bruun Larsen",
+        "playerId": "4e204552",
+        "team": "Burnley",
+        "isPenalty": false,
+        "assist": "Dara O'Shea"
+      },
+      {
+        "minute": 48,
+        "player": "Rayan Aït-Nouri",
+        "playerId": "9b398aea",
+        "team": "Wolverhampton Wanderers",
+        "isPenalty": false,
+        "assist": "Pablo Sarabia"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 54,
+        "player": "Nélson Semedo",
+        "playerId": "d04b94db",
+        "team": "Wolverhampton Wanderers"
+      },
+      {
+        "minute": 93,
+        "player": "João Gomes",
+        "playerId": "8b57ad2c",
+        "team": "Wolverhampton Wanderers"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Santiago Bueno",
+        "playerId": "edc98fac",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jay Rodriguez",
+        "playerId": "4ab53cdb",
+        "team": "Burnley",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Matheus Cunha",
+        "playerId": "dc62b55d",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Boubacar Traoré",
+        "playerId": "999ceb5f",
+        "team": "Wolverhampton Wanderers",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Benson Manuel",
+        "playerId": "d7f99582",
+        "team": "Burnley",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "url": "https://fbref.com/en/matches/96b9ae4e/Leicester-City-Manchester-City-October-29-2022-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "Manchester City",
+  "matchDate": "October 29, 2022",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 49,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Nampalys Mendy",
+        "playerId": "1598599e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Kelechi Iheanacho",
+        "playerId": "c92e1a31",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Rúben Dias",
+        "playerId": "31c69ef1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 5
+  }
+}

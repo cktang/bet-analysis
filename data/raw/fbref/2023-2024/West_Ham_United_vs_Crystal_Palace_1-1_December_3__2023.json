@@ -1,0 +1,101 @@
+{
+  "url": "https://fbref.com/en/matches/f7fb8049/West-Ham-United-Crystal-Palace-December-3-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "December 3, 2023",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 13,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Vladimír Coufal"
+      },
+      {
+        "minute": 53,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 37,
+        "player": "James Ward-Prowse",
+        "playerId": "3515d404",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 79,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 82,
+        "player": "Jaïro Riedewald",
+        "playerId": "7a1f2c08",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 3
+  }
+}

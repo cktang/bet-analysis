@@ -1,0 +1,132 @@
+{
+  "url": "https://fbref.com/en/matches/615eff06/Manchester-Derby-Manchester-City-Manchester-United-March-3-2024-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Manchester United",
+  "matchDate": "March 3, 2024",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 8,
+        "player": "Marcus Rashford",
+        "playerId": "a1d5bd30",
+        "team": "Manchester United",
+        "isPenalty": false,
+        "assist": "Bruno Fernandes"
+      },
+      {
+        "minute": 56,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Rodri"
+      },
+      {
+        "minute": 80,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Julián Álvarez"
+      },
+      {
+        "minute": 91,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Rodri"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 68,
+        "player": "Raphaël Varane",
+        "playerId": "9f8e9423",
+        "team": "Manchester United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Willy Kambwala",
+        "playerId": "6a7353d7",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Antony",
+        "playerId": "99127249",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Omari Forson",
+        "playerId": "1b9728b0",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Sofyan Amrabat",
+        "playerId": "5a2cb25d",
+        "team": "Manchester United",
+        "type": "in"
+      },
+      {
+        "minute": 97,
+        "player": "Oscar Bobb",
+        "playerId": "eed2427e",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

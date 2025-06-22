@@ -1,0 +1,914 @@
+23/02/2025
+FB7868
+Newcastle
+vs
+Nottingham
+Forest
+4
+:
+1
+4
+:
+3
+%Event ID: FB7868
+Newcastle
+4
+3
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1.72
+3.75
+3.55
+Home/Away/Draw- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1.01
+8.75
+60.00
+First Half HAD
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+2.13
+2.44
+3.85
+First Half HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1.001
+15.00
+250.0
+Handicap HAD
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+[-1]
+2.98
+[-1]
+3.70
+[+1]
+1.88
+[-2]
+5.50
+[-2]
+5.10
+[+2]
+1.31
+Handicap HAD- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+[-4]
+13.00
+[-4]
+7.80
+[+4]
+1.07
+[-1]
+8.75
+[-1]
+1.10
+[+1]
+8.50
+[-3]
+30.00
+[-3]
+5.00
+[+3]
+1.10
+[-2]
+200.0
+[-2]
+6.10
+[+2]
+1.03
+Handicap
+Newcastle (Home)
+Nottingham Forest (Away)
+[-0.5/-1]
+2.08
+[+0.5/+1]
+1.76
+Handicap- Last Odds for In Play Betting
+Newcastle (Home)
+Nottingham Forest (Away)
+[-3/-3.5]
+8.60
+[+3/+3.5]
+1.04
+[0/-0.5]
+1.14
+[0/+0.5]
+5.00
+[-1/-1.5]
+1.15
+[+1/+1.5]
+4.80
+[0/+0.5]
+1.27
+[0/-0.5]
+3.45
+[-1]
+1.88
+[+1]
+1.84
+[0]
+2.01
+[0]
+1.73
+[-2/-2.5]
+2.46
+[+2/+2.5]
+1.49
+[-0.5/-1]
+3.52
+[+0.5/+1]
+1.26
+[-2]
+14.50
+[+2]
+1.001
+Same Game All Up
+Alexander ISAK to score first & Newcastle to win & Over [3.5] goals
+11.00
+Chris WOOD to score first & Nottingham Forest to win & Over [2.5] goals
+17.00
+Both teams to score & Newcastle to win & Over [11.5] corners taken
+6.50
+Newcastle to win & Over [2.5] goals & Over [10.5] corners taken
+4.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:1] in the match
+45.00
+Both teams to score in the match & Over [1.5] goals in the first half & Newcastle to win the match by [2] goal(s) or more
+8.00
+Both teams to score & Nottingham Forest to win & Under [10.5] corners taken
+13.50
+Both teams to score & Nottingham Forest to win or draw & Over [10.5] corners taken
+4.90
+Nottingham Forest to score first & Newcastle to win by [2] goal(s) or more
+19.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.30
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.35
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.00
+First Half to be drawn & Newcastle to win the match by [2] goal(s) or more
+11.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.25
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+24.00
+Newcastle to win [2:0] in the first half & Newcastle to win [3:0] in the match
+35.00
+Newcastle to win [2:0] in the first half & Newcastle to win [4:0] in the match
+50.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.48
+2.45
+[3/3.5]
+2.00
+1.72
+[3.5]
+2.20
+1.59
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.14
+4.60
+[2.5/3]
+1.17
+4.15
+[3/3.5]
+1.21
+3.80
+[3.5]
+1.36
+2.85
+[3.5/4]
+2.19
+1.60
+[4/4.5]
+1.23
+3.65
+[4.5]
+1.39
+2.70
+[5/5.5]
+1.25
+3.45
+[5.5]
+1.39
+2.70
+[5.5/6]
+1.48
+2.45
+[6/6.5]
+2.29
+1.55
+[6.5]
+1.36
+2.85
+[6.5/7]
+6.25
+1.07
+[7/7.5]
+11.50
+1.002
+[7.5]
+12.00
+1.001
+[7.5/8]
+7.00
+1.05
+[8.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.15
+1.17
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.41
+2.65
+[1/1.5]
+1.97
+1.74
+[1.5]
+1.24
+3.55
+[1.5/2]
+1.95
+1.75
+[2/2.5]
+3.55
+1.24
+[2.5]
+1.71
+2.01
+[2.5/3]
+2.22
+1.58
+[3/3.5]
+4.15
+1.17
+[3.5]
+1.86
+1.84
+[3.5/4]
+2.85
+1.36
+[4/4.5]
+6.25
+1.07
+[4.5]
+7.00
+1.05
+[4.5/5]
+3.25
+1.28
+[5.5/6]
+5.60
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.93
+1.77
+[12.5]
+2.45
+1.48
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.35
+2.88
+[10.5]
+1.32
+3.05
+[11.5]
+1.39
+2.70
+[12.5]
+1.16
+4.30
+[13.5]
+1.71
+2.01
+[14.5]
+6.25
+1.07
+[15.5]
+12.00
+1.001
+[16.5]
+10.50
+1.001
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.02
+1.70
+[6.5]
+2.92
+1.34
+[7.5]
+4.60
+1.14
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.46
+2.50
+[5.5]
+5.40
+1.10
+[6.5]
+9.50
+1.02
+[7.5]
+10.50
+1.005
+[8.5]
+6.60
+1.06
+[9.5]
+5.90
+1.08
+Correct Score
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+9.25
+0:0
+15.00
+0:1
+15.00
+2:0
+9.75
+1:1
+7.25
+0:2
+21.00
+2:1
+7.25
+2:2
+11.00
+1:2
+11.50
+3:0
+15.00
+3:3
+35.00
+0:3
+40.00
+3:1
+12.00
+1:3
+25.00
+3:2
+18.00
+2:3
+26.00
+4:0
+30.00
+0:4
+80.00
+4:1
+24.00
+1:4
+50.00
+4:2
+30.00
+2:4
+50.00
+5:0
+50.00
+0:5
+300.0
+5:1
+40.00
+1:5
+150.0
+5:2
+60.00
+2:5
+150.0
+Home Others
+(Away No Goal)
+100.0
+Away Others
+(Home No Goal)
+700.0
+Home Others
+(Away Scores)
+30.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+50.00
+Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+7.80
+0:0
+12.50
+0:1
+10.50
+2:0
+8.75
+1:1
+8.00
+0:2
+9.50
+2:1
+7.40
+2:2
+7.00
+1:2
+8.50
+3:0
+14.50
+3:3
+11.00
+0:3
+21.00
+3:1
+7.40
+1:3
+18.00
+3:2
+7.80
+2:3
+14.50
+4:0
+30.00
+0:4
+70.00
+4:1
+2.86
+1:4
+60.00
+4:2
+1.15
+2:4
+45.00
+5:0
+60.00
+0:5
+350.0
+5:1
+3.85
+1:5
+250.0
+5:2
+9.25
+2:5
+250.0
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1.001
+Draw Others
+7.60
+Away Others
+(Home Scores)
+250.0
+First Half Correct Score
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.00
+0:0
+3.30
+0:1
+6.20
+2:0
+7.25
+1:1
+6.20
+0:2
+15.00
+2:1
+11.50
+2:2
+40.00
+1:2
+17.00
+3:0
+24.00
+3:3
+500.0
+0:3
+70.00
+3:1
+40.00
+1:3
+80.00
+3:2
+100.0
+2:3
+150.0
+4:0
+80.00
+0:4
+500.0
+4:1
+150.0
+1:4
+500.0
+4:2
+500.0
+2:4
+700.0
+5:0
+500.0
+0:5
+1500
+5:1
+700.0
+1:5
+2000
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+1500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+800.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Newcastle (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+3.48
+0:0
+2.90
+0:1
+1.84
+2:0
+8.50
+1:1
+1.66
+0:2
+4.70
+2:1
+1.42
+2:2
+5.20
+1:2
+5.40
+3:0
+30.00
+3:3
+50.00
+0:3
+30.00
+3:1
+1.37
+1:3
+35.00
+3:2
+5.50
+2:3
+30.00
+4:0
+125.0
+0:4
+250.0
+4:1
+1.15
+1:4
+300.0
+4:2
+10.00
+2:4
+250.0
+5:0
+500.0
+0:5
+2500
+5:1
+6.80
+1:5
+2500
+5:2
+60.00
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+70.00
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Newcastle (Home)
+No Goals
+Nottingham Forest (Away)
+1.55
+15.00
+2.33
+Next Team To Score- Last Odds for In Play Betting
+Newcastle (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+1.57
+12.50
+2.36
+2nd Goal
+1.45
+10.50
+2.78
+3rd Goal
+1.62
+8.25
+2.48
+4th Goal
+1.70
+7.40
+2.39
+5th Goal
+1.77
+7.40
+2.28
+6th Goal
+2.20
+2.86
+2.98
+7th Goal
+9.00
+1.15
+6.30
+8th Goal
+10.50
+1.06
+10.50
+Total Goals
+0
+15.00
+1
+6.00
+2
+3.95
+3
+3.70
+4
+4.40
+5
+6.50
+6
+11.00
+7+
+14.50
+Total Goals- Last Odds for In Play Betting
+0
+12.50
+1
+10.50
+2
+8.00
+3
+7.40
+4
+7.40
+5
+2.86
+6
+2.78
+7+
+1.35
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Newcastle (Home)
+Nottingham Forest (Away)
+101 Alexander ISAK
+2.78
+201 Chris WOOD
+4.00
+102 Callum WILSON
+4.00
+202 Taiwo AWONIYI
+6.70
+103 Harvey BARNES
+6.60
+203 Morgan GIBBS-WHITE
+11.00
+104 Anthony GORDON
+7.25
+204 Ramon SOSA
+13.00
+105 William OSULA
+8.50
+205 Jota SILVA
+16.00
+106 Jacob MURPHY
+9.50
+206 Anthony ELANGA
+17.00
+107 Joe WILLOCK
+15.00
+207 Callum HUDSON-ODOI
+17.00
+108 Fabian SCHAR
+20.00
+208 Eric Da SILVA MOREIRA
+21.00
+109 BRUNO GUIMARAES
+23.00
+209 DANILO Oliveira
+26.00
+110 Sandro TONALI
+25.00
+210 Ryan YATES
+26.00
+111 Sean LONGSTAFF
+25.00
+211 Elliot ANDERSON
+27.00
+112 Lewis MILEY
+26.00
+212 Nicolas DOMINGUEZ
+30.00
+113 Dan BURN
+35.00
+214 Neco WILLIAMS
+30.00
+114 Sven BOTMAN
+35.00
+213 Ibrahim SANGARE
+35.00
+115 Emil KRAFTH
+40.00
+215 Nikola MILENKOVIC
+35.00
+116 Kieran TRIPPIER
+45.00
+216 ALEX MORENO
+35.00
+117 Lewis HALL
+45.00
+217 Ola AINA
+45.00
+118 Matt TARGETT
+55.00
+218 Willy BOLY
+55.00
+119 Tino LIVRAMENTO
+55.00
+219 Harry TOFFOLO
+70.00
+120 Home Others
+7.50
+220 Away Others
+11.50
+00 No First Scorer
+14.80
+HaFu
+H-H
+2.60
+H-D
+13.00
+H-A
+27.00
+D-H
+4.65
+D-D
+6.30
+D-A
+8.50
+A-H
+17.00
+A-D
+13.00
+A-A
+5.70
+Specials
+Item No.: 1 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+9.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.05
+(4) Be substituted
+2.55
+(5) None of the above
+3.45
+Item No.: 2 How many goal(s) will Alexander ISAK (Newcastle) score?
+(1) No Goal
+1.78
+(2) 1 Goal
+2.45
+(3) 2 Goals
+5.70
+(4) 3 Goals or more
+14.00
+Item No.: 3 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+6.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.65
+(4) Be substituted
+1.62
+(5) None of the above
+4.35
+Item No.: 4 Which event will happen to Chris WOOD (Nottingham Forest) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.72
+(4) Be substituted
+2.10
+(5) None of the above
+3.40
+Item No.: 5 How many goal(s) will Chris WOOD (Nottingham Forest) score?
+(1) No Goal
+1.35
+(2) 1 Goal
+3.05
+(3) 2 Goals
+8.75
+(4) 3 Goals or more
+30.00

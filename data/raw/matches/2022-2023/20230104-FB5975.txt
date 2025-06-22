@@ -1,0 +1,450 @@
+04/01/2023
+FB5975
+Leicester
+vs
+Fulham
+0
+:
+1
+0
+:
+1
+%Event ID: FB5975
+Leicester
+0
+1
+Fulham
+Eng Premier
+Home/Away/Draw
+Leicester (Home)
+Draw
+Fulham (Away)
+2.16
+3.40
+2.73
+Home/Away/Draw- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Fulham (Away)
+40.00
+8.00
+1.06
+First Half HAD
+Leicester (Home)
+Draw
+Fulham (Away)
+2.70
+2.20
+3.20
+First Half HAD- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Fulham (Away)
+80.00
+10.00
+1.03
+Handicap HAD
+Leicester (Home)
+Draw
+Fulham (Away)
+[-1]
+4.05
+[-1]
+3.95
+[+1]
+1.57
+Handicap
+Leicester (Home)
+Fulham (Away)
+[0/-0.5]
+2.02
+[0/+0.5]
+1.81
+HiLo
+Line
+High
+Low
+[2.5]
+1.61
+2.17
+[2.5/3]
+1.78
+1.92
+[3.5]
+2.48
+1.47
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.75
+1.14
+[2/2.5]
+10.50
+1.01
+[2.5]
+10.50
+1.01
+[2.5/3]
+2.30
+1.54
+[3/3.5]
+2.20
+1.59
+[3.5]
+5.10
+1.12
+[4.5]
+5.10
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.33
+1.53
+[1.5/2]
+2.80
+1.38
+[2.5]
+4.90
+1.13
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.92
+1.78
+[11.5]
+2.45
+1.48
+[12.5]
+3.10
+1.31
+Correct Score
+Leicester (Home)
+Draw
+Fulham (Away)
+1:0
+10.00
+0:0
+13.50
+0:1
+11.00
+2:0
+11.50
+1:1
+6.60
+0:2
+15.00
+2:1
+7.00
+2:2
+10.50
+1:2
+9.00
+3:0
+21.00
+3:3
+35.00
+0:3
+35.00
+3:1
+15.00
+1:3
+21.00
+3:2
+21.00
+2:3
+22.00
+4:0
+40.00
+0:4
+60.00
+4:1
+35.00
+1:4
+40.00
+4:2
+40.00
+2:4
+50.00
+5:0
+100.0
+0:5
+150.0
+5:1
+70.00
+1:5
+125.0
+5:2
+100.0
+2:5
+125.0
+Home Others
+40.00
+Draw Others
+100.0
+Away Others
+40.00
+Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Fulham (Away)
+1:0
+6.40
+0:0
+9.25
+0:1
+1.07
+2:0
+10.00
+1:1
+9.50
+0:2
+13.00
+2:1
+250.0
+2:2
+1000
+1:2
+100.0
+3:0
+25.00
+3:3
+1000
+0:3
+450.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+80.00
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+300.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Leicester (Home)
+Draw
+Fulham (Away)
+1:0
+4.40
+0:0
+3.05
+0:1
+5.20
+2:0
+9.50
+1:1
+6.10
+0:2
+12.00
+2:1
+14.00
+2:2
+40.00
+1:2
+16.00
+3:0
+40.00
+3:3
+600.0
+0:3
+50.00
+3:1
+60.00
+1:3
+70.00
+3:2
+150.0
+2:3
+150.0
+4:0
+150.0
+0:4
+300.0
+4:1
+250.0
+1:4
+400.0
+4:2
+600.0
+2:4
+700.0
+5:0
+700.0
+0:5
+1000
+5:1
+900.0
+1:5
+1500
+5:2
+2000
+2:5
+3000
+Home Others
+900.0
+Draw Others
+5000
+Away Others
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Leicester (Home)
+Draw
+Fulham (Away)
+1:0
+4.15
+0:0
+1.90
+0:1
+1.08
+2:0
+19.00
+1:1
+12.50
+0:2
+15.50
+2:1
+90.00
+2:2
+2500
+1:2
+200.0
+3:0
+125.0
+3:3
+2500
+0:3
+500.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+700.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+2500
+Draw Others
+2500
+Away Others
+2500
+First Team to Score
+Leicester (Home)
+No Goals
+Fulham (Away)
+1.76
+13.50
+2.02
+Next Team To Score- Last Odds for In Play Betting
+Leicester (Home)
+No Goals
+Fulham (Away)
+1st Goal
+1.88
+9.25
+2.01
+2nd Goal
+9.25
+1.07
+12.50
+Total Goals
+0
+13.50
+1
+5.50
+2
+3.70
+3
+3.70
+4
+4.70
+5
+7.25
+6
+13.00
+7+
+18.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+3.35
+H-D
+12.50
+H-A
+25.00
+D-H
+5.60
+D-D
+5.50
+D-A
+6.70
+A-H
+21.00
+A-D
+12.50
+A-A
+4.50

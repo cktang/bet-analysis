@@ -1,0 +1,680 @@
+31/08/2024
+FB9908
+Everton
+vs
+Bournemouth
+0
+:
+0
+2
+:
+3
+%Event ID: FB9908
+Everton
+2
+3
+Bournemouth
+Eng Premier
+Home/Away/Draw
+Everton (Home)
+Draw
+Bournemouth (Away)
+2.74
+3.20
+2.22
+Home/Away/Draw- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Bournemouth (Away)
+12.00
+1.06
+12.00
+First Half HAD
+Everton (Home)
+Draw
+Bournemouth (Away)
+3.15
+2.20
+2.72
+First Half HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Bournemouth (Away)
+10.00
+1.07
+10.00
+Handicap HAD
+Everton (Home)
+Draw
+Bournemouth (Away)
+[+1]
+1.54
+[+1]
+3.95
+[-1]
+4.20
+Handicap HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Bournemouth (Away)
+[-3]
+200.0
+[-3]
+7.40
+[+3]
+1.001
+[+1]
+1.01
+[+1]
+10.50
+[-1]
+18.00
+[-1]
+1.29
+[-1]
+4.15
+[+1]
+8.00
+[-2]
+100.0
+[-2]
+5.60
+[+2]
+1.05
+Handicap
+Everton (Home)
+Bournemouth (Away)
+[0]
+2.12
+[0]
+1.71
+Handicap- Last Odds for In Play Betting
+Everton (Home)
+Bournemouth (Away)
+[-2]
+125.0
+[+2]
+1.001
+[0]
+1.88
+[0]
+1.84
+[-1]
+250.0
+[+1]
+1.001
+Same Game All Up
+Dominic CALVERT-LEWIN to score first & Over [2.5] goals
+9.50
+Both teams to score & Bournemouth to win
+4.00
+Both teams to score & Everton to win
+4.30
+Both teams to score & The match to be drawn
+3.90
+First half to be drawn [0:0] & Both teams to score in the match
+8.50
+Bournemouth to win & Over [2.5] goals & Over [11.5] corners taken
+7.50
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+4.50
+Under [3.5] corners taken in the first half & Over [10.5] corners taken in the match
+17.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.70
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.30
+The match to be drawn & Under [9.5] corners taken
+8.00
+Everton to score first & Bournemouth to win by [2] goal(s) or more
+30.00
+Bournemouth to win the first half & Over [2.5] goals in the first half
+11.00
+Everton to score in the first half & Bournemouth to win the match by exactly [1] goal(s)
+11.00
+Bournemouth to win [1:0] in the first half & Bournemouth to win [2:0] in the match
+25.00
+Bournemouth to win [1:0] in the first half & Bournemouth to win [3:1] in the match
+60.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:0] in the match
+60.00
+Bournemouth to win [2:0] in the first half & Bournemouth to win [3:1] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+25.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.70
+2.02
+[2.5/3]
+1.88
+1.82
+[3.5]
+2.75
+1.38
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.41
+2.65
+[1/1.5]
+2.05
+1.68
+[1.5]
+1.26
+3.40
+[1.5/2]
+1.49
+2.43
+[2/2.5]
+2.33
+1.53
+[2.5]
+1.35
+2.88
+[2.5/3]
+5.15
+1.11
+[3/3.5]
+11.00
+1.005
+[3.5]
+11.00
+1.005
+[3.5/4]
+5.15
+1.11
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.45
+1.48
+[1.5/2]
+2.98
+1.33
+[2.5]
+5.15
+1.11
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+5.40
+1.10
+[1/1.5]
+8.50
+1.02
+[1.5]
+8.50
+1.02
+[1.5/2]
+2.98
+1.33
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.10
+1.65
+[12.5]
+2.65
+1.41
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.47
+2.48
+[10.5]
+1.47
+2.48
+[11.5]
+1.26
+3.40
+[12.5]
+1.16
+4.30
+[13.5]
+3.10
+1.31
+[14.5]
+7.00
+1.05
+[15.5]
+11.50
+1.002
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.20
+1.59
+[6.5]
+3.20
+1.29
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.32
+3.05
+[4.5]
+1.07
+6.25
+[5.5]
+1.14
+4.60
+[6.5]
+3.15
+1.30
+[7.5]
+7.00
+1.05
+Correct Score
+Everton (Home)
+Draw
+Bournemouth (Away)
+1:0
+9.50
+0:0
+11.50
+0:1
+8.50
+2:0
+14.50
+1:1
+6.30
+0:2
+11.50
+2:1
+9.00
+2:2
+11.00
+1:2
+7.75
+3:0
+30.00
+3:3
+40.00
+0:3
+22.00
+3:1
+21.00
+1:3
+17.00
+3:2
+24.00
+2:3
+22.00
+4:0
+60.00
+0:4
+40.00
+4:1
+40.00
+1:4
+40.00
+4:2
+50.00
+2:4
+40.00
+5:0
+200.0
+0:5
+100.0
+5:1
+125.0
+1:5
+80.00
+5:2
+150.0
+2:5
+125.0
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+300.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Bournemouth (Away)
+1:0
+2.62
+0:0
+2.80
+0:1
+4.30
+2:0
+1.12
+1:1
+3.75
+0:2
+12.50
+2:1
+1.07
+2:2
+1.07
+1:2
+12.00
+3:0
+7.20
+3:3
+125.0
+0:3
+50.00
+3:1
+8.00
+1:3
+60.00
+3:2
+12.10
+2:3
+12.10
+4:0
+100.0
+0:4
+350.0
+4:1
+200.0
+1:4
+400.0
+4:2
+500.0
+2:4
+500.0
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Everton (Home)
+Draw
+Bournemouth (Away)
+1:0
+4.85
+0:0
+2.88
+0:1
+4.50
+2:0
+12.00
+1:1
+6.20
+0:2
+9.50
+2:1
+15.00
+2:2
+40.00
+1:2
+13.50
+3:0
+60.00
+3:3
+600.0
+0:3
+40.00
+3:1
+70.00
+1:3
+60.00
+3:2
+200.0
+2:3
+150.0
+4:0
+300.0
+0:4
+200.0
+4:1
+500.0
+1:4
+300.0
+4:2
+700.0
+2:4
+700.0
+5:0
+1000
+0:5
+800.0
+5:1
+1500
+1:5
+1000
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Bournemouth (Away)
+1:0
+10.10
+0:0
+1.08
+0:1
+10.10
+2:0
+200.0
+1:1
+90.00
+0:2
+200.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Everton (Home)
+No Goals
+Bournemouth (Away)
+2.02
+11.50
+1.79
+Next Team To Score- Last Odds for In Play Betting
+Everton (Home)
+No Goals
+Bournemouth (Away)
+1st Goal
+2.28
+3.42
+2.45
+2nd Goal
+2.62
+2.96
+2.38
+3rd Goal
+6.00
+1.23
+6.20
+4th Goal
+8.00
+1.14
+7.20
+5th Goal
+11.00
+1.07
+10.50
+Total Goals
+0
+11.50
+1
+4.90
+2
+3.55
+3
+3.70
+4
+4.75
+5
+7.50
+6
+15.00
+7+
+22.00
+Total Goals- Last Odds for In Play Betting
+0
+2.80
+1
+2.62
+2
+1.12
+3
+1.16
+4
+3.55
+5
+30.00
+6
+400.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+4.40
+H-D
+12.50
+H-A
+22.00
+D-H
+6.30
+D-D
+5.10
+D-A
+5.40
+A-H
+25.00
+A-D
+12.50
+A-A
+3.50

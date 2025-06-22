@@ -1,0 +1,591 @@
+28/10/2023
+FB7502
+Crystal
+Palace
+vs
+Tottenham
+0
+:
+0
+1
+:
+2
+%Event ID: FB7502
+Crystal Palace
+1
+2
+Tottenham
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+4.25
+3.65
+1.61
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+100.0
+17.00
+1.001
+First Half HAD
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+4.55
+2.28
+2.08
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+13.50
+1.09
+9.00
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+[+1]
+2.07
+[+1]
+3.45
+[-1]
+2.72
+Handicap
+Crystal Palace (Home)
+Tottenham (Away)
+[+0.5/+1]
+1.89
+[-0.5/-1]
+1.93
+Same Game All Up
+SON Heung Min to score first in the match & Over [1.5] goals in the first half & Tottenham to win the match by [3] goal(s) or more
+23.00
+Tottenham to win & Over [2.5] goals & Over [10.5] corners taken
+5.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+8.25
+The match to be drawn & Under [9.5] corners taken
+7.25
+Crystal Palace to win & Over [2.5] goals
+6.40
+SON Heung Min to score first & Over [3.5] goals & Over [9.5] corners taken
+18.00
+James MADDISON to score first in the match & Over [1.5] goals in the first half & Tottenham to win the match by [2] goal(s) or more
+22.00
+Tottenham to score first in the match & Tottenham to win the first half & Over [1.5] goals in the first half
+5.25
+Crystal Palace to score first in the match & Over [1.5] goals in the first half
+6.00
+Crystal Palace to score first & Tottenham to win by [2] goal(s) or more
+20.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.00
+Tottenham to win [1:0] in the first half & Tottenham to win [3:0] in the match
+28.00
+Tottenham to win [2:0] in the first half & Tottenham to win [3:1] in the match
+45.00
+Tottenham to win [2:1] in the first half & Tottenham to win [4:1] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+Tottenham to win both first half and the match & Exactly [4] goals in the Match
+12.00
+Tottenham to win both first half and the match & Over [1.5] goals in the first half & Over [9.5] corners taken in the match
+9.00
+Tottenham to win both first half and the match & Exactly [3] goals in the Match
+8.75
+Both first half and the match to be drawn & Over [9.5] corners taken in the match
+10.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.74
+1.97
+[2.5/3]
+1.93
+1.77
+[3.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+6.25
+1.07
+[0.5/1]
+1.44
+2.58
+[1/1.5]
+2.15
+1.62
+[1.5]
+1.28
+3.25
+[1.5/2]
+1.91
+1.79
+[2/2.5]
+3.15
+1.30
+[2.5]
+1.52
+2.35
+[2.5/3]
+6.25
+1.07
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.01
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.48
+1.47
+[1.5/2]
+3.05
+1.32
+[2.5]
+4.95
+1.12
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+6.60
+1.06
+[1/1.5]
+9.50
+1.01
+[1.5]
+9.50
+1.001
+[1.5/2]
+3.05
+1.32
+[2.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.80
+1.90
+[11.5]
+2.13
+1.63
+[14.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[13.5]
+4.95
+1.12
+[6.5]
+1.43
+2.60
+[7.5]
+1.51
+2.38
+[8.5]
+1.12
+4.95
+[9.5]
+1.20
+3.90
+[10.5]
+1.32
+3.05
+[11.5]
+1.34
+2.92
+[12.5]
+1.35
+2.88
+[14.5]
+11.00
+1.005
+Correct Score
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+1:0
+13.00
+0:0
+11.00
+0:1
+6.70
+2:0
+22.00
+1:1
+6.80
+0:2
+7.50
+2:1
+12.50
+2:2
+13.00
+1:2
+6.80
+3:0
+40.00
+3:3
+40.00
+0:3
+12.50
+3:1
+30.00
+1:3
+12.50
+3:2
+35.00
+2:3
+23.00
+4:0
+150.0
+0:4
+28.00
+4:1
+80.00
+1:4
+28.00
+4:2
+80.00
+2:4
+40.00
+5:0
+600.0
+0:5
+50.00
+5:1
+400.0
+1:5
+50.00
+5:2
+400.0
+2:5
+80.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+125.0
+Home Others
+(Away Scores)
+100.0
+Draw Others
+175.0
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+1:0
+6.30
+0:0
+3.04
+0:1
+2.11
+2:0
+25.00
+1:1
+5.60
+0:2
+1.19
+2:1
+20.00
+2:2
+13.00
+1:2
+1.10
+3:0
+150.0
+3:3
+1000
+0:3
+5.30
+3:1
+150.0
+1:3
+7.25
+3:2
+500.0
+2:3
+100.0
+4:0
+1000
+0:4
+80.00
+4:1
+900.0
+1:4
+200.0
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+1:0
+6.60
+0:0
+2.80
+0:1
+3.50
+2:0
+18.00
+1:1
+6.80
+0:2
+6.80
+2:1
+23.00
+2:2
+60.00
+1:2
+13.00
+3:0
+100.0
+3:3
+700.0
+0:3
+23.00
+3:1
+125.0
+1:3
+50.00
+3:2
+300.0
+2:3
+200.0
+4:0
+700.0
+0:4
+100.0
+4:1
+700.0
+1:4
+200.0
+4:2
+1000
+2:4
+700.0
+5:0
+2500
+0:5
+500.0
+5:1
+2500
+1:5
+800.0
+5:2
+2500
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2000
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Tottenham (Away)
+1:0
+13.60
+0:0
+1.06
+0:1
+9.10
+2:0
+1500
+1:1
+250.0
+0:2
+400.0
+2:1
+2500
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Tottenham (Away)
+2.65
+11.00
+1.49
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+3.50
+3.04
+1.90
+2nd Goal
+3.85
+2.11
+2.46
+3rd Goal
+9.00
+1.19
+5.20
+4th Goal
+12.50
+1.10
+7.00
+Total Goals
+0
+11.00
+1
+4.85
+2
+3.40
+3
+3.65
+4
+4.95
+5
+7.75
+6
+16.00
+7+
+24.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+7.00
+H-D
+14.00
+H-A
+20.00
+D-H
+9.50
+D-D
+5.70
+D-A
+4.30
+A-H
+30.00
+A-D
+14.00
+A-A
+2.42

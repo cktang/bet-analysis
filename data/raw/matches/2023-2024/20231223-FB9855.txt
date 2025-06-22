@@ -1,0 +1,639 @@
+23/12/2023
+FB9855
+Aston
+Villa
+vs
+Sheff
+Utd
+0
+:
+0
+1
+:
+1
+%Event ID: FB9855
+Aston Villa
+1
+1
+Sheff Utd
+Eng Premier
+Home/Away/Draw
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1.11
+6.70
+12.50
+Home/Away/Draw- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+12.00
+1.05
+40.00
+First Half HAD
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1.43
+3.00
+9.25
+First Half HAD- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+4.40
+1.16
+24.00
+Handicap HAD
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+[-2]
+2.28
+[-2]
+3.90
+[+2]
+2.21
+Handicap
+Aston Villa (Home)
+Sheff Utd (Away)
+[-2]
+1.96
+[+2]
+1.86
+Same Game All Up
+Ollie WATKINS to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+9.25
+Ollie WATKINS to score first & Aston Villa to win by [3] goal(s) or more & Over [5.5] goals
+28.00
+Aston Villa to win & Sheff Utd to score first & Over [10.5] corners taken
+14.00
+The match to be drawn & Under [8.5] corners taken
+17.00
+Sheff Utd to win & Over [2.5] goals
+17.00
+Aston Villa to score first & Sheff Utd to win or draw
+10.50
+Aston Villa to win the first half & Aston Villa to win the match by [4] goal(s) or more
+4.70
+First Half to be drawn & Aston Villa to win the match by exactly [1] goal(s)
+6.80
+Sheff Utd to win the first half & Over [1.5] goals in the first half
+26.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+14.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.80
+Aston Villa to win [1:0] in the first half & Aston Villa to win [3:1] in the match
+35.00
+Aston Villa to win [3:0] in the first half & Aston Villa to win [5:0] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+60.00
+First half to be drawn [0:0] & Sheff Utd to win [1:0] in the match
+45.00
+Sheff Utd to win [1:0] in the first half & Sheff Utd to win [2:1] in the match
+70.00
+Aston Villa to win by exactly [2] goal(s) & Under [10.5] corners taken
+7.25
+Aston Villa to win both first half and the match & Exactly [4] goals in the Match
+7.00
+Sheff Utd to win both first half and the match & Exactly [3] goals in the Match
+45.00
+Exactly [5] goals & Over [12.5] corners taken
+18.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.95
+1.75
+[3.5/4]
+2.20
+1.59
+[4.5]
+3.05
+1.32
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+8.50
+1.03
+[0.5/1]
+3.40
+1.26
+[1/1.5]
+7.00
+1.05
+[1.5]
+8.50
+1.03
+[1.5/2]
+8.00
+1.04
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+2.20
+1.59
+[4.5]
+4.05
+1.18
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.88
+1.82
+[1.5/2]
+2.25
+1.57
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+3.90
+1.20
+[1/1.5]
+8.00
+1.04
+[1.5]
+8.00
+1.04
+[1.5/2]
+2.25
+1.57
+[2.5]
+5.15
+1.11
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.80
+1.90
+[11.5]
+2.22
+1.58
+[14.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[11.5]
+4.95
+1.12
+[7.5]
+1.20
+3.90
+[8.5]
+1.28
+3.25
+[9.5]
+1.30
+3.15
+[10.5]
+1.77
+1.93
+[12.5]
+11.50
+1.002
+[14.5]
+4.75
+1.13
+Correct Score
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1:0
+8.75
+0:0
+22.00
+0:1
+35.00
+2:0
+6.70
+1:1
+12.50
+0:2
+60.00
+2:1
+7.75
+2:2
+20.00
+1:2
+30.00
+3:0
+6.60
+3:3
+60.00
+0:3
+200.0
+3:1
+8.75
+1:3
+70.00
+3:2
+22.00
+2:3
+60.00
+4:0
+9.25
+0:4
+700.0
+4:1
+12.50
+1:4
+400.0
+4:2
+30.00
+2:4
+250.0
+5:0
+17.00
+0:5
+1000
+5:1
+22.00
+1:5
+1000
+5:2
+40.00
+2:5
+900.0
+Home Others
+(Away No Goal)
+21.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+16.00
+Draw Others
+200.0
+Away Others
+(Home Scores)
+250.0
+Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.70
+0:0
+1.38
+0:1
+1.12
+2:0
+20.00
+1:1
+1.06
+0:2
+21.00
+2:1
+12.00
+2:2
+900.0
+1:2
+35.00
+3:0
+200.0
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1:0
+3.10
+0:0
+4.00
+0:1
+11.50
+2:0
+4.30
+1:1
+8.50
+0:2
+50.00
+2:1
+11.50
+2:2
+60.00
+1:2
+40.00
+3:0
+9.25
+3:3
+700.0
+0:3
+400.0
+3:1
+25.00
+1:3
+300.0
+3:2
+125.0
+2:3
+500.0
+4:0
+28.00
+0:4
+2000
+4:1
+70.00
+1:4
+1500
+4:2
+400.0
+2:4
+2000
+5:0
+100.0
+0:5
+2500
+5:1
+300.0
+1:5
+2500
+5:2
+800.0
+2:5
+2500
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+600.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Aston Villa (Home)
+Draw
+Sheff Utd (Away)
+1:0
+4.45
+0:0
+1.17
+0:1
+24.10
+2:0
+60.00
+1:1
+100.0
+0:2
+700.0
+2:1
+1000
+2:2
+2500
+1:2
+2500
+3:0
+1500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Aston Villa (Home)
+No Goals
+Sheff Utd (Away)
+1.15
+22.00
+4.40
+Next Team To Score- Last Odds for In Play Betting
+Aston Villa (Home)
+No Goals
+Sheff Utd (Away)
+1st Goal
+3.08
+1.38
+11.00
+2nd Goal
+5.60
+1.12
+20.00
+3rd Goal
+9.50
+1.06
+30.00
+Total Goals
+0
+22.00
+1
+7.00
+2
+4.45
+3
+3.90
+4
+4.15
+5
+5.90
+6
+9.00
+7+
+9.75
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.47
+H-D
+21.00
+H-A
+65.00
+D-H
+3.75
+D-D
+10.00
+D-A
+25.00
+A-H
+19.00
+A-D
+21.00
+A-A
+22.00
+Specials
+Item No.: 1 Which event will happen to Ollie WATKINS (Aston Villa) first?
+(1) Receive a Yellow Card
+5.60
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.78
+(4) Be substituted
+4.00
+(5) None of the above
+3.55
+Item No.: 2 How many goal(s) will Ollie WATKINS (Aston Villa) score?
+(1) No Goal
+1.85
+(2) 1 Goal
+2.48
+(3) 2 Goals
+5.25
+(4) 3 Goals or more
+12.00
+Item No.: 3 Which event will happen to Moussa DIABY (Aston Villa) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.72
+(5) None of the above
+4.85
+Item No.: 4 Which event will happen to John McGINN (Aston Villa) first?
+(1) Receive a Yellow Card
+4.20
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+4.00
+(5) None of the above
+2.10
+Item No.: 5 Which event will happen to DOUGLAS LUIZ Soares de Paulo (Aston Villa) first?
+(1) Receive a Yellow Card
+4.00
+(2) Receive a Red Card
+130.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+4.25
+(5) None of the above
+2.30

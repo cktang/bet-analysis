@@ -1,0 +1,121 @@
+{
+  "url": "https://fbref.com/en/matches/659b9113/Aston-Villa-West-Ham-United-August-28-2022-Premier-League",
+  "homeTeam": "Aston Villa",
+  "awayTeam": "West Ham United",
+  "matchDate": "August 28, 2022",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 74,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Declan Rice"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 57,
+        "player": "Matty Cash",
+        "playerId": "2389cdc2",
+        "team": "Aston Villa"
+      },
+      {
+        "minute": 79,
+        "player": "Boubacar Kamara",
+        "playerId": "cc77354e",
+        "team": "Aston Villa"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 23,
+        "player": "Vladimír Coufal",
+        "playerId": "fdf3cb77",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 65,
+        "player": "Michail Antonio",
+        "playerId": "ac05f970",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Jacob Ramsey",
+        "playerId": "1544f145",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Emi Buendía",
+        "playerId": "66b76d44",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Leon Bailey",
+        "playerId": "3a233281",
+        "team": "Aston Villa",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Aston Villa",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

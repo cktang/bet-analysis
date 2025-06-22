@@ -1,0 +1,142 @@
+{
+  "url": "https://fbref.com/en/matches/eacda90c/Chelsea-Manchester-City-January-5-2023-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Manchester City",
+  "matchDate": "January 5, 2023",
+  "score": "0-1",
+  "homeScore": 0,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 63,
+        "player": "Riyad Mahrez",
+        "playerId": "892d5bb1",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jack Grealish"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 89,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Chelsea"
+      },
+      {
+        "minute": 94,
+        "player": "Kalidou Koulibaly",
+        "playerId": "da974c7b",
+        "team": "Chelsea"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 5,
+        "player": "Pierre-Emerick Aubameyang",
+        "playerId": "d5dd5f1f",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 22,
+        "player": "Carney Chukwuemeka",
+        "playerId": "b2f9c73e",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Manuel Akanji",
+        "playerId": "89ac64a6",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Riyad Mahrez",
+        "playerId": "892d5bb1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 60,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Omari Hutchinson",
+        "playerId": "bd9553e6",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Lewis Hall",
+        "playerId": "da011f18",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 69,
+        "player": "Conor Gallagher",
+        "playerId": "c2731c10",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 1,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

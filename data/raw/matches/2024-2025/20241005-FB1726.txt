@@ -1,0 +1,806 @@
+05/10/2024
+FB1726
+Crystal
+Palace
+vs
+Liverpool
+0
+:
+1
+0
+:
+1
+%Event ID: FB1726
+Crystal Palace
+0
+1
+Liverpool
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+4.80
+4.05
+1.48
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+125.0
+10.50
+1.02
+First Half HAD
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+4.80
+2.50
+1.88
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+600.0
+12.50
+1.001
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+[+1]
+2.25
+[+1]
+3.55
+[-1]
+2.42
+Handicap HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+[+1]
+4.30
+[+1]
+3.70
+[-1]
+1.57
+[+2]
+1.08
+[+2]
+4.90
+[-2]
+80.00
+Handicap
+Crystal Palace (Home)
+Liverpool (Away)
+[+1]
+1.79
+[-1]
+2.04
+Handicap- Last Odds for In Play Betting
+Crystal Palace (Home)
+Liverpool (Away)
+[+0.5/+1]
+3.90
+[-0.5/-1]
+1.22
+[+1/+1.5]
+1.18
+[-1/-1.5]
+4.40
+[+1.5/+2]
+1.57
+[-1.5/-2]
+2.28
+[+1]
+2.37
+[-1]
+1.53
+Same Game All Up
+Both teams to score in the match & Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.40
+Mohamed SALAH to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+13.00
+Luis DIAZ to score first & Liverpool to win by [2] goal(s) or more & Over [4.5] goals
+28.00
+Both teams to score & Liverpool to win by [2] goal(s) or more
+4.60
+Liverpool to win by [2] goal(s) or more & Over [3.5] goals & Over [10.5] corners taken
+6.30
+Liverpool to win by [3] goal(s) or more & Liverpool clean sheet
+6.10
+Crystal Palace to win & Over [2.5] goals
+7.40
+Crystal Palace to win & Crystal Palace clean sheet
+12.00
+Over [6.5] corners taken in the first half & Over [14.5] corners taken in the match
+6.20
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+6.40
+Liverpool to win the first half & Over [2.5] goals in the first half
+6.10
+First Half to be drawn & Liverpool to win the match by exactly [1] goal(s)
+6.50
+Crystal Palace to win the first half & Crystal Palace clean sheet in the first half
+6.10
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [11.5] corners taken in the match
+9.75
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.80
+Liverpool to win [1:0] in the first half & Liverpool to win [3:1] in the match
+35.00
+Liverpool to win [2:0] in the first half & Liverpool to win [4:0] in the match
+40.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+40.00
+First half to be drawn [0:0] & Crystal Palace to win [1:0] in the match
+30.00
+Crystal Palace to win [1:0] in the first half & Crystal Palace to win [2:1] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+2.10
+1.65
+[3.5]
+2.30
+1.54
+[4.5]
+3.80
+1.21
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.95
+1.12
+[2/2.5]
+9.50
+1.02
+[2.5]
+10.50
+1.01
+[2.5/3]
+2.20
+1.59
+[3/3.5]
+2.20
+1.59
+[3.5]
+5.15
+1.11
+[3.5/4]
+2.15
+1.62
+[4.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.17
+1.61
+[1.5/2]
+2.60
+1.43
+[2.5]
+4.40
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.55
+2.29
+[1/1.5]
+2.30
+1.54
+[1.5]
+1.33
+2.98
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+9.50
+1.01
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.05
+1.68
+[12.5]
+2.60
+1.43
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.55
+2.29
+[11.5]
+4.95
+1.12
+[12.5]
+9.50
+1.02
+[13.5]
+10.50
+1.005
+[14.5]
+5.40
+1.10
+[15.5]
+5.15
+1.11
+[16.5]
+4.60
+1.14
+[17.5]
+4.15
+1.17
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.58
+2.22
+[5.5]
+2.17
+1.61
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.25
+3.45
+[5.5]
+1.04
+8.00
+[6.5]
+1.10
+5.40
+[7.5]
+1.17
+4.15
+[8.5]
+1.35
+2.88
+[9.5]
+1.86
+1.84
+[10.5]
+8.00
+1.04
+Correct Score
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+1:0
+19.00
+0:0
+14.00
+0:1
+7.75
+2:0
+26.00
+1:1
+7.75
+0:2
+8.00
+2:1
+13.00
+2:2
+12.50
+1:2
+6.90
+3:0
+50.00
+3:3
+40.00
+0:3
+11.50
+3:1
+30.00
+1:3
+11.00
+3:2
+30.00
+2:3
+19.00
+4:0
+150.0
+0:4
+22.00
+4:1
+80.00
+1:4
+20.00
+4:2
+80.00
+2:4
+30.00
+5:0
+600.0
+0:5
+40.00
+5:1
+400.0
+1:5
+40.00
+5:2
+300.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+70.00
+Home Others
+(Away Scores)
+70.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+1:0
+13.50
+0:0
+11.50
+0:1
+1.09
+2:0
+25.00
+1:1
+12.50
+0:2
+8.50
+2:1
+126.0
+2:2
+1000
+1:2
+90.00
+3:0
+70.00
+3:3
+1000
+0:3
+150.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+350.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+1:0
+7.25
+0:0
+3.20
+0:1
+3.50
+2:0
+20.00
+1:1
+6.90
+0:2
+6.70
+2:1
+21.00
+2:2
+40.00
+1:2
+11.00
+3:0
+100.0
+3:3
+600.0
+0:3
+17.00
+3:1
+100.0
+1:3
+40.00
+3:2
+250.0
+2:3
+125.0
+4:0
+700.0
+0:4
+70.00
+4:1
+700.0
+1:4
+125.0
+4:2
+900.0
+2:4
+500.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+1000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Liverpool (Away)
+1:0
+6.30
+0:0
+2.47
+0:1
+1.05
+2:0
+29.00
+1:1
+18.00
+0:2
+8.05
+2:1
+400.0
+2:2
+2500
+1:2
+100.0
+3:0
+150.0
+3:3
+2500
+0:3
+100.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Liverpool (Away)
+2.75
+14.00
+1.42
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Liverpool (Away)
+1st Goal
+2.80
+11.00
+1.44
+2nd Goal
+12.00
+1.09
+8.25
+Total Goals
+0
+14.00
+1
+5.90
+2
+4.00
+3
+3.75
+4
+4.40
+5
+6.60
+6
+11.00
+7+
+14.50
+Total Goals- Last Odds for In Play Betting
+0
+11.50
+1
+1.09
+2
+4.80
+3
+60.00
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Crystal Palace (Home)
+Liverpool (Away)
+102 Eberechi EZE
+7.50
+201 Mohamed SALAH
+3.70
+103 Eddie NKETIAH
+8.25
+204 DIOGO Jota
+4.70
+101 Jean-Philippe MATETA
+9.50
+203 Luis DIAZ
+5.00
+104 Ismaila SARR
+9.50
+202 Darwin NUNEZ
+5.10
+105 Asher AGBINONE
+13.50
+206 Federico CHIESA
+5.60
+106 Franco UMEH-CHIBUEZE
+14.50
+205 Cody GAKPO
+5.90
+107 Matheus FRANCA
+15.00
+207 Alexis MAC ALLISTER
+14.50
+108 Daichi KAMADA
+23.00
+208 Curtis JONES
+14.50
+109 Jeffrey SCHLUPP
+27.00
+209 Dominik SZOBOSZLAI
+15.00
+110 Adam WHARTON
+28.00
+210 Ibrahima KONATE
+25.00
+111 Jefferson LERMA
+45.00
+211 Trent ALEXANDER-ARNOLD
+25.00
+112 Daniel MUNOZ
+50.00
+212 Conor BRADLEY
+27.00
+113 Will HUGHES
+55.00
+213 Ryan GRAVENBERCH
+30.00
+114 Trevoh CHALOBAH
+65.00
+214 Virgil VAN DIJK
+30.00
+115 Maxence LACROIX
+75.00
+215 Wataru ENDO
+30.00
+116 Tyrick MITCHELL
+80.00
+216 Andrew ROBERTSON
+35.00
+118 Marc GUEHI
+95.00
+217 Jarell QUANSAH
+40.00
+117 Joel WARD
+100.0
+218 Kostas TSIMIKAS
+40.00
+119 Nathaniel CLYNE
+125.0
+219 Joe GOMEZ
+70.00
+120 Home Others
+20.00
+220 Away Others
+10.50
+00 No First Scorer
+13.80
+HaFu
+H-H
+8.00
+H-D
+14.00
+H-A
+18.00
+D-H
+11.00
+D-D
+6.70
+D-A
+4.15
+A-H
+30.00
+A-D
+14.00
+A-A
+2.18
+Specials
+Item No.: 1 Which event will happen to Jean-Philippe MATETA (Crystal Palace) first?
+(1) Receive a Yellow Card
+5.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.10
+(4) Be substituted
+2.37
+(5) None of the above
+2.82
+Item No.: 2 Which event will happen to Mohamed SALAH (Liverpool) first?
+(1) Receive a Yellow Card
+11.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.65
+(4) Be substituted
+5.70
+(5) None of the above
+2.48
+Item No.: 3 How many goal(s) will Mohamed SALAH (Liverpool) score?
+(1) No Goal
+1.82
+(2) 1 Goal
+2.50
+(3) 2 Goals
+5.50
+(4) 3 Goals or more
+12.00
+Item No.: 4 Which event will happen to Luis DIAZ (Liverpool) first?
+(1) Receive a Yellow Card
+9.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.55
+(4) Be substituted
+1.56
+(5) None of the above
+7.75
+Item No.: 5 Which event will happen to DIOGO Jota (Liverpool) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.85
+(4) Be substituted
+1.55
+(5) None of the above
+6.00

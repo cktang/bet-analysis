@@ -1,0 +1,153 @@
+{
+  "url": "https://fbref.com/en/matches/40966f45/Manchester-City-Liverpool-April-1-2023-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Liverpool",
+  "matchDate": "April 1, 2023",
+  "score": "4-1",
+  "homeScore": 4,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 17,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Diogo Jota"
+      },
+      {
+        "minute": 27,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jack Grealish"
+      },
+      {
+        "minute": 46,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Riyad Mahrez"
+      },
+      {
+        "minute": 53,
+        "player": "İlkay Gündoğan",
+        "playerId": "819b3158",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 74,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 19,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool"
+      },
+      {
+        "minute": 33,
+        "player": "Rodri",
+        "playerId": "6434f10d",
+        "team": "Manchester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "player": "Alex Oxlade-Chamberlain",
+        "playerId": "38c7feef",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Darwin Núñez",
+        "playerId": "4d77b365",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Roberto Firmino",
+        "playerId": "4c370d81",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Kostas Tsimikas",
+        "playerId": "f315ca93",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "James Milner",
+        "playerId": "2f90f6b8",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Cole Palmer",
+        "playerId": "dc7f8a28",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

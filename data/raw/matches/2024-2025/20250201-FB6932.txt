@@ -1,0 +1,705 @@
+01/02/2025
+FB6932
+Ipswich
+vs
+Southampton
+1
+:
+1
+1
+:
+2
+%Event ID: FB6932
+Ipswich
+1
+2
+Southampton
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Southampton (Away)
+1.77
+3.55
+3.55
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Southampton (Away)
+60.00
+9.50
+1.02
+First Half HAD
+Ipswich (Home)
+Draw
+Southampton (Away)
+2.30
+2.23
+3.90
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Southampton (Away)
+5.80
+1.13
+12.00
+Handicap HAD
+Ipswich (Home)
+Draw
+Southampton (Away)
+[-1]
+3.10
+[-1]
+3.65
+[+1]
+1.84
+[-2]
+6.40
+[-2]
+5.10
+[+2]
+1.27
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Southampton (Away)
+[-2]
+7.80
+[-2]
+5.20
+[+2]
+1.22
+[+2]
+1.01
+[+2]
+6.70
+[-2]
+700.0
+[+1]
+1.10
+[+1]
+5.40
+[-1]
+22.00
+[-1]
+85.00
+[-1]
+85.00
+[+1]
+1.001
+Handicap
+Ipswich (Home)
+Southampton (Away)
+[-0.5/-1]
+2.16
+[+0.5/+1]
+1.71
+Same Game All Up
+Both teams to score & Ipswich to win & Over [11.5] corners taken
+8.50
+Ipswich to win & Over [2.5] goals & Over [10.5] corners taken
+5.25
+Ipswich to win [2:0] in the first half & Ipswich to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Ipswich to win the match by [2] goal(s) or more
+11.00
+Both teams to score & Southampton to win & Under [10.5] corners taken
+11.50
+Both teams to score & Southampton to win or draw & Over [10.5] corners taken
+4.80
+Southampton to score first & Ipswich to win by [2] goal(s) or more
+26.00
+Ipswich to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+22.00
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+7.25
+Under [4.5] corners taken in the first half & Under [8.5] corners taken in the match
+3.85
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+4.00
+First Half to be drawn & Ipswich to win the match by [2] goal(s) or more
+13.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+10.00
+The match to be drawn & Under [10.5] corners taken
+6.50
+Ipswich to win [1:0] in the first half & Ipswich to win [2:1] in the match
+25.00
+Ipswich to win [2:0] in the first half & Ipswich to win [3:0] in the match
+40.00
+Ipswich to win [2:0] in the first half & Ipswich to win [4:0] in the match
+80.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Southampton to win [1:0] in the first half & Southampton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.62
+2.15
+[2.5/3]
+1.80
+1.90
+[3.5]
+2.55
+1.45
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.22
+3.70
+[2.5]
+1.37
+2.80
+[2.5/3]
+5.15
+1.11
+[3/3.5]
+11.00
+1.005
+[3.5]
+11.00
+1.005
+[3.5/4]
+8.50
+1.03
+[4.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.27
+1.56
+[1.5/2]
+2.75
+1.38
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.15
+1.62
+[1/1.5]
+3.65
+1.23
+[1.5]
+1.66
+2.08
+[1.5/2]
+2.60
+1.43
+[2/2.5]
+5.40
+1.10
+[2.5]
+5.90
+1.08
+[2.5/3]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.25
+1.57
+[12.5]
+2.88
+1.35
+[14.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.65
+2.10
+[5.5]
+2.29
+1.55
+[7.5]
+5.15
+1.11
+Correct Score
+Ipswich (Home)
+Draw
+Southampton (Away)
+1:0
+8.00
+0:0
+12.50
+0:1
+12.00
+2:0
+9.25
+1:1
+6.70
+0:2
+20.00
+2:1
+7.00
+2:2
+11.00
+1:2
+11.00
+3:0
+15.00
+3:3
+40.00
+0:3
+40.00
+3:1
+12.50
+1:3
+25.00
+3:2
+20.00
+2:3
+28.00
+4:0
+35.00
+0:4
+80.00
+4:1
+27.00
+1:4
+60.00
+4:2
+40.00
+2:4
+60.00
+5:0
+60.00
+0:5
+400.0
+5:1
+50.00
+1:5
+200.0
+5:2
+70.00
+2:5
+250.0
+Home Others
+(Away No Goal)
+125.0
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+70.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Southampton (Away)
+1:0
+5.00
+0:0
+6.90
+0:1
+6.20
+2:0
+7.20
+1:1
+1.16
+0:2
+8.25
+2:1
+6.90
+2:2
+9.60
+1:2
+1.05
+3:0
+16.00
+3:3
+1000
+0:3
+20.00
+3:1
+80.00
+1:3
+20.00
+3:2
+175.0
+2:3
+250.0
+4:0
+45.00
+0:4
+70.00
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+400.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Ipswich (Home)
+Draw
+Southampton (Away)
+1:0
+3.90
+0:0
+2.98
+0:1
+6.00
+2:0
+7.50
+1:1
+6.40
+0:2
+14.50
+2:1
+13.00
+2:2
+40.00
+1:2
+18.00
+3:0
+27.00
+3:3
+600.0
+0:3
+80.00
+3:1
+50.00
+1:3
+80.00
+3:2
+150.0
+2:3
+200.0
+4:0
+100.0
+0:4
+500.0
+4:1
+200.0
+1:4
+500.0
+4:2
+600.0
+2:4
+800.0
+5:0
+600.0
+0:5
+2000
+5:1
+800.0
+1:5
+2000
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+2000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Southampton (Away)
+1:0
+3.45
+0:0
+1.75
+0:1
+1.52
+2:0
+13.50
+1:1
+1.10
+0:2
+5.70
+2:1
+8.05
+2:2
+60.00
+1:2
+12.50
+3:0
+80.00
+3:3
+2500
+0:3
+50.00
+3:1
+90.00
+1:3
+150.0
+3:2
+800.0
+2:3
+2000
+4:0
+450.0
+0:4
+450.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Southampton (Away)
+1.58
+12.50
+2.34
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.70
+6.90
+2.47
+2nd Goal
+1.60
+6.20
+2.80
+3rd Goal
+5.90
+1.16
+9.25
+4th Goal
+9.25
+1.05
+19.00
+Total Goals
+0
+12.50
+1
+5.20
+2
+3.65
+3
+3.70
+4
+4.70
+5
+7.00
+6
+13.50
+7+
+19.00
+Total Goals- Last Odds for In Play Betting
+0
+6.90
+1
+6.20
+2
+1.16
+3
+1.05
+4
+5.30
+5
+150.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.87
+1.83
+First Scorer
+Ipswich (Home)
+Southampton (Away)
+101 Liam DELAP
+3.20
+201 Paul ONUACHU
+7.50
+102 George HIRST
+4.70
+202 Cameron ARCHER
+8.50
+103 Sammie SZMODICS
+5.00
+203 Adam ARMSTRONG
+9.50
+104 Nathan BROADHEAD
+7.00
+204 Kamaldeen SULEMANA
+10.00
+105 Jack CLARKE
+7.50
+205 Joe ARIBO
+10.00
+106 Jaden PHILOGENE
+7.75
+206 Samuel AMO-AMEYAW
+12.00
+107 Julio ENCISO
+8.00
+207 Albert GRONBAEK
+12.00
+108 Conor CHAPLIN
+9.75
+208 Mateus FERNANDES
+12.50
+109 Omari HUTCHINSON
+10.50
+209 Ryan FRASER
+15.00
+110 Jack TAYLOR
+11.00
+210 Adam LALLANA
+19.00
+111 Wes BURNS
+13.00
+211 Flynn DOWNES
+21.00
+112 Kalvin PHILLIPS
+27.00
+212 Will SMALLBONE
+21.00
+113 Cameron BURGESS
+29.00
+213 Taylor HARWOOD-BELLIS
+23.00
+118 Massimo LUONGO
+29.00
+214 Kyle WALKER-PETERS
+25.00
+114 Dara O'SHEA
+30.00
+215 Lesley UGOCHUKWU
+25.00
+115 Jacob GREAVES
+30.00
+216 Yukinari SUGAWARA
+29.00
+116 Jens CAJUSTE
+30.00
+217 Jan BEDNAREK
+30.00
+117 Leif DAVIS
+30.00
+218 Ryan MANNING
+50.00
+119 Sam MORSY
+30.00
+219 Armel BELLA-KOTCHAP
+75.00
+120 Home Others
+6.90
+220 Away Others
+8.25
+00 No First Scorer
+12.30
+HaFu
+H-H
+2.78
+H-D
+13.00
+H-A
+28.00
+D-H
+4.60
+D-D
+5.70
+D-A
+8.00
+A-H
+19.00
+A-D
+13.00
+A-A
+5.60

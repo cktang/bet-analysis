@@ -1,0 +1,124 @@
+{
+  "url": "https://fbref.com/en/matches/2954504d/Tottenham-Hotspur-Liverpool-November-6-2022-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Liverpool",
+  "matchDate": "November 6, 2022",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 11,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Darwin Núñez"
+      },
+      {
+        "minute": 40,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 70,
+        "player": "Harry Kane",
+        "playerId": "21a66f6a",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Dejan Kulusevski"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "player": "Matt Doherty",
+        "playerId": "d557d734",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Dejan Kulusevski",
+        "playerId": "df3cda47",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Jordan Henderson",
+        "playerId": "935e6b8f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Joe Gomez",
+        "playerId": "7a11550b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Lucas Moura",
+        "playerId": "2b622f01",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Alex Oxlade-Chamberlain",
+        "playerId": "38c7feef",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

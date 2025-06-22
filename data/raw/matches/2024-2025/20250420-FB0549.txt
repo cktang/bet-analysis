@@ -1,0 +1,876 @@
+20/04/2025
+FB0549
+Ipswich
+vs
+Arsenal
+0
+:
+2
+0
+:
+4
+%Event ID: FB0549
+Ipswich
+0
+4
+Arsenal
+Eng Premier
+Home/Away/Draw
+Ipswich (Home)
+Draw
+Arsenal (Away)
+8.75
+5.00
+1.23
+Home/Away/Draw- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1000
+100.0
+1.001
+First Half HAD
+Ipswich (Home)
+Draw
+Arsenal (Away)
+7.25
+2.58
+1.63
+First Half HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1000
+90.00
+1.001
+Handicap HAD
+Ipswich (Home)
+Draw
+Arsenal (Away)
+[+2]
+1.76
+[+2]
+4.00
+[-2]
+3.10
+[+1]
+3.05
+[+1]
+3.75
+[-1]
+1.84
+Handicap HAD- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Arsenal (Away)
+[+1]
+5.70
+[+1]
+4.35
+[-1]
+1.36
+[+5]
+1.12
+[+5]
+4.40
+[-5]
+50.00
+[+4]
+1.16
+[+4]
+4.00
+[-4]
+35.00
+[+3]
+2.02
+[+3]
+2.50
+[-3]
+4.05
+[+2]
+2.45
+[+2]
+3.12
+[-2]
+2.43
+Handicap
+Ipswich (Home)
+Arsenal (Away)
+[+1.5/+2]
+1.66
+[-1.5/-2]
+2.24
+Handicap- Last Odds for In Play Betting
+Ipswich (Home)
+Arsenal (Away)
+[+1/+1.5]
+4.00
+[-1/-1.5]
+1.21
+[+4/+4.5]
+1.28
+[-4/-4.5]
+3.37
+[+3/+3.5]
+1.37
+[-3/-3.5]
+2.88
+[+3.5/+4]
+1.46
+[-3.5/-4]
+2.55
+[+3]
+1.66
+[-3]
+2.12
+[+1.5/+2]
+1.66
+[-1.5/-2]
+2.24
+[+2/+2.5]
+1.69
+[-2/-2.5]
+2.07
+[+2.5/+3]
+1.74
+[-2.5/-3]
+2.00
+[+2]
+1.89
+[-2]
+1.83
+Same Game All Up
+Leandro TROSSARD to score first & Over [3.5] goals & Over [10.5] corners taken
+24.00
+Leandro TROSSARD to score first & Arsenal to win by exactly [2] goal(s)
+15.50
+Both teams to score & Arsenal to win by [2] goal(s) or more & Over [10.5] corners taken
+10.50
+Arsenal to win by [2] goal(s) or more & Over [3.5] goals & Over [11.5] corners taken
+8.50
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+30.00
+First half to be drawn [0:0] & Both teams to score in the match
+12.50
+Both teams to score in the match & First Half to be drawn & Arsenal to win the match by [2] goal(s) or more
+20.00
+Both teams to score & Ipswich to win & Under [10.5] corners taken
+27.00
+Over [1.5] goals in the first half & Over [2.5] goals in the match & Over [11.5] corners taken in the match
+6.75
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+6.50
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+5.30
+First Half to be drawn & Arsenal to win the match by exactly [2] goal(s)
+10.50
+The match to be drawn & Under [9.5] corners taken
+10.00
+Ipswich to score first & Arsenal to win by exactly [1] goal(s)
+17.00
+Arsenal to win [1:0] in the first half & Arsenal to win [2:1] in the match
+26.00
+Arsenal to win [1:0] in the first half & Arsenal to win [3:1] in the match
+35.00
+Arsenal to win [2:0] in the first half & Arsenal to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Arsenal to win [3:1] in the match
+40.00
+First half to be drawn [0:0] & Arsenal to win [2:0] in the match
+18.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.54
+2.30
+[2.5/3]
+1.72
+2.00
+[3.5]
+2.40
+1.50
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.23
+3.65
+[2.5/3]
+1.67
+2.07
+[3/3.5]
+2.70
+1.39
+[3.5]
+3.35
+1.27
+[3.5/4]
+4.95
+1.12
+[4/4.5]
+11.00
+1.005
+[4.5]
+11.00
+1.005
+[4.5/5]
+8.50
+1.03
+[5.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.17
+1.61
+[1.5/2]
+2.68
+1.40
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.61
+2.17
+[1/1.5]
+2.48
+1.47
+[1.5]
+1.39
+2.70
+[1.5/2]
+2.50
+1.46
+[2/2.5]
+4.95
+1.12
+[2.5]
+6.25
+1.07
+[2.5/3]
+7.00
+1.05
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.15
+1.62
+[11.5]
+2.75
+1.38
+[13.5]
+4.95
+1.12
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.27
+3.35
+[8.5]
+1.27
+3.35
+[9.5]
+1.28
+3.25
+[10.5]
+1.26
+3.40
+[11.5]
+1.75
+1.95
+[12.5]
+8.50
+1.03
+[13.5]
+8.50
+1.03
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.82
+1.88
+[5.5]
+2.62
+1.42
+[7.5]
+5.90
+1.08
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.36
+2.85
+[4.5]
+8.00
+1.04
+[5.5]
+5.40
+1.10
+[6.5]
+9.50
+1.02
+[7.5]
+8.50
+1.03
+Corner Taken Handicap
+Ipswich (Home)
+Arsenal (Away)
+[+3.5]
+1.85
+[-3.5]
+1.85
+Corner Taken Handicap- Last Odds for In Play Betting
+Ipswich (Home)
+Arsenal (Away)
+[+2.5]
+2.60
+[-2.5]
+1.43
+[+11.5]
+1.49
+[-11.5]
+2.43
+[+4.5]
+2.40
+[-4.5]
+1.50
+[+5.5]
+2.43
+[-5.5]
+1.49
+[+3.5]
+2.70
+[-3.5]
+1.39
+[+6.5]
+4.15
+[-6.5]
+1.17
+[+7.5]
+4.60
+[-7.5]
+1.14
+[+8.5]
+4.95
+[-8.5]
+1.12
+[+9.5]
+8.00
+[-9.5]
+1.04
+[+10.5]
+9.50
+[-10.5]
+1.02
+First Half Corner Taken Handicap
+Ipswich (Home)
+Arsenal (Away)
+[+1.5]
+1.95
+[-1.5]
+1.75
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Ipswich (Home)
+Arsenal (Away)
+[+1.5]
+3.55
+[-1.5]
+1.24
+[+3.5]
+1.43
+[-3.5]
+2.60
+[+2.5]
+3.55
+[-2.5]
+1.24
+Correct Score
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1:0
+23.00
+0:0
+15.00
+0:1
+6.70
+2:0
+40.00
+1:1
+9.25
+0:2
+6.00
+2:1
+21.00
+2:2
+18.00
+1:2
+7.00
+3:0
+125.0
+3:3
+60.00
+0:3
+7.25
+3:1
+60.00
+1:3
+9.25
+3:2
+50.00
+2:3
+23.00
+4:0
+500.0
+0:4
+12.50
+4:1
+250.0
+1:4
+15.00
+4:2
+250.0
+2:4
+40.00
+5:0
+1000
+0:5
+26.00
+5:1
+800.0
+1:5
+30.00
+5:2
+800.0
+2:5
+60.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+40.00
+Home Others
+(Away Scores)
+200.0
+Draw Others
+200.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1:0
+18.00
+0:0
+12.00
+0:1
+8.50
+2:0
+50.00
+1:1
+11.00
+0:2
+2.41
+2:1
+40.00
+2:2
+350.0
+1:2
+19.00
+3:0
+200.0
+3:3
+1000
+0:3
+1.23
+3:1
+200.0
+1:3
+16.50
+3:2
+1000
+2:3
+600.0
+4:0
+900.0
+0:4
+1.09
+4:1
+1000
+1:4
+30.00
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+6.40
+5:1
+1000
+1:5
+200.0
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+150.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1:0
+10.00
+0:0
+3.10
+0:1
+3.00
+2:0
+40.00
+1:1
+7.75
+0:2
+5.00
+2:1
+40.00
+2:2
+60.00
+1:2
+12.50
+3:0
+300.0
+3:3
+800.0
+0:3
+12.50
+3:1
+250.0
+1:3
+40.00
+3:2
+500.0
+2:3
+150.0
+4:0
+1500
+0:4
+50.00
+4:1
+1000
+1:4
+100.0
+4:2
+2000
+2:4
+500.0
+5:0
+2500
+0:5
+200.0
+5:1
+2500
+1:5
+500.0
+5:2
+2500
+2:5
+1000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+700.0
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Ipswich (Home)
+Draw
+Arsenal (Away)
+1:0
+9.00
+0:0
+2.43
+0:1
+1.59
+2:0
+60.00
+1:1
+6.80
+0:2
+1.10
+2:1
+95.00
+2:2
+2500
+1:2
+50.00
+3:0
+400.0
+3:3
+2500
+0:3
+5.30
+3:1
+1500
+1:3
+150.0
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+80.00
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Ipswich (Home)
+No Goals
+Arsenal (Away)
+3.80
+15.00
+1.23
+Next Team To Score- Last Odds for In Play Betting
+Ipswich (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+4.05
+12.00
+1.23
+2nd Goal
+3.85
+8.50
+1.31
+3rd Goal
+12.50
+2.41
+1.55
+4th Goal
+15.50
+1.23
+3.80
+5th Goal
+29.00
+1.09
+6.30
+Total Goals
+0
+15.00
+1
+5.60
+2
+3.85
+3
+3.60
+4
+4.50
+5
+6.60
+6
+12.00
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+12.00
+1
+8.50
+2
+2.41
+3
+1.23
+4
+1.09
+5
+4.45
+6
+125.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Ipswich (Home)
+Arsenal (Away)
+101 Liam DELAP
+7.25
+201 Bukayo SAKA
+4.40
+102 George HIRST
+10.50
+202 Mikel MERINO
+4.50
+103 Jaden PHILOGENE
+12.00
+203 GABRIEL Teodoro MARTINELLI
+5.30
+104 Julio ENCISO
+14.50
+204 Nathan BUTLER-OYEDEJI
+5.40
+105 Jack CLARKE
+16.00
+205 Raheem STERLING
+5.70
+106 Nathan BROADHEAD
+17.00
+206 Leandro TROSSARD
+6.40
+107 Omari HUTCHINSON
+22.00
+207 Ethan NWANERI
+7.25
+110 Ben JOHNSON
+24.00
+208 Ismeal KABIA
+8.75
+108 Conor CHAPLIN
+26.00
+209 Martin ODEGAARD
+10.00
+109 Jack TAYLOR
+28.00
+210 Thomas PARTEY
+11.00
+116 Jens CAJUSTE
+45.00
+211 Declan RICE
+14.00
+115 Sam MORSY
+50.00
+212 Jimi GOWER
+14.00
+111 Dara O'SHEA
+65.00
+213 JORGINHO Luiz Frello
+18.00
+112 Cameron BURGESS
+70.00
+214 Kieran TIERNEY
+18.00
+113 Kalvin PHILLIPS
+70.00
+216 Myles LEWIS-SKELLY
+23.00
+114 Jacob GREAVES
+85.00
+217 William SALIBA
+24.00
+117 Leif DAVIS
+100.0
+215 Ben WHITE
+26.00
+118 Axel TUANZEBE
+100.0
+219 Jurrien TIMBER
+28.00
+119 Conor TOWNSEND
+100.0
+218 Jakub KIWIOR
+40.00
+120 Home Others
+19.00
+220 Away Others
+4.60
+00 No First Scorer
+14.80
+HaFu
+H-H
+13.50
+H-D
+18.00
+H-A
+20.00
+D-H
+17.00
+D-D
+7.25
+D-A
+3.60
+A-H
+55.00
+A-D
+18.00
+A-A
+1.76

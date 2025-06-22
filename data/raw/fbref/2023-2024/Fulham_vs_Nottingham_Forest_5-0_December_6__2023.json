@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/fd5606da/Fulham-Nottingham-Forest-December-6-2023-Premier-League",
+  "homeTeam": "Fulham",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "December 6, 2023",
+  "score": "5-0",
+  "homeScore": 5,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 30,
+        "player": "Alex Iwobi",
+        "playerId": "6ca5ec4b",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Willian"
+      },
+      {
+        "minute": 34,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      },
+      {
+        "minute": 54,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 73,
+        "player": "Alex Iwobi",
+        "playerId": "6ca5ec4b",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Harry Wilson"
+      },
+      {
+        "minute": 86,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 76,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Ryan Yates",
+        "playerId": "c1fe2a48",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 58,
+        "player": "Danilo",
+        "playerId": "a816dbfb",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Fodé Ballo-Touré",
+        "playerId": "f449640d",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Moussa Niakhate",
+        "playerId": "00242715",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Saša Lukić",
+        "playerId": "c6e8cf1f",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Carlos Vinícius",
+        "playerId": "8b529245",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://fbref.com/en/matches/28ebbaf2/Tottenham-Hotspur-Brentford-May-20-2023-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Brentford",
+  "matchDate": "May 20, 2023",
+  "score": "1-3",
+  "homeScore": 1,
+  "awayScore": 3,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 8,
+        "player": "Harry Kane",
+        "playerId": "21a66f6a",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Dejan Kulusevski"
+      },
+      {
+        "minute": 50,
+        "player": "Bryan Mbeumo",
+        "playerId": "6afaebf2",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Yoane Wissa"
+      },
+      {
+        "minute": 62,
+        "player": "Bryan Mbeumo",
+        "playerId": "6afaebf2",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Aaron Hickey"
+      },
+      {
+        "minute": 88,
+        "player": "Yoane Wissa",
+        "playerId": "2500cef9",
+        "team": "Brentford",
+        "isPenalty": false,
+        "assist": "Bryan Mbeumo"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 45,
+        "player": "Yves Bissouma",
+        "playerId": "6c203af0",
+        "team": "Tottenham Hotspur"
+      },
+      {
+        "minute": 68,
+        "player": "Rico Henry",
+        "playerId": "8a3c1dc7",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Mikkel Damsgaard",
+        "playerId": "215f3907",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Lucas Moura",
+        "playerId": "2b622f01",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Shandon Baptiste",
+        "playerId": "2886c9b5",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Pedro Porro",
+        "playerId": "27d0a506",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Richarlison",
+        "playerId": "fa031b34",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Mathias Jørgensen",
+        "playerId": "0db5d2c8",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Ivan Perišić",
+        "playerId": "6fe90922",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Mads Roerslev",
+        "playerId": "57c94db2",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Josh Dasilva",
+        "playerId": "60344e4f",
+        "team": "Brentford",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

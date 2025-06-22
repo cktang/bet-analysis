@@ -1,0 +1,870 @@
+15/02/2025
+FB7545
+Manchester
+City
+vs
+Newcastle
+3
+:
+0
+4
+:
+0
+%Event ID: FB7545
+Manchester City
+4
+0
+Newcastle
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.84
+3.90
+3.05
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.001
+18.00
+60.00
+First Half HAD
+Manchester City (Home)
+Draw
+Newcastle (Away)
+2.21
+2.57
+3.35
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1.001
+15.50
+150.0
+Handicap HAD
+Manchester City (Home)
+Draw
+Newcastle (Away)
+[-1]
+3.15
+[-1]
+4.05
+[+1]
+1.74
+[-2]
+5.70
+[-2]
+5.40
+[+2]
+1.29
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+[-5]
+125.0
+[-5]
+5.50
+[+5]
+1.05
+[-1]
+2.10
+[-1]
+3.50
+[+1]
+2.65
+[-2]
+2.14
+[-2]
+3.50
+[+2]
+2.58
+[-3]
+2.14
+[-3]
+3.22
+[+3]
+2.76
+[-4]
+4.10
+[-4]
+1.38
+[+4]
+5.80
+Handicap
+Manchester City (Home)
+Newcastle (Away)
+[-0.5/-1]
+2.22
+[+0.5/+1]
+1.67
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Newcastle (Away)
+[-4]
+1.71
+[+4]
+2.04
+[-3]
+1.001
+[+3]
+14.50
+[-2/-2.5]
+1.23
+[+2/+2.5]
+3.80
+[0/-0.5]
+1.27
+[0/+0.5]
+3.45
+[-1/-1.5]
+1.28
+[+1/+1.5]
+3.37
+[-0.5/-1]
+2.22
+[+0.5/+1]
+1.67
+[-3/-3.5]
+2.32
+[+3/+3.5]
+1.55
+Same Game All Up
+Erling HAALAND to score first & Manchester City to win & Over [11.5] corners taken
+12.50
+Alexander ISAK to score first in the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+19.00
+Both teams to score & Manchester City to win & Over [12.5] corners taken
+7.75
+Manchester City to win & Over [3.5] goals & Over [11.5] corners taken
+7.25
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+Both teams to score in the match & Over [1.5] goals in the first half & Manchester City to win the match by [2] goal(s) or more
+7.00
+Both teams to score & Newcastle to win & Under [10.5] corners taken
+10.00
+Both teams to score & Newcastle to win or draw & Over [11.5] corners taken
+5.25
+Newcastle to score first & Manchester City to win by [2] goal(s) or more
+18.00
+Manchester City to win the first half & Over [2.5] goals in the first half & Over [11.5] corners taken in the match
+14.50
+Over [7.5] corners taken in the first half & Over [13.5] corners taken in the match
+6.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+7.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+7.75
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+7.00
+The match to be drawn & Under [10.5] corners taken
+7.50
+Manchester City to win [1:0] in the first half & Manchester City to win [2:1] in the match
+25.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:1] in the match
+70.00
+Manchester City to win [2:1] in the first half & Manchester City to win [4:1] in the match
+90.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Newcastle to win [1:0] in the first half & Newcastle to win [2:1] in the match
+32.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.70
+2.02
+[3.5]
+1.90
+1.80
+[4.5]
+2.88
+1.35
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.15
+4.40
+[2.5/3]
+1.18
+4.05
+[3/3.5]
+2.15
+1.62
+[3.5]
+1.19
+3.95
+[3.5/4]
+3.25
+1.28
+[4/4.5]
+7.00
+1.05
+[4.5]
+8.00
+1.04
+[4.5/5]
+7.00
+1.05
+[5/5.5]
+12.00
+1.001
+[5.5]
+12.00
+1.001
+[6.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.87
+1.83
+[1.5/2]
+2.25
+1.57
+[2.5]
+3.65
+1.23
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.64
+2.12
+[1/1.5]
+2.55
+1.45
+[1.5]
+1.38
+2.75
+[1.5/2]
+1.86
+1.84
+[2/2.5]
+3.25
+1.28
+[2.5]
+1.57
+2.25
+[2.5/3]
+2.65
+1.41
+[3/3.5]
+5.40
+1.10
+[3.5]
+6.60
+1.06
+[3.5/4]
+5.90
+1.08
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.00
+1.72
+[12.5]
+2.58
+1.44
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.56
+2.27
+[9.5]
+1.30
+3.15
+[10.5]
+1.36
+2.85
+[11.5]
+1.37
+2.80
+[12.5]
+8.00
+1.04
+[13.5]
+10.50
+1.01
+[14.5]
+8.50
+1.03
+[15.5]
+6.60
+1.06
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.08
+1.66
+[6.5]
+2.98
+1.33
+[7.5]
+4.60
+1.14
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.12
+4.95
+[3.5]
+1.14
+4.60
+[4.5]
+1.43
+2.60
+[5.5]
+1.90
+1.80
+[6.5]
+6.25
+1.07
+[7.5]
+5.15
+1.11
+Correct Score
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1:0
+13.00
+0:0
+23.00
+0:1
+17.00
+2:0
+13.00
+1:1
+8.50
+0:2
+21.00
+2:1
+7.75
+2:2
+9.50
+1:2
+11.00
+3:0
+18.00
+3:3
+25.00
+0:3
+40.00
+3:1
+12.00
+1:3
+21.00
+3:2
+14.00
+2:3
+19.00
+4:0
+30.00
+0:4
+70.00
+4:1
+22.00
+1:4
+40.00
+4:2
+28.00
+2:4
+40.00
+5:0
+60.00
+0:5
+200.0
+5:1
+40.00
+1:5
+80.00
+5:2
+50.00
+2:5
+80.00
+Home Others
+(Away No Goal)
+100.0
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+21.00
+Draw Others
+55.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1:0
+15.00
+0:0
+17.00
+0:1
+10.50
+2:0
+11.50
+1:1
+8.75
+0:2
+16.00
+2:1
+7.60
+2:2
+12.50
+1:2
+14.00
+3:0
+1.41
+3:3
+1000
+0:3
+35.00
+3:1
+6.10
+1:3
+30.00
+3:2
+60.00
+2:3
+30.00
+4:0
+1.05
+0:4
+100.0
+4:1
+10.00
+1:4
+100.0
+4:2
+1000
+2:4
+100.0
+5:0
+8.50
+0:5
+400.0
+5:1
+175.0
+1:5
+400.0
+5:2
+1000
+2:5
+500.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1:0
+4.55
+0:0
+4.05
+0:1
+6.10
+2:0
+7.75
+1:1
+5.90
+0:2
+13.00
+2:1
+10.00
+2:2
+27.00
+1:2
+13.50
+3:0
+24.00
+3:3
+300.0
+0:3
+50.00
+3:1
+35.00
+1:3
+50.00
+3:2
+80.00
+2:3
+100.0
+4:0
+80.00
+0:4
+250.0
+4:1
+125.0
+1:4
+250.0
+4:2
+300.0
+2:4
+500.0
+5:0
+500.0
+0:5
+900.0
+5:1
+600.0
+1:5
+900.0
+5:2
+900.0
+2:5
+1500
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+600.0
+Draw Others
+2000
+Away Others
+(Home Scores)
+800.0
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Newcastle (Away)
+1:0
+2.08
+0:0
+2.39
+0:1
+4.80
+2:0
+1.50
+1:1
+4.75
+0:2
+18.00
+2:1
+4.45
+2:2
+35.00
+1:2
+23.00
+3:0
+1.15
+3:3
+2500
+0:3
+100.0
+3:1
+9.50
+1:3
+125.0
+3:2
+150.0
+2:3
+300.0
+4:0
+7.20
+0:4
+500.0
+4:1
+50.00
+1:4
+900.0
+4:2
+1500
+2:4
+2500
+5:0
+100.0
+0:5
+2500
+5:1
+1000
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Newcastle (Away)
+1.61
+23.00
+2.10
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Newcastle (Away)
+1st Goal
+1.65
+17.00
+2.10
+2nd Goal
+1.73
+15.00
+2.02
+3rd Goal
+1.75
+11.50
+2.08
+4th Goal
+3.75
+1.41
+6.00
+5th Goal
+8.50
+1.10
+10.50
+Total Goals
+0
+23.00
+1
+7.25
+2
+4.50
+3
+3.90
+4
+4.10
+5
+5.70
+6
+8.50
+7+
+10.00
+Total Goals- Last Odds for In Play Betting
+0
+17.00
+1
+15.00
+2
+11.50
+3
+1.41
+4
+1.05
+5
+5.20
+6
+150.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Manchester City (Home)
+Newcastle (Away)
+101 Erling HAALAND
+3.55
+201 Alexander ISAK
+3.85
+102 Omar MARMOUSH
+7.25
+202 Callum WILSON
+6.00
+103 Phil FODEN
+7.75
+203 Harvey BARNES
+9.00
+104 James McATEE
+11.00
+204 Anthony GORDON
+10.00
+105 Kevin DE BRUYNE
+11.00
+205 William OSULA
+10.50
+106 SAVINHO Moreira de Oliveira
+11.50
+206 Jacob MURPHY
+13.00
+107 Jeremy DOKU
+12.00
+207 Joe WILLOCK
+19.00
+108 Jack GREALISH
+12.50
+208 BRUNO GUIMARAES
+27.00
+109 BERNARDO SILVA
+17.00
+209 Fabian SCHAR
+27.00
+110 Nico O'REILLY
+17.00
+210 Sean LONGSTAFF
+30.00
+111 Ilkay GUNDOGAN
+20.00
+211 Lewis MILEY
+35.00
+112 Josko GVARDIOL
+20.00
+212 Sandro TONALI
+35.00
+113 Mateo KOVACIC
+20.00
+213 Dan BURN
+45.00
+114 Nico GONZALEZ Iglesias
+22.00
+214 Sven BOTMAN
+45.00
+115 John STONES
+40.00
+215 Emil KRAFTH
+60.00
+117 Nathan AKE
+45.00
+216 Kieran TRIPPIER
+60.00
+118 Vitor REIS
+45.00
+217 Lewis HALL
+60.00
+116 Abdukodir KHUSANOV
+50.00
+218 Matt TARGETT
+75.00
+119 Manuel AKANJI
+50.00
+219 Tino LIVRAMENTO
+75.00
+120 Home Others
+8.00
+220 Away Others
+10.50
+00 No First Scorer
+22.80
+HaFu
+H-H
+2.80
+H-D
+12.00
+H-A
+24.00
+D-H
+5.20
+D-D
+7.00
+D-A
+7.75
+A-H
+19.00
+A-D
+12.00
+A-A
+4.70
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.68
+(4) Be substituted
+6.00
+(5) None of the above
+2.50
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+1.84
+(2) 1 Goal
+2.40
+(3) 2 Goals
+5.50
+(4) 3 Goals or more
+13.00
+Item No.: 3 Which event will happen to Alexander ISAK (Newcastle) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.20
+(4) Be substituted
+2.70
+(5) None of the above
+3.05
+Item No.: 4 How many goal(s) will Alexander ISAK (Newcastle) score?
+(1) No Goal
+1.53
+(2) 1 Goal
+2.70
+(3) 2 Goals
+7.00
+(4) 3 Goals or more
+20.00
+Item No.: 5 Which event will happen to Anthony GORDON (Newcastle) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.10
+(4) Be substituted
+1.70
+(5) None of the above
+3.80

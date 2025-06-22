@@ -1,0 +1,168 @@
+{
+  "url": "https://fbref.com/en/matches/1b496cc1/Arsenal-Nottingham-Forest-October-30-2022-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Nottingham Forest",
+  "matchDate": "October 30, 2022",
+  "score": "5-0",
+  "homeScore": 5,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 5,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      },
+      {
+        "minute": 49,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 52,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      },
+      {
+        "minute": 57,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Reiss Nelson"
+      },
+      {
+        "minute": 78,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Gabriel Jesus"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 44,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 27,
+        "player": "Reiss Nelson",
+        "playerId": "c5bdb6e3",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Brennan Johnson",
+        "playerId": "0cd31129",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Emmanuel Dennis",
+        "playerId": "2c44a35d",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Fabio Vieira",
+        "playerId": "6412cc03",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Cédric Soares",
+        "playerId": "839c14e1",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Joe Worrall",
+        "playerId": "a5212312",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Neco Williams",
+        "playerId": "dd323728",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Lewis O'Brien",
+        "playerId": "089667a5",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 5,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://fbref.com/en/matches/aefd7405/Manchester-City-Sheffield-United-December-30-2023-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Sheffield United",
+  "matchDate": "December 30, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Rodri",
+        "playerId": "6434f10d",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Phil Foden"
+      },
+      {
+        "minute": 61,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Phil Foden"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 43,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City"
+      },
+      {
+        "minute": 89,
+        "player": "Jayden Bogle",
+        "playerId": "ae5019e6",
+        "team": "Sheffield United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 52,
+        "player": "Oscar Bobb",
+        "playerId": "eed2427e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Rhian Brewster",
+        "playerId": "30e81a88",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Cameron Archer",
+        "playerId": "05e8ca6d",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 68,
+        "player": "Rúben Dias",
+        "playerId": "31c69ef1",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Ben Osborn",
+        "playerId": "79bc4c45",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 90,
+        "player": "Rhys Norrington-Davies",
+        "playerId": "ca76b087",
+        "team": "Sheffield United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

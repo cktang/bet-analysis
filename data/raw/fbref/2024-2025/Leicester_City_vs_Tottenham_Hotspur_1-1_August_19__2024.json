@@ -1,0 +1,143 @@
+{
+  "url": "https://fbref.com/en/matches/62eea1d6/Leicester-City-Tottenham-Hotspur-August-19-2024-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "Tottenham Hotspur",
+  "matchDate": "August 19, 2024",
+  "score": "1-1",
+  "homeScore": 1,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 29,
+        "player": "Pedro Porro",
+        "playerId": "27d0a506",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "James Maddison"
+      },
+      {
+        "minute": 57,
+        "player": "Jamie Vardy",
+        "playerId": "45963054",
+        "team": "Leicester City",
+        "isPenalty": false,
+        "assist": "Abdul Fatawu Issahaku"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 64,
+        "player": "Rodrigo Bentancur",
+        "playerId": "3b8674e6",
+        "team": "Tottenham Hotspur"
+      },
+      {
+        "minute": 98,
+        "player": "Wout Faes",
+        "playerId": "9c221d14",
+        "team": "Leicester City"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 78,
+        "player": "Archie Gray",
+        "playerId": "f58515f5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Lucas Bergvall",
+        "playerId": "a109e5c8",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Timo Werner",
+        "playerId": "49fe9070",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Dejan Kulusevski",
+        "playerId": "df3cda47",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Boubakary Soumaré",
+        "playerId": "ae59b359",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Stephy Mavididi",
+        "playerId": "30144daa",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Kasey McAteer",
+        "playerId": "b2c66859",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Djed Spence",
+        "playerId": "9bc9a519",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 92,
+        "player": "Richarlison",
+        "playerId": "fa031b34",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

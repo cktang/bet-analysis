@@ -1,0 +1,159 @@
+{
+  "url": "https://fbref.com/en/matches/705a2f3c/Arsenal-Everton-March-1-2023-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Everton",
+  "matchDate": "March 1, 2023",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 40,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Oleksandr Zinchenko"
+      },
+      {
+        "minute": 46,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Bukayo Saka"
+      },
+      {
+        "minute": 71,
+        "player": "Martin Ødegaard",
+        "playerId": "79300479",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Leandro Trossard"
+      },
+      {
+        "minute": 80,
+        "player": "Gabriel Martinelli",
+        "playerId": "48a5a5d6",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Eddie Nketiah"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 51,
+        "player": "James Tarkowski",
+        "playerId": "15ea812b",
+        "team": "Everton"
+      },
+      {
+        "minute": 66,
+        "player": "Ben Godfrey",
+        "playerId": "9f7c837d",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Thomas Partey",
+        "playerId": "529f49ab",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Mason Holgate",
+        "playerId": "d0042ab9",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Ben Godfrey",
+        "playerId": "9f7c837d",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 61,
+        "player": "Demarai Gray",
+        "playerId": "4468ec10",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Fabio Vieira",
+        "playerId": "6412cc03",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Tom Davies",
+        "playerId": "9228b07c",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Emile Smith Rowe",
+        "playerId": "17695062",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "url": "https://fbref.com/en/matches/d55b9033/Chelsea-Bournemouth-December-27-2022-Premier-League",
+  "homeTeam": "Chelsea",
+  "awayTeam": "Bournemouth",
+  "matchDate": "December 27, 2022",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 16,
+        "player": "Kai Havertz",
+        "playerId": "fed7cb61",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Raheem Sterling"
+      },
+      {
+        "minute": 24,
+        "player": "Mason Mount",
+        "playerId": "9674002f",
+        "team": "Chelsea",
+        "isPenalty": false,
+        "assist": "Kai Havertz"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Jaidon Anthony",
+        "playerId": "e4238fb1",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 53,
+        "player": "César Azpilicueta",
+        "playerId": "53cad200",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Ryan Christie",
+        "playerId": "26ce2263",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Pierre-Emerick Aubameyang",
+        "playerId": "d5dd5f1f",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Conor Gallagher",
+        "playerId": "c2731c10",
+        "team": "Chelsea",
+        "type": "in"
+      },
+      {
+        "minute": 85,
+        "player": "Siriki Dembélé",
+        "playerId": "11f54bd5",
+        "team": "Bournemouth",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Trevoh Chalobah",
+        "playerId": "5515376c",
+        "team": "Chelsea",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

@@ -1,0 +1,803 @@
+08/12/2024
+FB4983
+Fulham
+vs
+Arsenal
+1
+:
+0
+1
+:
+1
+%Event ID: FB4983
+Fulham
+1
+1
+Arsenal
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Arsenal (Away)
+5.10
+4.05
+1.46
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Arsenal (Away)
+29.00
+1.08
+7.60
+First Half HAD
+Fulham (Home)
+Draw
+Arsenal (Away)
+5.10
+2.39
+1.90
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Arsenal (Away)
+1.07
+5.60
+125.0
+Handicap HAD
+Fulham (Home)
+Draw
+Arsenal (Away)
+[+1]
+2.36
+[+1]
+3.50
+[-1]
+2.32
+Handicap HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Arsenal (Away)
+[+1]
+1.06
+[+1]
+6.80
+[-1]
+20.00
+[+2]
+1.001
+[+2]
+7.20
+[-2]
+300.0
+Handicap
+Fulham (Home)
+Arsenal (Away)
+[+1]
+1.87
+[-1]
+1.95
+Handicap- Last Odds for In Play Betting
+Fulham (Home)
+Arsenal (Away)
+[0]
+1.65
+[0]
+2.13
+[+1/+1.5]
+1.001
+[-1/-1.5]
+125.0
+[0/+0.5]
+1.19
+[0/-0.5]
+4.25
+[+1]
+1.27
+[-1]
+3.45
+[+0.5/+1]
+1.46
+[-0.5/-1]
+2.54
+[0/-0.5]
+6.30
+[0/+0.5]
+1.09
+Same Game All Up
+Kai HAVERTZ to score first in the match & Over [1.5] goals in the first half & Arsenal to win the first half
+17.00
+Bukayo SAKA to score first & Over [3.5] goals & Over [11.5] corners taken
+30.00
+Raul JIMENEZ to score first in the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+30.00
+Both teams to score in the match & Arsenal to win the match by [2] goal(s) or more & Over [1.5] goals in the first half
+7.75
+Fulham to win & Over [2.5] goals
+8.50
+Fulham to score first & Arsenal to win by [2] goal(s) or more
+18.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+8.25
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.25
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+9.50
+Arsenal to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+7.75
+Both teams to score & Over [3.5] goals & Over [12.5] corners taken
+9.25
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+8.00
+Over [8.5] corners taken in the first half & Over [15.5] corners taken in the match
+13.50
+Fulham to win [1:0] in the first half & Fulham to win [2:0] in the match
+50.00
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+Arsenal to win [1:0] in the first half & Arsenal to win [3:1] in the match
+30.00
+Arsenal to win [2:0] in the first half & Arsenal to win [3:1] in the match
+45.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+40.00
+Arsenal to win [2:1] in the first half & Arsenal to win [4:1] in the match
+80.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.59
+2.20
+[2.5/3]
+1.75
+1.95
+[3.5]
+2.50
+1.46
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.85
+1.85
+[2.5]
+1.28
+3.25
+[2.5/3]
+7.00
+1.05
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[3.5/4]
+12.00
+1.001
+[4.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.20
+1.59
+[1.5/2]
+2.62
+1.42
+[2.5]
+4.30
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.63
+2.13
+[1/1.5]
+2.55
+1.45
+[1.5]
+1.37
+2.80
+[1.5/2]
+7.00
+1.05
+[2/2.5]
+9.50
+1.001
+[2.5]
+10.50
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.17
+1.61
+[12.5]
+2.60
+1.43
+[14.5]
+4.30
+1.16
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+7.00
+1.05
+[8.5]
+12.00
+1.001
+[9.5]
+12.00
+1.001
+[10.5]
+5.40
+1.10
+[11.5]
+4.95
+1.12
+[12.5]
+4.95
+1.12
+[13.5]
+4.15
+1.17
+[14.5]
+3.65
+1.23
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.05
+1.68
+[6.5]
+2.75
+1.38
+[7.5]
+4.05
+1.18
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.44
+2.58
+[5.5]
+9.50
+1.02
+[6.5]
+9.50
+1.005
+[7.5]
+12.00
+1.001
+Correct Score
+Fulham (Home)
+Draw
+Arsenal (Away)
+1:0
+17.00
+0:0
+13.50
+0:1
+7.00
+2:0
+29.00
+1:1
+7.50
+0:2
+7.00
+2:1
+13.50
+2:2
+13.00
+1:2
+6.90
+3:0
+60.00
+3:3
+40.00
+0:3
+11.00
+3:1
+40.00
+1:3
+11.00
+3:2
+35.00
+2:3
+20.00
+4:0
+200.0
+0:4
+20.00
+4:1
+100.0
+1:4
+20.00
+4:2
+100.0
+2:4
+35.00
+5:0
+600.0
+0:5
+40.00
+5:1
+400.0
+1:5
+40.00
+5:2
+400.0
+2:5
+70.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+70.00
+Home Others
+(Away Scores)
+100.0
+Draw Others
+150.0
+Away Others
+(Home Scores)
+30.00
+Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Arsenal (Away)
+1:0
+3.30
+0:0
+11.50
+0:1
+5.40
+2:0
+9.00
+1:1
+1.15
+0:2
+5.70
+2:1
+23.10
+2:2
+150.0
+1:2
+5.40
+3:0
+50.00
+3:3
+1000
+0:3
+8.75
+3:1
+1000
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+500.0
+0:4
+18.00
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+45.00
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+100.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Fulham (Home)
+Draw
+Arsenal (Away)
+1:0
+6.80
+0:0
+3.15
+0:1
+3.35
+2:0
+22.00
+1:1
+6.80
+0:2
+6.60
+2:1
+23.00
+2:2
+50.00
+1:2
+12.00
+3:0
+125.0
+3:3
+700.0
+0:3
+17.00
+3:1
+150.0
+1:3
+40.00
+3:2
+300.0
+2:3
+150.0
+4:0
+700.0
+0:4
+70.00
+4:1
+700.0
+1:4
+150.0
+4:2
+1000
+2:4
+500.0
+5:0
+2500
+0:5
+400.0
+5:1
+2500
+1:5
+600.0
+5:2
+2500
+2:5
+1500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+900.0
+First Half Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Arsenal (Away)
+1:0
+1.09
+0:0
+2.31
+0:1
+2.88
+2:0
+24.00
+1:1
+6.80
+0:2
+7.40
+2:1
+125.0
+2:2
+2500
+1:2
+100.0
+3:0
+1500
+3:3
+2500
+0:3
+29.00
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+125.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+600.0
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Fulham (Home)
+No Goals
+Arsenal (Away)
+2.88
+13.50
+1.39
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+3.24
+11.50
+1.35
+2nd Goal
+4.90
+3.85
+1.48
+3rd Goal
+20.00
+1.13
+5.70
+Total Goals
+0
+13.50
+1
+5.50
+2
+3.65
+3
+3.65
+4
+4.55
+5
+6.90
+6
+13.00
+7+
+19.00
+Total Goals- Last Odds for In Play Betting
+0
+11.50
+1
+3.30
+2
+1.18
+3
+3.60
+4
+50.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Fulham (Home)
+Arsenal (Away)
+101 Raul JIMENEZ
+7.25
+201 Bukayo SAKA
+4.15
+102 Rodrigo MUNIZ Carvalho
+9.00
+202 Kai HAVERTZ
+4.60
+103 Alex IWOBI
+12.50
+203 GABRIEL Fernando JESUS
+5.80
+104 Emile Smith ROWE
+12.50
+205 Leandro TROSSARD
+6.40
+105 Adama TRAORE Diarra
+13.50
+204 GABRIEL Teodoro MARTINELLI
+6.70
+106 Harry WILSON
+13.50
+206 Raheem STERLING
+6.80
+107 Andreas PEREIRA
+15.00
+208 Martin ODEGAARD
+8.25
+108 Joshua David KING
+19.00
+207 Ethan NWANERI
+8.50
+109 Sander BERGE
+40.00
+209 GABRIEL Magalhaes
+13.00
+110 Issa DIOP
+45.00
+210 Mikel MERINO
+14.50
+111 Ryan SESSEGNON
+45.00
+211 Declan RICE
+15.00
+112 Kenny TETE
+50.00
+212 Thomas PARTEY
+20.00
+113 Sasa LUKIC
+55.00
+213 JORGINHO Luiz Frello
+22.00
+114 Timothy CASTAGNE
+65.00
+214 Jurrien TIMBER
+30.00
+115 Antonee ROBINSON
+70.00
+215 Riccardo CALAFIORI
+30.00
+116 Calvin BASSEY
+70.00
+216 Oleksandr ZINCHENKO
+40.00
+117 Jorge CUENCA
+70.00
+217 Jakub KIWIOR
+50.00
+218 William SALIBA
+50.00
+219 Josh NICHOLS
+65.00
+120 Home Others
+21.00
+220 Away Others
+10.00
+00 No First Scorer
+13.30
+HaFu
+H-H
+8.25
+H-D
+14.50
+H-A
+20.00
+D-H
+11.00
+D-D
+6.50
+D-A
+4.10
+A-H
+35.00
+A-D
+14.50
+A-A
+2.13
+Specials
+Item No.: 1 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.80
+(4) Be substituted
+1.29
+(5) None of the above
+7.00
+Item No.: 2 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.80
+(4) Be substituted
+1.80
+(5) None of the above
+4.75
+Item No.: 3 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.65
+(4) Be substituted
+1.56
+(5) None of the above
+3.65
+Item No.: 4 Which event will happen to Kai HAVERTZ (Arsenal) first?
+(1) Receive a Yellow Card
+5.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.50
+(4) Be substituted
+7.00
+(5) None of the above
+1.89
+Item No.: 5 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+1.39
+(5) None of the above
+5.80

@@ -1,0 +1,584 @@
+16/03/2024
+FB3255
+Luton
+vs
+Nottingham
+Forest
+0
+:
+1
+1
+:
+1
+%Event ID: FB3255
+Luton
+1
+1
+Nottingham Forest
+Eng Premier
+Home/Away/Draw
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+2.40
+3.40
+2.40
+Home/Away/Draw- Last Odds for In Play Betting
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+11.00
+1.07
+11.50
+First Half HAD
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+2.92
+2.20
+2.92
+First Half HAD- Last Odds for In Play Betting
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+600.0
+11.00
+1.02
+Handicap HAD
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+[+1]
+1.46
+[+1]
+4.25
+[-1]
+4.55
+Handicap
+Luton (Home)
+Nottingham Forest (Away)
+[0]
+1.91
+[0]
+1.91
+Same Game All Up
+Nottingham Forest to win & Over [2.5] goals & Over [11.5] corners taken
+7.20
+Nottingham Forest to win the first half & Luton to score in the first half
+13.00
+Nottingham Forest to win [1:0] in the first half & Nottingham Forest to win [3:1] in the match
+50.00
+Luton to win [1:0] in the first half & Nottingham Forest to win [2:1] in the match
+40.00
+First half to be drawn [1:1] & Nottingham Forest to win [3:2] in the match
+60.00
+Luton to win & Over [2.5] goals
+3.75
+Luton to win the first half & Nottingham Forest to score in the first half
+14.50
+Luton to win [1:0] in the first half & Luton to win [3:1] in the match
+50.00
+Luton to win [1:0] in the first half & Luton to win [3:2] in the match
+80.00
+Over [5.5] goals & Luton to score
+9.50
+Nottingham Forest to score first in the match & Nottingham Forest to win the first half & Over [1.5] goals in the first half
+6.80
+Luton to score first in the match & Over [1.5] goals in the first half
+4.45
+Luton to score first & Nottingham Forest to win by [2] goal(s) or more
+29.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [13.5] corners taken in the match
+11.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+5.70
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+8.50
+Nottingham Forest to win both first half and the match & Exactly [4] goals in the Match
+18.00
+Nottingham Forest to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+12.50
+Nottingham Forest to win both first half and the match & Exactly [3] goals in the Match
+11.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+9.75
+HiLo
+Line
+High
+Low
+[2.5]
+1.56
+2.27
+[2.5/3]
+1.74
+1.97
+[3.5]
+2.45
+1.48
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+6.25
+1.07
+[1.5]
+1.07
+6.25
+[1.5/2]
+4.15
+1.17
+[2/2.5]
+9.50
+1.02
+[2.5]
+9.50
+1.02
+[3/3.5]
+11.50
+1.002
+[3.5]
+12.00
+1.001
+[3.5/4]
+3.70
+1.22
+[4.5]
+5.90
+1.08
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.22
+1.58
+[1.5/2]
+2.70
+1.39
+[2.5]
+4.60
+1.14
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.25
+1.07
+[0.5/1]
+3.10
+1.31
+[1/1.5]
+5.90
+1.08
+[1.5]
+6.60
+1.06
+[2.5]
+12.00
+1.001
+[2.5/3]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.01
+1.71
+[12.5]
+2.40
+1.50
+[14.5]
+3.80
+1.21
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[13.5]
+3.80
+1.21
+[7.5]
+1.40
+2.68
+[8.5]
+1.22
+3.70
+[9.5]
+1.04
+8.00
+[10.5]
+1.16
+4.30
+[11.5]
+1.27
+3.35
+[12.5]
+1.40
+2.68
+[14.5]
+8.50
+1.03
+Correct Score
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+10.50
+0:0
+14.00
+0:1
+10.50
+2:0
+13.50
+1:1
+6.90
+0:2
+13.50
+2:1
+8.25
+2:2
+9.75
+1:2
+8.25
+3:0
+25.00
+3:3
+30.00
+0:3
+25.00
+3:1
+18.00
+1:3
+18.00
+3:2
+21.00
+2:3
+21.00
+4:0
+50.00
+0:4
+50.00
+4:1
+40.00
+1:4
+40.00
+4:2
+40.00
+2:4
+40.00
+5:0
+125.0
+0:5
+125.0
+5:1
+80.00
+1:5
+80.00
+5:2
+100.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+350.0
+Away Others
+(Home No Goal)
+350.0
+Home Others
+(Away Scores)
+35.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+35.00
+Correct Score- Last Odds for In Play Betting
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+6.40
+0:0
+7.00
+0:1
+1.29
+2:0
+13.00
+1:1
+1.08
+0:2
+5.50
+2:1
+11.10
+2:2
+100.0
+1:2
+11.60
+3:0
+40.00
+3:3
+1000
+0:3
+60.00
+3:1
+350.0
+1:3
+400.0
+3:2
+1000
+2:3
+1000
+4:0
+150.0
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+4.85
+0:0
+3.05
+0:1
+4.85
+2:0
+10.00
+1:1
+6.00
+0:2
+10.00
+2:1
+14.00
+2:2
+40.00
+1:2
+14.00
+3:0
+40.00
+3:3
+500.0
+0:3
+40.00
+3:1
+60.00
+1:3
+60.00
+3:2
+150.0
+2:3
+150.0
+4:0
+200.0
+0:4
+200.0
+4:1
+300.0
+1:4
+300.0
+4:2
+700.0
+2:4
+700.0
+5:0
+800.0
+0:5
+800.0
+5:1
+1000
+1:5
+1000
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Luton (Home)
+Draw
+Nottingham Forest (Away)
+1:0
+5.40
+0:0
+1.41
+0:1
+1.05
+2:0
+50.00
+1:1
+12.50
+0:2
+13.50
+2:1
+250.0
+2:2
+2500
+1:2
+100.0
+3:0
+450.0
+3:3
+2500
+0:3
+250.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Luton (Home)
+No Goals
+Nottingham Forest (Away)
+1.87
+14.00
+1.87
+Next Team To Score- Last Odds for In Play Betting
+Luton (Home)
+No Goals
+Nottingham Forest (Away)
+1st Goal
+2.26
+7.00
+1.80
+2nd Goal
+5.40
+1.29
+5.40
+3rd Goal
+9.00
+1.08
+9.50
+Total Goals
+0
+14.00
+1
+5.50
+2
+3.80
+3
+3.75
+4
+4.50
+5
+6.90
+6
+11.50
+7+
+16.00
+Odd/Even
+Odd
+Even
+1.87
+1.83
+HaFu
+H-H
+3.60
+H-D
+14.50
+H-A
+27.00
+D-H
+5.90
+D-D
+5.30
+D-A
+5.90
+A-H
+27.00
+A-D
+14.50
+A-A
+3.60

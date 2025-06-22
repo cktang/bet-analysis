@@ -1,0 +1,272 @@
+19/08/2023
+FB4428
+Fulham
+vs
+Brentford
+0
+:
+1
+0
+:
+3
+%Event ID: FB4428
+Fulham
+0
+3
+Brentford
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Brentford (Away)
+2.60
+3.05
+2.43
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brentford (Away)
+600.0
+50.00
+1.001
+First Half HAD
+Fulham (Home)
+Draw
+Brentford (Away)
+3.15
+2.05
+3.00
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brentford (Away)
+50.00
+18.00
+1.001
+Handicap HAD
+Fulham (Home)
+Draw
+Brentford (Away)
+[+1]
+1.45
+[+1]
+4.00
+[-1]
+5.10
+Handicap
+Fulham (Home)
+Brentford (Away)
+[0]
+1.97
+[0]
+1.85
+Same Game All Up
+Fulham to win & Over [2.5] goals & Over [11.5] corners taken
+10.50
+The match to be drawn & Under [10.5] corners taken
+5.50
+Brentford to win & Over [3.5] goals
+9.00
+Fulham to score first in the match & Fulham to win the first half & Over [1.5] goals in the first half
+9.00
+Fulham to score first & Brentford to win or draw
+5.20
+Brentford to score first in the match & Over [1.5] goals in the first half
+5.25
+Brentford to score first & Fulham to win by [2] goal(s) or more
+45.00
+First Half to be drawn & Fulham to win the match by exactly [1] goal(s)
+8.50
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+12.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+5.50
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+14.00
+Fulham to win both first half and the match & Exactly [4] goals in the Match
+25.00
+Fulham to win both first half and the match & Over [1.5] goals in the first half & Over [10.5] corners taken in the match
+18.00
+Brentford to win both first half and the match & Exactly [3] goals in the Match
+13.00
+Both first half and the match to be drawn & Over [10.5] corners taken in the match
+9.50
+HiLo
+Line
+High
+Low
+[2.5]
+1.98
+1.73
+[2.5/3]
+2.27
+1.56
+[3.5]
+3.35
+1.27
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+8.50
+1.03
+[1/1.5]
+1.92
+1.78
+[1.5]
+1.23
+3.65
+[1.5/2]
+2.08
+1.66
+[2/2.5]
+3.80
+1.21
+[2.5]
+1.68
+2.05
+[2.5/3]
+5.10
+1.12
+[3/3.5]
+10.50
+1.01
+[3.5]
+11.00
+1.005
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.75
+1.39
+[1.5/2]
+3.55
+1.24
+[2.5]
+6.10
+1.08
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+10.50
+1.01
+[0.5/1]
+7.00
+1.06
+[1/1.5]
+9.50
+1.001
+[1.5]
+9.50
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.98
+1.73
+[11.5]
+2.50
+1.46
+[13.5]
+4.30
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[11.5]
+8.00
+1.04
+[8.5]
+1.32
+3.05
+[9.5]
+1.04
+8.00
+[10.5]
+1.06
+7.00
+[12.5]
+8.50
+1.001
+[13.5]
+5.55
+1.10
+First Team to Score
+Fulham (Home)
+No Goals
+Brentford (Away)
+2.00
+8.75
+1.92
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Brentford (Away)
+1st Goal
+2.46
+3.34
+2.33
+2nd Goal
+4.80
+1.88
+2.53
+3rd Goal
+10.50
+1.23
+4.45
+4th Goal
+19.00
+1.06
+8.00
+Total Goals
+0
+8.75
+1
+4.10
+2
+3.35
+3
+3.85
+4
+5.70
+5
+10.00
+6
+19.00
+7+
+29.00
+Odd/Even
+Odd
+Even
+1.88
+1.82
+HaFu
+H-H
+4.25
+H-D
+13.00
+H-A
+27.00
+D-H
+6.00
+D-D
+4.50
+D-A
+5.70
+A-H
+27.00
+A-D
+13.00
+A-A
+4.00

@@ -1,0 +1,617 @@
+06/08/2022
+FB0281
+Crystal
+Palace
+vs
+Arsenal
+0
+:
+1
+0
+:
+2
+%Event ID: FB0281
+Crystal Palace
+0
+2
+Arsenal
+Eng Premier
+Home/Away/Draw
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+4.40
+3.40
+1.66
+Home/Away/Draw- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1000
+90.00
+1.001
+First Half HAD
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+4.75
+2.13
+2.20
+First Half HAD- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1000
+18.00
+1.01
+Handicap HAD
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+[+1]
+2.04
+[+1]
+3.45
+[-1]
+2.80
+Handicap
+Crystal Palace (Home)
+Arsenal (Away)
+[+0.5/+1]
+1.82
+[-0.5/-1]
+2.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.92
+1.78
+[2.5/3]
+2.20
+1.59
+[3.5]
+3.25
+1.28
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+6.50
+1.07
+[1.5]
+1.48
+2.45
+[1.5/2]
+4.90
+1.13
+[2/2.5]
+5.30
+1.11
+[2.5]
+5.30
+1.11
+[3.5]
+5.30
+1.11
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.68
+1.41
+[1.5/2]
+3.40
+1.26
+[2.5]
+5.80
+1.09
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.50
+1.07
+[0.5/1]
+2.33
+1.53
+[1.5]
+2.68
+1.41
+[2.5]
+5.80
+1.09
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.15
+1.62
+[11.5]
+2.75
+1.39
+[13.5]
+4.55
+1.15
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+8.00
+1.04
+[8.5]
+2.88
+1.36
+[9.5]
+4.55
+1.15
+[10.5]
+3.65
+1.23
+[11.5]
+2.88
+1.36
+[13.5]
+4.55
+1.15
+Correct Score
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1:0
+11.50
+0:0
+9.00
+0:1
+5.80
+2:0
+21.00
+1:1
+6.40
+0:2
+6.90
+2:1
+13.00
+2:2
+14.00
+1:2
+7.00
+3:0
+50.00
+3:3
+60.00
+0:3
+13.00
+3:1
+35.00
+1:3
+13.00
+3:2
+40.00
+2:3
+26.00
+4:0
+150.0
+0:4
+30.00
+4:1
+100.0
+1:4
+35.00
+4:2
+125.0
+2:4
+50.00
+5:0
+600.0
+0:5
+60.00
+5:1
+500.0
+1:5
+60.00
+5:2
+500.0
+2:5
+125.0
+Home Others
+150.0
+Draw Others
+200.0
+Away Others
+35.00
+Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1:0
+9.50
+0:0
+6.80
+0:1
+1.25
+2:0
+25.00
+1:1
+7.30
+0:2
+1.10
+2:1
+91.00
+2:2
+450.0
+1:2
+10.50
+3:0
+100.0
+3:3
+1000
+0:3
+9.25
+3:1
+1000
+1:3
+125.0
+3:2
+1000
+2:3
+1000
+4:0
+700.0
+0:4
+300.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+1000
+Draw Others
+1000
+Away Others
+1000
+First Half Correct Score
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1:0
+6.60
+0:0
+2.55
+0:1
+3.55
+2:0
+21.00
+1:1
+7.00
+0:2
+7.00
+2:1
+27.00
+2:2
+70.00
+1:2
+15.00
+3:0
+125.0
+3:3
+900.0
+0:3
+27.00
+3:1
+150.0
+1:3
+60.00
+3:2
+400.0
+2:3
+250.0
+4:0
+700.0
+0:4
+125.0
+4:1
+800.0
+1:4
+300.0
+4:2
+2000
+2:4
+800.0
+5:0
+4000
+0:5
+600.0
+5:1
+5000
+1:5
+900.0
+5:2
+5000
+2:5
+3000
+Home Others
+4000
+Draw Others
+5000
+Away Others
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+Draw
+Arsenal (Away)
+1:0
+7.40
+0:0
+1.71
+0:1
+1.09
+2:0
+60.00
+1:1
+14.60
+0:2
+9.25
+2:1
+801.0
+2:2
+5000
+1:2
+150.0
+3:0
+450.0
+3:3
+5000
+0:3
+200.0
+3:1
+5000
+1:3
+5000
+3:2
+5000
+2:3
+5000
+4:0
+5000
+0:4
+5000
+4:1
+5000
+1:4
+5000
+4:2
+5000
+2:4
+5000
+5:0
+5000
+0:5
+5000
+5:1
+5000
+1:5
+5000
+5:2
+5000
+2:5
+5000
+Home Others
+5000
+Draw Others
+5000
+Away Others
+5000
+First Team to Score
+Crystal Palace (Home)
+No Goals
+Arsenal (Away)
+2.75
+9.00
+1.51
+Next Team To Score- Last Odds for In Play Betting
+Crystal Palace (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+3.16
+6.80
+1.49
+2nd Goal
+6.40
+1.25
+5.60
+3rd Goal
+10.00
+1.10
+9.00
+Total Goals
+0
+9.00
+1
+4.30
+2
+3.35
+3
+3.80
+4
+5.50
+5
+9.75
+6
+20.00
+7+
+30.00
+Odd/Even
+Odd
+Even
+1.89
+1.81
+First Scorer
+Crystal Palace (Home)
+Arsenal (Away)
+101 Wilfried ZAHA
+6.50
+201 GABRIEL Fernando JESUS
+3.65
+102 Odsonne EDOUARD
+7.50
+202 Bukayo SAKA
+5.80
+103 Christian BENTEKE
+9.50
+203 Eddie NKETIAH
+6.20
+104 Jean-Philippe MATETA
+13.00
+204 GABRIEL Teodoro MARTINELLI
+6.20
+105 Jordan AYEW
+14.00
+205 Nicolas PEPE
+8.25
+106 Michael OLISE
+20.00
+206 Martin ODEGAARD
+9.50
+107 Eberechi EZE
+24.00
+207 Granit XHAKA
+19.00
+108 Jeffrey SCHLUPP
+24.00
+208 Albert SAMBI LOKONGA
+22.00
+109 Luka MILIVOJEVIC
+25.00
+209 GABRIEL Magalhaes
+23.00
+110 Will HUGHES
+35.00
+210 Thomas PARTEY
+23.00
+111 Cheick Oumar DOUCOURE
+40.00
+211 Mohamed ELNENY
+29.00
+112 Joachim ANDERSEN
+45.00
+212 Oleksandr ZINCHENKO
+35.00
+113 Marc GUEHI
+45.00
+213 Rob HOLDING
+35.00
+114 Chris RICHARDS
+55.00
+214 William SALIBA
+35.00
+215 Kieran TIERNEY
+40.00
+216 Ben WHITE
+45.00
+217 Takehiro TOMIYASU
+45.00
+218 CEDRIC Soares
+50.00
+120 Home Others
+17.00
+220 Away Others
+14.00
+00 No First Scorer
+8.80
+HaFu
+H-H
+7.50
+H-D
+14.50
+H-A
+21.00
+D-H
+9.50
+D-D
+5.00
+D-A
+4.25
+A-H
+35.00
+A-D
+14.50
+A-A
+2.58
+Specials
+Item No.: 1 Which event will happen to Wilfried ZAHA (Crystal Palace) first?
+(1) Receive a Yellow Card
+4.35
+(2) Receive a Red Card
+80.00
+(3) Score a Goal
+3.45
+(4) Be substituted
+7.00
+(5) None of the above
+1.64
+Item No.: 2 Which event will happen to GABRIEL Fernando JESUS (Arsenal) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.17
+(4) Be substituted
+4.10
+(5) None of the above
+2.22
+Item No.: 3 How many goal(s) will GABRIEL Fernando JESUS (Arsenal) score?
+(1) No Goal
+1.45
+(2) 1 Goal
+2.75
+(3) 2 Goals
+8.00
+(4) 3 Goals or more
+20.00
+Item No.: 4 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+6.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.05
+(4) Be substituted
+2.82
+(5) None of the above
+2.22
+Item No.: 5 Which event will happen to GABRIEL Teodoro MARTINELLI (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.30
+(4) Be substituted
+2.40
+(5) None of the above
+2.25

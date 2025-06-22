@@ -1,0 +1,175 @@
+{
+  "url": "https://fbref.com/en/matches/fca82852/Crystal-Palace-Manchester-City-April-6-2024-Premier-League",
+  "homeTeam": "Crystal Palace",
+  "awayTeam": "Manchester City",
+  "matchDate": "April 6, 2024",
+  "score": "2-4",
+  "homeScore": 2,
+  "awayScore": 4,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 3,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Adam Wharton"
+      },
+      {
+        "minute": 13,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 47,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      },
+      {
+        "minute": 66,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 70,
+        "player": "Kevin De Bruyne",
+        "playerId": "e46012d4",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Rodri"
+      },
+      {
+        "minute": 86,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Jeffrey Schlupp"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 47,
+        "player": "Joško Gvardiol",
+        "playerId": "5ad50391",
+        "team": "Manchester City"
+      },
+      {
+        "minute": 62,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Manuel Akanji",
+        "playerId": "89ac64a6",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 64,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Matheus Nunes",
+        "playerId": "e6af02e0",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Mateo Kovačić",
+        "playerId": "79c0821a",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Odsonne Édouard",
+        "playerId": "0562b7f1",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 74,
+        "player": "Michael Olise",
+        "playerId": "c4486bac",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 75,
+        "player": "Nathaniel Clyne",
+        "playerId": "0442183b",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Naouirou Ahamada",
+        "playerId": "a6c58494",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Bernardo Silva",
+        "playerId": "3eb22ec9",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 6,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

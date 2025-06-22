@@ -1,0 +1,822 @@
+02/02/2025
+FB6970
+Brentford
+vs
+Tottenham
+0
+:
+1
+0
+:
+2
+%Event ID: FB6970
+Brentford
+0
+2
+Tottenham
+Eng Premier
+Home/Away/Draw
+Brentford (Home)
+Draw
+Tottenham (Away)
+1.84
+4.10
+2.94
+Home/Away/Draw- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+60.00
+29.00
+1.02
+First Half HAD
+Brentford (Home)
+Draw
+Tottenham (Away)
+2.20
+2.72
+3.15
+First Half HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+45.00
+5.10
+1.07
+Handicap HAD
+Brentford (Home)
+Draw
+Tottenham (Away)
+[+1]
+1.30
+[+1]
+5.30
+[-1]
+5.50
+[-1]
+3.00
+[-1]
+4.15
+[+1]
+1.77
+Handicap HAD- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+[-1]
+12.50
+[-1]
+6.60
+[+1]
+1.10
+[+2]
+3.95
+[+2]
+1.35
+[-2]
+6.80
+[+1]
+35.00
+[+1]
+4.15
+[-1]
+1.15
+Handicap
+Brentford (Home)
+Tottenham (Away)
+[0/-0.5]
+1.76
+[0/+0.5]
+2.08
+Handicap- Last Odds for In Play Betting
+Brentford (Home)
+Tottenham (Away)
+[0/-0.5]
+3.13
+[0/+0.5]
+1.32
+[+2]
+1.45
+[-2]
+2.58
+[0/+0.5]
+2.15
+[0/-0.5]
+1.64
+[+0.5/+1]
+2.61
+[-0.5/-1]
+1.44
+[+1]
+14.50
+[-1]
+1.001
+Same Game All Up
+Both teams to score & Brentford to win & Over [13.5] corners taken
+7.80
+Brentford to win & Over [3.5] goals & Over [12.5] corners taken
+7.40
+Brentford to win [2:0] in the first half & Brentford to win [3:1] in the match
+50.00
+Both teams to score in the match & Over [1.5] goals in the first half & Brentford to win the match by [2] goal(s) or more
+6.60
+Both teams to score & Tottenham to win & Under [8.5] corners taken
+19.00
+Both teams to score & Tottenham to win or draw & Over [13.5] corners taken
+6.30
+Tottenham to score first & Brentford to win by [3] goal(s) or more
+35.00
+Brentford to win the first half & Over [2.5] goals in the first half & Over [12.5] corners taken in the match
+14.00
+Over [7.5] corners taken in the first half & Over [15.5] corners taken in the match
+7.20
+Under [4.5] corners taken in the first half & Under [7.5] corners taken in the match
+8.00
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+7.20
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [8.5] corners taken in the match
+17.00
+First Half to be drawn & Brentford to win the match by [2] goal(s) or more
+13.00
+Over [2.5] goals in the first half & Over [5.5] goals in the match
+6.90
+The match to be drawn & Under [8.5] corners taken
+18.00
+Brentford to win [1:0] in the first half & Brentford to win [2:1] in the match
+27.00
+Brentford to win [2:0] in the first half & Brentford to win [3:0] in the match
+45.00
+Brentford to win [2:0] in the first half & Brentford to win [4:0] in the match
+70.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Tottenham to win [1:0] in the first half & Tottenham to win [2:0] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.65
+2.10
+[3.5/4]
+1.80
+1.90
+[4.5]
+2.45
+1.48
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+3.35
+1.27
+[2/2.5]
+7.00
+1.05
+[2.5]
+8.00
+1.04
+[2.5/3]
+3.80
+1.21
+[3/3.5]
+9.50
+1.02
+[3.5]
+9.50
+1.02
+[3.5/4]
+2.20
+1.59
+[4.5]
+4.75
+1.13
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.69
+2.04
+[1.5/2]
+1.95
+1.75
+[2.5]
+3.10
+1.31
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+2.19
+1.60
+[1/1.5]
+3.95
+1.19
+[1.5]
+1.71
+2.01
+[1.5/2]
+4.95
+1.12
+[2/2.5]
+11.00
+1.005
+[2.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[12.5]
+2.07
+1.67
+[13.5]
+2.48
+1.47
+[15.5]
+3.95
+1.19
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.46
+2.50
+[10.5]
+1.45
+2.55
+[11.5]
+1.25
+3.45
+[12.5]
+1.40
+2.68
+[13.5]
+1.10
+5.40
+[14.5]
+2.58
+1.44
+[15.5]
+4.95
+1.12
+[16.5]
+10.50
+1.01
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.83
+1.87
+[6.5]
+2.48
+1.47
+[8.5]
+4.95
+1.12
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.38
+2.75
+[4.5]
+1.18
+4.05
+[5.5]
+1.27
+3.35
+[6.5]
+2.55
+1.45
+[7.5]
+4.95
+1.12
+[8.5]
+10.50
+1.01
+Correct Score
+Brentford (Home)
+Draw
+Tottenham (Away)
+1:0
+17.00
+0:0
+30.00
+0:1
+21.00
+2:0
+17.00
+1:1
+10.50
+0:2
+24.00
+2:1
+8.50
+2:2
+9.00
+1:2
+11.00
+3:0
+21.00
+3:3
+21.00
+0:3
+40.00
+3:1
+11.50
+1:3
+19.00
+3:2
+12.50
+2:3
+17.00
+4:0
+35.00
+0:4
+60.00
+4:1
+21.00
+1:4
+40.00
+4:2
+23.00
+2:4
+35.00
+5:0
+60.00
+0:5
+150.0
+5:1
+40.00
+1:5
+70.00
+5:2
+40.00
+2:5
+70.00
+Home Others
+(Away No Goal)
+80.00
+Away Others
+(Home No Goal)
+400.0
+Home Others
+(Away Scores)
+14.00
+Draw Others
+40.00
+Away Others
+(Home Scores)
+23.00
+Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+1:0
+7.00
+0:0
+10.50
+0:1
+1.39
+2:0
+9.00
+1:1
+4.75
+0:2
+1.08
+2:1
+22.00
+2:2
+200.0
+1:2
+8.50
+3:0
+17.00
+3:3
+1000
+0:3
+14.00
+3:1
+250.0
+1:3
+90.00
+3:2
+1000
+2:3
+1000
+4:0
+45.00
+0:4
+600.0
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+150.0
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+450.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Brentford (Home)
+Draw
+Tottenham (Away)
+1:0
+5.00
+0:0
+4.85
+0:1
+6.40
+2:0
+8.00
+1:1
+5.70
+0:2
+12.50
+2:1
+9.75
+2:2
+22.00
+1:2
+12.00
+3:0
+23.00
+3:3
+200.0
+0:3
+40.00
+3:1
+28.00
+1:3
+40.00
+3:2
+60.00
+2:3
+70.00
+4:0
+80.00
+0:4
+200.0
+4:1
+80.00
+1:4
+150.0
+4:2
+200.0
+2:4
+400.0
+5:0
+400.0
+0:5
+700.0
+5:1
+500.0
+1:5
+700.0
+5:2
+700.0
+2:5
+1000
+Home Others
+(Away No Goal)
+900.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+1500
+Away Others
+(Home Scores)
+600.0
+First Half Correct Score- Last Odds for In Play Betting
+Brentford (Home)
+Draw
+Tottenham (Away)
+1:0
+3.75
+0:0
+1.73
+0:1
+1.20
+2:0
+17.00
+1:1
+5.10
+0:2
+8.25
+2:1
+51.00
+2:2
+300.0
+1:2
+50.00
+3:0
+100.0
+3:3
+2500
+0:3
+150.0
+3:1
+1500
+1:3
+600.0
+3:2
+2500
+2:3
+2500
+4:0
+800.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Brentford (Home)
+No Goals
+Tottenham (Away)
+1.61
+30.00
+2.05
+Next Team To Score- Last Odds for In Play Betting
+Brentford (Home)
+No Goals
+Tottenham (Away)
+1st Goal
+1.71
+10.50
+2.16
+2nd Goal
+3.85
+1.39
+6.20
+3rd Goal
+8.25
+1.08
+13.50
+Total Goals
+0
+30.00
+1
+10.00
+2
+5.40
+3
+4.05
+4
+4.00
+5
+5.10
+6
+7.00
+7+
+7.00
+Total Goals- Last Odds for In Play Betting
+0
+10.50
+1
+1.39
+2
+1.30
+3
+2.96
+4
+16.00
+5
+150.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Brentford (Home)
+Tottenham (Away)
+101 Bryan MBEUMO
+4.25
+201 RICHARLISON de Andrade
+6.60
+102 Yoane WISSA
+4.55
+202 SON Heung Min
+7.25
+103 Kevin SCHADE
+7.00
+203 Dane SCARLETT
+7.50
+104 Fabio CARVALHO
+8.00
+205 Luca WILLIAMS-BARNETT
+9.50
+105 Tony YOGANE
+13.50
+204 Dejan KULUSEVSKI
+9.75
+106 Paris MAGHOMA
+14.00
+206 Mikey MOORE
+10.00
+107 Mathias JENSEN
+20.00
+207 Callum OLUSESI
+14.00
+108 Mikkel DAMSGAARD
+22.00
+208 Pape Matar SARR
+14.00
+110 Yehor YARMOLYUK
+24.00
+209 Rodrigo BENTANCUR
+22.00
+109 Keane LEWIS-POTTER
+25.00
+210 Lucas BERGVALL
+23.00
+111 Christian NORGAARD
+27.00
+211 Yves BISSOUMA
+24.00
+112 Ben MEE
+30.00
+212 Cristian ROMERO
+28.00
+113 Ethan PINNOCK
+30.00
+213 Pedro PORRO
+30.00
+114 Nathan COLLINS
+30.00
+214 Micky VAN DE VEN
+45.00
+115 Vitaly JANELT
+30.00
+215 Radu DRAGUSIN
+55.00
+116 Yunus Emre KONAK
+30.00
+216 Archie GRAY
+60.00
+117 Rico HENRY
+45.00
+217 Djed SPENCE
+60.00
+118 Michael KAYODE
+50.00
+218 Sergio REGUILON
+60.00
+119 KIM Ji Soo
+60.00
+219 Ben DAVIES
+65.00
+120 Home Others
+8.00
+220 Away Others
+10.00
+00 No First Scorer
+29.80
+HaFu
+H-H
+2.77
+H-D
+12.00
+H-A
+21.00
+D-H
+5.50
+D-D
+8.00
+D-A
+8.00
+A-H
+16.00
+A-D
+12.00
+A-A
+4.40
+Specials
+Item No.: 1 Which event will happen to Bryan MBEUMO (Brentford) first?
+(1) Receive a Yellow Card
+8.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.80
+(4) Be substituted
+9.00
+(5) None of the above
+2.10
+Item No.: 2 Which event will happen to Yoane WISSA (Brentford) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.00
+(4) Be substituted
+5.25
+(5) None of the above
+2.25
+Item No.: 3 Which event will happen to SON Heung Min (Tottenham) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.42
+(4) Be substituted
+4.00
+(5) None of the above
+2.10
+Item No.: 4 How many goal(s) will SON Heung Min (Tottenham) score?
+(1) No Goal
+1.48
+(2) 1 Goal
+2.85
+(3) 2 Goals
+7.50
+(4) 3 Goals or more
+18.00
+Item No.: 5 Which event will happen to Dejan KULUSEVSKI (Tottenham) first?
+(1) Receive a Yellow Card
+3.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.40
+(4) Be substituted
+7.75
+(5) None of the above
+1.72

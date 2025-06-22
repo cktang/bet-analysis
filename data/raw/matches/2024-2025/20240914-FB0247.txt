@@ -1,0 +1,628 @@
+14/09/2024
+FB0247
+Brighton
+vs
+Ipswich
+0
+:
+0
+0
+:
+0
+%Event ID: FB0247
+Brighton
+0
+0
+Ipswich
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+Ipswich (Away)
+1.33
+4.60
+6.20
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Ipswich (Away)
+6.70
+1.09
+23.00
+First Half HAD
+Brighton (Home)
+Draw
+Ipswich (Away)
+1.69
+2.65
+5.80
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Ipswich (Away)
+5.10
+1.15
+16.00
+Handicap HAD
+Brighton (Home)
+Draw
+Ipswich (Away)
+[-1]
+2.06
+[-1]
+3.45
+[+1]
+2.75
+Handicap HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Ipswich (Away)
+[-1]
+18.00
+[-1]
+4.65
+[+1]
+1.15
+Handicap
+Brighton (Home)
+Ipswich (Away)
+[-1/-1.5]
+1.96
+[+1/+1.5]
+1.86
+Same Game All Up
+Kaoru MITOMA to score first & Brighton to win [2:0]
+28.00
+Both teams to score & Brighton to win by [2] goal(s) or more & Over [11.5] corners taken
+10.00
+Brighton to win & Over [3.5] goals & Over [11.5] corners taken
+6.50
+Ipswich to win & Over [2.5] goals
+9.50
+Brighton to score first & Ipswich to win or draw
+7.40
+Ipswich to score first & Brighton to win by [2] goal(s) or more
+13.50
+Both teams to score in the match & Ipswich to win the match & Under [1.5] goals in the first half
+21.00
+Brighton to win the first half & Over [2.5] goals in the first half
+5.70
+First Half to be drawn & Brighton to win the match by exactly [1] goal(s)
+6.50
+Ipswich to win the first half & Over [1.5] goals in the first half
+15.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+8.75
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.10
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+6.60
+Brighton to win both first half and the match & Exactly [3] goals in the Match
+7.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+17.00
+Brighton to win [1:0] in the first half & Brighton to win [3:0] in the match
+21.00
+Brighton to win [2:0] in the first half & Brighton to win [3:1] in the match
+40.00
+Brighton to win [2:0] in the first half & Brighton to win [3:0] in the match
+25.00
+Brighton to win [2:0] in the first half & Brighton to win [2:1] in the match
+45.00
+First half to be drawn [0:0] & Brighton to win [2:1] in the match
+35.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.46
+2.50
+[3/3.5]
+2.01
+1.71
+[3.5]
+2.22
+1.58
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+7.00
+1.05
+[1/1.5]
+12.00
+1.001
+[1.5]
+12.00
+1.001
+[1.5/2]
+2.25
+1.57
+[2/2.5]
+2.20
+1.59
+[2.5]
+4.95
+1.12
+[2.5/3]
+2.19
+1.60
+[3/3.5]
+2.17
+1.61
+[3.5]
+4.75
+1.13
+[4.5]
+4.15
+1.17
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.08
+1.66
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.30
+1.16
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+4.60
+1.14
+[1/1.5]
+8.50
+1.03
+[1.5]
+8.50
+1.02
+[1.5/2]
+2.55
+1.45
+[2.5]
+4.95
+1.12
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.81
+1.89
+[11.5]
+2.25
+1.57
+[14.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.12
+4.95
+[9.5]
+1.04
+8.00
+[10.5]
+1.10
+5.40
+[11.5]
+5.60
+1.09
+[12.5]
+9.50
+1.02
+[13.5]
+9.50
+1.001
+[14.5]
+4.75
+1.13
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.66
+2.08
+[5.5]
+2.25
+1.57
+[6.5]
+3.25
+1.28
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.05
+7.00
+[4.5]
+1.36
+2.85
+[5.5]
+4.15
+1.17
+[6.5]
+9.50
+1.02
+Correct Score
+Brighton (Home)
+Draw
+Ipswich (Away)
+1:0
+8.00
+0:0
+18.00
+0:1
+21.00
+2:0
+7.00
+1:1
+9.00
+0:2
+35.00
+2:1
+6.90
+2:2
+13.50
+1:2
+17.00
+3:0
+9.00
+3:3
+40.00
+0:3
+70.00
+3:1
+9.50
+1:3
+40.00
+3:2
+18.00
+2:3
+40.00
+4:0
+17.00
+0:4
+300.0
+4:1
+17.00
+1:4
+125.0
+4:2
+30.00
+2:4
+100.0
+5:0
+30.00
+0:5
+800.0
+5:1
+30.00
+1:5
+500.0
+5:2
+50.00
+2:5
+500.0
+Home Others
+(Away No Goal)
+40.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+24.00
+Draw Others
+125.0
+Away Others
+(Home Scores)
+100.0
+Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Ipswich (Away)
+1:0
+6.90
+0:0
+1.09
+0:1
+22.00
+2:0
+200.0
+1:1
+150.0
+0:2
+1000
+2:1
+1000
+2:2
+1000
+1:2
+1000
+3:0
+1000
+3:3
+1000
+0:3
+1000
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Brighton (Home)
+Draw
+Ipswich (Away)
+1:0
+3.35
+0:0
+3.50
+0:1
+7.75
+2:0
+5.50
+1:1
+6.90
+0:2
+27.00
+2:1
+11.00
+2:2
+50.00
+1:2
+25.00
+3:0
+14.50
+3:3
+600.0
+0:3
+150.0
+3:1
+35.00
+1:3
+150.0
+3:2
+125.0
+2:3
+300.0
+4:0
+50.00
+0:4
+800.0
+4:1
+100.0
+1:4
+800.0
+4:2
+500.0
+2:4
+1000
+5:0
+250.0
+0:5
+2500
+5:1
+500.0
+1:5
+2500
+5:2
+1000
+2:5
+2500
+Home Others
+(Away No Goal)
+700.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+Ipswich (Away)
+1:0
+5.20
+0:0
+1.16
+0:1
+16.10
+2:0
+80.00
+1:1
+100.0
+0:2
+450.0
+2:1
+2000
+2:2
+2500
+1:2
+2500
+3:0
+2500
+3:3
+2500
+0:3
+2500
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Brighton (Home)
+No Goals
+Ipswich (Away)
+1.31
+18.00
+3.10
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+Ipswich (Away)
+1st Goal
+6.80
+1.09
+21.00
+Total Goals
+0
+18.00
+1
+6.20
+2
+3.95
+3
+3.65
+4
+4.35
+5
+6.30
+6
+10.50
+7+
+14.50
+Total Goals- Last Odds for In Play Betting
+0
+1.25
+1
+3.12
+2
+21.00
+3
+250.0
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.96
+H-D
+15.00
+H-A
+35.00
+D-H
+3.90
+D-D
+7.00
+D-A
+13.50
+A-H
+18.00
+A-D
+15.00
+A-A
+10.00

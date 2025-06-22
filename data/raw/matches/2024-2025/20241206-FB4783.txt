@@ -1,0 +1,737 @@
+06/12/2024
+FB4783
+Fulham
+vs
+Brighton
+1
+:
+0
+3
+:
+1
+%Event ID: FB4783
+Fulham
+3
+1
+Brighton
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Brighton (Away)
+2.45
+3.35
+2.38
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brighton (Away)
+1.001
+30.00
+400.0
+First Half HAD
+Fulham (Home)
+Draw
+Brighton (Away)
+2.88
+2.30
+2.80
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brighton (Away)
+1.07
+6.60
+40.00
+Handicap HAD
+Fulham (Home)
+Draw
+Brighton (Away)
+[-1]
+4.90
+[-1]
+4.30
+[+1]
+1.42
+Handicap HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brighton (Away)
+[-2]
+5.80
+[-2]
+1.36
+[+2]
+4.30
+[+1]
+1.001
+[+1]
+29.00
+[-1]
+45.00
+[-1]
+1.03
+[-1]
+6.00
+[+1]
+250.0
+Handicap
+Fulham (Home)
+Brighton (Away)
+[0]
+1.94
+[0]
+1.88
+Same Game All Up
+Both teams to score & Fulham to win & Over [12.5] corners taken
+10.50
+Fulham to win & Over [3.5] goals & Over [12.5] corners taken
+15.50
+Both teams to score & Brighton to win by [2] goal(s) or more
+9.25
+Brighton to win [2:0] in the first half & Brighton to win [3:1] in the match
+60.00
+Brighton to win the match & Over [1.5] goals in the first half & Over [3.5] goals in the match
+7.60
+Brighton to score first & Fulham to win by exactly [1] goal(s)
+16.00
+Fulham to score first in the match & Fulham to win the first half & Over [1.5] goals in the first half
+7.00
+First Half to be drawn & Brighton to win the match by exactly [1] goal(s)
+7.80
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+4.70
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+5.20
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+7.60
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+8.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+6.40
+Fulham to win [1:0] in the first half & Fulham to win [3:1] in the match
+50.00
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+28.00
+Fulham to win [2:0] in the first half & Fulham to win [3:0] in the match
+55.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+30.00
+Brighton to win [1:0] in the first half & Both teams to score in the match
+8.00
+Brighton to win [1:0] in the first half & Brighton to win [3:0] in the match
+50.00
+Both first half and the match to be drawn & Under [9.5] corners taken in the match
+14.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.56
+2.27
+[3/3.5]
+2.12
+1.64
+[3.5]
+2.35
+1.52
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+1.38
+2.75
+[2/2.5]
+2.00
+1.72
+[2.5]
+2.43
+1.49
+[2.5/3]
+2.65
+1.41
+[3/3.5]
+5.15
+1.11
+[3.5]
+5.90
+1.08
+[3.5/4]
+3.35
+1.27
+[4.5]
+8.00
+1.04
+[4.5/5]
+3.45
+1.25
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.17
+1.61
+[1.5/2]
+2.65
+1.41
+[2.5]
+4.40
+1.15
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.46
+2.50
+[1/1.5]
+2.20
+1.59
+[1.5]
+1.32
+3.05
+[1.5/2]
+8.50
+1.03
+[2/2.5]
+12.00
+1.001
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.08
+1.66
+[12.5]
+2.65
+1.41
+[14.5]
+4.15
+1.17
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[10.5]
+1.08
+5.90
+[11.5]
+2.30
+1.54
+[12.5]
+4.95
+1.12
+[13.5]
+9.50
+1.02
+[14.5]
+5.60
+1.09
+[15.5]
+5.40
+1.10
+[16.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.10
+1.65
+[6.5]
+2.98
+1.33
+[7.5]
+4.40
+1.15
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+1.24
+3.55
+[5.5]
+1.26
+3.40
+[6.5]
+1.37
+2.80
+[7.5]
+2.88
+1.35
+Correct Score
+Fulham (Home)
+Draw
+Brighton (Away)
+1:0
+11.00
+0:0
+15.00
+0:1
+10.50
+2:0
+14.00
+1:1
+6.80
+0:2
+13.50
+2:1
+8.25
+2:2
+9.75
+1:2
+8.25
+3:0
+26.00
+3:3
+30.00
+0:3
+26.00
+3:1
+18.00
+1:3
+15.00
+3:2
+21.00
+2:3
+20.00
+4:0
+50.00
+0:4
+40.00
+4:1
+40.00
+1:4
+35.00
+4:2
+40.00
+2:4
+40.00
+5:0
+125.0
+0:5
+125.0
+5:1
+80.00
+1:5
+70.00
+5:2
+100.0
+2:5
+100.0
+Home Others
+(Away No Goal)
+400.0
+Away Others
+(Home No Goal)
+300.0
+Home Others
+(Away Scores)
+40.00
+Draw Others
+80.00
+Away Others
+(Home Scores)
+40.00
+Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brighton (Away)
+1:0
+3.28
+0:0
+13.50
+0:1
+8.75
+2:0
+4.55
+1:1
+1.60
+0:2
+13.00
+2:1
+1.39
+2:2
+5.30
+1:2
+4.80
+3:0
+16.00
+3:3
+250.0
+0:3
+28.00
+3:1
+1.10
+1:3
+28.00
+3:2
+8.50
+2:3
+36.00
+4:0
+90.00
+0:4
+80.00
+4:1
+11.50
+1:4
+250.0
+4:2
+100.0
+2:4
+500.0
+5:0
+600.0
+0:5
+300.0
+5:1
+450.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Fulham (Home)
+Draw
+Brighton (Away)
+1:0
+4.95
+0:0
+3.10
+0:1
+4.70
+2:0
+10.00
+1:1
+5.80
+0:2
+9.75
+2:1
+15.00
+2:2
+40.00
+1:2
+15.00
+3:0
+40.00
+3:3
+500.0
+0:3
+40.00
+3:1
+60.00
+1:3
+60.00
+3:2
+125.0
+2:3
+125.0
+4:0
+200.0
+0:4
+200.0
+4:1
+300.0
+1:4
+300.0
+4:2
+600.0
+2:4
+600.0
+5:0
+800.0
+0:5
+800.0
+5:1
+1000
+1:5
+900.0
+5:2
+2000
+2:5
+2000
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Brighton (Away)
+1:0
+1.10
+0:0
+2.78
+0:1
+4.35
+2:0
+11.00
+1:1
+8.75
+0:2
+14.00
+2:1
+80.00
+2:2
+2500
+1:2
+150.0
+3:0
+200.0
+3:3
+2500
+0:3
+70.00
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+300.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Fulham (Home)
+No Goals
+Brighton (Away)
+1.88
+15.00
+1.85
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.81
+13.50
+1.94
+2nd Goal
+2.82
+3.28
+2.08
+3rd Goal
+4.10
+1.60
+3.70
+4th Goal
+5.50
+1.39
+4.20
+5th Goal
+11.00
+1.10
+8.25
+Total Goals
+0
+15.00
+1
+5.80
+2
+3.85
+3
+3.65
+4
+4.40
+5
+6.60
+6
+11.50
+7+
+17.00
+Total Goals- Last Odds for In Play Betting
+0
+13.50
+1
+3.28
+2
+1.60
+3
+1.39
+4
+1.30
+5
+2.95
+6
+15.50
+7+
+125.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Fulham (Home)
+Brighton (Away)
+101 Raul JIMENEZ
+5.40
+201 JOAO PEDRO Junqueira
+5.90
+102 Rodrigo MUNIZ Carvalho
+6.30
+202 Danny WELBECK
+6.90
+103 Reiss NELSON
+8.25
+203 Evan FERGUSON
+7.25
+104 Emile Smith ROWE
+9.25
+206 Kaoru MITOMA
+8.50
+106 Alex IWOBI
+9.50
+204 Georginio RUTTER
+8.75
+107 Harry WILSON
+9.50
+205 Julio ENCISO
+8.75
+105 Adama TRAORE Diarra
+9.75
+207 Simon ADINGRA
+9.00
+108 Andreas PEREIRA
+12.50
+208 Yankuba MINTEH
+9.25
+109 Joshua David KING
+15.00
+209 Matt O'RILEY
+11.00
+110 Sander BERGE
+30.00
+210 Brajan GRUDA
+12.50
+111 Kenny TETE
+35.00
+211 Ferdi KADIOGLU
+15.00
+112 Ryan SESSEGNON
+35.00
+213 Carlos BALEBA
+17.00
+113 Issa DIOP
+35.00
+212 Jakub MODER
+19.00
+114 Timothy CASTAGNE
+40.00
+216 Mats WIEFFER
+20.00
+115 Jorge CUENCA
+45.00
+217 Pervis ESTUPINAN
+20.00
+116 Antonee ROBINSON
+55.00
+214 Yasin AYARI
+21.00
+117 Calvin BASSEY
+55.00
+215 Jack HINSHELWOOD
+23.00
+218 Lewis DUNK
+28.00
+219 Adam WEBSTER
+45.00
+120 Home Others
+14.00
+220 Away Others
+13.50
+00 No First Scorer
+14.80
+HaFu
+H-H
+3.85
+H-D
+12.50
+H-A
+22.00
+D-H
+6.00
+D-D
+5.60
+D-A
+5.80
+A-H
+23.00
+A-D
+12.50
+A-A
+3.70

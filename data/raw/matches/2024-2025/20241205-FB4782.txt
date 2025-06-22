@@ -1,0 +1,721 @@
+05/12/2024
+FB4782
+Everton
+vs
+Wolves
+2
+:
+0
+4
+:
+0
+%Event ID: FB4782
+Everton
+4
+0
+Wolves
+Eng Premier
+Home/Away/Draw
+Everton (Home)
+Draw
+Wolves (Away)
+2.01
+3.25
+3.10
+Home/Away/Draw- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Wolves (Away)
+1.001
+29.00
+70.00
+First Half HAD
+Everton (Home)
+Draw
+Wolves (Away)
+2.53
+2.11
+3.70
+First Half HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Wolves (Away)
+1.02
+35.00
+90.00
+Handicap HAD
+Everton (Home)
+Draw
+Wolves (Away)
+[-1]
+3.80
+[-1]
+3.65
+[+1]
+1.66
+Handicap HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Wolves (Away)
+[-5]
+70.00
+[-5]
+6.40
+[+5]
+1.03
+[-1]
+2.20
+[-1]
+3.10
+[+1]
+2.75
+[-2]
+2.40
+[-2]
+2.80
+[+2]
+2.73
+[-3]
+2.70
+[-3]
+2.35
+[+3]
+2.92
+[-4]
+3.55
+[-4]
+1.65
+[+4]
+3.95
+Handicap
+Everton (Home)
+Wolves (Away)
+[0/-0.5]
+1.82
+[0/+0.5]
+2.00
+Same Game All Up
+Both teams to score & Everton to win & Over [11.5] corners taken
+9.00
+Everton to win & Over [2.5] goals & Over [10.5] corners taken
+5.90
+Everton to win [2:0] in the first half & Everton to win [3:1] in the match
+60.00
+Both teams to score in the match & Over [1.5] goals in the first half & Everton to win the match by [2] goal(s) or more
+12.50
+Both teams to score & Wolves to win & Under [10.5] corners taken
+10.50
+Wolves clean sheet in the first half & Everton to win the match by [2] goal(s) or more
+18.00
+Everton to win the first half & Over [1.5] goals in the first half & Over [11.5] corners taken in the match
+13.50
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.20
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.75
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+9.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [9.5] corners taken in the match
+4.80
+First Half to be drawn & Everton to win the match by exactly [1] goal(s)
+6.50
+Under [1.5] goals in the first half & Over [3.5] goals in the match
+8.75
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+11.00
+First half to be drawn [0:0] & Both teams to score in the match
+9.00
+Everton to win [1:0] in the first half & Everton to win [2:1] in the match
+26.00
+Everton to win [2:0] in the first half & Everton to win [3:0] in the match
+45.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+35.00
+Wolves to win [1:0] in the first half & Wolves to win [2:0] in the match
+30.00
+Everton to win [1:0] in the first half & Wolves to win [2:1] in the match
+50.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.90
+1.80
+[2.5/3]
+2.10
+1.65
+[3.5]
+3.05
+1.32
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2/2.5]
+1.20
+3.90
+[2.5]
+1.10
+5.40
+[2.5/3]
+1.12
+4.95
+[3/3.5]
+1.73
+1.98
+[3.5]
+1.23
+3.65
+[3.5/4]
+2.17
+1.61
+[4/4.5]
+3.95
+1.19
+[4.5]
+1.80
+1.90
+[4.5/5]
+6.60
+1.06
+[5/5.5]
+12.00
+1.001
+[5.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.65
+1.41
+[1.5/2]
+3.25
+1.28
+[2.5]
+6.25
+1.07
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+1.85
+1.85
+[1/1.5]
+3.10
+1.31
+[1.5]
+1.52
+2.35
+[1.5/2]
+3.45
+1.25
+[2/2.5]
+8.00
+1.04
+[2.5]
+8.50
+1.03
+[2.5/3]
+6.25
+1.07
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.78
+1.92
+[11.5]
+2.20
+1.59
+[14.5]
+4.75
+1.13
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.15
+1.62
+[6.5]
+3.10
+1.31
+[7.5]
+4.60
+1.14
+Correct Score
+Everton (Home)
+Draw
+Wolves (Away)
+1:0
+6.90
+0:0
+9.75
+0:1
+9.50
+2:0
+9.25
+1:1
+6.10
+0:2
+16.00
+2:1
+7.50
+2:2
+12.00
+1:2
+9.75
+3:0
+17.00
+3:3
+40.00
+0:3
+40.00
+3:1
+16.00
+1:3
+26.00
+3:2
+23.00
+2:3
+35.00
+4:0
+40.00
+0:4
+80.00
+4:1
+35.00
+1:4
+60.00
+4:2
+40.00
+2:4
+70.00
+5:0
+80.00
+0:5
+300.0
+5:1
+70.00
+1:5
+250.0
+5:2
+125.0
+2:5
+300.0
+Home Others
+(Away No Goal)
+250.0
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+50.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Wolves (Away)
+1:0
+5.40
+0:0
+8.50
+0:1
+7.40
+2:0
+3.95
+1:1
+5.20
+0:2
+14.00
+2:1
+4.20
+2:2
+10.00
+1:2
+11.50
+3:0
+1.70
+3:3
+200.0
+0:3
+40.00
+3:1
+4.30
+1:3
+40.00
+3:2
+25.00
+2:3
+30.00
+4:0
+1.10
+0:4
+150.0
+4:1
+9.50
+1:4
+150.0
+4:2
+300.0
+2:4
+200.0
+5:0
+9.50
+0:5
+800.0
+5:1
+100.0
+1:5
+1000
+5:2
+1000
+2:5
+900.0
+Home Others
+(Away No Goal)
+300.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Everton (Home)
+Draw
+Wolves (Away)
+1:0
+3.85
+0:0
+2.65
+0:1
+5.50
+2:0
+8.75
+1:1
+6.60
+0:2
+14.00
+2:1
+14.00
+2:2
+50.00
+1:2
+18.00
+3:0
+40.00
+3:3
+700.0
+0:3
+80.00
+3:1
+60.00
+1:3
+100.0
+3:2
+200.0
+2:3
+300.0
+4:0
+150.0
+0:4
+500.0
+4:1
+300.0
+1:4
+600.0
+4:2
+700.0
+2:4
+1000
+5:0
+700.0
+0:5
+2000
+5:1
+1000
+1:5
+2000
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2000
+First Half Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Wolves (Away)
+1:0
+1.34
+0:0
+2.08
+0:1
+5.00
+2:0
+1.08
+1:1
+5.20
+0:2
+22.00
+2:1
+12.00
+2:2
+250.0
+1:2
+36.00
+3:0
+10.50
+3:3
+2500
+0:3
+125.0
+3:1
+100.0
+1:3
+300.0
+3:2
+2500
+2:3
+2500
+4:0
+200.0
+0:4
+900.0
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Everton (Home)
+No Goals
+Wolves (Away)
+1.68
+9.75
+2.26
+Next Team To Score- Last Odds for In Play Betting
+Everton (Home)
+No Goals
+Wolves (Away)
+1st Goal
+1.73
+8.50
+2.26
+2nd Goal
+1.93
+6.20
+2.17
+3rd Goal
+2.23
+3.95
+2.28
+4th Goal
+3.25
+1.88
+3.32
+5th Goal
+9.25
+1.10
+9.25
+Total Goals
+0
+9.75
+1
+4.45
+2
+3.30
+3
+3.80
+4
+5.00
+5
+8.75
+6
+18.00
+7+
+30.00
+Total Goals- Last Odds for In Play Betting
+0
+8.50
+1
+5.40
+2
+3.95
+3
+1.70
+4
+1.10
+5
+4.40
+6
+80.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.88
+1.82
+First Scorer
+Everton (Home)
+Wolves (Away)
+101 Dominic CALVERT-LEWIN
+4.95
+201 MATHEUS CUNHA
+5.90
+102 BETO Betuncal
+5.40
+202 Jorgen Strand LARSEN
+7.50
+103 Armando BROJA
+5.90
+203 HWANG Hee chan
+8.00
+104 Dwight McNEIL
+7.25
+204 Goncalo GUEDES
+9.00
+105 Jesper LINDSTROM
+8.00
+205 Pablo SARABIA
+14.00
+106 Iliman NDIAYE
+8.75
+206 Carlos FORBS
+15.00
+108 Abdoulaye DOUCOURE
+9.75
+207 Jeanricner BELLEGARDE
+21.00
+107 Jack HARRISON
+10.00
+209 Rodrigo Martins GOMES
+21.00
+109 Idrissa GUEYE
+14.50
+208 Joao GOMES
+22.00
+110 Harrison ARMSTRONG
+17.00
+210 Luke CUNDLE
+22.00
+111 Orel MANGALA
+17.00
+211 Tommy DOYLE
+24.00
+112 Mike KEANE
+26.00
+212 Mario LEMINA
+28.00
+113 Jake O'BRIEN
+27.00
+213 Rayan AIT-NOURI
+30.00
+114 James TARKOWSKI
+27.00
+214 Craig DAWSON
+45.00
+115 Jarrad BRANTHWAITE
+27.00
+215 Matt DOHERTY
+50.00
+116 Ashley YOUNG
+35.00
+217 Bastien MEUPIYOU
+55.00
+117 Vitaliy MYKOLENKO
+35.00
+218 Pedro LIMA
+55.00
+118 Nathan PATTERSON
+40.00
+216 ANDRE Trindade da Costa Neto
+60.00
+119 Roman DIXON
+50.00
+219 Santiago BUENO
+70.00
+120 Home Others
+12.50
+220 Away Others
+16.00
+00 No First Scorer
+9.55
+HaFu
+H-H
+3.10
+H-D
+13.00
+H-A
+30.00
+D-H
+4.80
+D-D
+4.90
+D-A
+7.25
+A-H
+25.00
+A-D
+13.00
+A-A
+5.10

@@ -1,0 +1,840 @@
+26/10/2024
+FB2763
+Manchester
+City
+vs
+Southampton
+1
+:
+0
+1
+:
+0
+%Event ID: FB2763
+Manchester City
+1
+0
+Southampton
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Southampton (Away)
+1.06
+9.00
+17.00
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Southampton (Away)
+1.001
+12.50
+250.0
+First Half HAD
+Manchester City (Home)
+Draw
+Southampton (Away)
+1.27
+3.70
+12.00
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Southampton (Away)
+1.001
+14.00
+150.0
+Handicap HAD
+Manchester City (Home)
+Draw
+Southampton (Away)
+[-2]
+1.78
+[-2]
+4.15
+[+2]
+2.95
+Handicap HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Southampton (Away)
+[-3]
+3.44
+[-3]
+3.60
+[+3]
+1.75
+[-2]
+100.0
+[-2]
+4.90
+[+2]
+1.08
+Handicap
+Manchester City (Home)
+Southampton (Away)
+[-2.5/-3]
+2.07
+[+2.5/+3]
+1.77
+Handicap- Last Odds for In Play Betting
+Manchester City (Home)
+Southampton (Away)
+[-3]
+2.08
+[+3]
+1.68
+[-1]
+1.30
+[+1]
+3.24
+[-2/-2.5]
+2.11
+[+2/+2.5]
+1.66
+[-3/-3.5]
+2.12
+[+3/+3.5]
+1.66
+[-2]
+2.15
+[+2]
+1.64
+[-2.5/-3]
+2.17
+[+2.5/+3]
+1.63
+[-1.5/-2]
+2.54
+[+1.5/+2]
+1.46
+[-1/-1.5]
+4.25
+[+1/+1.5]
+1.19
+Same Game All Up
+Erling HAALAND to score first & Manchester City to win [4:1]
+30.00
+Erling HAALAND to score first & Manchester City to win [5:0]
+26.00
+Phil FODEN to score first & Manchester City to win [3:0]
+35.00
+Both teams to score & Manchester City to win by [3] goal(s) or more & Over [11.5] corners taken
+7.80
+Manchester City to win [3:0] in the first half & Manchester City to win [5:1] in the match
+65.00
+Both teams to score & Southampton to win & Under [11.5] corners taken
+45.00
+Both teams to score & The match to be drawn & Under [10.5] corners taken
+27.00
+First half to be drawn [0:0] & Both teams to score in the match & Over [12.5] corners taken in the match
+30.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match & Over [12.5] corners taken in the match
+8.25
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+4.90
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [11.5] corners taken in the match
+8.60
+Under [4.5] corners taken in the first half & Under [10.5] corners taken in the match
+3.60
+Southampton to score in the first half & Manchester City to win the match by exactly [2] goal(s)
+14.00
+Manchester City to win by [3] goal(s) or more & Over [13.5] corners taken
+4.50
+First half to be drawn [0:0] & Manchester City to win the match by [3] goal(s) or more
+20.00
+Manchester City to win [1:0] in the first half & Manchester City to win [2:0] in the match
+15.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:1] in the match
+40.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+20.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:1] in the match
+40.00
+Manchester City to win [3:0] in the first half & Manchester City to win [5:0] in the match
+35.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.54
+2.30
+[4/4.5]
+2.04
+1.69
+[4.5]
+2.25
+1.57
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+6.60
+1.06
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+[2.5/3]
+2.27
+1.56
+[3/3.5]
+2.29
+1.55
+[3.5]
+5.40
+1.10
+[3.5/4]
+2.13
+1.63
+[4/4.5]
+2.20
+1.59
+[4.5]
+4.95
+1.12
+[4.5/5]
+2.07
+1.67
+[5.5]
+3.80
+1.21
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.61
+2.17
+[1.5/2]
+1.80
+1.90
+[2.5]
+2.92
+1.34
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.66
+2.08
+[1.5]
+1.16
+4.30
+[1.5/2]
+5.60
+1.09
+[2/2.5]
+9.50
+1.01
+[2.5]
+9.50
+1.01
+[2.5/3]
+2.30
+1.54
+[3.5]
+5.40
+1.10
+Corner Taken HiLo
+Line
+High
+Low
+[12.5]
+2.05
+1.68
+[13.5]
+2.58
+1.44
+[16.5]
+5.15
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[7.5]
+1.41
+2.65
+[8.5]
+1.36
+2.85
+[9.5]
+1.67
+2.07
+[10.5]
+1.59
+2.20
+[11.5]
+1.46
+2.50
+[12.5]
+1.41
+2.65
+[13.5]
+5.15
+1.11
+[14.5]
+9.50
+1.02
+[15.5]
+9.50
+1.005
+[16.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+1.76
+1.94
+[6.5]
+2.40
+1.50
+[8.5]
+4.60
+1.14
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5]
+1.19
+3.95
+[3.5]
+1.17
+4.15
+[4.5]
+1.19
+3.95
+[5.5]
+1.20
+3.90
+[6.5]
+1.42
+2.62
+[7.5]
+1.51
+2.38
+[8.5]
+6.25
+1.07
+Correct Score
+Manchester City (Home)
+Draw
+Southampton (Away)
+1:0
+13.00
+0:0
+35.00
+0:1
+50.00
+2:0
+8.00
+1:1
+19.00
+0:2
+80.00
+2:1
+9.75
+2:2
+26.00
+1:2
+40.00
+3:0
+6.80
+3:3
+60.00
+0:3
+300.0
+3:1
+8.75
+1:3
+100.0
+3:2
+23.00
+2:3
+70.00
+4:0
+8.00
+0:4
+900.0
+4:1
+10.50
+1:4
+500.0
+4:2
+27.00
+2:4
+300.0
+5:0
+11.00
+0:5
+1000
+5:1
+15.00
+1:5
+1000
+5:2
+35.00
+2:5
+900.0
+Home Others
+(Away No Goal)
+11.50
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+9.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+250.0
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Southampton (Away)
+1:0
+1.09
+0:0
+30.00
+0:1
+50.00
+2:0
+6.60
+1:1
+13.50
+0:2
+125.0
+2:1
+80.00
+2:2
+1000
+1:2
+251.0
+3:0
+125.0
+3:3
+1000
+0:3
+600.0
+3:1
+1000
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+1000
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Southampton (Away)
+1:0
+3.45
+0:0
+5.30
+0:1
+15.00
+2:0
+3.85
+1:1
+9.75
+0:2
+60.00
+2:1
+10.50
+2:2
+50.00
+1:2
+40.00
+3:0
+7.25
+3:3
+600.0
+0:3
+500.0
+3:1
+19.00
+1:3
+300.0
+3:2
+80.00
+2:3
+400.0
+4:0
+18.00
+0:4
+2000
+4:1
+50.00
+1:4
+1500
+4:2
+250.0
+2:4
+2000
+5:0
+50.00
+0:5
+2500
+5:1
+125.0
+1:5
+2500
+5:2
+600.0
+2:5
+2500
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+300.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Southampton (Away)
+1:0
+1.12
+0:0
+4.00
+0:1
+14.50
+2:0
+5.30
+1:1
+24.00
+0:2
+80.00
+2:1
+100.0
+2:2
+2500
+1:2
+1500
+3:0
+70.00
+3:3
+2500
+0:3
+450.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Southampton (Away)
+1.10
+35.00
+5.00
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Southampton (Away)
+1st Goal
+1.11
+22.00
+5.10
+2nd Goal
+6.50
+1.09
+13.00
+Total Goals
+0
+35.00
+1
+11.00
+2
+6.00
+3
+4.20
+4
+4.05
+5
+4.80
+6
+6.70
+7+
+6.10
+Total Goals- Last Odds for In Play Betting
+0
+30.00
+1
+1.09
+2
+4.80
+3
+60.00
+4
+500.0
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester City (Home)
+Southampton (Away)
+101 Erling HAALAND
+1.99
+201 Cameron ARCHER
+15.00
+102 Phil FODEN
+5.70
+202 Paul ONUACHU
+16.00
+103 Nico O'REILLY
+6.20
+203 Adam ARMSTRONG
+18.00
+104 Kevin DE BRUYNE
+7.00
+204 Ben BRERETON
+22.00
+105 SAVINHO Moreira de Oliveira
+7.25
+206 Tyler DIBLING
+22.00
+106 James McATEE
+7.75
+205 Samuel AMO-AMEYAW
+23.00
+107 BERNARDO SILVA
+8.00
+207 Joe ARIBO
+29.00
+108 Ilkay GUNDOGAN
+8.75
+208 Kamaldeen SULEMANA
+30.00
+109 Jack GREALISH
+8.75
+209 Mateus FERNANDES
+30.00
+110 Jeremy DOKU
+9.50
+210 Maxwell CORNET
+30.00
+111 Mateo KOVACIC
+12.50
+211 Adam LALLANA
+40.00
+112 Josko GVARDIOL
+18.00
+212 Ryan MANNING
+40.00
+113 Matheus NUNES
+19.00
+213 Lesley UGOCHUKWU
+65.00
+114 John STONES
+21.00
+214 Kyle WALKER-PETERS
+70.00
+115 RUBEN DIAS
+23.00
+215 Yukinari SUGAWARA
+70.00
+116 Nathan AKE
+29.00
+216 Flynn DOWNES
+85.00
+117 Manuel AKANJI
+30.00
+217 Taylor HARWOOD-BELLIS
+95.00
+118 Rico LEWIS
+40.00
+218 Jack STEPHENS
+150.0
+119 Kyle WALKER
+45.00
+219 Jan BEDNAREK
+150.0
+120 Home Others
+8.00
+220 Away Others
+35.00
+00 No First Scorer
+34.80
+HaFu
+H-H
+1.29
+H-D
+25.00
+H-A
+75.00
+D-H
+4.20
+D-D
+14.50
+D-A
+40.00
+A-H
+19.00
+A-D
+25.00
+A-A
+30.00
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+17.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.20
+(4) Be substituted
+8.50
+(5) None of the above
+3.80
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+3.00
+(2) 1 Goal
+2.40
+(3) 2 Goals
+3.50
+(4) 3 Goals or more
+5.50
+Item No.: 3 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+16.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+2.02
+(5) None of the above
+3.50
+Item No.: 4 Which event will happen to BERNARDO SILVA (Manchester City) first?
+(1) Receive a Yellow Card
+11.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.65
+(4) Be substituted
+3.40
+(5) None of the above
+1.96
+Item No.: 5 Which event will happen to SAVINHO Moreira de Oliveira (Manchester City) first?
+(1) Receive a Yellow Card
+15.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+1.53
+(5) None of the above
+4.85

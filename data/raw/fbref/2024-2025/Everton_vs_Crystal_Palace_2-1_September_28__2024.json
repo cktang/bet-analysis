@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/d47382cd/Everton-Crystal-Palace-September-28-2024-Premier-League",
+  "homeTeam": "Everton",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "September 28, 2024",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 10,
+        "player": "Marc Guéhi",
+        "playerId": "d0706b27",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Maxence Lacroix"
+      },
+      {
+        "minute": 47,
+        "player": "Dwight McNeil",
+        "playerId": "fc15fb84",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": "Ashley Young"
+      },
+      {
+        "minute": 54,
+        "player": "Dwight McNeil",
+        "playerId": "fc15fb84",
+        "team": "Everton",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 84,
+        "player": "Dominic Calvert-Lewin",
+        "playerId": "59e6e5bf",
+        "team": "Everton"
+      },
+      {
+        "minute": 93,
+        "player": "Jordan Pickford",
+        "playerId": "4806ec67",
+        "team": "Everton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Jack Harrison",
+        "playerId": "aa849a12",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Ismaila Sarr",
+        "playerId": "bfdb33aa",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 73,
+        "player": "Jeffrey Schlupp",
+        "playerId": "3312f911",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Idrissa Gana Gueye",
+        "playerId": "72c812f3",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "James Garner",
+        "playerId": "4e015693",
+        "team": "Everton",
+        "type": "in"
+      },
+      {
+        "minute": 89,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

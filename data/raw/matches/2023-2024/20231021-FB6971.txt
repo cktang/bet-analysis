@@ -1,0 +1,651 @@
+21/10/2023
+FB6971
+Manchester
+City
+vs
+Brighton
+2
+:
+0
+2
+:
+1
+%Event ID: FB6971
+Manchester City
+2
+1
+Brighton
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Brighton (Away)
+1.26
+5.30
+6.90
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Brighton (Away)
+1.03
+9.00
+80.00
+First Half HAD
+Manchester City (Home)
+Draw
+Brighton (Away)
+1.57
+2.98
+6.00
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Brighton (Away)
+1.001
+35.00
+300.0
+Handicap HAD
+Manchester City (Home)
+Draw
+Brighton (Away)
+[-2]
+2.84
+[-2]
+4.15
+[+2]
+1.83
+Handicap
+Manchester City (Home)
+Brighton (Away)
+[-1.5/-2]
+2.12
+[+1.5/+2]
+1.73
+Same Game All Up
+Erling HAALAND to score first & Over [3.5] goals & Over [10.5] corners taken
+14.00
+Erling HAALAND to score first & Under [3.5] goals & Under [9.5] corners taken
+12.50
+Kaoru MITOMA to score first & Over [3.5] goals & Over [10.5] corners taken
+40.00
+Kaoru MITOMA to score first & Under [3.5] goals & Under [9.5] corners taken
+40.00
+Manchester City to win the match & Over [1.5] goals in the first half & Over [4.5] goals in the match
+4.00
+Brighton to win & Over [3.5] goals
+15.00
+Brighton to score first & Manchester City to win & Over [9.5] corners taken
+12.00
+Manchester City to win the first half & Over [2.5] goals in the first half
+4.75
+First Half to be drawn & Brighton to win or draw the match
+6.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+8.50
+Over [1.5] goals in the first half & Manchester City to win the match by [3] goal(s) or more
+4.10
+Over [1.5] goals in the first half & Over [4.5] goals in the match & Over [9.5] corners taken in the match
+6.40
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [8.5] corners taken in the match
+5.75
+Over [2.5] goals in the first half & Over [5.5] goals in the match & Over [11.5] corners taken in the match
+22.00
+Brighton to win or draw & Over [4.5] goals & Over [9.5] corners taken
+27.00
+Manchester City to win both first half and the match & Exactly [3] goals in the Match
+7.40
+Manchester City to win both first half and the match & Under [3.5] goals in the match & Under [8.5] corners taken in the match
+10.50
+Manchester City to win [1:0] in the first half & Manchester City to win [3:0] in the match
+22.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:0] in the match
+30.00
+First half to be drawn [1:1] & Manchester City to win [3:1] in the match
+40.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.76
+1.94
+[3.5/4]
+1.94
+1.76
+[4.5]
+2.58
+1.44
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5/4]
+4.95
+1.12
+[2.5/3]
+1.90
+1.80
+[3/3.5]
+3.25
+1.28
+[3.5]
+1.54
+2.30
+[4/4.5]
+11.00
+1.005
+[4.5]
+11.50
+1.002
+[4.5/5]
+2.10
+1.65
+[5.5]
+4.95
+1.12
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.78
+1.92
+[1.5/2]
+2.07
+1.67
+[2.5]
+3.25
+1.28
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+5.90
+1.08
+[1/1.5]
+1.82
+1.88
+[1.5]
+1.20
+3.90
+[1.5/2]
+1.64
+2.12
+[2/2.5]
+2.50
+1.46
+[2.5]
+1.37
+2.80
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[9.5]
+1.85
+1.85
+[10.5]
+2.27
+1.56
+[13.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5]
+4.75
+1.13
+[3.5]
+1.07
+6.25
+[5.5]
+9.50
+1.02
+[6.5]
+5.40
+1.10
+[7.5]
+5.15
+1.11
+[8.5]
+5.15
+1.11
+[9.5]
+4.75
+1.13
+[10.5]
+4.05
+1.18
+[11.5]
+3.70
+1.22
+[13.5]
+4.60
+1.14
+Correct Score
+Manchester City (Home)
+Draw
+Brighton (Away)
+1:0
+11.00
+0:0
+30.00
+0:1
+30.00
+2:0
+9.00
+1:1
+11.00
+0:2
+40.00
+2:1
+7.75
+2:2
+13.50
+1:2
+18.00
+3:0
+9.75
+3:3
+35.00
+0:3
+80.00
+3:1
+8.75
+1:3
+40.00
+3:2
+15.00
+2:3
+30.00
+4:0
+14.00
+0:4
+300.0
+4:1
+13.00
+1:4
+100.0
+4:2
+22.00
+2:4
+80.00
+5:0
+25.00
+0:5
+700.0
+5:1
+23.00
+1:5
+400.0
+5:2
+40.00
+2:5
+300.0
+Home Others
+(Away No Goal)
+35.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+13.00
+Draw Others
+70.00
+Away Others
+(Home Scores)
+60.00
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Brighton (Away)
+1:0
+14.50
+0:0
+20.00
+0:1
+25.00
+2:0
+2.12
+1:1
+14.50
+0:2
+40.00
+2:1
+1.19
+2:2
+11.10
+1:2
+28.00
+3:0
+2.75
+3:3
+1000
+0:3
+125.0
+3:1
+5.60
+1:3
+90.00
+3:2
+80.00
+2:3
+80.00
+4:0
+8.75
+0:4
+500.0
+4:1
+100.0
+1:4
+450.0
+4:2
+1000
+2:4
+1000
+5:0
+45.00
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+50.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Brighton (Away)
+1:0
+3.70
+0:0
+4.45
+0:1
+9.50
+2:0
+5.20
+1:1
+6.70
+0:2
+28.00
+2:1
+9.50
+2:2
+35.00
+1:2
+21.00
+3:0
+11.50
+3:3
+400.0
+0:3
+125.0
+3:1
+22.00
+1:3
+100.0
+3:2
+80.00
+2:3
+150.0
+4:0
+40.00
+0:4
+700.0
+4:1
+70.00
+1:4
+600.0
+4:2
+250.0
+2:4
+800.0
+5:0
+125.0
+0:5
+2500
+5:1
+250.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1000
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Brighton (Away)
+1:0
+2.40
+0:0
+3.50
+0:1
+8.00
+2:0
+1.09
+1:1
+5.80
+0:2
+35.00
+2:1
+21.00
+2:2
+800.0
+1:2
+24.00
+3:0
+7.25
+3:3
+2500
+0:3
+150.0
+3:1
+100.0
+1:3
+200.0
+3:2
+2500
+2:3
+2500
+4:0
+100.0
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+700.0
+2:4
+2500
+5:0
+700.0
+0:5
+2500
+5:1
+700.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+700.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Brighton (Away)
+1.27
+30.00
+3.10
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Brighton (Away)
+1st Goal
+1.29
+20.00
+3.20
+2nd Goal
+1.33
+14.50
+3.12
+3rd Goal
+2.08
+2.12
+5.30
+4th Goal
+5.30
+1.19
+10.00
+Total Goals
+0
+30.00
+1
+8.75
+2
+4.90
+3
+3.90
+4
+4.00
+5
+5.30
+6
+7.75
+7+
+8.00
+Odd/Even
+Odd
+Even
+1.85
+1.85
+HaFu
+H-H
+1.74
+H-D
+16.00
+H-A
+35.00
+D-H
+4.20
+D-D
+9.25
+D-A
+15.00
+A-H
+15.00
+A-D
+16.00
+A-A
+11.50
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+9.75
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+1.38
+(4) Be substituted
+5.70
+(5) None of the above
+3.75
+Item No.: 2 How many goal(s) will Erling HAALAND (Manchester City) score?
+(1) No Goal
+2.40
+(2) 1 Goal
+2.35
+(3) 2 Goals
+4.20
+(4) 3 Goals or more
+7.25
+Item No.: 3 Which event will happen to Jeremy DOKU (Manchester City) first?
+(1) Receive a Yellow Card
+9.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+2.03
+(5) None of the above
+3.00
+Item No.: 4 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.95
+(4) Be substituted
+1.77
+(5) None of the above
+4.10
+Item No.: 5 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+5.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+4.35
+(5) None of the above
+1.57

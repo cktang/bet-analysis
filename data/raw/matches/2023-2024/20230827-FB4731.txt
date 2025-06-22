@@ -1,0 +1,361 @@
+27/08/2023
+FB4731
+Brighton
+vs
+West
+Ham
+0
+:
+1
+1
+:
+3
+%Event ID: FB4731
+Brighton
+1
+3
+West Ham
+Eng Premier
+Home/Away/Draw
+Brighton (Home)
+Draw
+West Ham (Away)
+1.37
+4.55
+5.60
+Home/Away/Draw- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+West Ham (Away)
+300.0
+24.00
+1.001
+First Half HAD
+Brighton (Home)
+Draw
+West Ham (Away)
+1.72
+2.70
+5.30
+First Half HAD- Last Odds for In Play Betting
+Brighton (Home)
+Draw
+West Ham (Away)
+70.00
+5.00
+1.09
+Handicap HAD
+Brighton (Home)
+Draw
+West Ham (Away)
+[-1]
+2.09
+[-1]
+3.60
+[+1]
+2.63
+Handicap
+Brighton (Home)
+West Ham (Away)
+[-1/-1.5]
+1.96
+[+1/+1.5]
+1.86
+Same Game All Up
+Kaoru MITOMA to score first in the match & Brighton to win the first half & Over [1.5] goals in the first half
+12.00
+Kaoru MITOMA to score first & Over [3.5] goals & Over [10.5] corners taken
+16.00
+Brighton to win & Over [3.5] goals & Over [11.5] corners taken
+6.25
+West Ham to win & Over [2.5] goals
+7.50
+West Ham to score first & The match to be drawn
+10.00
+Brighton to score first & West Ham to win or draw
+6.75
+Brighton to win the first half & Over [2.5] goals in the first half
+6.00
+First Half to be drawn & Brighton to win the match by exactly [1] goal(s)
+8.25
+West Ham to win the first half & Over [1.5] goals in the first half
+12.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+7.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+6.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+6.50
+Brighton to win by [3] goal(s) or more & Under [10.5] corners taken
+8.25
+Brighton to win both first half and the match & Exactly [3] goals in the Match
+8.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+15.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.80
+1.90
+[3.5]
+2.02
+1.70
+[4.5]
+3.10
+1.31
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[4.5/5]
+7.50
+1.05
+[2/2.5]
+1.68
+2.05
+[2.5]
+1.19
+4.05
+[2.5/3]
+2.30
+1.54
+[3/3.5]
+1.92
+1.78
+[3.5]
+1.31
+3.10
+[3.5/4]
+2.25
+1.57
+[4/4.5]
+4.40
+1.16
+[4.5]
+1.81
+1.89
+[5/5.5]
+12.00
+1.001
+[5.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.93
+1.77
+[1.5/2]
+2.35
+1.52
+[2.5]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+5.80
+1.09
+[0.5/1]
+1.75
+1.95
+[1/1.5]
+2.88
+1.36
+[1.5]
+1.45
+2.55
+[2/2.5]
+8.50
+1.02
+[2.5]
+8.50
+1.02
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+1.95
+1.75
+[12.5]
+2.45
+1.48
+[14.5]
+3.90
+1.20
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[20.5]
+2.70
+1.40
+[9.5]
+1.46
+2.50
+[10.5]
+1.38
+2.80
+[11.5]
+1.38
+2.80
+[12.5]
+1.38
+2.80
+[13.5]
+1.41
+2.68
+[14.5]
+1.33
+3.00
+[15.5]
+1.05
+7.50
+[16.5]
+1.08
+6.10
+[17.5]
+1.09
+5.80
+[18.5]
+1.12
+5.10
+[19.5]
+1.13
+4.90
+[21.5]
+6.50
+1.07
+First Team to Score
+Brighton (Home)
+No Goals
+West Ham (Away)
+1.35
+20.00
+2.90
+Next Team To Score- Last Odds for In Play Betting
+Brighton (Home)
+No Goals
+West Ham (Away)
+1st Goal
+1.41
+10.50
+3.02
+2nd Goal
+1.58
+3.75
+4.20
+3rd Goal
+1.65
+3.44
+4.20
+4th Goal
+2.56
+1.92
+4.50
+5th Goal
+6.00
+1.14
+13.00
+Total Goals
+0
+20.00
+1
+7.50
+2
+4.30
+3
+3.80
+4
+4.25
+5
+6.00
+6
+9.50
+7+
+10.50
+Odd/Even
+Odd
+Even
+1.86
+1.84
+HaFu
+H-H
+2.03
+H-D
+15.00
+H-A
+30.00
+D-H
+4.25
+D-D
+7.50
+D-A
+13.00
+A-H
+18.00
+A-D
+15.00
+A-A
+8.50
+Specials
+Item No.: 1 Which event will happen to Kaoru MITOMA (Brighton) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.35
+(4) Be substituted
+2.60
+(5) None of the above
+3.25
+Item No.: 2 How many goal(s) will Kaoru MITOMA (Brighton) score?
+(1) No Goal
+1.49
+(2) 1 Goal
+2.90
+(3) 2 Goals
+7.50
+(4) 3 Goals or more
+20.00
+Item No.: 3 Which event will happen to Solly MARCH (Brighton) first?
+(1) Receive a Yellow Card
+7.00
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+2.30
+(4) Be substituted
+3.25
+(5) None of the above
+2.73
+Item No.: 4 Which event will happen to Michail ANTONIO (West Ham) first?
+(1) Receive a Yellow Card
+4.50
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.70
+(4) Be substituted
+1.60
+(5) None of the above
+5.30
+Item No.: 5 Which event will happen to Jarrod BOWEN (West Ham) first?
+(1) Receive a Yellow Card
+4.20
+(2) Receive a Red Card
+100.0
+(3) Score a Goal
+4.50
+(4) Be substituted
+4.80
+(5) None of the above
+1.72

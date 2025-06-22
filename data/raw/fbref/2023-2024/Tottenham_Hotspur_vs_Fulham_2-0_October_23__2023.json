@@ -1,0 +1,150 @@
+{
+  "url": "https://fbref.com/en/matches/8c6293a3/Tottenham-Hotspur-Fulham-October-23-2023-Premier-League",
+  "homeTeam": "Tottenham Hotspur",
+  "awayTeam": "Fulham",
+  "matchDate": "October 23, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 36,
+        "player": "Son Heung-min",
+        "playerId": "92e7e919",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Richarlison"
+      },
+      {
+        "minute": 54,
+        "player": "James Maddison",
+        "playerId": "ee38d9c5",
+        "team": "Tottenham Hotspur",
+        "isPenalty": false,
+        "assist": "Son Heung-min"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 35,
+        "player": "Pierre Højbjerg",
+        "playerId": "8b04d6c1",
+        "team": "Tottenham Hotspur"
+      },
+      {
+        "minute": 85,
+        "player": "Guglielmo Vicario",
+        "playerId": "77d6fd4d",
+        "team": "Tottenham Hotspur"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Raúl Jiménez",
+        "playerId": "b561db50",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 46,
+        "player": "Alex Iwobi",
+        "playerId": "6ca5ec4b",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 56,
+        "player": "Emerson",
+        "playerId": "df8b52a5",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Harry Wilson",
+        "playerId": "c6dc9ecd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Oliver Skipp",
+        "playerId": "6250083a",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Harrison Reed",
+        "playerId": "803ae100",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 81,
+        "player": "Brennan Johnson",
+        "playerId": "0cd31129",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Alejo Véliz",
+        "playerId": "3f7bafbe",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Giovani Lo Celso",
+        "playerId": "d7553721",
+        "team": "Tottenham Hotspur",
+        "type": "in"
+      },
+      {
+        "minute": 82,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

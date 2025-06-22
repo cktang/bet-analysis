@@ -1,0 +1,153 @@
+{
+  "url": "https://fbref.com/en/matches/55996670/Nottingham-Forest-Fulham-April-2-2024-Premier-League",
+  "homeTeam": "Nottingham Forest",
+  "awayTeam": "Fulham",
+  "matchDate": "April 2, 2024",
+  "score": "3-1",
+  "homeScore": 3,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 9,
+        "player": "Callum Hudson-Odoi",
+        "playerId": "15f3ec41",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Morgan Gibbs-White"
+      },
+      {
+        "minute": 19,
+        "player": "Chris Wood",
+        "playerId": "4e9a0555",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Murillo"
+      },
+      {
+        "minute": 48,
+        "player": "Morgan Gibbs-White",
+        "playerId": "32f60ed8",
+        "team": "Nottingham Forest",
+        "isPenalty": false,
+        "assist": "Danilo"
+      },
+      {
+        "minute": 49,
+        "player": "Tosin Adarabioyo",
+        "playerId": "c81d773d",
+        "team": "Fulham",
+        "isPenalty": false,
+        "assist": "Andreas Pereira"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 64,
+        "player": "Matt Turner",
+        "playerId": "4a51ba65",
+        "team": "Nottingham Forest"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 33,
+        "player": "Tom Cairney",
+        "playerId": "a8748947",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 33,
+        "player": "Adama Traoré",
+        "playerId": "9a28eba4",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 33,
+        "player": "Willian",
+        "playerId": "8b9ebd03",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Divock Origi",
+        "playerId": "43a166b4",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Harrison Reed",
+        "playerId": "803ae100",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Bobby De Cordova-Reid",
+        "playerId": "0f7533cd",
+        "team": "Fulham",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Gio Reyna",
+        "playerId": "7fa4e703",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Nicolás Domínguez",
+        "playerId": "20b3a502",
+        "team": "Nottingham Forest",
+        "type": "in"
+      },
+      {
+        "minute": 83,
+        "player": "Harry Toffolo",
+        "playerId": "a105d46a",
+        "team": "Nottingham Forest",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

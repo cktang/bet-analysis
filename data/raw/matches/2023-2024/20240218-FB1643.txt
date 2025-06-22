@@ -1,0 +1,718 @@
+18/02/2024
+FB1643
+Manchester
+City
+vs
+Chelsea
+0
+:
+1
+1
+:
+1
+%Event ID: FB1643
+Manchester City
+1
+1
+Chelsea
+Eng Premier
+Home/Away/Draw
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1.20
+5.80
+7.75
+Home/Away/Draw- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Chelsea (Away)
+6.50
+1.09
+24.00
+First Half HAD
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1.51
+3.00
+6.90
+First Half HAD- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Chelsea (Away)
+80.00
+4.90
+1.09
+Handicap HAD
+Manchester City (Home)
+Draw
+Chelsea (Away)
+[-2]
+2.57
+[-2]
+4.05
+[+2]
+1.98
+Handicap
+Manchester City (Home)
+Chelsea (Away)
+[-1.5/-2]
+1.96
+[+1.5/+2]
+1.86
+Same Game All Up
+Erling HAALAND to score first & Over [4.5] goals & Over [10.5] corners taken
+20.00
+Phil FODEN to score first in the match & Manchester City to win both first half and the match
+10.00
+Manchester City to win & Over [3.5] goals & Over [11.5] corners taken
+5.50
+Chelsea to win & Over [2.5] goals
+9.50
+Manchester City clean sheet in the first half & Over [2.5] goals in the first half
+11.00
+Chelsea to score in the first half & Manchester City to win the match
+4.00
+Chelsea to score first & Manchester City to win by [2] goal(s) or more
+12.00
+Manchester City to win [2:0] in the first half & Manchester City to win [3:0] in the match
+25.00
+Manchester City to win [1:0] in the first half & Manchester City to win [3:1] in the match
+30.00
+Manchester City to win [2:0] in the first half & Manchester City to win [4:1] in the match
+50.00
+First Half to be drawn & Manchester City to win the match by exactly [1] goal(s)
+6.50
+Chelsea to win the first half & Over [1.5] goals in the first half
+13.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [12.5] corners taken in the match
+7.50
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [10.5] corners taken in the match
+5.50
+Chelsea to score in the first half & Over [13.5] corners taken in the match
+10.00
+Manchester City to win by [3] goal(s) or more & Under [10.5] corners taken
+5.00
+Manchester City to win both first half and the match & Exactly [3] goals in the Match
+7.00
+Both first half and the match to be drawn & Over [11.5] corners taken in the match
+18.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+45.00
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+50.00
+HiLo
+Line
+High
+Low
+[3/3.5]
+1.63
+2.13
+[3.5]
+1.78
+1.92
+[3.5/4]
+1.93
+1.77
+[4.5]
+2.68
+1.40
+[5.5]
+4.15
+1.17
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[2.5/3]
+4.60
+1.14
+[1.5/2]
+2.04
+1.69
+[2/2.5]
+3.70
+1.22
+[2.5]
+1.73
+1.98
+[3/3.5]
+11.00
+1.005
+[3.5]
+8.50
+1.03
+[3.5/4]
+2.10
+1.65
+[4.5]
+4.30
+1.16
+[5.5]
+4.15
+1.17
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+1.56
+2.27
+[1.5]
+1.83
+1.87
+[1.5/2]
+2.10
+1.65
+[2.5]
+3.45
+1.25
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5/2]
+4.75
+1.13
+[0.5/1]
+4.30
+1.16
+[1/1.5]
+8.50
+1.03
+[1.5]
+8.50
+1.03
+[2.5]
+11.00
+1.005
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.82
+1.88
+[11.5]
+2.22
+1.58
+[12.5]
+2.75
+1.38
+[13.5]
+3.55
+1.24
+[14.5]
+4.60
+1.14
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[12.5]
+3.80
+1.21
+[8.5]
+1.41
+2.65
+[9.5]
+1.40
+2.68
+[10.5]
+1.14
+4.60
+[11.5]
+1.59
+2.20
+[13.5]
+9.50
+1.02
+[14.5]
+10.50
+1.01
+Correct Score
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1:0
+11.50
+0:0
+23.00
+0:1
+35.00
+2:0
+8.25
+1:1
+11.50
+0:2
+40.00
+2:1
+7.75
+2:2
+14.50
+1:2
+20.00
+3:0
+8.75
+3:3
+40.00
+0:3
+100.0
+3:1
+8.75
+1:3
+40.00
+3:2
+17.00
+2:3
+40.00
+4:0
+11.50
+0:4
+400.0
+4:1
+11.50
+1:4
+150.0
+4:2
+23.00
+2:4
+100.0
+5:0
+22.00
+0:5
+900.0
+5:1
+22.00
+1:5
+600.0
+5:2
+40.00
+2:5
+500.0
+Home Others
+(Away No Goal)
+30.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+13.50
+Draw Others
+80.00
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1:0
+4.25
+0:0
+7.20
+0:1
+2.08
+2:0
+4.80
+1:1
+1.11
+0:2
+8.00
+2:1
+6.60
+2:2
+125.0
+1:2
+24.10
+3:0
+8.25
+3:3
+1000
+0:3
+100.0
+3:1
+200.0
+1:3
+1000
+3:2
+1000
+2:3
+1000
+4:0
+19.00
+0:4
+1000
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+60.00
+0:5
+1000
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+150.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1:0
+3.50
+0:0
+4.30
+0:1
+10.50
+2:0
+4.90
+1:1
+6.90
+0:2
+35.00
+2:1
+10.00
+2:2
+40.00
+1:2
+27.00
+3:0
+10.50
+3:3
+500.0
+0:3
+150.0
+3:1
+22.00
+1:3
+150.0
+3:2
+80.00
+2:3
+200.0
+4:0
+35.00
+0:4
+800.0
+4:1
+70.00
+1:4
+700.0
+4:2
+250.0
+2:4
+900.0
+5:0
+100.0
+0:5
+2500
+5:1
+250.0
+1:5
+2500
+5:2
+700.0
+2:5
+2500
+Home Others
+(Away No Goal)
+500.0
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+500.0
+Draw Others
+2500
+Away Others
+(Home Scores)
+1500
+First Half Correct Score- Last Odds for In Play Betting
+Manchester City (Home)
+Draw
+Chelsea (Away)
+1:0
+4.30
+0:0
+1.22
+0:1
+1.10
+2:0
+45.00
+1:1
+6.40
+0:2
+20.00
+2:1
+80.00
+2:2
+1000
+1:2
+80.00
+3:0
+450.0
+3:3
+2500
+0:3
+450.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Manchester City (Home)
+No Goals
+Chelsea (Away)
+1.25
+23.00
+3.45
+Next Team To Score- Last Odds for In Play Betting
+Manchester City (Home)
+No Goals
+Chelsea (Away)
+1st Goal
+1.44
+7.20
+3.24
+2nd Goal
+1.93
+2.08
+7.00
+3rd Goal
+5.80
+1.11
+20.00
+Total Goals
+0
+23.00
+1
+9.00
+2
+5.00
+3
+3.95
+4
+4.05
+5
+5.20
+6
+7.75
+7+
+8.25
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Manchester City (Home)
+Chelsea (Away)
+101 Erling HAALAND
+2.47
+201 Cole PALMER
+11.00
+102 Julian ALVAREZ
+6.10
+202 Christopher NKUNKU
+11.50
+103 Phil FODEN
+6.60
+204 Raheem STERLING
+12.50
+104 Jeremy DOKU
+9.50
+203 Nicolas JACKSON
+13.00
+105 Kevin DE BRUYNE
+9.50
+205 Deivid WASHINGTON
+13.50
+106 BERNARDO SILVA
+10.00
+206 Chukwunonso MADUEKE
+16.00
+107 RODRI Cascante
+14.00
+207 Mykhaylo MUDRYK
+17.00
+108 Matheus NUNES
+15.00
+208 Carney CHUKWUEMEKA
+22.00
+109 Mateo KOVACIC
+26.00
+209 Enzo Jeremias FERNANDEZ
+27.00
+110 Manuel AKANJI
+30.00
+210 Conor GALLAGHER
+30.00
+111 Rico LEWIS
+30.00
+211 Ben CHILWELL
+55.00
+112 Nathan AKE
+30.00
+212 Axel DISASI
+60.00
+113 RUBEN DIAS
+45.00
+213 Malo GUSTO
+60.00
+114 John STONES
+55.00
+214 Moises CAICEDO
+60.00
+115 Kyle WALKER
+60.00
+215 Levi COLWILL
+80.00
+120 Home Others
+7.00
+220 Away Others
+26.00
+00 No First Scorer
+22.80
+HaFu
+H-H
+1.63
+H-D
+17.00
+H-A
+45.00
+D-H
+3.95
+D-D
+10.00
+D-A
+18.00
+A-H
+17.00
+A-D
+17.00
+A-A
+13.00
+Specials
+Item No.: 1 Which event will happen to Erling HAALAND (Manchester City) first?
+(1) Receive a Yellow Card
+10.00
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+1.46
+(4) Be substituted
+5.55
+(5) None of the above
+3.25
+Item No.: 2 Which event will happen to Phil FODEN (Manchester City) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.92
+(4) Be substituted
+3.00
+(5) None of the above
+2.10
+Item No.: 3 Which event will happen to Julian ALVAREZ (Manchester City) first?
+(1) Receive a Yellow Card
+8.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.90
+(4) Be substituted
+1.95
+(5) None of the above
+3.35
+Item No.: 4 Which event will happen to Kevin DE BRUYNE (Manchester City) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+3.80
+(4) Be substituted
+2.72
+(5) None of the above
+1.97
+Item No.: 5 Which event will happen to Cole PALMER (Chelsea) first?
+(1) Receive a Yellow Card
+4.25
+(2) Receive a Red Card
+125.0
+(3) Score a Goal
+5.00
+(4) Be substituted
+2.55
+(5) None of the above
+2.25

@@ -1,0 +1,875 @@
+05/04/2025
+FB9795
+Everton
+vs
+Arsenal
+0
+:
+1
+1
+:
+1
+%Event ID: FB9795
+Everton
+1
+1
+Arsenal
+Eng Premier
+Home/Away/Draw
+Everton (Home)
+Draw
+Arsenal (Away)
+3.85
+3.15
+1.81
+Home/Away/Draw- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Arsenal (Away)
+19.00
+1.07
+7.20
+First Half HAD
+Everton (Home)
+Draw
+Arsenal (Away)
+4.45
+1.98
+2.44
+First Half HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Arsenal (Away)
+150.0
+9.00
+1.02
+Handicap HAD
+Everton (Home)
+Draw
+Arsenal (Away)
+[+2]
+1.22
+[+2]
+5.30
+[-2]
+7.50
+[+1]
+1.78
+[+1]
+3.40
+[-1]
+3.50
+Handicap HAD- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Arsenal (Away)
+[-1]
+17.00
+[-1]
+5.80
+[+1]
+1.10
+[+1]
+1.03
+[+1]
+7.60
+[-1]
+23.00
+[+2]
+1.10
+[+2]
+6.20
+[-2]
+14.00
+[+3]
+1.10
+[+3]
+6.00
+[-3]
+15.50
+Handicap
+Everton (Home)
+Arsenal (Away)
+[+0.5/+1]
+1.64
+[-0.5/-1]
+2.28
+Handicap- Last Odds for In Play Betting
+Everton (Home)
+Arsenal (Away)
+[0]
+3.30
+[0]
+1.29
+[+1/+1.5]
+1.10
+[-1/-1.5]
+5.95
+[0/+0.5]
+1.29
+[0/-0.5]
+3.30
+[+0.5/+1]
+1.61
+[-0.5/-1]
+2.20
+Same Game All Up
+BETO Betuncal to score first & Everton to win
+11.00
+Mikel MERINO to score first & Arsenal to win
+9.50
+Martin ODEGAARD to score first & Arsenal to win [2:0]
+50.00
+Both teams to score & Arsenal to win & Over [10.5] corners taken
+10.00
+Arsenal to win & Over [2.5] goals & Over [9.5] corners taken
+6.00
+Both teams to score in the match & Over [1.5] goals in the first half & Arsenal to win the match by [2] goal(s) or more
+15.00
+Both teams to score & Everton to win & Under [9.5] corners taken
+16.00
+Everton to score first & Arsenal to win by [2] goal(s) or more
+35.00
+Arsenal to win the first half & Over [2.5] goals in the first half & Over [10.5] corners taken in the match
+28.00
+Over [6.5] corners taken in the first half & Over [12.5] corners taken in the match
+6.40
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+4.70
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [10.5] corners taken in the match
+13.00
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+6.00
+Over [2.5] goals in the first half & Over [4.5] goals in the match
+19.00
+The match to be drawn & Under [9.5] corners taken
+5.80
+Arsenal to win [1:0] in the first half & Arsenal to win [2:1] in the match
+27.00
+Arsenal to win [2:0] in the first half & Arsenal to win [3:0] in the match
+40.00
+Arsenal to win [2:0] in the first half & Arsenal to win [4:0] in the match
+90.00
+First half to be drawn [1:1] & The match to be drawn [2:2]
+50.00
+Everton to win [1:0] in the first half & Everton to win [2:0] in the match
+30.00
+HiLo
+Line
+High
+Low
+[2/2.5]
+1.90
+1.80
+[2.5]
+2.22
+1.58
+[3.5]
+3.90
+1.20
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.15
+4.40
+[1.5/2]
+1.20
+3.90
+[2/2.5]
+1.98
+1.73
+[2.5]
+1.26
+3.40
+[2.5/3]
+5.90
+1.08
+[3/3.5]
+12.00
+1.001
+[3.5]
+12.00
+1.001
+[4.5]
+5.40
+1.10
+First Half HiLo
+Line
+High
+Low
+[1/1.5]
+2.55
+1.45
+[1.5]
+3.05
+1.32
+[1.5/2]
+3.80
+1.21
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+3.70
+1.22
+[1/1.5]
+9.50
+1.02
+[1.5]
+9.50
+1.02
+[1.5/2]
+5.90
+1.08
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+2.19
+1.60
+[11.5]
+2.85
+1.36
+[13.5]
+5.15
+1.11
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[9.5]
+1.62
+2.15
+[10.5]
+1.24
+3.55
+[11.5]
+4.15
+1.17
+[12.5]
+5.90
+1.08
+[13.5]
+10.50
+1.01
+[14.5]
+6.60
+1.06
+First Half Corner Taken HiLo
+Line
+High
+Low
+[4.5]
+1.87
+1.83
+[5.5]
+2.70
+1.39
+[6.5]
+4.15
+1.17
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.27
+3.35
+[4.5]
+1.27
+3.35
+[5.5]
+1.38
+2.75
+[6.5]
+1.45
+2.55
+[7.5]
+7.00
+1.05
+[8.5]
+8.00
+1.04
+[9.5]
+6.25
+1.07
+Corner Taken Handicap
+Everton (Home)
+Arsenal (Away)
+[+2.5]
+1.75
+[-2.5]
+1.95
+Corner Taken Handicap- Last Odds for In Play Betting
+Everton (Home)
+Arsenal (Away)
+[+2.5]
+2.68
+[-2.5]
+1.40
+[+5.5]
+1.17
+[-5.5]
+4.15
+[+4.5]
+1.50
+[-4.5]
+2.40
+[+6.5]
+1.63
+[-6.5]
+2.13
+[+3.5]
+4.75
+[-3.5]
+1.13
+First Half Corner Taken Handicap
+Everton (Home)
+Arsenal (Away)
+[+1.5]
+1.58
+[-1.5]
+2.22
+First Half Corner Taken Handicap- Last Odds for In Play Betting
+Everton (Home)
+Arsenal (Away)
+[+0.5]
+3.65
+[-0.5]
+1.23
+[+3.5]
+1.03
+[-3.5]
+8.50
+[+4.5]
+1.05
+[-4.5]
+7.00
+[+2.5]
+1.14
+[-2.5]
+4.60
+[+1.5]
+3.65
+[-1.5]
+1.23
+Correct Score
+Everton (Home)
+Draw
+Arsenal (Away)
+1:0
+8.75
+0:0
+7.00
+0:1
+5.50
+2:0
+17.00
+1:1
+6.00
+0:2
+7.00
+2:1
+11.50
+2:2
+15.00
+1:2
+7.50
+3:0
+40.00
+3:3
+70.00
+0:3
+15.00
+3:1
+35.00
+1:3
+17.00
+3:2
+40.00
+2:3
+30.00
+4:0
+125.0
+0:4
+40.00
+4:1
+100.0
+1:4
+40.00
+4:2
+125.0
+2:4
+60.00
+5:0
+600.0
+0:5
+80.00
+5:1
+500.0
+1:5
+80.00
+5:2
+600.0
+2:5
+200.0
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+300.0
+Home Others
+(Away Scores)
+200.0
+Draw Others
+300.0
+Away Others
+(Home Scores)
+80.00
+Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Arsenal (Away)
+1:0
+6.80
+0:0
+4.00
+0:1
+3.42
+2:0
+20.00
+1:1
+1.08
+0:2
+3.34
+2:1
+19.10
+2:2
+125.0
+1:2
+7.40
+3:0
+100.0
+3:3
+1000
+0:3
+7.60
+3:1
+1000
+1:3
+150.0
+3:2
+1000
+2:3
+1000
+4:0
+700.0
+0:4
+29.00
+4:1
+1000
+1:4
+1000
+4:2
+1000
+2:4
+1000
+5:0
+1000
+0:5
+150.0
+5:1
+1000
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+800.0
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Everton (Home)
+Draw
+Arsenal (Away)
+1:0
+6.00
+0:0
+2.26
+0:1
+3.45
+2:0
+18.00
+1:1
+7.00
+0:2
+8.25
+2:1
+30.00
+2:2
+80.00
+1:2
+16.00
+3:0
+125.0
+3:3
+1000
+0:3
+40.00
+3:1
+200.0
+1:3
+80.00
+3:2
+500.0
+2:3
+400.0
+4:0
+700.0
+0:4
+200.0
+4:1
+900.0
+1:4
+500.0
+4:2
+2000
+2:4
+1000
+5:0
+2500
+0:5
+800.0
+5:1
+2500
+1:5
+1500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Everton (Home)
+Draw
+Arsenal (Away)
+1:0
+9.25
+0:0
+1.31
+0:1
+1.04
+2:0
+100.0
+1:1
+14.50
+0:2
+11.00
+2:1
+300.0
+2:2
+2500
+1:2
+100.0
+3:0
+2500
+3:3
+2500
+0:3
+200.0
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Everton (Home)
+No Goals
+Arsenal (Away)
+2.60
+7.00
+1.63
+Next Team To Score- Last Odds for In Play Betting
+Everton (Home)
+No Goals
+Arsenal (Away)
+1st Goal
+3.01
+4.55
+1.70
+2nd Goal
+3.06
+3.42
+1.92
+3rd Goal
+16.00
+1.08
+6.70
+Total Goals
+0
+7.00
+1
+3.85
+2
+3.15
+3
+3.85
+4
+5.90
+5
+11.50
+6
+26.00
+7+
+40.00
+Total Goals- Last Odds for In Play Betting
+0
+4.00
+1
+3.42
+2
+1.08
+3
+4.90
+4
+70.00
+5
+500.0
+6
+500.0
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.90
+1.80
+First Scorer
+Everton (Home)
+Arsenal (Away)
+101 BETO Betuncal
+5.60
+201 Bukayo SAKA
+5.70
+102 Armando BROJA
+7.00
+202 Mikel MERINO
+6.10
+103 Youssef CHERMITI
+8.75
+204 Leandro TROSSARD
+6.50
+104 Iliman NDIAYE
+10.00
+203 GABRIEL Teodoro MARTINELLI
+6.60
+105 Dwight McNEIL
+12.00
+205 Nathan BUTLER-OYEDEJI
+7.00
+106 Carlos ALCARAZ
+13.00
+206 Raheem STERLING
+7.50
+107 Abdoulaye DOUCOURE
+15.00
+207 Ethan NWANERI
+7.50
+108 Jack HARRISON
+16.00
+208 Martin ODEGAARD
+10.00
+109 Jesper LINDSTROM
+17.00
+209 Ismeal KABIA
+11.50
+110 Jake O'BRIEN
+24.00
+210 Declan RICE
+16.00
+111 Tim IROEGBUNAM
+35.00
+211 Jimi GOWER
+17.00
+112 Idrissa GUEYE
+35.00
+212 Kieran TIERNEY
+20.00
+113 Ashley YOUNG
+40.00
+213 Thomas PARTEY
+20.00
+114 James TARKOWSKI
+40.00
+214 JORGINHO Luiz Frello
+22.00
+115 Mike KEANE
+40.00
+215 Ben WHITE
+26.00
+116 Jarrad BRANTHWAITE
+45.00
+216 Myles LEWIS-SKELLY
+28.00
+117 James GARNER
+55.00
+217 Jurrien TIMBER
+35.00
+118 Nathan PATTERSON
+80.00
+218 Oleksandr ZINCHENKO
+35.00
+119 Roman DIXON
+80.00
+219 Jakub KIWIOR
+40.00
+120 Home Others
+12.50
+220 Away Others
+8.00
+00 No First Scorer
+6.80
+HaFu
+H-H
+6.30
+H-D
+14.00
+H-A
+25.00
+D-H
+8.00
+D-D
+4.30
+D-A
+4.30
+A-H
+30.00
+A-D
+14.00
+A-A
+3.05
+Specials
+Item No.: 1 Which event will happen to Bukayo SAKA (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.20
+(4) Be substituted
+1.54
+(5) None of the above
+5.20
+Item No.: 2 How many goal(s) will Bukayo SAKA (Arsenal) score?
+(1) No Goal
+1.28
+(2) 1 Goal
+3.20
+(3) 2 Goals
+11.00
+(4) 3 Goals or more
+29.00
+Item No.: 3 Which event will happen to Mikel MERINO (Arsenal) first?
+(1) Receive a Yellow Card
+7.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.90
+(4) Be substituted
+2.20
+(5) None of the above
+2.08
+Item No.: 4 Which event will happen to Leandro TROSSARD (Arsenal) first?
+(1) Receive a Yellow Card
+8.50
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.10
+(4) Be substituted
+1.99
+(5) None of the above
+2.45
+Item No.: 5 Which event will happen to Martin ODEGAARD (Arsenal) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.95
+(4) Be substituted
+2.50
+(5) None of the above
+1.88

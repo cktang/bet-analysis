@@ -1,0 +1,124 @@
+{
+  "url": "https://fbref.com/en/matches/fccab6ff/Manchester-City-West-Ham-United-May-3-2023-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "West Ham United",
+  "matchDate": "May 3, 2023",
+  "score": "3-0",
+  "homeScore": 3,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 50,
+        "player": "Nathan Aké",
+        "playerId": "eaeca114",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Riyad Mahrez"
+      },
+      {
+        "minute": 70,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Jack Grealish"
+      },
+      {
+        "minute": 85,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 49,
+        "player": "Flynn Downes",
+        "playerId": "69fdb896",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "player": "Ben Johnson",
+        "playerId": "9319781b",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Manuel Akanji",
+        "playerId": "89ac64a6",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Kalvin Phillips",
+        "playerId": "4f565d77",
+        "team": "Manchester City",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 6
+  }
+}

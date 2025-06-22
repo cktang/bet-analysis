@@ -1,0 +1,130 @@
+{
+  "url": "https://fbref.com/en/matches/99eb6105/Leicester-City-Crystal-Palace-January-15-2025-Premier-League",
+  "homeTeam": "Leicester City",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "January 15, 2025",
+  "score": "0-2",
+  "homeScore": 0,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 52,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Ismaila Sarr"
+      },
+      {
+        "minute": 78,
+        "player": "Marc Guéhi",
+        "playerId": "d0706b27",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Eberechi Eze"
+      }
+    ],
+    "yellowCards": [],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 20,
+        "player": "Cheick Doucouré",
+        "playerId": "ce4f40c7",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 62,
+        "player": "Daichi Kamada",
+        "playerId": "15b287da",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Kasey McAteer",
+        "playerId": "b2c66859",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Oliver Skipp",
+        "playerId": "6250083a",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Patson Daka",
+        "playerId": "ca45605e",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Justin Devenny",
+        "playerId": "6c2b66fc",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Jordan Ayew",
+        "playerId": "da052c14",
+        "team": "Leicester City",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Eddie Nketiah",
+        "playerId": "a53649b7",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Nathaniel Clyne",
+        "playerId": "0442183b",
+        "team": "Crystal Palace",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 0,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

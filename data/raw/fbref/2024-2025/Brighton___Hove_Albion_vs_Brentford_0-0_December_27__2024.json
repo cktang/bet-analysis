@@ -1,0 +1,119 @@
+{
+  "url": "https://fbref.com/en/matches/15b10b33/Brighton-and-Hove-Albion-Brentford-December-27-2024-Premier-League",
+  "homeTeam": "Brighton & Hove Albion",
+  "awayTeam": "Brentford",
+  "matchDate": "December 27, 2024",
+  "score": "0-0",
+  "homeScore": 0,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [],
+    "yellowCards": [
+      {
+        "minute": 57,
+        "player": "Ben Mee",
+        "playerId": "8df7a2fb",
+        "team": "Brentford"
+      },
+      {
+        "minute": 75,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 36,
+        "player": "Hákon Rafn Valdimarsson",
+        "playerId": "57a34cf4",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Simon Adingra",
+        "playerId": "4dcec659",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Yasin Ayari",
+        "playerId": "f173303a",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 67,
+        "player": "Yankuba Minteh",
+        "playerId": "c3cf087d",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Yehor Yarmoliuk",
+        "playerId": "907a5d7c",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Georginio Rutter",
+        "playerId": "c64c01fc",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Kim Jisoo",
+        "playerId": "f4065d9e",
+        "team": "Brentford",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Solly March",
+        "playerId": "bb5fbd2b",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 0,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

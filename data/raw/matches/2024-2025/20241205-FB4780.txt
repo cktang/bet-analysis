@@ -1,0 +1,753 @@
+05/12/2024
+FB4780
+Southampton
+vs
+Chelsea
+1
+:
+3
+1
+:
+5
+%Event ID: FB4780
+Southampton
+1
+5
+Chelsea
+Eng Premier
+Home/Away/Draw
+Southampton (Home)
+Draw
+Chelsea (Away)
+8.25
+5.60
+1.20
+Home/Away/Draw- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Chelsea (Away)
+70.00
+35.00
+1.001
+First Half HAD
+Southampton (Home)
+Draw
+Chelsea (Away)
+6.70
+2.93
+1.54
+First Half HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Chelsea (Away)
+90.00
+50.00
+1.01
+Handicap HAD
+Southampton (Home)
+Draw
+Chelsea (Away)
+[+2]
+1.96
+[+2]
+4.00
+[-2]
+2.63
+Handicap HAD- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Chelsea (Away)
+[+1]
+4.80
+[+1]
+4.40
+[-1]
+1.42
+[+5]
+1.10
+[+5]
+4.55
+[-5]
+80.00
+[+2]
+4.70
+[+2]
+3.85
+[-2]
+1.50
+[+3]
+12.50
+[+3]
+2.24
+[-3]
+1.63
+[+4]
+15.00
+[+4]
+1.47
+[-4]
+2.55
+Handicap
+Southampton (Home)
+Chelsea (Away)
+[+1.5/+2]
+1.82
+[-1.5/-2]
+2.00
+Same Game All Up
+Both teams to score & Chelsea to win by [2] goal(s) or more & Over [10.5] corners taken
+7.20
+Chelsea to win by [2] goal(s) or more & Over [4.5] goals & Over [11.5] corners taken
+10.00
+Chelsea to win [2:0] in the first half & Chelsea to win [4:0] in the match
+30.00
+First half to be drawn [0:0] & Both teams to score in the match
+11.50
+Both teams to score in the match & First Half to be drawn & Chelsea to win the match by [2] goal(s) or more
+16.00
+Southampton to score in the first half & Chelsea to win the match by [2] goal(s) or more
+7.20
+Both teams to score & Southampton to win & Under [10.5] corners taken
+22.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+6.10
+Over [6.5] corners taken in the first half & Over [13.5] corners taken in the match
+5.20
+Over [7.5] corners taken in the first half & Over [3.5] goals in the match
+9.75
+Under [1.5] goals in the first half & Under [3.5] goals in the match & Under [9.5] corners taken in the match
+5.10
+Under [3.5] corners taken in the first half & Under [8.5] corners taken in the match
+4.75
+First Half to be drawn & Chelsea to win the match by exactly [2] goal(s)
+11.00
+The match to be drawn & Under [9.5] corners taken
+12.00
+Southampton to score first & Chelsea to win by exactly [1] goal(s)
+15.00
+Chelsea to win [1:0] in the first half & Chelsea to win [2:1] in the match
+26.00
+Chelsea to win [1:0] in the first half & Chelsea to win [3:1] in the match
+30.00
+Chelsea to win [2:0] in the first half & Chelsea to win [3:1] in the match
+40.00
+First half to be drawn [1:1] & Chelsea to win [3:1] in the match
+40.00
+Southampton to win [1:0] in the first half & Southampton to win [2:1] in the match
+60.00
+HiLo
+Line
+High
+Low
+[3.5]
+1.81
+1.89
+[3.5/4]
+2.02
+1.70
+[4.5]
+2.80
+1.37
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3/3.5]
+1.25
+3.45
+[3.5]
+1.38
+2.75
+[3.5/4]
+2.13
+1.63
+[4/4.5]
+1.26
+3.40
+[4.5]
+1.39
+2.70
+[4.5/5]
+1.53
+2.33
+[5/5.5]
+2.45
+1.48
+[5.5]
+1.39
+2.70
+[5.5/6]
+2.80
+1.37
+[6/6.5]
+5.90
+1.08
+[6.5]
+6.60
+1.06
+[6.5/7]
+6.25
+1.07
+[7.5]
+12.00
+1.001
+First Half HiLo
+Line
+High
+Low
+[1.5]
+1.82
+1.88
+[1.5/2]
+2.13
+1.63
+[2.5]
+3.55
+1.24
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1/1.5]
+1.81
+1.89
+[1.5]
+1.23
+3.65
+[1.5/2]
+2.13
+1.63
+[2/2.5]
+1.95
+1.75
+[2.5]
+1.27
+3.35
+[2.5/3]
+1.48
+2.45
+[3/3.5]
+2.27
+1.56
+[3.5]
+1.36
+2.85
+[3.5/4]
+2.55
+1.45
+[4/4.5]
+4.95
+1.12
+[4.5]
+5.90
+1.08
+[4.5/5]
+6.60
+1.06
+[5/5.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[10.5]
+1.83
+1.87
+[11.5]
+2.29
+1.55
+[14.5]
+4.95
+1.12
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.17
+1.61
+[6.5]
+3.10
+1.31
+[7.5]
+4.75
+1.13
+Correct Score
+Southampton (Home)
+Draw
+Chelsea (Away)
+1:0
+30.00
+0:0
+27.00
+0:1
+11.00
+2:0
+40.00
+1:1
+11.50
+0:2
+8.00
+2:1
+20.00
+2:2
+15.00
+1:2
+7.75
+3:0
+100.0
+3:3
+40.00
+0:3
+8.75
+3:1
+40.00
+1:3
+8.75
+3:2
+40.00
+2:3
+16.00
+4:0
+400.0
+0:4
+11.50
+4:1
+150.0
+1:4
+11.50
+4:2
+100.0
+2:4
+24.00
+5:0
+900.0
+0:5
+23.00
+5:1
+600.0
+1:5
+23.00
+5:2
+500.0
+2:5
+40.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+30.00
+Home Others
+(Away Scores)
+80.00
+Draw Others
+100.0
+Away Others
+(Home Scores)
+14.00
+Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Chelsea (Away)
+1:0
+27.00
+0:0
+19.00
+0:1
+21.00
+2:0
+45.00
+1:1
+19.00
+0:2
+9.00
+2:1
+19.00
+2:2
+13.50
+1:2
+13.50
+3:0
+150.0
+3:3
+150.0
+0:3
+7.60
+3:1
+35.00
+1:3
+2.70
+3:2
+27.00
+2:3
+15.00
+4:0
+600.0
+0:4
+9.50
+4:1
+100.0
+1:4
+1.54
+4:2
+90.00
+2:4
+15.00
+5:0
+1000
+0:5
+16.00
+5:1
+450.0
+1:5
+1.11
+5:2
+450.0
+2:5
+30.00
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+22.00
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+5.00
+First Half Correct Score
+Southampton (Home)
+Draw
+Chelsea (Away)
+1:0
+9.50
+0:0
+4.30
+0:1
+3.55
+2:0
+35.00
+1:1
+7.00
+0:2
+4.95
+2:1
+26.00
+2:2
+40.00
+1:2
+9.75
+3:0
+150.0
+3:3
+500.0
+0:3
+10.50
+3:1
+150.0
+1:3
+23.00
+3:2
+250.0
+2:3
+80.00
+4:0
+800.0
+0:4
+35.00
+4:1
+800.0
+1:4
+70.00
+4:2
+900.0
+2:4
+300.0
+5:0
+2500
+0:5
+125.0
+5:1
+2500
+1:5
+250.0
+5:2
+2500
+2:5
+700.0
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+500.0
+Home Others
+(Away Scores)
+2000
+Draw Others
+2500
+Away Others
+(Home Scores)
+500.0
+First Half Correct Score- Last Odds for In Play Betting
+Southampton (Home)
+Draw
+Chelsea (Away)
+1:0
+8.25
+0:0
+3.50
+0:1
+3.27
+2:0
+35.00
+1:1
+2.77
+0:2
+2.84
+2:1
+6.90
+2:2
+6.00
+1:2
+1.63
+3:0
+200.0
+3:3
+1000
+0:3
+5.90
+3:1
+30.00
+1:3
+1.13
+3:2
+41.00
+2:3
+24.00
+4:0
+2500
+0:4
+19.00
+4:1
+200.0
+1:4
+5.30
+4:2
+350.0
+2:4
+100.0
+5:0
+2500
+0:5
+80.00
+5:1
+2500
+1:5
+70.00
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+250.0
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Southampton (Home)
+No Goals
+Chelsea (Away)
+3.45
+27.00
+1.23
+Next Team To Score- Last Odds for In Play Betting
+Southampton (Home)
+No Goals
+Chelsea (Away)
+1st Goal
+3.32
+19.00
+1.27
+2nd Goal
+2.95
+21.00
+1.33
+3rd Goal
+2.94
+19.00
+1.34
+4th Goal
+2.98
+13.50
+1.37
+5th Goal
+8.50
+2.70
+1.53
+6th Goal
+12.00
+1.54
+2.44
+7th Goal
+26.00
+1.11
+5.00
+Total Goals
+0
+27.00
+1
+8.25
+2
+4.90
+3
+3.90
+4
+4.05
+5
+5.30
+6
+7.75
+7+
+8.75
+Total Goals- Last Odds for In Play Betting
+0
+19.00
+1
+21.00
+2
+19.00
+3
+13.50
+4
+2.70
+5
+1.54
+6
+1.41
+7+
+2.58
+Odd/Even
+Odd
+Even
+1.85
+1.85
+First Scorer
+Southampton (Home)
+Chelsea (Away)
+101 Cameron ARCHER
+10.50
+201 Cole PALMER
+3.95
+102 Adam ARMSTRONG
+11.50
+202 Nicolas JACKSON
+4.20
+103 Paul ONUACHU
+11.50
+203 Christopher NKUNKU
+4.40
+104 Ross STEWART
+12.50
+204 Chukwunonso MADUEKE
+5.00
+105 Ben BRERETON
+13.50
+205 Marc GUIU
+5.10
+106 Samuel AMO-AMEYAW
+17.00
+206 Joao FELIX
+5.70
+107 Kamaldeen SULEMANA
+19.00
+207 PEDRO Lomba NETO
+5.90
+108 Maxwell CORNET
+19.00
+208 Jadon SANCHO
+6.40
+109 Ryan FRASER
+20.00
+209 Mykhaylo MUDRYK
+6.80
+110 Joe ARIBO
+21.00
+210 Carney CHUKWUEMEKA
+11.50
+111 Mateus FERNANDES
+23.00
+211 Kiernan DEWSBURY-HALL
+13.00
+112 Will SMALLBONE
+30.00
+212 Enzo Jeremias FERNANDEZ
+15.00
+113 Kyle WALKER-PETERS
+40.00
+213 Cesare CASADEI
+18.00
+114 Yukinari SUGAWARA
+40.00
+214 Malo GUSTO
+23.00
+115 Ryan MANNING
+55.00
+216 Reece JAMES
+26.00
+116 Charlie TAYLOR
+85.00
+217 Renato VEIGA
+26.00
+118 James BREE
+85.00
+215 Moises CAICEDO
+27.00
+117 Juan LARIOS
+100.0
+218 Romeo LAVIA
+30.00
+119 Jan BEDNAREK
+125.0
+219 Axel DISASI
+30.00
+120 Home Others
+25.00
+220 Away Others
+9.25
+00 No First Scorer
+26.80
+HaFu
+H-H
+12.50
+H-D
+17.00
+H-A
+18.00
+D-H
+18.00
+D-D
+9.25
+D-A
+3.95
+A-H
+50.00
+A-D
+17.00
+A-A
+1.65

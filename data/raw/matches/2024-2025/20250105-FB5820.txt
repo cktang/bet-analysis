@@ -1,0 +1,818 @@
+05/01/2025
+FB5820
+Fulham
+vs
+Ipswich
+0
+:
+1
+2
+:
+2
+%Event ID: FB5820
+Fulham
+2
+2
+Ipswich
+Eng Premier
+Home/Away/Draw
+Fulham (Home)
+Draw
+Ipswich (Away)
+1.41
+4.00
+5.80
+Home/Away/Draw- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Ipswich (Away)
+7.80
+1.07
+21.00
+First Half HAD
+Fulham (Home)
+Draw
+Ipswich (Away)
+1.81
+2.43
+5.70
+First Half HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Ipswich (Away)
+250.0
+6.90
+1.05
+Handicap HAD
+Fulham (Home)
+Draw
+Ipswich (Away)
+[-1]
+2.27
+[-1]
+3.45
+[+1]
+2.44
+Handicap HAD- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Ipswich (Away)
+[-1]
+22.00
+[-1]
+6.90
+[+1]
+1.05
+[+2]
+1.001
+[+2]
+13.00
+[-2]
+300.0
+Handicap
+Fulham (Home)
+Ipswich (Away)
+[-1]
+1.86
+[+1]
+1.96
+Handicap- Last Odds for In Play Betting
+Fulham (Home)
+Ipswich (Away)
+[-1]
+2.05
+[+1]
+1.70
+[+0.5/+1]
+1.001
+[-0.5/-1]
+70.00
+[0]
+1.27
+[0]
+3.48
+[-0.5/-1]
+1.92
+[+0.5/+1]
+1.80
+[0/+0.5]
+2.34
+[0/-0.5]
+1.54
+[0/-0.5]
+4.20
+[0/+0.5]
+1.19
+Same Game All Up
+Both teams to score & Fulham to win by [2] goal(s) or more & Over [11.5] corners taken
+12.00
+Fulham to win by [2] goal(s) or more & Over [3.5] goals & Over [12.5] corners taken
+12.00
+Fulham to win [2:0] in the first half & Fulham to win [4:0] in the match
+45.00
+First half to be drawn [0:0] & Both teams to score in the match
+10.00
+Both teams to score in the match & First Half to be drawn & Fulham to win the match by [2] goal(s) or more
+20.00
+Both teams to score & Ipswich to win & Under [9.5] corners taken
+20.00
+Over [1.5] goals in the first half & Over [3.5] goals in the match & Over [11.5] corners taken in the match
+7.80
+Over [7.5] corners taken in the first half & Over [14.5] corners taken in the match
+8.75
+Under [1.5] goals in the first half & Under [2.5] goals in the match & Under [7.5] corners taken in the match
+12.00
+Under [3.5] corners taken in the first half & Under [7.5] corners taken in the match
+6.80
+First Half to be drawn & Fulham to win the match by exactly [2] goal(s)
+12.50
+The match to be drawn & Under [7.5] corners taken
+19.00
+Ipswich to score first & Fulham to win by exactly [1] goal(s)
+14.50
+Fulham to score in the first half & Ipswich to win or draw the match
+5.70
+Ipswich to score in the first half & Fulham to win the match by [2] goal(s) or more
+10.50
+Fulham to win [1:0] in the first half & Fulham to win [2:1] in the match
+24.00
+Fulham to win [1:0] in the first half & Fulham to win [3:1] in the match
+40.00
+Fulham to win [2:0] in the first half & Fulham to win [3:1] in the match
+45.00
+First half to be drawn [1:1] & Fulham to win [3:1] in the match
+45.00
+First half to be drawn [0:0] & Fulham to win [2:0] in the match
+23.00
+HiLo
+Line
+High
+Low
+[2.5]
+1.65
+2.10
+[2.5/3]
+1.83
+1.87
+[3.5]
+2.58
+1.44
+HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[1.5]
+1.65
+2.10
+[1.5/2]
+1.72
+2.00
+[2/2.5]
+2.98
+1.33
+[2.5]
+1.56
+2.27
+[2.5/3]
+1.98
+1.73
+[3/3.5]
+3.65
+1.23
+[3.5]
+1.64
+2.12
+[3.5/4]
+4.60
+1.14
+[4/4.5]
+10.50
+1.01
+[4.5]
+11.00
+1.005
+[4.5/5]
+5.15
+1.11
+First Half HiLo
+Line
+High
+Low
+[1.5]
+2.38
+1.51
+[1.5/2]
+2.85
+1.36
+[2.5]
+4.75
+1.13
+First Half HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[0.5/1]
+3.90
+1.20
+[1/1.5]
+9.50
+1.02
+[1.5]
+11.00
+1.005
+[1.5/2]
+5.90
+1.08
+[2.5]
+12.00
+1.001
+Corner Taken HiLo
+Line
+High
+Low
+[11.5]
+2.17
+1.61
+[12.5]
+2.75
+1.38
+[14.5]
+4.75
+1.13
+Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[8.5]
+1.59
+2.20
+[9.5]
+1.14
+4.60
+[10.5]
+1.21
+3.80
+[11.5]
+4.95
+1.12
+[12.5]
+11.00
+1.005
+[13.5]
+12.00
+1.001
+[14.5]
+5.15
+1.11
+First Half Corner Taken HiLo
+Line
+High
+Low
+[5.5]
+2.10
+1.65
+[6.5]
+3.05
+1.32
+[7.5]
+4.75
+1.13
+First Half Corner Taken HiLo- Last Odds for In Play Betting
+Line
+High
+Low
+[3.5]
+1.20
+3.90
+[4.5]
+5.60
+1.09
+[5.5]
+10.50
+1.01
+[6.5]
+12.00
+1.001
+[7.5]
+4.95
+1.12
+Correct Score
+Fulham (Home)
+Draw
+Ipswich (Away)
+1:0
+6.60
+0:0
+12.00
+0:1
+16.00
+2:0
+6.60
+1:1
+7.75
+0:2
+30.00
+2:1
+6.80
+2:2
+14.00
+1:2
+15.00
+3:0
+9.50
+3:3
+50.00
+0:3
+70.00
+3:1
+10.50
+1:3
+40.00
+3:2
+21.00
+2:3
+40.00
+4:0
+19.00
+0:4
+250.0
+4:1
+20.00
+1:4
+125.0
+4:2
+40.00
+2:4
+125.0
+5:0
+40.00
+0:5
+800.0
+5:1
+40.00
+1:5
+600.0
+5:2
+70.00
+2:5
+600.0
+Home Others
+(Away No Goal)
+70.00
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+40.00
+Draw Others
+175.0
+Away Others
+(Home Scores)
+125.0
+Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Ipswich (Away)
+1:0
+3.50
+0:0
+5.40
+0:1
+2.28
+2:0
+5.30
+1:1
+1.93
+0:2
+8.00
+2:1
+3.05
+2:2
+1.08
+1:2
+1.28
+3:0
+12.00
+3:3
+125.0
+0:3
+60.00
+3:1
+10.00
+1:3
+10.00
+3:2
+8.00
+2:3
+21.10
+4:0
+35.00
+0:4
+900.0
+4:1
+50.00
+1:4
+200.0
+4:2
+200.0
+2:4
+1000
+5:0
+125.0
+0:5
+1000
+5:1
+400.0
+1:5
+1000
+5:2
+1000
+2:5
+1000
+Home Others
+(Away No Goal)
+600.0
+Away Others
+(Home No Goal)
+1000
+Home Others
+(Away Scores)
+1000
+Draw Others
+1000
+Away Others
+(Home Scores)
+1000
+First Half Correct Score
+Fulham (Home)
+Draw
+Ipswich (Away)
+1:0
+3.40
+0:0
+2.96
+0:1
+7.00
+2:0
+6.00
+1:1
+7.00
+0:2
+26.00
+2:1
+13.00
+2:2
+60.00
+1:2
+30.00
+3:0
+15.00
+3:3
+700.0
+0:3
+150.0
+3:1
+40.00
+1:3
+150.0
+3:2
+150.0
+2:3
+400.0
+4:0
+70.00
+0:4
+800.0
+4:1
+150.0
+1:4
+900.0
+4:2
+600.0
+2:4
+1500
+5:0
+400.0
+0:5
+2500
+5:1
+700.0
+1:5
+2500
+5:2
+2000
+2:5
+2500
+Home Others
+(Away No Goal)
+1000
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+1000
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Half Correct Score- Last Odds for In Play Betting
+Fulham (Home)
+Draw
+Ipswich (Away)
+1:0
+3.85
+0:0
+1.28
+0:1
+1.08
+2:0
+30.00
+1:1
+5.90
+0:2
+29.00
+2:1
+71.00
+2:2
+2500
+1:2
+150.0
+3:0
+300.0
+3:3
+2500
+0:3
+1000
+3:1
+2500
+1:3
+2500
+3:2
+2500
+2:3
+2500
+4:0
+2500
+0:4
+2500
+4:1
+2500
+1:4
+2500
+4:2
+2500
+2:4
+2500
+5:0
+2500
+0:5
+2500
+5:1
+2500
+1:5
+2500
+5:2
+2500
+2:5
+2500
+Home Others
+(Away No Goal)
+2500
+Away Others
+(Home No Goal)
+2500
+Home Others
+(Away Scores)
+2500
+Draw Others
+2500
+Away Others
+(Home Scores)
+2500
+First Team to Score
+Fulham (Home)
+No Goals
+Ipswich (Away)
+1.36
+12.00
+3.10
+Next Team To Score- Last Odds for In Play Betting
+Fulham (Home)
+No Goals
+Ipswich (Away)
+1st Goal
+1.50
+5.40
+3.50
+2nd Goal
+1.94
+2.28
+5.40
+4th Goal
+3.95
+1.28
+9.50
+5th Goal
+7.20
+1.08
+18.00
+Total Goals
+0
+12.00
+1
+5.20
+2
+3.60
+3
+3.65
+4
+4.75
+5
+7.00
+6
+14.50
+7+
+21.00
+Total Goals- Last Odds for In Play Betting
+0
+5.40
+1
+2.28
+2
+1.93
+3
+1.28
+4
+1.08
+5
+4.80
+6
+70.00
+7+
+500.0
+Odd/Even
+Odd
+Even
+1.86
+1.84
+First Scorer
+Fulham (Home)
+Ipswich (Away)
+101 Raul JIMENEZ
+3.50
+201 Liam DELAP
+8.00
+102 Rodrigo MUNIZ Carvalho
+4.05
+202 Sammie SZMODICS
+10.00
+103 Carlos VINICIUS
+4.30
+203 Ali AL HAMADI
+11.50
+104 Alex IWOBI
+5.20
+204 Nathan BROADHEAD
+12.00
+105 Harry WILSON
+5.60
+205 Omari HUTCHINSON
+13.00
+106 Emile Smith ROWE
+6.50
+206 Jack CLARKE
+13.50
+107 Adama TRAORE Diarra
+7.25
+207 Conor CHAPLIN
+15.00
+108 Martial GODO
+7.25
+208 Jack TAYLOR
+23.00
+109 Joshua David KING
+7.75
+209 Wes BURNS
+23.00
+110 Andreas PEREIRA
+8.25
+210 Ben JOHNSON
+35.00
+112 Tom CAIRNEY
+15.00
+211 Cameron BURGESS
+40.00
+119 Antonee ROBINSON
+17.00
+212 Dara O'SHEA
+45.00
+111 Sander BERGE
+18.00
+214 Leif DAVIS
+50.00
+116 Sasa LUKIC
+19.00
+213 Jacob GREAVES
+55.00
+113 Issa DIOP
+20.00
+215 Sam MORSY
+60.00
+114 Joachim ANDERSEN
+21.00
+216 Kalvin PHILLIPS
+65.00
+115 Ryan SESSEGNON
+22.00
+217 Massimo LUONGO
+65.00
+117 Harrison REED
+25.00
+218 Harry CLARKE
+75.00
+118 Timothy CASTAGNE
+29.00
+219 Jens CAJUSTE
+75.00
+120 Home Others
+10.00
+220 Away Others
+23.00
+00 No First Scorer
+11.80
+HaFu
+H-H
+2.07
+H-D
+15.00
+H-A
+35.00
+D-H
+3.90
+D-D
+6.30
+D-A
+12.50
+A-H
+18.00
+A-D
+15.00
+A-A
+9.75
+Specials
+Item No.: 1 Which event will happen to Raul JIMENEZ (Fulham) first?
+(1) Receive a Yellow Card
+8.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+2.37
+(4) Be substituted
+1.68
+(5) None of the above
+7.50
+Item No.: 2 How many goal(s) will Raul JIMENEZ (Fulham) score?
+(1) No Goal
+1.45
+(2) 1 Goal
+2.65
+(3) 2 Goals
+8.75
+(4) 3 Goals or more
+26.00
+Item No.: 3 Which event will happen to Alex IWOBI (Fulham) first?
+(1) Receive a Yellow Card
+7.25
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+3.00
+(4) Be substituted
+2.80
+(5) None of the above
+2.25
+Item No.: 4 Which event will happen to Liam DELAP (Ipswich) first?
+(1) Receive a Yellow Card
+3.75
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+4.40
+(4) Be substituted
+1.50
+(5) None of the above
+8.90
+Item No.: 5 Which event will happen to Omari HUTCHINSON (Ipswich) first?
+(1) Receive a Yellow Card
+4.10
+(2) Receive a Red Card
+150.0
+(3) Score a Goal
+5.80
+(4) Be substituted
+2.20
+(5) None of the above
+2.50

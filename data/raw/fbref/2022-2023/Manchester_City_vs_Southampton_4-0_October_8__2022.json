@@ -1,0 +1,153 @@
+{
+  "url": "https://fbref.com/en/matches/864294c0/Manchester-City-Southampton-October-8-2022-Premier-League",
+  "homeTeam": "Manchester City",
+  "awayTeam": "Southampton",
+  "matchDate": "October 8, 2022",
+  "score": "4-0",
+  "homeScore": 4,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 20,
+        "player": "João Cancelo",
+        "playerId": "bd6351cd",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Phil Foden"
+      },
+      {
+        "minute": 32,
+        "player": "Phil Foden",
+        "playerId": "ed1e53f3",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Kevin De Bruyne"
+      },
+      {
+        "minute": 49,
+        "player": "Riyad Mahrez",
+        "playerId": "892d5bb1",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "Rodri"
+      },
+      {
+        "minute": 65,
+        "player": "Erling Haaland",
+        "playerId": "1f44ac21",
+        "team": "Manchester City",
+        "isPenalty": false,
+        "assist": "João Cancelo"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 20,
+        "player": "Kyle Walker-Peters",
+        "playerId": "984a5a64",
+        "team": "Southampton"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "player": "Jack Grealish",
+        "playerId": "b0b4fd3e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Mohamed Elyounoussi",
+        "playerId": "68dc0dac",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Moussa Djenepo",
+        "playerId": "254147d4",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Julián Álvarez",
+        "playerId": "15ab5a2b",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Sergio Gómez",
+        "playerId": "01e5f06e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Cole Palmer",
+        "playerId": "dc7f8a28",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Rico Lewis",
+        "playerId": "b57e066e",
+        "team": "Manchester City",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Juan Larios",
+        "playerId": "cf7fb13a",
+        "team": "Southampton",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Sekou Mara",
+        "playerId": "3544641e",
+        "team": "Southampton",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 1,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

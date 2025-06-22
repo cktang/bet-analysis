@@ -1,0 +1,144 @@
+{
+  "url": "https://fbref.com/en/matches/e929e225/Luton-Town-West-Ham-United-September-1-2023-Premier-League",
+  "homeTeam": "Luton Town",
+  "awayTeam": "West Ham United",
+  "matchDate": "September 1, 2023",
+  "score": "1-2",
+  "homeScore": 1,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 37,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Lucas Paquetá"
+      },
+      {
+        "minute": 85,
+        "player": "Kurt Zouma",
+        "playerId": "ce4246f5",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "James Ward-Prowse"
+      },
+      {
+        "minute": 92,
+        "player": "Mads Juel Andersen",
+        "playerId": "f098c03e",
+        "team": "Luton Town",
+        "isPenalty": false,
+        "assist": "Carlton Morris"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 81,
+        "player": "Emerson Palmieri",
+        "playerId": "e0bc6fdc",
+        "team": "West Ham United"
+      },
+      {
+        "minute": 87,
+        "player": "Marvelous Nakamba",
+        "playerId": "de5b5570",
+        "team": "Luton Town"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "player": "Pelly Ruddock Mpanzu",
+        "playerId": "a9b1c319",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Jacob Brown",
+        "playerId": "ca18c8f1",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 71,
+        "player": "Issa Kaboré",
+        "playerId": "c066d1a5",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 78,
+        "player": "Chiedozie Ogbene",
+        "playerId": "788c0277",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Danny Ings",
+        "playerId": "07802f7f",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 84,
+        "player": "Cauley Woodrow",
+        "playerId": "d3085b49",
+        "team": "Luton Town",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 8
+  }
+}

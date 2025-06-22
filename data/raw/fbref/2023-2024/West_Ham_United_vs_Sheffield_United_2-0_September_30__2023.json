@@ -1,0 +1,143 @@
+{
+  "url": "https://fbref.com/en/matches/b82be6d7/West-Ham-United-Sheffield-United-September-30-2023-Premier-League",
+  "homeTeam": "West Ham United",
+  "awayTeam": "Sheffield United",
+  "matchDate": "September 30, 2023",
+  "score": "2-0",
+  "homeScore": 2,
+  "awayScore": 0,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 24,
+        "player": "Jarrod Bowen",
+        "playerId": "79c84d1c",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Vladimír Coufal"
+      },
+      {
+        "minute": 37,
+        "player": "Tomáš Souček",
+        "playerId": "6613c819",
+        "team": "West Ham United",
+        "isPenalty": false,
+        "assist": "Michail Antonio"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 32,
+        "player": "James Mcatee",
+        "playerId": "96593e89",
+        "team": "Sheffield United"
+      },
+      {
+        "minute": 40,
+        "player": "Edson Álvarez",
+        "playerId": "8b3ab7ad",
+        "team": "West Ham United"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "player": "Chris Basham",
+        "playerId": "1aa84968",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 70,
+        "player": "Tom Davies",
+        "playerId": "9228b07c",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Mohammed Kudus",
+        "playerId": "b62878a5",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 72,
+        "player": "Saïd Benrahma",
+        "playerId": "5a04fd92",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Anis Ben Slimane",
+        "playerId": "9ade9ce1",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Rhian Brewster",
+        "playerId": "30e81a88",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 79,
+        "player": "Auston Trusty",
+        "playerId": "cddf767b",
+        "team": "Sheffield United",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Pablo Fornals",
+        "playerId": "82927de4",
+        "team": "West Ham United",
+        "type": "in"
+      },
+      {
+        "minute": 93,
+        "player": "Konstantinos Mavropanos",
+        "playerId": "00963611",
+        "team": "West Ham United",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 2,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 9
+  }
+}

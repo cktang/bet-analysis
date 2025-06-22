@@ -1,0 +1,158 @@
+{
+  "url": "https://fbref.com/en/matches/7d114c70/Liverpool-Brighton-and-Hove-Albion-November-2-2024-Premier-League",
+  "homeTeam": "Liverpool",
+  "awayTeam": "Brighton & Hove Albion",
+  "matchDate": "November 2, 2024",
+  "score": "2-1",
+  "homeScore": 2,
+  "awayScore": 1,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 14,
+        "player": "Ferdi Kadioglu",
+        "playerId": "66c52a77",
+        "team": "Brighton & Hove Albion",
+        "isPenalty": false,
+        "assist": "Danny Welbeck"
+      },
+      {
+        "minute": 69,
+        "player": "Cody Gakpo",
+        "playerId": "1971591f",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Virgil van Dijk"
+      },
+      {
+        "minute": 72,
+        "player": "Mohamed Salah",
+        "playerId": "e342ad68",
+        "team": "Liverpool",
+        "isPenalty": false,
+        "assist": "Curtis Jones"
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 45,
+        "player": "Alexis Mac Allister",
+        "playerId": "83d074ff",
+        "team": "Liverpool"
+      },
+      {
+        "minute": 83,
+        "player": "Ferdi Kadioglu",
+        "playerId": "66c52a77",
+        "team": "Brighton & Hove Albion"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "player": "Joe Gomez",
+        "playerId": "7a11550b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Curtis Jones",
+        "playerId": "4fb9c88f",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 66,
+        "player": "Luis Díaz",
+        "playerId": "4a1a9578",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Mats Wieffer",
+        "playerId": "4876c9ab",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 76,
+        "player": "Brajan Gruda",
+        "playerId": "ae9b998d",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 77,
+        "player": "Wataru Endo",
+        "playerId": "c149016b",
+        "team": "Liverpool",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Simon Adingra",
+        "playerId": "4dcec659",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 87,
+        "player": "Jakub Moder",
+        "playerId": "f230bc30",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 88,
+        "player": "Evan Ferguson",
+        "playerId": "4596da74",
+        "team": "Brighton & Hove Albion",
+        "type": "in"
+      },
+      {
+        "minute": 91,
+        "player": "Conor Bradley",
+        "playerId": "bbd67769",
+        "team": "Liverpool",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 3,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 10
+  }
+}

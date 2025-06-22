@@ -1,0 +1,145 @@
+{
+  "url": "https://fbref.com/en/matches/67651145/Arsenal-Crystal-Palace-April-23-2025-Premier-League",
+  "homeTeam": "Arsenal",
+  "awayTeam": "Crystal Palace",
+  "matchDate": "April 23, 2025",
+  "score": "2-2",
+  "homeScore": 2,
+  "awayScore": 2,
+  "incidents": {
+    "goals": [
+      {
+        "minute": 3,
+        "player": "Jakub Kiwior",
+        "playerId": "dc3e663e",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Martin Ødegaard"
+      },
+      {
+        "minute": 27,
+        "player": "Eberechi Eze",
+        "playerId": "ae4fc6a4",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": "Adam Wharton"
+      },
+      {
+        "minute": 42,
+        "player": "Leandro Trossard",
+        "playerId": "38ceb24a",
+        "team": "Arsenal",
+        "isPenalty": false,
+        "assist": "Jurriën Timber"
+      },
+      {
+        "minute": 83,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "isPenalty": false,
+        "assist": ""
+      }
+    ],
+    "yellowCards": [
+      {
+        "minute": 47,
+        "player": "Declan Rice",
+        "playerId": "1c7012b8",
+        "team": "Arsenal"
+      },
+      {
+        "minute": 47,
+        "player": "Justin Devenny",
+        "playerId": "6c2b66fc",
+        "team": "Crystal Palace"
+      }
+    ],
+    "redCards": [],
+    "penalties": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "player": "Bukayo Saka",
+        "playerId": "bc7dc64d",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Will Hughes",
+        "playerId": "a0666d3e",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 63,
+        "player": "Ismaila Sarr",
+        "playerId": "bfdb33aa",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Romain Esse",
+        "playerId": "87189f25",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 80,
+        "player": "Jean-Philippe Mateta",
+        "playerId": "50e6dc35",
+        "team": "Crystal Palace",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Ethan Nwaneri",
+        "playerId": "7f94982c",
+        "team": "Arsenal",
+        "type": "in"
+      },
+      {
+        "minute": 86,
+        "player": "Kieran Tierney",
+        "playerId": "fce2302c",
+        "team": "Arsenal",
+        "type": "in"
+      }
+    ]
+  },
+  "penaltyStats": {
+    "home": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    },
+    "away": {
+      "won": 0,
+      "conceded": 0,
+      "made": 0,
+      "attempted": 0
+    }
+  },
+  "cleanliness": {
+    "score": 0,
+    "category": "clean",
+    "factors": {
+      "redCards": 0,
+      "penalties": 0,
+      "yellowCards": 2,
+      "earlyRedCard": 0,
+      "multipleRedCards": 0
+    }
+  },
+  "summary": {
+    "totalGoals": 4,
+    "penaltyGoals": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "penalties": 0,
+    "substitutions": 7
+  }
+}

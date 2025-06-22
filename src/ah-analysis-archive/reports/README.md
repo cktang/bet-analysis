@@ -1,14 +1,6 @@
 # Asian Handicap Analysis System
 
-## 🚨 **IMPORTANT: THIS SYSTEM IS COMPLETE AND OPERATIONAL**
-
-This folder contains a sophisticated feedback loop system that has **SUCCESSFULLY DISCOVERED 20 PROFITABLE STRATEGIES** using EPL data from 3 seasons. The system is in **PRODUCTION STATE** - it works perfectly and should not be modified.
-
-## 🚫 **FOR NEW AGENTS: READ ONLY**
-- **Status**: COMPLETE - 20 profitable strategies discovered
-- **Your role**: UNDERSTAND how it works, don't change it
-- **Results**: Available in `winning_strategies_records_REAL/` directory  
-- **If you need to build new analysis**: Create `src/new-analysis/` directory
+This folder contains a sophisticated feedback loop system for discovering profitable Asian Handicap betting patterns using EPL data from 3 seasons.
 
 ## Overview
 

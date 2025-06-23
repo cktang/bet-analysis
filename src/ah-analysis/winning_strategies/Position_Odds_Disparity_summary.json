@@ -1,0 +1,3955 @@
+{
+  "name": "Position_Odds_Disparity",
+  "totalBets": 438,
+  "correctPicks": 242,
+  "totalReturn": 12073,
+  "profitability": 0.2756392694063927,
+  "accuracy": 0.5525114155251142,
+  "threshold": 20,
+  "avgProfitPerBet": 27.56392694063927,
+  "selectionRate": 39.96350364963504,
+  "bettingRecords": [
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-04-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 450
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-12-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 432.69230769230774
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Southampton",
+      "date": "2025-03-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.98,
+      "profit": 98,
+      "factorValue": 361.90476190476187
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leicester",
+      "date": "2024-12-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.77,
+      "profit": 77,
+      "factorValue": 304.76190476190476
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Burnley",
+      "date": "2024-01-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.16,
+      "profit": 116.00000000000001,
+      "factorValue": 288.6792452830189
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Southampton",
+      "date": "2024-10-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.07,
+      "profit": 106.99999999999999,
+      "factorValue": 288.6792452830189
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Luton",
+      "date": "2024-04-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 285.71428571428567
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "date": "2023-11-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": 266.66666666666663
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Burnley",
+      "date": "2024-02-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 266.66666666666663
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-10-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.76,
+      "profit": 76,
+      "factorValue": 256.60377358490564
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Luton",
+      "date": "2024-04-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.7,
+      "profit": 70,
+      "factorValue": 254.71698113207546
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Ipswich",
+      "date": "2025-01-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": 254.2056074766355
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "date": "2023-03-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.71,
+      "profit": 71,
+      "factorValue": 245.45454545454547
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Southampton",
+      "date": "2022-10-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": 237.73584905660377
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Burnley",
+      "date": "2023-11-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": 237.037037037037
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leicester",
+      "date": "2023-04-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": 236.1111111111111
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Ipswich",
+      "date": "2024-12-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": 236.1111111111111
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "date": "2022-08-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 228.57142857142856
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Ipswich",
+      "date": "2024-08-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": 226.4150943396226
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "date": "2022-12-30T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.77,
+      "profit": 0,
+      "factorValue": 222.42990654205607
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Southampton",
+      "date": "2024-10-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 220.18348623853208
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Southampton",
+      "date": "2023-04-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": 0,
+      "factorValue": 218.58407079646022
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-12-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 0,
+      "factorValue": 209.1743119266055
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Nottingham Forest",
+      "date": "2022-10-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 207.07964601769916
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leeds",
+      "date": "2023-05-05T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 205.5045871559633
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Southampton",
+      "date": "2025-02-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": 201.38888888888886
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Southampton",
+      "date": "2023-04-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": 83,
+      "factorValue": 188.05309734513276
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-12-22T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": 180.18018018018017
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "date": "2024-04-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.77,
+      "profit": -100,
+      "factorValue": 173.394495412844
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "date": "2025-02-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 164.28571428571428
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "West Ham",
+      "date": "2024-05-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.89,
+      "profit": 88.99999999999999,
+      "factorValue": 161.53846153846152
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "West Ham",
+      "date": "2023-05-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 159.54545454545453
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "date": "2023-01-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.12,
+      "profit": 112.00000000000001,
+      "factorValue": 159.2920353982301
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "date": "2023-05-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 157.65765765765764
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Ipswich",
+      "date": "2025-04-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.05,
+      "profit": 104.99999999999999,
+      "factorValue": 154.12844036697248
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Southampton",
+      "date": "2023-03-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.9,
+      "profit": 0,
+      "factorValue": 153.87931034482762
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "date": "2024-05-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": 152.83018867924528
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Leicester",
+      "date": "2024-09-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 151.3761467889908
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "date": "2022-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": -100,
+      "factorValue": 148.14814814814815
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-04-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.99,
+      "profit": 99,
+      "factorValue": 146.78899082568807
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "date": "2024-03-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.73,
+      "profit": 73,
+      "factorValue": 146.3963963963964
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "West Ham",
+      "date": "2025-02-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": -100,
+      "factorValue": 144.82758620689654
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "date": "2024-05-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": 143.92523364485982
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "date": "2024-02-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": 143.11926605504587
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leicester",
+      "date": "2025-04-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.86,
+      "profit": 86.00000000000001,
+      "factorValue": 143.11926605504587
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "date": "2025-04-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": 83,
+      "factorValue": 141.89189189189187
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "date": "2023-03-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.14,
+      "profit": 114.00000000000001,
+      "factorValue": 140.49586776859505
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Luton",
+      "date": "2024-02-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 139.22413793103448
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leicester",
+      "date": "2025-03-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": 136.28318584070797
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Ipswich",
+      "date": "2025-04-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.74,
+      "profit": 0,
+      "factorValue": 135.13513513513513
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "date": "2023-09-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.07,
+      "profit": 106.99999999999999,
+      "factorValue": 133.0275229357798
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "date": "2024-12-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 0,
+      "factorValue": 131.57894736842107
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Luton",
+      "date": "2024-03-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 130
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Leeds",
+      "date": "2023-03-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.89,
+      "profit": 88.99999999999999,
+      "factorValue": 126.72413793103449
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-04-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.9,
+      "profit": 89.99999999999999,
+      "factorValue": 121.87499999999999
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "date": "2023-12-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 121.68141592920355
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham",
+      "date": "2025-04-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 120.76271186440678
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-10-28T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": 117.85714285714285
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "date": "2023-12-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.76,
+      "profit": 76,
+      "factorValue": 116.8141592920354
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Southampton",
+      "date": "2025-01-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 112.2
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "date": "2024-01-19T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 106.140350877193
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-09-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.9,
+      "profit": 89.99999999999999,
+      "factorValue": 104.66101694915255
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Bournemouth",
+      "date": "2023-01-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 104.3103448275862
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-09-22T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.04,
+      "profit": 104,
+      "factorValue": 102.75229357798165
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Burnley",
+      "date": "2023-12-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 102
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "date": "2022-12-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.07,
+      "profit": 106.99999999999999,
+      "factorValue": 101.2396694214876
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-03-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 99.5689655172414
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "date": "2023-05-22T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.98,
+      "profit": 0,
+      "factorValue": 99.17355371900827
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "date": "2024-05-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 99.09909909909909
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Burnley",
+      "date": "2024-05-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 94.91525423728814
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "date": "2023-08-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 0,
+      "factorValue": 94.01709401709402
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leeds",
+      "date": "2022-10-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": -100,
+      "factorValue": 92.10526315789474
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-09-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.99,
+      "profit": -100,
+      "factorValue": 90.09009009009009
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-08-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.11,
+      "profit": 110.99999999999999,
+      "factorValue": 89.09090909090908
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Luton",
+      "date": "2023-10-28T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.11,
+      "profit": 110.99999999999999,
+      "factorValue": 88.63636363636364
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "date": "2024-05-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 87.61061946902656
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": 86.96581196581198
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Southampton",
+      "date": "2022-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 86.95652173913044
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Tottenham",
+      "date": "2025-05-16T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 86.95652173913044
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-04-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 86.66666666666667
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Southampton",
+      "date": "2024-12-06T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.98,
+      "profit": 98,
+      "factorValue": 86.22881355932203
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "date": "2024-02-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.9,
+      "profit": 89.99999999999999,
+      "factorValue": 86.20689655172414
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leicester",
+      "date": "2025-05-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.79,
+      "profit": 0,
+      "factorValue": 86.11111111111111
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Leicester",
+      "date": "2025-04-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 0,
+      "factorValue": 85.47008547008548
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 0,
+      "factorValue": 83.89830508474577
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "date": "2024-11-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.17,
+      "profit": 0,
+      "factorValue": 83.33333333333334
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "date": "2024-12-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 0,
+      "factorValue": 83.33333333333334
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Burnley",
+      "date": "2024-03-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": 0,
+      "factorValue": 82.89473684210526
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Nottingham Forest",
+      "date": "2022-10-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.81,
+      "profit": 0,
+      "factorValue": 81.88976377952756
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-12-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": 83,
+      "factorValue": 81.81818181818181
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham",
+      "date": "2025-02-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 81.5677966101695
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "date": "2022-11-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 79.81651376146789
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Bournemouth",
+      "date": "2023-02-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 79.2
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Ipswich",
+      "date": "2024-11-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.76,
+      "profit": -100,
+      "factorValue": 78.94736842105264
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leicester",
+      "date": "2022-12-30T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.72,
+      "profit": 72,
+      "factorValue": 78.12499999999999
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester Utd",
+      "date": "2025-01-05T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.14,
+      "profit": 0,
+      "factorValue": 74.8015873015873
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Leicester",
+      "date": "2022-09-17T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 72.68115942028986
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Everton",
+      "date": "2023-05-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.68,
+      "profit": -100,
+      "factorValue": 72
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "date": "2022-10-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 69.64285714285714
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Wolves",
+      "date": "2025-01-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 69.04761904761905
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Burnley",
+      "date": "2023-09-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.73,
+      "profit": 73,
+      "factorValue": 68.54838709677419
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Everton",
+      "date": "2025-04-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.06,
+      "profit": 106,
+      "factorValue": 65.88235294117648
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Everton",
+      "date": "2023-10-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.22,
+      "profit": 122.00000000000001,
+      "factorValue": 65.71428571428571
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Ipswich",
+      "date": "2024-09-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": 65.26315789473685
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Southampton",
+      "date": "2023-02-17T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": -100,
+      "factorValue": 64.96062992125985
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "West Ham",
+      "date": "2022-12-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": 64.28571428571429
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Aston Villa",
+      "date": "2023-02-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": 63.8655462184874
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Wolves",
+      "date": "2025-01-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": 62
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-12-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.76,
+      "profit": -100,
+      "factorValue": 61.50793650793651
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Leeds",
+      "date": "2023-02-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": 0,
+      "factorValue": 61.31386861313868
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "date": "2025-04-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.82,
+      "profit": 0,
+      "factorValue": 61.02362204724409
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Everton",
+      "date": "2024-08-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.17,
+      "profit": 117,
+      "factorValue": 60.483870967741936
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leeds",
+      "date": "2022-12-30T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 0,
+      "factorValue": 60.45112781954887
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Aston Villa",
+      "date": "2022-08-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": 59.42446043165468
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "date": "2025-05-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": -100,
+      "factorValue": 58.83620689655172
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Luton",
+      "date": "2023-11-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 58.61344537815127
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Wolves",
+      "date": "2022-10-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.13,
+      "profit": 112.99999999999999,
+      "factorValue": 58.2608695652174
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-03-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": 56.81818181818181
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-04-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": 56.793893129770986
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "date": "2024-09-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": 56.306306306306304
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "date": "2025-05-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.12,
+      "profit": 0,
+      "factorValue": 56
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-09-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": 55.41353383458647
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-02-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": 53.968253968253975
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Wolves",
+      "date": "2023-05-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": 53.1496062992126
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Burnley",
+      "date": "2023-12-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.04,
+      "profit": 0,
+      "factorValue": 52.55474452554744
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Chelsea",
+      "date": "2024-02-17T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": 51.666666666666664
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "date": "2024-09-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": 51.31578947368422
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Southampton",
+      "date": "2025-01-16T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 51.282051282051285
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brentford",
+      "date": "2024-12-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": 102.99999999999999,
+      "factorValue": 50.81967213114754
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton",
+      "date": "2024-03-30T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.89,
+      "profit": 88.99999999999999,
+      "factorValue": 50.42372881355932
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Wolves",
+      "date": "2022-08-19T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": 49.62406015037593
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Burnley",
+      "date": "2024-04-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 0,
+      "factorValue": 48.3941605839416
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Wolves",
+      "date": "2024-10-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 0,
+      "factorValue": 48.27586206896552
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Everton",
+      "date": "2022-10-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 47.04545454545455
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Ipswich",
+      "date": "2025-02-14T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.87,
+      "profit": 0,
+      "factorValue": 46.38461538461539
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "date": "2024-11-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.22,
+      "profit": -100,
+      "factorValue": 46.06299212598425
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "date": "2025-05-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.69,
+      "profit": 69,
+      "factorValue": 45.52845528455285
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Tottenham",
+      "date": "2025-01-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": 45.45454545454545
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Ipswich",
+      "date": "2025-04-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.81,
+      "profit": -100,
+      "factorValue": 45.31249999999999
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-02-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 45.13888888888889
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "date": "2024-01-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.69,
+      "profit": 69,
+      "factorValue": 44.8
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "West Ham",
+      "date": "2023-02-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 0,
+      "factorValue": 44.76821192052981
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Everton",
+      "date": "2023-04-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": 44.38356164383561
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Bournemouth",
+      "date": "2023-04-14T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.09,
+      "profit": -100,
+      "factorValue": 44.20289855072464
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-08-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": 42.73504273504274
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "date": "2022-08-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.26,
+      "profit": 125.99999999999997,
+      "factorValue": 42.71653543307087
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-04-07T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": 42.48275862068965
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Wolves",
+      "date": "2024-11-22T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.83,
+      "profit": -100,
+      "factorValue": 42.12765957446809
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "date": "2024-04-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": 41.84615384615384
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Leicester",
+      "date": "2023-02-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 41.83098591549296
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Bournemouth",
+      "date": "2023-09-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 41.642857142857146
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Chelsea",
+      "date": "2023-05-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": 41.25
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Wolves",
+      "date": "2024-09-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": 102.99999999999999,
+      "factorValue": 41.16666666666667
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Ipswich",
+      "date": "2025-01-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.86,
+      "profit": 0,
+      "factorValue": 41.13475177304965
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Southampton",
+      "date": "2025-05-17T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.86,
+      "profit": 86.00000000000001,
+      "factorValue": 41.015625
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brentford",
+      "date": "2024-04-05T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.98,
+      "profit": 0,
+      "factorValue": 41.00671140939597
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "date": "2025-02-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.72,
+      "profit": 72,
+      "factorValue": 40.599999999999994
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "West Ham",
+      "date": "2023-12-28T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": -100,
+      "factorValue": 40.5982905982906
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Fulham",
+      "date": "2023-10-23T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 40
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leicester",
+      "date": "2025-05-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.12,
+      "profit": 112.00000000000001,
+      "factorValue": 39.34426229508197
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Burnley",
+      "date": "2024-03-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 0,
+      "factorValue": 38.94039735099338
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-02-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": 38.208955223880594
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester Utd",
+      "date": "2025-05-16T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": 38.19444444444445
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Everton",
+      "date": "2024-09-14T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.03,
+      "profit": 102.99999999999999,
+      "factorValue": 37.38562091503268
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-03-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 37.2983870967742
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "date": "2024-05-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.71,
+      "profit": 71,
+      "factorValue": 36.96
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Southampton",
+      "date": "2024-12-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.89,
+      "profit": 0,
+      "factorValue": 36.80555555555556
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "date": "2023-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 36.54362416107383
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brentford",
+      "date": "2024-01-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.89,
+      "profit": 88.99999999999999,
+      "factorValue": 36.41379310344828
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Everton",
+      "date": "2023-03-18T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": 36.36363636363636
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leicester",
+      "date": "2022-08-26T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": 36.328125
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Luton",
+      "date": "2024-02-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.08,
+      "profit": 0,
+      "factorValue": 36.2589928057554
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "date": "2022-12-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.14,
+      "profit": 114.00000000000001,
+      "factorValue": 35.86065573770492
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Everton",
+      "date": "2025-04-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 35.78947368421052
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "date": "2023-02-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.04,
+      "profit": 0,
+      "factorValue": 35.77777777777778
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Wolves",
+      "date": "2025-02-21T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.73,
+      "profit": -100,
+      "factorValue": 35.67567567567568
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "date": "2023-05-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.01,
+      "profit": 100.99999999999997,
+      "factorValue": 35.416666666666664
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "date": "2023-05-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.99,
+      "profit": 99,
+      "factorValue": 35.374149659863946
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-03-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.08,
+      "profit": 0,
+      "factorValue": 35.12396694214876
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brentford",
+      "date": "2023-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.15,
+      "profit": 114.99999999999999,
+      "factorValue": 35.08064516129033
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "date": "2024-12-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.09,
+      "profit": 0,
+      "factorValue": 35.08064516129033
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "date": "2023-03-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.77,
+      "profit": 77,
+      "factorValue": 34.53237410071942
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "date": "2025-04-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.73,
+      "profit": 0,
+      "factorValue": 34.45945945945946
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "date": "2024-03-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.04,
+      "profit": 104,
+      "factorValue": 34.07142857142857
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "West Ham",
+      "date": "2023-02-19T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.04,
+      "profit": 104,
+      "factorValue": 34.04761904761905
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Leeds",
+      "date": "2022-11-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.7,
+      "profit": 70,
+      "factorValue": 34.013605442176875
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Chelsea",
+      "date": "2023-05-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": 33.9568345323741
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Leicester",
+      "date": "2022-09-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.17,
+      "profit": 117,
+      "factorValue": 33.5195530726257
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Sheff Utd",
+      "date": "2024-05-10T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": 33.07086614173228
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "date": "2025-05-20T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.14,
+      "profit": 114.00000000000001,
+      "factorValue": 32.78688524590164
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Ipswich",
+      "date": "2024-11-29T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": 32.29032258064516
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Everton",
+      "date": "2023-02-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": 32.11267605633803
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Fulham",
+      "date": "2024-12-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": -100,
+      "factorValue": 32.10526315789473
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-10-05T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 0,
+      "factorValue": 31.865671641791042
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Aston Villa",
+      "date": "2024-11-09T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": 31.865671641791042
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brighton",
+      "date": "2023-12-16T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": 31.57894736842105
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Southampton",
+      "date": "2023-02-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": 31.445783132530117
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Bournemouth",
+      "date": "2023-12-08T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.73,
+      "profit": -100,
+      "factorValue": 31.208053691275172
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Luton",
+      "date": "2023-12-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": 31.167883211678827
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Aston Villa",
+      "date": "2022-10-28T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": 30.74534161490683
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Newcastle",
+      "date": "2024-02-24T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.11,
+      "profit": 110.99999999999999,
+      "factorValue": 30.241935483870968
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Fulham",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": 29.555555555555554
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "date": "2024-12-13T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": 29.41176470588236
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Bournemouth",
+      "date": "2023-01-14T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.98,
+      "profit": 98,
+      "factorValue": 29.38775510204082
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Everton",
+      "date": "2025-04-11T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.21,
+      "profit": -100,
+      "factorValue": 29.30232558139535
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Tottenham",
+      "date": "2025-04-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 29.139072847682122
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "date": "2024-10-04T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": 28.695652173913047
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Sheff Utd",
+      "date": "2023-10-06T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": 27.391304347826086
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham",
+      "date": "2022-10-19T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": 27.131782945736433
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-12-17T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.05,
+      "profit": 0,
+      "factorValue": 27.016129032258064
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Luton",
+      "date": "2023-08-25T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": 26.923076923076927
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-12-15T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.07,
+      "profit": -100,
+      "factorValue": 26.853146853146853
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Chelsea",
+      "date": "2024-01-31T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": 26.644736842105264
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Wolves",
+      "date": "2023-03-12T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.76,
+      "profit": 76,
+      "factorValue": 26.42384105960265
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "date": "2025-05-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.77,
+      "profit": -100,
+      "factorValue": 26.133333333333336
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-03-02T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.86,
+      "profit": 86.00000000000001,
+      "factorValue": 26.05042016806723
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "date": "2025-04-01T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 2.08,
+      "profit": 108,
+      "factorValue": 25.925925925925924
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "West Ham",
+      "date": "2023-03-03T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": 25.714285714285715
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Crystal Palace",
+      "date": "2024-11-22T16:00:00.000Z",
+      "betSide": "home",
+      "odds": 1.87,
+      "profit": 0,
+      "factorValue": 25.50955414012739
+    },
+    {
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Aston Villa",
+      "date": "2024-02-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.71,
+      "profit": 71,
+      "factorValue": -4.185858585858585
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "West Ham",
+      "date": "2022-10-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.1,
+      "profit": 0,
+      "factorValue": -4.191176470588235
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Newcastle",
+      "date": "2025-03-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": -4.197952218430034
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Arsenal",
+      "date": "2022-10-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.98,
+      "profit": 98,
+      "factorValue": -4.228571428571429
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Aston Villa",
+      "date": "2025-05-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": -4.241379310344828
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-09-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": 0,
+      "factorValue": -4.258741258741258
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Fulham",
+      "date": "2025-04-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": -4.260674157303371
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Brighton",
+      "date": "2023-01-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": 96,
+      "factorValue": -4.28
+    },
+    {
+      "homeTeam": "Ipswich",
+      "awayTeam": "Leicester",
+      "date": "2024-11-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": 0,
+      "factorValue": -4.2898550724637685
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Leicester",
+      "date": "2024-10-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": -4.2961165048543695
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-11-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": -4.3125
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "date": "2025-03-09T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.89,
+      "profit": 0,
+      "factorValue": -4.324210526315789
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Brighton",
+      "date": "2023-11-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": -4.333333333333333
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Leicester",
+      "date": "2023-03-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": -100,
+      "factorValue": -4.365671641791044
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Liverpool",
+      "date": "2024-01-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": -4.371428571428571
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Chelsea",
+      "date": "2024-12-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.03,
+      "profit": 0,
+      "factorValue": -4.391578947368421
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Arsenal",
+      "date": "2022-11-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": -4.4106463878327
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Chelsea",
+      "date": "2024-05-11T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": -4.426666666666667
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "date": "2024-10-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.14,
+      "profit": 0,
+      "factorValue": -4.436619718309859
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "West Ham",
+      "date": "2024-12-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": -4.452296819787986
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Liverpool",
+      "date": "2024-03-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": -4.454901960784314
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Liverpool",
+      "date": "2024-02-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": -4.461363636363636
+    },
+    {
+      "homeTeam": "Luton",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-02-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.86,
+      "profit": 86.00000000000001,
+      "factorValue": -4.485714285714286
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Arsenal",
+      "date": "2022-11-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": -4.496666666666666
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Brentford",
+      "date": "2025-02-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.72,
+      "profit": 72,
+      "factorValue": -4.504615384615384
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Arsenal",
+      "date": "2023-05-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": -100,
+      "factorValue": -4.516129032258064
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Tottenham",
+      "date": "2024-05-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": -100,
+      "factorValue": -4.516129032258065
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Arsenal",
+      "date": "2023-10-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": 0,
+      "factorValue": -4.538709677419354
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-04-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": -4.538947368421053
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Fulham",
+      "date": "2024-04-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": -100,
+      "factorValue": -4.55078125
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-01-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 0,
+      "factorValue": -4.552238805970148
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Newcastle",
+      "date": "2024-09-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.97,
+      "profit": -100,
+      "factorValue": -4.553956834532374
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Arsenal",
+      "date": "2023-11-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": -100,
+      "factorValue": -4.571984435797666
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Manchester City",
+      "date": "2025-04-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.75,
+      "profit": 0,
+      "factorValue": -4.578461538461538
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Brighton",
+      "date": "2024-03-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.07,
+      "profit": -100,
+      "factorValue": -4.581497797356828
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Chelsea",
+      "date": "2023-02-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.8,
+      "profit": 0,
+      "factorValue": -4.635294117647058
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Aston Villa",
+      "date": "2025-01-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.92,
+      "profit": 92,
+      "factorValue": -4.637499999999999
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Brentford",
+      "date": "2023-04-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": -100,
+      "factorValue": -4.645522388059701
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Aston Villa",
+      "date": "2024-10-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.08,
+      "profit": 108,
+      "factorValue": -4.6755555555555555
+    },
+    {
+      "homeTeam": "Luton",
+      "awayTeam": "Everton",
+      "date": "2024-05-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.84,
+      "profit": 0,
+      "factorValue": -4.677419354838709
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Brighton",
+      "date": "2025-04-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": -100,
+      "factorValue": -4.681222707423581
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Brighton",
+      "date": "2024-04-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.1,
+      "profit": 0,
+      "factorValue": -4.712328767123288
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Newcastle",
+      "date": "2022-11-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": -4.7142857142857135
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester City",
+      "date": "2024-12-06T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.84,
+      "profit": 0,
+      "factorValue": -4.716279069767442
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "date": "2023-12-07T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": -100,
+      "factorValue": -4.736666666666666
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Newcastle",
+      "date": "2023-05-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": 0,
+      "factorValue": -4.736842105263158
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-10-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.1,
+      "profit": -100,
+      "factorValue": -4.776371308016877
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "date": "2025-01-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": -100,
+      "factorValue": -4.778181818181818
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Wolves",
+      "date": "2023-11-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.76,
+      "profit": -100,
+      "factorValue": -4.793103448275862
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Tottenham",
+      "date": "2024-10-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": -100,
+      "factorValue": -4.816901408450704
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Aston Villa",
+      "date": "2024-02-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": -4.861111111111112
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Bournemouth",
+      "date": "2024-08-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.71,
+      "profit": 71,
+      "factorValue": -4.861313868613139
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Brighton",
+      "date": "2024-12-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.89,
+      "profit": 0,
+      "factorValue": -4.896265560165975
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Brighton",
+      "date": "2023-12-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": 0,
+      "factorValue": -4.911475409836067
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Newcastle",
+      "date": "2024-02-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": -4.929032258064516
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Aston Villa",
+      "date": "2022-08-19T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.13,
+      "profit": -100,
+      "factorValue": -4.935064935064935
+    },
+    {
+      "homeTeam": "Luton",
+      "awayTeam": "Aston Villa",
+      "date": "2024-03-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": -4.948837209302326
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Newcastle",
+      "date": "2023-11-11T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": -100,
+      "factorValue": -4.95
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Aston Villa",
+      "date": "2023-11-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": -100,
+      "factorValue": -4.994594594594594
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brighton",
+      "date": "2025-05-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.14,
+      "profit": 114.00000000000001,
+      "factorValue": -5.0181818181818185
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Fulham",
+      "date": "2023-01-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": -5.055555555555555
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Fulham",
+      "date": "2024-02-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.77,
+      "profit": 0,
+      "factorValue": -5.095588235294117
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Bournemouth",
+      "date": "2024-11-29T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": 93,
+      "factorValue": -5.1265822784810124
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-10-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.11,
+      "profit": 110.99999999999999,
+      "factorValue": -5.133333333333334
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Manchester Utd",
+      "date": "2022-09-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.83,
+      "profit": 83,
+      "factorValue": -5.1466666666666665
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-03-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.14,
+      "profit": 0,
+      "factorValue": -5.147058823529412
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Wolves",
+      "date": "2023-10-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -5.185185185185184
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-05-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": -100,
+      "factorValue": -5.203883495145631
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Liverpool",
+      "date": "2024-12-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.19,
+      "profit": 0,
+      "factorValue": -5.235294117647059
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Liverpool",
+      "date": "2024-10-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": 104,
+      "factorValue": -5.241666666666667
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Tottenham",
+      "date": "2024-12-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.89,
+      "profit": -100,
+      "factorValue": -5.242718446601942
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Brentford",
+      "date": "2024-11-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 0,
+      "factorValue": -5.246511627906976
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Tottenham",
+      "date": "2024-02-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": 0,
+      "factorValue": -5.333333333333332
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester City",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": -100,
+      "factorValue": -5.333333333333333
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Tottenham",
+      "date": "2023-08-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.19,
+      "profit": 119,
+      "factorValue": -5.343283582089552
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-11-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.84,
+      "profit": 84.00000000000001,
+      "factorValue": -5.3538461538461535
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Liverpool",
+      "date": "2023-05-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -5.3580246913580245
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Newcastle",
+      "date": "2024-11-29T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": 0,
+      "factorValue": -5.468013468013467
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Leeds",
+      "date": "2022-10-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": -100,
+      "factorValue": -5.519230769230769
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Chelsea",
+      "date": "2022-10-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.19,
+      "profit": 119,
+      "factorValue": -5.548051948051948
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Newcastle",
+      "date": "2024-04-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": 104,
+      "factorValue": -5.580357142857142
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Chelsea",
+      "date": "2024-12-08T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": 87.99999999999999,
+      "factorValue": -5.611510791366906
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Brighton",
+      "date": "2022-08-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": -100,
+      "factorValue": -5.651612903225806
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Tottenham",
+      "date": "2023-03-17T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": 0,
+      "factorValue": -5.661538461538462
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Arsenal",
+      "date": "2024-09-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.86,
+      "profit": 86.00000000000001,
+      "factorValue": -5.677685950413223
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Fulham",
+      "date": "2024-11-08T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": -5.691275167785235
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Brighton",
+      "date": "2023-11-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": 0,
+      "factorValue": -5.7272727272727275
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Manchester Utd",
+      "date": "2022-12-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": 108.99999999999999,
+      "factorValue": -5.733333333333333
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Brighton",
+      "date": "2023-08-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": 100,
+      "factorValue": -5.747368421052632
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Aston Villa",
+      "date": "2023-12-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.07,
+      "profit": -100,
+      "factorValue": -5.762331838565022
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Leeds",
+      "date": "2022-08-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.92,
+      "profit": -100,
+      "factorValue": -5.786163522012577
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Tottenham",
+      "date": "2023-02-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.76,
+      "profit": -100,
+      "factorValue": -5.846153846153846
+    },
+    {
+      "homeTeam": "Ipswich",
+      "awayTeam": "Fulham",
+      "date": "2024-08-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": -5.909407665505226
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Aston Villa",
+      "date": "2023-02-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.08,
+      "profit": 108,
+      "factorValue": -5.92436974789916
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Newcastle",
+      "date": "2022-12-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": -5.938461538461539
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-05-07T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.71,
+      "profit": -100,
+      "factorValue": -5.943283582089552
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "date": "2023-04-08T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": 0,
+      "factorValue": -5.992217898832686
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brighton",
+      "date": "2024-08-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.68,
+      "profit": 0,
+      "factorValue": -6
+    },
+    {
+      "homeTeam": "Luton",
+      "awayTeam": "West Ham",
+      "date": "2023-09-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": -6.035955056179776
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Bournemouth",
+      "date": "2023-04-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.11,
+      "profit": 110.99999999999999,
+      "factorValue": -6.052631578947368
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Tottenham",
+      "date": "2024-01-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.02,
+      "profit": 0,
+      "factorValue": -6.072538860103628
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Brentford",
+      "date": "2024-10-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.84,
+      "profit": -100,
+      "factorValue": -6.10738255033557
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Arsenal",
+      "date": "2025-04-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.28,
+      "profit": 0,
+      "factorValue": -6.1116883116883125
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Newcastle",
+      "date": "2024-04-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": -100,
+      "factorValue": -6.143344709897611
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-10-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 0,
+      "factorValue": -6.153846153846155
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Brighton",
+      "date": "2022-11-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.77,
+      "profit": 77,
+      "factorValue": -6.217391304347825
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Everton",
+      "date": "2023-12-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": -6.21875
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-04-13T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": 0,
+      "factorValue": -6.236842105263158
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-04-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.99,
+      "profit": -100,
+      "factorValue": -6.258064516129032
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "date": "2023-04-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.1,
+      "profit": 110.00000000000001,
+      "factorValue": -6.296296296296297
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "West Ham",
+      "date": "2024-03-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.99,
+      "profit": 99,
+      "factorValue": -6.331658291457287
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Liverpool",
+      "date": "2023-08-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 87.00000000000001,
+      "factorValue": -6.350710900473935
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Newcastle",
+      "date": "2024-05-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": 108.99999999999999,
+      "factorValue": -6.363636363636364
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "West Ham",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": -100,
+      "factorValue": -6.421052631578947
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-12-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.8,
+      "profit": -100,
+      "factorValue": -6.426229508196721
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Aston Villa",
+      "date": "2023-10-07T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.77,
+      "profit": 0,
+      "factorValue": -6.430769230769231
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Newcastle",
+      "date": "2024-12-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -6.444444444444444
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Chelsea",
+      "date": "2025-02-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.99,
+      "profit": -100,
+      "factorValue": -6.469565217391304
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Chelsea",
+      "date": "2025-04-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.04,
+      "profit": 0,
+      "factorValue": -6.490566037735849
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-09-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.72,
+      "profit": -100,
+      "factorValue": -6.514285714285713
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-05-17T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": 104.99999999999999,
+      "factorValue": -6.534798534798535
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-11-11T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.98,
+      "profit": -100,
+      "factorValue": -6.57
+    },
+    {
+      "homeTeam": "Ipswich",
+      "awayTeam": "Aston Villa",
+      "date": "2024-09-28T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.2,
+      "profit": 0,
+      "factorValue": -6.591549295774648
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "West Ham",
+      "date": "2024-03-29T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": -100,
+      "factorValue": -6.676829268292683
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "West Ham",
+      "date": "2023-11-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -6.771874999999999
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Liverpool",
+      "date": "2025-05-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": -100,
+      "factorValue": -6.78921568627451
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Brighton",
+      "date": "2024-12-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": -100,
+      "factorValue": -6.799999999999999
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-01-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.11,
+      "profit": -100,
+      "factorValue": -6.80628272251309
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Aston Villa",
+      "date": "2025-02-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.98,
+      "profit": -100,
+      "factorValue": -6.830935251798561
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Newcastle",
+      "date": "2024-09-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.72,
+      "profit": 72,
+      "factorValue": -6.9375
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-01-06T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.67,
+      "profit": 67,
+      "factorValue": -6.962162162162163
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "West Ham",
+      "date": "2024-02-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": -100,
+      "factorValue": -6.971830985915494
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Manchester Utd",
+      "date": "2023-02-11T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.14,
+      "profit": 114.00000000000001,
+      "factorValue": -6.9802816901408455
+    },
+    {
+      "homeTeam": "Ipswich",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-03-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.16,
+      "profit": 116.00000000000001,
+      "factorValue": -7.039999999999999
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Chelsea",
+      "date": "2024-11-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": 0,
+      "factorValue": -7.08974358974359
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "date": "2022-09-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": -100,
+      "factorValue": -7.232365145228216
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Leeds",
+      "date": "2022-10-08T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": -100,
+      "factorValue": -7.234042553191489
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Tottenham",
+      "date": "2023-04-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.77,
+      "profit": 0,
+      "factorValue": -7.234782608695651
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Brighton",
+      "date": "2022-12-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.8,
+      "profit": 80,
+      "factorValue": -7.236923076923077
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Aston Villa",
+      "date": "2023-12-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": 95,
+      "factorValue": -7.241379310344827
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Crystal Palace",
+      "date": "2023-04-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -7.2835820895522385
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Tottenham",
+      "date": "2023-09-01T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.16,
+      "profit": 116.00000000000001,
+      "factorValue": -7.375
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Fulham",
+      "date": "2022-09-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.1,
+      "profit": 110.00000000000001,
+      "factorValue": -7.3963636363636365
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Crystal Palace",
+      "date": "2022-11-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.76,
+      "profit": 76,
+      "factorValue": -7.4561403508771935
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Newcastle",
+      "date": "2023-04-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": -7.458461538461538
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "date": "2023-04-29T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.11,
+      "profit": -100,
+      "factorValue": -7.5362318840579725
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-08-23T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": 79,
+      "factorValue": -7.616438356164384
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Manchester Utd",
+      "date": "2022-11-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": -100,
+      "factorValue": -7.703225806451613
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Brighton",
+      "date": "2024-11-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": -7.746666666666667
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Newcastle",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 0,
+      "factorValue": -7.7666666666666675
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Tottenham",
+      "date": "2023-03-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": -100,
+      "factorValue": -7.790163934426231
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Aston Villa",
+      "date": "2023-12-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.8,
+      "profit": 0,
+      "factorValue": -7.883870967741935
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Fulham",
+      "date": "2022-08-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.97,
+      "profit": 0,
+      "factorValue": -7.920792079207921
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Leeds",
+      "date": "2022-09-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": -100,
+      "factorValue": -7.954545454545455
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Wolves",
+      "date": "2023-04-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": -100,
+      "factorValue": -8.082191780821919
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Brighton",
+      "date": "2023-09-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.08,
+      "profit": 108,
+      "factorValue": -8.198924731182794
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-02-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": -100,
+      "factorValue": -8.200000000000001
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Brentford",
+      "date": "2023-03-15T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.02,
+      "profit": 102,
+      "factorValue": -8.212837837837839
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "West Ham",
+      "date": "2023-12-09T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": -100,
+      "factorValue": -8.267942583732058
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-05-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": 0,
+      "factorValue": -8.579710144927537
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Tottenham",
+      "date": "2023-11-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": -100,
+      "factorValue": -8.696864111498257
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Brentford",
+      "date": "2023-01-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": 0,
+      "factorValue": -8.838709677419356
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Leicester",
+      "date": "2024-08-23T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.75,
+      "profit": -100,
+      "factorValue": -8.901734104046243
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Brighton",
+      "date": "2024-04-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.74,
+      "profit": 0,
+      "factorValue": -8.928571428571427
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Aston Villa",
+      "date": "2023-01-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": 94,
+      "factorValue": -9
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Tottenham",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.75,
+      "profit": 75,
+      "factorValue": -9.159533073929962
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Fulham",
+      "date": "2023-05-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": 85.00000000000001,
+      "factorValue": -9.166666666666668
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Brentford",
+      "date": "2022-11-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": 0,
+      "factorValue": -9.327935222672064
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-12-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": -9.392857142857142
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Aston Villa",
+      "date": "2024-01-13T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.95,
+      "profit": 0,
+      "factorValue": -9.42489270386266
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Newcastle",
+      "date": "2022-08-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": 0,
+      "factorValue": -9.442622950819672
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Southampton",
+      "date": "2022-09-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.14,
+      "profit": -100,
+      "factorValue": -9.510869565217392
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Aston Villa",
+      "date": "2024-11-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.74,
+      "profit": -100,
+      "factorValue": -9.626436781609195
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Liverpool",
+      "date": "2025-05-19T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": -100,
+      "factorValue": -9.681592039800996
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Everton",
+      "date": "2023-08-19T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.84,
+      "profit": -100,
+      "factorValue": -9.93939393939394
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Wolves",
+      "date": "2024-04-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": 0,
+      "factorValue": -9.948186528497411
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Aston Villa",
+      "date": "2023-03-11T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.87,
+      "profit": 0,
+      "factorValue": -9.97663551401869
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "date": "2022-08-26T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.01,
+      "profit": -100,
+      "factorValue": -10
+    },
+    {
+      "homeTeam": "Leicester",
+      "awayTeam": "Aston Villa",
+      "date": "2023-04-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.91,
+      "profit": 90.99999999999999,
+      "factorValue": -10
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-05-06T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": -100,
+      "factorValue": -10.020304568527918
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Bournemouth",
+      "date": "2023-05-27T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": -100,
+      "factorValue": -10.135135135135135
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Tottenham",
+      "date": "2022-08-31T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.88,
+      "profit": 0,
+      "factorValue": -10.149999999999999
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Brentford",
+      "date": "2022-08-19T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": -100,
+      "factorValue": -10.284552845528454
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Brentford",
+      "date": "2022-12-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.09,
+      "profit": 108.99999999999999,
+      "factorValue": -10.421052631578947
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Fulham",
+      "date": "2025-02-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": 81,
+      "factorValue": -10.475336322869955
+    },
+    {
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "West Ham",
+      "date": "2024-01-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.07,
+      "profit": 0,
+      "factorValue": -10.503623188405797
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-04-05T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": -100,
+      "factorValue": -10.578947368421053
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Brentford",
+      "date": "2023-03-10T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2,
+      "profit": -100,
+      "factorValue": -11.012145748987855
+    },
+    {
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Fulham",
+      "date": "2023-03-31T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": -100,
+      "factorValue": -11.344537815126051
+    },
+    {
+      "homeTeam": "Brighton",
+      "awayTeam": "Aston Villa",
+      "date": "2024-05-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.03,
+      "profit": -100,
+      "factorValue": -11.376146788990825
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brentford",
+      "date": "2024-12-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.02,
+      "profit": -100,
+      "factorValue": -11.50326797385621
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Fulham",
+      "date": "2023-04-14T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.98,
+      "profit": 98,
+      "factorValue": -11.551724137931036
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester Utd",
+      "date": "2024-04-04T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": -100,
+      "factorValue": -11.59090909090909
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Fulham",
+      "date": "2023-02-03T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.89,
+      "profit": 0,
+      "factorValue": -11.875
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "West Ham",
+      "date": "2024-04-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.96,
+      "profit": -100,
+      "factorValue": -12.079207920792078
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "West Ham",
+      "date": "2024-02-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.85,
+      "profit": -100,
+      "factorValue": -12.156398104265403
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Bournemouth",
+      "date": "2024-12-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.89,
+      "profit": 88.99999999999999,
+      "factorValue": -12.345679012345679
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-02-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.76,
+      "profit": -100,
+      "factorValue": -12.383720930232558
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Brighton",
+      "date": "2022-08-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": -12.410714285714285
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-12-07T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.07,
+      "profit": 106.99999999999999,
+      "factorValue": -12.715231788079471
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brighton",
+      "date": "2023-12-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": -100,
+      "factorValue": -12.789115646258503
+    },
+    {
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-08-25T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.67,
+      "profit": -100,
+      "factorValue": -12.8
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Wolves",
+      "date": "2024-04-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 0,
+      "factorValue": -12.811059907834101
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Nottingham Forest",
+      "date": "2024-12-28T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.97,
+      "profit": 97,
+      "factorValue": -12.864
+    },
+    {
+      "homeTeam": "Leeds",
+      "awayTeam": "Fulham",
+      "date": "2022-10-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.06,
+      "profit": 106,
+      "factorValue": -13.333333333333334
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Brentford",
+      "date": "2023-09-16T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.12,
+      "profit": -100,
+      "factorValue": -13.783783783783782
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Nottingham Forest",
+      "date": "2022-08-19T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.73,
+      "profit": 0,
+      "factorValue": -13.872832369942197
+    },
+    {
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brentford",
+      "date": "2022-10-22T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.08,
+      "profit": -100,
+      "factorValue": -14.24083769633508
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Bournemouth",
+      "date": "2022-10-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.81,
+      "profit": -100,
+      "factorValue": -14.594594594594597
+    },
+    {
+      "homeTeam": "Wolves",
+      "awayTeam": "Southampton",
+      "date": "2022-09-02T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.99,
+      "profit": -100,
+      "factorValue": -14.924623115577889
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2025-04-21T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.78,
+      "profit": 78,
+      "factorValue": -15.922018348623851
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "date": "2022-08-31T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.93,
+      "profit": -100,
+      "factorValue": -16.239316239316242
+    },
+    {
+      "homeTeam": "Southampton",
+      "awayTeam": "Leeds",
+      "date": "2022-08-12T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.79,
+      "profit": 0,
+      "factorValue": -16.64864864864865
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "Aston Villa",
+      "date": "2023-09-23T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.82,
+      "profit": 82,
+      "factorValue": -16.867469879518072
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brentford",
+      "date": "2024-09-20T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.94,
+      "profit": -100,
+      "factorValue": -17.74436090225564
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Nottingham Forest",
+      "date": "2023-02-24T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.05,
+      "profit": -100,
+      "factorValue": -18.543046357615893
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton",
+      "date": "2022-09-30T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 1.9,
+      "profit": 0,
+      "factorValue": -19.548872180451127
+    },
+    {
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "date": "2022-10-08T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.18,
+      "profit": -100,
+      "factorValue": -25.89041095890411
+    },
+    {
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Aston Villa",
+      "date": "2024-05-18T16:00:00.000Z",
+      "betSide": "away",
+      "odds": 2.11,
+      "profit": -100,
+      "factorValue": -26.57718120805369
+    }
+  ]
+}

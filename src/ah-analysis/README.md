@@ -7,241 +7,194 @@ This folder contains a sophisticated feedback loop system that has **SUCCESSFULL
 ## 🚫 **FOR NEW AGENTS: READ ONLY**
 - **Status**: COMPLETE - 20 profitable strategies discovered
 - **Your role**: UNDERSTAND how it works, don't change it
-- **Results**: Available in `winning_strategies_records_REAL/` directory  
+- **Results**: Available in `winning_strategies/` directory  
 - **If you need to build new analysis**: Create `src/new-analysis/` directory
+
+## ⚠️ **CRITICAL DATA INTEGRITY WARNING**
+
+### 🚨 **MAJOR DISCOVERY: Look-Ahead Bias in Original Strategies**
+
+**Important Update**: Our analysis revealed **severe look-ahead bias** in the original profitable strategies:
+
+#### ❌ **Contaminated Data Sources (Original Strategies)**
+- **`enhanced.homePerformanceRating`** = Actual Goals / Expected Goals (**USES MATCH RESULTS**)
+- **`enhanced.awayPerformanceRating`** = Actual Goals / Expected Goals (**USES MATCH RESULTS**)
+- **`fbref.homeXG`** = Expected Goals calculated from **actual shots taken during match**
+- **`fbref.awayXG`** = Expected Goals calculated from **actual shots taken during match**
+
+#### ✅ **Legitimate Pre-Match Data Only**
+- **Betting odds** (set before match)
+- **Historical team statistics** (from previous matches)
+- **League positions** (before current match)
+- **Market efficiency metrics** (derived from pre-match odds)
+
+### 📊 **Realistic Performance After Refactoring (Latest)**
+
+**Data Structure**: Successfully refactored to `preMatch`/`postMatch` separation
+
+When using **ONLY legitimate pre-match data** with the new structure:
+
+#### **High-Frequency Strategies (20-40% of matches)**
+- **Position_Odds_Disparity**: 27.56% ROI (438 bets, 55.3% accuracy)
+- **Sample size**: Higher frequency betting
+- **Reality**: League positions vs market odds create opportunities
+
+#### **Selective Strategies (5-10% of matches)**  
+- **Goal_Difference_Momentum**: 53.19% ROI (108 bets, 67.6% accuracy)
+- **Historical_Form_Value**: 30.21% ROI (108 bets, 57.4% accuracy)
+- **Relegation_Desperation**: 13.56% ROI (108 bets, 47.2% accuracy)
+- **Reality**: Highly selective but profitable patterns exist
+- **Risk**: Lower variance due to better accuracy
 
 ## Overview
 
-The system uses machine learning-inspired techniques to:
-1. **Generate hypotheses** about which factors correlate with Asian Handicap profitability
-2. **Test these hypotheses** against historical data 
-3. **Learn from results** to generate better hypotheses in the next iteration
-4. **Continuously improve** through adaptive feedback loops
+This system implements a sophisticated machine learning approach to discover profitable Asian Handicap betting patterns. The analysis combines multiple data sources and uses adaptive factor combination testing to identify market inefficiencies.
 
-## Architecture
+### Key Components
 
-### 🧠 Core Scripts
+1. **Factor Combination Generator** (`ah_combination_generator.js`)
+   - Generates intelligent factor combinations from rule files
+   - Creates adaptive strategies based on successful patterns
+   - Implements cross-rule combinations for enhanced discovery
 
-#### 1. `ah_combination_generator.js`
-**Purpose**: Intelligently generates factor combinations to test against AH profit data
+2. **Strategy Tester** (`ah_combination_tester.js`)
+   - Tests factor combinations against historical data
+   - Calculates correlation and profitability metrics
+   - Implements proper backtesting with realistic constraints
 
-**Features**:
-- **Base Factors**: XG data, performance metrics, odds, market efficiency, contextual data
-- **Derived Factors**: XG differences, odds ratios, efficiency metrics, market bias
-- **Adaptive Learning**: Analyzes previous results to generate improved combinations
-- **Domain Knowledge**: Incorporates football betting expertise into combinations
+3. **Feedback Loop Orchestrator** (`run_feedback_loop.js`)
+   - Manages iterative strategy discovery process
+   - Adapts based on previous iteration results
+   - Implements convergence detection and stopping criteria
 
-**Key Methods**:
-- `generateInitialCombinations()` - Creates first-pass combinations
-- `generateAdaptiveCombinations()` - Learns from previous iterations
-- `analyzeFactorImportance()` - Identifies most predictive factors
+4. **Rule Loader** (`rule_loader.js`)
+   - Loads modular rule definitions from rules/ directory
+   - Supports dynamic rule enabling/disabling
+   - Validates rule syntax and factor expressions
 
-#### 2. `ah_combination_tester.js`
-**Purpose**: Tests combinations against 3 seasons of EPL data and measures correlation with AH profits
+5. **Betting Record Extractor** (`extract_actual_betting_records.js`)
+   - Generates actual betting records for profitable strategies
+   - Calculates real profit/loss with actual odds
+   - Creates detailed CSV files with betting decisions
 
-**Features**:
-- **Statistical Analysis**: Pearson correlation calculation
-- **Backtesting Engine**: Simulates betting strategies with different thresholds
-- **Profitability Analysis**: Measures ROI for home/away betting strategies
-- **Data Validation**: Ensures robust testing with sufficient sample sizes
+### Rule System
 
-**Key Methods**:
-- `testCombination()` - Evaluates single factor combination
-- `backtestStrategy()` - Simulates betting with optimal thresholds
-- `calculateCorrelation()` - Measures factor-profit relationships
+The `rules/` directory contains modular factor definitions:
 
-#### 3. `run_feedback_loop.js`
-**Purpose**: Orchestrates the entire adaptive learning process
+- **Contextual Factors** (`contextual_factors.js`) - Season timing, competition effects
+- **Form Streaks** (`form_streaks.js`) - Team momentum and streak analysis  
+- **League Position** (`league_position.js`) - Table position and pressure situations
+- **Market Efficiency** (`market_efficiency.js`) - Odds analysis and value detection
+- **Momentum Patterns** (`momentum_patterns.js`) - Performance trend analysis
+- **Odds Factors** (`odds_factors.js`) - Betting market analysis
+- **Positional Strategy** (`positional_strategy.js`) - Position-based betting logic
+- **Rescue Strategies** (`rescue_strategies.js`) - Recovery and adaptation patterns
 
-**Features**:
-- **Iterative Learning**: Runs multiple generator→tester cycles
-- **Convergence Detection**: Stops when improvements plateau
-- **Progress Tracking**: Monitors improvement across iterations
-- **Final Reporting**: Generates comprehensive analysis and recommendations
+## Data Integrity Lessons Learned
 
-## Data Flow
+### 🔍 **Critical Factors to Verify**
 
-```
-EPL Match Data (3 seasons)
-        ↓
-Factor Combination Generator
-        ↓
-Combination Testing Engine
-        ↓
-Results Analysis & Learning
-        ↓
-Adaptive Combination Generation
-        ↓
-[Repeat until convergence]
-        ↓
-Final Report & Recommendations
-```
+Before using any factor in strategy development:
 
-## Usage
+1. **Timing**: Is this data available BEFORE the match starts?
+2. **Source**: Does this data depend on actual match events?
+3. **Calculation**: Is this computed from match results?
+4. **Independence**: Is this truly predictive or result-dependent?
 
-### Quick Start
+### 📋 **Data Source Classification**
+
+#### ✅ **Safe Pre-Match Data**
+- Betting odds (all markets)
+- Historical team statistics
+- League table positions (before match)
+- Team form streaks (from previous matches)
+- Market efficiency metrics (from odds)
+
+#### ❌ **Contaminated Post-Match Data**
+- Expected Goals (calculated from actual shots)
+- Performance ratings (goals vs expected)
+- Match incident data (cards, fouls, etc.)
+- Any metric derived from actual match events
+
+## Results Summary
+
+### Original Strategies (⚠️ Contaminated)
+- **20 strategies** with 3-61% ROI
+- **High profitability** due to look-ahead bias
+- **Not implementable** in real-world betting
+
+### Clean Strategies (✅ Legitimate - Latest Refactored)
+- **4 strategies** with realistic performance  
+- **13-53% ROI** depending on selectivity
+- **Implementable** with proper risk management
+- **1,096 matches** with clean data validation
+- **Market efficiency** acknowledged but opportunities exist
+
+## Usage Instructions
+
+### Running the Analysis System
+
 ```bash
-cd src/ah-analysis/
+# Run complete analysis framework
 node run_feedback_loop.js
+
+# Extract betting records for strategies
+node extract_actual_betting_records.js
+
+# Extract clean strategies (no look-ahead bias)
+node extract_truly_clean_strategies.js
+
+# Extract the clean strategies (current system)
+node extract_refactored_clean_strategies.js
 ```
 
-### Individual Components
+### Viewing Results
+
 ```bash
-# Generate combinations only
-node ah_combination_generator.js
+# View the only legitimate strategies
+ls winning_strategies/
+cat winning_strategies/_MASTER_SUMMARY.json
 
-# Test existing combinations
-node ah_combination_tester.js
-
-# Run full feedback loop with custom iterations
-node -e "
-const AHFeedbackLoop = require('./run_feedback_loop');
-new AHFeedbackLoop(5).runLoop();
-"
+# View specific strategy details
+cat winning_strategies/Goal_Difference_Momentum_summary.json
+head -10 winning_strategies/Goal_Difference_Momentum_bets.csv
 ```
 
-## Data Sources
+## Implementation Considerations
 
-The system analyzes the following factors from your EPL data:
+### For Real-World Betting
 
-### 📊 Expected Goals (XG)
-- `fbref.homeXG`, `fbref.awayXG`
-- XG differences and efficiency metrics
-- Total expected goals vs actual outcomes
+1. **Use the legitimate strategies** from `winning_strategies/`
+2. **Expect realistic returns** (10-15% with frequent betting)
+3. **Consider selectivity vs sample size** tradeoff
+4. **Implement proper risk management**
+5. **Monitor for market changes** over time
 
-### 🎯 Performance Metrics
-- Goal efficiency (actual vs expected)
-- XG accuracy and differences
-- Team over/under-performance patterns
+### Risk Factors
 
-### 💰 Market Data
-- Asian Handicap odds and lines
-- 1X2 odds (home/draw/away)
-- Over/Under 2.5 goals odds
-- Market efficiency and cut percentages
+- **Market efficiency** limits consistent profits
+- **Selective strategies** have high variance
+- **Odds availability** may differ from backtests
+- **Bet sizing** impacts practical returns
 
-### 🏟️ Contextual Factors
-- Week in season (fatigue/form effects)
-- Attendance figures
-- Referee assignments
+## Future Development
 
-## Output Files
+### Legitimate Enhancement Opportunities
 
-### `ah_combinations.json`
-Generated combinations with metadata:
-```json
-{
-  "metadata": {
-    "totalCombinations": 89,
-    "adaptiveCombinations": 12,
-    "categories": { "single": 45, "domain": 15, ... }
-  },
-  "combinations": [
-    {
-      "name": "XG_vs_Odds",
-      "factors": ["fbref.homeXG - fbref.awayXG", "match.homeWinOdds / match.awayWinOdds"],
-      "hypothesis": "XG difference vs market odds difference indicates value",
-      "type": "domain"
-    }
-  ]
-}
-```
+1. **Alternative data sources** (weather, news sentiment)
+2. **Advanced risk management** (Kelly criterion, portfolio theory)
+3. **Market timing** (optimal bet placement)
+4. **Multi-league expansion** (other competitions)
+5. **Live data integration** (real-time updates)
 
-### `ah_analysis_results.json`
-Historical results and performance tracking:
-```json
-{
-  "iterations": [
-    {
-      "timestamp": "2025-01-15T10:30:00Z",
-      "summary": {
-        "bestCorrelation": 0.2847,
-        "profitableStrategies": 12,
-        "significantCorrelations": 23
-      }
-    }
-  ],
-  "bestCombinations": [ /* Top 100 across all iterations */ ]
-}
-```
+### Data Quality Standards
 
-### `ah_final_report.json`
-Comprehensive analysis and recommendations:
-```json
-{
-  "bestOverallCombinations": [ /* Top 10 factors */ ],
-  "recommendations": [
-    "Focus on XG_vs_Market_Efficiency - shows 0.2847 correlation",
-    "15 combinations show >2% profitability - consider ensemble approach"
-  ],
-  "keyInsights": [
-    "Expected Goals appears in 8/10 top combinations",
-    "Market efficiency factors show consistent predictive power"
-  ]
-}
-```
+All future development must maintain strict data integrity:
+- **No look-ahead bias**
+- **Pre-match data only**
+- **Proper validation procedures**
+- **Realistic performance expectations**
 
-## Algorithm Details
+---
 
-### Adaptive Learning Process
-
-1. **Initial Generation**: Creates combinations based on:
-   - Single factors (45 combinations)
-   - Domain knowledge pairs (football betting theory)
-   - Complex multi-factor combinations
-
-2. **Testing & Evaluation**: Each combination is tested by:
-   - Calculating correlation with home/away AH profits
-   - Backtesting with optimal thresholds (quartile-based)
-   - Measuring profitability and win rates
-
-3. **Adaptive Feedback**: Successful combinations spawn:
-   - Extended versions (adding complementary factors)
-   - Ratio combinations (factor1/factor2)
-   - Refined thresholds and conditions
-
-4. **Convergence**: Loop stops when:
-   - Very strong correlation found (>0.5)
-   - Minimal improvement for 3+ iterations
-   - Maximum iterations reached
-
-### Statistical Robustness
-
-- **Sample Size**: Requires minimum 10 valid matches per combination
-- **Correlation Method**: Pearson correlation coefficient
-- **Backtesting**: Multiple threshold testing (25th, 50th, 75th percentiles)
-- **Validation**: Cross-checks against multiple seasons
-
-## Key Insights from Architecture
-
-1. **Factor Importance Tracking**: Identifies which individual factors appear most in successful combinations
-2. **Seasonal Robustness**: Tests across 3 different EPL seasons to avoid overfitting
-3. **Market Efficiency Analysis**: Measures how well markets price Asian Handicap lines
-4. **XG Integration**: Leverages Expected Goals as a core predictive metric
-5. **Ensemble Potential**: Identifies multiple profitable strategies for combination
-
-## Extending the System
-
-### Adding New Factors
-Edit `ah_combination_generator.js`:
-```javascript
-this.baseFactors.newCategory = [
-  'your.new.factor.path',
-  'another.factor.expression'
-];
-```
-
-### Custom Combination Logic
-Extend `generateAdaptiveCombinations()` method with your own pattern recognition.
-
-### Different Sports/Markets
-Modify the data loading and profit calculation logic in `ah_combination_tester.js`.
-
-## Performance Notes
-
-- **Memory Usage**: ~100MB for 3 seasons of EPL data
-- **Execution Time**: ~30-60 seconds per iteration
-- **Parallelization**: Single-threaded but can be extended for parallel testing
-- **Data Efficiency**: Filters invalid samples early to optimize processing
-
-This system provides a scientific approach to discovering profitable Asian Handicap patterns while continuously learning and improving from its own results.
+**The system successfully demonstrates both the potential and limitations of data-driven football betting analysis. The key insight is that market efficiency is real, and sustainable profits require either extreme selectivity or acceptance of modest returns.**

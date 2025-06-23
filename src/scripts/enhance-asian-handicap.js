@@ -159,17 +159,17 @@ class AsianHandicapEnhancer {
 
             // Value betting indicators
             homeValueBet: (match) => {
-                // Simple Kelly criterion approach
+                // Simple Kelly criterion approach (without xG dependency)
                 const impliedProb = match.enhanced.homeImpliedProb;
                 const odds = match.match.homeWinOdds;
                 if (!impliedProb || !odds) return null;
                 
-                // Assume fair probability based on xG (simplified model)
-                const xgLine = match.enhanced.xgLine;
-                if (xgLine === null) return null;
+                // Use market efficiency as a simple edge indicator
+                // If market is inefficient (high cut), there might be value
+                const marketCut = match.enhanced.hadCut || 0;
+                const estimatedEdge = marketCut > 10 ? 0.02 : marketCut > 5 ? 0.01 : 0;
                 
-                const estimatedHomeProb = xgLine > 0 ? 55 : xgLine < 0 ? 35 : 45; // Simplified
-                const edge = (estimatedHomeProb / 100) * odds - 1;
+                const edge = (1 / odds) + estimatedEdge - (impliedProb / 100);
                 return _.round(edge, 3);
             },
 
@@ -356,7 +356,32 @@ class AsianHandicapEnhancer {
         };
     }
 
-    // Enhance a single match with Asian handicap analysis
+    // Define which stats are result-dependent (for data integrity)
+    getResultDependentStats() {
+        return {
+            // Stats that use actual match results - move to postMatch
+            postMatch: [
+                'line', 'hiLo', 'result', 'oe', 'over2_5Result',
+                'simulatedAH', 'homePerformanceRating', 'awayPerformanceRating',
+                'attendanceImpact', 'refereeImpact', 'teamMetrics',
+                'matchCleanliness', 'cleanlinessCategory', 'totalCards',
+                'cardDiscipline', 'penaltyImpact', 'goalTiming',
+                'substitutionPattern', 'incidentDensity', 'matchIntensity',
+                // xG data - calculated post-match from actual shots
+                'xgLine', 'xgTotal'
+            ],
+            
+            // Stats available before match - keep in preMatch
+            preMatch: [
+                'hadCut', 'ouCut',
+                'homeImpliedProb', 'drawImpliedProb', 'awayImpliedProb',
+                'over2_5ImpliedProb', 'under2_5ImpliedProb',
+                'homeValueBet', 'marketEfficiency'
+            ]
+        };
+    }
+
+    // Enhance a single match with proper data separation
     enhanceMatch(matchKey, matchData, season) {
         if (!matchData.fbref || !matchData.match) {
             return matchData; // Skip if missing essential data
@@ -391,49 +416,118 @@ class AsianHandicapEnhancer {
         }
 
         const calculators = this.createEnhancedCalculators();
-        const enhanced = {};
+        const allEnhanced = {};
 
         // Add FBRef incidents to match data for calculations
         const enrichedMatch = { 
             ...matchData, 
-            enhanced,
+            enhanced: allEnhanced,
             fbrefIncidents 
         };
 
         // Calculate all enhancement metrics
         Object.entries(calculators).forEach(([key, calculator]) => {
             try {
-                enhanced[key] = calculator(enrichedMatch);
+                allEnhanced[key] = calculator(enrichedMatch);
             } catch (error) {
                 console.warn(`Error calculating ${key} for ${matchKey}:`, error.message);
-                enhanced[key] = null;
+                allEnhanced[key] = null;
             }
         });
 
-        // Add team-specific metrics
-        enhanced.teamMetrics = {
+        // Add team-specific metrics to all enhanced stats for calculation
+        allEnhanced.teamMetrics = {
             [matchData.match.homeTeam]: {
                 goals: matchData.fbref.homeGoals,
                 xG: matchData.fbref.homeXG,
-                performance: enhanced.homePerformanceRating,
+                performance: allEnhanced.homePerformanceRating,
                 venue: 'home'
             },
             [matchData.match.awayTeam]: {
                 goals: matchData.fbref.awayGoals,
                 xG: matchData.fbref.awayXG,
-                performance: enhanced.awayPerformanceRating,
+                performance: allEnhanced.awayPerformanceRating,
                 venue: 'away'
             }
         };
 
-        // Add FBRef incident data if found
+        // Separate stats into preMatch and postMatch for data integrity
+        const statCategories = this.getResultDependentStats();
+        
         const result = {
-            ...matchData,
-            enhanced
+            // preMatch: Data available before match starts (SAFE for prediction)
+            preMatch: {
+                match: { ...matchData.match },
+                fbref: {
+                    // Pre-match context (known before kickoff)
+                    date: matchData.fbref.date,
+                    week: matchData.fbref.week,
+                    day: matchData.fbref.day,
+                    time: matchData.fbref.time,
+                    referee: matchData.fbref.referee,
+                    venue: matchData.fbref.venue,
+                    attendance: matchData.fbref.attendance
+                },
+                enhanced: {},
+                marketEfficiency: {}
+            },
+            
+            // postMatch: Result-dependent data (for filtering/analysis only)
+            postMatch: {
+                actualResults: {
+                    homeGoals: matchData.fbref.homeGoals,
+                    awayGoals: matchData.fbref.awayGoals
+                },
+                xgData: {
+                    // xG calculated post-match from actual shots
+                    homeXG: matchData.fbref.homeXG,
+                    awayXG: matchData.fbref.awayXG
+                },
+                performance: {},
+                incidents: {},
+                asianHandicapResults: {}
+            },
+            
+            // timeSeries: Keep as-is (team patterns/streaks)
+            timeSeries: matchData.timeSeries || null
         };
 
+        // Distribute enhanced stats to appropriate sections
+        Object.entries(allEnhanced).forEach(([key, value]) => {
+            if (statCategories.postMatch.includes(key)) {
+                // Categorize result-dependent stats
+                if (['line', 'hiLo', 'result', 'oe', 'over2_5Result'].includes(key)) {
+                    result.postMatch.actualResults[key] = value;
+                } else if (['xgLine', 'xgTotal'].includes(key)) {
+                    result.postMatch.xgData[key] = value;
+                } else if (['homePerformanceRating', 'awayPerformanceRating', 'attendanceImpact', 'refereeImpact', 'teamMetrics'].includes(key)) {
+                    result.postMatch.performance[key] = value;
+                } else if (['matchCleanliness', 'cleanlinessCategory', 'totalCards', 'cardDiscipline', 'penaltyImpact', 'goalTiming', 'substitutionPattern', 'incidentDensity', 'matchIntensity'].includes(key)) {
+                    result.postMatch.incidents[key] = value;
+                } else if (key === 'simulatedAH') {
+                    result.postMatch.asianHandicapResults = value;
+                } else {
+                    result.postMatch.performance[key] = value;
+                }
+            } else {
+                // Keep in preMatch (safe for prediction)
+                result.preMatch.enhanced[key] = value;
+            }
+        });
+
+        // Add market efficiency summary to preMatch for easy access
+        result.preMatch.marketEfficiency = {
+            hadCut: result.preMatch.enhanced.hadCut,
+            ouCut: result.preMatch.enhanced.ouCut,
+            marketEfficiency: result.preMatch.enhanced.marketEfficiency,
+            totalImpliedProb: (result.preMatch.enhanced.homeImpliedProb || 0) +
+                             (result.preMatch.enhanced.drawImpliedProb || 0) +
+                             (result.preMatch.enhanced.awayImpliedProb || 0)
+        };
+
+        // Preserve FBRef incidents if they exist
         if (fbrefIncidents) {
-            result.fbrefIncidents = fbrefIncidents;
+            result.postMatch.fbrefIncidents = fbrefIncidents;
         }
 
         return result;
@@ -459,10 +553,10 @@ class AsianHandicapEnhancer {
             processedCount++;
             
             const enhanced = this.enhanceMatch(matchKey, matchData, season);
-            if (enhanced.enhanced) {
+            if (enhanced.preMatch && enhanced.preMatch.enhanced) {
                 enhancedCount++;
             }
-            if (enhanced.fbrefIncidents) {
+            if (enhanced.postMatch && enhanced.postMatch.fbrefIncidents) {
                 incidentDataFound++;
             }
             
@@ -475,20 +569,32 @@ class AsianHandicapEnhancer {
                 ...data.metadata,
                 enhancedMatches: enhancedCount,
                 matchesWithIncidentData: incidentDataFound,
-                enhancementVersion: "2.0",
+                enhancementVersion: "3.0",
                 enhancedAt: new Date().toISOString(),
+                structure: {
+                    preMatch: "Predictive analysis available before match - USE FOR TRAINING",
+                    postMatch: "Result-dependent analysis only after match completion - USE FOR FILTERING ONLY",
+                    timeSeries: "Team streaks, patterns, and historical performance - USE FOR TRAINING"
+                },
+                dataIntegrity: {
+                    preventedDataLeakage: true,
+                    resultDependentStatsIsolated: true,
+                    safeForPredictiveModeling: true,
+                    xgMovedToPostMatch: "xG data moved to postMatch as it's calculated from actual shots"
+                },
                 enhancements: [
-                    "Asian handicap simulation",
-                    "Market efficiency analysis", 
-                    "xG-based performance metrics",
-                    "Value betting indicators",
-                    "Referee and attendance impact",
-                    "FBRef incident analysis",
-                    "Match cleanliness metrics",
-                    "Card discipline tracking",
-                    "Goal timing analysis",
-                    "Substitution patterns",
-                    "Match intensity scoring"
+                    "Data leakage prevention (preMatch/postMatch separation)",
+                    "Asian handicap simulation (postMatch)",
+                    "Market efficiency analysis (preMatch)", 
+                    "xG-based performance metrics (mixed)",
+                    "Value betting indicators (preMatch)",
+                    "Referee and attendance impact (mixed)",
+                    "FBRef incident analysis (postMatch)",
+                    "Match cleanliness metrics (postMatch)",
+                    "Card discipline tracking (postMatch)",
+                    "Goal timing analysis (postMatch)",
+                    "Substitution patterns (postMatch)",
+                    "Match intensity scoring (postMatch)"
                 ]
             },
             matches: enhancedMatches

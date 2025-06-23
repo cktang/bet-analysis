@@ -13,12 +13,14 @@ class AHCombinationTester {
     }
 
     loadData() {
-        console.log('Loading EPL data from all seasons...');
+        console.log('Loading EPL data from all seasons (enhanced data)...');
         
-        const seasons = ['year-2022-2023.json', 'year-2023-2024.json', 'year-2024-2025.json'];
+        // Use enhanced data with new structure
+        const enhancedPath = path.join(__dirname, '../../data/enhanced');
+        const seasons = ['year-2022-2023-enhanced.json', 'year-2023-2024-enhanced.json', 'year-2024-2025-enhanced.json'];
         
         seasons.forEach(season => {
-            const seasonPath = path.join(this.dataPath, season);
+            const seasonPath = path.join(enhancedPath, season);
             if (fs.existsSync(seasonPath)) {
                 const seasonData = JSON.parse(fs.readFileSync(seasonPath, 'utf8'));
                 const matches = Object.values(seasonData.matches);
@@ -29,32 +31,40 @@ class AHCombinationTester {
 
         console.log(`Total matches loaded: ${this.allMatches.length}`);
         
-        // Filter matches with required data (corrected data structure)
+        // Filter matches with required data (new data structure)
         this.allMatches = this.allMatches.filter(match => 
-            match.enhanced?.postMatch?.bettingOutcomes?.homeProfit !== undefined &&
-            match.enhanced?.postMatch?.bettingOutcomes?.awayProfit !== undefined &&
-            match.fbref?.homeXG !== undefined &&
-            match.fbref?.awayXG !== undefined
+            match.postMatch?.asianHandicapResults &&
+            match.preMatch?.match?.asianHandicapOdds &&
+            match.preMatch?.match?.homeWinOdds &&
+            match.timeSeries?.home && match.timeSeries?.away
         );
         
-        console.log(`Matches with complete AH and XG data: ${this.allMatches.length}`);
+        console.log(`Matches with complete pre-match and post-match data: ${this.allMatches.length}`);
     }
 
     evaluateValue(match, factorExpression) {
         try {
+            // New data structure context
             const context = {
-                match: match.match,
-                fbref: match.fbref,
-                enhanced: match.enhanced,
+                // Legacy compatibility (for old factor expressions)
+                match: match.preMatch?.match,
+                fbref: match.preMatch?.fbref,
+                enhanced: match.preMatch?.enhanced,
                 timeSeries: match.timeSeries,
+                
+                // New structure access
+                preMatch: match.preMatch,
+                postMatch: match.postMatch,
+                
+                // Utility functions
                 parseFloat: parseFloat,
                 Math: Math
             };
 
-            return Function('match', 'fbref', 'enhanced', 'timeSeries', 'parseFloat', 'Math', 
+            return Function('match', 'fbref', 'enhanced', 'timeSeries', 'preMatch', 'postMatch', 'parseFloat', 'Math', 
                 `"use strict"; return ${factorExpression}`)(
                 context.match, context.fbref, context.enhanced, context.timeSeries,
-                context.parseFloat, context.Math
+                context.preMatch, context.postMatch, context.parseFloat, context.Math
             );
         } catch (error) {
             return null;
@@ -119,13 +129,36 @@ class AHCombinationTester {
                         factorValues[0] : 
                         factorValues.reduce((sum, val) => sum + val, 0) / factorValues.length;
 
-                    matchData.push({
-                        combinedValue,
-                        homeProfit: match.enhanced.postMatch.bettingOutcomes.homeProfit,
-                        awayProfit: match.enhanced.postMatch.bettingOutcomes.awayProfit,
-                        homeOdds: match.match.asianHandicapOdds?.homeOdds || 0,
-                        awayOdds: match.match.asianHandicapOdds?.awayOdds || 0
-                    });
+                    // Calculate profits based on Asian Handicap results
+                    const ahOdds = match.preMatch?.match?.asianHandicapOdds;
+                    const ahResults = match.postMatch?.asianHandicapResults;
+                    
+                    if (ahOdds && ahResults) {
+                        // Use the main AH line (usually ah_0 or the handicap specified)
+                        const mainAhResult = ahResults.ah_0 || Object.values(ahResults)[0];
+                        
+                        let homeProfit = 0;
+                        let awayProfit = 0;
+                        
+                        if (mainAhResult === 'home') {
+                            homeProfit = (ahOdds.homeOdds - 1) * 100; // Win
+                            awayProfit = -100; // Loss
+                        } else if (mainAhResult === 'away') {
+                            homeProfit = -100; // Loss
+                            awayProfit = (ahOdds.awayOdds - 1) * 100; // Win
+                        } else if (mainAhResult === 'draw') {
+                            homeProfit = 0; // Push
+                            awayProfit = 0; // Push
+                        }
+
+                        matchData.push({
+                            combinedValue,
+                            homeProfit,
+                            awayProfit,
+                            homeOdds: ahOdds.homeOdds || 0,
+                            awayOdds: ahOdds.awayOdds || 0
+                        });
+                    }
                 }
             });
 

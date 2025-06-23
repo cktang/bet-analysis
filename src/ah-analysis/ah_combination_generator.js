@@ -11,46 +11,63 @@ class AHCombinationGenerator {
         this.ruleLoader = new RuleLoader();
         
         this.baseFactors = {
-            xg: ['fbref.homeXG', 'fbref.awayXG'],
-            performance: [
-                'enhanced.performance.homeXGDiff',
-                'enhanced.performance.awayXGDiff', 
-                'enhanced.performance.homeEfficiency',
-                'enhanced.performance.awayEfficiency',
-                'enhanced.performance.totalXG',
-                'enhanced.performance.totalGoals',
-                'enhanced.performance.xgAccuracy'
+            // NOTE: These are legacy factors - now using rule files for factor definitions
+            // Pre-match XG (if available as predictions)
+            xg: ['preMatch.fbref.homeXG', 'preMatch.fbref.awayXG'],
+            
+            // Historical performance from timeSeries (legitimate pre-match data)
+            timeSeries: [
+                'timeSeries.home.averages.overall.xGFor',
+                'timeSeries.home.averages.overall.xGAgainst',
+                'timeSeries.away.averages.overall.xGFor',
+                'timeSeries.away.averages.overall.xGAgainst',
+                'timeSeries.home.patterns.winRate',
+                'timeSeries.away.patterns.winRate',
+                'timeSeries.home.leaguePosition',
+                'timeSeries.away.leaguePosition'
             ],
+            
+            // Pre-match odds (legitimate)
             odds: [
-                'match.homeWinOdds',
-                'match.drawOdds', 
-                'match.awayWinOdds',
-                'match.over2_5Odds',
-                'match.under2_5Odds',
-                'match.asianHandicapOdds.homeOdds',
-                'match.asianHandicapOdds.awayOdds'
+                'preMatch.match.homeWinOdds',
+                'preMatch.match.drawOdds', 
+                'preMatch.match.awayWinOdds',
+                'preMatch.match.over2_5Odds',
+                'preMatch.match.under2_5Odds',
+                'preMatch.match.asianHandicapOdds.homeOdds',
+                'preMatch.match.asianHandicapOdds.awayOdds'
             ],
+            
+            // Market efficiency (pre-match)
             marketEfficiency: [
-                'enhanced.marketEfficiency.homeImpliedProb',
-                'enhanced.marketEfficiency.drawImpliedProb',
-                'enhanced.marketEfficiency.awayImpliedProb',
-                'enhanced.marketEfficiency.totalImpliedProb',
-                'enhanced.marketEfficiency.cutPercentage'
+                'preMatch.enhanced.homeImpliedProb',
+                'preMatch.enhanced.drawImpliedProb',
+                'preMatch.enhanced.awayImpliedProb',
+                'preMatch.enhanced.marketEfficiency',
+                'preMatch.enhanced.hadCut',
+                'preMatch.enhanced.homeValueBet'
             ],
+            
+            // Context (pre-match known)
             context: [
-                'fbref.week',
-                'fbref.attendance'
+                'preMatch.fbref.week',
+                'preMatch.fbref.attendance'
             ]
         };
 
         this.derivedFactors = {
-            xgDifference: ['fbref.homeXG - fbref.awayXG'],
-            oddsRatio: ['match.homeWinOdds / match.awayWinOdds'],
-            xgEfficiency: ['(match.homeScore / fbref.homeXG)', '(match.awayScore / fbref.awayXG)'],
-            marketBias: ['enhanced.marketEfficiency.homeImpliedProb - enhanced.marketEfficiency.awayImpliedProb'],
-            overPerformance: ['enhanced.performance.homeEfficiency - enhanced.performance.awayEfficiency'],
-            totalExpected: ['fbref.homeXG + fbref.awayXG'],
-            handicapValue: ['parseFloat(match.asianHandicapOdds.homeHandicap.split("/")[0])']
+            // NOTE: These are legacy derived factors - now using rule files
+            // Only use legitimate pre-match derived factors
+            xgDifference: ['preMatch.fbref.homeXG - preMatch.fbref.awayXG'],
+            oddsRatio: ['preMatch.match.homeWinOdds / preMatch.match.awayWinOdds'],
+            marketBias: ['preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb'],
+            totalExpected: ['preMatch.fbref.homeXG + preMatch.fbref.awayXG'],
+            handicapValue: ['parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.split("/")[0])'],
+            
+            // Historical derived factors (legitimate)
+            historicalXGDiff: ['timeSeries.home.averages.overall.xGFor - timeSeries.away.averages.overall.xGFor'],
+            positionDiff: ['timeSeries.home.leaguePosition - timeSeries.away.leaguePosition'],
+            winRateDiff: ['timeSeries.home.patterns.winRate - timeSeries.away.patterns.winRate']
         };
 
         this.previousResults = this.loadPreviousResults();
@@ -134,7 +151,7 @@ class AHCombinationGenerator {
     getComplementaryFactors(existingFactors) {
         const allFactors = [
             ...this.baseFactors.xg,
-            ...this.baseFactors.performance,
+            ...this.baseFactors.timeSeries,
             ...this.baseFactors.odds,
             ...this.baseFactors.marketEfficiency,
             ...this.baseFactors.context

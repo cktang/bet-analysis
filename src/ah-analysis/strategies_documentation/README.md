@@ -1,15 +1,35 @@
-# Betting Strategies Documentation
+# Asian Handicap Strategy Documentation
 
-## 📁 Files
+## 📊 **Current Status**
 
-- **[ALL_STRATEGIES.md](./ALL_STRATEGIES.md)** - Complete list of all 130 strategies
-- **[IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)** - How to implement strategies
+- **Total Strategies**: 31 (with betting records)
+- **Profitable Strategies**: 17 (54.8%)
+- **Average ROI**: 0.97%
+- **Top Performer**: Single_awayTopSix (12.86% ROI)
 
-## 🎯 Quick Stats
+## 📁 **Documentation Files**
 
-- **Total Strategies**: 130
-- **Ready to Implement**: 32 (>20% ROI)
-- **Success Rate**: 60.0%
-- **Average ROI**: 7.76%
+### **🏆 Primary Documentation**
+- **`ASIAN_HANDICAP_STRATEGIES.md`** - Complete strategy list with performance details
+- **`QUICK_REFERENCE.md`** - Quick reference for top performers
+- **`IMPLEMENTATION_GUIDE.md`** - How to implement strategies
 
-*All strategies are clean - using only pre-match data*
+## ⚠️ **ASIAN HANDICAP SPECIFICS**
+
+This system is designed for **ASIAN HANDICAP BETTING**:
+- ✅ **Two outcomes**: Home covers handicap OR Away covers handicap
+- ✅ **Push possible**: When handicap exactly matches goal difference
+- ❌ **No draw betting**: Asian Handicap eliminates draw outcomes
+
+## 📈 **Performance Tiers**
+
+- **🏆 Excellent**: 10%+ ROI (2 strategies)
+- **🥈 Strong**: 5-10% ROI (6 strategies)  
+- **🥉 Good**: 0-5% ROI (9 strategies)
+- **⚠️ Poor**: Negative ROI (14 strategies)
+
+## 📊 **Betting Records**
+
+**Location**: `current_betting_records/`  
+**Format**: CSV files with individual bet details + JSON summaries  
+**Coverage**: All 31 strategies have complete betting records

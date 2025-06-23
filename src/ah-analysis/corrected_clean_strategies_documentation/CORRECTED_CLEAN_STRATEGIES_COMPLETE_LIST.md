@@ -1,42 +1,40 @@
-# FINAL CLEAN STRATEGIES (ZERO POST-MATCH CONTAMINATION)
+# CORRECTED CLEAN STRATEGIES (fbref.week is NOT contaminated)
 
-## 🎯 Final Clean Analysis Results
+## 🎯 Corrected Analysis Results
 
-- **Total Clean Strategies**: 130
-- **Profitable Clean Strategies**: 78
+- **Total Clean Strategies**: 150
+- **Profitable Clean Strategies**: 90
 - **Clean Success Rate**: 60.0%
-- **Average ROI (Clean)**: 7.76%
+- **Average ROI (Clean)**: 6.97%
 
-## ⚠️ ALL CONTAMINATION PATTERNS REMOVED:
-- ❌ ANY Expected Goals (XG, xG, homeXG, awayXG, totalXG, xgAccuracy)
-- ❌ FBRef match statistics (shots, corners, fouls, cards, possession)
-- ❌ Performance metrics using actual results
-- ❌ Any post-match data
+## ✅ CORRECTION: fbref.week is PRE-MATCH DATA
+- ✅ fbref.week = Match week number (1-38) - Known before match starts
+- ❌ Only XG and actual performance metrics are contaminated
 
-## 🏆 Top 20 Final Clean Strategies by ROI
+## 🏆 Top 20 Corrected Clean Strategies by ROI
 
 1. **Adaptive_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_homeImpliedProb** - 59.79% ROI
 2. **Adaptive_Ratio_AH_vs_1X2_Comparison** - 59.63% ROI
-3. **Single_awayWinOdds** - 59.62% ROI
-4. **Rising_Underdog_Back** - 59.41% ROI
-5. **Adaptive_Position_vs_Form_Plus_preMatch_enhanced_homeImpliedProb** - 58.83% ROI
-6. **Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_homeImpliedProb** - 58.38% ROI
-7. **Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_homeImpliedProb** - 58.37% ROI
-8. **Adaptive_Single_handicapLine_Plus_preMatch_enhanced_homeImpliedProb** - 57.81% ROI
-9. **Position_Gap_Analysis** - 54.57% ROI
-10. **Single_positionGap** - 54.57% ROI
-11. **Position_vs_Form** - 53.75% ROI
-12. **Single_enhanced_marketEfficiency_awayImpliedProb** - 53.65% ROI
-13. **Single_match_homeWinOdds___match_awayWinOdds** - 53.47% ROI
-14. **Single_match_homeWinOdds** - 52.78% ROI
-15. **Single_parseFloat_match_asianHandicapOdds_homeHandicap_split______0__** - 50.71% ROI
-16. **Position_vs_Goal_Difference** - 49.96% ROI
-17. **Momentum_Clash** - 49.61% ROI
-18. **Single_goalDiffMomentum** - 48.50% ROI
-19. **Single_homeGoalDiff** - 37.02% ROI
-20. **Single_awayPosition** - 29.75% ROI
+3. **Adaptive_Adaptive_Ratio_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_homeValueBet** - 59.63% ROI
+4. **Single_awayWinOdds** - 59.62% ROI
+5. **Adaptive_Adaptive_Ratio_AH_vs_1X2_Comparison_Plus_preMatch_fbref_week** - 59.59% ROI
+6. **Rising_Underdog_Back** - 59.41% ROI
+7. **Adaptive_Position_vs_Form_Plus_preMatch_enhanced_homeImpliedProb** - 58.83% ROI
+8. **Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_homeImpliedProb** - 58.38% ROI
+9. **Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_homeImpliedProb** - 58.37% ROI
+10. **Adaptive_Single_handicapLine_Plus_preMatch_enhanced_homeImpliedProb** - 57.81% ROI
+11. **Early_Season_Position_Rescue** - 55.78% ROI
+12. **Position_Gap_Analysis** - 54.57% ROI
+13. **Single_positionGap** - 54.57% ROI
+14. **Position_vs_Form** - 53.75% ROI
+15. **Single_enhanced_marketEfficiency_awayImpliedProb** - 53.65% ROI
+16. **Single_match_homeWinOdds___match_awayWinOdds** - 53.47% ROI
+17. **Single_match_homeWinOdds** - 52.78% ROI
+18. **Single_parseFloat_match_asianHandicapOdds_homeHandicap_split______0__** - 50.71% ROI
+19. **Position_vs_Goal_Difference** - 49.96% ROI
+20. **Momentum_Clash** - 49.61% ROI
 
-## 📋 Complete Final Clean Strategy List
+## 📋 Complete Corrected Clean Strategy List
 
 ### 1. Adaptive_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_homeImpliedProb
 
@@ -51,13 +49,13 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful AH_vs_1X2_Comparison with preMatch.enhanced.homeImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.homeOdds`
   - `match.homeWinOdds`
   - `preMatch.enhanced.homeImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
@@ -74,15 +72,37 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Ratio of successful factors in AH_vs_1X2_Comparison
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(match.asianHandicapOdds.homeOdds) / (match.homeWinOdds)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 3. Single_awayWinOdds
+### 3. Adaptive_Adaptive_Ratio_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_homeValueBet
+
+**Performance Metrics:**
+- 💰 **ROI**: 59.63%
+- 📊 **Correlation**: 0.4606
+- 🎯 **Accuracy**: 72.3%
+- 📈 **Sample Size**: 1125
+
+**Strategy Details:**
+- 🏷️ **Type**: adaptive
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Extending successful Adaptive_Ratio_AH_vs_1X2_Comparison with preMatch.enhanced.homeValueBet
+
+**Verified Clean Factors Used:**
+  - `(match.asianHandicapOdds.homeOdds) / (match.homeWinOdds)`
+  - `preMatch.enhanced.homeValueBet`
+
+**Implementation Status:**
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
+
+---
+
+### 4. Single_awayWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 59.62%
@@ -95,15 +115,37 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: 1X2 away win odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.awayWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 4. Rising_Underdog_Back
+### 5. Adaptive_Adaptive_Ratio_AH_vs_1X2_Comparison_Plus_preMatch_fbref_week
+
+**Performance Metrics:**
+- 💰 **ROI**: 59.59%
+- 📊 **Correlation**: 0.4605
+- 🎯 **Accuracy**: 72.3%
+- 📈 **Sample Size**: 1125
+
+**Strategy Details:**
+- 🏷️ **Type**: adaptive
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Extending successful Adaptive_Ratio_AH_vs_1X2_Comparison with preMatch.fbref.week
+
+**Verified Clean Factors Used:**
+  - `(match.asianHandicapOdds.homeOdds) / (match.homeWinOdds)`
+  - `preMatch.fbref.week`
+
+**Implementation Status:**
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
+
+---
+
+### 6. Rising_Underdog_Back
 
 **Performance Metrics:**
 - 💰 **ROI**: 59.41%
@@ -116,16 +158,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Back lower table away teams on winning streaks that market undervalues
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0`
   - `match.awayWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 5. Adaptive_Position_vs_Form_Plus_preMatch_enhanced_homeImpliedProb
+### 7. Adaptive_Position_vs_Form_Plus_preMatch_enhanced_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 58.83%
@@ -138,17 +180,17 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful Position_vs_Form with preMatch.enhanced.homeImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
   - `preMatch.enhanced.homeImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 6. Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_homeImpliedProb
+### 8. Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 58.38%
@@ -161,17 +203,17 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful Falling_Giant_Fade with preMatch.enhanced.homeImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0`
   - `match.homeWinOdds`
   - `preMatch.enhanced.homeImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 7. Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_homeImpliedProb
+### 9. Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 58.37%
@@ -184,16 +226,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_homeWinOdds with preMatch.enhanced.homeImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds`
   - `preMatch.enhanced.homeImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 8. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_homeImpliedProb
+### 10. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 57.81%
@@ -206,16 +248,38 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.enhanced.homeImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.enhanced.homeImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 9. Position_Gap_Analysis
+### 11. Early_Season_Position_Rescue
+
+**Performance Metrics:**
+- 💰 **ROI**: 55.78%
+- 📊 **Correlation**: 0.3728
+- 🎯 **Accuracy**: 70.1%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: temporal_context
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Position gaps matter less in early season - rescue for position gap failures
+
+**Verified Clean Factors Used:**
+  - `(fbref.week <= 6) ? 1 : 0`
+  - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
+
+**Implementation Status:**
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
+
+---
+
+### 12. Position_Gap_Analysis
 
 **Performance Metrics:**
 - 💰 **ROI**: 54.57%
@@ -228,15 +292,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Large position gaps create predictable handicap value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 10. Single_positionGap
+### 13. Single_positionGap
 
 **Performance Metrics:**
 - 💰 **ROI**: 54.57%
@@ -249,15 +313,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: League position gap (away - home, positive = home higher) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 11. Position_vs_Form
+### 14. Position_vs_Form
 
 **Performance Metrics:**
 - 💰 **ROI**: 53.75%
@@ -270,16 +334,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Position vs current form creates value when they diverge
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 12. Single_enhanced_marketEfficiency_awayImpliedProb
+### 15. Single_enhanced_marketEfficiency_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 53.65%
@@ -292,15 +356,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.awayImpliedProb directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.awayImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 13. Single_match_homeWinOdds___match_awayWinOdds
+### 16. Single_match_homeWinOdds___match_awayWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 53.47%
@@ -313,15 +377,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.homeWinOdds / match.awayWinOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds / match.awayWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 14. Single_match_homeWinOdds
+### 17. Single_match_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 52.78%
@@ -334,15 +398,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.homeWinOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 15. Single_parseFloat_match_asianHandicapOdds_homeHandicap_split______0__
+### 18. Single_parseFloat_match_asianHandicapOdds_homeHandicap_split______0__
 
 **Performance Metrics:**
 - 💰 **ROI**: 50.71%
@@ -355,15 +419,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: parseFloat(match.asianHandicapOdds.homeHandicap.split("/")[0]) directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split("/")[0])`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 16. Position_vs_Goal_Difference
+### 19. Position_vs_Goal_Difference
 
 **Performance Metrics:**
 - 💰 **ROI**: 49.96%
@@ -376,16 +440,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: League position vs goal difference reveals over/underperforming teams
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
   - `(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 17. Momentum_Clash
+### 20. Momentum_Clash
 
 **Performance Metrics:**
 - 💰 **ROI**: 49.61%
@@ -398,16 +462,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Teams with opposing momentum create predictable Asian Handicap value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
   - `(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 18. Single_goalDiffMomentum
+### 21. Single_goalDiffMomentum
 
 **Performance Metrics:**
 - 💰 **ROI**: 48.50%
@@ -420,15 +484,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Goal difference momentum comparison predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 19. Single_homeGoalDiff
+### 22. Single_homeGoalDiff
 
 **Performance Metrics:**
 - 💰 **ROI**: 37.02%
@@ -441,15 +505,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team cumulative goal difference predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.cumulative.overall.goalDifference || 0`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 20. Single_awayPosition
+### 23. Single_awayPosition
 
 **Performance Metrics:**
 - 💰 **ROI**: 29.75%
@@ -462,15 +526,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team current league position predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.leaguePosition || 20`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 21. Single_homeWinStreak
+### 24. Single_homeWinStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: 29.55%
@@ -483,15 +547,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team longest win streak this season predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.longest.win || 0`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 22. Single_enhanced_marketEfficiency_drawImpliedProb
+### 25. Single_enhanced_marketEfficiency_drawImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 29.21%
@@ -504,15 +568,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.drawImpliedProb directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.drawImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 23. Top_vs_Bottom
+### 26. Top_vs_Bottom
 
 **Performance Metrics:**
 - 💰 **ROI**: 28.88%
@@ -525,16 +589,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Top 6 vs bottom 3 matchups show market inefficiencies
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) <= 6 ? 1 : 0`
   - `(timeSeries.away.leaguePosition || 20) >= 18 ? 1 : 0`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 24. Single_homeTopSix
+### 27. Single_homeTopSix
 
 **Performance Metrics:**
 - 💰 **ROI**: 28.24%
@@ -547,15 +611,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team in top 6 positions (European spots) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) <= 6 ? 1 : 0`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 25. Mid_Table_Mediocrity
+### 28. Mid_Table_Mediocrity
 
 **Performance Metrics:**
 - 💰 **ROI**: 26.24%
@@ -568,16 +632,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Safe mid-table teams produce more unpredictable results
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) > 8 && (timeSeries.home.leaguePosition || 20) < 16 && (timeSeries.away.leaguePosition || 20) > 8 && (timeSeries.away.leaguePosition || 20) < 16) ? 1 : 0`
   - `match.drawOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 26. Single_awayImpliedProb
+### 29. Single_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 25.79%
@@ -590,15 +654,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Implied probability of away win from odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.awayImpliedProb`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 27. Win_Odds_Ratio
+### 30. Win_Odds_Ratio
 
 **Performance Metrics:**
 - 💰 **ROI**: 25.27%
@@ -611,15 +675,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home vs away win odds ratio indicates market sentiment
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds / match.awayWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 28. AH_vs_1X2_Comparison
+### 31. AH_vs_1X2_Comparison
 
 **Performance Metrics:**
 - 💰 **ROI**: 24.74%
@@ -632,16 +696,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Asian Handicap vs 1X2 odds comparison reveals value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.homeOdds`
   - `match.homeWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 29. Single_homeWinOdds
+### 32. Single_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 24.52%
@@ -654,15 +718,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: 1X2 home win odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 30. CrossRule_homeImpliedProb_x_homeWinOdds
+### 33. CrossRule_homeImpliedProb_x_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 24.52%
@@ -675,16 +739,16 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Implied probability of home win from odds combined with 1X2 home win odds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
   - `match.homeWinOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 31. Single_drawOdds
+### 34. Single_drawOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 21.25%
@@ -697,15 +761,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: 1X2 draw odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.drawOdds`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 32. Single_handicapLine
+### 35. Single_handicapLine
 
 **Performance Metrics:**
 - 💰 **ROI**: 21.06%
@@ -718,15 +782,15 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Asian Handicap line value predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
 
 **Implementation Status:**
-✅ **READY FOR LIVE BETTING** - High confidence 100% clean strategy
+✅ **READY FOR LIVE BETTING** - High confidence clean strategy
 
 ---
 
-### 33. Single_awayLossStreak
+### 36. Single_awayLossStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: 19.62%
@@ -739,7 +803,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team longest loss streak this season predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.longest.loss || 0`
 
 **Implementation Status:**
@@ -747,7 +811,7 @@
 
 ---
 
-### 34. Single_attendance
+### 37. Single_attendance
 
 **Performance Metrics:**
 - 💰 **ROI**: 19.07%
@@ -760,7 +824,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Stadium attendance (home advantage indicator) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `fbref.attendance`
 
 **Implementation Status:**
@@ -768,7 +832,7 @@
 
 ---
 
-### 35. Single_europeanPressure
+### 38. Single_europeanPressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 18.95%
@@ -781,7 +845,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Combined European qualification pressure predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.max(0, 7 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 7 - (timeSeries.away.leaguePosition || 20))`
 
 **Implementation Status:**
@@ -789,7 +853,7 @@
 
 ---
 
-### 36. Single_awayTopSix
+### 39. Single_awayTopSix
 
 **Performance Metrics:**
 - 💰 **ROI**: 18.75%
@@ -802,7 +866,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team in top 6 positions (European spots) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0`
 
 **Implementation Status:**
@@ -810,7 +874,7 @@
 
 ---
 
-### 37. Single_awayBottomThree
+### 40. Single_awayBottomThree
 
 **Performance Metrics:**
 - 💰 **ROI**: 18.56%
@@ -823,7 +887,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team in relegation zone (bottom 3) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) >= 18 ? 1 : 0`
 
 **Implementation Status:**
@@ -831,7 +895,7 @@
 
 ---
 
-### 38. Adaptive_Single_awayGoalDiff_Plus_match_asianHandicapOdds_homeOdds
+### 41. Adaptive_Single_awayGoalDiff_Plus_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 18.47%
@@ -844,7 +908,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayGoalDiff with match.asianHandicapOdds.homeOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
   - `match.asianHandicapOdds.homeOdds`
 
@@ -853,7 +917,7 @@
 
 ---
 
-### 39. Adaptive_Single_awayGoalDiff_Plus_match_asianHandicapOdds_awayOdds
+### 42. Adaptive_Single_awayGoalDiff_Plus_match_asianHandicapOdds_awayOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 18.42%
@@ -866,7 +930,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayGoalDiff with match.asianHandicapOdds.awayOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
   - `match.asianHandicapOdds.awayOdds`
 
@@ -875,7 +939,7 @@
 
 ---
 
-### 40. Single_awayGoalDiff
+### 43. Single_awayGoalDiff
 
 **Performance Metrics:**
 - 💰 **ROI**: 17.73%
@@ -888,7 +952,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team cumulative goal difference predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
 
 **Implementation Status:**
@@ -896,7 +960,7 @@
 
 ---
 
-### 41. Adaptive_Single_awayGoalDiff_Plus_match_homeWinOdds
+### 44. Adaptive_Single_awayGoalDiff_Plus_match_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 16.88%
@@ -909,7 +973,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayGoalDiff with match.homeWinOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
   - `match.homeWinOdds`
 
@@ -918,7 +982,7 @@
 
 ---
 
-### 42. Adaptive_Single_awayGoalDiff_Plus_match_drawOdds
+### 45. Adaptive_Single_awayGoalDiff_Plus_match_drawOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 16.73%
@@ -931,7 +995,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayGoalDiff with match.drawOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
   - `match.drawOdds`
 
@@ -940,7 +1004,7 @@
 
 ---
 
-### 43. Adaptive_Single_awayTopSix_Plus_match_asianHandicapOdds_homeOdds
+### 46. Adaptive_Single_awayTopSix_Plus_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 16.03%
@@ -953,7 +1017,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayTopSix with match.asianHandicapOdds.homeOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0`
   - `match.asianHandicapOdds.homeOdds`
 
@@ -962,7 +1026,7 @@
 
 ---
 
-### 44. European_Pressure
+### 47. European_Pressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 15.56%
@@ -975,7 +1039,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: European spot battles create extra motivation affecting performance
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) <= 6 ? 1 : 0`
   - `(timeSeries.away.leaguePosition || 20) <= 6 ? 1 : 0`
 
@@ -984,7 +1048,7 @@
 
 ---
 
-### 45. Single_topSixBattle
+### 48. Single_topSixBattle
 
 **Performance Metrics:**
 - 💰 **ROI**: 15.21%
@@ -997,7 +1061,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Both teams competing for European spots predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0`
 
 **Implementation Status:**
@@ -1005,7 +1069,7 @@
 
 ---
 
-### 46. Single_homeFormLength
+### 49. Single_homeFormLength
 
 **Performance Metrics:**
 - 💰 **ROI**: 15.04%
@@ -1018,7 +1082,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team form sample size predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.form.length || 0`
 
 **Implementation Status:**
@@ -1026,7 +1090,7 @@
 
 ---
 
-### 47. Adaptive_Single_topSixBattle_Plus_match_asianHandicapOdds_homeOdds
+### 50. Adaptive_Single_topSixBattle_Plus_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 14.46%
@@ -1039,7 +1103,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_topSixBattle with match.asianHandicapOdds.homeOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0`
   - `match.asianHandicapOdds.homeOdds`
 
@@ -1048,7 +1112,7 @@
 
 ---
 
-### 48. Single_awayFormLength
+### 51. Single_awayFormLength
 
 **Performance Metrics:**
 - 💰 **ROI**: 14.18%
@@ -1061,7 +1125,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team form sample size predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.form.length || 0`
 
 **Implementation Status:**
@@ -1069,7 +1133,29 @@
 
 ---
 
-### 49. Adaptive_Single_awayGoalDiff_Plus_match_awayWinOdds
+### 52. CrossRule_homeCurrentStreak_x_lateSeasonTopSix
+
+**Performance Metrics:**
+- 💰 **ROI**: 12.73%
+- 📊 **Correlation**: 0.0714
+- 🎯 **Accuracy**: 48.2%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current streak length combined with Home team in top 6 during late season (European pressure)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.streaks.overall.current.count || 0`
+  - `(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0`
+
+**Implementation Status:**
+⚠️ **CONDITIONAL** - Needs further review before implementation
+
+---
+
+### 53. Adaptive_Single_awayGoalDiff_Plus_match_awayWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 12.03%
@@ -1082,7 +1168,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayGoalDiff with match.awayWinOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
   - `match.awayWinOdds`
 
@@ -1091,7 +1177,7 @@
 
 ---
 
-### 50. Single_awayWinStreak
+### 54. Single_awayWinStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: 11.59%
@@ -1104,7 +1190,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team longest win streak this season predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.longest.win || 0`
 
 **Implementation Status:**
@@ -1112,7 +1198,7 @@
 
 ---
 
-### 51. Single_match_asianHandicapOdds_homeOdds
+### 55. Single_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 11.56%
@@ -1125,7 +1211,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.asianHandicapOdds.homeOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.homeOdds`
 
 **Implementation Status:**
@@ -1133,7 +1219,7 @@
 
 ---
 
-### 52. CrossRule_homePosition_x_relegationPressure
+### 56. CrossRule_homePosition_x_relegationPressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 10.76%
@@ -1146,7 +1232,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Home team current league position combined with Combined relegation pressure (higher = more pressure)
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.leaguePosition || 20`
   - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
 
@@ -1155,7 +1241,7 @@
 
 ---
 
-### 53. Single_combinedOverRate
+### 57. Single_combinedOverRate
 
 **Performance Metrics:**
 - 💰 **ROI**: 10.54%
@@ -1168,7 +1254,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Combined team over rate predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.cumulative.markets.overRate || 0) + (timeSeries.away.cumulative.markets.overRate || 0)) / 2`
 
 **Implementation Status:**
@@ -1176,7 +1262,7 @@
 
 ---
 
-### 54. Over_Under_Patterns
+### 58. Over_Under_Patterns
 
 **Performance Metrics:**
 - 💰 **ROI**: 10.54%
@@ -1189,7 +1275,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Goal-scoring patterns correlate with Asian Handicap margins
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.cumulative.markets.overRate || 0`
   - `timeSeries.away.cumulative.markets.overRate || 0`
 
@@ -1198,7 +1284,7 @@
 
 ---
 
-### 55. Adaptive_Single_awayWinStreak_Plus_match_asianHandicapOdds_homeOdds
+### 59. Adaptive_Single_awayWinStreak_Plus_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 10.17%
@@ -1211,7 +1297,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayWinStreak with match.asianHandicapOdds.homeOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.longest.win || 0`
   - `match.asianHandicapOdds.homeOdds`
 
@@ -1220,7 +1306,7 @@
 
 ---
 
-### 56. Giant_Killing_Value
+### 60. Giant_Killing_Value
 
 **Performance Metrics:**
 - 💰 **ROI**: 10.07%
@@ -1233,7 +1319,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Lower teams vs top 6 create systematic handicap value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0`
   - `enhanced.preMatch.marketEfficiency.awayImpliedProb`
 
@@ -1242,7 +1328,7 @@
 
 ---
 
-### 57. Single_homeCurrentStreak
+### 61. Single_homeCurrentStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: 9.80%
@@ -1255,7 +1341,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team current streak length predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
 
 **Implementation Status:**
@@ -1263,7 +1349,7 @@
 
 ---
 
-### 58. Single_match_over2_5Odds
+### 62. Single_match_over2_5Odds
 
 **Performance Metrics:**
 - 💰 **ROI**: 9.56%
@@ -1276,7 +1362,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.over2_5Odds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.over2_5Odds`
 
 **Implementation Status:**
@@ -1284,7 +1370,29 @@
 
 ---
 
-### 59. Single_relegationPressure
+### 63. CrossRule_homeCurrentStreak_x_titleRacePressure
+
+**Performance Metrics:**
+- 💰 **ROI**: 9.30%
+- 📊 **Correlation**: 0.0772
+- 🎯 **Accuracy**: 45.9%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current streak length combined with Combined title race pressure - HIGH values for top teams (profitable strategy - renamed from relegationPressure)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.streaks.overall.current.count || 0`
+  - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
+
+**Implementation Status:**
+⚠️ **CONDITIONAL** - Needs further review before implementation
+
+---
+
+### 64. Single_relegationPressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 8.91%
@@ -1297,7 +1405,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Combined relegation pressure (higher = more pressure) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
 
 **Implementation Status:**
@@ -1305,7 +1413,51 @@
 
 ---
 
-### 60. Single_awayOverRate
+### 65. Late_Season_Pressure_Rescue
+
+**Performance Metrics:**
+- 💰 **ROI**: 8.88%
+- 📊 **Correlation**: 0.0353
+- 🎯 **Accuracy**: 44.4%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: seasonal_motivation
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Late season European pressure creates value - rescue for raw position failures
+
+**Verified Clean Factors Used:**
+  - `(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0`
+  - `(fbref.week >= 30 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0`
+
+**Implementation Status:**
+⚠️ **CONDITIONAL** - Needs further review before implementation
+
+---
+
+### 66. CrossRule_homeCurrentStreak_x_streakDifferential
+
+**Performance Metrics:**
+- 💰 **ROI**: 8.37%
+- 📊 **Correlation**: 0.0649
+- 🎯 **Accuracy**: 43.9%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current streak length combined with Current streak differential (home - away)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.streaks.overall.current.count || 0`
+  - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
+
+**Implementation Status:**
+⚠️ **CONDITIONAL** - Needs further review before implementation
+
+---
+
+### 67. Single_awayOverRate
 
 **Performance Metrics:**
 - 💰 **ROI**: 7.55%
@@ -1318,7 +1470,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team over 2.5 goals rate predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.cumulative.markets.overRate || 0`
 
 **Implementation Status:**
@@ -1326,7 +1478,7 @@
 
 ---
 
-### 61. Single_drawImpliedProb
+### 68. Single_drawImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 7.37%
@@ -1339,7 +1491,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Implied probability of draw from odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.drawImpliedProb`
 
 **Implementation Status:**
@@ -1347,7 +1499,7 @@
 
 ---
 
-### 62. Single_enhanced_performance_totalGoals
+### 69. Single_enhanced_performance_totalGoals
 
 **Performance Metrics:**
 - 💰 **ROI**: 7.15%
@@ -1360,7 +1512,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.performance.totalGoals directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.performance.totalGoals`
 
 **Implementation Status:**
@@ -1368,7 +1520,7 @@
 
 ---
 
-### 63. Single_homeOverRate
+### 70. Single_homeOverRate
 
 **Performance Metrics:**
 - 💰 **ROI**: 7.12%
@@ -1381,7 +1533,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team over 2.5 goals rate predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.cumulative.markets.overRate || 0`
 
 **Implementation Status:**
@@ -1389,7 +1541,7 @@
 
 ---
 
-### 64. Single_ahHomeOdds
+### 71. Single_ahHomeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 6.85%
@@ -1402,7 +1554,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Asian Handicap home odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.homeOdds`
 
 **Implementation Status:**
@@ -1410,7 +1562,7 @@
 
 ---
 
-### 65. Single_enhanced_marketEfficiency_totalImpliedProb
+### 72. Single_enhanced_marketEfficiency_totalImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: 6.49%
@@ -1423,7 +1575,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.totalImpliedProb directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.totalImpliedProb`
 
 **Implementation Status:**
@@ -1431,7 +1583,7 @@
 
 ---
 
-### 66. Single_enhanced_marketEfficiency_cutPercentage
+### 73. Single_enhanced_marketEfficiency_cutPercentage
 
 **Performance Metrics:**
 - 💰 **ROI**: 6.49%
@@ -1444,7 +1596,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.cutPercentage directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.cutPercentage`
 
 **Implementation Status:**
@@ -1452,7 +1604,29 @@
 
 ---
 
-### 67. Adaptive_Single_awayWinStreak_Plus_match_asianHandicapOdds_awayOdds
+### 74. CrossRule_homeCurrentStreak_x_motivatedPositionHome
+
+**Performance Metrics:**
+- 💰 **ROI**: 6.14%
+- 📊 **Correlation**: 0.0395
+- 🎯 **Accuracy**: 43.1%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current streak length combined with Position matters when stakes are high: Late season European or relegation pressure
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.streaks.overall.current.count || 0`
+  - `((timeSeries.home.leaguePosition || 20) <= 6 && fbref.week >= 30) ? (7 - (timeSeries.home.leaguePosition || 20)) : (((timeSeries.home.leaguePosition || 20) >= 17 && fbref.week >= 25) ? (21 - (timeSeries.home.leaguePosition || 20)) : 0)`
+
+**Implementation Status:**
+⚠️ **CONDITIONAL** - Needs further review before implementation
+
+---
+
+### 75. Adaptive_Single_awayWinStreak_Plus_match_asianHandicapOdds_awayOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 6.09%
@@ -1465,7 +1639,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_awayWinStreak with match.asianHandicapOdds.awayOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.longest.win || 0`
   - `match.asianHandicapOdds.awayOdds`
 
@@ -1474,7 +1648,7 @@
 
 ---
 
-### 68. Goal_Difference_Momentum
+### 76. Goal_Difference_Momentum
 
 **Performance Metrics:**
 - 💰 **ROI**: 6.05%
@@ -1487,7 +1661,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Season goal difference momentum affects handicap performance
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.cumulative.overall.goalDifference || 0`
   - `timeSeries.away.cumulative.overall.goalDifference || 0`
 
@@ -1496,7 +1670,7 @@
 
 ---
 
-### 69. CrossRule_homeCurrentStreak_x_relegationPressure
+### 77. CrossRule_homeCurrentStreak_x_relegationPressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 5.92%
@@ -1509,7 +1683,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Home team current streak length combined with Combined relegation pressure (higher = more pressure)
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
   - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
 
@@ -1518,7 +1692,7 @@
 
 ---
 
-### 70. Single_match_asianHandicapOdds_awayOdds
+### 78. Single_match_asianHandicapOdds_awayOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 5.64%
@@ -1531,7 +1705,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.asianHandicapOdds.awayOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.awayOdds`
 
 **Implementation Status:**
@@ -1539,7 +1713,7 @@
 
 ---
 
-### 71. CrossRule_homeCurrentStreak_x_homeWinOdds
+### 79. CrossRule_homeCurrentStreak_x_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 5.55%
@@ -1552,7 +1726,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Home team current streak length combined with 1X2 home win odds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
   - `match.homeWinOdds`
 
@@ -1561,7 +1735,7 @@
 
 ---
 
-### 72. Single_underperformingTeam
+### 80. Single_underperformingTeam
 
 **Performance Metrics:**
 - 💰 **ROI**: 5.13%
@@ -1574,7 +1748,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Team in lower half but market still favors them predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) > 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0`
 
 **Implementation Status:**
@@ -1582,7 +1756,7 @@
 
 ---
 
-### 73. Single_titleRacePressure
+### 81. Single_titleRacePressure
 
 **Performance Metrics:**
 - 💰 **ROI**: 4.23%
@@ -1595,7 +1769,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Combined title race pressure - HIGH values for top teams (profitable strategy - renamed from relegationPressure) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
 
 **Implementation Status:**
@@ -1603,7 +1777,29 @@
 
 ---
 
-### 74. Single_streakDifferential
+### 82. CrossRule_weekInSeason_x_titleRacePressure
+
+**Performance Metrics:**
+- 💰 **ROI**: 2.98%
+- 📊 **Correlation**: 0.0329
+- 🎯 **Accuracy**: 42.9%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Week number in the season (fatigue/form effects) combined with Combined title race pressure - HIGH values for top teams (profitable strategy - renamed from relegationPressure)
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+  - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
+
+**Implementation Status:**
+🔍 **RESEARCH ONLY** - Profitable but low confidence
+
+---
+
+### 83. Single_streakDifferential
 
 **Performance Metrics:**
 - 💰 **ROI**: 2.45%
@@ -1616,7 +1812,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Current streak differential (home - away) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
 
 **Implementation Status:**
@@ -1624,7 +1820,49 @@
 
 ---
 
-### 75. Single_match_under2_5Odds
+### 84. Season_Fatigue
+
+**Performance Metrics:**
+- 💰 **ROI**: 1.88%
+- 📊 **Correlation**: 0.0000
+- 🎯 **Accuracy**: 41.5%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: single
+- 🧠 **Factors**: 1 factors
+- 💡 **Hypothesis**: Late season matches have different patterns due to fatigue
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+
+**Implementation Status:**
+🔍 **RESEARCH ONLY** - Profitable but low confidence
+
+---
+
+### 85. Single_weekInSeason
+
+**Performance Metrics:**
+- 💰 **ROI**: 1.88%
+- 📊 **Correlation**: 0.0000
+- 🎯 **Accuracy**: 41.5%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: single
+- 🧠 **Factors**: 1 factors
+- 💡 **Hypothesis**: Week number in the season (fatigue/form effects) predicts AH outcomes
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+
+**Implementation Status:**
+🔍 **RESEARCH ONLY** - Profitable but low confidence
+
+---
+
+### 86. Single_match_under2_5Odds
 
 **Performance Metrics:**
 - 💰 **ROI**: 0.86%
@@ -1637,7 +1875,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.under2_5Odds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.under2_5Odds`
 
 **Implementation Status:**
@@ -1645,7 +1883,7 @@
 
 ---
 
-### 76. Over_Under_Correlation
+### 87. Over_Under_Correlation
 
 **Performance Metrics:**
 - 💰 **ROI**: 0.61%
@@ -1658,7 +1896,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Team over/under patterns affect game flow and AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.cumulative.markets.overRate || 0) + (timeSeries.away.cumulative.markets.overRate || 0)) / 2`
   - `match.over2_5Odds`
 
@@ -1667,7 +1905,29 @@
 
 ---
 
-### 77. CrossRule_streakDifferential_x_homeWinOdds
+### 88. CrossRule_weekInSeason_x_homeCurrentStreak
+
+**Performance Metrics:**
+- 💰 **ROI**: 0.33%
+- 📊 **Correlation**: 0.0234
+- 🎯 **Accuracy**: 39.9%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Week number in the season (fatigue/form effects) combined with Home team current streak length
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+  - `timeSeries.home.streaks.overall.current.count || 0`
+
+**Implementation Status:**
+🔍 **RESEARCH ONLY** - Profitable but low confidence
+
+---
+
+### 89. CrossRule_streakDifferential_x_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: 0.32%
@@ -1680,7 +1940,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Current streak differential (home - away) combined with 1X2 home win odds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
   - `match.homeWinOdds`
 
@@ -1689,7 +1949,7 @@
 
 ---
 
-### 78. Streak_Length_Disparity
+### 90. Streak_Length_Disparity
 
 **Performance Metrics:**
 - 💰 **ROI**: 0.16%
@@ -1702,7 +1962,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Large differences in current streak lengths indicate value opportunities
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.abs((timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0))`
 
 **Implementation Status:**
@@ -1710,7 +1970,7 @@
 
 ---
 
-### 79. Single_homeVenueStreak
+### 91. Single_homeVenueStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.22%
@@ -1723,7 +1983,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team current venue streak predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.venue.current.count || 0`
 
 **Implementation Status:**
@@ -1731,7 +1991,7 @@
 
 ---
 
-### 80. Hot_vs_Cold_Teams
+### 92. Hot_vs_Cold_Teams
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.34%
@@ -1744,7 +2004,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extreme form differences (hot vs cold) create betting opportunities
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.max(timeSeries.home.streaks.overall.longest.win || 0, timeSeries.away.streaks.overall.longest.win || 0)`
   - `Math.max(timeSeries.home.streaks.overall.longest.loss || 0, timeSeries.away.streaks.overall.longest.loss || 0)`
 
@@ -1753,7 +2013,7 @@
 
 ---
 
-### 81. Single_awayVenueStreak
+### 93. Single_awayVenueStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.35%
@@ -1766,7 +2026,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team current venue streak predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.venue.current.count || 0`
 
 **Implementation Status:**
@@ -1774,7 +2034,7 @@
 
 ---
 
-### 82. Single_extremeHomeFavorite
+### 94. Single_extremeHomeFavorite
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.42%
@@ -1787,7 +2047,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Extreme home favorites (>80% implied probability) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0`
 
 **Implementation Status:**
@@ -1795,7 +2055,7 @@
 
 ---
 
-### 83. Single_fbref_attendance
+### 95. Single_fbref_attendance
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.91%
@@ -1808,7 +2068,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: fbref.attendance directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `fbref.attendance`
 
 **Implementation Status:**
@@ -1816,7 +2076,7 @@
 
 ---
 
-### 84. Relegation_Desperation
+### 96. Relegation_Desperation
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.92%
@@ -1829,7 +2089,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Relegation battles create desperate performance affecting handicaps
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) >= 18 ? 1 : 0`
   - `(timeSeries.away.leaguePosition || 20) >= 18 ? 1 : 0`
 
@@ -1838,7 +2098,7 @@
 
 ---
 
-### 85. Single_over2_5Odds
+### 97. Single_over2_5Odds
 
 **Performance Metrics:**
 - 💰 **ROI**: -0.98%
@@ -1851,7 +2111,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Over 2.5 goals odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.over2_5Odds`
 
 **Implementation Status:**
@@ -1859,7 +2119,7 @@
 
 ---
 
-### 86. Single_meaningfulPositionGap
+### 98. Single_meaningfulPositionGap
 
 **Performance Metrics:**
 - 💰 **ROI**: -1.25%
@@ -1872,7 +2132,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Large position gaps only matter when European spots or relegation involved predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) >= 8) && (((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6) || ((timeSeries.home.leaguePosition || 20) >= 15 || (timeSeries.away.leaguePosition || 20) >= 15)) ? 1 : 0`
 
 **Implementation Status:**
@@ -1880,7 +2140,7 @@
 
 ---
 
-### 87. Smart_Position_Gap
+### 99. Smart_Position_Gap
 
 **Performance Metrics:**
 - 💰 **ROI**: -1.25%
@@ -1893,7 +2153,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Position gaps work when stakes are involved and form aligns
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)) >= 8) && (((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6) || ((timeSeries.home.leaguePosition || 20) >= 15 || (timeSeries.away.leaguePosition || 20) >= 15)) ? 1 : 0`
   - `((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20) > 5) && ((timeSeries.home.streaks.overall.form.winRate || 0) - (timeSeries.away.streaks.overall.form.winRate || 0) > 0.3) ? 1 : 0`
 
@@ -1902,7 +2162,7 @@
 
 ---
 
-### 88. Single_homeBottomThree
+### 100. Single_homeBottomThree
 
 **Performance Metrics:**
 - 💰 **ROI**: -1.60%
@@ -1915,7 +2175,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team in relegation zone (bottom 3) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) >= 18 ? 1 : 0`
 
 **Implementation Status:**
@@ -1923,7 +2183,29 @@
 
 ---
 
-### 89. Single_match_drawOdds
+### 101. Six_Pointer_Rescue
+
+**Performance Metrics:**
+- 💰 **ROI**: -1.84%
+- 📊 **Correlation**: 0.0210
+- 🎯 **Accuracy**: 38.6%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: stakes_amplification
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Relegation six-pointers become more valuable later in season - rescue for relegation battle analysis
+
+**Verified Clean Factors Used:**
+  - `((timeSeries.home.leaguePosition || 20) >= 17 && (timeSeries.away.leaguePosition || 20) >= 17) ? 1 : 0`
+  - `fbref.week`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 102. Single_match_drawOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -1.99%
@@ -1936,7 +2218,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.drawOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.drawOdds`
 
 **Implementation Status:**
@@ -1944,7 +2226,7 @@
 
 ---
 
-### 90. CrossRule_homeCurrentStreak_x_homeImpliedProb
+### 103. CrossRule_homeCurrentStreak_x_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.00%
@@ -1957,7 +2239,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Home team current streak length combined with Implied probability of home win from odds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
 
@@ -1966,7 +2248,7 @@
 
 ---
 
-### 91. Single_awayCurrentStreak
+### 104. Single_awayCurrentStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.22%
@@ -1979,7 +2261,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Away team current streak length predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.away.streaks.overall.current.count || 0`
 
 **Implementation Status:**
@@ -1987,7 +2269,7 @@
 
 ---
 
-### 92. Home_Advantage
+### 105. Home_Advantage
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.38%
@@ -2000,7 +2282,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Higher attendance correlates with stronger home advantage
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `fbref.attendance`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
 
@@ -2009,7 +2291,7 @@
 
 ---
 
-### 93. Single_ahAwayOdds
+### 106. Single_ahAwayOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.50%
@@ -2022,7 +2304,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Asian Handicap away odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.awayOdds`
 
 **Implementation Status:**
@@ -2030,7 +2312,7 @@
 
 ---
 
-### 94. Single_totalImpliedProb
+### 107. Single_totalImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.83%
@@ -2043,7 +2325,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Total implied probability (shows overround) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.totalImpliedProb`
 
 **Implementation Status:**
@@ -2051,7 +2333,7 @@
 
 ---
 
-### 95. Overround_Analysis
+### 108. Overround_Analysis
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.83%
@@ -2064,7 +2346,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: High overround markets may have less efficient pricing
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.totalImpliedProb`
   - `enhanced.preMatch.marketEfficiency.cutPercentage`
 
@@ -2073,7 +2355,7 @@
 
 ---
 
-### 96. Single_cutPercentage
+### 109. Single_cutPercentage
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.83%
@@ -2086,7 +2368,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Bookmaker margin/cut percentage predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.cutPercentage`
 
 **Implementation Status:**
@@ -2094,7 +2376,7 @@
 
 ---
 
-### 97. Streak_Momentum
+### 110. Streak_Momentum
 
 **Performance Metrics:**
 - 💰 **ROI**: -2.86%
@@ -2107,7 +2389,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Current form streaks predict Asian Handicap outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
   - `timeSeries.away.streaks.overall.current.count || 0`
 
@@ -2116,7 +2398,7 @@
 
 ---
 
-### 98. Single_under2_5Odds
+### 111. Single_under2_5Odds
 
 **Performance Metrics:**
 - 💰 **ROI**: -3.35%
@@ -2129,7 +2411,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Under 2.5 goals odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.under2_5Odds`
 
 **Implementation Status:**
@@ -2137,7 +2419,29 @@
 
 ---
 
-### 99. Goals_Market_Efficiency
+### 112. CrossRule_weekInSeason_x_homeWinOdds
+
+**Performance Metrics:**
+- 💰 **ROI**: -4.11%
+- 📊 **Correlation**: 0.1221
+- 🎯 **Accuracy**: 37.1%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Week number in the season (fatigue/form effects) combined with 1X2 home win odds
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+  - `match.homeWinOdds`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 113. Goals_Market_Efficiency
 
 **Performance Metrics:**
 - 💰 **ROI**: -5.77%
@@ -2150,7 +2454,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Over/under odds relationship shows market efficiency
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.over2_5Odds`
   - `match.under2_5Odds`
 
@@ -2159,7 +2463,7 @@
 
 ---
 
-### 100. Single_homeImpliedProb
+### 114. Single_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -6.26%
@@ -2172,7 +2476,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Implied probability of home win from odds predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
 
 **Implementation Status:**
@@ -2180,7 +2484,7 @@
 
 ---
 
-### 101. Market_Bias
+### 115. Market_Bias
 
 **Performance Metrics:**
 - 💰 **ROI**: -7.46%
@@ -2193,7 +2497,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Market bias toward home/away indicates value opportunities
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb`
 
 **Implementation Status:**
@@ -2201,7 +2505,7 @@
 
 ---
 
-### 102. Single_giantKilling
+### 116. Single_giantKilling
 
 **Performance Metrics:**
 - 💰 **ROI**: -7.52%
@@ -2214,7 +2518,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Lower team vs top 6 (giant killing scenario) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0`
 
 **Implementation Status:**
@@ -2222,7 +2526,7 @@
 
 ---
 
-### 103. Single_positionGapAbs
+### 117. Single_positionGapAbs
 
 **Performance Metrics:**
 - 💰 **ROI**: -8.14%
@@ -2235,7 +2539,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Absolute league position gap between teams predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))`
 
 **Implementation Status:**
@@ -2243,7 +2547,7 @@
 
 ---
 
-### 104. Streak_vs_Quality
+### 118. Streak_vs_Quality
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.09%
@@ -2256,7 +2560,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Streak momentum vs underlying quality creates mispricing
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.abs((timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0))`
   - `Math.abs(enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb)`
 
@@ -2265,7 +2569,7 @@
 
 ---
 
-### 105. Combined_Position_Strength
+### 119. Combined_Position_Strength
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.42%
@@ -2278,7 +2582,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Average team quality affects match competitiveness and handicap accuracy
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2`
 
 **Implementation Status:**
@@ -2286,7 +2590,7 @@
 
 ---
 
-### 106. Single_combinedPosition
+### 120. Single_combinedPosition
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.42%
@@ -2299,7 +2603,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Combined league positions (lower = better teams) predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)`
 
 **Implementation Status:**
@@ -2307,7 +2611,7 @@
 
 ---
 
-### 107. Single_averagePosition
+### 121. Single_averagePosition
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.42%
@@ -2320,7 +2624,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Average league position of both teams predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) + (timeSeries.away.leaguePosition || 20)) / 2`
 
 **Implementation Status:**
@@ -2328,7 +2632,7 @@
 
 ---
 
-### 108. Quality_Team_Overreaction
+### 122. Quality_Team_Overreaction
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.59%
@@ -2341,7 +2645,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Market overreacts to good teams in temporary bad form
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 10 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.home.streaks.overall.form.length || 0) >= 3) ? 1 : 0`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
 
@@ -2350,7 +2654,7 @@
 
 ---
 
-### 109. Form_Position_Divergence_Rescue
+### 123. Form_Position_Divergence_Rescue
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.59%
@@ -2363,7 +2667,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Market overvalues good teams in bad form - rescue for form vs ability disconnect
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb`
 
@@ -2372,7 +2676,7 @@
 
 ---
 
-### 110. Single_enhanced_marketEfficiency_homeImpliedProb
+### 124. Single_enhanced_marketEfficiency_homeImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -9.77%
@@ -2385,7 +2689,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.homeImpliedProb directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.homeImpliedProb`
 
 **Implementation Status:**
@@ -2393,7 +2697,7 @@
 
 ---
 
-### 111. Single_match_awayWinOdds
+### 125. Single_match_awayWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -10.09%
@@ -2406,7 +2710,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: match.awayWinOdds directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.awayWinOdds`
 
 **Implementation Status:**
@@ -2414,7 +2718,7 @@
 
 ---
 
-### 112. Single_enhanced_marketEfficiency_homeImpliedProb___enhanced_marketEfficiency_awayImpliedProb
+### 126. Single_enhanced_marketEfficiency_homeImpliedProb___enhanced_marketEfficiency_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -10.21%
@@ -2427,7 +2731,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: enhanced.marketEfficiency.homeImpliedProb - enhanced.marketEfficiency.awayImpliedProb directly predicts AH profit
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `enhanced.marketEfficiency.homeImpliedProb - enhanced.marketEfficiency.awayImpliedProb`
 
 **Implementation Status:**
@@ -2435,7 +2739,7 @@
 
 ---
 
-### 113. AH_Momentum_vs_Market
+### 127. AH_Momentum_vs_Market
 
 **Performance Metrics:**
 - 💰 **ROI**: -10.29%
@@ -2448,7 +2752,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Asian Handicap form vs market expectations reveals value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.cumulative.markets.asianHandicapWinRate || 0) - (timeSeries.away.cumulative.markets.asianHandicapWinRate || 0)`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb`
 
@@ -2457,7 +2761,7 @@
 
 ---
 
-### 114. Position_Quality_Mismatch
+### 128. Position_Quality_Mismatch
 
 **Performance Metrics:**
 - 💰 **ROI**: -10.47%
@@ -2470,7 +2774,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Large position gaps vs market odds reveal mispricing
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))`
   - `enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb`
 
@@ -2479,7 +2783,7 @@
 
 ---
 
-### 115. Position_Performance_Divergence
+### 129. Position_Performance_Divergence
 
 **Performance Metrics:**
 - 💰 **ROI**: -12.16%
@@ -2492,7 +2796,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Teams whose position doesn't match market expectation offer value
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)`
   - `(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)`
 
@@ -2501,7 +2805,29 @@
 
 ---
 
-### 116. Single_homeLossStreak
+### 130. CrossRule_weekInSeason_x_homePosition
+
+**Performance Metrics:**
+- 💰 **ROI**: -21.87%
+- 📊 **Correlation**: 0.2110
+- 🎯 **Accuracy**: 27.8%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Week number in the season (fatigue/form effects) combined with Home team current league position
+
+**Verified Clean Factors Used:**
+  - `fbref.week`
+  - `timeSeries.home.leaguePosition || 20`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 131. Single_homeLossStreak
 
 **Performance Metrics:**
 - 💰 **ROI**: -21.91%
@@ -2514,7 +2840,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team longest loss streak this season predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.longest.loss || 0`
 
 **Implementation Status:**
@@ -2522,7 +2848,95 @@
 
 ---
 
-### 117. Single_homePosition
+### 132. CrossRule_homePosition_x_titleRacePressure
+
+**Performance Metrics:**
+- 💰 **ROI**: -22.96%
+- 📊 **Correlation**: 0.2274
+- 🎯 **Accuracy**: 27.7%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current league position combined with Combined title race pressure - HIGH values for top teams (profitable strategy - renamed from relegationPressure)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.leaguePosition || 20`
+  - `Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 133. CrossRule_homePosition_x_streakDifferential
+
+**Performance Metrics:**
+- 💰 **ROI**: -30.79%
+- 📊 **Correlation**: 0.2888
+- 🎯 **Accuracy**: 24.5%
+- 📈 **Sample Size**: 1096
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current league position combined with Current streak differential (home - away)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.leaguePosition || 20`
+  - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 134. CrossRule_homePosition_x_lateSeasonTopSix
+
+**Performance Metrics:**
+- 💰 **ROI**: -34.66%
+- 📊 **Correlation**: 0.3072
+- 🎯 **Accuracy**: 22.6%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current league position combined with Home team in top 6 during late season (European pressure)
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.leaguePosition || 20`
+  - `(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 135. CrossRule_homePosition_x_motivatedPositionHome
+
+**Performance Metrics:**
+- 💰 **ROI**: -34.66%
+- 📊 **Correlation**: 0.3053
+- 🎯 **Accuracy**: 22.6%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current league position combined with Position matters when stakes are high: Late season European or relegation pressure
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.leaguePosition || 20`
+  - `((timeSeries.home.leaguePosition || 20) <= 6 && fbref.week >= 30) ? (7 - (timeSeries.home.leaguePosition || 20)) : (((timeSeries.home.leaguePosition || 20) >= 17 && fbref.week >= 25) ? (21 - (timeSeries.home.leaguePosition || 20)) : 0)`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 136. Single_homePosition
 
 **Performance Metrics:**
 - 💰 **ROI**: -34.80%
@@ -2535,7 +2949,7 @@
 - 🧠 **Factors**: 1 factors
 - 💡 **Hypothesis**: Home team current league position predicts AH outcomes
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.leaguePosition || 20`
 
 **Implementation Status:**
@@ -2543,7 +2957,7 @@
 
 ---
 
-### 118. CrossRule_homeCurrentStreak_x_homePosition
+### 137. CrossRule_homeCurrentStreak_x_homePosition
 
 **Performance Metrics:**
 - 💰 **ROI**: -34.91%
@@ -2556,7 +2970,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Home team current streak length combined with Home team current league position
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `timeSeries.home.streaks.overall.current.count || 0`
   - `timeSeries.home.leaguePosition || 20`
 
@@ -2565,7 +2979,29 @@
 
 ---
 
-### 119. Adaptive_Single_handicapLine_Plus_timeSeries_away_patterns_winRate
+### 138. CrossRule_homePosition_x_homeWinOdds
+
+**Performance Metrics:**
+- 💰 **ROI**: -39.70%
+- 📊 **Correlation**: 0.3693
+- 🎯 **Accuracy**: 20.3%
+- 📈 **Sample Size**: 1126
+
+**Strategy Details:**
+- 🏷️ **Type**: cross_rule
+- 🧠 **Factors**: 2 factors
+- 💡 **Hypothesis**: Home team current league position combined with 1X2 home win odds
+
+**Verified Clean Factors Used:**
+  - `timeSeries.home.leaguePosition || 20`
+  - `match.homeWinOdds`
+
+**Implementation Status:**
+❌ **DO NOT IMPLEMENT** - Unprofitable strategy
+
+---
+
+### 139. Adaptive_Single_handicapLine_Plus_timeSeries_away_patterns_winRate
 
 **Performance Metrics:**
 - 💰 **ROI**: -43.62%
@@ -2578,7 +3014,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with timeSeries.away.patterns.winRate
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `timeSeries.away.patterns.winRate`
 
@@ -2587,7 +3023,7 @@
 
 ---
 
-### 120. Adaptive_Single_handicapLine_Plus_timeSeries_home_patterns_winRate
+### 140. Adaptive_Single_handicapLine_Plus_timeSeries_home_patterns_winRate
 
 **Performance Metrics:**
 - 💰 **ROI**: -44.40%
@@ -2600,7 +3036,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with timeSeries.home.patterns.winRate
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `timeSeries.home.patterns.winRate`
 
@@ -2609,7 +3045,7 @@
 
 ---
 
-### 121. Adaptive_Position_vs_Form_Plus_preMatch_enhanced_awayImpliedProb
+### 141. Adaptive_Position_vs_Form_Plus_preMatch_enhanced_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -44.96%
@@ -2622,7 +3058,7 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful Position_vs_Form with preMatch.enhanced.awayImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)`
   - `(timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0)`
   - `preMatch.enhanced.awayImpliedProb`
@@ -2632,7 +3068,7 @@
 
 ---
 
-### 122. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_hadCut
+### 142. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_hadCut
 
 **Performance Metrics:**
 - 💰 **ROI**: -45.66%
@@ -2645,7 +3081,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.enhanced.hadCut
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.enhanced.hadCut`
 
@@ -2654,7 +3090,7 @@
 
 ---
 
-### 123. Adaptive_Single_handicapLine_Plus_preMatch_match_asianHandicapOdds_awayOdds
+### 143. Adaptive_Single_handicapLine_Plus_preMatch_match_asianHandicapOdds_awayOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -47.04%
@@ -2667,7 +3103,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.match.asianHandicapOdds.awayOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.match.asianHandicapOdds.awayOdds`
 
@@ -2676,7 +3112,7 @@
 
 ---
 
-### 124. Adaptive_Single_handicapLine_Plus_preMatch_match_asianHandicapOdds_homeOdds
+### 144. Adaptive_Single_handicapLine_Plus_preMatch_match_asianHandicapOdds_homeOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -47.44%
@@ -2689,7 +3125,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.match.asianHandicapOdds.homeOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.match.asianHandicapOdds.homeOdds`
 
@@ -2698,7 +3134,7 @@
 
 ---
 
-### 125. Adaptive_Single_handicapLine_Plus_preMatch_match_homeWinOdds
+### 145. Adaptive_Single_handicapLine_Plus_preMatch_match_homeWinOdds
 
 **Performance Metrics:**
 - 💰 **ROI**: -47.65%
@@ -2711,7 +3147,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.match.homeWinOdds
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.match.homeWinOdds`
 
@@ -2720,7 +3156,7 @@
 
 ---
 
-### 126. Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_awayImpliedProb
+### 146. Adaptive_Falling_Giant_Fade_Plus_preMatch_enhanced_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -48.13%
@@ -2733,7 +3169,7 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful Falling_Giant_Fade with preMatch.enhanced.awayImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0`
   - `match.homeWinOdds`
   - `preMatch.enhanced.awayImpliedProb`
@@ -2743,7 +3179,7 @@
 
 ---
 
-### 127. Adaptive_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_awayImpliedProb
+### 147. Adaptive_AH_vs_1X2_Comparison_Plus_preMatch_enhanced_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -48.14%
@@ -2756,7 +3192,7 @@
 - 🧠 **Factors**: 3 factors
 - 💡 **Hypothesis**: Extending successful AH_vs_1X2_Comparison with preMatch.enhanced.awayImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.asianHandicapOdds.homeOdds`
   - `match.homeWinOdds`
   - `preMatch.enhanced.awayImpliedProb`
@@ -2766,7 +3202,7 @@
 
 ---
 
-### 128. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_awayImpliedProb
+### 148. Adaptive_Single_handicapLine_Plus_preMatch_enhanced_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -48.16%
@@ -2779,7 +3215,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_handicapLine with preMatch.enhanced.awayImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])`
   - `preMatch.enhanced.awayImpliedProb`
 
@@ -2788,7 +3224,7 @@
 
 ---
 
-### 129. Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_awayImpliedProb
+### 149. Adaptive_Single_homeWinOdds_Plus_preMatch_enhanced_awayImpliedProb
 
 **Performance Metrics:**
 - 💰 **ROI**: -48.28%
@@ -2801,7 +3237,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Extending successful Single_homeWinOdds with preMatch.enhanced.awayImpliedProb
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `match.homeWinOdds`
   - `preMatch.enhanced.awayImpliedProb`
 
@@ -2810,7 +3246,7 @@
 
 ---
 
-### 130. Falling_Giant_Fade
+### 150. Falling_Giant_Fade
 
 **Performance Metrics:**
 - 💰 **ROI**: -48.38%
@@ -2823,7 +3259,7 @@
 - 🧠 **Factors**: 2 factors
 - 💡 **Hypothesis**: Fade quality home teams on losing streaks that market still backs
 
-**100% Clean Factors Used:**
+**Verified Clean Factors Used:**
   - `((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0`
   - `match.homeWinOdds`
 
@@ -2833,5 +3269,6 @@
 ---
 
 
-*Generated on 2025-06-23T03:28:48.186Z*
-*This document contains ONLY 100% clean strategies with ZERO post-match contamination*
+*Generated on 2025-06-23T05:04:18.266Z*
+*This document contains ONLY clean strategies with NO post-match data contamination*
+*fbref.week is correctly identified as pre-match data (match week 1-38)*

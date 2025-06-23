@@ -233,6 +233,23 @@ node src/scripts/data-collection-summary.js
 
 ## ⚠️ Important Notes
 
+### 🚨 CRITICAL: Asian Handicap vs 1X2 Betting
+**⚠️ NEVER CONFUSE ASIAN HANDICAP WITH WIN/LOSE/DRAW CALCULATIONS**
+
+Asian Handicap betting is fundamentally different from 1X2 (win/lose/draw) betting:
+
+1. **Two Outcomes Only**: Home team covers handicap OR away team covers handicap
+2. **No Draw**: Stakes returned if handicap exactly matches goal difference  
+3. **Handicap Coverage**: Calculations must be based on whether teams cover the spread, NOT match results
+4. **ROI Calculations**: Based on handicap coverage, not match win/lose outcomes
+
+**Example**: 
+- Match: Arsenal 2-1 Chelsea, Handicap: Arsenal -0.5
+- Arsenal covers (2-1 > 0.5), Arsenal handicap bet wins
+- Chelsea 1X2 loss ≠ Chelsea handicap loss (they covered +0.5)
+
+**⚠️ VALIDATION REQUIREMENT**: Always verify that betting analysis uses handicap coverage, not match results, to avoid inflated performance metrics.
+
 ### System Integrity
 - **Analysis System**: `src/ah-analysis/` contains the complete working framework - DO NOT MODIFY
 - **Data Quality**: All datasets have been validated and quality issues resolved

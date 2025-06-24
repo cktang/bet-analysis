@@ -15,7 +15,8 @@
       "Bash(START_MONTH=04 START_YEAR=2025 END_MONTH=06 END_YEAR=2025 npx playwright test scrap-hkjc-result.spec.ts)",
       "Bash(TARGET_SEASON=2024-2025 npx playwright test scrap-oddsportal-result.spec.ts)",
       "Bash(git restore:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }

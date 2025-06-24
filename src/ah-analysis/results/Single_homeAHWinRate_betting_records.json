@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_homeAHWinRate",
+    "roi": "13.83%",
+    "correlation": "0.0000",
+    "factors": [
+      "timeSeries.home.cumulative.markets.asianHandicapWinRate || 0"
+    ],
+    "hypothesis": "Home team Asian Handicap win rate this season predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.460Z"
+  },
+  "bettingRecords": []
+}

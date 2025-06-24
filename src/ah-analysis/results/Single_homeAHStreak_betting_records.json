@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_homeAHStreak",
+    "roi": "14.11%",
+    "correlation": "0.0000",
+    "factors": [
+      "timeSeries.home.streaks.asianHandicap.current.count || 0"
+    ],
+    "hypothesis": "Home team current Asian Handicap streak predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.458Z"
+  },
+  "bettingRecords": []
+}

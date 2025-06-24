@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_relegationBattle",
+    "roi": "13.77%",
+    "correlation": "0.0089",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16) ? 1 : 0"
+    ],
+    "hypothesis": "Both teams fighting relegation predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.449Z"
+  },
+  "bettingRecords": []
+}

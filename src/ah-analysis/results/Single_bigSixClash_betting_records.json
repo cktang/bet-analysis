@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_bigSixClash",
+    "roi": "24.76%",
+    "correlation": "0.0696",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0"
+    ],
+    "hypothesis": "Both teams in traditional 'Big 6' positions predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.403Z"
+  },
+  "bettingRecords": []
+}

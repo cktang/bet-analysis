@@ -6,7 +6,13 @@ class AHCombinationTester {
     constructor() {
         this.dataPath = path.join(__dirname, '../../data/processed');
         this.combinationsPath = path.join(__dirname, '../../data/processed/ah_combinations.json');
-        this.resultsPath = path.join(__dirname, '../../data/processed/ah_analysis_results.json');
+        this.resultsDir = path.join(__dirname, 'results');
+        this.summaryPath = path.join(this.resultsDir, 'summary.json');
+        
+        // Ensure results directory exists
+        if (!fs.existsSync(this.resultsDir)) {
+            fs.mkdirSync(this.resultsDir, { recursive: true });
+        }
         
         this.allMatches = [];
         this.loadData();
@@ -23,7 +29,9 @@ class AHCombinationTester {
             const seasonPath = path.join(enhancedPath, season);
             if (fs.existsSync(seasonPath)) {
                 const seasonData = JSON.parse(fs.readFileSync(seasonPath, 'utf8'));
-                const matches = Object.values(seasonData.matches);
+                const matches = Object.keys(seasonData.matches)
+                    .sort() // Deterministic key ordering
+                    .map(key => seasonData.matches[key]);
                 this.allMatches.push(...matches);
                 console.log(`Loaded ${matches.length} matches from ${season}`);
             }
@@ -134,8 +142,8 @@ class AHCombinationTester {
                     const ahResults = match.postMatch?.asianHandicapResults;
                     
                     if (ahOdds && ahResults) {
-                        // Use the main AH line (usually ah_0 or the handicap specified)
-                        const mainAhResult = ahResults.ah_0 || Object.values(ahResults)[0];
+                        // Use the main AH line (deterministic fallback order)
+                        const mainAhResult = ahResults.ah_0 || ahResults.ah_0_0 || ahResults.ah_plus_0_5 || ahResults.ah_minus_0_5 || 'draw';
                         
                         let homeProfit = 0;
                         let awayProfit = 0;
@@ -254,8 +262,9 @@ class AHCombinationTester {
                 thresholdPercent: threshold
             };
 
-            // Pick strategy with best profitability
-            if (profitability > bestProfitability) {
+            // Pick strategy with best profitability (with deterministic tie-breaking)
+            if (profitability > bestProfitability || 
+                (Math.abs(profitability - bestProfitability) < 0.000001 && threshold < (bestStrategy?.thresholdPercent || Infinity))) {
                 bestProfitability = profitability;
                 bestStrategy = strategy;
             }
@@ -356,7 +365,11 @@ class AHCombinationTester {
             'name'
         );
 
-        fs.writeFileSync(this.resultsPath, JSON.stringify(historicalResults, null, 2));
+        // Save consolidated summary to results directory
+        this.saveConsolidatedResults(validResults, summary);
+        
+        // Generate betting records for profitable strategies
+        this.generateBettingRecords(validResults.filter(r => r.profitability > 0.02));
         
         console.log('\n=== RESULTS SUMMARY ===');
         console.log(`Total combinations tested: ${summary.totalCombinations}`);
@@ -377,8 +390,230 @@ class AHCombinationTester {
             console.log('');
         });
 
-        console.log(`Results saved to: ${this.resultsPath}`);
+        console.log(`Results saved to: ${this.summaryPath}`);
         return output;
+    }
+
+    saveConsolidatedResults(validResults, summary) {
+        // Load existing summary or create new one
+        let existingSummary = { strategies: [], metadata: null };
+        if (fs.existsSync(this.summaryPath)) {
+            try {
+                existingSummary = JSON.parse(fs.readFileSync(this.summaryPath, 'utf8'));
+            } catch (e) {
+                console.log('Creating new summary file...');
+            }
+        }
+
+        // Prepare consolidated strategy data
+        const strategies = validResults.map(result => ({
+            name: result.name,
+            roi: `${(result.profitability * 100).toFixed(2)}%`,
+            correlation: result.correlation.toFixed(4),
+            validSamples: result.validSamples,
+            factors: result.factors,
+            hypothesis: result.hypothesis || '',
+            threshold: result.threshold || 'Dynamic',
+            winRate: result.strategy?.accuracy ? `${(result.strategy.accuracy * 100).toFixed(1)}%` : 'N/A',
+            totalBets: result.strategy?.totalBets || result.validSamples,
+            avgProfitPerBet: result.avgProfitPerBet || 'N/A',
+            generatedAt: new Date().toISOString(),
+            detailsFile: `${result.name}_betting_records.json`
+        }));
+
+        // Update summary
+        const consolidatedSummary = {
+            metadata: {
+                generatedAt: new Date().toISOString(),
+                totalStrategies: strategies.length,
+                profitableStrategies: strategies.filter(s => parseFloat(s.roi) > 0).length,
+                bestROI: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.roi))) : 0,
+                bestCorrelation: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.correlation))) : 0
+            },
+            summary: summary,
+            strategies: strategies
+        };
+
+        fs.writeFileSync(this.summaryPath, JSON.stringify(consolidatedSummary, null, 2));
+        console.log(`Consolidated summary saved to: ${this.summaryPath}`);
+    }
+
+    generateBettingRecords(profitableStrategies) {
+        console.log(`\n📊 Generating betting records for ${profitableStrategies.length} profitable strategies...`);
+        
+        profitableStrategies.forEach(strategy => {
+            try {
+                const bettingRecords = this.generateStrategyBettingRecords(strategy);
+                const cleanName = strategy.name.replace(/[^a-zA-Z0-9_]/g, '_');
+                const recordsPath = path.join(this.resultsDir, `${cleanName}_betting_records.json`);
+                
+                const recordsData = {
+                    strategy: {
+                        name: strategy.name,
+                        roi: `${(strategy.profitability * 100).toFixed(2)}%`,
+                        correlation: strategy.correlation.toFixed(4),
+                        factors: strategy.factors,
+                        hypothesis: strategy.hypothesis || ''
+                    },
+                    summary: {
+                        totalBets: bettingRecords.length,
+                        totalProfit: bettingRecords.reduce((sum, bet) => sum + parseFloat(bet.profit || 0), 0),
+                        winRate: bettingRecords.length > 0 ? 
+                            (bettingRecords.filter(bet => bet.outcome === 'Win').length / bettingRecords.length * 100).toFixed(1) + '%' : '0%',
+                        generatedAt: new Date().toISOString()
+                    },
+                    bettingRecords: bettingRecords
+                };
+                
+                fs.writeFileSync(recordsPath, JSON.stringify(recordsData, null, 2));
+                console.log(`✅ Saved ${bettingRecords.length} betting records for ${strategy.name}`);
+            } catch (error) {
+                console.log(`❌ Error generating betting records for ${strategy.name}: ${error.message}`);
+            }
+        });
+    }
+
+    generateStrategyBettingRecords(strategy) {
+        const records = [];
+        
+        // Build expression from factors (use first factor for now)
+        const factorExpression = strategy.factors[0];
+        
+        // Apply the strategy to all matches and generate betting records
+        this.allMatches.forEach(match => {
+            try {
+                const factorValue = this.evaluateValue(match, factorExpression);
+                if (factorValue !== null && !isNaN(factorValue)) {
+                    
+                    // Determine if this match meets the strategy criteria
+                    const meetscriteria = this.evaluateStrategyThreshold(factorValue, strategy);
+                    
+                    if (meetscriteria) {
+                        const record = this.createBettingRecord(match, strategy, factorValue);
+                        if (record) {
+                            records.push(record);
+                        }
+                    }
+                }
+            } catch (error) {
+                // Skip problematic matches
+                console.log(`Error processing match for ${strategy.name}: ${error.message}`);
+            }
+        });
+        
+        // Sort by date (most recent first)
+        return records.sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
+
+    evaluateStrategyThreshold(factorValue, strategy) {
+        // Use dynamic thresholding based on the strategy's selection criteria
+        if (strategy.threshold && typeof strategy.threshold === 'number') {
+            return factorValue >= strategy.threshold;
+        }
+        
+        // For strategies with positive correlation, select high values
+        // For strategies with negative correlation, select low values
+        const correlation = parseFloat(strategy.correlation);
+        
+        if (correlation > 0.1) {
+            // Positive correlation: select top 20% of values
+            return factorValue > 0.5; // This will need to be refined based on actual distribution
+        } else if (correlation < -0.1) {
+            // Negative correlation: select bottom 20% of values  
+            return factorValue < -0.5;
+        }
+        
+        // For weak correlation, be more selective
+        return Math.abs(factorValue) > 1.0;
+    }
+
+    createBettingRecord(match, strategy, factorValue) {
+        try {
+            const ahResults = match.postMatch?.asianHandicapResults;
+            const ahOdds = match.preMatch?.match?.asianHandicapOdds;
+            const actualResults = match.postMatch?.actualResults;
+            
+            if (!ahResults || !ahOdds || !actualResults) return null;
+            
+            // Get actual match score (treat null as 0)
+            const homeScore = actualResults.homeGoals ?? 0;
+            const awayScore = actualResults.awayGoals ?? 0;
+            
+            // Parse the Asian Handicap line from homeHandicap (e.g., "0/+0.5" -> 0.25, "-0.5" -> -0.5)
+            let handicapLine = 0;
+            const handicapStr = ahOdds.homeHandicap;
+            
+            if (handicapStr.includes('/')) {
+                // Quarter handicap like "0/+0.5" or "-0.5/-1"
+                const parts = handicapStr.split('/');
+                const val1 = parseFloat(parts[0]);
+                const val2 = parseFloat(parts[1]);
+                handicapLine = (val1 + val2) / 2;
+            } else {
+                handicapLine = parseFloat(handicapStr);
+            }
+            
+            // Determine bet side based on factor value and correlation
+            const correlation = parseFloat(strategy.correlation);
+            let betSide;
+            
+            if (correlation > 0) {
+                // Positive correlation: high factor value = bet Home
+                betSide = factorValue > 0 ? 'Home' : 'Away';
+            } else {
+                // Negative correlation: high factor value = bet Away
+                betSide = factorValue > 0 ? 'Away' : 'Home';
+            }
+            
+            const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;
+            
+            // Calculate Asian Handicap outcome manually
+            // Home team gets the handicap, so adjusted score is homeScore + handicapLine
+            const adjustedHomeScore = homeScore + handicapLine;
+            const adjustedAwayScore = awayScore;
+            
+            let ahOutcome;
+            if (adjustedHomeScore > adjustedAwayScore) {
+                ahOutcome = 'Home';
+            } else if (adjustedHomeScore < adjustedAwayScore) {
+                ahOutcome = 'Away';
+            } else {
+                ahOutcome = 'Push';
+            }
+            
+            // Calculate profit/loss
+            let profit = 0;
+            let outcome = '';
+            
+            if (ahOutcome === 'Push') {
+                outcome = 'Push';
+                profit = 0;
+            } else if (ahOutcome === betSide) {
+                outcome = 'Win';
+                profit = (selectedOdds - 1) * 100; // Assume 100 unit bet
+            } else {
+                outcome = 'Loss';
+                profit = -100;
+            }
+            
+            return {
+                date: match.preMatch?.match?.date || 'N/A',
+                homeTeam: match.preMatch?.match?.homeTeam || 'N/A',
+                awayTeam: match.preMatch?.match?.awayTeam || 'N/A',
+                score: `${homeScore}-${awayScore}`,
+                handicapLine: handicapStr,
+                adjustedScore: `${adjustedHomeScore.toFixed(1)}-${adjustedAwayScore}`,
+                betSide: betSide,
+                betOdds: selectedOdds?.toFixed(2) || 'N/A',
+                profit: profit.toFixed(0),
+                outcome: outcome,
+                factorValue: factorValue.toFixed(4),
+                factors: strategy.factors.join(', ')
+            };
+        } catch (error) {
+            console.log(`Error creating betting record: ${error.message}`);
+            return null;
+        }
     }
 }
 

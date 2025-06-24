@@ -281,3 +281,8 @@ Asian Handicap betting is fundamentally different from 1X2 (win/lose/draw) betti
 **Status**: ✅ **SYSTEM OPERATIONAL** - Complete betting analysis system ready for live deployment with proven profitable strategies and comprehensive risk management.
 
 *This system represents a successful transition from concept to operational reality, demonstrating the power of systematic, data-driven approach to sports betting analysis.*
+
+## 🧠 Development Memories
+
+- When doing ah-analysis and creating intermediate scripts, do it in the `src/ah-analysis/script` folder
+- **New Memory**: New scripts related to ah-analysis to put in the `src/ah-analysis/scripts/` folder

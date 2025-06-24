@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_topSixBattle",
+    "roi": "20.60%",
+    "correlation": "0.0978",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8) ? 1 : 0"
+    ],
+    "hypothesis": "Both teams competing for European spots predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.383Z"
+  },
+  "bettingRecords": []
+}

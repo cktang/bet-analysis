@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "CrossRule_weekInSeason_x_titleRacePressure",
+    "roi": "2.96%",
+    "correlation": "0.0329",
+    "factors": [
+      "fbref.week",
+      "Math.max(0, 18 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 18 - (timeSeries.away.leaguePosition || 20))"
+    ],
+    "hypothesis": "Week number in the season (fatigue/form effects) combined with Combined title race pressure - HIGH values for top teams (profitable strategy - renamed from relegationPressure)"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.285Z"
+  },
+  "bettingRecords": []
+}

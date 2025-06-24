@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Heavy_Away_Favorites_All_Season",
+    "roi": "13.40%",
+    "correlation": "0.0742",
+    "factors": [
+      "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 2 ? 1 : 0"
+    ],
+    "hypothesis": "Heavy away favorites (AH >= 2) face additional travel/pressure challenges"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.188Z"
+  },
+  "bettingRecords": []
+}

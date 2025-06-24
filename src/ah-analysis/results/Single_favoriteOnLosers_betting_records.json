@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_favoriteOnLosers",
+    "roi": "11.51%",
+    "correlation": "0.0000",
+    "factors": [
+      "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0"
+    ],
+    "hypothesis": "Home team on losing streak but still market favorite predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.486Z"
+  },
+  "bettingRecords": []
+}

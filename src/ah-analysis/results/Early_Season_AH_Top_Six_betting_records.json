@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Early_Season_AH_Top_Six",
+    "roi": "16.67%",
+    "correlation": "0.0357",
+    "factors": [
+      "(fbref.week <= 6 && Math.abs(parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])) >= 1 && ((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6)) ? 1 : 0"
+    ],
+    "hypothesis": "Early season large handicaps involving top 6 teams show market overconfidence"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.197Z"
+  },
+  "bettingRecords": []
+}

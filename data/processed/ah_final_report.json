@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-06-23T05:01:04.737Z",
-  "totalIterations": 60,
+  "generatedAt": "2025-06-24T01:37:43.453Z",
+  "totalIterations": 88,
   "bestOverallCombinations": [
     {
       "name": "Adaptive_Ratio_AH_vs_1X2_Comparison",
@@ -95,6 +95,69 @@
       "error": null
     },
     {
+      "name": "Adaptive_Adaptive_Single_homePosition_Plus_preMatch_enhanced_awayImpliedProb_Plus_preMatch_enhanced_hadCut",
+      "factors": [
+        "timeSeries.home.leaguePosition || 20",
+        "preMatch.enhanced.awayImpliedProb",
+        "preMatch.enhanced.hadCut"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Adaptive_Single_homePosition_Plus_preMatch_enhanced_awayImpliedProb with preMatch.enhanced.hadCut",
+      "homeCorrelation": -0.46029622136122444,
+      "awayCorrelation": 0.45871876585905147,
+      "correlation": 0.46029622136122444,
+      "profitability": -0.4890356083086053,
+      "accuracy": 0.15281899109792285,
+      "avgProfitPerBet": -48.903560830860535,
+      "sampleSize": 1126,
+      "validSamples": 1126,
+      "strategy": {
+        "totalBets": 674,
+        "correctPicks": 103,
+        "totalReturn": -32961,
+        "threshold": "30% (top/bottom)",
+        "homePicks": 337,
+        "awayPicks": 337,
+        "accuracy": 0.15281899109792285,
+        "profitability": -0.4890356083086053,
+        "avgProfitPerBet": -48.903560830860535,
+        "selectionRate": 59.85790408525755,
+        "thresholdPercent": 30
+      },
+      "error": null
+    },
+    {
+      "name": "Adaptive_Single_homePosition_Plus_preMatch_enhanced_awayImpliedProb",
+      "factors": [
+        "timeSeries.home.leaguePosition || 20",
+        "preMatch.enhanced.awayImpliedProb"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_homePosition with preMatch.enhanced.awayImpliedProb",
+      "homeCorrelation": -0.4596537440339331,
+      "awayCorrelation": 0.4581176838862867,
+      "correlation": 0.4596537440339331,
+      "profitability": -0.48755192878338277,
+      "accuracy": 0.15281899109792285,
+      "avgProfitPerBet": -48.75519287833828,
+      "sampleSize": 1126,
+      "validSamples": 1126,
+      "strategy": {
+        "totalBets": 674,
+        "correctPicks": 103,
+        "totalReturn": -32861,
+        "threshold": "30% (top/bottom)",
+        "homePicks": 337,
+        "awayPicks": 337,
+        "accuracy": 0.15281899109792285,
+        "profitability": -0.48755192878338277,
+        "avgProfitPerBet": -48.75519287833828,
+        "selectionRate": 59.85790408525755,
+        "thresholdPercent": 30
+      },
+      "error": null
+    },
+    {
       "name": "Adaptive_Single_handicapLine_Plus_preMatch_enhanced_awayImpliedProb",
       "factors": [
         "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
@@ -126,6 +189,67 @@
       "error": null
     },
     {
+      "name": "Adaptive_Single_ahLine_Plus_preMatch_enhanced_awayImpliedProb",
+      "factors": [
+        "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
+        "preMatch.enhanced.awayImpliedProb"
+      ],
+      "type": "adaptive",
+      "hypothesis": "Extending successful Single_ahLine with preMatch.enhanced.awayImpliedProb",
+      "homeCorrelation": -0.45629410947330806,
+      "awayCorrelation": 0.45409258329711377,
+      "correlation": 0.45629410947330806,
+      "profitability": -0.48158753709198815,
+      "accuracy": 0.16023738872403562,
+      "avgProfitPerBet": -48.15875370919881,
+      "sampleSize": 1126,
+      "validSamples": 1125,
+      "strategy": {
+        "totalBets": 674,
+        "correctPicks": 108,
+        "totalReturn": -32459,
+        "threshold": "30% (top/bottom)",
+        "homePicks": 337,
+        "awayPicks": 337,
+        "accuracy": 0.16023738872403562,
+        "profitability": -0.48158753709198815,
+        "avgProfitPerBet": -48.15875370919881,
+        "selectionRate": 59.91111111111111,
+        "thresholdPercent": 30
+      },
+      "error": null
+    },
+    {
+      "name": "Single_ahLine",
+      "factors": [
+        "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])"
+      ],
+      "type": "single",
+      "hypothesis": "Asian Handicap line value predicts AH outcomes",
+      "homeCorrelation": -0.44893157364292047,
+      "awayCorrelation": 0.4472883348316942,
+      "correlation": 0.44893157364292047,
+      "profitability": -0.4383679525222552,
+      "accuracy": 0.18545994065281898,
+      "avgProfitPerBet": -43.83679525222552,
+      "sampleSize": 1126,
+      "validSamples": 1125,
+      "strategy": {
+        "totalBets": 674,
+        "correctPicks": 125,
+        "totalReturn": -29546,
+        "threshold": "30% (top/bottom)",
+        "homePicks": 337,
+        "awayPicks": 337,
+        "accuracy": 0.18545994065281898,
+        "profitability": -0.4383679525222552,
+        "avgProfitPerBet": -43.83679525222552,
+        "selectionRate": 59.91111111111111,
+        "thresholdPercent": 30
+      },
+      "error": null
+    },
+    {
       "name": "Single_handicapLine",
       "factors": [
         "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])"
@@ -135,174 +259,54 @@
       "homeCorrelation": -0.44893157364292047,
       "awayCorrelation": 0.4472883348316942,
       "correlation": 0.44893157364292047,
-      "profitability": -0.4503412462908012,
-      "accuracy": 0.17804154302670624,
-      "avgProfitPerBet": -45.03412462908012,
+      "profitability": -0.4383679525222552,
+      "accuracy": 0.18545994065281898,
+      "avgProfitPerBet": -43.83679525222552,
       "sampleSize": 1126,
       "validSamples": 1125,
       "strategy": {
         "totalBets": 674,
-        "correctPicks": 120,
-        "totalReturn": -30353,
+        "correctPicks": 125,
+        "totalReturn": -29546,
         "threshold": "30% (top/bottom)",
         "homePicks": 337,
         "awayPicks": 337,
-        "accuracy": 0.17804154302670624,
-        "profitability": -0.4503412462908012,
-        "avgProfitPerBet": -45.03412462908012,
+        "accuracy": 0.18545994065281898,
+        "profitability": -0.4383679525222552,
+        "avgProfitPerBet": -43.83679525222552,
         "selectionRate": 59.91111111111111,
         "thresholdPercent": 30
       },
       "error": null
     },
     {
-      "name": "Single_homeWinOdds",
+      "name": "CrossRule_ahLine_x_ahHomeOdds",
       "factors": [
-        "match.homeWinOdds"
+        "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
+        "match.asianHandicapOdds.homeOdds"
       ],
-      "type": "single",
-      "hypothesis": "1X2 home win odds predicts AH outcomes",
-      "homeCorrelation": -0.3935173037865472,
-      "awayCorrelation": 0.3898823103077283,
-      "correlation": 0.3935173037865472,
-      "profitability": -0.47498516320474776,
-      "accuracy": 0.15875370919881307,
-      "avgProfitPerBet": -47.49851632047478,
+      "type": "cross_rule",
+      "hypothesis": "Asian Handicap line value combined with Asian Handicap home odds",
+      "homeCorrelation": -0.440188177850541,
+      "awayCorrelation": 0.4414210043759847,
+      "correlation": 0.4414210043759847,
+      "profitability": -0.4788724035608309,
+      "accuracy": 0.15578635014836795,
+      "avgProfitPerBet": -47.88724035608308,
       "sampleSize": 1126,
-      "validSamples": 1126,
+      "validSamples": 1125,
       "strategy": {
         "totalBets": 674,
-        "correctPicks": 107,
-        "totalReturn": -32014,
+        "correctPicks": 105,
+        "totalReturn": -32276,
         "threshold": "30% (top/bottom)",
         "homePicks": 337,
         "awayPicks": 337,
-        "accuracy": 0.15875370919881307,
-        "profitability": -0.47498516320474776,
-        "avgProfitPerBet": -47.49851632047478,
-        "selectionRate": 59.85790408525755,
+        "accuracy": 0.15578635014836795,
+        "profitability": -0.4788724035608309,
+        "avgProfitPerBet": -47.88724035608308,
+        "selectionRate": 59.91111111111111,
         "thresholdPercent": 30
-      },
-      "error": null
-    },
-    {
-      "name": "Falling_Giant_Fade",
-      "factors": [
-        "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
-        "match.homeWinOdds"
-      ],
-      "type": "reverse_psychology",
-      "hypothesis": "Fade quality home teams on losing streaks that market still backs",
-      "homeCorrelation": -0.39053136210194583,
-      "awayCorrelation": 0.38683507081629814,
-      "correlation": 0.39053136210194583,
-      "profitability": -0.48376160990712075,
-      "accuracy": 0.15479876160990713,
-      "avgProfitPerBet": -48.37616099071207,
-      "sampleSize": 1126,
-      "validSamples": 1078,
-      "strategy": {
-        "totalBets": 646,
-        "correctPicks": 100,
-        "totalReturn": -31251,
-        "threshold": "30% (top/bottom)",
-        "homePicks": 323,
-        "awayPicks": 323,
-        "accuracy": 0.15479876160990713,
-        "profitability": -0.48376160990712075,
-        "avgProfitPerBet": -48.37616099071207,
-        "selectionRate": 59.92578849721707,
-        "thresholdPercent": 30
-      },
-      "error": null
-    },
-    {
-      "name": "Win_Odds_Ratio",
-      "factors": [
-        "match.homeWinOdds / match.awayWinOdds"
-      ],
-      "type": "single",
-      "hypothesis": "Home vs away win odds ratio indicates market sentiment",
-      "homeCorrelation": -0.3743241839224645,
-      "awayCorrelation": 0.37054553686160957,
-      "correlation": 0.3743241839224645,
-      "profitability": -0.48560830860534127,
-      "accuracy": 0.15875370919881307,
-      "avgProfitPerBet": -48.560830860534125,
-      "sampleSize": 1126,
-      "validSamples": 1126,
-      "strategy": {
-        "totalBets": 674,
-        "correctPicks": 107,
-        "totalReturn": -32730,
-        "threshold": "30% (top/bottom)",
-        "homePicks": 337,
-        "awayPicks": 337,
-        "accuracy": 0.15875370919881307,
-        "profitability": -0.48560830860534127,
-        "avgProfitPerBet": -48.560830860534125,
-        "selectionRate": 59.85790408525755,
-        "thresholdPercent": 30
-      },
-      "error": null
-    },
-    {
-      "name": "Position_Gap_Analysis",
-      "factors": [
-        "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)"
-      ],
-      "type": "position_differential",
-      "hypothesis": "Large position gaps create predictable handicap value",
-      "homeCorrelation": 0.3733418412504225,
-      "awayCorrelation": -0.3700806449780494,
-      "correlation": 0.3733418412504225,
-      "profitability": 0.5456696428571428,
-      "accuracy": 0.6919642857142857,
-      "avgProfitPerBet": 54.566964285714285,
-      "sampleSize": 1126,
-      "validSamples": 1126,
-      "strategy": {
-        "totalBets": 224,
-        "correctPicks": 155,
-        "totalReturn": 12223,
-        "threshold": "10% (top/bottom)",
-        "homePicks": 112,
-        "awayPicks": 112,
-        "accuracy": 0.6919642857142857,
-        "profitability": 0.5456696428571428,
-        "avgProfitPerBet": 54.566964285714285,
-        "selectionRate": 19.893428063943162,
-        "thresholdPercent": 10
-      },
-      "error": null
-    },
-    {
-      "name": "Single_positionGap",
-      "factors": [
-        "(timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20)"
-      ],
-      "type": "single",
-      "hypothesis": "League position gap (away - home, positive = home higher) predicts AH outcomes",
-      "homeCorrelation": 0.3733418412504225,
-      "awayCorrelation": -0.3700806449780494,
-      "correlation": 0.3733418412504225,
-      "profitability": 0.5456696428571428,
-      "accuracy": 0.6919642857142857,
-      "avgProfitPerBet": 54.566964285714285,
-      "sampleSize": 1126,
-      "validSamples": 1126,
-      "strategy": {
-        "totalBets": 224,
-        "correctPicks": 155,
-        "totalReturn": 12223,
-        "threshold": "10% (top/bottom)",
-        "homePicks": 112,
-        "awayPicks": 112,
-        "accuracy": 0.6919642857142857,
-        "profitability": 0.5456696428571428,
-        "avgProfitPerBet": 54.566964285714285,
-        "selectionRate": 19.893428063943162,
-        "thresholdPercent": 10
       },
       "error": null
     }
@@ -667,15 +671,183 @@
       "bestCorrelation": null,
       "profitableStrategies": 121,
       "significantCorrelations": 151
+    },
+    {
+      "timestamp": "2025-06-23T13:25:35.797Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:38.469Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:41.147Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:43.813Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:46.529Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:49.240Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:51.923Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:54.609Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:25:57.317Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:26:00.011Z",
+      "bestCorrelation": null,
+      "profitableStrategies": 175,
+      "significantCorrelations": 165
+    },
+    {
+      "timestamp": "2025-06-23T13:42:40.656Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 149,
+      "significantCorrelations": 179
+    },
+    {
+      "timestamp": "2025-06-23T13:42:43.565Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 149,
+      "significantCorrelations": 179
+    },
+    {
+      "timestamp": "2025-06-23T13:42:46.448Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 149,
+      "significantCorrelations": 179
+    },
+    {
+      "timestamp": "2025-06-23T13:42:49.326Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 149,
+      "significantCorrelations": 179
+    },
+    {
+      "timestamp": "2025-06-23T14:09:35.249Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 132,
+      "significantCorrelations": 182
+    },
+    {
+      "timestamp": "2025-06-23T14:09:38.177Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 132,
+      "significantCorrelations": 182
+    },
+    {
+      "timestamp": "2025-06-23T14:09:41.075Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 132,
+      "significantCorrelations": 182
+    },
+    {
+      "timestamp": "2025-06-23T14:09:43.972Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 132,
+      "significantCorrelations": 182
+    },
+    {
+      "timestamp": "2025-06-24T01:23:17.907Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 138,
+      "significantCorrelations": 184
+    },
+    {
+      "timestamp": "2025-06-24T01:23:26.358Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 138,
+      "significantCorrelations": 184
+    },
+    {
+      "timestamp": "2025-06-24T01:27:22.768Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:27:25.701Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:27:28.607Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:27:31.539Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:37:34.394Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:37:37.410Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:37:40.418Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
+    },
+    {
+      "timestamp": "2025-06-24T01:37:43.399Z",
+      "bestCorrelation": 0.44893157364292047,
+      "profitableStrategies": 136,
+      "significantCorrelations": 180
     }
   ],
   "recommendations": [
     "Focus on \"Adaptive_Ratio_AH_vs_1X2_Comparison\" - shows 0.4607 correlation and 59.63% profitability",
-    "7 combinations show >2% profitability - consider ensemble approach"
+    "3 combinations show >2% profitability - consider ensemble approach"
   ],
   "keyInsights": [
-    "Most frequent factors in top combinations: match.homeWinOdds (4 times), (match.asianHandicapOdds.homeOdds) / (match.homeWinOdds) (3 times), (timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20) (3 times)",
-    "Average correlation across best combinations: 0.3939",
-    "7/15 combinations profitable, avg 57.60%"
+    "Most frequent factors in top combinations: parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) (7 times), preMatch.enhanced.awayImpliedProb (4 times), (match.asianHandicapOdds.homeOdds) / (match.homeWinOdds) (3 times)",
+    "Average correlation across best combinations: 0.4465",
+    "3/13 combinations profitable, avg 59.62%"
   ]
 }

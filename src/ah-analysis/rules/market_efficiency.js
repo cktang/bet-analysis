@@ -7,41 +7,41 @@ module.exports = {
     factors: [
         {
             name: "homeImpliedProb",
-            expression: "enhanced.preMatch.marketEfficiency.homeImpliedProb",
+            expression: "enhanced.homeImpliedProb",
             description: "Implied probability of home win from odds"
         },
         {
             name: "drawImpliedProb",
-            expression: "enhanced.preMatch.marketEfficiency.drawImpliedProb",
+            expression: "enhanced.drawImpliedProb",
             description: "Implied probability of draw from odds"
         },
         {
             name: "awayImpliedProb",
-            expression: "enhanced.preMatch.marketEfficiency.awayImpliedProb",
+            expression: "enhanced.awayImpliedProb",
             description: "Implied probability of away win from odds"
         },
         {
-            name: "totalImpliedProb",
-            expression: "enhanced.preMatch.marketEfficiency.totalImpliedProb",
-            description: "Total implied probability (shows overround)"
+            name: "marketEfficiency",
+            expression: "enhanced.marketEfficiency",
+            description: "Market efficiency metric"
         },
         {
-            name: "cutPercentage",
-            expression: "enhanced.preMatch.marketEfficiency.cutPercentage",
-            description: "Bookmaker margin/cut percentage"
+            name: "homeValueBet",
+            expression: "enhanced.homeValueBet",
+            description: "Home value bet indicator"
         }
     ],
     combinations: [
         {
             name: "Market_Bias",
-            factors: ["enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"],
+            factors: ["enhanced.homeImpliedProb - enhanced.awayImpliedProb"],
             hypothesis: "Market bias toward home/away indicates value opportunities",
             type: "single"
         },
         {
-            name: "Overround_Analysis",
-            factors: ["enhanced.preMatch.marketEfficiency.totalImpliedProb", "enhanced.preMatch.marketEfficiency.cutPercentage"],
-            hypothesis: "High overround markets may have less efficient pricing",
+            name: "Market_Efficiency_Analysis",
+            factors: ["enhanced.marketEfficiency", "enhanced.homeValueBet"],
+            hypothesis: "Market efficiency metrics reveal value opportunities",
             type: "market_analysis"
         },
         // DISABLED: XG data contains hindsight bias

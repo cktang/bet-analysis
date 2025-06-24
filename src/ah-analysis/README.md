@@ -46,6 +46,67 @@ When using **ONLY legitimate pre-match data** with the new structure:
 - **Reality**: Highly selective but profitable patterns exist
 - **Risk**: Lower variance due to better accuracy
 
+## 📁 **Current Folder Structure (Clean & Operational)**
+
+```
+src/ah-analysis/
+├── README.md                          # This documentation
+├── ah_combination_generator.js        # Core: Factor combination generator
+├── ah_combination_tester.js           # Core: Strategy testing engine
+├── run_feedback_loop.js               # Core: Main orchestration script
+├── rule_loader.js                     # Core: Rule management system
+├── extract_actual_betting_records.js  # Utility: Extract betting records
+├── rules/                             # Rule definitions & factors
+│   ├── README.md
+│   ├── clean_ah_only_factors.js       # Clean Asian Handicap factors
+│   ├── contextual_factors.js          # Season timing, pressure
+│   ├── form_streaks.js               # Team momentum patterns
+│   ├── league_position.js            # Table position strategies
+│   ├── market_efficiency.js          # Odds analysis
+│   ├── momentum_patterns.js          # Performance trends
+│   ├── odds_factors.js               # Betting market analysis
+│   ├── positional_strategy.js        # Position-based logic
+│   ├── rescue_strategies.js          # Recovery patterns
+│   ├── simple_rescue_strategies.js   # Basic rescue logic
+│   └── xg_factors.js                 # Expected goals (validate carefully)
+├── current_betting_records/           # Current strategy results
+│   ├── README.md
+│   ├── _MASTER_SUMMARY.json         # Master results summary
+│   └── [Strategy]_bets.csv/.json    # Individual strategy records
+├── winning_strategies/                # Proven profitable strategies
+│   ├── README.md
+│   ├── _MASTER_SUMMARY.json         # Final profitable results
+│   └── [Strategy]_bets.csv/.json    # Clean validated strategies
+└── strategies_documentation/          # Strategy documentation
+    ├── README.md
+    ├── ASIAN_HANDICAP_STRATEGIES.md  # Complete strategy guide
+    ├── IMPLEMENTATION_GUIDE.md       # Implementation instructions
+    └── QUICK_REFERENCE.md            # Quick strategy reference
+```
+
+**Key Principles:**
+- **Core scripts**: Essential operational components only
+- **Rules modular**: Factor definitions in separate files
+- **Results organized**: Clear separation of current vs proven strategies
+- **Documentation**: Complete strategy guides and references
+
+### 🚨 **Maintaining This Structure**
+
+**DO NOT** add back intermediate scripts like:
+- `*_validation_*.js` - Validation scripts (completed)
+- `analyze_strategy_contamination*.js` - Contamination analysis (completed)
+- `extract_*_strategies.js` - Strategy extraction variations (completed)
+- `*documenter*.js` - Documentation generators (completed)
+
+**Core operational files** (KEEP):
+- `ah_combination_generator.js` - Strategy discovery engine
+- `ah_combination_tester.js` - Backtesting and validation
+- `run_feedback_loop.js` - Main orchestration
+- `rule_loader.js` - Rule management
+- `extract_actual_betting_records.js` - Betting record generation
+
+**If you need new analysis**, create `src/new-analysis/` instead of cluttering this folder.
+
 ## Overview
 
 This system implements a sophisticated machine learning approach to discover profitable Asian Handicap betting patterns. The analysis combines multiple data sources and uses adaptive factor combination testing to identify market inefficiencies.

@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_fallingGiantHome",
+    "roi": "12.67%",
+    "correlation": "0.0000",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0"
+    ],
+    "hypothesis": "Good home team on losing streak but market still backs them - fade the favorite predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.474Z"
+  },
+  "bettingRecords": []
+}

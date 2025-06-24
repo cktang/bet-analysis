@@ -1,0 +1,326 @@
+{
+  "generatedAt": "2025-06-23T13:37:24.356Z",
+  "summary": {
+    "totalPatterns": 5,
+    "profitablePatterns": 2,
+    "bestROI": 91.05555555555556,
+    "averageROI": -16.898833640270105
+  },
+  "patterns": [
+    {
+      "name": "Late_Season_AH_Value_Bets",
+      "description": "Fade strong favorites in late season pressure situations",
+      "totalBets": 36,
+      "wins": 36,
+      "totalProfit": 3278,
+      "examples": [
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Leicester",
+          "week": "31",
+          "ahLine": -2,
+          "awayOdds": 2,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 100
+        },
+        {
+          "homeTeam": "Arsenal",
+          "awayTeam": "Southampton",
+          "week": "32",
+          "ahLine": -2,
+          "awayOdds": 1.8,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 80
+        },
+        {
+          "homeTeam": "Liverpool",
+          "awayTeam": "Nottingham Forest",
+          "week": "32",
+          "ahLine": -2,
+          "awayOdds": 1.83,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 83
+        },
+        {
+          "homeTeam": "Newcastle",
+          "awayTeam": "Southampton",
+          "week": "34",
+          "ahLine": -1.5,
+          "awayOdds": 1.99,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 99
+        },
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Leeds",
+          "week": "35",
+          "ahLine": -2,
+          "awayOdds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        }
+      ],
+      "roi": 91.05555555555556,
+      "winRate": 100
+    },
+    {
+      "name": "Large_AH_Lines_Value",
+      "description": "Large handicaps (|AH| > 1.5) - fade extreme favorites",
+      "totalBets": 64,
+      "wins": 64,
+      "totalProfit": 5759.999999999999,
+      "examples": [
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Bournemouth",
+          "week": "2",
+          "ahLine": -2.5,
+          "betSide": "away",
+          "odds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        },
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Crystal Palace",
+          "week": "4",
+          "ahLine": -2,
+          "betSide": "away",
+          "odds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        },
+        {
+          "homeTeam": "Liverpool",
+          "awayTeam": "Bournemouth",
+          "week": "4",
+          "ahLine": -2,
+          "betSide": "away",
+          "odds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        },
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Nottingham Forest",
+          "week": "5",
+          "ahLine": -2.5,
+          "betSide": "away",
+          "odds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        },
+        {
+          "homeTeam": "Manchester City",
+          "awayTeam": "Southampton",
+          "week": "10",
+          "ahLine": -2.5,
+          "betSide": "away",
+          "odds": 1.9,
+          "result": "0-0",
+          "outcome": "Win",
+          "profit": 89.99999999999999
+        }
+      ],
+      "roi": 89.99999999999999,
+      "winRate": 100
+    },
+    {
+      "name": "Small_AH_Lines_All_Season",
+      "description": "Close games (AH between -0.5 and +0.5) - bet based on value",
+      "totalBets": 724,
+      "wins": 123,
+      "totalProfit": -47458,
+      "examples": [
+        {
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Arsenal",
+          "week": "1",
+          "ahLine": 0.5,
+          "betSide": "away",
+          "odds": 2,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Bournemouth",
+          "awayTeam": "Aston Villa",
+          "week": "1",
+          "ahLine": 0,
+          "betSide": "home",
+          "odds": 2.15,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Leeds",
+          "awayTeam": "Wolves",
+          "week": "1",
+          "ahLine": 0,
+          "betSide": "home",
+          "odds": 1.99,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Leicester",
+          "awayTeam": "Brentford",
+          "week": "1",
+          "ahLine": -0.5,
+          "betSide": "home",
+          "odds": 2.08,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Manchester Utd",
+          "awayTeam": "Brighton",
+          "week": "1",
+          "ahLine": -0.5,
+          "betSide": "home",
+          "odds": 1.96,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        }
+      ],
+      "roi": -65.54972375690608,
+      "winRate": 16.988950276243095
+    },
+    {
+      "name": "Early_Season_AH_Underdogs",
+      "description": "Bet away teams in early season when they get small handicap advantage",
+      "totalBets": 35,
+      "wins": 0,
+      "totalProfit": -3500,
+      "examples": [
+        {
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Arsenal",
+          "week": "1",
+          "ahLine": 0.5,
+          "awayOdds": 2,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Everton",
+          "awayTeam": "Chelsea",
+          "week": "1",
+          "ahLine": 1,
+          "awayOdds": 1.84,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "West Ham",
+          "awayTeam": "Manchester City",
+          "week": "1",
+          "ahLine": 1,
+          "awayOdds": 1.75,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Nottingham Forest",
+          "awayTeam": "West Ham",
+          "week": "2",
+          "ahLine": 0.5,
+          "awayOdds": 2.12,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Brentford",
+          "awayTeam": "Manchester Utd",
+          "week": "2",
+          "ahLine": 0.5,
+          "awayOdds": 1.87,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        }
+      ],
+      "roi": -100,
+      "winRate": 0
+    },
+    {
+      "name": "Mid_Season_AH_Home_Favorites",
+      "description": "Bet home teams in mid season when handicap is moderate (-1.5 to -0.5)",
+      "totalBets": 121,
+      "wins": 0,
+      "totalProfit": -12100,
+      "examples": [
+        {
+          "homeTeam": "Leeds",
+          "awayTeam": "Bournemouth",
+          "week": "15",
+          "ahLine": -0.5,
+          "homeOdds": 1.71,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "West Ham",
+          "awayTeam": "Crystal Palace",
+          "week": "15",
+          "ahLine": -0.5,
+          "homeOdds": 2.08,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Liverpool",
+          "awayTeam": "Southampton",
+          "week": "16",
+          "ahLine": -1.5,
+          "homeOdds": 1.84,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Tottenham",
+          "awayTeam": "Leeds",
+          "week": "16",
+          "ahLine": -0.5,
+          "homeOdds": 1.7,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        },
+        {
+          "homeTeam": "Brighton",
+          "awayTeam": "Aston Villa",
+          "week": "16",
+          "ahLine": -0.5,
+          "homeOdds": 1.99,
+          "result": "0-0",
+          "outcome": "Loss",
+          "profit": -100
+        }
+      ],
+      "roi": -100,
+      "winRate": 0
+    }
+  ]
+}

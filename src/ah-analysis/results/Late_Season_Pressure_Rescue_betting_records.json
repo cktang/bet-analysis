@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Late_Season_Pressure_Rescue",
+    "roi": "12.83%",
+    "correlation": "0.0353",
+    "factors": [
+      "(fbref.week >= 30 && (timeSeries.home.leaguePosition || 20) <= 6) ? 1 : 0",
+      "(fbref.week >= 30 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0"
+    ],
+    "hypothesis": "Late season European pressure creates value - rescue for raw position failures"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.247Z"
+  },
+  "bettingRecords": []
+}

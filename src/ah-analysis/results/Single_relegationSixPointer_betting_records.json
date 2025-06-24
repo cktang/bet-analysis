@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Single_relegationSixPointer",
+    "roi": "11.18%",
+    "correlation": "0.0258",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) >= 17 && (timeSeries.away.leaguePosition || 20) >= 17) ? 1 : 0"
+    ],
+    "hypothesis": "Both teams in relegation zone (six-pointer) predicts AH outcomes"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.426Z"
+  },
+  "bettingRecords": []
+}

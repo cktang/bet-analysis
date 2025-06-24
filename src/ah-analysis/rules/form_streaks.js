@@ -50,13 +50,13 @@ module.exports = {
         },
         {
             name: "homeAHWinRate",
-            expression: "timeSeries.home.cumulative.markets.asianHandicapWinRate || 0",
-            description: "Home team Asian Handicap win rate this season"
+            expression: "timeSeries.home.patterns.asianHandicapSuccess || 0",
+            description: "Home team Asian Handicap success rate this season"
         },
         {
             name: "awayAHWinRate",
-            expression: "timeSeries.away.cumulative.markets.asianHandicapWinRate || 0",
-            description: "Away team Asian Handicap win rate this season"
+            expression: "timeSeries.away.patterns.asianHandicapSuccess || 0",
+            description: "Away team Asian Handicap success rate this season"
         },
         
         // Goal patterns and trends
@@ -72,12 +72,12 @@ module.exports = {
         },
         {
             name: "homeOverRate",
-            expression: "timeSeries.home.cumulative.markets.overRate || 0",
+            expression: "timeSeries.home.patterns.overRate || 0",
             description: "Home team over 2.5 goals rate"
         },
         {
             name: "awayOverRate",
-            expression: "timeSeries.away.cumulative.markets.overRate || 0", 
+            expression: "timeSeries.away.patterns.overRate || 0", 
             description: "Away team over 2.5 goals rate"
         },
         

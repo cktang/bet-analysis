@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Rising_Underdog_Back",
+    "roi": "59.07%",
+    "correlation": "0.3519",
+    "factors": [
+      "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0",
+      "match.awayWinOdds"
+    ],
+    "hypothesis": "Back lower table away teams on winning streaks that market undervalues"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T17:48:05.208Z"
+  },
+  "bettingRecords": []
+}

@@ -1,0 +1,18 @@
+{
+  "strategy": {
+    "name": "Late_Season_Moderate_AH_Away",
+    "roi": "0.00%",
+    "correlation": "0.0032",
+    "factors": [
+      "(fbref.week >= 30 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 0.5 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= 1.5) ? 1 : 0"
+    ],
+    "hypothesis": "Late season away teams with moderate advantage benefit from reduced pressure"
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-24T19:04:46.468Z"
+  },
+  "bettingRecords": []
+}

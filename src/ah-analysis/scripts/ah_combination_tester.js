@@ -137,27 +137,61 @@ class AHCombinationTester {
                         factorValues[0] : 
                         factorValues.reduce((sum, val) => sum + val, 0) / factorValues.length;
 
-                    // Calculate profits based on Asian Handicap results
+                    // Calculate profits based on Asian Handicap results with proper quarter handicap handling
                     const ahOdds = match.preMatch?.match?.asianHandicapOdds;
-                    const ahResults = match.postMatch?.asianHandicapResults;
+                    const actualResults = match.postMatch?.actualResults;
                     
-                    if (ahOdds && ahResults) {
-                        // Use the main AH line (deterministic fallback order)
-                        const mainAhResult = ahResults.ah_0 || ahResults.ah_0_0 || ahResults.ah_plus_0_5 || ahResults.ah_minus_0_5 || 'draw';
+                    if (ahOdds && actualResults) {
+                        // Get actual match score (treat null as 0)
+                        const homeScore = actualResults.homeGoals ?? 0;
+                        const awayScore = actualResults.awayGoals ?? 0;
                         
+                        // Parse handicap lines properly
+                        const handicapStr = ahOdds.homeHandicap;
+                        let handicapLines = [];
+                        
+                        if (handicapStr.includes('/')) {
+                            // Quarter handicap - split into two half-bets
+                            const parts = handicapStr.split('/');
+                            handicapLines = [parseFloat(parts[0]), parseFloat(parts[1])];
+                        } else {
+                            // Single handicap
+                            handicapLines = [parseFloat(handicapStr)];
+                        }
+                        
+                        // Calculate profits for home and away bets with proper split handling
                         let homeProfit = 0;
                         let awayProfit = 0;
+                        const betAmount = 100; // Total bet amount
+                        const betPerLine = betAmount / handicapLines.length; // Split bet across lines
                         
-                        if (mainAhResult === 'home') {
-                            homeProfit = (ahOdds.homeOdds - 1) * 100; // Win
-                            awayProfit = -100; // Loss
-                        } else if (mainAhResult === 'away') {
-                            homeProfit = -100; // Loss
-                            awayProfit = (ahOdds.awayOdds - 1) * 100; // Win
-                        } else if (mainAhResult === 'draw') {
-                            homeProfit = 0; // Push
-                            awayProfit = 0; // Push
-                        }
+                        handicapLines.forEach(handicapLine => {
+                            // Home team gets the handicap
+                            const adjustedHomeScore = homeScore + handicapLine;
+                            const adjustedAwayScore = awayScore;
+                            
+                            let ahOutcome;
+                            if (adjustedHomeScore > adjustedAwayScore) {
+                                ahOutcome = 'home';
+                            } else if (adjustedHomeScore < adjustedAwayScore) {
+                                ahOutcome = 'away';
+                            } else {
+                                ahOutcome = 'draw';
+                            }
+                            
+                            // Calculate profit/loss for this line
+                            if (ahOutcome === 'draw') {
+                                // Push - stake returned, no profit/loss for this line
+                                // homeProfit += 0;
+                                // awayProfit += 0;
+                            } else if (ahOutcome === 'home') {
+                                homeProfit += (ahOdds.homeOdds - 1) * betPerLine; // Win this portion
+                                awayProfit += -betPerLine; // Lose this portion
+                            } else if (ahOutcome === 'away') {
+                                homeProfit += -betPerLine; // Lose this portion
+                                awayProfit += (ahOdds.awayOdds - 1) * betPerLine; // Win this portion
+                            }
+                        });
 
                         matchData.push({
                             combinedValue,
@@ -369,7 +403,10 @@ class AHCombinationTester {
         this.saveConsolidatedResults(validResults, summary);
         
         // Generate betting records for profitable strategies
-        this.generateBettingRecords(validResults.filter(r => r.profitability > 0.02));
+        const bettingRecordsResults = this.generateBettingRecords(validResults.filter(r => r.profitability > 0.02));
+        
+        // Update summary to only include strategies that actually have betting records
+        this.updateSummaryWithActualResults(bettingRecordsResults);
         
         console.log('\n=== RESULTS SUMMARY ===');
         console.log(`Total combinations tested: ${summary.totalCombinations}`);
@@ -441,36 +478,103 @@ class AHCombinationTester {
     generateBettingRecords(profitableStrategies) {
         console.log(`\n📊 Generating betting records for ${profitableStrategies.length} profitable strategies...`);
         
+        const successfulStrategies = [];
+        
         profitableStrategies.forEach(strategy => {
             try {
                 const bettingRecords = this.generateStrategyBettingRecords(strategy);
                 const cleanName = strategy.name.replace(/[^a-zA-Z0-9_]/g, '_');
                 const recordsPath = path.join(this.resultsDir, `${cleanName}_betting_records.json`);
                 
+                // Calculate actual ROI from betting records
+                const totalProfit = bettingRecords.reduce((sum, bet) => sum + parseFloat(bet.profit || 0), 0);
+                const totalBets = bettingRecords.length;
+                const totalInvestment = totalBets * 100; // 100 units per bet
+                const actualROI = totalBets > 0 ? (totalProfit / totalInvestment * 100).toFixed(2) : '0.00';
+                
                 const recordsData = {
                     strategy: {
                         name: strategy.name,
-                        roi: `${(strategy.profitability * 100).toFixed(2)}%`,
+                        roi: `${actualROI}%`, // ✅ Use actual ROI from betting records
                         correlation: strategy.correlation.toFixed(4),
                         factors: strategy.factors,
                         hypothesis: strategy.hypothesis || ''
                     },
                     summary: {
                         totalBets: bettingRecords.length,
-                        totalProfit: bettingRecords.reduce((sum, bet) => sum + parseFloat(bet.profit || 0), 0),
+                        totalProfit: totalProfit,
                         winRate: bettingRecords.length > 0 ? 
-                            (bettingRecords.filter(bet => bet.outcome === 'Win').length / bettingRecords.length * 100).toFixed(1) + '%' : '0%',
+                            (bettingRecords.filter(bet => bet.outcome === 'Win' || bet.outcome === 'Half Win').length / bettingRecords.length * 100).toFixed(1) + '%' : '0%',
                         generatedAt: new Date().toISOString()
                     },
                     bettingRecords: bettingRecords
                 };
                 
                 fs.writeFileSync(recordsPath, JSON.stringify(recordsData, null, 2));
+                
+                // Only include strategies that actually have betting records
+                if (bettingRecords.length > 0) {
+                    successfulStrategies.push({
+                        ...strategy,
+                        actualBettingRecords: bettingRecords.length,
+                        actualTotalProfit: totalProfit,
+                        actualROI: parseFloat(actualROI),
+                        recordsData: recordsData
+                    });
+                }
+                
                 console.log(`✅ Saved ${bettingRecords.length} betting records for ${strategy.name}`);
             } catch (error) {
                 console.log(`❌ Error generating betting records for ${strategy.name}: ${error.message}`);
             }
         });
+        
+        return successfulStrategies;
+    }
+
+    updateSummaryWithActualResults(successfulStrategies) {
+        console.log(`\n📋 Updating summary with ${successfulStrategies.length} strategies that have actual betting records...`);
+        
+        // Prepare strategy data with actual results
+        const strategies = successfulStrategies.map(strategy => ({
+            name: strategy.name,
+            roi: `${strategy.actualROI.toFixed(2)}%`, // ✅ Use actual ROI from betting records
+            correlation: strategy.correlation.toFixed(4),
+            validSamples: strategy.validSamples,
+            factors: strategy.factors,
+            hypothesis: strategy.hypothesis || '',
+            threshold: strategy.threshold || 'Dynamic',
+            winRate: strategy.recordsData.summary.winRate,
+            totalBets: strategy.actualBettingRecords,
+            avgProfitPerBet: strategy.actualBettingRecords > 0 ? 
+                (strategy.actualTotalProfit / strategy.actualBettingRecords).toFixed(2) : 0,
+            generatedAt: new Date().toISOString(),
+            detailsFile: `${strategy.name.replace(/[^a-zA-Z0-9_]/g, '_')}_betting_records.json`
+        }));
+
+        // Sort by actual ROI (descending)
+        strategies.sort((a, b) => parseFloat(b.roi) - parseFloat(a.roi));
+
+        // Update consolidated summary with only successful strategies
+        const consolidatedSummary = {
+            metadata: {
+                generatedAt: new Date().toISOString(),
+                totalStrategies: strategies.length,
+                profitableStrategies: strategies.filter(s => parseFloat(s.roi) > 0).length,
+                bestROI: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.roi))) : 0,
+                bestCorrelation: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.correlation))) : 0
+            },
+            summary: {
+                totalCombinations: strategies.length,
+                validResults: strategies.length,
+                profitableStrategies: strategies.filter(s => parseFloat(s.roi) > 0).length,
+                bestROI: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.roi))) : 0
+            },
+            strategies: strategies
+        };
+
+        fs.writeFileSync(this.summaryPath, JSON.stringify(consolidatedSummary, null, 2));
+        console.log(`✅ Updated summary with ${strategies.length} strategies that have actual betting records`);
     }
 
     generateStrategyBettingRecords(strategy) {
@@ -539,18 +643,17 @@ class AHCombinationTester {
             const homeScore = actualResults.homeGoals ?? 0;
             const awayScore = actualResults.awayGoals ?? 0;
             
-            // Parse the Asian Handicap line from homeHandicap (e.g., "0/+0.5" -> 0.25, "-0.5" -> -0.5)
-            let handicapLine = 0;
+            // Parse the Asian Handicap line from homeHandicap (e.g., "0/+0.5" -> split, "-0.5" -> single)
             const handicapStr = ahOdds.homeHandicap;
+            let handicapLines = [];
             
             if (handicapStr.includes('/')) {
-                // Quarter handicap like "0/+0.5" or "-0.5/-1"
+                // Quarter handicap - split into two half-bets
                 const parts = handicapStr.split('/');
-                const val1 = parseFloat(parts[0]);
-                const val2 = parseFloat(parts[1]);
-                handicapLine = (val1 + val2) / 2;
+                handicapLines = [parseFloat(parts[0]), parseFloat(parts[1])];
             } else {
-                handicapLine = parseFloat(handicapStr);
+                // Single handicap
+                handicapLines = [parseFloat(handicapStr)];
             }
             
             // Determine bet side based on factor value and correlation
@@ -567,34 +670,62 @@ class AHCombinationTester {
             
             const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;
             
-            // Calculate Asian Handicap outcome manually
-            // Home team gets the handicap, so adjusted score is homeScore + handicapLine
-            const adjustedHomeScore = homeScore + handicapLine;
-            const adjustedAwayScore = awayScore;
+            // Calculate Asian Handicap outcome for each line (split betting)
+            let totalProfit = 0;
+            let outcomes = [];
+            const betAmount = 100; // Total bet amount
+            const betPerLine = betAmount / handicapLines.length; // Split bet across lines
             
-            let ahOutcome;
-            if (adjustedHomeScore > adjustedAwayScore) {
-                ahOutcome = 'Home';
-            } else if (adjustedHomeScore < adjustedAwayScore) {
-                ahOutcome = 'Away';
-            } else {
-                ahOutcome = 'Push';
-            }
+            handicapLines.forEach(handicapLine => {
+                // Home team gets the handicap
+                const adjustedHomeScore = homeScore + handicapLine;
+                const adjustedAwayScore = awayScore;
+                
+                let ahOutcome;
+                if (adjustedHomeScore > adjustedAwayScore) {
+                    ahOutcome = 'Home';
+                } else if (adjustedHomeScore < adjustedAwayScore) {
+                    ahOutcome = 'Away';
+                } else {
+                    ahOutcome = 'Push';
+                }
+                
+                // Calculate profit/loss for this line
+                let lineProfit = 0;
+                let lineOutcome = '';
+                
+                if (ahOutcome === 'Push') {
+                    lineOutcome = 'Push';
+                    lineProfit = 0; // Stake returned
+                } else if (ahOutcome === betSide) {
+                    lineOutcome = 'Win';
+                    lineProfit = (selectedOdds - 1) * betPerLine; // Profit on this portion
+                } else {
+                    lineOutcome = 'Loss';
+                    lineProfit = -betPerLine; // Lose this portion
+                }
+                
+                totalProfit += lineProfit;
+                outcomes.push(lineOutcome);
+            });
             
-            // Calculate profit/loss
-            let profit = 0;
+            // Determine overall outcome description
             let outcome = '';
-            
-            if (ahOutcome === 'Push') {
-                outcome = 'Push';
-                profit = 0;
-            } else if (ahOutcome === betSide) {
+            if (outcomes.every(o => o === 'Win')) {
                 outcome = 'Win';
-                profit = (selectedOdds - 1) * 100; // Assume 100 unit bet
-            } else {
+            } else if (outcomes.every(o => o === 'Loss')) {
                 outcome = 'Loss';
-                profit = -100;
+            } else if (outcomes.every(o => o === 'Push')) {
+                outcome = 'Push';
+            } else if (outcomes.includes('Win') && outcomes.includes('Push')) {
+                outcome = 'Half Win';
+            } else if (outcomes.includes('Loss') && outcomes.includes('Push')) {
+                outcome = 'Half Loss';
+            } else {
+                outcome = 'Mixed';
             }
+            
+            let profit = totalProfit;
             
             return {
                 date: match.preMatch?.match?.date || 'N/A',
@@ -602,13 +733,18 @@ class AHCombinationTester {
                 awayTeam: match.preMatch?.match?.awayTeam || 'N/A',
                 score: `${homeScore}-${awayScore}`,
                 handicapLine: handicapStr,
-                adjustedScore: `${adjustedHomeScore.toFixed(1)}-${adjustedAwayScore}`,
                 betSide: betSide,
                 betOdds: selectedOdds?.toFixed(2) || 'N/A',
                 profit: profit.toFixed(0),
                 outcome: outcome,
                 factorValue: factorValue.toFixed(4),
-                factors: strategy.factors.join(', ')
+                factors: strategy.factors.join(', '),
+                // Additional debug info for Asian Handicap calculation
+                handicapDetails: handicapLines.length > 1 ? {
+                    splitLines: handicapLines,
+                    individualOutcomes: outcomes,
+                    betPerLine: betPerLine
+                } : null
             };
         } catch (error) {
             console.log(`Error creating betting record: ${error.message}`);

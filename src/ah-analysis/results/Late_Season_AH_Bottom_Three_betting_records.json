@@ -1,8 +1,8 @@
 {
   "strategy": {
     "name": "Late_Season_AH_Bottom_Three",
-    "roi": "8.83%",
-    "correlation": "0.0539",
+    "roi": "0.00%",
+    "correlation": "0.0246",
     "factors": [
       "(fbref.week >= 30 && Math.abs(parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])) <= 1 && ((timeSeries.home.leaguePosition || 20) >= 18 || (timeSeries.away.leaguePosition || 20) >= 18)) ? 1 : 0"
     ],
@@ -12,7 +12,7 @@
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.194Z"
+    "generatedAt": "2025-06-24T19:04:46.452Z"
   },
   "bettingRecords": []
 }

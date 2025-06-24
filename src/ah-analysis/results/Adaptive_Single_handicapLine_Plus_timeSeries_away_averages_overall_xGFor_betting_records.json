@@ -1,0 +1,3958 @@
+{
+  "strategy": {
+    "name": "Adaptive_Single_handicapLine_Plus_timeSeries_away_averages_overall_xGFor",
+    "roi": "12.92%",
+    "correlation": "0.0698",
+    "factors": [
+      "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])",
+      "timeSeries.away.averages.overall.xGFor"
+    ],
+    "hypothesis": "Extending successful Single_handicapLine with timeSeries.away.averages.overall.xGFor"
+  },
+  "summary": {
+    "totalBets": 177,
+    "totalProfit": 2286,
+    "winRate": "54.2%",
+    "generatedAt": "2025-06-24T19:04:46.305Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leicester",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "profit": "73",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "score": "0-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Arsenal",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-16T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Tottenham",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Manchester City",
+      "score": "0-0",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-04-26T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "score": "5-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.99",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-04-25T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Ipswich",
+      "score": "3-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.78",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-19T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Arsenal",
+      "score": "0-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.66",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-19T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Liverpool",
+      "score": "0-1",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.11",
+      "profit": "111",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-12T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Ipswich",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.11",
+      "profit": "111",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-12T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-11T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Leicester",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-05T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.74",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-02T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leicester",
+      "score": "2-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.96",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-03-08T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leicester",
+      "score": "1-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.04",
+      "profit": "104",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-03-07T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.84",
+      "profit": "84",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-25T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Southampton",
+      "score": "4-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.00",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-21T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "West Ham",
+      "score": "0-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-15T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-14T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Arsenal",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.72",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-01-24T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Ipswich",
+      "score": "4-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-01-16T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-01-05T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester Utd",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "profit": "72",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-28T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Ipswich",
+      "score": "1-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.88",
+      "profit": "88",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-26T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leicester",
+      "score": "3-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "2.07",
+      "profit": "107",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-25T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.75",
+      "profit": "75",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-15T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brentford",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-13T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-13T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-13T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "score": "4-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-06T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Southampton",
+      "score": "1-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.84",
+      "profit": "84",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.78",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Chelsea",
+      "score": "1-5",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-29T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.70",
+      "profit": "70",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-23T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "score": "0-4",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.67",
+      "profit": "67",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-23T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Liverpool",
+      "score": "2-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-09T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Leicester",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.77",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-09T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Ipswich",
+      "score": "1-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.08",
+      "profit": "108",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-10-25T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Southampton",
+      "score": "1-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.77",
+      "profit": "77",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-10-19T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Manchester City",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "profit": "70",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-10-04T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-10-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "score": "3-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.94",
+      "profit": "94",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-09-28T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Liverpool",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "87",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-09-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Leicester",
+      "score": "4-2",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-09-20T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.03",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-09-13T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "score": "0-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.83",
+      "profit": "83",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-09-13T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "profit": "87",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-08-30T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brighton",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.68",
+      "profit": "68",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-08-24T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brentford",
+      "score": "2-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.88",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-08-23T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Ipswich",
+      "score": "4-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-08-23T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Everton",
+      "score": "4-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.70",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-08-16T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "score": "2-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "43",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-08-16T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "score": "2-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "West Ham",
+      "score": "3-1",
+      "handicapLine": "-3",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-3.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Tottenham",
+      "score": "0-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "score": "0-1",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "75",
+      "outcome": "Win",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester City",
+      "score": "0-4",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Burnley",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "98",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "score": "5-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "score": "3-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Sheff Utd",
+      "score": "5-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.92",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-25T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Manchester City",
+      "score": "0-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-24T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Sheff Utd",
+      "score": "4-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-20T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Arsenal",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-13T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Aston Villa",
+      "score": "0-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-13T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "score": "0-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.07",
+      "profit": "107",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-12T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Luton",
+      "score": "5-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-04T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Sheff Utd",
+      "score": "3-1",
+      "handicapLine": "-3",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-3.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-03T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Luton",
+      "score": "2-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.16",
+      "profit": "58",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-03T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Aston Villa",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.03",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-30T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-29T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Burnley",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.99",
+      "profit": "99",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-29T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Luton",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-03-09T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.12",
+      "profit": "112",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-08T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sheff Utd",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.76",
+      "profit": "76",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-04T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Arsenal",
+      "score": "0-6",
+      "handicapLine": "+2/+2.5",
+      "betSide": "Home",
+      "betOdds": "1.74",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          2,
+          2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-02T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Manchester Utd",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.96",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-24T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Newcastle",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.74",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-21T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Luton",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.94",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "score": "1-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.03",
+      "profit": "103",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-02-17T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Chelsea",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-16T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Arsenal",
+      "score": "0-5",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-09T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Burnley",
+      "score": "3-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.94",
+      "profit": "47",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-09T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.92",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-05T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester City",
+      "score": "1-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.65",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-01-31T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Burnley",
+      "score": "3-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.71",
+      "profit": "71",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-01-19T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-29T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Sheff Utd",
+      "score": "2-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-28T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "West Ham",
+      "score": "0-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-26T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-22T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Sheff Utd",
+      "score": "1-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-17T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester Utd",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.78",
+      "profit": "78",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-15T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Sheff Utd",
+      "score": "2-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.99",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-15T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Crystal Palace",
+      "score": "2-2",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-09T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Manchester City",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.17",
+      "profit": "117",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-06T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "+2/+2.5",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "44",
+      "outcome": "Half Win",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          2,
+          2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-05T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Arsenal",
+      "score": "3-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.11",
+      "profit": "111",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-03T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "score": "3-3",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.83",
+      "profit": "83",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-02T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "score": "4-3",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.08",
+      "profit": "108",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-01T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "98",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-11T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Sheff Utd",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "profit": "87",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-11T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brentford",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.71",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-10T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Burnley",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-11-10T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Luton",
+      "score": "1-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-05T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Liverpool",
+      "score": "1-1",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-11-03T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "score": "6-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-28T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Luton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.74",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-28T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Sheff Utd",
+      "score": "5-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.08",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-21T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Manchester Utd",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "73",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Everton",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.67",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "profit": "73",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-23T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-22T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.79",
+      "profit": "40",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-15T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Sheff Utd",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-01T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "score": "5-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.77",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-26T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Manchester City",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.07",
+      "profit": "107",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Luton",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.67",
+      "profit": "67",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-18T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.07",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-08-14T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Wolves",
+      "score": "1-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.88",
+      "profit": "88",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "98",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Luton",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.88",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.91",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-22T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.84",
+      "profit": "84",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.94",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leeds",
+      "score": "2-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-03T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Fulham",
+      "score": "1-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-03T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "West Ham",
+      "score": "3-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-29T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester City",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-04-29T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.99",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-04-21T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Southampton",
+      "score": "3-3",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-21T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.83",
+      "profit": "83",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-04-15T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leicester",
+      "score": "3-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.00",
+      "profit": "50",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-04-08T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Manchester City",
+      "score": "1-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-31T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Leeds",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-18T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "score": "4-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Southampton",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-03T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "score": "3-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.15",
+      "profit": "115",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-01T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "score": "4-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-25T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Manchester City",
+      "score": "1-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-17T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "score": "1-1",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-12T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Aston Villa",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-01-21T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "score": "3-0",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-01-03T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Bournemouth",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-30T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leicester",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.14",
+      "profit": "114",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-30T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.07",
+      "profit": "107",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-28T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Manchester City",
+      "score": "1-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-27T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-27T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.77",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-11-11T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-11-11T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brentford",
+      "score": "1-2",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-11-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "score": "2-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-29T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Nottingham Forest",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-29T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leeds",
+      "score": "1-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.10",
+      "profit": "110",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-21T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-21T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Liverpool",
+      "score": "1-0",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.72",
+      "profit": "72",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-07T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Southampton",
+      "score": "4-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-09-16T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.74",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-09-03T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Manchester City",
+      "score": "1-1",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-31T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-31T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "score": "6-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.66",
+      "profit": "66",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-26T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "score": "9-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "2.01",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-26T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Crystal Palace",
+      "score": "4-2",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Away",
+      "betOdds": "1.74",
+      "profit": "37",
+      "outcome": "Half Win",
+      "factorValue": "-2.0000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-15T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "-1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-12T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "score": "4-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Away",
+      "betOdds": "1.97",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "-2.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-05T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "1.5000",
+      "factors": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]), timeSeries.away.averages.overall.xGFor",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

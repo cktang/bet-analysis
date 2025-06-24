@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Handicap Strategy Analysis Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 h-screen overflow-hidden">
+    <div class="h-full flex flex-col">
+        <!-- Header -->
+        <div class="bg-slate-800 border-b border-slate-700 px-4 py-2 flex-shrink-0">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-xl font-bold text-white">Asian Handicap Strategy Analysis</h1>
+                    <div id="metadata" class="text-slate-400 text-xs space-x-4">
+                        <span>Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 grid grid-cols-1 lg:grid-cols-2 h-full overflow-hidden">
+            <!-- Left Panel - Strategy List -->
+            <div class="bg-slate-800 border-r border-slate-700 flex flex-col overflow-hidden">
+                <div class="px-3 py-2 bg-slate-700 border-b border-slate-600 flex-shrink-0">
+                    <h2 class="text-lg font-semibold text-white">Strategies</h2>
+                    <p class="text-slate-300 text-xs">Sorted by ROI • Click to view details</p>
+                </div>
+                <div class="flex-1 overflow-y-auto">
+                    <div id="strategyList" class="divide-y divide-slate-700">
+                        <!-- Strategies will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel - Strategy Details -->
+            <div class="bg-slate-800 flex flex-col overflow-hidden">
+                <div class="px-3 py-2 bg-slate-700 border-b border-slate-600 flex-shrink-0">
+                    <h2 class="text-lg font-semibold text-white">Strategy Details</h2>
+                    <p id="selectedStrategy" class="text-slate-300 text-xs">Select a strategy to view details</p>
+                </div>
+                <div class="flex-1 overflow-y-auto">
+                    <div id="strategyDetails" class="p-2 text-slate-400 text-center text-sm">
+                        Select a strategy from the left panel to view detailed betting records
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let strategiesData = null;
+
+        // Load and display strategies
+        async function loadStrategies() {
+            try {
+                const response = await fetch('../results/summary.json');
+                const data = await response.json();
+                strategiesData = data;
+                
+                displayMetadata(data.metadata);
+                displayStrategies(data.strategies);
+            } catch (error) {
+                console.error('Error loading strategies:', error);
+                document.getElementById('strategyList').innerHTML = 
+                    '<div class="p-4 text-red-400">Error loading strategies data</div>';
+            }
+        }
+
+        function displayMetadata(metadata) {
+            document.getElementById('metadata').innerHTML = `
+                <span>Total: <strong class="text-white">${metadata.totalStrategies}</strong></span>
+                <span>Profitable: <strong class="text-green-400">${metadata.profitableStrategies}</strong></span>
+                <span>Best ROI: <strong class="text-green-400">${metadata.bestROI}%</strong></span>
+                <span>Updated: <strong class="text-white">${new Date(metadata.generatedAt).toLocaleDateString()}</strong></span>
+            `;
+        }
+
+        function displayStrategies(strategies) {
+            const listElement = document.getElementById('strategyList');
+            
+            // Sort strategies by profitability (ROI) in descending order (highest first)
+            const sortedStrategies = [...strategies].sort((a, b) => {
+                const roiA = parseFloat(a.roi.replace('%', ''));
+                const roiB = parseFloat(b.roi.replace('%', ''));
+                return roiB - roiA; // Descending order (highest ROI first)
+            });
+            
+            listElement.innerHTML = sortedStrategies.map((strategy, index) => {
+                const roiValue = parseFloat(strategy.roi.replace('%', ''));
+                const roiColor = roiValue >= 0 ? 'text-green-400' : 'text-red-400';
+                const correlationValue = parseFloat(strategy.correlation) || 0;
+                
+                // Add indicator for missing files (we'll check this when clicked)
+                const detailsIndicator = `<span class="text-xs text-slate-500" title="Click to view details">📊</span>`;
+                
+                return `
+                    <div class="strategy-item px-3 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 border-l-2 border-transparent hover:border-l-blue-500" 
+                         onclick="loadStrategyDetails('${strategy.name}', '${strategy.detailsFile}', this)">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight">${strategy.name}</h3>
+                            <span class="text-xs ${roiColor} font-bold whitespace-nowrap">${strategy.roi}</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-1 text-xs text-slate-400 mb-1">
+                            <div>C: ${strategy.correlation}</div>
+                            <div>W: ${strategy.winRate}</div>
+                            <div>B: ${strategy.totalBets}</div>
+                        </div>
+                        <div class="text-xs text-slate-500 truncate leading-tight">
+                            ${strategy.hypothesis}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        async function loadStrategyDetails(strategyName, detailsFile, clickedElement) {
+            try {
+                // Update selected strategy display
+                document.getElementById('selectedStrategy').textContent = `Loading ${strategyName}...`;
+                
+                // Highlight selected strategy
+                document.querySelectorAll('.strategy-item').forEach(item => {
+                    item.classList.remove('bg-slate-700', 'border-l-blue-500');
+                    item.classList.add('border-l-transparent');
+                });
+                if (clickedElement) {
+                    clickedElement.classList.add('bg-slate-700', 'border-l-blue-500');
+                    clickedElement.classList.remove('border-l-transparent');
+                }
+                
+                // Load betting records
+                const response = await fetch(`../results/${detailsFile}`);
+                
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        displayMissingFile(strategyName, detailsFile);
+                        document.getElementById('selectedStrategy').textContent = `${strategyName} (Details Missing)`;
+                    } else {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    return;
+                }
+                
+                const data = await response.json();
+                
+                displayStrategyDetails(data);
+                document.getElementById('selectedStrategy').textContent = strategyName;
+                
+            } catch (error) {
+                console.error('Error loading strategy details:', error);
+                document.getElementById('strategyDetails').innerHTML = 
+                    `<div class="p-4 text-red-400">Error loading strategy details: ${error.message}</div>`;
+                document.getElementById('selectedStrategy').textContent = `${strategyName} (Error)`;
+            }
+        }
+
+        function displayMissingFile(strategyName, detailsFile) {
+            const strategy = strategiesData.strategies.find(s => s.name === strategyName);
+            const detailsElement = document.getElementById('strategyDetails');
+            
+            detailsElement.innerHTML = `
+                <div class="p-2">
+                    <div class="bg-yellow-900/50 border border-yellow-600 rounded p-2 mb-2">
+                        <div class="flex items-center">
+                            <span class="text-yellow-400 text-sm mr-2">⚠️</span>
+                            <h3 class="text-yellow-200 font-medium text-sm">Records Missing</h3>
+                        </div>
+                        <p class="text-yellow-300 text-xs mt-1">
+                            File <code class="bg-yellow-800 px-1 rounded text-xs">${detailsFile}</code> not found.
+                        </p>
+                    </div>
+                    
+                    <!-- Performance Metrics -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">📊 Performance</h4>
+                        <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">ROI:</span>
+                                <span class="text-green-400 font-bold">${strategy.roi}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Corr:</span>
+                                <span class="text-blue-400 font-medium">${strategy.correlation}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Bets:</span>
+                                <span class="text-white font-medium">${strategy.totalBets}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Win Rate:</span>
+                                <span class="text-white font-medium">${strategy.winRate}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Avg/Bet:</span>
+                                <span class="text-white font-medium">${strategy.avgProfitPerBet || 'N/A'}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Samples:</span>
+                                <span class="text-white font-medium">${strategy.validSamples || 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Strategy Definition -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
+                        <div class="mb-2">
+                            <span class="text-slate-400 text-xs">Hypothesis:</span>
+                            <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${strategy.hypothesis}</p>
+                        </div>
+                        <div>
+                            <span class="text-slate-400 text-xs">Name:</span>
+                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all">${strategy.name}</p>
+                        </div>
+                    </div>
+
+                    <!-- Factor Analysis -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">⚡ Factors (${strategy.factors.length})</h4>
+                        <div class="space-y-1">
+                            ${strategy.factors.map((factor, index) => `
+                                <div class="bg-slate-600 p-1 rounded">
+                                    <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
+                                    <code class="text-green-300 text-xs break-all">${factor}</code>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Generation Info -->
+                    <div class="bg-slate-700 rounded p-2">
+                        <h4 class="text-white font-medium text-sm mb-1">🕒 Info</h4>
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Generated:</span>
+                                <span class="text-slate-300">${new Date(strategy.generatedAt).toLocaleDateString()}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Threshold:</span>
+                                <span class="text-slate-300">${strategy.threshold || 'Dynamic'}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayStrategyDetails(data) {
+            const detailsElement = document.getElementById('strategyDetails');
+            
+            // Find the strategy from the summary data to get complete information
+            const summaryStrategy = strategiesData.strategies.find(s => s.name === data.strategy.name);
+            
+            // Strategy info section with comprehensive details
+            const strategyInfo = `
+                <div class="p-2">
+                    <!-- Performance Metrics -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">📊 Performance</h4>
+                        <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">ROI:</span>
+                                <span class="text-green-400 font-bold">${data.strategy.roi}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Corr:</span>
+                                <span class="text-blue-400 font-medium">${data.strategy.correlation}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Bets:</span>
+                                <span class="text-white font-medium">${data.summary.totalBets}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Win Rate:</span>
+                                <span class="text-white font-medium">${data.summary.winRate}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Profit:</span>
+                                <span class="text-white font-medium">${data.summary.totalProfit}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Avg/Bet:</span>
+                                <span class="text-white font-medium">${summaryStrategy?.avgProfitPerBet || 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Strategy Definition -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
+                        <div class="mb-2">
+                            <span class="text-slate-400 text-xs">Hypothesis:</span>
+                            <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${data.strategy.hypothesis}</p>
+                        </div>
+                        <div>
+                            <span class="text-slate-400 text-xs">Name:</span>
+                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all">${data.strategy.name}</p>
+                        </div>
+                    </div>
+
+                    <!-- Factor Analysis -->
+                    <div class="bg-slate-700 rounded p-2 mb-2">
+                        <h4 class="text-white font-medium text-sm mb-1">⚡ Factors (${data.strategy.factors.length})</h4>
+                        <div class="space-y-1">
+                            ${data.strategy.factors.map((factor, index) => `
+                                <div class="bg-slate-600 p-1 rounded">
+                                    <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
+                                    <code class="text-green-300 text-xs break-all">${factor}</code>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Generation Info -->
+                    <div class="bg-slate-700 rounded p-2">
+                        <h4 class="text-white font-medium text-sm mb-1">🕒 Info</h4>
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Generated:</span>
+                                <span class="text-slate-300">${new Date(data.summary.generatedAt).toLocaleDateString()}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Samples:</span>
+                                <span class="text-slate-300">${summaryStrategy?.validSamples || 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Betting records table
+            const records = data.bettingRecords.slice(0, 100); // Show more records in compact view
+            const recordsTable = `
+                <div class="p-2 border-t border-slate-700">
+                    <h4 class="text-white font-medium text-sm mb-2">📈 Records (${records.length}/${data.bettingRecords.length})</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-xs">
+                            <thead>
+                                <tr class="text-slate-400 border-b border-slate-600">
+                                    <th class="text-left py-1 px-1">Date</th>
+                                    <th class="text-left py-1 px-1">Match</th>
+                                    <th class="text-left py-1 px-1">Score</th>
+                                    <th class="text-left py-1 px-1">Line</th>
+                                    <th class="text-left py-1 px-1">Side</th>
+                                    <th class="text-left py-1 px-1">Odds</th>
+                                    <th class="text-left py-1 px-1">Result</th>
+                                    <th class="text-right py-1 px-1">P/L</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700">
+                                ${records.map(record => {
+                                    const profitValue = parseFloat(record.profit);
+                                    const profitColor = profitValue > 0 ? 'text-green-400' : 
+                                                       profitValue < 0 ? 'text-red-400' : 'text-slate-400';
+                                    const outcomeColor = record.outcome === 'Win' ? 'text-green-400' : 
+                                                        record.outcome === 'Loss' ? 'text-red-400' : 
+                                                        record.outcome.includes('Half') ? 'text-yellow-400' : 'text-slate-400';
+                                    
+                                    return `
+                                        <tr class="hover:bg-slate-700/50">
+                                            <td class="py-1 px-1 text-slate-300">${new Date(record.date).toLocaleDateString('en-US', {month:'short', day:'numeric'})}</td>
+                                            <td class="py-1 px-1 text-slate-300 truncate max-w-32" title="${record.homeTeam} vs ${record.awayTeam}">${record.homeTeam.substring(0,3)} vs ${record.awayTeam.substring(0,3)}</td>
+                                            <td class="py-1 px-1 text-slate-300">${record.score}</td>
+                                            <td class="py-1 px-1 text-slate-300">${record.handicapLine}</td>
+                                            <td class="py-1 px-1 text-slate-300">${record.betSide.charAt(0)}</td>
+                                            <td class="py-1 px-1 text-slate-300">${record.betOdds}</td>
+                                            <td class="py-1 px-1 ${outcomeColor}">${record.outcome.charAt(0)}</td>
+                                            <td class="py-1 px-1 text-right ${profitColor} font-medium">${record.profit}</td>
+                                        </tr>
+                                    `;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+
+            detailsElement.innerHTML = strategyInfo + recordsTable;
+        }
+
+        // Initialize the page
+        loadStrategies();
+    </script>
+</body>
+</html> 

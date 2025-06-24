@@ -1,8 +1,8 @@
 {
   "strategy": {
     "name": "Late_Season_Close_AH_Pressure",
-    "roi": "13.58%",
-    "correlation": "0.0161",
+    "roi": "0.00%",
+    "correlation": "0.0585",
     "factors": [
       "(fbref.week >= 30 && Math.abs(parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])) <= 0.5 && ((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) <= 6)) ? 1 : 0"
     ],
@@ -12,7 +12,7 @@
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.198Z"
+    "generatedAt": "2025-06-24T19:04:46.333Z"
   },
   "bettingRecords": []
 }

@@ -1,7 +1,7 @@
 {
   "strategy": {
     "name": "Reverse_Psychology_Rescue",
-    "roi": "11.58%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
       "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0",
@@ -13,7 +13,7 @@
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.312Z"
+    "generatedAt": "2025-06-24T19:04:46.486Z"
   },
   "bettingRecords": []
 }

@@ -4,9 +4,9 @@ const _ = require('lodash');
 
 class AHCombinationTester {
     constructor() {
-        this.dataPath = path.join(__dirname, '../../data/processed');
-        this.combinationsPath = path.join(__dirname, '../../data/processed/ah_combinations.json');
-        this.resultsDir = path.join(__dirname, 'results');
+        this.dataPath = path.join(__dirname, '../../../data/processed');
+        this.combinationsPath = path.join(__dirname, '../../../data/processed/ah_combinations.json');
+        this.resultsDir = path.join(__dirname, '..', 'results');
         this.summaryPath = path.join(this.resultsDir, 'summary.json');
         
         // Ensure results directory exists
@@ -22,7 +22,7 @@ class AHCombinationTester {
         console.log('Loading EPL data from all seasons (enhanced data)...');
         
         // Use enhanced data with new structure
-        const enhancedPath = path.join(__dirname, '../../data/enhanced');
+        const enhancedPath = path.join(__dirname, '../../../data/enhanced');
         const seasons = ['year-2022-2023-enhanced.json', 'year-2023-2024-enhanced.json', 'year-2024-2025-enhanced.json'];
         
         seasons.forEach(season => {

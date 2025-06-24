@@ -8,7 +8,7 @@ const path = require('path');
 class AHFeedbackLoop {
     constructor(maxIterations = 10) {
         this.maxIterations = maxIterations;
-        this.resultsPath = path.join(__dirname, '../../data/processed/ah_analysis_results.json');
+        this.resultsPath = path.join(__dirname, '../../../data/processed/ah_analysis_results.json');
         this.generator = new AHCombinationGenerator();
         this.tester = new AHCombinationTester();
     }
@@ -130,7 +130,7 @@ class AHFeedbackLoop {
         }
 
         const historicalData = JSON.parse(fs.readFileSync(this.resultsPath, 'utf8'));
-        const reportPath = path.join(__dirname, '../../data/processed/ah_final_report.json');
+        const reportPath = path.join(__dirname, '../../../data/processed/ah_final_report.json');
         
         const report = {
             generatedAt: new Date().toISOString(),

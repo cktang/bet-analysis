@@ -3,7 +3,7 @@ const path = require('path');
 
 class RuleLoader {
     constructor() {
-        this.rulesPath = path.join(__dirname, 'rules');
+        this.rulesPath = path.join(__dirname, '..', 'rules');
         this.loadedRules = [];
     }
 

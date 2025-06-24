@@ -5,9 +5,9 @@ const RuleLoader = require('./rule_loader');
 
 class AHCombinationGenerator {
     constructor() {
-        this.dataPath = path.join(__dirname, '../../data/processed');
-        this.resultsPath = path.join(__dirname, '../../data/processed/ah_analysis_results.json');
-        this.combinationsPath = path.join(__dirname, '../../data/processed/ah_combinations.json');
+        this.dataPath = path.join(__dirname, '../../../data/processed');
+        this.resultsPath = path.join(__dirname, '../../../data/processed/ah_analysis_results.json');
+        this.combinationsPath = path.join(__dirname, '../../../data/processed/ah_combinations.json');
         this.ruleLoader = new RuleLoader();
         
         this.baseFactors = {

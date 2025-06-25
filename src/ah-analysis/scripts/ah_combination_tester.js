@@ -351,7 +351,30 @@ class AHCombinationTester {
         results.sort((a, b) => b.correlation - a.correlation);
 
         // Analysis summary
-        const validResults = results.filter(r => !r.error && r.validSamples >= 10);
+        // More permissive filtering - include strategies with minor errors but valid samples
+        const validResults = results.filter(r => {
+            if (r.validSamples >= 1) {
+                // Include if we have valid samples, even with minor errors
+                return true;
+            }
+            if (!r.error) {
+                // Include if no error, regardless of sample count
+                return true;
+            }
+            // Only exclude if there's an error AND no valid samples
+            return false;
+        });
+        
+        // Debug: Count strategies by error status
+        const withErrors = results.filter(r => r.error).length;
+        const withoutErrors = results.filter(r => !r.error).length;
+        const withValidSamples = results.filter(r => r.validSamples >= 1).length;
+        console.log(`\n📊 Strategy Analysis:`);
+        console.log(`  Total tested: ${results.length}`);
+        console.log(`  With errors: ${withErrors}`);
+        console.log(`  Without errors: ${withoutErrors}`);
+        console.log(`  With valid samples (≥1): ${withValidSamples}`);
+        console.log(`  Included in valid results: ${validResults.length}`);
         const significantResults = validResults.filter(r => Math.abs(r.correlation) > 0.1);
         const profitableResults = validResults.filter(r => r.profitability > 0.02);
 
@@ -402,8 +425,8 @@ class AHCombinationTester {
         // Save consolidated summary to results directory
         this.saveConsolidatedResults(validResults, summary);
         
-        // Generate betting records for profitable strategies
-        const bettingRecordsResults = this.generateBettingRecords(validResults.filter(r => r.profitability > 0.02));
+        // Generate betting records for all valid strategies (not just profitable ones)
+        const bettingRecordsResults = this.generateBettingRecords(validResults);
         
         // Update summary to only include strategies that actually have betting records
         this.updateSummaryWithActualResults(bettingRecordsResults);
@@ -580,20 +603,19 @@ class AHCombinationTester {
     generateStrategyBettingRecords(strategy) {
         const records = [];
         
-        // Build expression from factors (use first factor for now)
-        const factorExpression = strategy.factors[0];
-        
         // Apply the strategy to all matches and generate betting records
         this.allMatches.forEach(match => {
             try {
-                const factorValue = this.evaluateValue(match, factorExpression);
-                if (factorValue !== null && !isNaN(factorValue)) {
+                // Evaluate and combine all factors for multi-factor strategies
+                const combinedFactorValue = this.evaluateCombinedFactors(match, strategy.factors);
+                
+                if (combinedFactorValue !== null && !isNaN(combinedFactorValue)) {
                     
                     // Determine if this match meets the strategy criteria
-                    const meetscriteria = this.evaluateStrategyThreshold(factorValue, strategy);
+                    const meetscriteria = this.evaluateStrategyThreshold(combinedFactorValue, strategy);
                     
                     if (meetscriteria) {
-                        const record = this.createBettingRecord(match, strategy, factorValue);
+                        const record = this.createBettingRecord(match, strategy, combinedFactorValue);
                         if (record) {
                             records.push(record);
                         }
@@ -609,6 +631,71 @@ class AHCombinationTester {
         return records.sort((a, b) => new Date(b.date) - new Date(a.date));
     }
 
+    evaluateCombinedFactors(match, factors) {
+        try {
+            // Handle single factor strategies
+            if (factors.length === 1) {
+                return this.evaluateValue(match, factors[0]);
+            }
+            
+            // For multi-factor strategies, evaluate each factor and combine them
+            const factorValues = [];
+            const validFactors = [];
+            
+            for (const factor of factors) {
+                const value = this.evaluateValue(match, factor);
+                if (value !== null && !isNaN(value)) {
+                    factorValues.push(value);
+                    validFactors.push(factor);
+                }
+            }
+            
+            // Require at least one valid factor value
+            if (factorValues.length === 0) {
+                return null;
+            }
+            
+            // Combine factor values using weighted average
+            // This ensures all factors contribute to the final decision
+            let combinedValue;
+            
+            if (factorValues.length === 1) {
+                combinedValue = factorValues[0];
+            } else {
+                // For multiple factors, use a less aggressive combination approach
+                const processedValues = factorValues.map(value => {
+                    // Ensure value is a number
+                    const numValue = parseFloat(value);
+                    if (isNaN(numValue)) return 0;
+                    
+                    // Less aggressive normalization - preserve more of the original scale
+                    const absValue = Math.abs(numValue);
+                    if (absValue > 100) {
+                        // Only normalize extremely large values
+                        return (numValue / absValue) * 10; // Scale to [-10, 10] range
+                    } else if (absValue > 10) {
+                        // Moderate scaling for large values
+                        return numValue * 0.5; // Scale down by half
+                    }
+                    return numValue; // Keep smaller values as-is
+                });
+                
+                // Take the average of processed factors
+                combinedValue = processedValues.reduce((sum, val) => sum + val, 0) / processedValues.length;
+            }
+            
+            // Ensure we return a valid number
+            if (isNaN(combinedValue) || !isFinite(combinedValue)) {
+                return null;
+            }
+            
+            return combinedValue;
+        } catch (error) {
+            console.log(`Error evaluating combined factors: ${error.message}`);
+            return null;
+        }
+    }
+
     evaluateStrategyThreshold(factorValue, strategy) {
         // Use dynamic thresholding based on the strategy's selection criteria
         if (strategy.threshold && typeof strategy.threshold === 'number') {
@@ -619,16 +706,23 @@ class AHCombinationTester {
         // For strategies with negative correlation, select low values
         const correlation = parseFloat(strategy.correlation);
         
-        if (correlation > 0.1) {
-            // Positive correlation: select top 20% of values
-            return factorValue > 0.5; // This will need to be refined based on actual distribution
-        } else if (correlation < -0.1) {
-            // Negative correlation: select bottom 20% of values  
-            return factorValue < -0.5;
+        // Use more permissive thresholds to capture more strategies
+        const absCorrelation = Math.abs(correlation);
+        const absFactorValue = Math.abs(factorValue);
+        
+        if (absCorrelation > 0.02) {
+            // For any meaningful correlation, use direction-based selection
+            if (correlation > 0) {
+                // Positive correlation: select higher values (top 40%)
+                return factorValue > 0.1;
+            } else {
+                // Negative correlation: select lower values (bottom 40%)
+                return factorValue < -0.1;
+            }
         }
         
-        // For weak correlation, be more selective
-        return Math.abs(factorValue) > 1.0;
+        // For very weak correlations, select based on absolute value (more permissive)
+        return absFactorValue > 0.2;
     }
 
     createBettingRecord(match, strategy, factorValue) {
@@ -737,7 +831,7 @@ class AHCombinationTester {
                 betOdds: selectedOdds?.toFixed(2) || 'N/A',
                 profit: profit.toFixed(0),
                 outcome: outcome,
-                factorValue: factorValue.toFixed(4),
+                factorValue: (typeof factorValue === 'number' ? factorValue.toFixed(4) : factorValue.toString()),
                 factors: strategy.factors.join(', '),
                 // Additional debug info for Asian Handicap calculation
                 handicapDetails: handicapLines.length > 1 ? {

@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_finalDay_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(fbref.week === 38) ? 1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Only bet final day - known outcomes, dead rubbers predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.596Z"
+  },
+  "bettingRecords": []
+}

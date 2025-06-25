@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_recentFormDivergence_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(timeSeries.home.streaks.overall.form.length >= 3) && (timeSeries.away.streaks.overall.form.length >= 3) ? Math.abs((timeSeries.home.streaks.overall.form.winRate || 0) - (timeSeries.away.streaks.overall.form.winRate || 0)) : 0"
+    ],
+    "hypothesis": "OPPOSITE of Recent form divergence when both teams have reliable sample size predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.600Z"
+  },
+  "bettingRecords": []
+}

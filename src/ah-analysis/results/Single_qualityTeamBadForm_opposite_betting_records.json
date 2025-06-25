@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_qualityTeamBadForm_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 10 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.home.streaks.overall.form.length || 0) >= 3) ? 1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Quality home team (top 10) in recent bad form - potential overreaction predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.601Z"
+  },
+  "bettingRecords": []
+}

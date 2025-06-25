@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_awayAHWinRate_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "timeSeries.away.patterns.asianHandicapSuccess || 0"
+    ],
+    "hypothesis": "OPPOSITE of Away team Asian Handicap success rate this season predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.545Z"
+  },
+  "bettingRecords": []
+}

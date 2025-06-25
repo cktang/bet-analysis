@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_veryEarlyQuarterAway_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0829",
+    "factors": [
+      "(fbref.week <= 4 && match.asianHandicapOdds.homeHandicap === '0/-0.5') ? -1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Very early season (first 4 weeks) AWAY team +0/+0.5 - maximum uncertainty fade predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:39.874Z"
+  },
+  "bettingRecords": []
+}

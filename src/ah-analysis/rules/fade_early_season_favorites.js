@@ -1,6 +1,6 @@
 // Fade Early Season Home Favorites - Bet Away Teams
 // Based on discovery that early season home teams with 0/-0.5 lose badly
-// Strategy: Bet AWAY teams when they get +0/+0.5 handicap in early season
+// Strategy: Bet AWAY teams when they get +0/+0.5 handicap in early season uncertainty
 
 module.exports = {
     name: "Fade Early Season Home Favorites",
@@ -94,39 +94,6 @@ module.exports = {
             name: "fadeEarlyQuarterGoodAwayOdds",
             expression: "(fbref.week <= 8 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && match.asianHandicapOdds.awayOdds >= 1.9 && match.asianHandicapOdds.awayOdds <= 2.1) ? 1 : 0",
             description: "Fade early quarter favorites with optimal away odds range - sweet spot value",
-            betSide: "away"
-        },
-        
-        // === EXPLICIT OPPOSITE STRATEGIES ===
-        // Since betSide logic may not work, create explicit opposite strategies
-        
-        {
-            name: "avoidEarlyBalancedQuarterFavorites",
-            expression: "(fbref.week <= 8 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) > 0.1) ? 1 : 0",
-            description: "AVOID balanced odds early season quarter scenarios - bet when odds are NOT balanced",
-            betSide: "home"
-        },
-        {
-            name: "betEarlyUnbalancedQuarterFavorites",
-            expression: "(fbref.week <= 8 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && (match.asianHandicapOdds.homeOdds < 1.85 || match.asianHandicapOdds.awayOdds < 1.85)) ? 1 : 0",
-            description: "Bet early quarter favorites when one side has stronger odds (< 1.85) - clear favorite scenarios",
-            betSide: "home"
-        },
-        
-        // === TRUE OPPOSITE STRATEGY ===
-        // Since betSide logic doesn't work, create explicit AWAY betting strategy
-        
-        {
-            name: "trueOppositeBalancedQuarter",
-            expression: "(match.asianHandicapOdds.homeHandicap === '0/-0.5' && Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) <= 0.1) ? -1 : 0",
-            description: "TRUE OPPOSITE: Bet AWAY team in EXACT same balanced 0/-0.5 scenarios that lose -68.75% when betting home",
-            betSide: "away"
-        },
-        // True opposite of earlySeasonQuarterBalanced - same exact conditions, opposite bet side
-        {
-            name: "trueOppositeEarlySeasonQuarterBalanced",
-            expression: "(fbref.week <= 8 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) <= 0.1) ? 1 : 0",
-            description: "TRUE OPPOSITE: Bet AWAY in exact same early season balanced 0/-0.5 scenarios that lose -68.75% when betting home",
             betSide: "away"
         }
     ]

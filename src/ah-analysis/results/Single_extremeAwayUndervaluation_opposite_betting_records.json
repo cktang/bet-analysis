@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_extremeAwayUndervaluation_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(preMatch.enhanced.awayImpliedProb < 15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Market undervalues quality away team with good recent form predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.607Z"
+  },
+  "bettingRecords": []
+}

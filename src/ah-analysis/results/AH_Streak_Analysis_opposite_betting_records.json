@@ -1,0 +1,20 @@
+{
+  "strategy": {
+    "name": "AH_Streak_Analysis_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "timeSeries.home.streaks.asianHandicap.current.count || 0",
+      "timeSeries.away.streaks.asianHandicap.current.count || 0"
+    ],
+    "hypothesis": "OPPOSITE of Asian Handicap specific streaks predict continuation patterns",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.620Z"
+  },
+  "bettingRecords": []
+}

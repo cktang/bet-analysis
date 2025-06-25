@@ -1,0 +1,4204 @@
+{
+  "strategy": {
+    "name": "Single_businessEnd_opposite",
+    "roi": "-8.57%",
+    "correlation": "0.0171",
+    "factors": [
+      "(fbref.week >= 35) ? 1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Final stretch of season when every point matters predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 118,
+    "totalProfit": -1011,
+    "winRate": "44.1%",
+    "generatedAt": "2025-06-25T14:07:43.064Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leicester",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "56",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "West Ham",
+      "score": "1-3",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Aston Villa",
+      "score": "2-0",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "98",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "score": "0-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Chelsea",
+      "score": "0-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Arsenal",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "profit": "93",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brighton",
+      "score": "1-4",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.72",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Brentford",
+      "score": "1-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "41",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-20T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Wolves",
+      "score": "4-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.01",
+      "profit": "101",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.14",
+      "profit": "57",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-19T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Liverpool",
+      "score": "3-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-17T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Newcastle",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.09",
+      "profit": "54",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-17T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Fulham",
+      "score": "2-3",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.74",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-17T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Southampton",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-17T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Ipswich",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-17T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-16T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Tottenham",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "42",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-16T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester Utd",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Aston Villa",
+      "score": "0-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "score": "2-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "West Ham",
+      "score": "0-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.19",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Chelsea",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.94",
+      "profit": "94",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leicester",
+      "score": "2-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "score": "0-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Everton",
+      "score": "1-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Brentford",
+      "score": "0-1",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "2.07",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Manchester City",
+      "score": "0-0",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Brighton",
+      "score": "0-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.10",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-05T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "score": "1-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.77",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester Utd",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "39",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Newcastle",
+      "score": "1-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "45",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Liverpool",
+      "score": "3-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Tottenham",
+      "score": "1-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.65",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "50",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Ipswich",
+      "score": "2-2",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Southampton",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.02",
+      "profit": "102",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "score": "1-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Everton",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Manchester Utd",
+      "score": "0-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.04",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "score": "2-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.71",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Aston Villa",
+      "score": "5-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.74",
+      "profit": "74",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Wolves",
+      "score": "2-0",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Home",
+      "betOdds": "2.02",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Fulham",
+      "score": "2-4",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "West Ham",
+      "score": "3-1",
+      "handicapLine": "-3",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Tottenham",
+      "score": "0-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-13T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Liverpool",
+      "score": "3-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "score": "0-1",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "75",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-11T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Chelsea",
+      "score": "2-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Brentford",
+      "score": "1-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Sheff Utd",
+      "score": "1-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester City",
+      "score": "0-4",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Brighton",
+      "score": "1-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Burnley",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Luton",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.09",
+      "profit": "109",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Crystal Palace",
+      "score": "1-3",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.90",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-06T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester Utd",
+      "score": "4-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Aston Villa",
+      "score": "1-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham",
+      "score": "5-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "score": "4-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolves",
+      "score": "5-1",
+      "handicapLine": "-2.5/-3",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "96",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -2.5,
+          -3
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bournemouth",
+      "score": "3-0",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "97",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Fulham",
+      "score": "0-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Newcastle",
+      "score": "1-4",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-03T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-3",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Chelsea",
+      "score": "2-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Brighton",
+      "score": "3-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.76",
+      "profit": "76",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Brentford",
+      "score": "1-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.03",
+      "profit": "103",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Arsenal",
+      "score": "2-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Burnley",
+      "score": "1-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Sheff Utd",
+      "score": "5-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Luton",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "56",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.08",
+      "profit": "54",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester City",
+      "score": "1-0",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "97",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Newcastle",
+      "score": "1-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Bournemouth",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Tottenham",
+      "score": "1-4",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.09",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "78",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Fulham",
+      "score": "2-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Liverpool",
+      "score": "4-4",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "87",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 38"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-22T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Chelsea",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Arsenal",
+      "score": "1-0",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "79",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Leeds",
+      "score": "3-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-19T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Manchester Utd",
+      "score": "0-1",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "2.09",
+      "profit": "54",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-19T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Crystal Palace",
+      "score": "2-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-19T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Aston Villa",
+      "score": "1-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-19T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brentford",
+      "score": "1-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.16",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-19T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "41",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 37"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-15T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Liverpool",
+      "score": "0-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-13T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brighton",
+      "score": "0-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.83",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-13T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "West Ham",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "96",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-13T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Tottenham",
+      "score": "2-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "95",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-2",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Newcastle",
+      "score": "2-2",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Wolves",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Fulham",
+      "score": "0-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 36"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-08T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Everton",
+      "score": "1-5",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.68",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-08T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Southampton",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.19",
+      "profit": "60",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-07T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Leicester",
+      "score": "5-3",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "96",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-07T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Manchester Utd",
+      "score": "1-0",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.15",
+      "profit": "115",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-06T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brentford",
+      "score": "1-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-06T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Arsenal",
+      "score": "0-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Chelsea",
+      "score": "1-3",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.03",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Leeds",
+      "score": "2-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "profit": "50",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Aston Villa",
+      "score": "1-0",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 35) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 35"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 35) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0171",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

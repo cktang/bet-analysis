@@ -1,0 +1,3960 @@
+{
+  "strategy": {
+    "name": "Single_favoriteOnLosers_opposite",
+    "roi": "9.27%",
+    "correlation": "0.0587",
+    "factors": [
+      "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+    ],
+    "hypothesis": "OPPOSITE of Home team on losing streak but still market favorite predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 110,
+    "totalProfit": 1020,
+    "winRate": "58.2%",
+    "generatedAt": "2025-06-25T14:07:42.456Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leicester",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "56",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 81.97%, Away prob: 12.50%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 80.00%, Away prob: 14.29%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "score": "0-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 86.21%, Away prob: 10.26%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-16T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester Utd",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 69.44%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Everton",
+      "score": "1-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.24%, Away prob: 22.73%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "50",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.24%, Away prob: 25.97%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-05-02T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Ipswich",
+      "score": "2-2",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 70.42%, Away prob: 17.24%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-04-25T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "West Ham",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "49",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.98%, Away prob: 25.32%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-25T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Ipswich",
+      "score": "3-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 91.74%, Away prob: 7.14%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-18T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Southampton",
+      "score": "1-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.03%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-04-12T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 84.75%, Away prob: 10.53%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-11T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Leicester",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.97",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 85.47%, Away prob: 10.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-05T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.11",
+      "profit": "55",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 81.30%, Away prob: 12.90%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Tottenham",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "38",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 22.73%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-04-02T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Ipswich",
+      "score": "1-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 78.13%, Away prob: 13.79%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-03-14T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.98%, Away prob: 26.67%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-25T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Southampton",
+      "score": "4-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 92.59%, Away prob: 6.90%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-14T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Ipswich",
+      "score": "1-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 76.92%, Away prob: 14.93%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-02-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 84.75%, Away prob: 11.43%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-01-25T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Leicester",
+      "score": "1-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 72.99%, Away prob: 19.61%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2025-01-14T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "score": "2-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 71.43%, Away prob: 18.87%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-28T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Wolves",
+      "score": "2-2",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 65.79%, Away prob: 24.10%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-12-25T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.09",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 80.65%, Away prob: 13.79%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-13T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Leicester",
+      "score": "4-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "95",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 84.03%, Away prob: 11.43%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-09T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Wolves",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "48",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 61.73%, Away prob: 25.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-07T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.77",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 20.83%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brentford",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 65.36%, Away prob: 22.73%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "profit": "105",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 83.33%, Away prob: 11.43%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-29T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Ipswich",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "41",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.52%, Away prob: 21.98%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-23T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "score": "0-4",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.22",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 78.74%, Away prob: 15.38%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-11-22T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Crystal Palace",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 63.69%, Away prob: 22.47%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-10-26T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Newcastle",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "46",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 61.73%, Away prob: 25.97%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-10-25T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Ipswich",
+      "score": "4-3",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "2.08",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 65.36%, Away prob: 21.74%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-10-18T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "West Ham",
+      "score": "4-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 75.76%, Away prob: 17.24%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-09-30T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 70.92%, Away prob: 18.87%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-09-20T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 87.72%, Away prob: 10.26%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-09-20T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brentford",
+      "score": "3-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "88",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 75.19%, Away prob: 16.95%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-08-30T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "95",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.98%, Away prob: 24.10%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-05-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Burnley",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 84.75%, Away prob: 12.50%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Sheff Utd",
+      "score": "5-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.90",
+      "profit": "90",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 89.29%, Away prob: 9.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-05T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brentford",
+      "score": "3-3",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 67.11%, Away prob: 21.28%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-03-29T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "West Ham",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "48",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.98%, Away prob: 27.40%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-29T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Luton",
+      "score": "2-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 90.91%, Away prob: 9.09%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-03-09T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "40",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 65.79%, Away prob: 21.74%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-01T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Wolves",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.52%, Away prob: 23.26%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-03-01T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "score": "3-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "2.04",
+      "profit": "104",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 71.43%, Away prob: 18.87%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-19T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.61%, Away prob: 22.22%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-09T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Burnley",
+      "score": "3-1",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 92.59%, Away prob: 6.25%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-02-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Wolves",
+      "score": "2-4",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 71.94%, Away prob: 18.18%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-02-02T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Crystal Palace",
+      "score": "4-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.83",
+      "profit": "83",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.52%, Away prob: 20.41%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-01-30T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Sheff Utd",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "profit": "35",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 69.44%, Away prob: 16.95%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-01-20T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "46",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 62.50%, Away prob: 22.73%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-01-19T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Crystal Palace",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "92",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 87.72%, Away prob: 9.09%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-30T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Bournemouth",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "profit": "85",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 63.69%, Away prob: 25.97%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-29T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Burnley",
+      "score": "3-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 80.00%, Away prob: 13.33%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-27T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Crystal Palace",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "48",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 61.73%, Away prob: 23.26%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-25T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-3",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.76",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 79.37%, Away prob: 12.90%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-22T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Burnley",
+      "score": "0-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-16T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brighton",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 75.19%, Away prob: 16.67%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-15T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Sheff Utd",
+      "score": "2-0",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.83",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 90.91%, Away prob: 6.67%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-06T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Brentford",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "42",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.10%, Away prob: 22.47%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-02T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brighton",
+      "score": "3-2",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.03%, Away prob: 21.28%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-01T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Luton",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "79",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 72.99%, Away prob: 16.39%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-11-11T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "75",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 67.11%, Away prob: 20.20%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-11T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.02",
+      "profit": "51",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.24%, Away prob: 24.39%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-11-10T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Burnley",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 92.59%, Away prob: 6.25%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-28T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Fulham",
+      "score": "1-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.49%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Burnley",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.89",
+      "profit": "89",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 63.29%, Away prob: 21.74%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 79.37%, Away prob: 14.49%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-10-06T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Sheff Utd",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "80",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 72.46%, Away prob: 15.87%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-06T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Brentford",
+      "score": "2-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.49%, Away prob: 19.61%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-09-29T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Sheff Utd",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.94",
+      "profit": "94",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 75.19%, Away prob: 14.93%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-16T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Brentford",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "37",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 67.57%, Away prob: 19.61%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-09-15T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Luton",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "39",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 18.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Luton",
+      "score": "3-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "profit": "100",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 85.47%, Away prob: 9.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.22",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 80.00%, Away prob: 12.50%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-19T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Everton",
+      "score": "4-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "profit": "98",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.61%, Away prob: 24.39%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolves",
+      "score": "5-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "profit": "91",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 85.47%, Away prob: 10.81%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-20T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-2",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 90.09%, Away prob: 8.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-13T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "West Ham",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "96",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 61.35%, Away prob: 21.98%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Wolves",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 78.74%, Away prob: 13.33%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-05T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "profit": "50",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 61.35%, Away prob: 23.53%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-05-02T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "profit": "99",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.03%, Away prob: 19.23%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-28T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Wolves",
+      "score": "6-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "2.02",
+      "profit": "102",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 67.57%, Away prob: 19.61%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-05T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Brentford",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.03%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-04T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.83",
+      "profit": "42",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.52%, Away prob: 20.62%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-12T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Wolves",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.76",
+      "profit": "38",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 17.54%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Southampton",
+      "score": "0-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.90",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 86.21%, Away prob: 9.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "96",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 75.76%, Away prob: 13.33%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-03T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "West Ham",
+      "score": "4-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.94%, Away prob: 20.20%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-03-03T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leeds",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 70.42%, Away prob: 17.54%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-02-24T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Nottingham Forest",
+      "score": "4-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "78",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 66.23%, Away prob: 17.86%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-13T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Everton",
+      "score": "2-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "profit": "87",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 70.42%, Away prob: 17.54%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-02-12T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Aston Villa",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "profit": "48",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 84.03%, Away prob: 10.53%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-10T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "score": "1-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "2.04",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 74.07%, Away prob: 14.49%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-02-03T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Crystal Palace",
+      "score": "2-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 79.37%, Away prob: 11.76%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-01-19T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "score": "4-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "profit": "99",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 71.94%, Away prob: 18.87%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-27T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "2.14",
+      "profit": "57",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 81.97%, Away prob: 11.43%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-11-11T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Leeds",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "profit": "35",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 68.03%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-29T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Leeds",
+      "score": "1-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 87.72%, Away prob: 9.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-24T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-1",
+      "betSide": "Home",
+      "betOdds": "2.01",
+      "profit": "101",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 67.57%, Away prob: 18.52%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": null
+    },
+    {
+      "date": "2022-10-21T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Brighton",
+      "score": "3-1",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "profit": "39",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 89.29%, Away prob: 7.69%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-18T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Nottingham Forest",
+      "score": "0-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 78.74%, Away prob: 12.50%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-14T16:00:00.000Z",
+      "homeTeam": "Wolves",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "42",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.52%, Away prob: 20.00%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-10-03T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Nottingham Forest",
+      "score": "4-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "profit": "81",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 64.10%, Away prob: 22.99%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-09-02T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "40",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 65.79%, Away prob: 20.20%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-26T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leicester",
+      "score": "2-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 78.13%, Away prob: 12.90%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-26T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Bournemouth",
+      "score": "9-0",
+      "handicapLine": "-2/-2.5",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "82",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 90.91%, Away prob: 9.09%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -2,
+          -2.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-19T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Southampton",
+      "score": "1-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.83",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 63.69%, Away prob: 22.73%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-12T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Everton",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "profit": "46",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home prob: 60.98%, Away prob: 22.99%"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0587",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

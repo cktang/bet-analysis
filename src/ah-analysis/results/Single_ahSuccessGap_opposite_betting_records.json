@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_ahSuccessGap_opposite",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(timeSeries.home.cumulative.markets.asianHandicapWinRate || 0) - (timeSeries.away.cumulative.markets.asianHandicapWinRate || 0)"
+    ],
+    "hypothesis": "OPPOSITE of Asian Handicap success rate gap predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T14:07:43.597Z"
+  },
+  "bettingRecords": []
+}

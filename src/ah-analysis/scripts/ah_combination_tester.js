@@ -331,16 +331,36 @@ class AHCombinationTester {
         }
 
         const combinationsData = JSON.parse(fs.readFileSync(this.combinationsPath, 'utf8'));
-        const combinations = combinationsData.combinations;
+        const originalCombinations = combinationsData.combinations;
 
-        console.log(`Testing ${combinations.length} combinations...`);
+        // Generate opposite strategies for every combination
+        const allCombinations = [];
+        
+        originalCombinations.forEach(combination => {
+            // Add the original combination
+            allCombinations.push(combination);
+            
+            // Create opposite combination
+            const oppositeCombination = {
+                ...combination,
+                name: `${combination.name}_opposite`,
+                hypothesis: `OPPOSITE of ${combination.hypothesis}`,
+                type: `${combination.type}_opposite`,
+                isOpposite: true,
+                originalName: combination.name
+            };
+            
+            allCombinations.push(oppositeCombination);
+        });
+
+        console.log(`Testing ${allCombinations.length} combinations (${originalCombinations.length} original + ${originalCombinations.length} opposite)...`);
 
         const results = [];
         const startTime = Date.now();
 
-        combinations.forEach((combination, index) => {
+        allCombinations.forEach((combination, index) => {
             if (index % 10 === 0) {
-                console.log(`Testing combination ${index + 1}/${combinations.length}: ${combination.name}`);
+                console.log(`Testing combination ${index + 1}/${allCombinations.length}: ${combination.name}`);
             }
 
             const result = this.testCombination(combination);
@@ -413,7 +433,7 @@ class AHCombinationTester {
         const profitableResults = validResults.filter(r => r.profitability > 0.02);
 
         const summary = {
-            totalCombinations: combinations.length,
+            totalCombinations: allCombinations.length,
             validResults: validResults.length,
             significantCorrelations: significantResults.length,
             profitableStrategies: profitableResults.length,
@@ -555,7 +575,9 @@ class AHCombinationTester {
                 // Create enhanced strategy object with original properties
                 const enhancedStrategy = {
                     ...strategy,
-                    betSide: originalCombo?.betSide // Preserve betSide property
+                    betSide: originalCombo?.betSide, // Preserve betSide property
+                    isOpposite: strategy.isOpposite || false, // Preserve opposite flag
+                    originalName: strategy.originalName // Preserve original name reference
                 };
                 
                 const bettingRecords = this.generateStrategyBettingRecords(enhancedStrategy);
@@ -847,14 +869,31 @@ class AHCombinationTester {
             // Determine threshold information
             const thresholdInfo = this.getThresholdInfo(strategy, factorValue);
             
-            // Determine bet side - check for explicit betSide first, then fall back to correlation logic
+            // Determine bet side - handle opposite strategies and explicit betSide
             let betSide;
             
-            if (strategy.betSide) {
-                // Use explicitly specified bet side
+            if (strategy.isOpposite) {
+                // For opposite strategies, always determine what the original would bet, then flip it
+                // Use correlation-based logic to determine original bet side (ignore explicit betSide for opposites)
+                let originalBetSide;
+                const correlation = parseFloat(strategy.correlation);
+                
+                if (correlation > 0) {
+                    // Positive correlation: high factor value = bet Home
+                    originalBetSide = factorValue > 0 ? 'Home' : 'Away';
+                } else {
+                    // Negative correlation: high factor value = bet Away
+                    originalBetSide = factorValue > 0 ? 'Away' : 'Home';
+                }
+                
+                // Bet opposite of what original would bet
+                betSide = originalBetSide === 'Home' ? 'Away' : 'Home';
+                
+            } else if (strategy.betSide) {
+                // Use explicitly specified bet side for original strategies
                 betSide = strategy.betSide === 'away' ? 'Away' : 'Home';
             } else {
-                // Fall back to correlation-based logic
+                // Fall back to correlation-based logic for original strategies
                 const correlation = parseFloat(strategy.correlation);
                 
                 if (correlation > 0) {

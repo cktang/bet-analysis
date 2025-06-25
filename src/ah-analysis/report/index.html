@@ -244,78 +244,92 @@
                         </p>
                     </div>
                     
-                    <!-- Performance Metrics -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">📊 Performance</h4>
-                        <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">ROI:</span>
-                                <span class="text-green-400 font-bold">${strategy.roi}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Corr:</span>
-                                <span class="text-blue-400 font-medium">${strategy.correlation}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Bets:</span>
-                                <span class="text-white font-medium">${strategy.totalBets}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Win Rate:</span>
-                                <span class="text-white font-medium">${strategy.winRate}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Avg/Bet:</span>
-                                <span class="text-white font-medium">${strategy.avgProfitPerBet || 'N/A'}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Samples:</span>
-                                <span class="text-white font-medium">${strategy.validSamples || 'N/A'}</span>
-                            </div>
+                    <!-- Performance & Info Row -->
+                    <div class="grid grid-cols-2 gap-2 mb-2">
+                        <!-- Performance Metrics -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">📊 Performance</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">ROI</td>
+                                        <td class="py-1 text-green-400 font-bold">${strategy.roi}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Correlation</td>
+                                        <td class="py-1 text-blue-400 font-medium">${strategy.correlation}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Total Bets</td>
+                                        <td class="py-1 text-white font-medium">${strategy.totalBets}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Win Rate</td>
+                                        <td class="py-1 text-white font-medium">${strategy.winRate}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Avg Profit/Bet</td>
+                                        <td class="py-1 text-white font-medium">${strategy.avgProfitPerBet || 'N/A'}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium">Valid Samples</td>
+                                        <td class="py-1 text-white font-medium">${strategy.validSamples || 'N/A'}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Generation Info -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">🕒 Info</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Generated</td>
+                                        <td class="py-1 text-slate-300">${new Date(strategy.generatedAt).toLocaleDateString()}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium">Threshold</td>
+                                        <td class="py-1 text-slate-300">${strategy.threshold || 'Dynamic'}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 
-                    <!-- Strategy Definition -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
-                        <div class="mb-2">
-                            <span class="text-slate-400 text-xs">Type:</span>
-                            <p class="text-blue-400 text-xs mt-1 font-medium">${getStrategyType(strategy.name)}</p>
+                    <!-- Definition & Factors Row -->
+                    <div class="grid grid-cols-2 gap-2 mb-2">
+                        <!-- Strategy Definition -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">🎯 Definition</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium w-16">Type</td>
+                                        <td class="py-1 text-blue-400 font-medium">${getStrategyType(strategy.name)}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium align-top">Hypothesis</td>
+                                        <td class="py-1 text-slate-300 bg-slate-600 rounded px-2">${strategy.hypothesis}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium align-top">Name</td>
+                                        <td class="py-1 text-slate-300 font-mono bg-slate-600 rounded px-2 break-all" title="${strategy.name}">${toStartCase(strategy.name)}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="mb-2">
-                            <span class="text-slate-400 text-xs">Hypothesis:</span>
-                            <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${strategy.hypothesis}</p>
-                        </div>
-                        <div>
-                            <span class="text-slate-400 text-xs">Name:</span>
-                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all" title="${strategy.name}">${toStartCase(strategy.name)}</p>
-                        </div>
-                    </div>
 
-                    <!-- Factor Analysis -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">⚡ Factors (${strategy.factors.length})</h4>
-                        <div class="space-y-1">
-                            ${strategy.factors.map((factor, index) => `
-                                <div class="bg-slate-600 p-1 rounded">
-                                    <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
-                                    <code class="text-green-300 text-xs break-all">${factor}</code>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-
-                    <!-- Generation Info -->
-                    <div class="bg-slate-700 rounded p-2">
-                        <h4 class="text-white font-medium text-sm mb-1">🕒 Info</h4>
-                        <div class="space-y-1 text-xs">
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Generated:</span>
-                                <span class="text-slate-300">${new Date(strategy.generatedAt).toLocaleDateString()}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Threshold:</span>
-                                <span class="text-slate-300">${strategy.threshold || 'Dynamic'}</span>
+                        <!-- Factor Analysis -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">⚡ Factors (${strategy.factors.length})</h4>
+                            <div class="space-y-1 max-h-32 overflow-y-auto">
+                                ${strategy.factors.map((factor, index) => `
+                                    <div class="bg-slate-600 p-1 rounded">
+                                        <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
+                                        <code class="text-green-300 text-xs break-all">${factor}</code>
+                                    </div>
+                                `).join('')}
                             </div>
                         </div>
                     </div>
@@ -332,78 +346,92 @@
             // Strategy info section with comprehensive details
             const strategyInfo = `
                 <div class="p-2">
-                    <!-- Performance Metrics -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">📊 Performance</h4>
-                        <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">ROI:</span>
-                                <span class="text-green-400 font-bold">${data.strategy.roi}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Corr:</span>
-                                <span class="text-blue-400 font-medium">${data.strategy.correlation}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Bets:</span>
-                                <span class="text-white font-medium">${data.summary.totalBets}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Win Rate:</span>
-                                <span class="text-white font-medium">${data.summary.winRate}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Profit:</span>
-                                <span class="text-white font-medium">${data.summary.totalProfit}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Avg/Bet:</span>
-                                <span class="text-white font-medium">${summaryStrategy?.avgProfitPerBet || 'N/A'}</span>
-                            </div>
+                    <!-- Performance & Info Row -->
+                    <div class="grid grid-cols-2 gap-2 mb-2">
+                        <!-- Performance Metrics -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">📊 Performance</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">ROI</td>
+                                        <td class="py-1 text-green-400 font-bold">${data.strategy.roi}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Correlation</td>
+                                        <td class="py-1 text-blue-400 font-medium">${data.strategy.correlation}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Total Bets</td>
+                                        <td class="py-1 text-white font-medium">${data.summary.totalBets}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Win Rate</td>
+                                        <td class="py-1 text-white font-medium">${data.summary.winRate}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Total Profit</td>
+                                        <td class="py-1 text-white font-medium">${data.summary.totalProfit}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium">Avg Profit/Bet</td>
+                                        <td class="py-1 text-white font-medium">${summaryStrategy?.avgProfitPerBet || 'N/A'}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Generation Info -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">🕒 Info</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium">Generated</td>
+                                        <td class="py-1 text-slate-300">${new Date(data.summary.generatedAt).toLocaleDateString()}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium">Valid Samples</td>
+                                        <td class="py-1 text-slate-300">${summaryStrategy?.validSamples || 'N/A'}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 
-                    <!-- Strategy Definition -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
-                        <div class="mb-2">
-                            <span class="text-slate-400 text-xs">Type:</span>
-                            <p class="text-blue-400 text-xs mt-1 font-medium">${getStrategyType(data.strategy.name)}</p>
+                    <!-- Definition & Factors Row -->
+                    <div class="grid grid-cols-2 gap-2 mb-2">
+                        <!-- Strategy Definition -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">🎯 Definition</h4>
+                            <table class="w-full text-xs">
+                                <tbody>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium w-16">Type</td>
+                                        <td class="py-1 text-blue-400 font-medium">${getStrategyType(data.strategy.name)}</td>
+                                    </tr>
+                                    <tr class="border-b border-slate-600">
+                                        <td class="py-1 text-slate-400 font-medium align-top">Hypothesis</td>
+                                        <td class="py-1 text-slate-300 bg-slate-600 rounded px-2">${data.strategy.hypothesis}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1 text-slate-400 font-medium align-top">Name</td>
+                                        <td class="py-1 text-slate-300 font-mono bg-slate-600 rounded px-2 break-all" title="${data.strategy.name}">${toStartCase(data.strategy.name)}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="mb-2">
-                            <span class="text-slate-400 text-xs">Hypothesis:</span>
-                            <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${data.strategy.hypothesis}</p>
-                        </div>
-                        <div>
-                            <span class="text-slate-400 text-xs">Name:</span>
-                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all" title="${data.strategy.name}">${toStartCase(data.strategy.name)}</p>
-                        </div>
-                    </div>
 
-                    <!-- Factor Analysis -->
-                    <div class="bg-slate-700 rounded p-2 mb-2">
-                        <h4 class="text-white font-medium text-sm mb-1">⚡ Factors (${data.strategy.factors.length})</h4>
-                        <div class="space-y-1">
-                            ${data.strategy.factors.map((factor, index) => `
-                                <div class="bg-slate-600 p-1 rounded">
-                                    <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
-                                    <code class="text-green-300 text-xs break-all">${factor}</code>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-
-                    <!-- Generation Info -->
-                    <div class="bg-slate-700 rounded p-2">
-                        <h4 class="text-white font-medium text-sm mb-1">🕒 Info</h4>
-                        <div class="space-y-1 text-xs">
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Generated:</span>
-                                <span class="text-slate-300">${new Date(data.summary.generatedAt).toLocaleDateString()}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-400">Samples:</span>
-                                <span class="text-slate-300">${summaryStrategy?.validSamples || 'N/A'}</span>
+                        <!-- Factor Analysis -->
+                        <div class="bg-slate-700 rounded p-2">
+                            <h4 class="text-white font-medium text-sm mb-2">⚡ Factors (${data.strategy.factors.length})</h4>
+                            <div class="space-y-1 max-h-32 overflow-y-auto">
+                                ${data.strategy.factors.map((factor, index) => `
+                                    <div class="bg-slate-600 p-1 rounded">
+                                        <div class="text-xs text-slate-400">Factor ${index + 1}:</div>
+                                        <code class="text-green-300 text-xs break-all">${factor}</code>
+                                    </div>
+                                `).join('')}
                             </div>
                         </div>
                     </div>

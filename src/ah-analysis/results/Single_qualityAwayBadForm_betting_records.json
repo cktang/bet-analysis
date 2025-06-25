@@ -1,18 +1,19 @@
 {
   "strategy": {
     "name": "Single_qualityAwayBadForm",
-    "roi": "13.83%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
       "((timeSeries.away.leaguePosition || 20) <= 10 && (timeSeries.away.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.away.streaks.overall.form.length || 0) >= 3) ? 1 : 0"
     ],
-    "hypothesis": "Quality away team (top 10) in recent bad form - market overreaction predicts AH outcomes"
+    "hypothesis": "Quality away team (top 10) in recent bad form - market overreaction predicts AH outcomes",
+    "error": null
   },
   "summary": {
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.472Z"
+    "generatedAt": "2025-06-25T06:23:11.105Z"
   },
   "bettingRecords": []
 }

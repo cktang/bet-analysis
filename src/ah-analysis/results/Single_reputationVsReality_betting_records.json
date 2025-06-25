@@ -1,18 +1,19 @@
 {
   "strategy": {
     "name": "Single_reputationVsReality",
-    "roi": "16.82%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
-      "((timeSeries.away.leaguePosition || 20) <= 6 && enhanced.preMatch.marketEfficiency.awayImpliedProb > 0.7 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0"
+      "((timeSeries.away.leaguePosition || 20) <= 6 && preMatch.enhanced.awayImpliedProb > 70 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0"
     ],
-    "hypothesis": "Top 6 away team with poor goal difference but market still overvalues predicts AH outcomes"
+    "hypothesis": "Top 6 away team with poor goal difference but market still overvalues predicts AH outcomes",
+    "error": null
   },
   "summary": {
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.481Z"
+    "generatedAt": "2025-06-25T06:23:11.112Z"
   },
   "bettingRecords": []
 }

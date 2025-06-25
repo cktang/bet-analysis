@@ -38,12 +38,12 @@ module.exports = {
         // 3. EXTREME MARKET BIAS STRATEGIES (rescue market bias failures)
         {
             name: "extremeMarketOverconfidence",
-            expression: "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.75 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
+            expression: "(preMatch.enhanced.homeImpliedProb > 75 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
             description: "Market extremely confident in home team despite poor recent form"
         },
         {
             name: "extremeAwayUndervaluation",
-            expression: "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0", 
+            expression: "(preMatch.enhanced.awayImpliedProb < 15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0", 
             description: "Market undervalues quality away team with good recent form"
         },
         
@@ -62,12 +62,12 @@ module.exports = {
         // 5. REVERSE PSYCHOLOGY STRATEGIES (opposite of what failed)
         {
             name: "fallingGiantHome",
-            expression: "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
+            expression: "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && preMatch.enhanced.homeImpliedProb > 50) ? 1 : 0",
             description: "Good home team on losing streak but market still backs them - fade the favorite"
         },
         {
             name: "risingUnderdog",
-            expression: "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0",
+            expression: "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && preMatch.enhanced.awayImpliedProb < 25) ? 1 : 0",
             description: "Lower table away team on winning streak but market still undervalues"
         },
         
@@ -86,12 +86,12 @@ module.exports = {
         // 7. MARKET INEFFICIENCY EXPLOITATION
         {
             name: "marketLagIndicator",
-            expression: "((timeSeries.home.leaguePosition || 20) > 12 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6 && (timeSeries.home.streaks.overall.form.winRate || 0) < 0.3) ? 1 : 0",
+            expression: "((timeSeries.home.leaguePosition || 20) > 12 && preMatch.enhanced.homeImpliedProb > 60 && (timeSeries.home.streaks.overall.form.winRate || 0) < 0.3) ? 1 : 0",
             description: "Market slow to adjust to declining form of lower table home team"
         },
         {
             name: "reputationVsReality",
-            expression: "((timeSeries.away.leaguePosition || 20) <= 6 && enhanced.preMatch.marketEfficiency.awayImpliedProb > 0.7 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0",
+            expression: "((timeSeries.away.leaguePosition || 20) <= 6 && preMatch.enhanced.awayImpliedProb > 70 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0",
             description: "Top 6 away team with poor goal difference but market still overvalues"
         }
     ],
@@ -110,7 +110,7 @@ module.exports = {
             name: "Quality_Team_Overreaction",
             factors: [
                 "((timeSeries.home.leaguePosition || 20) <= 10 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.3 && (timeSeries.home.streaks.overall.form.length || 0) >= 3) ? 1 : 0",
-                "enhanced.preMatch.marketEfficiency.homeImpliedProb"
+                "preMatch.enhanced.homeImpliedProb"
             ],
             hypothesis: "Market overreacts to good teams in temporary bad form",
             type: "overreaction_fade"
@@ -118,8 +118,8 @@ module.exports = {
         {
             name: "Extreme_Market_Correction",
             factors: [
-                "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.75 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
-                "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0"
+                "(preMatch.enhanced.homeImpliedProb > 75 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
+                "(preMatch.enhanced.awayImpliedProb < 15 && (timeSeries.away.leaguePosition || 20) <= 8 && (timeSeries.away.streaks.overall.form.winRate || 0) > 0.5) ? 1 : 0"
             ],
             hypothesis: "Extreme market confidence creates value when contradicted by form",
             type: "market_overconfidence"
@@ -136,7 +136,7 @@ module.exports = {
         {
             name: "Falling_Giant_Fade",
             factors: [
-                "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
+                "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.longest.loss || 0) >= 3 && preMatch.enhanced.homeImpliedProb > 50) ? 1 : 0",
                 "match.homeWinOdds"
             ],
             hypothesis: "Fade quality home teams on losing streaks that market still backs",
@@ -145,7 +145,7 @@ module.exports = {
         {
             name: "Rising_Underdog_Back",
             factors: [
-                "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.25) ? 1 : 0",
+                "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && preMatch.enhanced.awayImpliedProb < 25) ? 1 : 0",
                 "match.awayWinOdds"
             ],
             hypothesis: "Back lower table away teams on winning streaks that market undervalues",
@@ -154,8 +154,8 @@ module.exports = {
         {
             name: "Market_Lag_Exploitation",
             factors: [
-                "((timeSeries.home.leaguePosition || 20) > 12 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6 && (timeSeries.home.streaks.overall.form.winRate || 0) < 0.3) ? 1 : 0",
-                "((timeSeries.away.leaguePosition || 20) <= 6 && enhanced.preMatch.marketEfficiency.awayImpliedProb > 0.7 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0"
+                "((timeSeries.home.leaguePosition || 20) > 12 && preMatch.enhanced.homeImpliedProb > 60 && (timeSeries.home.streaks.overall.form.winRate || 0) < 0.3) ? 1 : 0",
+                "((timeSeries.away.leaguePosition || 20) <= 6 && preMatch.enhanced.awayImpliedProb > 70 && (timeSeries.away.cumulative.overall.goalDifference || 0) < 0) ? 1 : 0"
             ],
             hypothesis: "Market slow to adjust to form changes - exploit the lag",
             type: "market_lag"

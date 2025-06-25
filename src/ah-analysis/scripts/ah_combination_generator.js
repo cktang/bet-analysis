@@ -12,8 +12,8 @@ class AHCombinationGenerator {
         
         this.baseFactors = {
             // NOTE: These are legacy factors - now using rule files for factor definitions
-            // Pre-match XG (if available as predictions)
-            xg: ['preMatch.fbref.homeXG', 'preMatch.fbref.awayXG'],
+            // Pre-match XG (using team averages from timeSeries)
+            xg: ['timeSeries.home.averages.overall.xGFor', 'timeSeries.away.averages.overall.xGFor'],
             
             // Historical performance from timeSeries (legitimate pre-match data)
             timeSeries: [
@@ -58,10 +58,10 @@ class AHCombinationGenerator {
         this.derivedFactors = {
             // NOTE: These are legacy derived factors - now using rule files
             // Only use legitimate pre-match derived factors
-            xgDifference: ['preMatch.fbref.homeXG - preMatch.fbref.awayXG'],
+            xgDifference: ['timeSeries.home.averages.overall.xGFor - timeSeries.away.averages.overall.xGFor'],
             oddsRatio: ['preMatch.match.homeWinOdds / preMatch.match.awayWinOdds'],
             marketBias: ['preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb'],
-            totalExpected: ['preMatch.fbref.homeXG + preMatch.fbref.awayXG'],
+            totalExpected: ['timeSeries.home.averages.overall.xGFor + timeSeries.away.averages.overall.xGFor'],
             handicapValue: ['parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.split("/")[0])'],
             
             // Historical derived factors (legitimate)

@@ -1,19 +1,20 @@
 {
   "strategy": {
     "name": "AH_Form_History",
-    "roi": "13.83%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
       "timeSeries.home.cumulative.markets.asianHandicapWinRate || 0",
       "timeSeries.away.cumulative.markets.asianHandicapWinRate || 0"
     ],
-    "hypothesis": "Team-specific Asian Handicap success rates predict future AH outcomes"
+    "hypothesis": "Team-specific Asian Handicap success rates predict future AH outcomes",
+    "error": null
   },
   "summary": {
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.490Z"
+    "generatedAt": "2025-06-25T06:23:11.120Z"
   },
   "bettingRecords": []
 }

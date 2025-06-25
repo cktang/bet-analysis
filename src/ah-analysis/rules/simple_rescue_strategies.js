@@ -38,12 +38,12 @@ module.exports = {
         // 3. EXTREME MARKET SCENARIOS (rescue market bias failures)
         {
             name: "extremeHomeFavorite",
-            expression: "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0",
+            expression: "(preMatch.enhanced.homeImpliedProb > 80) ? 1 : 0",
             description: "Extreme home favorites (>80% implied probability)"
         },
         {
             name: "extremeAwayUnderdog",
-            expression: "(enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.1) ? 1 : 0",
+            expression: "(preMatch.enhanced.awayImpliedProb < 10) ? 1 : 0",
             description: "Extreme away underdogs (<10% implied probability)"
         },
         
@@ -62,12 +62,12 @@ module.exports = {
         // 5. REVERSE PSYCHOLOGY FACTORS
         {
             name: "favoriteOnLosers",
-            expression: "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0",
+            expression: "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
             description: "Home team on losing streak but still market favorite"
         },
         {
             name: "underdogOnWinners",
-            expression: "((timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.3) ? 1 : 0",
+            expression: "((timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && preMatch.enhanced.awayImpliedProb < 30) ? 1 : 0",
             description: "Away team on winning streak but still underdog"
         },
         
@@ -98,7 +98,7 @@ module.exports = {
             name: "Form_Position_Divergence_Rescue",
             factors: [
                 "((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.home.streaks.overall.form.winRate || 1) < 0.4) ? 1 : 0",
-                "enhanced.preMatch.marketEfficiency.homeImpliedProb"
+                "preMatch.enhanced.homeImpliedProb"
             ],
             hypothesis: "Market overvalues good teams in bad form - rescue for form vs ability disconnect",
             type: "overreaction_rescue"
@@ -106,8 +106,8 @@ module.exports = {
         {
             name: "Extreme_Market_Rescue",
             factors: [
-                "(enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.8) ? 1 : 0",
-                "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0"
+                "(preMatch.enhanced.homeImpliedProb > 80) ? 1 : 0",
+                "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0"
             ],
             hypothesis: "Extreme market confidence in teams with poor form - rescue for market bias failures",
             type: "market_overconfidence"
@@ -124,8 +124,8 @@ module.exports = {
         {
             name: "Reverse_Psychology_Rescue", 
             factors: [
-                "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.6) ? 1 : 0",
-                "((timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && enhanced.preMatch.marketEfficiency.awayImpliedProb < 0.3) ? 1 : 0"
+                "((timeSeries.home.streaks.overall.current.type === 'L' || timeSeries.home.streaks.overall.current.type === 'loss') && preMatch.enhanced.homeImpliedProb > 60) ? 1 : 0",
+                "((timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && preMatch.enhanced.awayImpliedProb < 30) ? 1 : 0"
             ],
             hypothesis: "Market slow to adjust to recent form changes - rescue for momentum vs market disconnect",
             type: "contrarian_rescue"

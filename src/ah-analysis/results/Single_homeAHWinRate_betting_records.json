@@ -1,18 +1,19 @@
 {
   "strategy": {
     "name": "Single_homeAHWinRate",
-    "roi": "13.83%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
-      "timeSeries.home.cumulative.markets.asianHandicapWinRate || 0"
+      "timeSeries.home.patterns.asianHandicapSuccess || 0"
     ],
-    "hypothesis": "Home team Asian Handicap win rate this season predicts AH outcomes"
+    "hypothesis": "Home team Asian Handicap success rate this season predicts AH outcomes",
+    "error": null
   },
   "summary": {
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.460Z"
+    "generatedAt": "2025-06-25T06:23:11.095Z"
   },
   "bettingRecords": []
 }

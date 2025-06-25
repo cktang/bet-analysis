@@ -30,7 +30,7 @@ module.exports = {
         },
         {
             name: "Home_Advantage",
-            factors: ["fbref.attendance", "enhanced.preMatch.marketEfficiency.homeImpliedProb"],
+            factors: ["fbref.attendance", "preMatch.enhanced.homeImpliedProb"],
             hypothesis: "Higher attendance correlates with stronger home advantage",
             type: "contextual"
         },

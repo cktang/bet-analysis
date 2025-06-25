@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_homeValueBet",
+    "roi": "0.00%",
+    "correlation": "0.0588",
+    "factors": [
+      "preMatch.enhanced.homeValueBet"
+    ],
+    "hypothesis": "Home value bet indicator predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T06:23:07.934Z"
+  },
+  "bettingRecords": []
+}

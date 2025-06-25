@@ -119,7 +119,7 @@ module.exports = {
             name: "Position_Quality_Mismatch",
             factors: [
                 "Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))",
-                "enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"
+                "preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb"
             ],
             hypothesis: "Large position gaps vs market odds reveal mispricing",
             type: "quality_vs_market"

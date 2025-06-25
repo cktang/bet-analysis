@@ -1,19 +1,20 @@
 {
   "strategy": {
     "name": "AH_Streak_Analysis",
-    "roi": "14.11%",
+    "roi": "0.00%",
     "correlation": "0.0000",
     "factors": [
       "timeSeries.home.streaks.asianHandicap.current.count || 0",
       "timeSeries.away.streaks.asianHandicap.current.count || 0"
     ],
-    "hypothesis": "Asian Handicap specific streaks predict continuation patterns"
+    "hypothesis": "Asian Handicap specific streaks predict continuation patterns",
+    "error": null
   },
   "summary": {
     "totalBets": 0,
     "totalProfit": 0,
     "winRate": "0%",
-    "generatedAt": "2025-06-24T17:48:05.306Z"
+    "generatedAt": "2025-06-25T06:23:07.218Z"
   },
   "bettingRecords": []
 }

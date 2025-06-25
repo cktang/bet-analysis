@@ -150,13 +150,16 @@ class AHCombinationTester {
                         const handicapStr = ahOdds.homeHandicap;
                         let handicapLines = [];
                         
-                        if (handicapStr.includes('/')) {
+                        if (handicapStr && handicapStr.includes('/')) {
                             // Quarter handicap - split into two half-bets
                             const parts = handicapStr.split('/');
                             handicapLines = [parseFloat(parts[0]), parseFloat(parts[1])];
-                        } else {
+                        } else if (handicapStr) {
                             // Single handicap
                             handicapLines = [parseFloat(handicapStr)];
+                        } else {
+                            // No handicap data available, skip this match
+                            return results;
                         }
                         
                         // Calculate profits for home and away bets with proper split handling
@@ -342,6 +345,14 @@ class AHCombinationTester {
 
             const result = this.testCombination(combination);
             results.push(result);
+            
+            // Debug: Log errors for failed strategies to identify patterns
+            if (result.error && index < 20) {
+                console.log(`❌ ERROR in ${combination.name}:`);
+                console.log(`   Factors: ${combination.factors ? combination.factors.join(', ') : 'N/A'}`);
+                console.log(`   Error: ${result.error}`);
+                console.log('');
+            }
         });
 
         const endTime = Date.now();
@@ -369,12 +380,35 @@ class AHCombinationTester {
         const withErrors = results.filter(r => r.error).length;
         const withoutErrors = results.filter(r => !r.error).length;
         const withValidSamples = results.filter(r => r.validSamples >= 1).length;
+        
+        // Analyze error types
+        const errorTypes = {};
+        results.filter(r => r.error).forEach(r => {
+            const errorMsg = r.error.substring(0, 50) + '...';
+            errorTypes[errorMsg] = (errorTypes[errorMsg] || 0) + 1;
+        });
+        
         console.log(`\n📊 Strategy Analysis:`);
         console.log(`  Total tested: ${results.length}`);
         console.log(`  With errors: ${withErrors}`);
         console.log(`  Without errors: ${withoutErrors}`);
         console.log(`  With valid samples (≥1): ${withValidSamples}`);
         console.log(`  Included in valid results: ${validResults.length}`);
+        
+        console.log(`\n🔍 Error Types:`);
+        Object.entries(errorTypes).forEach(([error, count]) => {
+            console.log(`  ${count}x: ${error}`);
+        });
+        
+        // Show specific failing strategies
+        const failingStrategies = results.filter(r => r.error);
+        console.log(`\n❌ Failing Strategies (${failingStrategies.length} total):`);
+        failingStrategies.slice(0, 18).forEach((strategy, i) => {
+            console.log(`${i+1}. ${strategy.name}`);
+            console.log(`   Error: ${strategy.error}`);
+            console.log(`   Factors: ${Array.isArray(strategy.factors) ? strategy.factors.join(', ') : strategy.factors}`);
+            console.log('');
+        });
         const significantResults = validResults.filter(r => Math.abs(r.correlation) > 0.1);
         const profitableResults = validResults.filter(r => r.profitability > 0.02);
 
@@ -425,11 +459,11 @@ class AHCombinationTester {
         // Save consolidated summary to results directory
         this.saveConsolidatedResults(validResults, summary);
         
-        // Generate betting records for all valid strategies (not just profitable ones)
-        const bettingRecordsResults = this.generateBettingRecords(validResults);
+        // Generate betting records for ALL tested strategies (including 0-bet ones)
+        const bettingRecordsResults = this.generateBettingRecords(results);
         
-        // Update summary to only include strategies that actually have betting records
-        this.updateSummaryWithActualResults(bettingRecordsResults);
+        // Update summary to include ALL strategies regardless of betting record count
+        this.updateSummaryWithAllResults(bettingRecordsResults);
         
         console.log('\n=== RESULTS SUMMARY ===');
         console.log(`Total combinations tested: ${summary.totalCombinations}`);
@@ -498,14 +532,19 @@ class AHCombinationTester {
         console.log(`Consolidated summary saved to: ${this.summaryPath}`);
     }
 
-    generateBettingRecords(profitableStrategies) {
-        console.log(`\n📊 Generating betting records for ${profitableStrategies.length} profitable strategies...`);
+    generateBettingRecords(allStrategies) {
+        console.log(`\n📊 Generating betting records for ${allStrategies.length} strategies...`);
         
-        const successfulStrategies = [];
+        const processedStrategies = [];
         
-        profitableStrategies.forEach(strategy => {
+        allStrategies.forEach(strategy => {
             try {
-                const bettingRecords = this.generateStrategyBettingRecords(strategy);
+                // For strategies with errors, create empty betting records but still include them
+                let bettingRecords = [];
+                if (!strategy.error) {
+                    bettingRecords = this.generateStrategyBettingRecords(strategy);
+                }
+                
                 const cleanName = strategy.name.replace(/[^a-zA-Z0-9_]/g, '_');
                 const recordsPath = path.join(this.resultsDir, `${cleanName}_betting_records.json`);
                 
@@ -518,10 +557,11 @@ class AHCombinationTester {
                 const recordsData = {
                     strategy: {
                         name: strategy.name,
-                        roi: `${actualROI}%`, // ✅ Use actual ROI from betting records
-                        correlation: strategy.correlation.toFixed(4),
-                        factors: strategy.factors,
-                        hypothesis: strategy.hypothesis || ''
+                        roi: `${actualROI}%`,
+                        correlation: strategy.correlation ? strategy.correlation.toFixed(4) : '0.0000',
+                        factors: strategy.factors || [],
+                        hypothesis: strategy.hypothesis || '',
+                        error: strategy.error || null
                     },
                     summary: {
                         totalBets: bettingRecords.length,
@@ -535,61 +575,94 @@ class AHCombinationTester {
                 
                 fs.writeFileSync(recordsPath, JSON.stringify(recordsData, null, 2));
                 
-                // Only include strategies that actually have betting records
-                if (bettingRecords.length > 0) {
-                    successfulStrategies.push({
-                        ...strategy,
-                        actualBettingRecords: bettingRecords.length,
-                        actualTotalProfit: totalProfit,
-                        actualROI: parseFloat(actualROI),
-                        recordsData: recordsData
-                    });
-                }
+                // Include ALL strategies regardless of betting record count
+                processedStrategies.push({
+                    ...strategy,
+                    actualBettingRecords: bettingRecords.length,
+                    actualTotalProfit: totalProfit,
+                    actualROI: parseFloat(actualROI),
+                    recordsData: recordsData
+                });
                 
                 console.log(`✅ Saved ${bettingRecords.length} betting records for ${strategy.name}`);
             } catch (error) {
                 console.log(`❌ Error generating betting records for ${strategy.name}: ${error.message}`);
+                // Still include failed strategies in the results
+                const recordsData = {
+                    strategy: {
+                        name: strategy.name,
+                        roi: '0.00%',
+                        correlation: '0.0000',
+                        factors: strategy.factors || [],
+                        hypothesis: strategy.hypothesis || '',
+                        error: error.message
+                    },
+                    summary: {
+                        totalBets: 0,
+                        totalProfit: 0,
+                        winRate: '0%',
+                        generatedAt: new Date().toISOString()
+                    },
+                    bettingRecords: []
+                };
+                
+                processedStrategies.push({
+                    ...strategy,
+                    actualBettingRecords: 0,
+                    actualTotalProfit: 0,
+                    actualROI: 0,
+                    recordsData: recordsData,
+                    error: error.message
+                });
             }
         });
         
-        return successfulStrategies;
+        return processedStrategies;
     }
 
-    updateSummaryWithActualResults(successfulStrategies) {
-        console.log(`\n📋 Updating summary with ${successfulStrategies.length} strategies that have actual betting records...`);
+    updateSummaryWithAllResults(allProcessedStrategies) {
+        console.log(`\n📋 Updating summary with ALL ${allProcessedStrategies.length} strategies (including 0-bet strategies)...`);
         
-        // Prepare strategy data with actual results
-        const strategies = successfulStrategies.map(strategy => ({
+        // Prepare strategy data for ALL strategies
+        const strategies = allProcessedStrategies.map(strategy => ({
             name: strategy.name,
-            roi: `${strategy.actualROI.toFixed(2)}%`, // ✅ Use actual ROI from betting records
-            correlation: strategy.correlation.toFixed(4),
-            validSamples: strategy.validSamples,
-            factors: strategy.factors,
+            roi: `${strategy.actualROI.toFixed(2)}%`,
+            correlation: strategy.correlation ? strategy.correlation.toFixed(4) : '0.0000',
+            validSamples: strategy.validSamples || 0,
+            factors: strategy.factors || [],
             hypothesis: strategy.hypothesis || '',
             threshold: strategy.threshold || 'Dynamic',
-            winRate: strategy.recordsData.summary.winRate,
-            totalBets: strategy.actualBettingRecords,
+            winRate: strategy.recordsData ? strategy.recordsData.summary.winRate : '0%',
+            totalBets: strategy.actualBettingRecords || 0,
             avgProfitPerBet: strategy.actualBettingRecords > 0 ? 
-                (strategy.actualTotalProfit / strategy.actualBettingRecords).toFixed(2) : 0,
+                (strategy.actualTotalProfit / strategy.actualBettingRecords).toFixed(2) : '0.00',
             generatedAt: new Date().toISOString(),
-            detailsFile: `${strategy.name.replace(/[^a-zA-Z0-9_]/g, '_')}_betting_records.json`
+            detailsFile: `${strategy.name.replace(/[^a-zA-Z0-9_]/g, '_')}_betting_records.json`,
+            error: strategy.error || null,
+            status: strategy.error ? 'ERROR' : (strategy.actualBettingRecords > 0 ? 'ACTIVE' : 'NO_MATCHES')
         }));
 
-        // Sort by actual ROI (descending)
-        strategies.sort((a, b) => parseFloat(b.roi) - parseFloat(a.roi));
+        // Sort by actual ROI (descending), then by total bets (descending)
+        strategies.sort((a, b) => {
+            const roiDiff = parseFloat(b.roi) - parseFloat(a.roi);
+            if (roiDiff !== 0) return roiDiff;
+            return b.totalBets - a.totalBets;
+        });
 
-        // Update consolidated summary with only successful strategies
+        // Update consolidated summary with ALL strategies
         const consolidatedSummary = {
             metadata: {
                 generatedAt: new Date().toISOString(),
                 totalStrategies: strategies.length,
                 profitableStrategies: strategies.filter(s => parseFloat(s.roi) > 0).length,
+                strategiesWithBets: strategies.filter(s => s.totalBets > 0).length,
+                strategiesWithErrors: strategies.filter(s => s.error).length,
                 bestROI: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.roi))) : 0,
                 bestCorrelation: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.correlation))) : 0
             },
             summary: {
                 totalCombinations: strategies.length,
-                validResults: strategies.length,
+                validResults: strategies.filter(s => !s.error).length,
                 profitableStrategies: strategies.filter(s => parseFloat(s.roi) > 0).length,
                 bestROI: strategies.length > 0 ? Math.max(...strategies.map(s => parseFloat(s.roi))) : 0
             },
@@ -597,7 +670,7 @@ class AHCombinationTester {
         };
 
         fs.writeFileSync(this.summaryPath, JSON.stringify(consolidatedSummary, null, 2));
-        console.log(`✅ Updated summary with ${strategies.length} strategies that have actual betting records`);
+        console.log(`✅ Updated summary with ALL ${strategies.length} strategies (${consolidatedSummary.metadata.strategiesWithBets} with bets, ${consolidatedSummary.metadata.strategiesWithErrors} with errors)`);
     }
 
     generateStrategyBettingRecords(strategy) {
@@ -741,14 +814,23 @@ class AHCombinationTester {
             const handicapStr = ahOdds.homeHandicap;
             let handicapLines = [];
             
-            if (handicapStr.includes('/')) {
+            if (handicapStr && handicapStr.includes('/')) {
                 // Quarter handicap - split into two half-bets
                 const parts = handicapStr.split('/');
                 handicapLines = [parseFloat(parts[0]), parseFloat(parts[1])];
-            } else {
+            } else if (handicapStr) {
                 // Single handicap
                 handicapLines = [parseFloat(handicapStr)];
+            } else {
+                // No handicap data available, skip this betting record
+                return null;
             }
+            
+            // Calculate detailed factor breakdown
+            const factorBreakdown = this.calculateFactorBreakdown(match, strategy);
+            
+            // Determine threshold information
+            const thresholdInfo = this.getThresholdInfo(strategy, factorValue);
             
             // Determine bet side based on factor value and correlation
             const correlation = parseFloat(strategy.correlation);
@@ -831,8 +913,18 @@ class AHCombinationTester {
                 betOdds: selectedOdds?.toFixed(2) || 'N/A',
                 profit: profit.toFixed(0),
                 outcome: outcome,
+                
+                // Enhanced factor information
                 factorValue: (typeof factorValue === 'number' ? factorValue.toFixed(4) : factorValue.toString()),
-                factors: strategy.factors.join(', '),
+                factorCalculation: factorBreakdown,
+                threshold: thresholdInfo.threshold,
+                thresholdType: thresholdInfo.type,
+                thresholdMet: thresholdInfo.met,
+                
+                // Strategy details
+                factors: strategy.factors,
+                strategyCorrelation: strategy.correlation?.toFixed(4) || '0.0000',
+                
                 // Additional debug info for Asian Handicap calculation
                 handicapDetails: handicapLines.length > 1 ? {
                     splitLines: handicapLines,
@@ -843,6 +935,116 @@ class AHCombinationTester {
         } catch (error) {
             console.log(`Error creating betting record: ${error.message}`);
             return null;
+        }
+    }
+
+    calculateFactorBreakdown(match, strategy) {
+        try {
+            const breakdown = [];
+            
+            strategy.factors.forEach((factor, index) => {
+                const value = this.evaluateValue(match, factor);
+                breakdown.push({
+                    factorIndex: index + 1,
+                    expression: factor,
+                    calculatedValue: value !== null ? (typeof value === 'number' ? value.toFixed(4) : value.toString()) : 'NULL',
+                    explanation: this.explainFactorCalculation(match, factor, value)
+                });
+            });
+            
+            return breakdown;
+        } catch (error) {
+            return [{ error: `Factor calculation failed: ${error.message}` }];
+        }
+    }
+
+    explainFactorCalculation(match, factor, value) {
+        try {
+            // Provide context for common factor types
+            if (factor.includes('leaguePosition')) {
+                const homePos = match.timeSeries?.home?.leaguePosition || 20;
+                const awayPos = match.timeSeries?.away?.leaguePosition || 20;
+                return `Home position: ${homePos}, Away position: ${awayPos}`;
+            }
+            
+            if (factor.includes('handicap') && factor.includes('parseFloat')) {
+                const handicap = match.preMatch?.match?.asianHandicapOdds?.homeHandicap;
+                return `Handicap line: ${handicap}`;
+            }
+            
+            if (factor.includes('enhanced') && factor.includes('ImpliedProb')) {
+                const homeProb = match.preMatch?.enhanced?.homeImpliedProb;
+                const awayProb = match.preMatch?.enhanced?.awayImpliedProb;
+                return `Home prob: ${homeProb?.toFixed(2)}%, Away prob: ${awayProb?.toFixed(2)}%`;
+            }
+            
+            if (factor.includes('week')) {
+                const week = match.preMatch?.fbref?.week;
+                return `Season week: ${week}`;
+            }
+            
+            if (factor.includes('goalDifference')) {
+                const homeGD = match.timeSeries?.home?.cumulative?.overall?.goalDifference || 0;
+                const awayGD = match.timeSeries?.away?.cumulative?.overall?.goalDifference || 0;
+                return `Home GD: ${homeGD}, Away GD: ${awayGD}`;
+            }
+            
+            if (factor.includes('streak')) {
+                const homeStreak = match.timeSeries?.home?.streaks?.overall?.current?.count || 0;
+                const awayStreak = match.timeSeries?.away?.streaks?.overall?.current?.count || 0;
+                return `Home streak: ${homeStreak}, Away streak: ${awayStreak}`;
+            }
+            
+            return `Calculated value: ${value}`;
+        } catch (error) {
+            return `Calculation explanation unavailable: ${error.message}`;
+        }
+    }
+
+    getThresholdInfo(strategy, factorValue) {
+        try {
+            const correlation = parseFloat(strategy.correlation) || 0;
+            const absCorrelation = Math.abs(correlation);
+            const absFactorValue = Math.abs(factorValue);
+            
+            let threshold, type, met;
+            
+            if (strategy.threshold && typeof strategy.threshold === 'number') {
+                // Fixed threshold
+                threshold = strategy.threshold;
+                type = 'Fixed';
+                met = factorValue >= threshold;
+            } else if (absCorrelation > 0.02) {
+                // Correlation-based dynamic threshold
+                if (correlation > 0) {
+                    threshold = 0.1;
+                    type = 'Dynamic (Positive Correlation)';
+                    met = factorValue > threshold;
+                } else {
+                    threshold = -0.1;
+                    type = 'Dynamic (Negative Correlation)';
+                    met = factorValue < threshold;
+                }
+            } else {
+                // Weak correlation - absolute value threshold
+                threshold = 0.2;
+                type = 'Dynamic (Absolute Value)';
+                met = absFactorValue > threshold;
+            }
+            
+            return {
+                threshold: threshold,
+                type: type,
+                met: met,
+                explanation: `Factor value ${factorValue.toFixed(4)} ${met ? 'meets' : 'does not meet'} threshold ${threshold} (${type})`
+            };
+        } catch (error) {
+            return {
+                threshold: 'Unknown',
+                type: 'Error',
+                met: false,
+                explanation: `Threshold calculation failed: ${error.message}`
+            };
         }
     }
 }

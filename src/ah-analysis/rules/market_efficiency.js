@@ -7,40 +7,40 @@ module.exports = {
     factors: [
         {
             name: "homeImpliedProb",
-            expression: "enhanced.homeImpliedProb",
+            expression: "preMatch.enhanced.homeImpliedProb",
             description: "Implied probability of home win from odds"
         },
         {
             name: "drawImpliedProb",
-            expression: "enhanced.drawImpliedProb",
+            expression: "preMatch.enhanced.drawImpliedProb",
             description: "Implied probability of draw from odds"
         },
         {
             name: "awayImpliedProb",
-            expression: "enhanced.awayImpliedProb",
+            expression: "preMatch.enhanced.awayImpliedProb",
             description: "Implied probability of away win from odds"
         },
         {
             name: "marketEfficiency",
-            expression: "enhanced.marketEfficiency",
+            expression: "preMatch.enhanced.marketEfficiency",
             description: "Market efficiency metric"
         },
         {
             name: "homeValueBet",
-            expression: "enhanced.homeValueBet",
+            expression: "preMatch.enhanced.homeValueBet",
             description: "Home value bet indicator"
         }
     ],
     combinations: [
         {
             name: "Market_Bias",
-            factors: ["enhanced.homeImpliedProb - enhanced.awayImpliedProb"],
+            factors: ["preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb"],
             hypothesis: "Market bias toward home/away indicates value opportunities",
             type: "single"
         },
         {
             name: "Market_Efficiency_Analysis",
-            factors: ["enhanced.marketEfficiency", "enhanced.homeValueBet"],
+            factors: ["preMatch.enhanced.marketEfficiency", "preMatch.enhanced.homeValueBet"],
             hypothesis: "Market efficiency metrics reveal value opportunities",
             type: "market_analysis"
         },

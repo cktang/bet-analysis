@@ -30,17 +30,17 @@ module.exports = {
         // Positional momentum
         {
             name: "positionVsExpectation",
-            expression: "(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)",
+            expression: "(timeSeries.home.leaguePosition || 20) / (preMatch.enhanced.homeImpliedProb / 5)",
             description: "Home position vs market expectation ratio"
         },
         {
             name: "underperformingTeam",
-            expression: "((timeSeries.home.leaguePosition || 20) > 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb > 0.5) ? 1 : 0",
+            expression: "((timeSeries.home.leaguePosition || 20) > 10 && preMatch.enhanced.homeImpliedProb > 50) ? 1 : 0",
             description: "Team in lower half but market still favors them"
         },
         {
             name: "overperformingTeam",
-            expression: "((timeSeries.home.leaguePosition || 20) < 10 && enhanced.preMatch.marketEfficiency.homeImpliedProb < 0.3) ? 1 : 0",
+            expression: "((timeSeries.home.leaguePosition || 20) < 10 && preMatch.enhanced.homeImpliedProb < 30) ? 1 : 0",
             description: "Team in upper half but market doesn't favor them"
         },
         
@@ -101,7 +101,7 @@ module.exports = {
             name: "European_Stakes_Multiplier",
             factors: [
                 "Math.max(0, 7 - (timeSeries.home.leaguePosition || 20)) + Math.max(0, 7 - (timeSeries.away.leaguePosition || 20))",
-                "enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"
+                "preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb"
             ],
             hypothesis: "European pressure vs market expectations creates value opportunities",
             type: "ambition_vs_market"
@@ -110,7 +110,7 @@ module.exports = {
             name: "Giant_Killing_Value",
             factors: [
                 "((timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6) ? 1 : 0",
-                "enhanced.preMatch.marketEfficiency.awayImpliedProb"
+                "preMatch.enhanced.awayImpliedProb"
             ],
             hypothesis: "Lower teams vs top 6 create systematic handicap value",
             type: "david_vs_goliath"
@@ -127,7 +127,7 @@ module.exports = {
         {
             name: "Position_Performance_Divergence", 
             factors: [
-                "(timeSeries.home.leaguePosition || 20) / (enhanced.preMatch.marketEfficiency.homeImpliedProb * 20)",
+                "(timeSeries.home.leaguePosition || 20) / (preMatch.enhanced.homeImpliedProb / 5)",
                 "(timeSeries.home.cumulative.overall.goalDifference || 0) - (timeSeries.away.cumulative.overall.goalDifference || 0)"
             ],
             hypothesis: "Teams whose position doesn't match market expectation offer value",
@@ -156,7 +156,7 @@ module.exports = {
             name: "Quality_Expectation_Gap",
             factors: [
                 "Math.abs((timeSeries.away.leaguePosition || 20) - (timeSeries.home.leaguePosition || 20))",
-                "Math.abs(enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb)",
+                "Math.abs(preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb)",
                 "match.asianHandicapOdds.homeOdds / match.asianHandicapOdds.awayOdds"
             ],
             hypothesis: "Large quality gaps should align with market pricing and handicap lines",

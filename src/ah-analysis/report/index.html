@@ -37,7 +37,7 @@
         </div>
 
         <!-- Main Content -->
-        <div class="flex-1 grid grid-cols-1 lg:grid-cols-2 h-full overflow-hidden">
+        <div class="flex-1 grid grid-cols-1 lg:grid-cols-[30%_70%] h-full overflow-hidden">
             <!-- Left Panel - Strategy List -->
             <div class="bg-slate-800 border-r border-slate-700 flex flex-col overflow-hidden">
                 <div class="px-3 py-2 bg-slate-700 border-b border-slate-600 flex-shrink-0">
@@ -364,6 +364,10 @@
                                     <th class="text-left py-1 px-1">Odds</th>
                                     <th class="text-left py-1 px-1">Result</th>
                                     <th class="text-right py-1 px-1">P/L</th>
+                                    <th class="text-left py-1 px-1">Factor</th>
+                                    <th class="text-left py-1 px-1">Calculation</th>
+                                    <th class="text-left py-1 px-1">Threshold</th>
+                                    <th class="text-left py-1 px-1">Met</th>
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-slate-700">
@@ -375,6 +379,18 @@
                                                         record.outcome === 'Loss' ? 'text-red-400' : 
                                                         record.outcome.includes('Half') ? 'text-yellow-400' : 'text-slate-400';
                                     
+                                    // Factor calculation display
+                                    const factorCalc = record.factorCalculation ? 
+                                        record.factorCalculation.map(calc => 
+                                            `<div class="text-xs bg-slate-600 p-1 rounded mb-1">
+                                                <div class="text-green-300">${calc.expression}</div>
+                                                <div class="text-slate-300">Val: ${calc.calculatedValue}</div>
+                                                <div class="text-slate-400">${calc.explanation}</div>
+                                            </div>`
+                                        ).join('') : 'N/A';
+                                    
+                                    const thresholdColor = record.thresholdMet ? 'text-green-400' : 'text-red-400';
+                                    
                                     return `
                                         <tr class="hover:bg-slate-700/50">
                                             <td class="py-1 px-1 text-slate-300">${new Date(record.date).toLocaleDateString('en-US', {month:'short', day:'numeric'})}</td>
@@ -385,6 +401,10 @@
                                             <td class="py-1 px-1 text-slate-300">${record.betOdds}</td>
                                             <td class="py-1 px-1 ${outcomeColor}">${record.outcome.charAt(0)}</td>
                                             <td class="py-1 px-1 text-right ${profitColor} font-medium">${record.profit}</td>
+                                            <td class="py-1 px-1 text-yellow-400 font-medium">${record.factorValue}</td>
+                                            <td class="py-1 px-1 max-w-48 overflow-hidden">${factorCalc}</td>
+                                            <td class="py-1 px-1 text-slate-300 text-xs">${record.threshold}<br><span class="text-slate-500">${record.thresholdType}</span></td>
+                                            <td class="py-1 px-1 ${thresholdColor} font-bold">${record.thresholdMet ? '✓' : '✗'}</td>
                                         </tr>
                                     `;
                                 }).join('')}

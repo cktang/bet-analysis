@@ -105,7 +105,7 @@ module.exports = {
             name: "AH_Momentum_vs_Market",
             factors: [
                 "(timeSeries.home.cumulative.markets.asianHandicapWinRate || 0) - (timeSeries.away.cumulative.markets.asianHandicapWinRate || 0)",
-                "enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb"
+                "preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb"
             ],
             hypothesis: "Asian Handicap form vs market expectations reveals value",
             type: "market_vs_form"
@@ -133,7 +133,7 @@ module.exports = {
             name: "Streak_vs_Quality",
             factors: [
                 "Math.abs((timeSeries.home.streaks.overall.current.count || 0) - (timeSeries.away.streaks.overall.current.count || 0))",
-                "Math.abs(enhanced.preMatch.marketEfficiency.homeImpliedProb - enhanced.preMatch.marketEfficiency.awayImpliedProb)"
+                "Math.abs(preMatch.enhanced.homeImpliedProb - preMatch.enhanced.awayImpliedProb)"
             ],
             hypothesis: "Streak momentum vs underlying quality creates mispricing",
             type: "momentum_vs_ability"

@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_earlySeasonQuarterAwayAdvantage",
+    "roi": "0.00%",
+    "correlation": "0.0866",
+    "factors": [
+      "(fbref.week <= 6 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && match.asianHandicapOdds.awayOdds >= 1.85) ? -1 : 0"
+    ],
+    "hypothesis": "Early season AWAY team +0/+0.5 with decent away odds - value underdogs predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:43.730Z"
+  },
+  "bettingRecords": []
+}

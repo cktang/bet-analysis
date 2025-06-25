@@ -535,15 +535,30 @@ class AHCombinationTester {
     generateBettingRecords(allStrategies) {
         console.log(`\n📊 Generating betting records for ${allStrategies.length} strategies...`);
         
+        // Load combinations again to get additional properties like betSide
+        const combinationsData = JSON.parse(fs.readFileSync(this.combinationsPath, 'utf8'));
+        const originalCombinations = combinationsData.combinations;
+        
+        // Create a lookup map for original combinations by name
+        const combinationLookup = {};
+        originalCombinations.forEach(combo => {
+            combinationLookup[combo.name] = combo;
+        });
+
         const processedStrategies = [];
         
         allStrategies.forEach(strategy => {
             try {
-                // For strategies with errors, create empty betting records but still include them
-                let bettingRecords = [];
-                if (!strategy.error) {
-                    bettingRecords = this.generateStrategyBettingRecords(strategy);
-                }
+                // Get the original combination to preserve properties like betSide
+                const originalCombo = combinationLookup[strategy.name];
+                
+                // Create enhanced strategy object with original properties
+                const enhancedStrategy = {
+                    ...strategy,
+                    betSide: originalCombo?.betSide // Preserve betSide property
+                };
+                
+                const bettingRecords = this.generateStrategyBettingRecords(enhancedStrategy);
                 
                 const cleanName = strategy.name.replace(/[^a-zA-Z0-9_]/g, '_');
                 const recordsPath = path.join(this.resultsDir, `${cleanName}_betting_records.json`);
@@ -832,16 +847,23 @@ class AHCombinationTester {
             // Determine threshold information
             const thresholdInfo = this.getThresholdInfo(strategy, factorValue);
             
-            // Determine bet side based on factor value and correlation
-            const correlation = parseFloat(strategy.correlation);
+            // Determine bet side - check for explicit betSide first, then fall back to correlation logic
             let betSide;
             
-            if (correlation > 0) {
-                // Positive correlation: high factor value = bet Home
-                betSide = factorValue > 0 ? 'Home' : 'Away';
+            if (strategy.betSide) {
+                // Use explicitly specified bet side
+                betSide = strategy.betSide === 'away' ? 'Away' : 'Home';
             } else {
-                // Negative correlation: high factor value = bet Away
-                betSide = factorValue > 0 ? 'Away' : 'Home';
+                // Fall back to correlation-based logic
+                const correlation = parseFloat(strategy.correlation);
+                
+                if (correlation > 0) {
+                    // Positive correlation: high factor value = bet Home
+                    betSide = factorValue > 0 ? 'Home' : 'Away';
+                } else {
+                    // Negative correlation: high factor value = bet Away
+                    betSide = factorValue > 0 ? 'Away' : 'Home';
+                }
             }
             
             const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;

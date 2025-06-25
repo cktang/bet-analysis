@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_allSeasonZeroHalfAway",
+    "roi": "0.00%",
+    "correlation": "0.0473",
+    "factors": [
+      "(match.asianHandicapOdds.homeHandicap === '0/-0.5') ? -1 : 0"
+    ],
+    "hypothesis": "All season AWAY team +0/+0.5 handicap - fade HKJC quarter favorites year-round predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:44.168Z"
+  },
+  "bettingRecords": []
+}

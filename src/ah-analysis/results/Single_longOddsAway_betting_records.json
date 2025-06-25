@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_longOddsAway",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(match.asianHandicapOdds.awayOdds >= 2.5) ? 1 : 0"
+    ],
+    "hypothesis": "Bet when away long odds - contrarian value predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:50.301Z"
+  },
+  "bettingRecords": []
+}

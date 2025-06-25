@@ -137,14 +137,21 @@ class RuleLoader {
         
         // Generate single-factor combinations
         this.getEnabledFactors().forEach(factor => {
-            combinations.push({
+            const combination = {
                 name: `Single_${factor.name}`,
                 factors: [factor.expression],
                 type: 'single',
                 hypothesis: `${factor.description} predicts AH outcomes`,
                 ruleName: factor.ruleName,
                 ruleFile: factor.ruleFile
-            });
+            };
+            
+            // Preserve betSide property if specified
+            if (factor.betSide) {
+                combination.betSide = factor.betSide;
+            }
+            
+            combinations.push(combination);
         });
 
         // Generate cross-rule combinations (factors from different rules)

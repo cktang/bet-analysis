@@ -42,7 +42,7 @@
             <div class="bg-slate-800 border-r border-slate-700 flex flex-col overflow-hidden">
                 <div class="px-3 py-2 bg-slate-700 border-b border-slate-600 flex-shrink-0">
                     <h2 class="text-lg font-semibold text-white">Strategies</h2>
-                    <p class="text-slate-300 text-xs">Sorted by ROI • Click to view details</p>
+                    <p class="text-slate-300 text-xs">Sorted by ROI • Strategy type shown in blue • Click to view details</p>
                 </div>
                 <div class="flex-1 overflow-y-auto">
                     <div id="strategyList" class="divide-y divide-slate-700">
@@ -68,6 +68,47 @@
 
     <script>
         let strategiesData = null;
+
+        // Function to determine strategy type from name
+        function getStrategyType(name) {
+            if (name.startsWith('Single_')) {
+                return 'Single Factor';
+            } else if (name.startsWith('Adaptive_Adaptive_')) {
+                return 'Double Adaptive';
+            } else if (name.startsWith('Adaptive_CrossRule_')) {
+                return 'Adaptive Cross-Rule';
+            } else if (name.startsWith('Adaptive_Single_')) {
+                return 'Adaptive Single';
+            } else if (name.startsWith('Adaptive_Ratio_')) {
+                return 'Adaptive Ratio';
+            } else if (name.startsWith('CrossRule_')) {
+                return 'Cross-Rule';
+            } else if (name.startsWith('Heavy_')) {
+                return 'Heavy Favorite/Underdog';
+            } else if (name.startsWith('Late_Season_')) {
+                return 'Late Season Timing';
+            } else if (name.startsWith('Early_Season_')) {
+                return 'Early Season Timing';
+            } else if (name.startsWith('Mid_Season_')) {
+                return 'Mid Season Timing';
+            } else if (name.includes('_Momentum_')) {
+                return 'Momentum Strategy';
+            } else if (name.includes('_Position_')) {
+                return 'Position Strategy';
+            } else if (name.includes('_Market_')) {
+                return 'Market Efficiency';
+            } else if (name.includes('_AH_')) {
+                return 'AH Specific';
+            } else if (name.includes('Goal_Difference')) {
+                return 'Goal Difference';
+            } else if (name.includes('Form_')) {
+                return 'Form Strategy';
+            } else if (name.includes('Rescue')) {
+                return 'Rescue Strategy';
+            } else {
+                return 'Complex Strategy';
+            }
+        }
 
         // Load and display strategies
         async function loadStrategies() {
@@ -119,10 +160,14 @@
                             <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight">${strategy.name}</h3>
                             <span class="text-xs ${roiColor} font-bold whitespace-nowrap">${strategy.roi}</span>
                         </div>
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="text-xs text-blue-400 font-medium">${getStrategyType(strategy.name)}</span>
+                            <span class="text-xs text-slate-500">${strategy.totalBets} bets</span>
+                        </div>
                         <div class="grid grid-cols-3 gap-1 text-xs text-slate-400 mb-1">
                             <div>C: ${strategy.correlation}</div>
                             <div>W: ${strategy.winRate}</div>
-                            <div>B: ${strategy.totalBets}</div>
+                            <div>Factors: ${strategy.factors.length}</div>
                         </div>
                         <div class="text-xs text-slate-500 truncate leading-tight">
                             ${strategy.hypothesis}
@@ -224,6 +269,10 @@
                     <div class="bg-slate-700 rounded p-2 mb-2">
                         <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
                         <div class="mb-2">
+                            <span class="text-slate-400 text-xs">Type:</span>
+                            <p class="text-blue-400 text-xs mt-1 font-medium">${getStrategyType(strategy.name)}</p>
+                        </div>
+                        <div class="mb-2">
                             <span class="text-slate-400 text-xs">Hypothesis:</span>
                             <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${strategy.hypothesis}</p>
                         </div>
@@ -307,6 +356,10 @@
                     <!-- Strategy Definition -->
                     <div class="bg-slate-700 rounded p-2 mb-2">
                         <h4 class="text-white font-medium text-sm mb-1">🎯 Definition</h4>
+                        <div class="mb-2">
+                            <span class="text-slate-400 text-xs">Type:</span>
+                            <p class="text-blue-400 text-xs mt-1 font-medium">${getStrategyType(data.strategy.name)}</p>
+                        </div>
                         <div class="mb-2">
                             <span class="text-slate-400 text-xs">Hypothesis:</span>
                             <p class="text-slate-300 text-xs mt-1 bg-slate-600 p-1 rounded">${data.strategy.hypothesis}</p>

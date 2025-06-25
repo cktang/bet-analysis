@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_exactMinusThreeQuarter",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "(match.asianHandicapOdds.homeHandicap === '-0.75') ? 1 : 0"
+    ],
+    "hypothesis": "Only bet exact -0.75 handicap - specific line bias predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:50.283Z"
+  },
+  "bettingRecords": []
+}

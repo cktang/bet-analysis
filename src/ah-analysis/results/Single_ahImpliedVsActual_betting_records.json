@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_ahImpliedVsActual",
+    "roi": "0.00%",
+    "correlation": "0.0081",
+    "factors": [
+      "((1/match.asianHandicapOdds.homeOdds + 1/match.asianHandicapOdds.awayOdds) - (1/match.homeWinOdds + 1/match.awayWinOdds + 1/match.drawOdds))"
+    ],
+    "hypothesis": "AH market efficiency vs 1X2 - negative means AH offers better value predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:43.987Z"
+  },
+  "bettingRecords": []
+}

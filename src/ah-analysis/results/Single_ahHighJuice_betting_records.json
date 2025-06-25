@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_ahHighJuice",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "((1/match.asianHandicapOdds.homeOdds + 1/match.asianHandicapOdds.awayOdds) > 1.08) ? 1 : 0"
+    ],
+    "hypothesis": "High juice AH markets (>8% margin) - bookmaker confident predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:44.276Z"
+  },
+  "bettingRecords": []
+}

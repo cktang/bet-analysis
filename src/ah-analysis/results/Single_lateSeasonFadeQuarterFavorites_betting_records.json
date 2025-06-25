@@ -1,0 +1,19 @@
+{
+  "strategy": {
+    "name": "Single_lateSeasonFadeQuarterFavorites",
+    "roi": "0.00%",
+    "correlation": "0.0277",
+    "factors": [
+      "(fbref.week >= 30 && match.asianHandicapOdds.homeHandicap === '0/-0.5') ? -1 : 0"
+    ],
+    "hypothesis": "Late season fade quarter favorites - pressure situations favor underdogs predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T09:30:43.942Z"
+  },
+  "bettingRecords": []
+}

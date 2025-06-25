@@ -468,7 +468,7 @@
                                     return `
                                         <tr class="hover:bg-slate-700/50">
                                             <td class="py-1 px-1 text-slate-300">${new Date(record.date).toLocaleDateString('en-US', {month:'short', day:'numeric'})}</td>
-                                            <td class="py-1 px-1 text-slate-300 truncate max-w-32" title="${record.homeTeam} vs ${record.awayTeam}">${record.homeTeam.substring(0,3)} vs ${record.awayTeam.substring(0,3)}</td>
+                                            <td class="py-1 px-1 text-slate-300 text-xs" title="${record.homeTeam} vs ${record.awayTeam}">${record.homeTeam} vs ${record.awayTeam}</td>
                                             <td class="py-1 px-1 text-slate-300">${record.score}</td>
                                             <td class="py-1 px-1 text-slate-300">${record.handicapLine}</td>
                                             <td class="py-1 px-1 text-slate-300">${record.betSide.charAt(0)}</td>

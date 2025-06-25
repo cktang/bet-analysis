@@ -439,10 +439,10 @@
             `;
 
             // Betting records table
-            const records = data.bettingRecords.slice(0, 100); // Show more records in compact view
+            const records = data.bettingRecords; // Show all records
             const recordsTable = `
                 <div class="p-2 border-t border-slate-700">
-                    <h4 class="text-white font-medium text-sm mb-2">📈 Records (${records.length}/${data.bettingRecords.length})</h4>
+                    <h4 class="text-white font-medium text-sm mb-2">📈 Records (${records.length})</h4>
                     <div class="overflow-x-auto">
                         <table class="w-full text-xs">
                             <thead>
@@ -495,7 +495,7 @@
                                     
                                     return `
                                         <tr class="hover:bg-slate-700/50">
-                                            <td class="py-1 px-1 text-slate-300">${new Date(record.date).toLocaleDateString('en-US', {month:'short', day:'numeric'})}</td>
+                                            <td class="py-1 px-1 text-slate-300">${new Date(record.date).toLocaleDateString('en-US', {year:'2-digit', month:'short', day:'numeric'})}</td>
                                             <td class="py-1 px-1 text-slate-300 text-xs" title="${record.homeTeam} vs ${record.awayTeam}">${record.homeTeam} vs ${record.awayTeam}</td>
                                             <td class="py-1 px-1 text-slate-300">${record.score}</td>
                                             <td class="py-1 px-1 text-slate-300">${record.handicapLine}</td>

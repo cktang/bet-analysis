@@ -69,6 +69,16 @@
     <script>
         let strategiesData = null;
 
+        // Function to convert strategy names to Start Case (Title Case)
+        function toStartCase(str) {
+            return str
+                .replace(/([a-z])([A-Z])/g, '$1 $2') // Add space before capital letters
+                .replace(/_/g, ' ') // Replace underscores with spaces
+                .replace(/\b\w/g, l => l.toUpperCase()) // Capitalize first letter of each word
+                .replace(/\s+/g, ' ') // Remove extra spaces
+                .trim();
+        }
+
         // Function to determine strategy type from name
         function getStrategyType(name) {
             if (name.startsWith('Single_')) {
@@ -157,7 +167,7 @@
                     <div class="strategy-item px-3 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 border-l-2 border-transparent hover:border-l-blue-500" 
                          onclick="loadStrategyDetails('${strategy.name}', '${strategy.detailsFile}', this)">
                         <div class="flex justify-between items-center mb-1">
-                            <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight">${strategy.name}</h3>
+                            <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight" title="${strategy.name}">${toStartCase(strategy.name)}</h3>
                             <span class="text-xs ${roiColor} font-bold whitespace-nowrap">${strategy.roi}</span>
                         </div>
                         <div class="flex justify-between items-center mb-1">
@@ -180,7 +190,7 @@
         async function loadStrategyDetails(strategyName, detailsFile, clickedElement) {
             try {
                 // Update selected strategy display
-                document.getElementById('selectedStrategy').textContent = `Loading ${strategyName}...`;
+                document.getElementById('selectedStrategy').textContent = `Loading ${toStartCase(strategyName)}...`;
                 
                 // Highlight selected strategy
                 document.querySelectorAll('.strategy-item').forEach(item => {
@@ -198,7 +208,7 @@
                 if (!response.ok) {
                     if (response.status === 404) {
                         displayMissingFile(strategyName, detailsFile);
-                        document.getElementById('selectedStrategy').textContent = `${strategyName} (Details Missing)`;
+                        document.getElementById('selectedStrategy').textContent = `${toStartCase(strategyName)} (Details Missing)`;
                     } else {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
@@ -208,13 +218,13 @@
                 const data = await response.json();
                 
                 displayStrategyDetails(data);
-                document.getElementById('selectedStrategy').textContent = strategyName;
+                document.getElementById('selectedStrategy').textContent = toStartCase(strategyName);
                 
             } catch (error) {
                 console.error('Error loading strategy details:', error);
                 document.getElementById('strategyDetails').innerHTML = 
                     `<div class="p-4 text-red-400">Error loading strategy details: ${error.message}</div>`;
-                document.getElementById('selectedStrategy').textContent = `${strategyName} (Error)`;
+                document.getElementById('selectedStrategy').textContent = `${toStartCase(strategyName)} (Error)`;
             }
         }
 
@@ -278,7 +288,7 @@
                         </div>
                         <div>
                             <span class="text-slate-400 text-xs">Name:</span>
-                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all">${strategy.name}</p>
+                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all" title="${strategy.name}">${toStartCase(strategy.name)}</p>
                         </div>
                     </div>
 
@@ -366,7 +376,7 @@
                         </div>
                         <div>
                             <span class="text-slate-400 text-xs">Name:</span>
-                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all">${data.strategy.name}</p>
+                            <p class="text-slate-300 text-xs mt-1 font-mono bg-slate-600 p-1 rounded break-all" title="${data.strategy.name}">${toStartCase(data.strategy.name)}</p>
                         </div>
                     </div>
 

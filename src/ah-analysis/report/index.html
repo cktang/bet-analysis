@@ -444,13 +444,24 @@
                                     
                                     // Factor calculation display
                                     const factorCalc = record.factorCalculation ? 
-                                        record.factorCalculation.map(calc => 
-                                            `<div class="text-xs bg-slate-600 p-1 rounded mb-1">
-                                                <div class="text-green-300">${calc.expression}</div>
+                                        record.factorCalculation.map(calc => {
+                                            // Simplify the expression display
+                                            let simplifiedExpression = calc.expression;
+                                            if (simplifiedExpression.includes('?') && simplifiedExpression.includes(':')) {
+                                                // Extract the result part and simplify
+                                                const parts = simplifiedExpression.split('?');
+                                                if (parts.length === 2) {
+                                                    const result = parts[1].trim();
+                                                    simplifiedExpression = `factor ${result}`;
+                                                }
+                                            }
+                                            
+                                            return `<div class="text-xs bg-slate-600 p-1 rounded mb-1">
+                                                <div class="text-green-300" title="${calc.expression}">${simplifiedExpression}</div>
                                                 <div class="text-slate-300">Val: ${calc.calculatedValue}</div>
                                                 <div class="text-slate-400">${calc.explanation}</div>
                                             </div>`
-                                        ).join('') : 'N/A';
+                                        }).join('') : 'N/A';
                                     
                                     const thresholdColor = record.thresholdMet ? 'text-green-400' : 'text-red-400';
                                     

@@ -101,6 +101,7 @@ class AHCombinationTester {
             factors: combination.factors,
             type: combination.type,
             hypothesis: combination.hypothesis,
+            betSide: combination.betSide, // Preserve betSide from combination
             homeCorrelation: 0,
             awayCorrelation: 0,
             correlation: 0,
@@ -333,27 +334,10 @@ class AHCombinationTester {
         const combinationsData = JSON.parse(fs.readFileSync(this.combinationsPath, 'utf8'));
         const originalCombinations = combinationsData.combinations;
 
-        // Generate opposite strategies for every combination
-        const allCombinations = [];
-        
-        originalCombinations.forEach(combination => {
-            // Add the original combination
-            allCombinations.push(combination);
-            
-            // Create opposite combination
-            const oppositeCombination = {
-                ...combination,
-                name: `${combination.name}_opposite`,
-                hypothesis: `OPPOSITE of ${combination.hypothesis}`,
-                type: `${combination.type}_opposite`,
-                isOpposite: true,
-                originalName: combination.name
-            };
-            
-            allCombinations.push(oppositeCombination);
-        });
+        // Use original combinations only
+        const allCombinations = originalCombinations;
 
-        console.log(`Testing ${allCombinations.length} combinations (${originalCombinations.length} original + ${originalCombinations.length} opposite)...`);
+        console.log(`Testing ${allCombinations.length} combinations...`);
 
         const results = [];
         const startTime = Date.now();
@@ -555,32 +539,12 @@ class AHCombinationTester {
     generateBettingRecords(allStrategies) {
         console.log(`\n📊 Generating betting records for ${allStrategies.length} strategies...`);
         
-        // Load combinations again to get additional properties like betSide
-        const combinationsData = JSON.parse(fs.readFileSync(this.combinationsPath, 'utf8'));
-        const originalCombinations = combinationsData.combinations;
-        
-        // Create a lookup map for original combinations by name
-        const combinationLookup = {};
-        originalCombinations.forEach(combo => {
-            combinationLookup[combo.name] = combo;
-        });
 
         const processedStrategies = [];
         
         allStrategies.forEach(strategy => {
             try {
-                // Get the original combination to preserve properties like betSide
-                const originalCombo = combinationLookup[strategy.name];
-                
-                // Create enhanced strategy object with original properties
-                const enhancedStrategy = {
-                    ...strategy,
-                    betSide: originalCombo?.betSide, // Preserve betSide property
-                    isOpposite: strategy.isOpposite || false, // Preserve opposite flag
-                    originalName: strategy.originalName // Preserve original name reference
-                };
-                
-                const bettingRecords = this.generateStrategyBettingRecords(enhancedStrategy);
+                const bettingRecords = this.generateStrategyBettingRecords(strategy);
                 
                 const cleanName = strategy.name.replace(/[^a-zA-Z0-9_]/g, '_');
                 const recordsPath = path.join(this.resultsDir, `${cleanName}_betting_records.json`);
@@ -869,41 +833,8 @@ class AHCombinationTester {
             // Determine threshold information
             const thresholdInfo = this.getThresholdInfo(strategy, factorValue);
             
-            // Determine bet side - handle opposite strategies and explicit betSide
-            let betSide;
-            
-            if (strategy.isOpposite) {
-                // For opposite strategies, always determine what the original would bet, then flip it
-                // Use correlation-based logic to determine original bet side (ignore explicit betSide for opposites)
-                let originalBetSide;
-                const correlation = parseFloat(strategy.correlation);
-                
-                if (correlation > 0) {
-                    // Positive correlation: high factor value = bet Home
-                    originalBetSide = factorValue > 0 ? 'Home' : 'Away';
-                } else {
-                    // Negative correlation: high factor value = bet Away
-                    originalBetSide = factorValue > 0 ? 'Away' : 'Home';
-                }
-                
-                // Bet opposite of what original would bet
-                betSide = originalBetSide === 'Home' ? 'Away' : 'Home';
-                
-            } else if (strategy.betSide) {
-                // Use explicitly specified bet side for original strategies
-                betSide = strategy.betSide === 'away' ? 'Away' : 'Home';
-            } else {
-                // Fall back to correlation-based logic for original strategies
-                const correlation = parseFloat(strategy.correlation);
-                
-                if (correlation > 0) {
-                    // Positive correlation: high factor value = bet Home
-                    betSide = factorValue > 0 ? 'Home' : 'Away';
-                } else {
-                    // Negative correlation: high factor value = bet Away
-                    betSide = factorValue > 0 ? 'Away' : 'Home';
-                }
-            }
+            // Determine betting side
+            const betSide = this.determineBettingSide(strategy);
             
             const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;
             
@@ -1108,6 +1039,27 @@ class AHCombinationTester {
             };
         }
     }
+
+    /**
+     * Determines which side to bet based on strategy type
+     * @param {Object} strategy - Strategy configuration
+     * @returns {string} 'Home' or 'Away'
+     */
+    determineBettingSide(strategy) {
+        // Strategies with explicit bet side preference
+        if (strategy.betSide) {
+            const side = strategy.betSide === 'away' ? 'Away' : 'Home';
+            // Debug: Log bet side determination for fade strategies
+            if (strategy.name && strategy.name.includes('fade')) {
+                console.log(`🎯 ${strategy.name}: Betting ${side} side (betSide: ${strategy.betSide})`);
+            }
+            return side;
+        }
+        
+        // Default: bet HOME when conditions are met
+        return 'Home';
+    }
+
 }
 
 if (require.main === module) {

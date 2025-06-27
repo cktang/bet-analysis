@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4980",
+    "home": "Leicester",
+    "away": "Brighton",
+    "date": "2024-12-08",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 1.99,
+    "oddsAway": 1.75,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "5",
+    "live": "1st",
+    "ts": 1733669022422
+  }
+]

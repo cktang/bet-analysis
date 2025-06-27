@@ -1,0 +1,165 @@
+{
+  "matchInfo": {
+    "id": "FB3590",
+    "home": "Brentford",
+    "away": "Bournemouth",
+    "date": "2024-11-09",
+    "matchKey": "FB3590_2024-11-09_Brentford_vs_Bournemouth"
+  },
+  "analysis": {
+    "totalSnapshots": 7,
+    "timeSpan": {
+      "start": "2024-11-08T17:59:25.503Z",
+      "end": "2024-11-09T11:57:05.314Z",
+      "durationMinutes": 1077.6635166666667
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1731088765503,
+      "readableDate": "2024-11-08T17:59:25.503Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.81,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.81,
+        "oddsAway": 1.96,
+        "ts": 1731088765496
+      }
+    },
+    {
+      "timestamp": 1731125458846,
+      "readableDate": "2024-11-09T04:10:58.846Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1731125458843
+      }
+    },
+    {
+      "timestamp": 1731128579208,
+      "readableDate": "2024-11-09T05:02:59.208Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1731128579205
+      }
+    },
+    {
+      "timestamp": 1731142863095,
+      "readableDate": "2024-11-09T09:01:03.095Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1731142863092
+      }
+    },
+    {
+      "timestamp": 1731149020935,
+      "readableDate": "2024-11-09T10:43:40.935Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1731149020935
+      }
+    },
+    {
+      "timestamp": 1731152646726,
+      "readableDate": "2024-11-09T11:44:06.726Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1731152646725
+      }
+    },
+    {
+      "timestamp": 1731153425314,
+      "readableDate": "2024-11-09T11:57:05.314Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB3590",
+        "home": "Brentford",
+        "away": "Bournemouth",
+        "date": "2024-11-09",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1731153425314
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.413Z",
+    "totalSnapshots": 7,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

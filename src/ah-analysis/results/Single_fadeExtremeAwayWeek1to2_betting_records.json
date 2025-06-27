@@ -1,0 +1,134 @@
+{
+  "strategy": {
+    "name": "Single_fadeExtremeAwayWeek1to2",
+    "roi": "-21.33%",
+    "correlation": "0.0136",
+    "factors": [
+      "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+    ],
+    "hypothesis": "Fade extreme away favorites weeks 1-2 - home team getting massive points predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 3,
+    "totalProfit": -64,
+    "winRate": "33.3%",
+    "generatedAt": "2025-06-25T18:56:51.427Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-08-16T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.82",
+      "profit": "-50",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0136",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-08-11T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0136",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-08-05T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "profit": "86",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 1 && fbref.week <= 2 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0136",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

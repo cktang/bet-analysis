@@ -1,0 +1,532 @@
+{
+  "matchInfo": {
+    "id": "FB4961",
+    "home": "Crystal Palace",
+    "away": "Manchester City",
+    "date": "2024-12-07",
+    "matchKey": "FB4961_2024-12-07_Crystal_Palace_vs_Manchester_City"
+  },
+  "analysis": {
+    "totalSnapshots": 24,
+    "timeSpan": {
+      "start": "2024-12-06T13:11:49.799Z",
+      "end": "2024-12-07T14:05:45.779Z",
+      "durationMinutes": 1493.933
+    },
+    "handicapMovements": [
+      {
+        "from": -1,
+        "to": -0.75,
+        "change": 0.25,
+        "time": "2024-12-07T04:56:45.094Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.91,
+        "to": 1.98,
+        "change": 0.07000000000000006,
+        "changePercent": "3.66",
+        "time": "2024-12-07T04:19:45.448Z"
+      },
+      {
+        "from": 1.98,
+        "to": 2.1,
+        "change": 0.1200000000000001,
+        "changePercent": "6.06",
+        "time": "2024-12-07T04:54:47.034Z"
+      },
+      {
+        "from": 2.1,
+        "to": 1.73,
+        "change": -0.3700000000000001,
+        "changePercent": "-17.62",
+        "time": "2024-12-07T04:56:45.094Z"
+      },
+      {
+        "from": 1.72,
+        "to": 1.78,
+        "change": 0.06000000000000005,
+        "changePercent": "3.49",
+        "time": "2024-12-07T13:49:45.294Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "MEDIUM",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.3700000000000001,
+          "from": 2.1,
+          "to": 1.73,
+          "time": "2024-12-07T04:56:45.094Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733490709799,
+      "readableDate": "2024-12-06T13:11:49.799Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1733490709779
+      }
+    },
+    {
+      "timestamp": 1733525866691,
+      "readableDate": "2024-12-06T22:57:46.691Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1733525866677
+      }
+    },
+    {
+      "timestamp": 1733545185448,
+      "readableDate": "2024-12-07T04:19:45.448Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.85,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.85,
+        "oddsAway": 1.98,
+        "ts": 1733545185445
+      }
+    },
+    {
+      "timestamp": 1733547287034,
+      "readableDate": "2024-12-07T04:54:47.034Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.76,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.76,
+        "oddsAway": 2.1,
+        "ts": 1733547287033
+      }
+    },
+    {
+      "timestamp": 1733547405094,
+      "readableDate": "2024-12-07T04:56:45.094Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.13,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.13,
+        "oddsAway": 1.73,
+        "ts": 1733547405094
+      }
+    },
+    {
+      "timestamp": 1733547525187,
+      "readableDate": "2024-12-07T04:58:45.187Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.77,
+        "ts": 1733547525187
+      }
+    },
+    {
+      "timestamp": 1733547611268,
+      "readableDate": "2024-12-07T05:00:11.268Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.8,
+        "ts": 1733547611267
+      }
+    },
+    {
+      "timestamp": 1733547705359,
+      "readableDate": "2024-12-07T05:01:45.359Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1733547705358
+      }
+    },
+    {
+      "timestamp": 1733550705693,
+      "readableDate": "2024-12-07T05:51:45.693Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.03,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.03,
+        "oddsAway": 1.79,
+        "ts": 1733550705691
+      }
+    },
+    {
+      "timestamp": 1733552625171,
+      "readableDate": "2024-12-07T06:23:45.171Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1733552625170
+      }
+    },
+    {
+      "timestamp": 1733565344902,
+      "readableDate": "2024-12-07T09:55:44.902Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1733565344896
+      }
+    },
+    {
+      "timestamp": 1733566125539,
+      "readableDate": "2024-12-07T10:08:45.539Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1733566125538
+      }
+    },
+    {
+      "timestamp": 1733570504917,
+      "readableDate": "2024-12-07T11:21:44.917Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1733570504916
+      }
+    },
+    {
+      "timestamp": 1733573985613,
+      "readableDate": "2024-12-07T12:19:45.613Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1733573985613
+      }
+    },
+    {
+      "timestamp": 1733575064433,
+      "readableDate": "2024-12-07T12:37:44.433Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.11,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.11,
+        "oddsAway": 1.74,
+        "ts": 1733575064432
+      }
+    },
+    {
+      "timestamp": 1733575364661,
+      "readableDate": "2024-12-07T12:42:44.661Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1733575364660
+      }
+    },
+    {
+      "timestamp": 1733577884594,
+      "readableDate": "2024-12-07T13:24:44.594Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1733577884589
+      }
+    },
+    {
+      "timestamp": 1733578666970,
+      "readableDate": "2024-12-07T13:37:46.970Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.72,
+        "ts": 1733578666966
+      }
+    },
+    {
+      "timestamp": 1733579385294,
+      "readableDate": "2024-12-07T13:49:45.294Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1733579385294
+      }
+    },
+    {
+      "timestamp": 1733579505341,
+      "readableDate": "2024-12-07T13:51:45.341Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1733579505339
+      }
+    },
+    {
+      "timestamp": 1733579925581,
+      "readableDate": "2024-12-07T13:58:45.581Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1733579925576
+      }
+    },
+    {
+      "timestamp": 1733580225719,
+      "readableDate": "2024-12-07T14:03:45.719Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.02,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.02,
+        "oddsAway": 1.81,
+        "ts": 1733580225717
+      }
+    },
+    {
+      "timestamp": 1733580285747,
+      "readableDate": "2024-12-07T14:04:45.747Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2,
+        "oddsAway": 1.82,
+        "ts": 1733580285745
+      }
+    },
+    {
+      "timestamp": 1733580345779,
+      "readableDate": "2024-12-07T14:05:45.779Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.98,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4961",
+        "home": "Crystal Palace",
+        "away": "Manchester City",
+        "date": "2024-12-07",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.98,
+        "oddsAway": 1.84,
+        "ts": 1733580345778
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.418Z",
+    "totalSnapshots": 24,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

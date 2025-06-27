@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FB5255",
+    "home": "Liverpool",
+    "away": "Fulham",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.07,
+    "oddsAway": 1.77,
+    "ts": 1734149291761
+  },
+  {
+    "id": "FB5253",
+    "home": "Arsenal",
+    "away": "Everton",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 1.87,
+    "oddsAway": 1.95,
+    "ts": 1734149291761
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "FB5255",
+    "home": "Liverpool",
+    "away": "Fulham",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.02,
+    "oddsAway": 1.76,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5253",
+    "home": "Arsenal",
+    "away": "Everton",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 1.85,
+    "oddsAway": 1.91,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5252",
+    "home": "Newcastle",
+    "away": "Leicester",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 1.91,
+    "oddsAway": 1.85,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5250",
+    "home": "Wolves",
+    "away": "Ipswich",
+    "date": "2024-12-14",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.69,
+    "oddsAway": 2.11,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5251",
+    "home": "Nottingham Forest",
+    "away": "Aston Villa",
+    "date": "2024-12-15",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.83,
+    "oddsAway": 1.93,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5254",
+    "home": "Brighton",
+    "away": "Crystal Palace",
+    "date": "2024-12-15",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 2.06,
+    "oddsAway": 1.73,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5266",
+    "home": "Manchester City",
+    "away": "Manchester Utd",
+    "date": "2024-12-16",
+    "ahHome": -1,
+    "ahAway": 1,
+    "oddsHome": 1.88,
+    "oddsAway": 1.88,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5267",
+    "home": "Chelsea",
+    "away": "Brentford",
+    "date": "2024-12-16",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2,
+    "oddsAway": 1.77,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5268",
+    "home": "Southampton",
+    "away": "Tottenham",
+    "date": "2024-12-16",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.91,
+    "oddsAway": 1.85,
+    "ts": 1734113967305
+  },
+  {
+    "id": "FB5262",
+    "home": "Bournemouth",
+    "away": "West Ham",
+    "date": "2024-12-17",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.91,
+    "oddsAway": null,
+    "ts": 1734113967305
+  }
+]

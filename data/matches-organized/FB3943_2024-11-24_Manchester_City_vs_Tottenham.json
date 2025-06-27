@@ -1,0 +1,2108 @@
+{
+  "matchInfo": {
+    "id": "FB3943",
+    "home": "Manchester City",
+    "away": "Tottenham",
+    "date": "2024-11-24",
+    "matchKey": "FB3943_2024-11-24_Manchester_City_vs_Tottenham"
+  },
+  "analysis": {
+    "totalSnapshots": 73,
+    "timeSpan": {
+      "start": "2024-11-23T01:53:03.602Z",
+      "end": "2024-11-23T19:21:00.824Z",
+      "durationMinutes": 1047.9537
+    },
+    "handicapMovements": [
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-11-23T14:19:59.964Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-11-23T17:32:00.044Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-11-23T17:39:00.379Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-11-23T17:41:02.468Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-11-23T17:42:00.508Z"
+      },
+      {
+        "from": 1.75,
+        "to": 0.75,
+        "change": -1,
+        "time": "2024-11-23T17:46:00.690Z"
+      },
+      {
+        "from": 0.75,
+        "to": -0.25,
+        "change": -1,
+        "time": "2024-11-23T17:53:01.028Z"
+      },
+      {
+        "from": -0.25,
+        "to": -0.75,
+        "change": -0.5,
+        "time": "2024-11-23T17:58:01.311Z"
+      },
+      {
+        "from": -0.75,
+        "to": -1,
+        "change": -0.25,
+        "time": "2024-11-23T18:16:00.136Z"
+      },
+      {
+        "from": -1,
+        "to": -1.25,
+        "change": -0.25,
+        "time": "2024-11-23T18:42:01.375Z"
+      },
+      {
+        "from": -1.25,
+        "to": -2.25,
+        "change": -1,
+        "time": "2024-11-23T18:45:01.444Z"
+      },
+      {
+        "from": -2.25,
+        "to": -2.75,
+        "change": -0.5,
+        "time": "2024-11-23T18:56:59.886Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.87,
+        "to": 1.93,
+        "change": 0.05999999999999983,
+        "changePercent": "3.21",
+        "time": "2024-11-23T04:27:02.496Z"
+      },
+      {
+        "from": 1.93,
+        "to": 1.98,
+        "change": 0.050000000000000044,
+        "changePercent": "2.59",
+        "time": "2024-11-23T05:53:02.452Z"
+      },
+      {
+        "from": 1.98,
+        "to": 2.04,
+        "change": 0.06000000000000005,
+        "changePercent": "3.03",
+        "time": "2024-11-23T07:08:01.981Z"
+      },
+      {
+        "from": 2.08,
+        "to": 2.15,
+        "change": 0.06999999999999984,
+        "changePercent": "3.37",
+        "time": "2024-11-23T08:52:00.754Z"
+      },
+      {
+        "from": 2.15,
+        "to": 1.75,
+        "change": -0.3999999999999999,
+        "changePercent": "-18.60",
+        "time": "2024-11-23T14:19:59.964Z"
+      },
+      {
+        "from": 1.67,
+        "to": 2.05,
+        "change": 0.3799999999999999,
+        "changePercent": "22.75",
+        "time": "2024-11-23T17:32:00.044Z"
+      },
+      {
+        "from": 2,
+        "to": 2.07,
+        "change": 0.06999999999999984,
+        "changePercent": "3.50",
+        "time": "2024-11-23T17:37:00.296Z"
+      },
+      {
+        "from": 2.05,
+        "to": 1.7,
+        "change": -0.34999999999999987,
+        "changePercent": "-17.07",
+        "time": "2024-11-23T17:39:00.379Z"
+      },
+      {
+        "from": 1.74,
+        "to": 2.1,
+        "change": 0.3600000000000001,
+        "changePercent": "20.69",
+        "time": "2024-11-23T17:41:02.468Z"
+      },
+      {
+        "from": 2.1,
+        "to": 1.79,
+        "change": -0.31000000000000005,
+        "changePercent": "-14.76",
+        "time": "2024-11-23T17:42:00.508Z"
+      },
+      {
+        "from": 1.79,
+        "to": 1.7,
+        "change": -0.09000000000000008,
+        "changePercent": "-5.03",
+        "time": "2024-11-23T17:44:00.598Z"
+      },
+      {
+        "from": 1.7,
+        "to": 1.86,
+        "change": 0.16000000000000014,
+        "changePercent": "9.41",
+        "time": "2024-11-23T17:46:00.690Z"
+      },
+      {
+        "from": 1.86,
+        "to": 1.92,
+        "change": 0.05999999999999983,
+        "changePercent": "3.23",
+        "time": "2024-11-23T17:47:00.739Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.76,
+        "change": -0.09000000000000008,
+        "changePercent": "-4.86",
+        "time": "2024-11-23T17:53:01.028Z"
+      },
+      {
+        "from": 1.7,
+        "to": 2.07,
+        "change": 0.3699999999999999,
+        "changePercent": "21.76",
+        "time": "2024-11-23T17:58:01.311Z"
+      },
+      {
+        "from": 2.07,
+        "to": 1.99,
+        "change": -0.07999999999999985,
+        "changePercent": "-3.86",
+        "time": "2024-11-23T18:00:01.406Z"
+      },
+      {
+        "from": 1.96,
+        "to": 1.91,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.55",
+        "time": "2024-11-23T18:04:59.772Z"
+      },
+      {
+        "from": 1.89,
+        "to": 1.82,
+        "change": -0.06999999999999984,
+        "changePercent": "-3.70",
+        "time": "2024-11-23T18:06:59.719Z"
+      },
+      {
+        "from": 1.79,
+        "to": 1.74,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.79",
+        "time": "2024-11-23T18:12:59.993Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.94,
+        "change": 0.19999999999999996,
+        "changePercent": "11.49",
+        "time": "2024-11-23T18:16:00.136Z"
+      },
+      {
+        "from": 1.94,
+        "to": 1.86,
+        "change": -0.07999999999999985,
+        "changePercent": "-4.12",
+        "time": "2024-11-23T18:20:00.343Z"
+      },
+      {
+        "from": 1.91,
+        "to": 1.83,
+        "change": -0.07999999999999985,
+        "changePercent": "-4.19",
+        "time": "2024-11-23T18:39:01.215Z"
+      },
+      {
+        "from": 1.83,
+        "to": 1.78,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.73",
+        "time": "2024-11-23T18:40:01.262Z"
+      },
+      {
+        "from": 1.78,
+        "to": 2.04,
+        "change": 0.26,
+        "changePercent": "14.61",
+        "time": "2024-11-23T18:42:01.375Z"
+      },
+      {
+        "from": 2.04,
+        "to": 1.88,
+        "change": -0.16000000000000014,
+        "changePercent": "-7.84",
+        "time": "2024-11-23T18:45:01.444Z"
+      },
+      {
+        "from": 1.88,
+        "to": 1.79,
+        "change": -0.08999999999999986,
+        "changePercent": "-4.79",
+        "time": "2024-11-23T18:45:59.481Z"
+      },
+      {
+        "from": 1.79,
+        "to": 1.72,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.91",
+        "time": "2024-11-23T18:48:59.523Z"
+      },
+      {
+        "from": 1.69,
+        "to": 1.63,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.55",
+        "time": "2024-11-23T18:53:59.770Z"
+      },
+      {
+        "from": 1.63,
+        "to": 2.3,
+        "change": 0.6699999999999999,
+        "changePercent": "41.10",
+        "time": "2024-11-23T18:56:59.886Z"
+      },
+      {
+        "from": 2.3,
+        "to": 2.19,
+        "change": -0.10999999999999988,
+        "changePercent": "-4.78",
+        "time": "2024-11-23T19:00:00.022Z"
+      },
+      {
+        "from": 2.19,
+        "to": 2.08,
+        "change": -0.10999999999999988,
+        "changePercent": "-5.02",
+        "time": "2024-11-23T19:02:00.104Z"
+      },
+      {
+        "from": 2.02,
+        "to": 1.96,
+        "change": -0.06000000000000005,
+        "changePercent": "-2.97",
+        "time": "2024-11-23T19:08:00.364Z"
+      },
+      {
+        "from": 1.96,
+        "to": 1.88,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.08",
+        "time": "2024-11-23T19:10:00.434Z"
+      },
+      {
+        "from": 1.88,
+        "to": 1.99,
+        "change": 0.1100000000000001,
+        "changePercent": "5.85",
+        "time": "2024-11-23T19:11:00.460Z"
+      },
+      {
+        "from": 1.99,
+        "to": 1.9,
+        "change": -0.09000000000000008,
+        "changePercent": "-4.52",
+        "time": "2024-11-23T19:12:00.484Z"
+      },
+      {
+        "from": 1.9,
+        "to": 1.83,
+        "change": -0.06999999999999984,
+        "changePercent": "-3.68",
+        "time": "2024-11-23T19:14:00.527Z"
+      },
+      {
+        "from": 1.83,
+        "to": 1.76,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.83",
+        "time": "2024-11-23T19:15:00.560Z"
+      },
+      {
+        "from": 1.76,
+        "to": 1.69,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.98",
+        "time": "2024-11-23T19:16:00.607Z"
+      },
+      {
+        "from": 1.69,
+        "to": 1.63,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.55",
+        "time": "2024-11-23T19:17:00.653Z"
+      },
+      {
+        "from": 1.63,
+        "to": 1.51,
+        "change": -0.11999999999999988,
+        "changePercent": "-7.36",
+        "time": "2024-11-23T19:18:00.695Z"
+      },
+      {
+        "from": 1.51,
+        "to": 1.45,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.97",
+        "time": "2024-11-23T19:19:00.742Z"
+      },
+      {
+        "from": 1.45,
+        "to": 1.39,
+        "change": -0.06000000000000005,
+        "changePercent": "-4.14",
+        "time": "2024-11-23T19:20:00.777Z"
+      },
+      {
+        "from": 1.39,
+        "to": 1.33,
+        "change": -0.05999999999999983,
+        "changePercent": "-4.32",
+        "time": "2024-11-23T19:21:00.824Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.3999999999999999,
+          "from": 2.15,
+          "to": 1.75,
+          "time": "2024-11-23T14:19:59.964Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.3799999999999999,
+          "from": 1.67,
+          "to": 2.05,
+          "time": "2024-11-23T17:32:00.044Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.34999999999999987,
+          "from": 2.05,
+          "to": 1.7,
+          "time": "2024-11-23T17:39:00.379Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.3600000000000001,
+          "from": 1.74,
+          "to": 2.1,
+          "time": "2024-11-23T17:41:02.468Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.31000000000000005,
+          "from": 2.1,
+          "to": 1.79,
+          "time": "2024-11-23T17:42:00.508Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16000000000000014,
+          "from": 1.7,
+          "to": 1.86,
+          "time": "2024-11-23T17:46:00.690Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.3699999999999999,
+          "from": 1.7,
+          "to": 2.07,
+          "time": "2024-11-23T17:58:01.311Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.19999999999999996,
+          "from": 1.74,
+          "to": 1.94,
+          "time": "2024-11-23T18:16:00.136Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.26,
+          "from": 1.78,
+          "to": 2.04,
+          "time": "2024-11-23T18:42:01.375Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.16000000000000014,
+          "from": 2.04,
+          "to": 1.88,
+          "time": "2024-11-23T18:45:01.444Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6699999999999999,
+          "from": 1.63,
+          "to": 2.3,
+          "time": "2024-11-23T18:56:59.886Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732326783602,
+      "readableDate": "2024-11-23T01:53:03.602Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.93,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.93,
+        "oddsAway": 1.83,
+        "ts": 1732326783599
+      }
+    },
+    {
+      "timestamp": 1732334641399,
+      "readableDate": "2024-11-23T04:04:01.399Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1732334641398
+      }
+    },
+    {
+      "timestamp": 1732336022496,
+      "readableDate": "2024-11-23T04:27:02.496Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.89,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.89,
+        "oddsAway": 1.93,
+        "ts": 1732336022496
+      }
+    },
+    {
+      "timestamp": 1732341182452,
+      "readableDate": "2024-11-23T05:53:02.452Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1732341182452
+      }
+    },
+    {
+      "timestamp": 1732345681981,
+      "readableDate": "2024-11-23T07:08:01.981Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1732345681979
+      }
+    },
+    {
+      "timestamp": 1732345742025,
+      "readableDate": "2024-11-23T07:09:02.025Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1732345742025
+      }
+    },
+    {
+      "timestamp": 1732351920754,
+      "readableDate": "2024-11-23T08:52:00.754Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.15,
+        "ts": 1732351920751
+      }
+    },
+    {
+      "timestamp": 1732371599964,
+      "readableDate": "2024-11-23T14:19:59.964Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1732371599964
+      }
+    },
+    {
+      "timestamp": 1732374841729,
+      "readableDate": "2024-11-23T15:14:01.729Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.76,
+        "ts": 1732374841729
+      }
+    },
+    {
+      "timestamp": 1732377960159,
+      "readableDate": "2024-11-23T16:06:00.159Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.12,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.12,
+        "oddsAway": 1.72,
+        "ts": 1732377960156
+      }
+    },
+    {
+      "timestamp": 1732378020198,
+      "readableDate": "2024-11-23T16:07:00.198Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.72,
+        "ts": 1732378020198
+      }
+    },
+    {
+      "timestamp": 1732378800798,
+      "readableDate": "2024-11-23T16:20:00.798Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.71,
+        "ts": 1732378800798
+      }
+    },
+    {
+      "timestamp": 1732379161075,
+      "readableDate": "2024-11-23T16:26:01.075Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.19,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.19,
+        "oddsAway": 1.69,
+        "ts": 1732379161075
+      }
+    },
+    {
+      "timestamp": 1732382999959,
+      "readableDate": "2024-11-23T17:29:59.959Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.22,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.22,
+        "oddsAway": 1.67,
+        "ts": 1732382999957
+      }
+    },
+    {
+      "timestamp": 1732383120044,
+      "readableDate": "2024-11-23T17:32:00.044Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1732383120044,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383240145,
+      "readableDate": "2024-11-23T17:34:00.145Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1732383240143,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383420296,
+      "readableDate": "2024-11-23T17:37:00.296Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1732383420294,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383480328,
+      "readableDate": "2024-11-23T17:38:00.328Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1732383480328,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383540379,
+      "readableDate": "2024-11-23T17:39:00.379Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1732383540379,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383600420,
+      "readableDate": "2024-11-23T17:40:00.420Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732383600419,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383662468,
+      "readableDate": "2024-11-23T17:41:02.468Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1732383662468,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383720508,
+      "readableDate": "2024-11-23T17:42:00.508Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.79,
+        "ts": 1732383720507,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383840598,
+      "readableDate": "2024-11-23T17:44:00.598Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1732383840598,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732383960690,
+      "readableDate": "2024-11-23T17:46:00.690Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732383960690,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384020739,
+      "readableDate": "2024-11-23T17:47:00.739Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732384020738,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384080783,
+      "readableDate": "2024-11-23T17:48:00.783Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732384080782,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384260934,
+      "readableDate": "2024-11-23T17:51:00.934Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1732384260934,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384381028,
+      "readableDate": "2024-11-23T17:53:01.028Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1732384381027,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384441076,
+      "readableDate": "2024-11-23T17:54:01.076Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.99,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.99,
+        "oddsAway": 1.75,
+        "ts": 1732384441073,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384561221,
+      "readableDate": "2024-11-23T17:56:01.221Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.04,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.04,
+        "oddsAway": 1.71,
+        "ts": 1732384561219,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384621262,
+      "readableDate": "2024-11-23T17:57:01.262Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1732384621260,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384681311,
+      "readableDate": "2024-11-23T17:58:01.311Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1732384681309,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384801406,
+      "readableDate": "2024-11-23T18:00:01.406Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.75,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.75,
+        "oddsAway": 1.99,
+        "ts": 1732384801403,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384861462,
+      "readableDate": "2024-11-23T18:01:01.462Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1732384861460,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732384921510,
+      "readableDate": "2024-11-23T18:02:01.510Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1732384921507,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385099772,
+      "readableDate": "2024-11-23T18:04:59.772Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1732385099770,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385159694,
+      "readableDate": "2024-11-23T18:05:59.694Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.89,
+        "ts": 1732385159692,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385219719,
+      "readableDate": "2024-11-23T18:06:59.719Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.9,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.9,
+        "oddsAway": 1.82,
+        "ts": 1732385219718,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385339801,
+      "readableDate": "2024-11-23T18:08:59.801Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.79,
+        "ts": 1732385339800,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385579993,
+      "readableDate": "2024-11-23T18:12:59.993Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732385579991,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385760136,
+      "readableDate": "2024-11-23T18:16:00.136Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.79,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.79,
+        "oddsAway": 1.94,
+        "ts": 1732385760135,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385820186,
+      "readableDate": "2024-11-23T18:17:00.186Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732385820185,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732385880236,
+      "readableDate": "2024-11-23T18:18:00.236Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.79,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.79,
+        "oddsAway": 1.94,
+        "ts": 1732385880235,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732386000343,
+      "readableDate": "2024-11-23T18:20:00.343Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732386000342,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732386060383,
+      "readableDate": "2024-11-23T18:21:00.383Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732386060383,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732386180485,
+      "readableDate": "2024-11-23T18:23:00.485Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 1.92,
+        "ts": 1732386180485,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732387021124,
+      "readableDate": "2024-11-23T18:37:01.124Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1732387021122,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387141215,
+      "readableDate": "2024-11-23T18:39:01.215Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1732387141214,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387201262,
+      "readableDate": "2024-11-23T18:40:01.262Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.94,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.94,
+        "oddsAway": 1.78,
+        "ts": 1732387201262,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387321375,
+      "readableDate": "2024-11-23T18:42:01.375Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1732387321372,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387501444,
+      "readableDate": "2024-11-23T18:45:01.444Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732387501442,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387559481,
+      "readableDate": "2024-11-23T18:45:59.481Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.93,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.93,
+        "oddsAway": 1.79,
+        "ts": 1732387559480,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387739523,
+      "readableDate": "2024-11-23T18:48:59.523Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 2.02,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 2.02,
+        "oddsAway": 1.72,
+        "ts": 1732387739523,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387859607,
+      "readableDate": "2024-11-23T18:50:59.607Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 2.07,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 2.07,
+        "oddsAway": 1.69,
+        "ts": 1732387859607,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732387919648,
+      "readableDate": "2024-11-23T18:51:59.648Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 2.05,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 2.05,
+        "oddsAway": 1.69,
+        "ts": 1732387919648,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388039770,
+      "readableDate": "2024-11-23T18:53:59.770Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 2.16,
+      "oddsAway": 1.63,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 2.16,
+        "oddsAway": 1.63,
+        "ts": 1732388039770,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388219886,
+      "readableDate": "2024-11-23T18:56:59.886Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.56,
+      "oddsAway": 2.3,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.56,
+        "oddsAway": 2.3,
+        "ts": 1732388219885,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388400022,
+      "readableDate": "2024-11-23T19:00:00.022Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.61,
+      "oddsAway": 2.19,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.61,
+        "oddsAway": 2.19,
+        "ts": 1732388400020,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388520104,
+      "readableDate": "2024-11-23T19:02:00.104Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.67,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.67,
+        "oddsAway": 2.08,
+        "ts": 1732388520104,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388580151,
+      "readableDate": "2024-11-23T19:03:00.151Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1732388580150,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388700244,
+      "readableDate": "2024-11-23T19:05:00.244Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.02,
+        "ts": 1732388700240,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732388880364,
+      "readableDate": "2024-11-23T19:08:00.364Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1732388880364,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389000434,
+      "readableDate": "2024-11-23T19:10:00.434Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732389000433,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389060460,
+      "readableDate": "2024-11-23T19:11:00.460Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.74,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.74,
+        "oddsAway": 1.99,
+        "ts": 1732389060459,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389120484,
+      "readableDate": "2024-11-23T19:12:00.484Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.81,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.81,
+        "oddsAway": 1.9,
+        "ts": 1732389120483,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389240527,
+      "readableDate": "2024-11-23T19:14:00.527Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1732389240527,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389300560,
+      "readableDate": "2024-11-23T19:15:00.560Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.96,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.96,
+        "oddsAway": 1.76,
+        "ts": 1732389300559,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389360607,
+      "readableDate": "2024-11-23T19:16:00.607Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.69,
+        "ts": 1732389360606,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389420653,
+      "readableDate": "2024-11-23T19:17:00.653Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 2.16,
+      "oddsAway": 1.63,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 2.16,
+        "oddsAway": 1.63,
+        "ts": 1732389420648,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389480695,
+      "readableDate": "2024-11-23T19:18:00.695Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 2.41,
+      "oddsAway": 1.51,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 2.41,
+        "oddsAway": 1.51,
+        "ts": 1732389480694,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389540742,
+      "readableDate": "2024-11-23T19:19:00.742Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 2.58,
+      "oddsAway": 1.45,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 2.58,
+        "oddsAway": 1.45,
+        "ts": 1732389540742,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389600777,
+      "readableDate": "2024-11-23T19:20:00.777Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 2.78,
+      "oddsAway": 1.39,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 2.78,
+        "oddsAway": 1.39,
+        "ts": 1732389600776,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732389660824,
+      "readableDate": "2024-11-23T19:21:00.824Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 3.08,
+      "oddsAway": 1.33,
+      "originalRecord": {
+        "id": "FB3943",
+        "home": "Manchester City",
+        "away": "Tottenham",
+        "date": "2024-11-24",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 3.08,
+        "oddsAway": 1.33,
+        "ts": 1732389660824,
+        "homeScore": "0",
+        "awayScore": "3",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.415Z",
+    "totalSnapshots": 73,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

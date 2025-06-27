@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3941",
+    "home": "Aston Villa",
+    "away": "Crystal Palace",
+    "date": "2024-11-23",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 1.84,
+    "oddsAway": 1.88,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "2",
+    "live": "1st",
+    "ts": 1732375680360
+  }
+]

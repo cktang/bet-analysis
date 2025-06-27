@@ -1,0 +1,184 @@
+{
+  "matchInfo": {
+    "id": "FB3594",
+    "home": "Nottingham Forest",
+    "away": "Newcastle",
+    "date": "2024-11-10",
+    "matchKey": "FB3594_2024-11-10_Nottingham_Forest_vs_Newcastle"
+  },
+  "analysis": {
+    "totalSnapshots": 8,
+    "timeSpan": {
+      "start": "2024-11-08T17:59:25.503Z",
+      "end": "2024-11-10T13:21:30.707Z",
+      "durationMinutes": 2602.086733333333
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1731088765503,
+      "readableDate": "2024-11-08T17:59:25.503Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.92,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.92,
+        "oddsAway": 1.84,
+        "ts": 1731088765496
+      }
+    },
+    {
+      "timestamp": 1731211829724,
+      "readableDate": "2024-11-10T04:10:29.724Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1731211829724
+      }
+    },
+    {
+      "timestamp": 1731224610116,
+      "readableDate": "2024-11-10T07:43:30.116Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.9,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.9,
+        "oddsAway": 1.92,
+        "ts": 1731224610112
+      }
+    },
+    {
+      "timestamp": 1731230610656,
+      "readableDate": "2024-11-10T09:23:30.656Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1731230610656
+      }
+    },
+    {
+      "timestamp": 1731239130595,
+      "readableDate": "2024-11-10T11:45:30.595Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1731239130595
+      }
+    },
+    {
+      "timestamp": 1731243631961,
+      "readableDate": "2024-11-10T13:00:31.961Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.89,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.89,
+        "oddsAway": 1.93,
+        "ts": 1731243631959
+      }
+    },
+    {
+      "timestamp": 1731243930175,
+      "readableDate": "2024-11-10T13:05:30.175Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.93,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.93,
+        "oddsAway": 1.89,
+        "ts": 1731243930173
+      }
+    },
+    {
+      "timestamp": 1731244890707,
+      "readableDate": "2024-11-10T13:21:30.707Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB3594",
+        "home": "Nottingham Forest",
+        "away": "Newcastle",
+        "date": "2024-11-10",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1731244890707
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.414Z",
+    "totalSnapshots": 8,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

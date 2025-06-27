@@ -1,0 +1,2125 @@
+{
+  "strategy": {
+    "name": "Single_lowAttendanceNeutralizer",
+    "roi": "6.61%",
+    "correlation": "0.0240",
+    "factors": [
+      "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+    ],
+    "hypothesis": "Low attendance reduces home advantage, creating away value predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 57,
+    "totalStaked": 48300,
+    "totalProfit": 3191,
+    "winRate": "38.6%",
+    "roi": "6.61%",
+    "generatedAt": "2025-06-26T16:34:52.683Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-05-24T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leicester",
+      "score": "2-0",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-05-09T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Everton",
+      "score": "1-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "betSize": "200",
+      "profit": "164",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-05-03T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Manchester Utd",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "-1150",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2025-04-26T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Manchester Utd",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.71",
+      "betSize": "200",
+      "profit": "142",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-04-02T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Ipswich",
+      "score": "1-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "2.02",
+      "betSize": "1850",
+      "profit": "1887",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 925
+      }
+    },
+    {
+      "date": "2025-03-15T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Brentford",
+      "score": "1-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.89",
+      "betSize": "200",
+      "profit": "178",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-03-15T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Tottenham",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.76",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-03-07T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Ipswich",
+      "score": "1-0",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.91",
+      "betSize": "200",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2025-02-21T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Wolves",
+      "score": "0-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.12",
+      "betSize": "3350",
+      "profit": "3752",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1675
+      }
+    },
+    {
+      "date": "2025-01-31T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Southampton",
+      "score": "1-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.71",
+      "betSize": "200",
+      "profit": "142",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-01-04T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Ipswich",
+      "score": "2-2",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.96",
+      "betSize": "950",
+      "profit": "912",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-12-28T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Southampton",
+      "score": "2-1",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-12-21T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Southampton",
+      "score": "0-0",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "465",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-12-16T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "West Ham",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.02",
+      "betSize": "1850",
+      "profit": "1887",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 925
+      }
+    },
+    {
+      "date": "2024-11-29T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Leicester",
+      "score": "4-1",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-11-22T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Wolves",
+      "score": "1-4",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.99",
+      "betSize": "1400",
+      "profit": "1386",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-10-25T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Ipswich",
+      "score": "4-3",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.75",
+      "betSize": "200",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-09-30T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "2.02",
+      "betSize": "1850",
+      "profit": "-1850",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-09-13T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Leicester",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.03",
+      "betSize": "2000",
+      "profit": "2060",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1000
+      }
+    },
+    {
+      "date": "2024-08-30T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Southampton",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-08-23T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Leicester",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.75",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-05-18T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Aston Villa",
+      "score": "5-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.11",
+      "betSize": "3200",
+      "profit": "-3200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 1600
+      }
+    },
+    {
+      "date": "2024-04-12T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Sheff Utd",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "1.87",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-04-02T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Crystal Palace",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-03-13T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Luton",
+      "score": "4-3",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "betSize": "1250",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-03-08T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sheff Utd",
+      "score": "2-2",
+      "handicapLine": "-1.5/-2",
+      "betSide": "Away",
+      "betOdds": "1.76",
+      "betSize": "200",
+      "profit": "152",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -1.5,
+          -2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-03-08T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Luton",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "betSize": "200",
+      "profit": "160",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-02-23T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Burnley",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.68",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-02-03T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Nottingham Forest",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.04",
+      "betSize": "2150",
+      "profit": "2236",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1075
+      }
+    },
+    {
+      "date": "2024-01-30T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Sheff Utd",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.17",
+      "betSize": "4100",
+      "profit": "-2050",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 2050
+      }
+    },
+    {
+      "date": "2024-01-20T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Nottingham Forest",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.90",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-12-25T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Fulham",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.72",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-12-22T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Burnley",
+      "score": "0-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "2415",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2023-12-06T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Nottingham Forest",
+      "score": "5-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.66",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-12-01T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Luton",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "2.04",
+      "betSize": "2150",
+      "profit": "-2150",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Burnley",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "-500",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 250
+      }
+    },
+    {
+      "date": "2023-10-20T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Luton",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.97",
+      "betSize": "1100",
+      "profit": "1067",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 550
+      }
+    },
+    {
+      "date": "2023-10-06T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Sheff Utd",
+      "score": "3-1",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "2.03",
+      "betSize": "2000",
+      "profit": "-2000",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-09-23T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Everton",
+      "score": "1-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.75",
+      "betSize": "200",
+      "profit": "150",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-09-15T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Luton",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "-1150",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2023-09-02T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Wolves",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-09-01T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Bournemouth",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.98",
+      "betSize": "1250",
+      "profit": "1225",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 625
+      }
+    },
+    {
+      "date": "2023-08-18T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Sheff Utd",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.75",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-05-27T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.76",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-05-13T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "West Ham",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.86",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-05-12T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.78",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-05-08T16:00:00.000Z",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Southampton",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-04-28T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.94",
+      "betSize": "650",
+      "profit": "-325",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 325
+      }
+    },
+    {
+      "date": "2023-04-21T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Everton",
+      "score": "0-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.66",
+      "betSize": "200",
+      "profit": "132",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-03-17T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Leicester",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.73",
+      "betSize": "200",
+      "profit": "146",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-02-17T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Crystal Palace",
+      "score": "1-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.80",
+      "betSize": "200",
+      "profit": "160",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-02-10T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Nottingham Forest",
+      "score": "2-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-02-03T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Southampton",
+      "score": "3-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-01-14T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Bournemouth",
+      "score": "2-0",
+      "handicapLine": "-1",
+      "betSide": "Away",
+      "betOdds": "1.84",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": null
+    },
+    {
+      "date": "2022-12-30T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Southampton",
+      "score": "2-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-10-28T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Southampton",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.62",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-10-14T16:00:00.000Z",
+      "homeTeam": "Fulham",
+      "awayTeam": "Bournemouth",
+      "score": "2-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "1.74",
+      "betSize": "200",
+      "profit": "148",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance < 30000 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0240",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "FB4547",
+    "home": "Crystal Palace",
+    "away": "Newcastle",
+    "date": "2024-11-30",
+    "ahHome": 1,
+    "ahAway": -1,
+    "oddsHome": 1.56,
+    "oddsAway": 2.29,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "12",
+    "live": "2nd",
+    "ts": 1732984796841
+  },
+  {
+    "id": "FB4545",
+    "home": "Nottingham Forest",
+    "away": "Ipswich",
+    "date": "2024-11-30",
+    "ahHome": -1,
+    "ahAway": 1,
+    "oddsHome": 1.47,
+    "oddsAway": 2.52,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "12",
+    "live": "2nd",
+    "ts": 1732984796841
+  },
+  {
+    "id": "FB4549",
+    "home": "West Ham",
+    "away": "Arsenal",
+    "date": "2024-12-01",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 1.94,
+    "oddsAway": 1.88,
+    "ts": 1732984796841
+  }
+]

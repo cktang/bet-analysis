@@ -1,0 +1,57 @@
+[
+  {
+    "id": "FB5518",
+    "home": "Manchester Utd",
+    "away": "621",
+    "date": "2024-12-22",
+    "ahHome": null,
+    "ahAway": -0.75,
+    "oddsHome": null,
+    "oddsAway": 1.89,
+    "ts": 1734860742723
+  },
+  {
+    "id": "FB5520",
+    "home": "Everton",
+    "away": "622",
+    "date": "2024-12-22",
+    "ahHome": null,
+    "ahAway": 0.75,
+    "oddsHome": null,
+    "oddsAway": 1.79,
+    "ts": 1734860742723
+  },
+  {
+    "id": "FB5461",
+    "home": "Fulham",
+    "away": "623",
+    "date": "2024-12-22",
+    "ahHome": null,
+    "ahAway": -1.25,
+    "oddsHome": null,
+    "oddsAway": 1.92,
+    "ts": 1734860742723
+  },
+  {
+    "id": "FB5463",
+    "home": "Leicester",
+    "away": "624",
+    "date": "2024-12-22",
+    "ahHome": null,
+    "ahAway": 0,
+    "oddsHome": 0,
+    "oddsAway": 1.86,
+    "ts": 1734860742723
+  },
+  {
+    "id": "FB5519",
+    "home": "Tottenham",
+    "away": "621",
+    "date": "2024-12-23",
+    "ahHome": null,
+    "ahAway": 0.75,
+    "oddsHome": null,
+    "oddsAway": 1.76,
+    "ts": 1734860742723
+  }
+]

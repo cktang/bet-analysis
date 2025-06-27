@@ -1,0 +1,35 @@
+[
+  {
+    "id": "FB3938",
+    "home": "Everton",
+    "away": "Brentford",
+    "date": "2024-11-23",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2,
+    "oddsAway": 1.82,
+    "ts": 1732334581351
+  },
+  {
+    "id": "FB3940",
+    "home": "Bournemouth",
+    "away": "Brighton",
+    "date": "2024-11-23",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.81,
+    "oddsAway": 2.02,
+    "ts": 1732334581351
+  },
+  {
+    "id": "FB3942",
+    "home": "Fulham",
+    "away": "Wolves",
+    "date": "2024-11-23",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.8,
+    "oddsAway": 2.03,
+    "ts": 1732334581351
+  }
+]

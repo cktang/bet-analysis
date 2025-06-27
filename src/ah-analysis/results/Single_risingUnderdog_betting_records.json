@@ -1,7 +1,7 @@
 {
   "strategy": {
     "name": "Single_risingUnderdog",
-    "roi": "-14.17%",
+    "roi": "-56.18%",
     "correlation": "0.0077",
     "factors": [
       "((timeSeries.away.leaguePosition || 20) >= 12 && (timeSeries.away.streaks.overall.current.type === 'W' || timeSeries.away.streaks.overall.current.type === 'win') && (timeSeries.away.streaks.overall.current.count || 0) >= 2 && preMatch.enhanced.awayImpliedProb < 25) ? 1 : 0"
@@ -11,9 +11,11 @@
   },
   "summary": {
     "totalBets": 6,
-    "totalProfit": -85,
+    "totalStaked": 2850,
+    "totalProfit": -1601,
     "winRate": "50.0%",
-    "generatedAt": "2025-06-25T14:07:43.164Z"
+    "roi": "-56.18%",
+    "generatedAt": "2025-06-26T16:34:56.002Z"
   },
   "bettingRecords": [
     {
@@ -24,7 +26,8 @@
       "handicapLine": "-1.5/-2",
       "betSide": "Home",
       "betOdds": "1.93",
-      "profit": "-100",
+      "betSize": "500",
+      "profit": "-500",
       "outcome": "Loss",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -51,7 +54,7 @@
           "Loss",
           "Loss"
         ],
-        "betPerLine": 50
+        "betPerLine": 250
       }
     },
     {
@@ -62,7 +65,8 @@
       "handicapLine": "-1/-1.5",
       "betSide": "Home",
       "betOdds": "1.69",
-      "profit": "-50",
+      "betSize": "200",
+      "profit": "-100",
       "outcome": "Half Loss",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -89,7 +93,7 @@
           "Push",
           "Loss"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     },
     {
@@ -100,7 +104,8 @@
       "handicapLine": "-1",
       "betSide": "Home",
       "betOdds": "1.99",
-      "profit": "-100",
+      "betSize": "1400",
+      "profit": "-1400",
       "outcome": "Loss",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -128,7 +133,8 @@
       "handicapLine": "-0.5/-1",
       "betSide": "Home",
       "betOdds": "1.92",
-      "profit": "46",
+      "betSize": "350",
+      "profit": "161",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -155,7 +161,7 @@
           "Win",
           "Push"
         ],
-        "betPerLine": 50
+        "betPerLine": 175
       }
     },
     {
@@ -166,7 +172,8 @@
       "handicapLine": "-1",
       "betSide": "Home",
       "betOdds": "1.84",
-      "profit": "84",
+      "betSize": "200",
+      "profit": "168",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -194,7 +201,8 @@
       "handicapLine": "-0.5/-1",
       "betSide": "Home",
       "betOdds": "1.70",
-      "profit": "35",
+      "betSize": "200",
+      "profit": "70",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -221,7 +229,7 @@
           "Win",
           "Push"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     }
   ]

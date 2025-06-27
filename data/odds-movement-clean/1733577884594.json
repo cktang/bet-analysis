@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FB4960",
+    "home": "Aston Villa",
+    "away": "Southampton",
+    "date": "2024-12-07",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.08,
+    "oddsAway": 1.76,
+    "ts": 1733577884589
+  },
+  {
+    "id": "FB4961",
+    "home": "Crystal Palace",
+    "away": "Manchester City",
+    "date": "2024-12-07",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 2.09,
+    "oddsAway": 1.75,
+    "ts": 1733577884589
+  }
+]

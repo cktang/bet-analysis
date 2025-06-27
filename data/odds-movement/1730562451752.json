@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3188",
+    "home": "Bournemouth",
+    "away": "Manchester City",
+    "date": "2024-11-02",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2,
+    "oddsAway": 1.74,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "5",
+    "live": "HT",
+    "ts": 1730562451751
+  }
+]

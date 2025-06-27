@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB5255",
+    "home": "Liverpool",
+    "away": "Fulham",
+    "date": "2024-12-14",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.69,
+    "oddsAway": 2.07,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "1",
+    "live": "1st",
+    "ts": 1734189877510
+  }
+]

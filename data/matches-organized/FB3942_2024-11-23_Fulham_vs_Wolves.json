@@ -1,0 +1,202 @@
+{
+  "matchInfo": {
+    "id": "FB3942",
+    "home": "Fulham",
+    "away": "Wolves",
+    "date": "2024-11-23",
+    "matchKey": "FB3942_2024-11-23_Fulham_vs_Wolves"
+  },
+  "analysis": {
+    "totalSnapshots": 7,
+    "timeSpan": {
+      "start": "2024-11-23T01:53:03.602Z",
+      "end": "2024-11-23T14:36:00.626Z",
+      "durationMinutes": 762.9504
+    },
+    "handicapMovements": [
+      {
+        "from": 0.75,
+        "to": 1,
+        "change": 0.25,
+        "time": "2024-11-23T12:51:01.898Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2.03,
+        "to": 2.12,
+        "change": 0.0900000000000003,
+        "changePercent": "4.43",
+        "time": "2024-11-23T04:26:02.445Z"
+      },
+      {
+        "from": 2.16,
+        "to": 1.9,
+        "change": -0.26000000000000023,
+        "changePercent": "-12.04",
+        "time": "2024-11-23T12:51:01.898Z"
+      },
+      {
+        "from": 1.9,
+        "to": 1.95,
+        "change": 0.050000000000000044,
+        "changePercent": "2.63",
+        "time": "2024-11-23T14:08:01.389Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "MEDIUM",
+      "trappedInQuarter": false,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.26000000000000023,
+          "from": 2.16,
+          "to": 1.9,
+          "time": "2024-11-23T12:51:01.898Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732326783602,
+      "readableDate": "2024-11-23T01:53:03.602Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.78,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.78,
+        "oddsAway": 1.99,
+        "ts": 1732326783599
+      }
+    },
+    {
+      "timestamp": 1732334581351,
+      "readableDate": "2024-11-23T04:03:01.351Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1732334581351
+      }
+    },
+    {
+      "timestamp": 1732335962445,
+      "readableDate": "2024-11-23T04:26:02.445Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.73,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.73,
+        "oddsAway": 2.12,
+        "ts": 1732335962445
+      }
+    },
+    {
+      "timestamp": 1732363141514,
+      "readableDate": "2024-11-23T11:59:01.514Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.71,
+      "oddsAway": 2.16,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.71,
+        "oddsAway": 2.16,
+        "ts": 1732363141511
+      }
+    },
+    {
+      "timestamp": 1732366261898,
+      "readableDate": "2024-11-23T12:51:01.898Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.92,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.92,
+        "oddsAway": 1.9,
+        "ts": 1732366261897
+      }
+    },
+    {
+      "timestamp": 1732370881389,
+      "readableDate": "2024-11-23T14:08:01.389Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1732370881389
+      }
+    },
+    {
+      "timestamp": 1732372560626,
+      "readableDate": "2024-11-23T14:36:00.626Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.83,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB3942",
+        "home": "Fulham",
+        "away": "Wolves",
+        "date": "2024-11-23",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.83,
+        "oddsAway": 1.99,
+        "ts": 1732372560624
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.415Z",
+    "totalSnapshots": 7,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

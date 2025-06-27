@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4548",
+    "home": "Liverpool",
+    "away": "Manchester City",
+    "date": "2024-12-02",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.77,
+    "oddsAway": 1.96,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "1",
+    "live": "1st",
+    "ts": 1733069875613
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "matchInfo": {
+    "id": "FB4780",
+    "home": "Southampton",
+    "away": "Chelsea",
+    "date": "2024-12-05",
+    "matchKey": "FB4780_2024-12-05_Southampton_vs_Chelsea"
+  },
+  "analysis": {
+    "totalSnapshots": 17,
+    "timeSpan": {
+      "start": "2024-12-04T17:34:04.297Z",
+      "end": "2024-12-04T18:34:59.708Z",
+      "durationMinutes": 60.923516666666664
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 1.93,
+        "to": 2.09,
+        "change": 0.15999999999999992,
+        "changePercent": "8.29",
+        "time": "2024-12-04T17:55:08.287Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "MEDIUM",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.15999999999999992,
+          "from": 1.93,
+          "to": 2.09,
+          "time": "2024-12-04T17:55:08.287Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733333644297,
+      "readableDate": "2024-12-04T17:34:04.297Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.89,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.89,
+        "oddsAway": 1.93,
+        "ts": 1733333644289
+      }
+    },
+    {
+      "timestamp": 1733334908287,
+      "readableDate": "2024-12-04T17:55:08.287Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733334908275
+      }
+    },
+    {
+      "timestamp": 1733335004480,
+      "readableDate": "2024-12-04T17:56:44.480Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335004455
+      }
+    },
+    {
+      "timestamp": 1733335082900,
+      "readableDate": "2024-12-04T17:58:02.900Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335082892
+      }
+    },
+    {
+      "timestamp": 1733335109964,
+      "readableDate": "2024-12-04T17:58:29.964Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335109956
+      }
+    },
+    {
+      "timestamp": 1733335181978,
+      "readableDate": "2024-12-04T17:59:41.978Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335181972
+      }
+    },
+    {
+      "timestamp": 1733335232343,
+      "readableDate": "2024-12-04T18:00:32.343Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335232338
+      }
+    },
+    {
+      "timestamp": 1733335292773,
+      "readableDate": "2024-12-04T18:01:32.773Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335292747
+      }
+    },
+    {
+      "timestamp": 1733335401019,
+      "readableDate": "2024-12-04T18:03:21.019Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335401007
+      }
+    },
+    {
+      "timestamp": 1733335739568,
+      "readableDate": "2024-12-04T18:08:59.568Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335739560
+      }
+    },
+    {
+      "timestamp": 1733335785461,
+      "readableDate": "2024-12-04T18:09:45.461Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335785454
+      }
+    },
+    {
+      "timestamp": 1733335818129,
+      "readableDate": "2024-12-04T18:10:18.129Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335818123
+      }
+    },
+    {
+      "timestamp": 1733335852299,
+      "readableDate": "2024-12-04T18:10:52.299Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733335852293
+      }
+    },
+    {
+      "timestamp": 1733336136108,
+      "readableDate": "2024-12-04T18:15:36.108Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733336136102
+      }
+    },
+    {
+      "timestamp": 1733336223100,
+      "readableDate": "2024-12-04T18:17:03.100Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1733336223090
+      }
+    },
+    {
+      "timestamp": 1733336579253,
+      "readableDate": "2024-12-04T18:22:59.253Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.78,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.78,
+        "oddsAway": 2.05,
+        "ts": 1733336579252
+      }
+    },
+    {
+      "timestamp": 1733337299708,
+      "readableDate": "2024-12-04T18:34:59.708Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4780",
+        "home": "Southampton",
+        "away": "Chelsea",
+        "date": "2024-12-05",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1733337299706
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.417Z",
+    "totalSnapshots": 17,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

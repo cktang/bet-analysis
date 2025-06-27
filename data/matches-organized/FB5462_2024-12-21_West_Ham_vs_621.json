@@ -1,0 +1,36 @@
+{
+  "matchInfo": {
+    "id": "FB5462",
+    "home": "West Ham",
+    "away": "621",
+    "date": "2024-12-21",
+    "matchKey": "FB5462_2024-12-21_West_Ham_vs_621"
+  },
+  "analysis": null,
+  "oddsTimeline": [
+    {
+      "timestamp": 1734707287856,
+      "readableDate": "2024-12-20T15:08:07.856Z",
+      "ahHome": null,
+      "ahAway": 0.25,
+      "oddsHome": null,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB5462",
+        "home": "West Ham",
+        "away": "621",
+        "date": "2024-12-21",
+        "ahHome": null,
+        "ahAway": 0.25,
+        "oddsHome": null,
+        "oddsAway": 1.98,
+        "ts": 1734707287853
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.420Z",
+    "totalSnapshots": 1,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

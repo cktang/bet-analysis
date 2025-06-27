@@ -1,0 +1,21 @@
+{
+  "strategy": {
+    "name": "Single_fallingGiantOverconfidence",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "((timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.home.cumulative.overall.goalDifference || 0) < 0 && preMatch.enhanced.homeImpliedProb > 65) ? 1 : 0"
+    ],
+    "hypothesis": "Market overconfident in struggling big teams predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalStaked": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "roi": "0.00%",
+    "generatedAt": "2025-06-26T16:34:56.285Z"
+  },
+  "bettingRecords": []
+}

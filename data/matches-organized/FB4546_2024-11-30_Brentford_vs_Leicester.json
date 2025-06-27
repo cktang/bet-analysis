@@ -1,0 +1,361 @@
+{
+  "matchInfo": {
+    "id": "FB4546",
+    "home": "Brentford",
+    "away": "Leicester",
+    "date": "2024-11-30",
+    "matchKey": "FB4546_2024-11-30_Brentford_vs_Leicester"
+  },
+  "analysis": {
+    "totalSnapshots": 15,
+    "timeSpan": {
+      "start": "2024-11-28T16:57:48.266Z",
+      "end": "2024-11-30T14:39:57.433Z",
+      "durationMinutes": 2742.152783333333
+    },
+    "handicapMovements": [
+      {
+        "from": 0.75,
+        "to": 1,
+        "change": 0.25,
+        "time": "2024-11-30T14:06:58.084Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2,
+        "to": 2.08,
+        "change": 0.08000000000000007,
+        "changePercent": "4.00",
+        "time": "2024-11-30T11:41:57.665Z"
+      },
+      {
+        "from": 2.14,
+        "to": 2.03,
+        "change": -0.11000000000000032,
+        "changePercent": "-5.14",
+        "time": "2024-11-30T11:54:58.236Z"
+      },
+      {
+        "from": 2.03,
+        "to": 2.12,
+        "change": 0.0900000000000003,
+        "changePercent": "4.43",
+        "time": "2024-11-30T12:45:58.631Z"
+      },
+      {
+        "from": 2.14,
+        "to": 1.88,
+        "change": -0.26000000000000023,
+        "changePercent": "-12.15",
+        "time": "2024-11-30T14:06:58.084Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "MEDIUM",
+      "trappedInQuarter": false,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.26000000000000023,
+          "from": 2.14,
+          "to": 1.88,
+          "time": "2024-11-30T14:06:58.084Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732813068266,
+      "readableDate": "2024-11-28T16:57:48.266Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1732813068261
+      }
+    },
+    {
+      "timestamp": 1732815755565,
+      "readableDate": "2024-11-28T17:42:35.565Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1732815755557
+      }
+    },
+    {
+      "timestamp": 1732815799414,
+      "readableDate": "2024-11-28T17:43:19.414Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1732815799407
+      }
+    },
+    {
+      "timestamp": 1732843021592,
+      "readableDate": "2024-11-29T01:17:01.592Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1732843021586
+      }
+    },
+    {
+      "timestamp": 1732939498289,
+      "readableDate": "2024-11-30T04:04:58.289Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.85,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.85,
+        "oddsAway": 1.97,
+        "ts": 1732939498288
+      }
+    },
+    {
+      "timestamp": 1732963977306,
+      "readableDate": "2024-11-30T10:52:57.306Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1732963977306
+      }
+    },
+    {
+      "timestamp": 1732966917665,
+      "readableDate": "2024-11-30T11:41:57.665Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1732966917664
+      }
+    },
+    {
+      "timestamp": 1732967518141,
+      "readableDate": "2024-11-30T11:51:58.141Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.11,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.11,
+        "ts": 1732967518141
+      }
+    },
+    {
+      "timestamp": 1732967578189,
+      "readableDate": "2024-11-30T11:52:58.189Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.14,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.14,
+        "ts": 1732967578188
+      }
+    },
+    {
+      "timestamp": 1732967698236,
+      "readableDate": "2024-11-30T11:54:58.236Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1732967698236
+      }
+    },
+    {
+      "timestamp": 1732970758631,
+      "readableDate": "2024-11-30T12:45:58.631Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.73,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.73,
+        "oddsAway": 2.12,
+        "ts": 1732970758630
+      }
+    },
+    {
+      "timestamp": 1732973938822,
+      "readableDate": "2024-11-30T13:38:58.822Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.14,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.14,
+        "ts": 1732973938822
+      }
+    },
+    {
+      "timestamp": 1732975618084,
+      "readableDate": "2024-11-30T14:06:58.084Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1732975618083
+      }
+    },
+    {
+      "timestamp": 1732977359262,
+      "readableDate": "2024-11-30T14:35:59.262Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1732977359257
+      }
+    },
+    {
+      "timestamp": 1732977597433,
+      "readableDate": "2024-11-30T14:39:57.433Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4546",
+        "home": "Brentford",
+        "away": "Leicester",
+        "date": "2024-11-30",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1732977597432
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.416Z",
+    "totalSnapshots": 15,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

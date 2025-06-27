@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3592",
+    "home": "Liverpool",
+    "away": "Aston Villa",
+    "date": "2024-11-10",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.68,
+    "oddsAway": 2.08,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "6",
+    "live": "1st",
+    "ts": 1731185251952
+  }
+]

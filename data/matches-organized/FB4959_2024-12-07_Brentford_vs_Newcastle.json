@@ -1,0 +1,251 @@
+{
+  "matchInfo": {
+    "id": "FB4959",
+    "home": "Brentford",
+    "away": "Newcastle",
+    "date": "2024-12-07",
+    "matchKey": "FB4959_2024-12-07_Brentford_vs_Newcastle"
+  },
+  "analysis": {
+    "totalSnapshots": 10,
+    "timeSpan": {
+      "start": "2024-12-06T13:11:49.799Z",
+      "end": "2024-12-07T14:42:46.892Z",
+      "durationMinutes": 1530.95155
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 1.91,
+        "to": 1.96,
+        "change": 0.050000000000000044,
+        "changePercent": "2.62",
+        "time": "2024-12-07T04:19:45.448Z"
+      },
+      {
+        "from": 1.95,
+        "to": 2.06,
+        "change": 0.1100000000000001,
+        "changePercent": "5.64",
+        "time": "2024-12-07T11:18:44.754Z"
+      },
+      {
+        "from": 2.08,
+        "to": 2.03,
+        "change": -0.050000000000000266,
+        "changePercent": "-2.40",
+        "time": "2024-12-07T11:32:45.497Z"
+      },
+      {
+        "from": 2.07,
+        "to": 1.95,
+        "change": -0.11999999999999988,
+        "changePercent": "-5.80",
+        "time": "2024-12-07T14:11:45.975Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733490709799,
+      "readableDate": "2024-12-06T13:11:49.799Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1733490709779
+      }
+    },
+    {
+      "timestamp": 1733545185448,
+      "readableDate": "2024-12-07T04:19:45.448Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.96,
+        "ts": 1733545185445
+      }
+    },
+    {
+      "timestamp": 1733552565115,
+      "readableDate": "2024-12-07T06:22:45.115Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1733552565114
+      }
+    },
+    {
+      "timestamp": 1733570324754,
+      "readableDate": "2024-12-07T11:18:44.754Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.78,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.78,
+        "oddsAway": 2.06,
+        "ts": 1733570324753
+      }
+    },
+    {
+      "timestamp": 1733570384805,
+      "readableDate": "2024-12-07T11:19:44.805Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1733570384805
+      }
+    },
+    {
+      "timestamp": 1733571165497,
+      "readableDate": "2024-12-07T11:32:45.497Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1733571165496
+      }
+    },
+    {
+      "timestamp": 1733574045654,
+      "readableDate": "2024-12-07T12:20:45.654Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.77,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.77,
+        "oddsAway": 2.07,
+        "ts": 1733574045654
+      }
+    },
+    {
+      "timestamp": 1733580705975,
+      "readableDate": "2024-12-07T14:11:45.975Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1733580705973
+      }
+    },
+    {
+      "timestamp": 1733582084662,
+      "readableDate": "2024-12-07T14:34:44.662Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.9,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.9,
+        "oddsAway": 1.92,
+        "ts": 1733582084660
+      }
+    },
+    {
+      "timestamp": 1733582566892,
+      "readableDate": "2024-12-07T14:42:46.892Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB4959",
+        "home": "Brentford",
+        "away": "Newcastle",
+        "date": "2024-12-07",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.9,
+        "ts": 1733582566889
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.418Z",
+    "totalSnapshots": 10,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

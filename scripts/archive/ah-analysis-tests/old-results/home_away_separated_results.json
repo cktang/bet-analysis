@@ -1,0 +1,1004 @@
+{
+  "summary": {
+    "strategy": "Home vs Away Separated Analysis",
+    "totalHomeBets": 432,
+    "totalAwayBets": 439,
+    "totalHomeStaked": 854700,
+    "totalAwayStaked": 866300,
+    "totalHomeProfit": "21889.25",
+    "totalAwayProfit": "-53220.50",
+    "homeROI": "2.56",
+    "awayROI": "-6.14",
+    "generatedAt": "2025-06-26T17:42:15.887Z"
+  },
+  "weeklyBreakdown": {
+    "1": {
+      "home": {
+        "bets": 12,
+        "staked": 20100,
+        "profit": -1745.5000000000005,
+        "wins": 5,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 11,
+        "staked": 23200,
+        "profit": 3972.0000000000005,
+        "wins": 6,
+        "losses": 5,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 43300,
+        "profit": 2226.4999999999995,
+        "wins": 11,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "2": {
+      "home": {
+        "bets": 14,
+        "staked": 26500,
+        "profit": 10986,
+        "wins": 9,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 9,
+        "staked": 15000,
+        "profit": 4454.000000000001,
+        "wins": 4,
+        "losses": 5,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 41500,
+        "profit": 15440,
+        "wins": 13,
+        "losses": 10,
+        "pushes": 0
+      }
+    },
+    "3": {
+      "home": {
+        "bets": 16,
+        "staked": 29900,
+        "profit": -15659.5,
+        "wins": 5,
+        "losses": 11,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 8,
+        "staked": 17650,
+        "profit": 9719.5,
+        "wins": 5,
+        "losses": 3,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 47550,
+        "profit": -5940,
+        "wins": 10,
+        "losses": 14,
+        "pushes": 0
+      }
+    },
+    "4": {
+      "home": {
+        "bets": 10,
+        "staked": 21950,
+        "profit": -7626.5,
+        "wins": 2,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 23600,
+        "profit": 3284.500000000001,
+        "wins": 5,
+        "losses": 8,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 45550,
+        "profit": -4341.999999999998,
+        "wins": 7,
+        "losses": 16,
+        "pushes": 0
+      }
+    },
+    "5": {
+      "home": {
+        "bets": 8,
+        "staked": 15100,
+        "profit": -187.00000000000045,
+        "wins": 3,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 18,
+        "staked": 30750,
+        "profit": -7780.5,
+        "wins": 5,
+        "losses": 13,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 45850,
+        "profit": -7967.5,
+        "wins": 8,
+        "losses": 18,
+        "pushes": 0
+      }
+    },
+    "6": {
+      "home": {
+        "bets": 9,
+        "staked": 21750,
+        "profit": 2970,
+        "wins": 4,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 15,
+        "staked": 27300,
+        "profit": 5772.5,
+        "wins": 8,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 49050,
+        "profit": 8742.5,
+        "wins": 12,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "7": {
+      "home": {
+        "bets": 12,
+        "staked": 21750,
+        "profit": 19047.5,
+        "wins": 9,
+        "losses": 3,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 20900,
+        "profit": 1154,
+        "wins": 4,
+        "losses": 6,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 22,
+        "staked": 42650,
+        "profit": 20201.5,
+        "wins": 13,
+        "losses": 9,
+        "pushes": 0
+      }
+    },
+    "8": {
+      "home": {
+        "bets": 9,
+        "staked": 18600,
+        "profit": 2136.9999999999995,
+        "wins": 6,
+        "losses": 3,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 15,
+        "staked": 30900,
+        "profit": 5695.5,
+        "wins": 7,
+        "losses": 8,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 49500,
+        "profit": 7832.5,
+        "wins": 13,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "9": {
+      "home": {
+        "bets": 16,
+        "staked": 29150,
+        "profit": 5492,
+        "wins": 8,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 18200,
+        "profit": -3707.0000000000005,
+        "wins": 3,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 47350,
+        "profit": 1785,
+        "wins": 11,
+        "losses": 15,
+        "pushes": 0
+      }
+    },
+    "10": {
+      "home": {
+        "bets": 8,
+        "staked": 20950,
+        "profit": 12369,
+        "wins": 6,
+        "losses": 2,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 32300,
+        "profit": -21080,
+        "wins": 3,
+        "losses": 10,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 21,
+        "staked": 53250,
+        "profit": -8711.000000000004,
+        "wins": 9,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "11": {
+      "home": {
+        "bets": 9,
+        "staked": 14550,
+        "profit": 4651.5,
+        "wins": 6,
+        "losses": 3,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 15,
+        "staked": 28800,
+        "profit": -3735.5,
+        "wins": 6,
+        "losses": 9,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 43350,
+        "profit": 916,
+        "wins": 12,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "12": {
+      "home": {
+        "bets": 14,
+        "staked": 24400,
+        "profit": 1423.4999999999995,
+        "wins": 7,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 12,
+        "staked": 23100,
+        "profit": -16229,
+        "wins": 2,
+        "losses": 10,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 47500,
+        "profit": -14805.5,
+        "wins": 9,
+        "losses": 17,
+        "pushes": 0
+      }
+    },
+    "13": {
+      "home": {
+        "bets": 10,
+        "staked": 19400,
+        "profit": -13169,
+        "wins": 2,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 12,
+        "staked": 25800,
+        "profit": -9722.5,
+        "wins": 4,
+        "losses": 8,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 22,
+        "staked": 45200,
+        "profit": -22891.5,
+        "wins": 6,
+        "losses": 16,
+        "pushes": 0
+      }
+    },
+    "14": {
+      "home": {
+        "bets": 10,
+        "staked": 20300,
+        "profit": 8499.25,
+        "wins": 7,
+        "losses": 3,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 14,
+        "staked": 29800,
+        "profit": -13578,
+        "wins": 3,
+        "losses": 11,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 50100,
+        "profit": -5078.75,
+        "wins": 10,
+        "losses": 14,
+        "pushes": 0
+      }
+    },
+    "15": {
+      "home": {
+        "bets": 17,
+        "staked": 32500,
+        "profit": 6136.5,
+        "wins": 9,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 9,
+        "staked": 16200,
+        "profit": 5635.499999999998,
+        "wins": 6,
+        "losses": 3,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 48700,
+        "profit": 11772,
+        "wins": 15,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "16": {
+      "home": {
+        "bets": 12,
+        "staked": 22500,
+        "profit": -5651,
+        "wins": 4,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 14,
+        "staked": 27550,
+        "profit": -940.5,
+        "wins": 5,
+        "losses": 9,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 50050,
+        "profit": -6591.5,
+        "wins": 9,
+        "losses": 17,
+        "pushes": 0
+      }
+    },
+    "17": {
+      "home": {
+        "bets": 16,
+        "staked": 32750,
+        "profit": -3483.5,
+        "wins": 6,
+        "losses": 10,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 4,
+        "staked": 2150,
+        "profit": 1642,
+        "wins": 3,
+        "losses": 1,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 20,
+        "staked": 34900,
+        "profit": -1841.5,
+        "wins": 9,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "18": {
+      "home": {
+        "bets": 7,
+        "staked": 11450,
+        "profit": 639.4999999999995,
+        "wins": 3,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 16,
+        "staked": 30650,
+        "profit": -649.5000000000014,
+        "wins": 7,
+        "losses": 9,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 42100,
+        "profit": -10,
+        "wins": 10,
+        "losses": 13,
+        "pushes": 0
+      }
+    },
+    "19": {
+      "home": {
+        "bets": 14,
+        "staked": 27400,
+        "profit": -11209.5,
+        "wins": 4,
+        "losses": 10,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 5,
+        "staked": 9850,
+        "profit": 9535,
+        "wins": 4,
+        "losses": 1,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 19,
+        "staked": 37250,
+        "profit": -1674.5000000000005,
+        "wins": 8,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "20": {
+      "home": {
+        "bets": 10,
+        "staked": 24650,
+        "profit": -253.5,
+        "wins": 4,
+        "losses": 6,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 7,
+        "staked": 17150,
+        "profit": -14675,
+        "wins": 1,
+        "losses": 6,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 17,
+        "staked": 41800,
+        "profit": -14928.5,
+        "wins": 5,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "21": {
+      "home": {
+        "bets": 13,
+        "staked": 27500,
+        "profit": -9041,
+        "wins": 6,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 20750,
+        "profit": -1108.25,
+        "wins": 5,
+        "losses": 5,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 48250,
+        "profit": -10149.25,
+        "wins": 11,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "22": {
+      "home": {
+        "bets": 6,
+        "staked": 13350,
+        "profit": -6015,
+        "wins": 2,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 17,
+        "staked": 37000,
+        "profit": -13432.25,
+        "wins": 6,
+        "losses": 11,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 50350,
+        "profit": -19447.25,
+        "wins": 8,
+        "losses": 15,
+        "pushes": 0
+      }
+    },
+    "23": {
+      "home": {
+        "bets": 15,
+        "staked": 30300,
+        "profit": -18.75,
+        "wins": 8,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 9,
+        "staked": 21450,
+        "profit": 10663,
+        "wins": 6,
+        "losses": 3,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 51750,
+        "profit": 10644.25,
+        "wins": 14,
+        "losses": 10,
+        "pushes": 0
+      }
+    },
+    "24": {
+      "home": {
+        "bets": 9,
+        "staked": 18900,
+        "profit": -5981.999999999999,
+        "wins": 2,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 19700,
+        "profit": 624,
+        "wins": 6,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 22,
+        "staked": 38600,
+        "profit": -5357.999999999999,
+        "wins": 8,
+        "losses": 14,
+        "pushes": 0
+      }
+    },
+    "25": {
+      "home": {
+        "bets": 14,
+        "staked": 26650,
+        "profit": 498.5000000000009,
+        "wins": 6,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 19100,
+        "profit": 5350,
+        "wins": 5,
+        "losses": 5,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 24,
+        "staked": 45750,
+        "profit": 5848.500000000001,
+        "wins": 11,
+        "losses": 13,
+        "pushes": 0
+      }
+    },
+    "26": {
+      "home": {
+        "bets": 12,
+        "staked": 25200,
+        "profit": 7981.5,
+        "wins": 7,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 24500,
+        "profit": 5259,
+        "wins": 4,
+        "losses": 6,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 22,
+        "staked": 49700,
+        "profit": 13240.5,
+        "wins": 11,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "27": {
+      "home": {
+        "bets": 14,
+        "staked": 30250,
+        "profit": 5393,
+        "wins": 9,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 25250,
+        "profit": -224,
+        "wins": 6,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 27,
+        "staked": 55500,
+        "profit": 5169,
+        "wins": 15,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "28": {
+      "home": {
+        "bets": 15,
+        "staked": 27900,
+        "profit": 1115.500000000001,
+        "wins": 7,
+        "losses": 8,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 15350,
+        "profit": -12736,
+        "wins": 3,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 25,
+        "staked": 43250,
+        "profit": -11620.5,
+        "wins": 10,
+        "losses": 15,
+        "pushes": 0
+      }
+    },
+    "29": {
+      "home": {
+        "bets": 11,
+        "staked": 18100,
+        "profit": 6323.75,
+        "wins": 8,
+        "losses": 3,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 14,
+        "staked": 29800,
+        "profit": -4156.499999999999,
+        "wins": 5,
+        "losses": 9,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 25,
+        "staked": 47900,
+        "profit": 2167.250000000001,
+        "wins": 13,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "30": {
+      "home": {
+        "bets": 8,
+        "staked": 17500,
+        "profit": -2117,
+        "wins": 4,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 27950,
+        "profit": 8776,
+        "wins": 5,
+        "losses": 8,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 21,
+        "staked": 45450,
+        "profit": 6659,
+        "wins": 9,
+        "losses": 12,
+        "pushes": 0
+      }
+    },
+    "31": {
+      "home": {
+        "bets": 11,
+        "staked": 27250,
+        "profit": 5394.749999999999,
+        "wins": 6,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 12,
+        "staked": 30750,
+        "profit": -489.5000000000009,
+        "wins": 6,
+        "losses": 6,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 23,
+        "staked": 58000,
+        "profit": 4905.249999999998,
+        "wins": 12,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "32": {
+      "home": {
+        "bets": 11,
+        "staked": 25600,
+        "profit": -5624,
+        "wins": 5,
+        "losses": 6,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 8,
+        "staked": 17200,
+        "profit": -14725,
+        "wins": 1,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 19,
+        "staked": 42800,
+        "profit": -20349,
+        "wins": 6,
+        "losses": 13,
+        "pushes": 0
+      }
+    },
+    "33": {
+      "home": {
+        "bets": 8,
+        "staked": 13450,
+        "profit": -2296.5000000000005,
+        "wins": 4,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 13,
+        "staked": 29900,
+        "profit": 13820,
+        "wins": 8,
+        "losses": 5,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 21,
+        "staked": 43350,
+        "profit": 11523.500000000002,
+        "wins": 12,
+        "losses": 9,
+        "pushes": 0
+      }
+    },
+    "34": {
+      "home": {
+        "bets": 11,
+        "staked": 25000,
+        "profit": -9342,
+        "wins": 4,
+        "losses": 7,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 13250,
+        "profit": -3006,
+        "wins": 3,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 21,
+        "staked": 38250,
+        "profit": -12348,
+        "wins": 7,
+        "losses": 14,
+        "pushes": 0
+      }
+    },
+    "35": {
+      "home": {
+        "bets": 12,
+        "staked": 21300,
+        "profit": 13903,
+        "wins": 7,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 14,
+        "staked": 31300,
+        "profit": -5405,
+        "wins": 5,
+        "losses": 9,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 26,
+        "staked": 52600,
+        "profit": 8498,
+        "wins": 12,
+        "losses": 14,
+        "pushes": 0
+      }
+    },
+    "36": {
+      "home": {
+        "bets": 9,
+        "staked": 14250,
+        "profit": -3297.5000000000005,
+        "wins": 5,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 10,
+        "staked": 16850,
+        "profit": -4299.5,
+        "wins": 3,
+        "losses": 7,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 19,
+        "staked": 31100,
+        "profit": -7597,
+        "wins": 8,
+        "losses": 11,
+        "pushes": 0
+      }
+    },
+    "37": {
+      "home": {
+        "bets": 10,
+        "staked": 20300,
+        "profit": 7292.249999999999,
+        "wins": 6,
+        "losses": 4,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 12,
+        "staked": 16950,
+        "profit": 3745.499999999998,
+        "wins": 6,
+        "losses": 6,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 22,
+        "staked": 37250,
+        "profit": 11037.749999999998,
+        "wins": 12,
+        "losses": 10,
+        "pushes": 0
+      }
+    },
+    "38": {
+      "home": {
+        "bets": 10,
+        "staked": 16250,
+        "profit": 2354.0000000000005,
+        "wins": 5,
+        "losses": 5,
+        "pushes": 0
+      },
+      "away": {
+        "bets": 11,
+        "staked": 18400,
+        "profit": -643,
+        "wins": 7,
+        "losses": 4,
+        "pushes": 0
+      },
+      "total": {
+        "bets": 21,
+        "staked": 34650,
+        "profit": 1711.0000000000005,
+        "wins": 12,
+        "losses": 9,
+        "pushes": 0
+      }
+    }
+  }
+}

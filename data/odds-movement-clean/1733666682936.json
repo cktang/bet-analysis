@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4983",
+    "home": "Fulham",
+    "away": "Arsenal",
+    "date": "2024-12-08",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.97,
+    "oddsAway": 1.76,
+    "ts": 1733666682935,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "1",
+    "live": "1st"
+  }
+]

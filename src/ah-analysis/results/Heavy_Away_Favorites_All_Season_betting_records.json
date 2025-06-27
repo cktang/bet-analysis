@@ -1,7 +1,7 @@
 {
   "strategy": {
     "name": "Heavy_Away_Favorites_All_Season",
-    "roi": "19.33%",
+    "roi": "74.61%",
     "correlation": "0.0214",
     "factors": [
       "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 2 ? 1 : 0"
@@ -11,9 +11,11 @@
   },
   "summary": {
     "totalBets": 6,
-    "totalProfit": 116,
+    "totalStaked": 3450,
+    "totalProfit": 2574,
     "winRate": "66.7%",
-    "generatedAt": "2025-06-25T14:07:41.411Z"
+    "roi": "74.61%",
+    "generatedAt": "2025-06-26T16:34:52.490Z"
   },
   "bettingRecords": [
     {
@@ -24,7 +26,8 @@
       "handicapLine": "+2",
       "betSide": "Home",
       "betOdds": "1.92",
-      "profit": "92",
+      "betSize": "350",
+      "profit": "322",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -52,7 +55,8 @@
       "handicapLine": "+2",
       "betSide": "Home",
       "betOdds": "1.75",
-      "profit": "75",
+      "betSize": "200",
+      "profit": "150",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -80,7 +84,8 @@
       "handicapLine": "+2",
       "betSide": "Home",
       "betOdds": "1.85",
-      "profit": "-100",
+      "betSize": "200",
+      "profit": "-200",
       "outcome": "Loss",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -108,7 +113,8 @@
       "handicapLine": "+2/+2.5",
       "betSide": "Home",
       "betOdds": "1.74",
-      "profit": "-100",
+      "betSize": "200",
+      "profit": "-200",
       "outcome": "Loss",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -135,7 +141,7 @@
           "Loss",
           "Loss"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     },
     {
@@ -146,7 +152,8 @@
       "handicapLine": "+2/+2.5",
       "betSide": "Home",
       "betOdds": "1.87",
-      "profit": "44",
+      "betSize": "200",
+      "profit": "87",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -173,7 +180,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     },
     {
@@ -184,7 +191,8 @@
       "handicapLine": "+2",
       "betSide": "Home",
       "betOdds": "2.05",
-      "profit": "105",
+      "betSize": "2300",
+      "profit": "2415",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [

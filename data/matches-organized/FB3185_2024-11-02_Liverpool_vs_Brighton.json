@@ -1,0 +1,287 @@
+{
+  "matchInfo": {
+    "id": "FB3185",
+    "home": "Liverpool",
+    "away": "Brighton",
+    "date": "2024-11-02",
+    "matchKey": "FB3185_2024-11-02_Liverpool_vs_Brighton"
+  },
+  "analysis": {
+    "totalSnapshots": 13,
+    "timeSpan": {
+      "start": "2024-11-01T20:26:31.466Z",
+      "end": "2024-11-02T14:26:32.632Z",
+      "durationMinutes": 1080.0194333333334
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 2.1,
+        "to": 2.17,
+        "change": 0.06999999999999984,
+        "changePercent": "3.33",
+        "time": "2024-11-02T05:07:12.799Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1730492791466,
+      "readableDate": "2024-11-01T20:26:31.466Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.06,
+        "ts": 1730492791459
+      }
+    },
+    {
+      "timestamp": 1730492817092,
+      "readableDate": "2024-11-01T20:26:57.092Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.06,
+        "ts": 1730492817089
+      }
+    },
+    {
+      "timestamp": 1730492835668,
+      "readableDate": "2024-11-01T20:27:15.668Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.06,
+        "ts": 1730492835664
+      }
+    },
+    {
+      "timestamp": 1730519953716,
+      "readableDate": "2024-11-02T03:59:13.716Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.1,
+        "ts": 1730519953716
+      }
+    },
+    {
+      "timestamp": 1730524032799,
+      "readableDate": "2024-11-02T05:07:12.799Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.17,
+        "ts": 1730524032799
+      }
+    },
+    {
+      "timestamp": 1730540953706,
+      "readableDate": "2024-11-02T09:49:13.706Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.12,
+        "ts": 1730540953705
+      }
+    },
+    {
+      "timestamp": 1730554092473,
+      "readableDate": "2024-11-02T13:28:12.473Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730554092472
+      }
+    },
+    {
+      "timestamp": 1730554752981,
+      "readableDate": "2024-11-02T13:39:12.981Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.77,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.77,
+        "oddsAway": 2.07,
+        "ts": 1730554752981
+      }
+    },
+    {
+      "timestamp": 1730556792521,
+      "readableDate": "2024-11-02T14:13:12.521Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730556792521
+      }
+    },
+    {
+      "timestamp": 1730556883070,
+      "readableDate": "2024-11-02T14:14:43.070Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730556883061
+      }
+    },
+    {
+      "timestamp": 1730557005873,
+      "readableDate": "2024-11-02T14:16:45.873Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730557005861
+      }
+    },
+    {
+      "timestamp": 1730557550369,
+      "readableDate": "2024-11-02T14:25:50.369Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730557550356
+      }
+    },
+    {
+      "timestamp": 1730557592632,
+      "readableDate": "2024-11-02T14:26:32.632Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3185",
+        "home": "Liverpool",
+        "away": "Brighton",
+        "date": "2024-11-02",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 2.09,
+        "ts": 1730557592627
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.412Z",
+    "totalSnapshots": 13,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "matchInfo": {
+    "id": "FB5679",
+    "home": "Tottenham",
+    "away": "622",
+    "date": "2024-12-29",
+    "matchKey": "FB5679_2024-12-29_Tottenham_vs_622"
+  },
+  "analysis": null,
+  "oddsTimeline": [
+    {
+      "timestamp": 1735468769551,
+      "readableDate": "2024-12-29T10:39:29.551Z",
+      "ahHome": null,
+      "ahAway": -0.75,
+      "oddsHome": null,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB5679",
+        "home": "Tottenham",
+        "away": "622",
+        "date": "2024-12-29",
+        "ahHome": null,
+        "ahAway": -0.75,
+        "oddsHome": null,
+        "oddsAway": 2.03,
+        "ts": 1735468769547
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.420Z",
+    "totalSnapshots": 1,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

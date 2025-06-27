@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4800",
+    "home": "Bournemouth",
+    "away": "Tottenham",
+    "date": "2024-12-06",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.76,
+    "oddsAway": 1.97,
+    "ts": 1733432098431,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "6",
+    "live": "1st"
+  }
+]

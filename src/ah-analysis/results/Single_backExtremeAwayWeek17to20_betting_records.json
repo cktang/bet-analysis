@@ -1,0 +1,134 @@
+{
+  "strategy": {
+    "name": "Single_backExtremeAwayWeek17to20",
+    "roi": "48.00%",
+    "correlation": "0.0300",
+    "factors": [
+      "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+    ],
+    "hypothesis": "Back extreme away favorites weeks 17-20 - Christmas period predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 3,
+    "totalProfit": 144,
+    "winRate": "100.0%",
+    "generatedAt": "2025-06-25T18:56:51.563Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-12-28T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Away",
+      "betOdds": "1.82",
+      "profit": "41",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 19"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0300",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-26T16:00:00.000Z",
+      "homeTeam": "Burnley",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Away",
+      "betOdds": "2.19",
+      "profit": "60",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 19"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0300",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2022-12-28T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Manchester City",
+      "score": "1-3",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Away",
+      "betOdds": "1.85",
+      "profit": "43",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 17"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 17 && fbref.week <= 20 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0300",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

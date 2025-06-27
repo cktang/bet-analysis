@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3943",
+    "home": "Manchester City",
+    "away": "Tottenham",
+    "date": "2024-11-24",
+    "ahHome": 2.75,
+    "ahAway": -2.75,
+    "oddsHome": 1.74,
+    "oddsAway": 1.99,
+    "ts": 1732389060459,
+    "homeScore": "0",
+    "awayScore": "3",
+    "totalCorner": "9",
+    "live": "2nd"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "FB5678",
+    "home": "Leicester",
+    "away": "621",
+    "date": "2024-12-29",
+    "ahHome": null,
+    "ahAway": 1.75,
+    "oddsHome": null,
+    "oddsAway": 1.94,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5679",
+    "home": "Tottenham",
+    "away": "622",
+    "date": "2024-12-29",
+    "ahHome": null,
+    "ahAway": -0.75,
+    "oddsHome": null,
+    "oddsAway": 2.03,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5680",
+    "home": "Everton",
+    "away": "623",
+    "date": "2024-12-29",
+    "ahHome": null,
+    "ahAway": 0,
+    "oddsHome": 0,
+    "oddsAway": 1.88,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5677",
+    "home": "Crystal Palace",
+    "away": "625",
+    "date": "2024-12-29",
+    "ahHome": null,
+    "ahAway": -1,
+    "oddsHome": 1,
+    "oddsAway": 1.92,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5681",
+    "home": "Fulham",
+    "away": "624",
+    "date": "2024-12-29",
+    "ahHome": null,
+    "ahAway": -0.25,
+    "oddsHome": null,
+    "oddsAway": 1.81,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5683",
+    "home": "West Ham",
+    "away": "621",
+    "date": "2024-12-30",
+    "ahHome": null,
+    "ahAway": 1.25,
+    "oddsHome": null,
+    "oddsAway": 1.7,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5723",
+    "home": "Aston Villa",
+    "away": "624",
+    "date": "2024-12-31",
+    "ahHome": null,
+    "ahAway": -0.25,
+    "oddsHome": null,
+    "oddsAway": 2.07,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5721",
+    "home": "Ipswich",
+    "away": "623",
+    "date": "2024-12-31",
+    "ahHome": null,
+    "ahAway": 1.25,
+    "oddsHome": null,
+    "oddsAway": 1.84,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5682",
+    "home": "Manchester Utd",
+    "away": "621",
+    "date": "2024-12-31",
+    "ahHome": null,
+    "ahAway": 0,
+    "oddsHome": 0,
+    "oddsAway": 1.81,
+    "ts": 1735468769547
+  },
+  {
+    "id": "FB5722",
+    "home": "Brentford",
+    "away": "621",
+    "date": "2025-01-02",
+    "ahHome": null,
+    "ahAway": 1.25,
+    "oddsHome": null,
+    "oddsAway": 1.88,
+    "ts": 1735468769547
+  }
+]

@@ -1,0 +1,744 @@
+{
+  "matchInfo": {
+    "id": "FB3673",
+    "home": "Tottenham",
+    "away": "Ipswich",
+    "date": "2024-11-10",
+    "matchKey": "FB3673_2024-11-10_Tottenham_vs_Ipswich"
+  },
+  "analysis": {
+    "totalSnapshots": 26,
+    "timeSpan": {
+      "start": "2024-11-08T17:59:25.503Z",
+      "end": "2024-11-10T14:53:54.448Z",
+      "durationMinutes": 2694.4824166666667
+    },
+    "handicapMovements": [
+      {
+        "from": 1.75,
+        "to": 2,
+        "change": 0.25,
+        "time": "2024-11-10T08:49:31.110Z"
+      },
+      {
+        "from": 2,
+        "to": 1.75,
+        "change": -0.25,
+        "time": "2024-11-10T11:43:30.500Z"
+      },
+      {
+        "from": 1.75,
+        "to": 2,
+        "change": 0.25,
+        "time": "2024-11-10T14:02:30.220Z"
+      },
+      {
+        "from": 2,
+        "to": 1.75,
+        "change": -0.25,
+        "time": "2024-11-10T14:04:30.266Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-11-10T14:21:28.957Z"
+      },
+      {
+        "from": 1.25,
+        "to": -0.75,
+        "change": -2,
+        "time": "2024-11-10T14:48:58.631Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2.02,
+        "to": 2.08,
+        "change": 0.06000000000000005,
+        "changePercent": "2.97",
+        "time": "2024-11-10T05:48:30.177Z"
+      },
+      {
+        "from": 2.08,
+        "to": 1.91,
+        "change": -0.17000000000000015,
+        "changePercent": "-8.17",
+        "time": "2024-11-10T08:49:31.110Z"
+      },
+      {
+        "from": 1.85,
+        "to": 2.05,
+        "change": 0.19999999999999973,
+        "changePercent": "10.81",
+        "time": "2024-11-10T11:43:30.500Z"
+      },
+      {
+        "from": 2.05,
+        "to": 2.11,
+        "change": 0.06000000000000005,
+        "changePercent": "2.93",
+        "time": "2024-11-10T12:55:29.728Z"
+      },
+      {
+        "from": 2.08,
+        "to": 1.76,
+        "change": -0.32000000000000006,
+        "changePercent": "-15.38",
+        "time": "2024-11-10T14:02:30.220Z"
+      },
+      {
+        "from": 1.76,
+        "to": 1.92,
+        "change": 0.15999999999999992,
+        "changePercent": "9.09",
+        "time": "2024-11-10T14:04:30.266Z"
+      },
+      {
+        "from": 1.81,
+        "to": 1.75,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.31",
+        "time": "2024-11-10T14:14:30.670Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.7,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.86",
+        "time": "2024-11-10T14:17:30.795Z"
+      },
+      {
+        "from": 1.66,
+        "to": 2.1,
+        "change": 0.44000000000000017,
+        "changePercent": "26.51",
+        "time": "2024-11-10T14:21:28.957Z"
+      },
+      {
+        "from": 2.07,
+        "to": 2,
+        "change": -0.06999999999999984,
+        "changePercent": "-3.38",
+        "time": "2024-11-10T14:26:29.189Z"
+      },
+      {
+        "from": 2,
+        "to": 1.95,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.50",
+        "time": "2024-11-10T14:29:29.421Z"
+      },
+      {
+        "from": 1.96,
+        "to": 1.9,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.06",
+        "time": "2024-11-10T14:52:26.385Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": false,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.17000000000000015,
+          "from": 2.08,
+          "to": 1.91,
+          "time": "2024-11-10T08:49:31.110Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.19999999999999973,
+          "from": 1.85,
+          "to": 2.05,
+          "time": "2024-11-10T11:43:30.500Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.32000000000000006,
+          "from": 2.08,
+          "to": 1.76,
+          "time": "2024-11-10T14:02:30.220Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.15999999999999992,
+          "from": 1.76,
+          "to": 1.92,
+          "time": "2024-11-10T14:04:30.266Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.44000000000000017,
+          "from": 1.66,
+          "to": 2.1,
+          "time": "2024-11-10T14:21:28.957Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1731088765503,
+      "readableDate": "2024-11-08T17:59:25.503Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.79,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.79,
+        "oddsAway": 1.98,
+        "ts": 1731088765496
+      }
+    },
+    {
+      "timestamp": 1731211829724,
+      "readableDate": "2024-11-10T04:10:29.724Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.81,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.81,
+        "oddsAway": 2.02,
+        "ts": 1731211829724
+      }
+    },
+    {
+      "timestamp": 1731217710177,
+      "readableDate": "2024-11-10T05:48:30.177Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1731217710174
+      }
+    },
+    {
+      "timestamp": 1731228571110,
+      "readableDate": "2024-11-10T08:49:31.110Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1731228571106
+      }
+    },
+    {
+      "timestamp": 1731229529840,
+      "readableDate": "2024-11-10T09:05:29.840Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1731229529838
+      }
+    },
+    {
+      "timestamp": 1731232350006,
+      "readableDate": "2024-11-10T09:52:30.006Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.89,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.89,
+        "oddsAway": 1.93,
+        "ts": 1731232350004
+      }
+    },
+    {
+      "timestamp": 1731234511304,
+      "readableDate": "2024-11-10T10:28:31.304Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.92,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.92,
+        "oddsAway": 1.9,
+        "ts": 1731234511302
+      }
+    },
+    {
+      "timestamp": 1731238890416,
+      "readableDate": "2024-11-10T11:41:30.416Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1731238890413
+      }
+    },
+    {
+      "timestamp": 1731239010500,
+      "readableDate": "2024-11-10T11:43:30.500Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.78,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.78,
+        "oddsAway": 2.05,
+        "ts": 1731239010498
+      }
+    },
+    {
+      "timestamp": 1731243329728,
+      "readableDate": "2024-11-10T12:55:29.728Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.74,
+      "oddsAway": 2.11,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.74,
+        "oddsAway": 2.11,
+        "ts": 1731243329724
+      }
+    },
+    {
+      "timestamp": 1731245729297,
+      "readableDate": "2024-11-10T13:35:29.297Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1731245729296
+      }
+    },
+    {
+      "timestamp": 1731247350220,
+      "readableDate": "2024-11-10T14:02:30.220Z",
+      "ahHome": -2,
+      "ahAway": 2,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -2,
+        "ahAway": 2,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1731247350218,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731247470266,
+      "readableDate": "2024-11-10T14:04:30.266Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1731247470265,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731247650374,
+      "readableDate": "2024-11-10T14:07:30.374Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1731247650373,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731247830499,
+      "readableDate": "2024-11-10T14:10:30.499Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1731247830499,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731247950580,
+      "readableDate": "2024-11-10T14:12:30.580Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1731247950579,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248070670,
+      "readableDate": "2024-11-10T14:14:30.670Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.75,
+        "ts": 1731248070667,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248250795,
+      "readableDate": "2024-11-10T14:17:30.795Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1731248250794,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248428926,
+      "readableDate": "2024-11-10T14:20:28.926Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1731248428926,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248488957,
+      "readableDate": "2024-11-10T14:21:28.957Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1731248488957,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248609048,
+      "readableDate": "2024-11-10T14:23:29.048Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1731248609047,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248789189,
+      "readableDate": "2024-11-10T14:26:29.189Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1731248789188,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731248969421,
+      "readableDate": "2024-11-10T14:29:29.421Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1731248969421,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731250138631,
+      "readableDate": "2024-11-10T14:48:58.631Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1731250138628,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1731250346385,
+      "readableDate": "2024-11-10T14:52:26.385Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1731250346384,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1731250434448,
+      "readableDate": "2024-11-10T14:53:54.448Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3673",
+        "home": "Tottenham",
+        "away": "Ipswich",
+        "date": "2024-11-10",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 1.93,
+        "ts": 1731250434447,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "HT"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.414Z",
+    "totalSnapshots": 26,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

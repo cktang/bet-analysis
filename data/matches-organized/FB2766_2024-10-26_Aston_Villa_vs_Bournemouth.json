@@ -1,0 +1,818 @@
+{
+  "matchInfo": {
+    "id": "FB2766",
+    "home": "Aston Villa",
+    "away": "Bournemouth",
+    "date": "2024-10-26",
+    "matchKey": "FB2766_2024-10-26_Aston_Villa_vs_Bournemouth"
+  },
+  "analysis": {
+    "totalSnapshots": 41,
+    "timeSpan": {
+      "start": "2024-10-26T12:56:16.726Z",
+      "end": "2024-10-26T14:52:18.065Z",
+      "durationMinutes": 116.02231666666667
+    },
+    "handicapMovements": [
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-10-26T14:52:18.065Z"
+      }
+    ],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1729947376726,
+      "readableDate": "2024-10-26T12:56:16.726Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947376723
+      }
+    },
+    {
+      "timestamp": 1729947434685,
+      "readableDate": "2024-10-26T12:57:14.685Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947434685
+      }
+    },
+    {
+      "timestamp": 1729947494711,
+      "readableDate": "2024-10-26T12:58:14.711Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947494711
+      }
+    },
+    {
+      "timestamp": 1729947974920,
+      "readableDate": "2024-10-26T13:06:14.920Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947974919
+      }
+    },
+    {
+      "timestamp": 1729948094966,
+      "readableDate": "2024-10-26T13:08:14.966Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729948094965
+      }
+    },
+    {
+      "timestamp": 1729948395167,
+      "readableDate": "2024-10-26T13:13:15.167Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729948395166
+      }
+    },
+    {
+      "timestamp": 1729948875522,
+      "readableDate": "2024-10-26T13:21:15.522Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729948875520
+      }
+    },
+    {
+      "timestamp": 1729949415845,
+      "readableDate": "2024-10-26T13:30:15.845Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729949415842
+      }
+    },
+    {
+      "timestamp": 1729949894029,
+      "readableDate": "2024-10-26T13:38:14.029Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729949894029
+      }
+    },
+    {
+      "timestamp": 1729950674436,
+      "readableDate": "2024-10-26T13:51:14.436Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729950674435
+      }
+    },
+    {
+      "timestamp": 1729950734465,
+      "readableDate": "2024-10-26T13:52:14.465Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729950734464
+      }
+    },
+    {
+      "timestamp": 1729951097828,
+      "readableDate": "2024-10-26T13:58:17.828Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1729951097824
+      }
+    },
+    {
+      "timestamp": 1729951275856,
+      "readableDate": "2024-10-26T14:01:15.856Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951275855
+      }
+    },
+    {
+      "timestamp": 1729951335885,
+      "readableDate": "2024-10-26T14:02:15.885Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951335885
+      }
+    },
+    {
+      "timestamp": 1729951515961,
+      "readableDate": "2024-10-26T14:05:15.961Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951515960
+      }
+    },
+    {
+      "timestamp": 1729951575991,
+      "readableDate": "2024-10-26T14:06:15.991Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951575991
+      }
+    },
+    {
+      "timestamp": 1729951636037,
+      "readableDate": "2024-10-26T14:07:16.037Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951636035
+      }
+    },
+    {
+      "timestamp": 1729951696101,
+      "readableDate": "2024-10-26T14:08:16.101Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729951696098
+      }
+    },
+    {
+      "timestamp": 1729952116408,
+      "readableDate": "2024-10-26T14:15:16.408Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952116405
+      }
+    },
+    {
+      "timestamp": 1729952176391,
+      "readableDate": "2024-10-26T14:16:16.391Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952176390
+      }
+    },
+    {
+      "timestamp": 1729952236431,
+      "readableDate": "2024-10-26T14:17:16.431Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952236431
+      }
+    },
+    {
+      "timestamp": 1729952476624,
+      "readableDate": "2024-10-26T14:21:16.624Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952476622
+      }
+    },
+    {
+      "timestamp": 1729952536667,
+      "readableDate": "2024-10-26T14:22:16.667Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": null,
+      "oddsAway": null,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": null,
+        "oddsAway": null,
+        "ts": 1729952536665
+      }
+    },
+    {
+      "timestamp": 1729952596696,
+      "readableDate": "2024-10-26T14:23:16.696Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952596695
+      }
+    },
+    {
+      "timestamp": 1729952656740,
+      "readableDate": "2024-10-26T14:24:16.740Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952656739
+      }
+    },
+    {
+      "timestamp": 1729952776822,
+      "readableDate": "2024-10-26T14:26:16.822Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729952776822
+      }
+    },
+    {
+      "timestamp": 1729952896913,
+      "readableDate": "2024-10-26T14:28:16.913Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": null,
+      "oddsAway": null,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": null,
+        "oddsAway": null,
+        "ts": 1729952896913
+      }
+    },
+    {
+      "timestamp": 1729952956958,
+      "readableDate": "2024-10-26T14:29:16.958Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": null,
+      "oddsAway": null,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": null,
+        "oddsAway": null,
+        "ts": 1729952956958
+      }
+    },
+    {
+      "timestamp": 1729953017014,
+      "readableDate": "2024-10-26T14:30:17.014Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": null,
+      "oddsAway": null,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": null,
+        "oddsAway": null,
+        "ts": 1729953017013
+      }
+    },
+    {
+      "timestamp": 1729953077059,
+      "readableDate": "2024-10-26T14:31:17.059Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953077058
+      }
+    },
+    {
+      "timestamp": 1729953137095,
+      "readableDate": "2024-10-26T14:32:17.095Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953137093
+      }
+    },
+    {
+      "timestamp": 1729953197142,
+      "readableDate": "2024-10-26T14:33:17.142Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953197141
+      }
+    },
+    {
+      "timestamp": 1729953317238,
+      "readableDate": "2024-10-26T14:35:17.238Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953317237
+      }
+    },
+    {
+      "timestamp": 1729953437307,
+      "readableDate": "2024-10-26T14:37:17.307Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953437307
+      }
+    },
+    {
+      "timestamp": 1729953497347,
+      "readableDate": "2024-10-26T14:38:17.347Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953497347
+      }
+    },
+    {
+      "timestamp": 1729953555432,
+      "readableDate": "2024-10-26T14:39:15.432Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953555431
+      }
+    },
+    {
+      "timestamp": 1729953855664,
+      "readableDate": "2024-10-26T14:44:15.664Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953855662
+      }
+    },
+    {
+      "timestamp": 1729953975765,
+      "readableDate": "2024-10-26T14:46:15.765Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729953975764
+      }
+    },
+    {
+      "timestamp": 1729954155929,
+      "readableDate": "2024-10-26T14:49:15.929Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729954155927
+      }
+    },
+    {
+      "timestamp": 1729954276029,
+      "readableDate": "2024-10-26T14:51:16.029Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729954276029
+      }
+    },
+    {
+      "timestamp": 1729954338065,
+      "readableDate": "2024-10-26T14:52:18.065Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 0,
+      "oddsAway": 0,
+      "originalRecord": {
+        "id": "FB2766",
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "date": "2024-10-26",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 0,
+        "oddsAway": 0,
+        "ts": 1729954338064
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.411Z",
+    "totalSnapshots": 41,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

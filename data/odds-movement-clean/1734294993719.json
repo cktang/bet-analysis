@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB5267",
+    "home": "Chelsea",
+    "away": "Brentford",
+    "date": "2024-12-16",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 2,
+    "oddsAway": 1.74,
+    "ts": 1734294993717,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "12",
+    "live": "2nd"
+  }
+]

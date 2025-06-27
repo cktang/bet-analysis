@@ -1,0 +1,89 @@
+{
+  "matchInfo": {
+    "id": "FB5250",
+    "home": "Wolves",
+    "away": "Ipswich",
+    "date": "2024-12-14",
+    "matchKey": "FB5250_2024-12-14_Wolves_vs_Ipswich"
+  },
+  "analysis": {
+    "totalSnapshots": 3,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-14T09:49:39.419Z",
+      "durationMinutes": 930.2017500000001
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.11,
+      "originalRecord": {
+        "id": "FB5250",
+        "home": "Wolves",
+        "away": "Ipswich",
+        "date": "2024-12-14",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.11,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734149411822,
+      "readableDate": "2024-12-14T04:10:11.822Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB5250",
+        "home": "Wolves",
+        "away": "Ipswich",
+        "date": "2024-12-14",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.15,
+        "ts": 1734149411822
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB5250",
+        "home": "Wolves",
+        "away": "Ipswich",
+        "date": "2024-12-14",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.15,
+        "ts": 1734169779415
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 3,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

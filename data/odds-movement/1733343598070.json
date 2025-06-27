@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB4784",
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "date": "2024-12-05",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.87,
+    "oddsAway": 1.85,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "9",
+    "live": "HT",
+    "ts": 1733343598068
+  },
+  {
+    "id": "FB4781",
+    "home": "Arsenal",
+    "away": "Manchester Utd",
+    "date": "2024-12-05",
+    "ahHome": -1,
+    "ahAway": 1,
+    "oddsHome": 1.86,
+    "oddsAway": 1.86,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "0",
+    "live": "1st",
+    "ts": 1733343598068
+  }
+]

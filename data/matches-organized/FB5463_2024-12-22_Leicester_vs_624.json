@@ -1,0 +1,70 @@
+{
+  "matchInfo": {
+    "id": "FB5463",
+    "home": "Leicester",
+    "away": "624",
+    "date": "2024-12-22",
+    "matchKey": "FB5463_2024-12-22_Leicester_vs_624"
+  },
+  "analysis": {
+    "totalSnapshots": 2,
+    "timeSpan": {
+      "start": "2024-12-20T15:08:07.856Z",
+      "end": "2024-12-22T09:45:42.728Z",
+      "durationMinutes": 2557.5812
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734707287856,
+      "readableDate": "2024-12-20T15:08:07.856Z",
+      "ahHome": null,
+      "ahAway": 0,
+      "oddsHome": 0,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB5463",
+        "home": "Leicester",
+        "away": "624",
+        "date": "2024-12-22",
+        "ahHome": null,
+        "ahAway": 0,
+        "oddsHome": 0,
+        "oddsAway": 1.91,
+        "ts": 1734707287853
+      }
+    },
+    {
+      "timestamp": 1734860742728,
+      "readableDate": "2024-12-22T09:45:42.728Z",
+      "ahHome": null,
+      "ahAway": 0,
+      "oddsHome": 0,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB5463",
+        "home": "Leicester",
+        "away": "624",
+        "date": "2024-12-22",
+        "ahHome": null,
+        "ahAway": 0,
+        "oddsHome": 0,
+        "oddsAway": 1.86,
+        "ts": 1734860742723
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.420Z",
+    "totalSnapshots": 2,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

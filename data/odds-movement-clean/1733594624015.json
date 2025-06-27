@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4963",
+    "home": "Manchester Utd",
+    "away": "Nottingham Forest",
+    "date": "2024-12-08",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.85,
+    "oddsAway": 1.87,
+    "ts": 1733594624014,
+    "homeScore": "1",
+    "awayScore": "1",
+    "totalCorner": "3",
+    "live": "1st"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FB3590",
+    "home": "Brentford",
+    "away": "Bournemouth",
+    "date": "2024-11-09",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.84,
+    "oddsAway": 1.98,
+    "ts": 1731125458843
+  },
+  {
+    "id": "FB3589",
+    "home": "Crystal Palace",
+    "away": "Fulham",
+    "date": "2024-11-09",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.98,
+    "oddsAway": 1.84,
+    "ts": 1731125458843
+  }
+]

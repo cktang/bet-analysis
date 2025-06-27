@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4781",
+    "home": "Arsenal",
+    "away": "Manchester Utd",
+    "date": "2024-12-05",
+    "ahHome": -2,
+    "ahAway": 2,
+    "oddsHome": 1.37,
+    "oddsAway": 2.9,
+    "ts": 1733349538434,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "12",
+    "live": "2nd"
+  }
+]

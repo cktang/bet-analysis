@@ -1,0 +1,35 @@
+[
+  {
+    "id": "FB4779",
+    "home": "Manchester City",
+    "away": "Nottingham Forest",
+    "date": "2024-12-05",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.07,
+    "oddsAway": 1.77,
+    "ts": 1733336579252
+  },
+  {
+    "id": "FB4784",
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "date": "2024-12-05",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.75,
+    "oddsAway": 2.1,
+    "ts": 1733336579252
+  },
+  {
+    "id": "FB4780",
+    "home": "Southampton",
+    "away": "Chelsea",
+    "date": "2024-12-05",
+    "ahHome": 1.75,
+    "ahAway": -1.75,
+    "oddsHome": 1.78,
+    "oddsAway": 2.05,
+    "ts": 1733336579252
+  }
+]

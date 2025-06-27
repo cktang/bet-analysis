@@ -1,0 +1,294 @@
+{
+  "matchInfo": {
+    "id": "FB5268",
+    "home": "Southampton",
+    "away": "Tottenham",
+    "date": "2024-12-16",
+    "matchKey": "FB5268_2024-12-16_Southampton_vs_Tottenham"
+  },
+  "analysis": {
+    "totalSnapshots": 13,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-15T19:00:34.511Z",
+      "durationMinutes": 2921.11995
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 1.76,
+        "to": 1.83,
+        "change": 0.07000000000000006,
+        "changePercent": "3.98",
+        "time": "2024-12-15T17:14:33.725Z"
+      },
+      {
+        "from": 1.83,
+        "to": 1.9,
+        "change": 0.06999999999999984,
+        "changePercent": "3.83",
+        "time": "2024-12-15T17:50:35.305Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.85,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.85,
+        "ts": 1734169779415
+      }
+    },
+    {
+      "timestamp": 1734235714531,
+      "readableDate": "2024-12-15T04:08:34.531Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1734235714531
+      }
+    },
+    {
+      "timestamp": 1734257673998,
+      "readableDate": "2024-12-15T10:14:33.998Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2,
+        "oddsAway": 1.82,
+        "ts": 1734257673995
+      }
+    },
+    {
+      "timestamp": 1734261034221,
+      "readableDate": "2024-12-15T11:10:34.221Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1734261034220
+      }
+    },
+    {
+      "timestamp": 1734264934884,
+      "readableDate": "2024-12-15T12:15:34.884Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.06,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.06,
+        "oddsAway": 1.77,
+        "ts": 1734264934881
+      }
+    },
+    {
+      "timestamp": 1734265054949,
+      "readableDate": "2024-12-15T12:17:34.949Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1734265054949
+      }
+    },
+    {
+      "timestamp": 1734265114980,
+      "readableDate": "2024-12-15T12:18:34.980Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.06,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.06,
+        "oddsAway": 1.78,
+        "ts": 1734265114980
+      }
+    },
+    {
+      "timestamp": 1734265235065,
+      "readableDate": "2024-12-15T12:20:35.065Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1734265235065
+      }
+    },
+    {
+      "timestamp": 1734273995191,
+      "readableDate": "2024-12-15T14:46:35.191Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.76,
+        "ts": 1734273995191
+      }
+    },
+    {
+      "timestamp": 1734282873725,
+      "readableDate": "2024-12-15T17:14:33.725Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1734282873725
+      }
+    },
+    {
+      "timestamp": 1734285035305,
+      "readableDate": "2024-12-15T17:50:35.305Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.92,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.92,
+        "oddsAway": 1.9,
+        "ts": 1734285035304
+      }
+    },
+    {
+      "timestamp": 1734289234511,
+      "readableDate": "2024-12-15T19:00:34.511Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5268",
+        "home": "Southampton",
+        "away": "Tottenham",
+        "date": "2024-12-16",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1734289234510
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.420Z",
+    "totalSnapshots": 13,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

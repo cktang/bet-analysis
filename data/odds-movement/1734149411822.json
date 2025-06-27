@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FB5252",
+    "home": "Newcastle",
+    "away": "Leicester",
+    "date": "2024-12-14",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 1.95,
+    "oddsAway": 1.87,
+    "ts": 1734149411822
+  },
+  {
+    "id": "FB5250",
+    "home": "Wolves",
+    "away": "Ipswich",
+    "date": "2024-12-14",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.71,
+    "oddsAway": 2.15,
+    "ts": 1734149411822
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "matchInfo": {
+    "id": "FB3940",
+    "home": "Bournemouth",
+    "away": "Brighton",
+    "date": "2024-11-23",
+    "matchKey": "FB3940_2024-11-23_Bournemouth_vs_Brighton"
+  },
+  "analysis": {
+    "totalSnapshots": 2,
+    "timeSpan": {
+      "start": "2024-11-23T01:53:03.602Z",
+      "end": "2024-11-23T04:03:01.351Z",
+      "durationMinutes": 129.96248333333332
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732326783602,
+      "readableDate": "2024-11-23T01:53:03.602Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.77,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3940",
+        "home": "Bournemouth",
+        "away": "Brighton",
+        "date": "2024-11-23",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.77,
+        "oddsAway": 2,
+        "ts": 1732326783599
+      }
+    },
+    {
+      "timestamp": 1732334581351,
+      "readableDate": "2024-11-23T04:03:01.351Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.81,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB3940",
+        "home": "Bournemouth",
+        "away": "Brighton",
+        "date": "2024-11-23",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.81,
+        "oddsAway": 2.02,
+        "ts": 1732334581351
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.415Z",
+    "totalSnapshots": 2,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

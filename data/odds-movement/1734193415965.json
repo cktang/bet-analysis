@@ -1,0 +1,28 @@
+[
+  {
+    "id": "FB5253",
+    "home": "Arsenal",
+    "away": "Everton",
+    "date": "2024-12-14",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 2.14,
+    "oddsAway": 1.64,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "7",
+    "live": "2nd",
+    "ts": 1734193415965
+  },
+  {
+    "id": "FB5251",
+    "home": "Nottingham Forest",
+    "away": "Aston Villa",
+    "date": "2024-12-15",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.83,
+    "oddsAway": 1.99,
+    "ts": 1734193415965
+  }
+]

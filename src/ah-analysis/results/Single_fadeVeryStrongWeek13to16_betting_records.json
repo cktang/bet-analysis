@@ -1,0 +1,134 @@
+{
+  "strategy": {
+    "name": "Single_fadeVeryStrongWeek13to16",
+    "roi": "18.67%",
+    "correlation": "0.0173",
+    "factors": [
+      "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0"
+    ],
+    "hypothesis": "Fade very strong favorites weeks 13-16 - mid season proper predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 3,
+    "totalProfit": 56,
+    "winRate": "66.7%",
+    "generatedAt": "2025-06-25T18:56:51.583Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-12-15T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Manchester Utd",
+      "score": "1-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "1.77",
+      "profit": "77",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 16"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0173",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester Utd",
+      "score": "2-0",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 14"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0173",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-12-08T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Burnley",
+      "score": "1-1",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "1.79",
+      "profit": "79",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 16"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 13 && fbref.week <= 16 && match.asianHandicapOdds.homeHandicap === '-1/-1.5') ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0173",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

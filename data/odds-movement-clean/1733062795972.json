@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4645",
+    "home": "Chelsea",
+    "away": "Aston Villa",
+    "date": "2024-12-01",
+    "ahHome": -2.25,
+    "ahAway": 2.25,
+    "oddsHome": 1.73,
+    "oddsAway": 2.01,
+    "ts": 1733062795970,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "2",
+    "live": "1st"
+  }
+]

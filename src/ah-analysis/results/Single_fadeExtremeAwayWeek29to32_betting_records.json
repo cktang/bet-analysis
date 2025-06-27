@@ -1,0 +1,96 @@
+{
+  "strategy": {
+    "name": "Single_fadeExtremeAwayWeek29to32",
+    "roi": "-100.00%",
+    "correlation": "0.0552",
+    "factors": [
+      "(fbref.week >= 29 && fbref.week <= 32 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+    ],
+    "hypothesis": "Fade extreme away favorites weeks 29-32 - business end starts predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 2,
+    "totalProfit": -200,
+    "winRate": "0.0%",
+    "generatedAt": "2025-06-25T18:56:51.526Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-04-25T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Manchester City",
+      "score": "0-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 29 && fbref.week <= 32 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 29"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 29 && fbref.week <= 32 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0552",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    },
+    {
+      "date": "2023-04-08T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Manchester City",
+      "score": "1-4",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "1.84",
+      "profit": "-100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 29 && fbref.week <= 32 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 30"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 29 && fbref.week <= 32 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0552",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

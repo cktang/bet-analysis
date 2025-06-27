@@ -1,7 +1,7 @@
 {
   "strategy": {
     "name": "Single_fadeEarlyQuarterBalancedOdds",
-    "roi": "63.50%",
+    "roi": "61.91%",
     "correlation": "0.0649",
     "factors": [
       "(fbref.week <= 8 && match.asianHandicapOdds.homeHandicap === '0/-0.5' && Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) <= 0.1) ? 1 : 0"
@@ -11,9 +11,11 @@
   },
   "summary": {
     "totalBets": 8,
-    "totalProfit": 508,
+    "totalStaked": 4300,
+    "totalProfit": 2662,
     "winRate": "100.0%",
-    "generatedAt": "2025-06-25T14:07:41.975Z"
+    "roi": "61.91%",
+    "generatedAt": "2025-06-26T16:34:52.656Z"
   },
   "bettingRecords": [
     {
@@ -24,7 +26,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.91",
-      "profit": "91",
+      "betSize": "200",
+      "profit": "182",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -51,7 +54,7 @@
           "Win",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     },
     {
@@ -62,7 +65,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.95",
-      "profit": "48",
+      "betSize": "800",
+      "profit": "380",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -89,7 +93,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 400
       }
     },
     {
@@ -100,7 +104,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.92",
-      "profit": "46",
+      "betSize": "350",
+      "profit": "161",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -127,7 +132,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 175
       }
     },
     {
@@ -138,7 +143,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.94",
-      "profit": "47",
+      "betSize": "650",
+      "profit": "306",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -165,7 +171,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 325
       }
     },
     {
@@ -176,7 +182,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.96",
-      "profit": "48",
+      "betSize": "950",
+      "profit": "456",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -203,7 +210,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 475
       }
     },
     {
@@ -214,7 +221,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.87",
-      "profit": "87",
+      "betSize": "200",
+      "profit": "174",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -241,7 +249,7 @@
           "Win",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     },
     {
@@ -252,7 +260,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.96",
-      "profit": "96",
+      "betSize": "950",
+      "profit": "912",
       "outcome": "Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -279,7 +288,7 @@
           "Win",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 475
       }
     },
     {
@@ -290,7 +299,8 @@
       "handicapLine": "0/-0.5",
       "betSide": "Away",
       "betOdds": "1.91",
-      "profit": "45",
+      "betSize": "200",
+      "profit": "91",
       "outcome": "Half Win",
       "factorValue": "1.0000",
       "factorCalculation": [
@@ -317,7 +327,7 @@
           "Push",
           "Win"
         ],
-        "betPerLine": 50
+        "betPerLine": 100
       }
     }
   ]

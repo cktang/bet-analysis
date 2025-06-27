@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2025-06-26T17:06:09.408Z",
+  "inputPath": "/Users/kin/Code/bet-analysis/data/odds-movement",
+  "outputPath": "/Users/kin/Code/bet-analysis/data/odds-movement-clean",
+  "statistics": {
+    "files": {
+      "total": 2248,
+      "processed": 2248,
+      "corrupted": 0,
+      "successRate": "100.0%"
+    },
+    "records": {
+      "total": 3406,
+      "valid": 2515,
+      "removedPostMatch": 692,
+      "removedCorrupted": 199,
+      "removedEmpty": 0,
+      "cleanRate": "73.8%"
+    }
+  },
+  "cleaningCriteria": {
+    "preMatchOnly": "Removed odds captured after match start time (5min buffer)",
+    "validationRules": [
+      "Must have id, home, away, date",
+      "Must have handicap or odds data",
+      "Odds between 1.01-100",
+      "Handicaps between -10 to +10",
+      "Different home and away teams",
+      "Non-empty records only"
+    ]
+  }
+}

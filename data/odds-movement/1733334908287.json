@@ -1,0 +1,98 @@
+[
+  {
+    "id": "FB4779",
+    "home": "Manchester City",
+    "away": "Nottingham Forest",
+    "date": "2024-12-05",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.14,
+    "oddsAway": 1.72,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4782",
+    "home": "Everton",
+    "away": "Wolves",
+    "date": "2024-12-05",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.82,
+    "oddsAway": 2,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4784",
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "date": "2024-12-05",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.79,
+    "oddsAway": 2.04,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4780",
+    "home": "Southampton",
+    "away": "Chelsea",
+    "date": "2024-12-05",
+    "ahHome": 1.75,
+    "ahAway": -1.75,
+    "oddsHome": 1.75,
+    "oddsAway": 2.09,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4781",
+    "home": "Arsenal",
+    "away": "Manchester Utd",
+    "date": "2024-12-05",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.94,
+    "oddsAway": 1.88,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4785",
+    "home": "Aston Villa",
+    "away": "Brentford",
+    "date": "2024-12-05",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.95,
+    "oddsAway": 1.87,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4783",
+    "home": "Fulham",
+    "away": "Brighton",
+    "date": "2024-12-06",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.96,
+    "oddsAway": 1.81,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  },
+  {
+    "id": "FB4800",
+    "home": "Bournemouth",
+    "away": "Tottenham",
+    "date": "2024-12-06",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.9,
+    "oddsAway": 1.86,
+    "element": "ref: <Node>",
+    "ts": 1733334908275
+  }
+]

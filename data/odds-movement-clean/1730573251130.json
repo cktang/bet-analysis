@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3189",
+    "home": "Wolves",
+    "away": "Crystal Palace",
+    "date": "2024-11-03",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 2.1,
+    "oddsAway": 1.67,
+    "ts": 1730573251130,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "7",
+    "live": "2nd"
+  }
+]

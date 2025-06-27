@@ -1,0 +1,28 @@
+[
+  {
+    "id": "FB3936",
+    "home": "Leicester",
+    "away": "Chelsea",
+    "date": "2024-11-23",
+    "ahHome": 2,
+    "ahAway": -2,
+    "oddsHome": 1.89,
+    "oddsAway": 1.83,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "3",
+    "live": "1st",
+    "ts": 1732366261897
+  },
+  {
+    "id": "FB3942",
+    "home": "Fulham",
+    "away": "Wolves",
+    "date": "2024-11-23",
+    "ahHome": -1,
+    "ahAway": 1,
+    "oddsHome": 1.92,
+    "oddsAway": 1.9,
+    "ts": 1732366261897
+  }
+]

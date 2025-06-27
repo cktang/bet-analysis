@@ -1,0 +1,1092 @@
+{
+  "matchInfo": {
+    "id": "FB4645",
+    "home": "Chelsea",
+    "away": "Aston Villa",
+    "date": "2024-12-01",
+    "matchKey": "FB4645_2024-12-01_Chelsea_vs_Aston_Villa"
+  },
+  "analysis": {
+    "totalSnapshots": 42,
+    "timeSpan": {
+      "start": "2024-12-01T03:55:57.606Z",
+      "end": "2024-12-01T14:52:55.566Z",
+      "durationMinutes": 656.966
+    },
+    "handicapMovements": [
+      {
+        "from": 0.75,
+        "to": 1.75,
+        "change": 1,
+        "time": "2024-12-01T13:39:56.069Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-12-01T13:47:56.435Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-12-01T14:05:55.282Z"
+      },
+      {
+        "from": 1.75,
+        "to": 2.75,
+        "change": 1,
+        "time": "2024-12-01T14:08:55.437Z"
+      },
+      {
+        "from": 2.75,
+        "to": 2.25,
+        "change": -0.5,
+        "time": "2024-12-01T14:10:55.531Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2,
+        "to": 1.94,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.00",
+        "time": "2024-12-01T11:33:57.023Z"
+      },
+      {
+        "from": 1.94,
+        "to": 2,
+        "change": 0.06000000000000005,
+        "changePercent": "3.09",
+        "time": "2024-12-01T11:47:55.686Z"
+      },
+      {
+        "from": 2,
+        "to": 1.87,
+        "change": -0.1299999999999999,
+        "changePercent": "-6.50",
+        "time": "2024-12-01T13:31:55.757Z"
+      },
+      {
+        "from": 1.83,
+        "to": 1.73,
+        "change": -0.10000000000000009,
+        "changePercent": "-5.46",
+        "time": "2024-12-01T13:39:56.069Z"
+      },
+      {
+        "from": 1.67,
+        "to": 2.15,
+        "change": 0.48,
+        "changePercent": "28.74",
+        "time": "2024-12-01T13:47:56.435Z"
+      },
+      {
+        "from": 2.01,
+        "to": 2.18,
+        "change": 0.17000000000000037,
+        "changePercent": "8.46",
+        "time": "2024-12-01T14:04:55.227Z"
+      },
+      {
+        "from": 2.18,
+        "to": 1.64,
+        "change": -0.5400000000000003,
+        "changePercent": "-24.77",
+        "time": "2024-12-01T14:05:55.282Z"
+      },
+      {
+        "from": 1.61,
+        "to": 2.18,
+        "change": 0.5700000000000001,
+        "changePercent": "35.40",
+        "time": "2024-12-01T14:10:55.531Z"
+      },
+      {
+        "from": 2.18,
+        "to": 2.05,
+        "change": -0.13000000000000034,
+        "changePercent": "-5.96",
+        "time": "2024-12-01T14:12:55.631Z"
+      },
+      {
+        "from": 1.99,
+        "to": 2.1,
+        "change": 0.1100000000000001,
+        "changePercent": "5.53",
+        "time": "2024-12-01T14:37:56.858Z"
+      },
+      {
+        "from": 2.03,
+        "to": 1.95,
+        "change": -0.07999999999999985,
+        "changePercent": "-3.94",
+        "time": "2024-12-01T14:52:55.566Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.48,
+          "from": 1.67,
+          "to": 2.15,
+          "time": "2024-12-01T13:47:56.435Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.17000000000000037,
+          "from": 2.01,
+          "to": 2.18,
+          "time": "2024-12-01T14:04:55.227Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.5400000000000003,
+          "from": 2.18,
+          "to": 1.64,
+          "time": "2024-12-01T14:05:55.282Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.5700000000000001,
+          "from": 1.61,
+          "to": 2.18,
+          "time": "2024-12-01T14:10:55.531Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733025357606,
+      "readableDate": "2024-12-01T03:55:57.606Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1733025357601
+      }
+    },
+    {
+      "timestamp": 1733029737001,
+      "readableDate": "2024-12-01T05:08:57.001Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1733029736998
+      }
+    },
+    {
+      "timestamp": 1733037717298,
+      "readableDate": "2024-12-01T07:21:57.298Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1733037717289
+      }
+    },
+    {
+      "timestamp": 1733039096380,
+      "readableDate": "2024-12-01T07:44:56.380Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1733039096376
+      }
+    },
+    {
+      "timestamp": 1733041436103,
+      "readableDate": "2024-12-01T08:23:56.103Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.83,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.83,
+        "oddsAway": 1.99,
+        "ts": 1733041436103
+      }
+    },
+    {
+      "timestamp": 1733047677070,
+      "readableDate": "2024-12-01T10:07:57.070Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.81,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.81,
+        "oddsAway": 2.02,
+        "ts": 1733047677067
+      }
+    },
+    {
+      "timestamp": 1733051035591,
+      "readableDate": "2024-12-01T11:03:55.591Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1733051035589
+      }
+    },
+    {
+      "timestamp": 1733052837023,
+      "readableDate": "2024-12-01T11:33:57.023Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1733052837019
+      }
+    },
+    {
+      "timestamp": 1733053675686,
+      "readableDate": "2024-12-01T11:47:55.686Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1733053675685
+      }
+    },
+    {
+      "timestamp": 1733057396626,
+      "readableDate": "2024-12-01T12:49:56.626Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1733057396623
+      }
+    },
+    {
+      "timestamp": 1733059735684,
+      "readableDate": "2024-12-01T13:28:55.684Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1733059735682
+      }
+    },
+    {
+      "timestamp": 1733059915757,
+      "readableDate": "2024-12-01T13:31:55.757Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.85,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.85,
+        "oddsAway": 1.87,
+        "ts": 1733059915756,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060035806,
+      "readableDate": "2024-12-01T13:33:55.806Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1733060035804,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060215876,
+      "readableDate": "2024-12-01T13:36:55.876Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1733060215875,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060396069,
+      "readableDate": "2024-12-01T13:39:56.069Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1733060396068,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060456108,
+      "readableDate": "2024-12-01T13:40:56.108Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.71,
+        "ts": 1733060456108,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060636245,
+      "readableDate": "2024-12-01T13:43:56.245Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.69,
+        "ts": 1733060636245,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060816387,
+      "readableDate": "2024-12-01T13:46:56.387Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1733060816387,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733060876435,
+      "readableDate": "2024-12-01T13:47:56.435Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.64,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.64,
+        "oddsAway": 2.15,
+        "ts": 1733060876435,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061056572,
+      "readableDate": "2024-12-01T13:50:56.572Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1733061056571,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061116612,
+      "readableDate": "2024-12-01T13:51:56.612Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.68,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.68,
+        "oddsAway": 2.08,
+        "ts": 1733061116610,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061416832,
+      "readableDate": "2024-12-01T13:56:56.832Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1733061416832,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061476905,
+      "readableDate": "2024-12-01T13:57:56.905Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1733061476903,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061657038,
+      "readableDate": "2024-12-01T14:00:57.038Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.03,
+        "ts": 1733061657038,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061837186,
+      "readableDate": "2024-12-01T14:03:57.186Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1733061837185,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061895227,
+      "readableDate": "2024-12-01T14:04:55.227Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1733061895226,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733061955282,
+      "readableDate": "2024-12-01T14:05:55.282Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1733061955280,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062135437,
+      "readableDate": "2024-12-01T14:08:55.437Z",
+      "ahHome": -2.75,
+      "ahAway": 2.75,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.75,
+        "ahAway": 2.75,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1733062135433,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062255531,
+      "readableDate": "2024-12-01T14:10:55.531Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1733062255529,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062375631,
+      "readableDate": "2024-12-01T14:12:55.631Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1733062375630,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062555769,
+      "readableDate": "2024-12-01T14:15:55.769Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.03,
+        "ts": 1733062555769,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062615813,
+      "readableDate": "2024-12-01T14:16:55.813Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1733062615812,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062795972,
+      "readableDate": "2024-12-01T14:19:55.972Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1733062795970,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733062976119,
+      "readableDate": "2024-12-01T14:22:56.119Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.74,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.74,
+        "oddsAway": 1.99,
+        "ts": 1733062976119,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1733063876858,
+      "readableDate": "2024-12-01T14:37:56.858Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1733063876856,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064056994,
+      "readableDate": "2024-12-01T14:40:56.994Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1733064056993,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064175123,
+      "readableDate": "2024-12-01T14:42:55.123Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1733064175121,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064297181,
+      "readableDate": "2024-12-01T14:44:57.181Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.68,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.68,
+        "oddsAway": 2.08,
+        "ts": 1733064297180,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064475326,
+      "readableDate": "2024-12-01T14:47:55.326Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1733064475326,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064597417,
+      "readableDate": "2024-12-01T14:49:57.417Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.02,
+        "ts": 1733064597417,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064655469,
+      "readableDate": "2024-12-01T14:50:55.469Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.03,
+        "ts": 1733064655469,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733064775566,
+      "readableDate": "2024-12-01T14:52:55.566Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4645",
+        "home": "Chelsea",
+        "away": "Aston Villa",
+        "date": "2024-12-01",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1733064775565,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.417Z",
+    "totalSnapshots": 42,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

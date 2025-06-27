@@ -1,0 +1,127 @@
+{
+  "matchInfo": {
+    "id": "FB5252",
+    "home": "Newcastle",
+    "away": "Leicester",
+    "date": "2024-12-14",
+    "matchKey": "FB5252_2024-12-14_Newcastle_vs_Leicester"
+  },
+  "analysis": {
+    "totalSnapshots": 5,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-14T09:49:39.419Z",
+      "durationMinutes": 930.2017500000001
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5252",
+        "home": "Newcastle",
+        "away": "Leicester",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.85,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734149411822,
+      "readableDate": "2024-12-14T04:10:11.822Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5252",
+        "home": "Newcastle",
+        "away": "Leicester",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1734149411822
+      }
+    },
+    {
+      "timestamp": 1734153550682,
+      "readableDate": "2024-12-14T05:19:10.682Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB5252",
+        "home": "Newcastle",
+        "away": "Leicester",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1734153550681
+      }
+    },
+    {
+      "timestamp": 1734163990423,
+      "readableDate": "2024-12-14T08:13:10.423Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5252",
+        "home": "Newcastle",
+        "away": "Leicester",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1734163990421
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5252",
+        "home": "Newcastle",
+        "away": "Leicester",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1734169779415
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 5,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "strategy": {
+    "name": "Quality_Stronger_Home_Early",
+    "roi": "0.00%",
+    "correlation": "0.0157",
+    "factors": [
+      "fbref.week <= 8",
+      "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.5",
+      "(timeSeries.home.leaguePosition || 20) <= 6"
+    ],
+    "hypothesis": "Early season + moderate/strong home favorites + top 6 teams",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalStaked": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "roi": "0.00%",
+    "generatedAt": "2025-06-26T16:34:55.768Z"
+  },
+  "bettingRecords": []
+}

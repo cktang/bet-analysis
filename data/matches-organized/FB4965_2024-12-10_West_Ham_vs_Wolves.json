@@ -1,0 +1,1505 @@
+{
+  "matchInfo": {
+    "id": "FB4965",
+    "home": "West Ham",
+    "away": "Wolves",
+    "date": "2024-12-10",
+    "matchKey": "FB4965_2024-12-10_West_Ham_vs_Wolves"
+  },
+  "analysis": {
+    "totalSnapshots": 55,
+    "timeSpan": {
+      "start": "2024-12-06T13:11:49.799Z",
+      "end": "2024-12-09T21:49:23.162Z",
+      "durationMinutes": 4837.55605
+    },
+    "handicapMovements": [
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-12-09T06:36:33.243Z"
+      },
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-12-09T20:25:23.278Z"
+      },
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-12-09T20:35:21.742Z"
+      },
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-12-09T20:36:21.808Z"
+      },
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-12-09T20:38:21.879Z"
+      },
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-12-09T20:45:22.203Z"
+      },
+      {
+        "from": 0.25,
+        "to": 1.25,
+        "change": 1,
+        "time": "2024-12-09T21:14:21.519Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1,
+        "change": -0.25,
+        "time": "2024-12-09T21:27:22.112Z"
+      },
+      {
+        "from": 1,
+        "to": 0.25,
+        "change": -0.75,
+        "time": "2024-12-09T21:29:22.198Z"
+      },
+      {
+        "from": 0.25,
+        "to": 1,
+        "change": 0.75,
+        "time": "2024-12-09T21:32:22.350Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2.07,
+        "to": 1.75,
+        "change": -0.31999999999999984,
+        "changePercent": "-15.46",
+        "time": "2024-12-09T06:36:33.243Z"
+      },
+      {
+        "from": 1.87,
+        "to": 1.79,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.28",
+        "time": "2024-12-09T20:02:22.240Z"
+      },
+      {
+        "from": 1.61,
+        "to": 2.18,
+        "change": 0.5700000000000001,
+        "changePercent": "35.40",
+        "time": "2024-12-09T20:25:23.278Z"
+      },
+      {
+        "from": 2.15,
+        "to": 1.6,
+        "change": -0.5499999999999998,
+        "changePercent": "-25.58",
+        "time": "2024-12-09T20:35:21.742Z"
+      },
+      {
+        "from": 1.6,
+        "to": 2.22,
+        "change": 0.6200000000000001,
+        "changePercent": "38.75",
+        "time": "2024-12-09T20:36:21.808Z"
+      },
+      {
+        "from": 2.22,
+        "to": 1.61,
+        "change": -0.6100000000000001,
+        "changePercent": "-27.48",
+        "time": "2024-12-09T20:38:21.879Z"
+      },
+      {
+        "from": 1.6,
+        "to": 2.22,
+        "change": 0.6200000000000001,
+        "changePercent": "38.75",
+        "time": "2024-12-09T20:45:22.203Z"
+      },
+      {
+        "from": 2.22,
+        "to": 2.16,
+        "change": -0.06000000000000005,
+        "changePercent": "-2.70",
+        "time": "2024-12-09T20:49:22.402Z"
+      },
+      {
+        "from": 2.19,
+        "to": 2.09,
+        "change": -0.10000000000000009,
+        "changePercent": "-4.57",
+        "time": "2024-12-09T21:06:23.167Z"
+      },
+      {
+        "from": 2.09,
+        "to": 1.98,
+        "change": -0.10999999999999988,
+        "changePercent": "-5.26",
+        "time": "2024-12-09T21:08:23.254Z"
+      },
+      {
+        "from": 1.98,
+        "to": 1.92,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.03",
+        "time": "2024-12-09T21:10:21.336Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.74,
+        "change": -0.17999999999999994,
+        "changePercent": "-9.37",
+        "time": "2024-12-09T21:14:21.519Z"
+      },
+      {
+        "from": 1.6,
+        "to": 2.24,
+        "change": 0.6400000000000001,
+        "changePercent": "40.00",
+        "time": "2024-12-09T21:27:22.112Z"
+      },
+      {
+        "from": 2.24,
+        "to": 1.64,
+        "change": -0.6000000000000003,
+        "changePercent": "-26.79",
+        "time": "2024-12-09T21:29:22.198Z"
+      },
+      {
+        "from": 1.64,
+        "to": 2.24,
+        "change": 0.6000000000000003,
+        "changePercent": "36.59",
+        "time": "2024-12-09T21:32:22.350Z"
+      },
+      {
+        "from": 2.24,
+        "to": 2.3,
+        "change": 0.05999999999999961,
+        "changePercent": "2.68",
+        "time": "2024-12-09T21:35:22.487Z"
+      },
+      {
+        "from": 2.2,
+        "to": 2.15,
+        "change": -0.050000000000000266,
+        "changePercent": "-2.27",
+        "time": "2024-12-09T21:49:23.162Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.31999999999999984,
+          "from": 2.07,
+          "to": 1.75,
+          "time": "2024-12-09T06:36:33.243Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.5700000000000001,
+          "from": 1.61,
+          "to": 2.18,
+          "time": "2024-12-09T20:25:23.278Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.5499999999999998,
+          "from": 2.15,
+          "to": 1.6,
+          "time": "2024-12-09T20:35:21.742Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6200000000000001,
+          "from": 1.6,
+          "to": 2.22,
+          "time": "2024-12-09T20:36:21.808Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.6100000000000001,
+          "from": 2.22,
+          "to": 1.61,
+          "time": "2024-12-09T20:38:21.879Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6200000000000001,
+          "from": 1.6,
+          "to": 2.22,
+          "time": "2024-12-09T20:45:22.203Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.17999999999999994,
+          "from": 1.92,
+          "to": 1.74,
+          "time": "2024-12-09T21:14:21.519Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6400000000000001,
+          "from": 1.6,
+          "to": 2.24,
+          "time": "2024-12-09T21:27:22.112Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.6000000000000003,
+          "from": 2.24,
+          "to": 1.64,
+          "time": "2024-12-09T21:29:22.198Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6000000000000003,
+          "from": 1.64,
+          "to": 2.24,
+          "time": "2024-12-09T21:32:22.350Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733490709799,
+      "readableDate": "2024-12-06T13:11:49.799Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.07,
+        "ts": 1733490709779
+      }
+    },
+    {
+      "timestamp": 1733726193243,
+      "readableDate": "2024-12-09T06:36:33.243Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1733726193226
+      }
+    },
+    {
+      "timestamp": 1733730752962,
+      "readableDate": "2024-12-09T07:52:32.962Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1733730752960
+      }
+    },
+    {
+      "timestamp": 1733743172461,
+      "readableDate": "2024-12-09T11:19:32.461Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1733743172457
+      }
+    },
+    {
+      "timestamp": 1733756732700,
+      "readableDate": "2024-12-09T15:05:32.700Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.02,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.02,
+        "oddsAway": 1.81,
+        "ts": 1733756732696
+      }
+    },
+    {
+      "timestamp": 1733765732538,
+      "readableDate": "2024-12-09T17:35:32.538Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1733765732534
+      }
+    },
+    {
+      "timestamp": 1733768013510,
+      "readableDate": "2024-12-09T18:13:33.510Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1733768013507
+      }
+    },
+    {
+      "timestamp": 1733769024220,
+      "readableDate": "2024-12-09T18:30:24.220Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1733769024188
+      }
+    },
+    {
+      "timestamp": 1733770703158,
+      "readableDate": "2024-12-09T18:58:23.158Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1733770703157
+      }
+    },
+    {
+      "timestamp": 1733773463371,
+      "readableDate": "2024-12-09T19:44:23.371Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1733773463370
+      }
+    },
+    {
+      "timestamp": 1733774061842,
+      "readableDate": "2024-12-09T19:54:21.842Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1733774061842
+      }
+    },
+    {
+      "timestamp": 1733774542240,
+      "readableDate": "2024-12-09T20:02:22.240Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.79,
+        "ts": 1733774542239,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733774602288,
+      "readableDate": "2024-12-09T20:03:22.288Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1733774602288,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733774782443,
+      "readableDate": "2024-12-09T20:06:22.443Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1733774782443,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733774962522,
+      "readableDate": "2024-12-09T20:09:22.522Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.99,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.99,
+        "oddsAway": 1.75,
+        "ts": 1733774962521,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775142670,
+      "readableDate": "2024-12-09T20:12:22.670Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1733775142669,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775322811,
+      "readableDate": "2024-12-09T20:15:22.811Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1733775322811,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775502958,
+      "readableDate": "2024-12-09T20:18:22.958Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1733775502957,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775562992,
+      "readableDate": "2024-12-09T20:19:22.992Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.13,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.13,
+        "oddsAway": 1.65,
+        "ts": 1733775562992,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775743142,
+      "readableDate": "2024-12-09T20:22:23.142Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.17,
+      "oddsAway": 1.63,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.17,
+        "oddsAway": 1.63,
+        "ts": 1733775743142,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775863239,
+      "readableDate": "2024-12-09T20:24:23.239Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1733775863237,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733775923278,
+      "readableDate": "2024-12-09T20:25:23.278Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1733775923276,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776101427,
+      "readableDate": "2024-12-09T20:28:21.427Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.64,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.64,
+        "oddsAway": 2.15,
+        "ts": 1733776101427,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776341605,
+      "readableDate": "2024-12-09T20:32:21.605Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1733776341605,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776401650,
+      "readableDate": "2024-12-09T20:33:21.650Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.63,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.63,
+        "oddsAway": 2.17,
+        "ts": 1733776401650,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776461709,
+      "readableDate": "2024-12-09T20:34:21.709Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.64,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.64,
+        "oddsAway": 2.15,
+        "ts": 1733776461709,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776521742,
+      "readableDate": "2024-12-09T20:35:21.742Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.22,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.22,
+        "oddsAway": 1.6,
+        "ts": 1733776521741,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776581808,
+      "readableDate": "2024-12-09T20:36:21.808Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.6,
+      "oddsAway": 2.22,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.6,
+        "oddsAway": 2.22,
+        "ts": 1733776581807,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "7",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776701879,
+      "readableDate": "2024-12-09T20:38:21.879Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1733776701879,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776761923,
+      "readableDate": "2024-12-09T20:39:21.923Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.22,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.22,
+        "oddsAway": 1.6,
+        "ts": 1733776761920,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776821971,
+      "readableDate": "2024-12-09T20:40:21.971Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1733776821971,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733776942038,
+      "readableDate": "2024-12-09T20:42:22.038Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.22,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.22,
+        "oddsAway": 1.6,
+        "ts": 1733776942038,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733777122203,
+      "readableDate": "2024-12-09T20:45:22.203Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.6,
+      "oddsAway": 2.22,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.6,
+        "oddsAway": 2.22,
+        "ts": 1733777122203,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733777362402,
+      "readableDate": "2024-12-09T20:49:22.402Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.63,
+      "oddsAway": 2.16,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.63,
+        "oddsAway": 2.16,
+        "ts": 1733777362402,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1733777902803,
+      "readableDate": "2024-12-09T20:58:22.803Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.61,
+      "oddsAway": 2.2,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.61,
+        "oddsAway": 2.2,
+        "ts": 1733777902803,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1733778263081,
+      "readableDate": "2024-12-09T21:04:23.081Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.61,
+      "oddsAway": 2.19,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.61,
+        "oddsAway": 2.19,
+        "ts": 1733778263081,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733778383167,
+      "readableDate": "2024-12-09T21:06:23.167Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.09,
+        "ts": 1733778383167,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733778503254,
+      "readableDate": "2024-12-09T21:08:23.254Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.75,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.75,
+        "oddsAway": 1.98,
+        "ts": 1733778503254,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733778621336,
+      "readableDate": "2024-12-09T21:10:21.336Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1733778621336,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733778861519,
+      "readableDate": "2024-12-09T21:14:21.519Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1733778861518,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733778921567,
+      "readableDate": "2024-12-09T21:15:21.567Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2.03,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2.03,
+        "oddsAway": 1.71,
+        "ts": 1733778921567,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779041650,
+      "readableDate": "2024-12-09T21:17:21.650Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2.09,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2.09,
+        "oddsAway": 1.67,
+        "ts": 1733779041650,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779281833,
+      "readableDate": "2024-12-09T21:21:21.833Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1733779281832,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779461969,
+      "readableDate": "2024-12-09T21:24:21.969Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2.21,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2.21,
+        "oddsAway": 1.6,
+        "ts": 1733779461969,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779642112,
+      "readableDate": "2024-12-09T21:27:22.112Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.59,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.59,
+        "oddsAway": 2.24,
+        "ts": 1733779642112,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779762198,
+      "readableDate": "2024-12-09T21:29:22.198Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1733779762198,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733779942350,
+      "readableDate": "2024-12-09T21:32:22.350Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.59,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.59,
+        "oddsAway": 2.24,
+        "ts": 1733779942349,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780002390,
+      "readableDate": "2024-12-09T21:33:22.390Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.58,
+      "oddsAway": 2.25,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.58,
+        "oddsAway": 2.25,
+        "ts": 1733780002389,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780062435,
+      "readableDate": "2024-12-09T21:34:22.435Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.59,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.59,
+        "oddsAway": 2.24,
+        "ts": 1733780062435,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780122487,
+      "readableDate": "2024-12-09T21:35:22.487Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.56,
+      "oddsAway": 2.3,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.56,
+        "oddsAway": 2.3,
+        "ts": 1733780122487,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780362669,
+      "readableDate": "2024-12-09T21:39:22.669Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.56,
+      "oddsAway": 2.29,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.56,
+        "oddsAway": 2.29,
+        "ts": 1733780362669,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780482778,
+      "readableDate": "2024-12-09T21:41:22.778Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.57,
+      "oddsAway": 2.28,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.57,
+        "oddsAway": 2.28,
+        "ts": 1733780482778,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780602867,
+      "readableDate": "2024-12-09T21:43:22.867Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.58,
+      "oddsAway": 2.25,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.58,
+        "oddsAway": 2.25,
+        "ts": 1733780602867,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780843067,
+      "readableDate": "2024-12-09T21:47:23.067Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.61,
+      "oddsAway": 2.2,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.61,
+        "oddsAway": 2.2,
+        "ts": 1733780843067,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733780963162,
+      "readableDate": "2024-12-09T21:49:23.162Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.64,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB4965",
+        "home": "West Ham",
+        "away": "Wolves",
+        "date": "2024-12-10",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.64,
+        "oddsAway": 2.15,
+        "ts": 1733780963162,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 55,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

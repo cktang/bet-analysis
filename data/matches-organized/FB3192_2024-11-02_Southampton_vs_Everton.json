@@ -1,0 +1,260 @@
+{
+  "matchInfo": {
+    "id": "FB3192",
+    "home": "Southampton",
+    "away": "Everton",
+    "date": "2024-11-02",
+    "matchKey": "FB3192_2024-11-02_Southampton_vs_Everton"
+  },
+  "analysis": {
+    "totalSnapshots": 12,
+    "timeSpan": {
+      "start": "2024-11-01T20:26:31.466Z",
+      "end": "2024-11-02T14:31:30.719Z",
+      "durationMinutes": 1084.98755
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1730492791466,
+      "readableDate": "2024-11-01T20:26:31.466Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1730492791459
+      }
+    },
+    {
+      "timestamp": 1730492817092,
+      "readableDate": "2024-11-01T20:26:57.092Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1730492817089
+      }
+    },
+    {
+      "timestamp": 1730492835668,
+      "readableDate": "2024-11-01T20:27:15.668Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.83,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.83,
+        "oddsAway": 1.93,
+        "ts": 1730492835664
+      }
+    },
+    {
+      "timestamp": 1730520013761,
+      "readableDate": "2024-11-02T04:00:13.761Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1730520013760
+      }
+    },
+    {
+      "timestamp": 1730526614793,
+      "readableDate": "2024-11-02T05:50:14.793Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.9,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.9,
+        "oddsAway": 1.92,
+        "ts": 1730526614793
+      }
+    },
+    {
+      "timestamp": 1730541013752,
+      "readableDate": "2024-11-02T09:50:13.752Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.93,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.93,
+        "oddsAway": 1.89,
+        "ts": 1730541013752
+      }
+    },
+    {
+      "timestamp": 1730551692692,
+      "readableDate": "2024-11-02T12:48:12.692Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1730551692691
+      }
+    },
+    {
+      "timestamp": 1730556883070,
+      "readableDate": "2024-11-02T14:14:43.070Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1730556883061
+      }
+    },
+    {
+      "timestamp": 1730557005873,
+      "readableDate": "2024-11-02T14:16:45.873Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1730557005861
+      }
+    },
+    {
+      "timestamp": 1730557550369,
+      "readableDate": "2024-11-02T14:25:50.369Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1730557550356
+      }
+    },
+    {
+      "timestamp": 1730557592632,
+      "readableDate": "2024-11-02T14:26:32.632Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1730557592627
+      }
+    },
+    {
+      "timestamp": 1730557890719,
+      "readableDate": "2024-11-02T14:31:30.719Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB3192",
+        "home": "Southampton",
+        "away": "Everton",
+        "date": "2024-11-02",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.82,
+        "ts": 1730557890717
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.413Z",
+    "totalSnapshots": 12,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

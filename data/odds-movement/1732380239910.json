@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB3939",
+    "home": "Arsenal",
+    "away": "Nottingham Forest",
+    "date": "2024-11-23",
+    "ahHome": -2.25,
+    "ahAway": 2.25,
+    "oddsHome": 2.5,
+    "oddsAway": 1.48,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "8",
+    "live": "2nd",
+    "ts": 1732380239908
+  },
+  {
+    "id": "FB3941",
+    "home": "Aston Villa",
+    "away": "Crystal Palace",
+    "date": "2024-11-23",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.35,
+    "oddsAway": 1.54,
+    "homeScore": "2",
+    "awayScore": "2",
+    "totalCorner": "---",
+    "live": "2nd",
+    "ts": 1732380239908
+  }
+]

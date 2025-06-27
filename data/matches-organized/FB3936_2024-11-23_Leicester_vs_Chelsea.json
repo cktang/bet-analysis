@@ -1,0 +1,1478 @@
+{
+  "matchInfo": {
+    "id": "FB3936",
+    "home": "Leicester",
+    "away": "Chelsea",
+    "date": "2024-11-23",
+    "matchKey": "FB3936_2024-11-23_Leicester_vs_Chelsea"
+  },
+  "analysis": {
+    "totalSnapshots": 51,
+    "timeSpan": {
+      "start": "2024-11-23T01:53:03.602Z",
+      "end": "2024-11-23T14:22:00.061Z",
+      "durationMinutes": 748.9409833333334
+    },
+    "handicapMovements": [
+      {
+        "from": -1.25,
+        "to": -2,
+        "change": -0.75,
+        "time": "2024-11-23T12:48:01.759Z"
+      },
+      {
+        "from": -2,
+        "to": -1.75,
+        "change": 0.25,
+        "time": "2024-11-23T13:07:00.664Z"
+      },
+      {
+        "from": -1.75,
+        "to": -2,
+        "change": -0.25,
+        "time": "2024-11-23T13:09:00.752Z"
+      },
+      {
+        "from": -2,
+        "to": -1.75,
+        "change": 0.25,
+        "time": "2024-11-23T13:12:02.886Z"
+      },
+      {
+        "from": -1.75,
+        "to": -1.25,
+        "change": 0.5,
+        "time": "2024-11-23T13:55:00.803Z"
+      },
+      {
+        "from": -1.25,
+        "to": -2.25,
+        "change": -1,
+        "time": "2024-11-23T14:10:01.478Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.91,
+        "to": 1.96,
+        "change": 0.050000000000000044,
+        "changePercent": "2.62",
+        "time": "2024-11-23T12:43:01.516Z"
+      },
+      {
+        "from": 1.96,
+        "to": 1.9,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.06",
+        "time": "2024-11-23T12:44:01.566Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.75,
+        "change": -0.16999999999999993,
+        "changePercent": "-8.85",
+        "time": "2024-11-23T12:48:01.759Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.83,
+        "change": 0.08000000000000007,
+        "changePercent": "4.57",
+        "time": "2024-11-23T12:51:01.898Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.97,
+        "change": 0.050000000000000044,
+        "changePercent": "2.60",
+        "time": "2024-11-23T13:01:00.357Z"
+      },
+      {
+        "from": 2.01,
+        "to": 1.74,
+        "change": -0.2699999999999998,
+        "changePercent": "-13.43",
+        "time": "2024-11-23T13:07:00.664Z"
+      },
+      {
+        "from": 1.74,
+        "to": 2,
+        "change": 0.26,
+        "changePercent": "14.94",
+        "time": "2024-11-23T13:09:00.752Z"
+      },
+      {
+        "from": 2,
+        "to": 1.73,
+        "change": -0.27,
+        "changePercent": "-13.50",
+        "time": "2024-11-23T13:12:02.886Z"
+      },
+      {
+        "from": 1.78,
+        "to": 1.83,
+        "change": 0.050000000000000044,
+        "changePercent": "2.81",
+        "time": "2024-11-23T13:19:01.229Z"
+      },
+      {
+        "from": 1.86,
+        "to": 1.93,
+        "change": 0.06999999999999984,
+        "changePercent": "3.76",
+        "time": "2024-11-23T13:42:00.281Z"
+      },
+      {
+        "from": 1.93,
+        "to": 2.01,
+        "change": 0.07999999999999985,
+        "changePercent": "4.15",
+        "time": "2024-11-23T13:45:00.405Z"
+      },
+      {
+        "from": 2.04,
+        "to": 2.13,
+        "change": 0.08999999999999986,
+        "changePercent": "4.41",
+        "time": "2024-11-23T13:49:00.580Z"
+      },
+      {
+        "from": 2.13,
+        "to": 2.24,
+        "change": 0.11000000000000032,
+        "changePercent": "5.16",
+        "time": "2024-11-23T13:51:00.622Z"
+      },
+      {
+        "from": 2.28,
+        "to": 1.56,
+        "change": -0.7199999999999998,
+        "changePercent": "-31.58",
+        "time": "2024-11-23T13:55:00.803Z"
+      },
+      {
+        "from": 1.56,
+        "to": 1.61,
+        "change": 0.050000000000000044,
+        "changePercent": "3.21",
+        "time": "2024-11-23T13:58:00.937Z"
+      },
+      {
+        "from": 1.62,
+        "to": 1.68,
+        "change": 0.05999999999999983,
+        "changePercent": "3.70",
+        "time": "2024-11-23T14:04:01.206Z"
+      },
+      {
+        "from": 1.68,
+        "to": 1.74,
+        "change": 0.06000000000000005,
+        "changePercent": "3.57",
+        "time": "2024-11-23T14:06:01.299Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.8,
+        "change": 0.06000000000000005,
+        "changePercent": "3.45",
+        "time": "2024-11-23T14:10:01.478Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.88,
+        "change": 0.07999999999999985,
+        "changePercent": "4.44",
+        "time": "2024-11-23T14:11:01.526Z"
+      },
+      {
+        "from": 1.88,
+        "to": 1.97,
+        "change": 0.09000000000000008,
+        "changePercent": "4.79",
+        "time": "2024-11-23T14:12:01.570Z"
+      },
+      {
+        "from": 1.97,
+        "to": 2.15,
+        "change": 0.17999999999999994,
+        "changePercent": "9.14",
+        "time": "2024-11-23T14:14:01.649Z"
+      },
+      {
+        "from": 2.15,
+        "to": 2.21,
+        "change": 0.06000000000000005,
+        "changePercent": "2.79",
+        "time": "2024-11-23T14:15:01.692Z"
+      },
+      {
+        "from": 2.21,
+        "to": 2.49,
+        "change": 0.28000000000000025,
+        "changePercent": "12.67",
+        "time": "2024-11-23T14:17:59.817Z"
+      },
+      {
+        "from": 2.49,
+        "to": 2.65,
+        "change": 0.1599999999999997,
+        "changePercent": "6.43",
+        "time": "2024-11-23T14:18:59.874Z"
+      },
+      {
+        "from": 2.65,
+        "to": 2.82,
+        "change": 0.16999999999999993,
+        "changePercent": "6.42",
+        "time": "2024-11-23T14:19:59.964Z"
+      },
+      {
+        "from": 2.82,
+        "to": 3.02,
+        "change": 0.20000000000000018,
+        "changePercent": "7.09",
+        "time": "2024-11-23T14:21:00.014Z"
+      },
+      {
+        "from": 3.02,
+        "to": 3.24,
+        "change": 0.2200000000000002,
+        "changePercent": "7.28",
+        "time": "2024-11-23T14:22:00.061Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.16999999999999993,
+          "from": 1.92,
+          "to": 1.75,
+          "time": "2024-11-23T12:48:01.759Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.2699999999999998,
+          "from": 2.01,
+          "to": 1.74,
+          "time": "2024-11-23T13:07:00.664Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.26,
+          "from": 1.74,
+          "to": 2,
+          "time": "2024-11-23T13:09:00.752Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.27,
+          "from": 2,
+          "to": 1.73,
+          "time": "2024-11-23T13:12:02.886Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.7199999999999998,
+          "from": 2.28,
+          "to": 1.56,
+          "time": "2024-11-23T13:55:00.803Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.17999999999999994,
+          "from": 1.97,
+          "to": 2.15,
+          "time": "2024-11-23T14:14:01.649Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.28000000000000025,
+          "from": 2.21,
+          "to": 2.49,
+          "time": "2024-11-23T14:17:59.817Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.1599999999999997,
+          "from": 2.49,
+          "to": 2.65,
+          "time": "2024-11-23T14:18:59.874Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16999999999999993,
+          "from": 2.65,
+          "to": 2.82,
+          "time": "2024-11-23T14:19:59.964Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.20000000000000018,
+          "from": 2.82,
+          "to": 3.02,
+          "time": "2024-11-23T14:21:00.014Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.2200000000000002,
+          "from": 3.02,
+          "to": 3.24,
+          "time": "2024-11-23T14:22:00.061Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732326783602,
+      "readableDate": "2024-11-23T01:53:03.602Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.92,
+        "ts": 1732326783599
+      }
+    },
+    {
+      "timestamp": 1732334461274,
+      "readableDate": "2024-11-23T04:01:01.274Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1732334461271
+      }
+    },
+    {
+      "timestamp": 1732335902403,
+      "readableDate": "2024-11-23T04:25:02.403Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1732335902401
+      }
+    },
+    {
+      "timestamp": 1732343101931,
+      "readableDate": "2024-11-23T06:25:01.931Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1732343101928
+      }
+    },
+    {
+      "timestamp": 1732356001936,
+      "readableDate": "2024-11-23T10:00:01.936Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1732356001932
+      }
+    },
+    {
+      "timestamp": 1732361640328,
+      "readableDate": "2024-11-23T11:34:00.328Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.93,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.93,
+        "oddsAway": 1.89,
+        "ts": 1732361640327
+      }
+    },
+    {
+      "timestamp": 1732361940557,
+      "readableDate": "2024-11-23T11:39:00.557Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.9,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.9,
+        "oddsAway": 1.92,
+        "ts": 1732361940555
+      }
+    },
+    {
+      "timestamp": 1732363741929,
+      "readableDate": "2024-11-23T12:09:01.929Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1732363741927
+      }
+    },
+    {
+      "timestamp": 1732365120984,
+      "readableDate": "2024-11-23T12:32:00.984Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.83,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.83,
+        "oddsAway": 1.89,
+        "ts": 1732365120982,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365301131,
+      "readableDate": "2024-11-23T12:35:01.131Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732365301129,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365481277,
+      "readableDate": "2024-11-23T12:38:01.277Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732365481276,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365541326,
+      "readableDate": "2024-11-23T12:39:01.326Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1732365541325,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365781516,
+      "readableDate": "2024-11-23T12:43:01.516Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1732365781516,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365841566,
+      "readableDate": "2024-11-23T12:44:01.566Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732365841566,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732365961654,
+      "readableDate": "2024-11-23T12:46:01.654Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732365961654,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732366081759,
+      "readableDate": "2024-11-23T12:48:01.759Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.99,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.99,
+        "oddsAway": 1.75,
+        "ts": 1732366081758,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732366261898,
+      "readableDate": "2024-11-23T12:51:01.898Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1732366261897,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732366500073,
+      "readableDate": "2024-11-23T12:55:00.073Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.85,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.85,
+        "oddsAway": 1.87,
+        "ts": 1732366500072,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732366680215,
+      "readableDate": "2024-11-23T12:58:00.215Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732366680213,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732366860357,
+      "readableDate": "2024-11-23T13:01:00.357Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1732366860357,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367100560,
+      "readableDate": "2024-11-23T13:05:00.560Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1732367100558,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367220664,
+      "readableDate": "2024-11-23T13:07:00.664Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732367220661,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367340752,
+      "readableDate": "2024-11-23T13:09:00.752Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1732367340749,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367522886,
+      "readableDate": "2024-11-23T13:12:02.886Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1732367522885,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367701031,
+      "readableDate": "2024-11-23T13:15:01.031Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.96,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.96,
+        "oddsAway": 1.77,
+        "ts": 1732367701031,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367821123,
+      "readableDate": "2024-11-23T13:17:01.123Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1732367821120,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732367941229,
+      "readableDate": "2024-11-23T13:19:01.229Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1732367941229,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732368061310,
+      "readableDate": "2024-11-23T13:21:01.310Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732368061309,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732369140143,
+      "readableDate": "2024-11-23T13:39:00.143Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.85,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.85,
+        "oddsAway": 1.86,
+        "ts": 1732369140143,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369320281,
+      "readableDate": "2024-11-23T13:42:00.281Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.79,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.79,
+        "oddsAway": 1.93,
+        "ts": 1732369320280,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369500405,
+      "readableDate": "2024-11-23T13:45:00.405Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1732369500402,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369560449,
+      "readableDate": "2024-11-23T13:46:00.449Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1732369560448,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369740580,
+      "readableDate": "2024-11-23T13:49:00.580Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1732369740580,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369860622,
+      "readableDate": "2024-11-23T13:51:00.622Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.59,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.59,
+        "oddsAway": 2.24,
+        "ts": 1732369860622,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732369920662,
+      "readableDate": "2024-11-23T13:52:00.662Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.57,
+      "oddsAway": 2.28,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.57,
+        "oddsAway": 2.28,
+        "ts": 1732369920661,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370100803,
+      "readableDate": "2024-11-23T13:55:00.803Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.3,
+      "oddsAway": 1.56,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.3,
+        "oddsAway": 1.56,
+        "ts": 1732370100801,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370280937,
+      "readableDate": "2024-11-23T13:58:00.937Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1732370280937,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370340983,
+      "readableDate": "2024-11-23T13:59:00.983Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.25,
+      "oddsAway": 1.58,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.25,
+        "oddsAway": 1.58,
+        "ts": 1732370340983,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370461071,
+      "readableDate": "2024-11-23T14:01:01.071Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1732370461068,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370641206,
+      "readableDate": "2024-11-23T14:04:01.206Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1732370641203,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732370761299,
+      "readableDate": "2024-11-23T14:06:01.299Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.98,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.98,
+        "oddsAway": 1.74,
+        "ts": 1732370761297,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371001478,
+      "readableDate": "2024-11-23T14:10:01.478Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1732371001478,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371061526,
+      "readableDate": "2024-11-23T14:11:01.526Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732371061525,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371121570,
+      "readableDate": "2024-11-23T14:12:01.570Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1732371121570,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371241649,
+      "readableDate": "2024-11-23T14:14:01.649Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.63,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.63,
+        "oddsAway": 2.15,
+        "ts": 1732371241649,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371301692,
+      "readableDate": "2024-11-23T14:15:01.692Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.6,
+      "oddsAway": 2.21,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.6,
+        "oddsAway": 2.21,
+        "ts": 1732371301692,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371479817,
+      "readableDate": "2024-11-23T14:17:59.817Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.48,
+      "oddsAway": 2.49,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.48,
+        "oddsAway": 2.49,
+        "ts": 1732371479817,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371539874,
+      "readableDate": "2024-11-23T14:18:59.874Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.43,
+      "oddsAway": 2.65,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.43,
+        "oddsAway": 2.65,
+        "ts": 1732371539872,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371599964,
+      "readableDate": "2024-11-23T14:19:59.964Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.39,
+      "oddsAway": 2.82,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.39,
+        "oddsAway": 2.82,
+        "ts": 1732371599964,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371660014,
+      "readableDate": "2024-11-23T14:21:00.014Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.34,
+      "oddsAway": 3.02,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.34,
+        "oddsAway": 3.02,
+        "ts": 1732371660014,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732371720061,
+      "readableDate": "2024-11-23T14:22:00.061Z",
+      "ahHome": 2.25,
+      "ahAway": -2.25,
+      "oddsHome": 1.31,
+      "oddsAway": 3.24,
+      "originalRecord": {
+        "id": "FB3936",
+        "home": "Leicester",
+        "away": "Chelsea",
+        "date": "2024-11-23",
+        "ahHome": 2.25,
+        "ahAway": -2.25,
+        "oddsHome": 1.31,
+        "oddsAway": 3.24,
+        "ts": 1732371720061,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.414Z",
+    "totalSnapshots": 51,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

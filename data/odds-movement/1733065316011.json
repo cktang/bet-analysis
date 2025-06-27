@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB4645",
+    "home": "Chelsea",
+    "away": "Aston Villa",
+    "date": "2024-12-01",
+    "ahHome": -2.25,
+    "ahAway": 2.25,
+    "oddsHome": 1.97,
+    "oddsAway": 1.76,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "---",
+    "live": "2nd",
+    "ts": 1733065316010
+  },
+  {
+    "id": "FB4644",
+    "home": "Manchester Utd",
+    "away": "Everton",
+    "date": "2024-12-01",
+    "ahHome": -4.25,
+    "ahAway": 4.25,
+    "oddsHome": 2.03,
+    "oddsAway": 1.72,
+    "homeScore": "4",
+    "awayScore": "0",
+    "totalCorner": "4",
+    "live": "2nd",
+    "ts": 1733065316010
+  }
+]

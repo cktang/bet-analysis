@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3588",
+    "home": "West Ham",
+    "away": "Everton",
+    "date": "2024-11-09",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.9,
+    "oddsAway": 1.82,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "1",
+    "live": "1st",
+    "ts": 1731165572537
+  }
+]

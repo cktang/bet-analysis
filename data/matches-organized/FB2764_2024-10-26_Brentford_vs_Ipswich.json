@@ -1,0 +1,267 @@
+{
+  "matchInfo": {
+    "id": "FB2764",
+    "home": "Brentford",
+    "away": "Ipswich",
+    "date": "2024-10-26",
+    "matchKey": "FB2764_2024-10-26_Brentford_vs_Ipswich"
+  },
+  "analysis": {
+    "totalSnapshots": 12,
+    "timeSpan": {
+      "start": "2024-10-26T12:56:16.726Z",
+      "end": "2024-10-26T13:58:17.828Z",
+      "durationMinutes": 62.018366666666665
+    },
+    "handicapMovements": [
+      {
+        "from": 0.5,
+        "to": 1,
+        "change": 0.5,
+        "time": "2024-10-26T13:58:17.828Z"
+      }
+    ],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1729947376726,
+      "readableDate": "2024-10-26T12:56:16.726Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1729947376723
+      }
+    },
+    {
+      "timestamp": 1729947434685,
+      "readableDate": "2024-10-26T12:57:14.685Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.94,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.94,
+        "oddsAway": 1.87,
+        "ts": 1729947434685
+      }
+    },
+    {
+      "timestamp": 1729947494711,
+      "readableDate": "2024-10-26T12:58:14.711Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947494711
+      }
+    },
+    {
+      "timestamp": 1729947974920,
+      "readableDate": "2024-10-26T13:06:14.920Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729947974919
+      }
+    },
+    {
+      "timestamp": 1729948094966,
+      "readableDate": "2024-10-26T13:08:14.966Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729948094965
+      }
+    },
+    {
+      "timestamp": 1729948395167,
+      "readableDate": "2024-10-26T13:13:15.167Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1729948395166
+      }
+    },
+    {
+      "timestamp": 1729948875522,
+      "readableDate": "2024-10-26T13:21:15.522Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1729948875520
+      }
+    },
+    {
+      "timestamp": 1729949415845,
+      "readableDate": "2024-10-26T13:30:15.845Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1729949415842
+      }
+    },
+    {
+      "timestamp": 1729949894029,
+      "readableDate": "2024-10-26T13:38:14.029Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1729949894029
+      }
+    },
+    {
+      "timestamp": 1729950674436,
+      "readableDate": "2024-10-26T13:51:14.436Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1729950674435
+      }
+    },
+    {
+      "timestamp": 1729950734465,
+      "readableDate": "2024-10-26T13:52:14.465Z",
+      "ahHome": -0.5,
+      "ahAway": 0.5,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -0.5,
+        "ahAway": 0.5,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1729950734464
+      }
+    },
+    {
+      "timestamp": 1729951097828,
+      "readableDate": "2024-10-26T13:58:17.828Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB2764",
+        "home": "Brentford",
+        "away": "Ipswich",
+        "date": "2024-10-26",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1729951097824
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.411Z",
+    "totalSnapshots": 12,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

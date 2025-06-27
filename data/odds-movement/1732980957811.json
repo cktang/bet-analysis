@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4545",
+    "home": "Nottingham Forest",
+    "away": "Ipswich",
+    "date": "2024-11-30",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 2.17,
+    "oddsAway": 1.63,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "7",
+    "live": "1st",
+    "ts": 1732980957811
+  }
+]

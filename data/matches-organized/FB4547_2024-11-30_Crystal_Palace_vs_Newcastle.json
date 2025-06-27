@@ -1,0 +1,222 @@
+{
+  "matchInfo": {
+    "id": "FB4547",
+    "home": "Crystal Palace",
+    "away": "Newcastle",
+    "date": "2024-11-30",
+    "matchKey": "FB4547_2024-11-30_Crystal_Palace_vs_Newcastle"
+  },
+  "analysis": {
+    "totalSnapshots": 10,
+    "timeSpan": {
+      "start": "2024-11-28T16:57:48.266Z",
+      "end": "2024-11-30T14:11:58.204Z",
+      "durationMinutes": 2714.165633333333
+    },
+    "handicapMovements": [],
+    "oddsMovements": [],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732813068266,
+      "readableDate": "2024-11-28T16:57:48.266Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1732813068261
+      }
+    },
+    {
+      "timestamp": 1732815755565,
+      "readableDate": "2024-11-28T17:42:35.565Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1732815755557
+      }
+    },
+    {
+      "timestamp": 1732815799414,
+      "readableDate": "2024-11-28T17:43:19.414Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1732815799407
+      }
+    },
+    {
+      "timestamp": 1732843021592,
+      "readableDate": "2024-11-29T01:17:01.592Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.91,
+        "ts": 1732843021586
+      }
+    },
+    {
+      "timestamp": 1732939498289,
+      "readableDate": "2024-11-30T04:04:58.289Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1732939498288
+      }
+    },
+    {
+      "timestamp": 1732958879318,
+      "readableDate": "2024-11-30T09:27:59.318Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.9,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.9,
+        "oddsAway": 1.92,
+        "ts": 1732958879318
+      }
+    },
+    {
+      "timestamp": 1732961519416,
+      "readableDate": "2024-11-30T10:11:59.416Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1732961519412
+      }
+    },
+    {
+      "timestamp": 1732966259140,
+      "readableDate": "2024-11-30T11:30:59.140Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.99,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.99,
+        "oddsAway": 1.84,
+        "ts": 1732966259139
+      }
+    },
+    {
+      "timestamp": 1732967818336,
+      "readableDate": "2024-11-30T11:56:58.336Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.98,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.98,
+        "oddsAway": 1.84,
+        "ts": 1732967818335
+      }
+    },
+    {
+      "timestamp": 1732975918204,
+      "readableDate": "2024-11-30T14:11:58.204Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB4547",
+        "home": "Crystal Palace",
+        "away": "Newcastle",
+        "date": "2024-11-30",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1732975918203
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.416Z",
+    "totalSnapshots": 10,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

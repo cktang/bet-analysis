@@ -1,0 +1,28 @@
+[
+  {
+    "id": "FB3936",
+    "home": "Leicester",
+    "away": "Chelsea",
+    "date": "2024-11-23",
+    "ahHome": 2.25,
+    "ahAway": -2.25,
+    "oddsHome": 1.39,
+    "oddsAway": 2.82,
+    "ts": 1732371599964,
+    "homeScore": "0",
+    "awayScore": "2",
+    "totalCorner": "10",
+    "live": "2nd"
+  },
+  {
+    "id": "FB3943",
+    "home": "Manchester City",
+    "away": "Tottenham",
+    "date": "2024-11-24",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 2.09,
+    "oddsAway": 1.75,
+    "ts": 1732371599964
+  }
+]

@@ -1,0 +1,967 @@
+{
+  "matchInfo": {
+    "id": "FB4983",
+    "home": "Fulham",
+    "away": "Arsenal",
+    "date": "2024-12-08",
+    "matchKey": "FB4983_2024-12-08_Fulham_vs_Arsenal"
+  },
+  "analysis": {
+    "totalSnapshots": 34,
+    "timeSpan": {
+      "start": "2024-12-06T13:11:49.799Z",
+      "end": "2024-12-08T14:48:42.648Z",
+      "durationMinutes": 2976.8808166666663
+    },
+    "handicapMovements": [
+      {
+        "from": -1,
+        "to": -0.75,
+        "change": 0.25,
+        "time": "2024-12-08T14:04:42.936Z"
+      },
+      {
+        "from": -0.75,
+        "to": -1,
+        "change": -0.25,
+        "time": "2024-12-08T14:05:42.958Z"
+      },
+      {
+        "from": -1,
+        "to": -0.25,
+        "change": 0.75,
+        "time": "2024-12-08T14:13:43.172Z"
+      },
+      {
+        "from": -0.25,
+        "to": 0,
+        "change": 0.25,
+        "time": "2024-12-08T14:27:43.820Z"
+      },
+      {
+        "from": 0,
+        "to": 0.25,
+        "change": 0.25,
+        "time": "2024-12-08T14:46:42.564Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.91,
+        "to": 1.96,
+        "change": 0.050000000000000044,
+        "changePercent": "2.62",
+        "time": "2024-12-08T12:47:44.149Z"
+      },
+      {
+        "from": 1.96,
+        "to": 2.02,
+        "change": 0.06000000000000005,
+        "changePercent": "3.06",
+        "time": "2024-12-08T12:48:42.194Z"
+      },
+      {
+        "from": 2.02,
+        "to": 1.96,
+        "change": -0.06000000000000005,
+        "changePercent": "-2.97",
+        "time": "2024-12-08T12:58:42.669Z"
+      },
+      {
+        "from": 1.95,
+        "to": 2,
+        "change": 0.050000000000000044,
+        "changePercent": "2.56",
+        "time": "2024-12-08T14:02:42.884Z"
+      },
+      {
+        "from": 2,
+        "to": 1.76,
+        "change": -0.24,
+        "changePercent": "-12.00",
+        "time": "2024-12-08T14:04:42.936Z"
+      },
+      {
+        "from": 1.76,
+        "to": 2,
+        "change": 0.24,
+        "changePercent": "13.64",
+        "time": "2024-12-08T14:05:42.958Z"
+      },
+      {
+        "from": 2,
+        "to": 1.92,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.00",
+        "time": "2024-12-08T14:08:43.047Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.84,
+        "change": -0.07999999999999985,
+        "changePercent": "-4.17",
+        "time": "2024-12-08T14:09:43.075Z"
+      },
+      {
+        "from": 1.84,
+        "to": 1.92,
+        "change": 0.07999999999999985,
+        "changePercent": "4.35",
+        "time": "2024-12-08T14:13:43.172Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.8,
+        "change": -0.11999999999999988,
+        "changePercent": "-6.25",
+        "time": "2024-12-08T14:14:43.214Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.85,
+        "change": 0.050000000000000044,
+        "changePercent": "2.78",
+        "time": "2024-12-08T14:17:43.364Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.92,
+        "change": 0.06999999999999984,
+        "changePercent": "3.78",
+        "time": "2024-12-08T14:19:43.449Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.99,
+        "change": 0.07000000000000006,
+        "changePercent": "3.65",
+        "time": "2024-12-08T14:22:43.588Z"
+      },
+      {
+        "from": 2.01,
+        "to": 1.74,
+        "change": -0.2699999999999998,
+        "changePercent": "-13.43",
+        "time": "2024-12-08T14:27:43.820Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.8,
+        "change": 0.06000000000000005,
+        "changePercent": "3.45",
+        "time": "2024-12-08T14:30:43.941Z"
+      },
+      {
+        "from": 1.81,
+        "to": 1.86,
+        "change": 0.050000000000000044,
+        "changePercent": "2.76",
+        "time": "2024-12-08T14:37:42.222Z"
+      },
+      {
+        "from": 1.9,
+        "to": 1.95,
+        "change": 0.050000000000000044,
+        "changePercent": "2.63",
+        "time": "2024-12-08T14:41:42.321Z"
+      },
+      {
+        "from": 1.95,
+        "to": 2.04,
+        "change": 0.09000000000000008,
+        "changePercent": "4.62",
+        "time": "2024-12-08T14:44:42.462Z"
+      },
+      {
+        "from": 2.04,
+        "to": 1.73,
+        "change": -0.31000000000000005,
+        "changePercent": "-15.20",
+        "time": "2024-12-08T14:46:42.564Z"
+      },
+      {
+        "from": 1.73,
+        "to": 1.78,
+        "change": 0.050000000000000044,
+        "changePercent": "2.89",
+        "time": "2024-12-08T14:48:42.648Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": false,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.24,
+          "from": 2,
+          "to": 1.76,
+          "time": "2024-12-08T14:04:42.936Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.24,
+          "from": 1.76,
+          "to": 2,
+          "time": "2024-12-08T14:05:42.958Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.2699999999999998,
+          "from": 2.01,
+          "to": 1.74,
+          "time": "2024-12-08T14:27:43.820Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.31000000000000005,
+          "from": 2.04,
+          "to": 1.73,
+          "time": "2024-12-08T14:46:42.564Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733490709799,
+      "readableDate": "2024-12-06T13:11:49.799Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1733490709779
+      }
+    },
+    {
+      "timestamp": 1733624263445,
+      "readableDate": "2024-12-08T02:17:43.445Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.92,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.92,
+        "oddsAway": 1.84,
+        "ts": 1733624263443
+      }
+    },
+    {
+      "timestamp": 1733631224752,
+      "readableDate": "2024-12-08T04:13:44.752Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1733631224752
+      }
+    },
+    {
+      "timestamp": 1733646882682,
+      "readableDate": "2024-12-08T08:34:42.682Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1733646882680
+      }
+    },
+    {
+      "timestamp": 1733653903970,
+      "readableDate": "2024-12-08T10:31:43.970Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.98,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.98,
+        "oddsAway": 1.84,
+        "ts": 1733653903969
+      }
+    },
+    {
+      "timestamp": 1733661403619,
+      "readableDate": "2024-12-08T12:36:43.619Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1733661403619
+      }
+    },
+    {
+      "timestamp": 1733661463661,
+      "readableDate": "2024-12-08T12:37:43.661Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1733661463660
+      }
+    },
+    {
+      "timestamp": 1733662064149,
+      "readableDate": "2024-12-08T12:47:44.149Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1733662064148
+      }
+    },
+    {
+      "timestamp": 1733662122194,
+      "readableDate": "2024-12-08T12:48:42.194Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 2.02,
+        "ts": 1733662122194
+      }
+    },
+    {
+      "timestamp": 1733662722669,
+      "readableDate": "2024-12-08T12:58:42.669Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1733662722668
+      }
+    },
+    {
+      "timestamp": 1733663923574,
+      "readableDate": "2024-12-08T13:18:43.574Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.84,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.84,
+        "oddsAway": 1.98,
+        "ts": 1733663923571
+      }
+    },
+    {
+      "timestamp": 1733666202755,
+      "readableDate": "2024-12-08T13:56:42.755Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1733666202754
+      }
+    },
+    {
+      "timestamp": 1733666502862,
+      "readableDate": "2024-12-08T14:01:42.862Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1733666502862,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733666562884,
+      "readableDate": "2024-12-08T14:02:42.884Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1733666562884,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733666682936,
+      "readableDate": "2024-12-08T14:04:42.936Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1733666682935,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733666742958,
+      "readableDate": "2024-12-08T14:05:42.958Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1733666742957,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733666923047,
+      "readableDate": "2024-12-08T14:08:43.047Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1733666923047,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733666983075,
+      "readableDate": "2024-12-08T14:09:43.075Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1733666983073,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667223172,
+      "readableDate": "2024-12-08T14:13:43.172Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1733667223171,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667283214,
+      "readableDate": "2024-12-08T14:14:43.214Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1733667283214,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667463364,
+      "readableDate": "2024-12-08T14:17:43.364Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1733667463362,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667583449,
+      "readableDate": "2024-12-08T14:19:43.449Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1733667583448,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667763588,
+      "readableDate": "2024-12-08T14:22:43.588Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.75,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.75,
+        "oddsAway": 1.99,
+        "ts": 1733667763587,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733667883683,
+      "readableDate": "2024-12-08T14:24:43.683Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1733667883682,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668063820,
+      "readableDate": "2024-12-08T14:27:43.820Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1733668063817,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668243941,
+      "readableDate": "2024-12-08T14:30:43.941Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1733668243940,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668422169,
+      "readableDate": "2024-12-08T14:33:42.169Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1733668422165,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668482108,
+      "readableDate": "2024-12-08T14:34:42.108Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1733668482107,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668662222,
+      "readableDate": "2024-12-08T14:37:42.222Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1733668662222,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668782277,
+      "readableDate": "2024-12-08T14:39:42.277Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1733668782276,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733668902321,
+      "readableDate": "2024-12-08T14:41:42.321Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1733668902321,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733669082462,
+      "readableDate": "2024-12-08T14:44:42.462Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1733669082461,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733669202564,
+      "readableDate": "2024-12-08T14:46:42.564Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1733669202561,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733669322648,
+      "readableDate": "2024-12-08T14:48:42.648Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.94,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4983",
+        "home": "Fulham",
+        "away": "Arsenal",
+        "date": "2024-12-08",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.94,
+        "oddsAway": 1.78,
+        "ts": 1733669322647,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "HT"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.418Z",
+    "totalSnapshots": 34,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

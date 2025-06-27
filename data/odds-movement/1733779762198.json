@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4965",
+    "home": "West Ham",
+    "away": "Wolves",
+    "date": "2024-12-10",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.15,
+    "oddsAway": 1.64,
+    "homeScore": "1",
+    "awayScore": "1",
+    "totalCorner": "10",
+    "live": "2nd",
+    "ts": 1733779762198
+  }
+]

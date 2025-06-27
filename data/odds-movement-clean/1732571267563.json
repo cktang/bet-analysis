@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3945",
+    "home": "Newcastle",
+    "away": "West Ham",
+    "date": "2024-11-26",
+    "ahHome": 1.75,
+    "ahAway": -1.75,
+    "oddsHome": 3.26,
+    "oddsAway": 1.3,
+    "ts": 1732571267563,
+    "homeScore": "0",
+    "awayScore": "2",
+    "totalCorner": "10",
+    "live": "2nd"
+  }
+]

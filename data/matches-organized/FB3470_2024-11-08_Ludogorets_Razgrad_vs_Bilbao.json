@@ -1,0 +1,36 @@
+{
+  "matchInfo": {
+    "id": "FB3470",
+    "home": "Ludogorets Razgrad",
+    "away": "Bilbao",
+    "date": "2024-11-08",
+    "matchKey": "FB3470_2024-11-08_Ludogorets_Razgrad_vs_Bilbao"
+  },
+  "analysis": null,
+  "oddsTimeline": [
+    {
+      "timestamp": 1730978612851,
+      "readableDate": "2024-11-07T11:23:32.851Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.93,
+      "oddsAway": null,
+      "originalRecord": {
+        "id": "FB3470",
+        "home": "Ludogorets Razgrad",
+        "away": "Bilbao",
+        "date": "2024-11-08",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.93,
+        "oddsAway": null,
+        "ts": 1730978612841
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.413Z",
+    "totalSnapshots": 1,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

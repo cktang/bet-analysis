@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3191",
+    "home": "Fulham",
+    "away": "Brentford",
+    "date": "2024-11-05",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.67,
+    "oddsAway": 2.17,
+    "ts": 1730751516771,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "1",
+    "live": "1st"
+  }
+]

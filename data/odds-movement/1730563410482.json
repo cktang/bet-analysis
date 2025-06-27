@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB3185",
+    "home": "Liverpool",
+    "away": "Brighton",
+    "date": "2024-11-02",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.95,
+    "oddsAway": 1.77,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "9",
+    "live": "2nd",
+    "ts": 1730563410482
+  },
+  {
+    "id": "FB3188",
+    "home": "Bournemouth",
+    "away": "Manchester City",
+    "date": "2024-11-02",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.97,
+    "oddsAway": 1.76,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "6",
+    "live": "2nd",
+    "ts": 1730563410482
+  }
+]

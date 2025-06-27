@@ -1,0 +1,755 @@
+{
+  "matchInfo": {
+    "id": "FB5254",
+    "home": "Brighton",
+    "away": "Crystal Palace",
+    "date": "2024-12-15",
+    "matchKey": "FB5254_2024-12-15_Brighton_vs_Crystal_Palace"
+  },
+  "analysis": {
+    "totalSnapshots": 28,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-15T14:52:35.458Z",
+      "durationMinutes": 2673.1357333333335
+    },
+    "handicapMovements": [
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-12-15T14:14:35.794Z"
+      },
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-12-15T14:16:33.865Z"
+      },
+      {
+        "from": 0.75,
+        "to": -0.25,
+        "change": -1,
+        "time": "2024-12-15T14:30:34.485Z"
+      },
+      {
+        "from": -0.25,
+        "to": -1.25,
+        "change": -1,
+        "time": "2024-12-15T14:36:34.741Z"
+      },
+      {
+        "from": -1.25,
+        "to": -1.75,
+        "change": -0.5,
+        "time": "2024-12-15T14:52:35.458Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.72,
+        "to": 1.67,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.91",
+        "time": "2024-12-15T14:05:35.455Z"
+      },
+      {
+        "from": 1.64,
+        "to": 2.17,
+        "change": 0.53,
+        "changePercent": "32.32",
+        "time": "2024-12-15T14:14:35.794Z"
+      },
+      {
+        "from": 2.17,
+        "to": 2.24,
+        "change": 0.07000000000000028,
+        "changePercent": "3.23",
+        "time": "2024-12-15T14:15:33.830Z"
+      },
+      {
+        "from": 2.24,
+        "to": 1.66,
+        "change": -0.5800000000000003,
+        "changePercent": "-25.89",
+        "time": "2024-12-15T14:16:33.865Z"
+      },
+      {
+        "from": 1.62,
+        "to": 1.81,
+        "change": 0.18999999999999995,
+        "changePercent": "11.73",
+        "time": "2024-12-15T14:30:34.485Z"
+      },
+      {
+        "from": 1.62,
+        "to": 2.25,
+        "change": 0.6299999999999999,
+        "changePercent": "38.89",
+        "time": "2024-12-15T14:52:35.458Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.53,
+          "from": 1.64,
+          "to": 2.17,
+          "time": "2024-12-15T14:14:35.794Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.5800000000000003,
+          "from": 2.24,
+          "to": 1.66,
+          "time": "2024-12-15T14:16:33.865Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.18999999999999995,
+          "from": 1.62,
+          "to": 1.81,
+          "time": "2024-12-15T14:30:34.485Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6299999999999999,
+          "from": 1.62,
+          "to": 2.25,
+          "time": "2024-12-15T14:52:35.458Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.06,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.06,
+        "oddsAway": 1.73,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.06,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.06,
+        "oddsAway": 1.73,
+        "ts": 1734169779415
+      }
+    },
+    {
+      "timestamp": 1734235656494,
+      "readableDate": "2024-12-15T04:07:36.494Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.13,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.13,
+        "oddsAway": 1.73,
+        "ts": 1734235656492
+      }
+    },
+    {
+      "timestamp": 1734254315722,
+      "readableDate": "2024-12-15T09:18:35.722Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1734254315720
+      }
+    },
+    {
+      "timestamp": 1734262955528,
+      "readableDate": "2024-12-15T11:42:35.528Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1734262955528
+      }
+    },
+    {
+      "timestamp": 1734271055107,
+      "readableDate": "2024-12-15T13:57:35.107Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.76,
+        "ts": 1734271055107
+      }
+    },
+    {
+      "timestamp": 1734271355324,
+      "readableDate": "2024-12-15T14:02:35.324Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1734271355324,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734271415363,
+      "readableDate": "2024-12-15T14:03:35.363Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.03,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.03,
+        "oddsAway": 1.72,
+        "ts": 1734271415363,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734271535455,
+      "readableDate": "2024-12-15T14:05:35.455Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1734271535455,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734271775617,
+      "readableDate": "2024-12-15T14:09:35.617Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.13,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.13,
+        "oddsAway": 1.65,
+        "ts": 1734271775617,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734271895663,
+      "readableDate": "2024-12-15T14:11:35.663Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1734271895663,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272075794,
+      "readableDate": "2024-12-15T14:14:35.794Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.63,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.63,
+        "oddsAway": 2.17,
+        "ts": 1734272075792,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272133830,
+      "readableDate": "2024-12-15T14:15:33.830Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.59,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.59,
+        "oddsAway": 2.24,
+        "ts": 1734272133829,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272193865,
+      "readableDate": "2024-12-15T14:16:33.865Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1734272193865,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272313982,
+      "readableDate": "2024-12-15T14:18:33.982Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.69,
+        "ts": 1734272313982,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272374017,
+      "readableDate": "2024-12-15T14:19:34.017Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1734272374017,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272554131,
+      "readableDate": "2024-12-15T14:22:34.131Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1734272554131,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272734248,
+      "readableDate": "2024-12-15T14:25:34.248Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1734272734248,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734272854342,
+      "readableDate": "2024-12-15T14:27:34.342Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1734272854341,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273034485,
+      "readableDate": "2024-12-15T14:30:34.485Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1734273034485,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273214620,
+      "readableDate": "2024-12-15T14:33:34.620Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1734273214620,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273394741,
+      "readableDate": "2024-12-15T14:36:34.741Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1734273394741,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273514830,
+      "readableDate": "2024-12-15T14:38:34.830Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1734273514830,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273694973,
+      "readableDate": "2024-12-15T14:41:34.973Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.03,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.03,
+        "oddsAway": 1.72,
+        "ts": 1734273694973,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734273875110,
+      "readableDate": "2024-12-15T14:44:35.110Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1734273875110,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734274055238,
+      "readableDate": "2024-12-15T14:47:35.238Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1734274055238,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734274175323,
+      "readableDate": "2024-12-15T14:49:35.323Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1734274175323,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734274355458,
+      "readableDate": "2024-12-15T14:52:35.458Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.58,
+      "oddsAway": 2.25,
+      "originalRecord": {
+        "id": "FB5254",
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "date": "2024-12-15",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.58,
+        "oddsAway": 2.25,
+        "ts": 1734274355457,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "HT"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 28,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

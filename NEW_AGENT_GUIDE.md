@@ -4,13 +4,14 @@
 
 This is a **COMPLETE, OPERATIONAL** betting analysis system with **4 legitimate profitable strategies**. The system has been **FULLY REFACTORED** for data integrity - all contaminated sources eliminated. Your role is to **MAINTAIN and EXTEND**, not rebuild.
 
-## 🎯 **System Status: CLEAN & OPERATIONAL ✅**
+## 🎯 **System Status: BREAKTHROUGH PHASE COMPLETE ✅**
 
 - **✅ REFACTORED**: Complete preMatch/postMatch data separation implemented
 - **✅ DATA INTEGRITY**: Zero look-ahead bias - all contaminated sources eliminated
-- **✅ CLEAN STRATEGIES**: 4 legitimate strategies with 13-53% ROI using only pre-match data
-- **✅ DATA PIPELINE**: Processing 1,096 EPL matches with validated clean data
-- **✅ PRODUCTION READY**: Fully implementable system with realistic expectations
+- **✅ MAJOR DISCOVERIES**: Revolutionary variable staking system (+27% profit), HKJC trapped markets (28% ROI), Threshold Theory (U-shaped inefficiency pattern)
+- **✅ VARIABLE STAKING**: Universal edge amplifier providing 70% improvement rate across ALL strategies
+- **✅ MARKET INEFFICIENCIES**: Systematic patterns identified and validated across 1,126 matches
+- **✅ PRODUCTION READY**: Ready for live deployment with breakthrough discoveries
 
 ## 🚫 **CRITICAL: DO NOT MODIFY THESE AREAS**
 
@@ -84,9 +85,35 @@ bet-analysis/
 └── [documentation files]        # ✅ UPDATE - Always improve docs
 ```
 
+## 🏆 **MAJOR BREAKTHROUGH DISCOVERIES**
+
+### **🎯 Variable Staking Revolution** [[memory:796971609614219539]]
+- **Tier-based scaling system** provides **27% MORE PROFIT** than fixed staking
+- **176% bankroll growth** ($50k → $138k) with 105.1% efficiency
+- **Universal edge amplifier** - 70% improvement rate across ALL strategies
+- **Status**: Ready for live implementation
+
+### **🎯 HKJC Trapped Markets** [[memory:8629622791241927242]]
+- **HKJC never offers pure half handicaps** - creates systematic inefficiencies
+- **28% ROI, 59% win rate** fading public favorites on quarter handicaps
+- **117 validated cases** across 3 seasons
+- **Status**: Validated market inefficiency
+
+### **🎯 Threshold Theory** [[memory:3314732832357616299]]
+- **U-shaped inefficiency pattern** based on favorite strength
+- **Quarter favorites overvalued** early season → 39.69% ROI (fade home)
+- **Seasonal decay** - works weeks 1-8, weakens 9-20, disappears 30+
+- **Status**: Major market psychology breakthrough
+
 ## 🎲 **Understanding the Clean Profitable Strategies**
 
-### **4 Clean Strategies (LEGITIMATE & IMPLEMENTABLE)**
+### **Top Performing Strategies (With Variable Staking)**
+1. **Single_fadeQuarterWeek1to2** - **+39.95% ROI** (Threshold Theory + Variable Staking)
+2. **Single_fadeEarlyQuarterAwayTopSix** - **+38.43% ROI** (Universal Edge Amplifier)
+3. **HKJC Quarter Handicap Fade** - **28% ROI, 59% win rate** (Trapped Markets)
+4. **Early Season Quarter Favorites** - **+39.69% ROI** (Threshold Theory)
+
+### **Base Clean Strategies (Before Variable Staking)**
 1. **Goal_Difference_Momentum** - 53.19% ROI (108 bets, 67.6% accuracy)
 2. **Historical_Form_Value** - 30.21% ROI (108 bets, 57.4% accuracy)
 3. **Position_Odds_Disparity** - 27.56% ROI (438 bets, 55.3% accuracy)  
@@ -215,11 +242,14 @@ node analyze_strategies.js
 ## 📚 **Essential Reading Order**
 
 1. **This file** - Understanding project boundaries
-2. **README.md** - Project overview and quick start
-3. **src/ah-analysis/README.md** - Core analysis system
-4. **src/scripts/README.md** - Data processing pipeline  
-5. **plan/README.md** - Strategic framework and implementation
-6. **FBREF_INCIDENT_INTEGRATION_SUMMARY.md** - Data enhancement details
+2. **PROJECT_STATUS.md** - **CRITICAL**: Complete status of all major discoveries
+3. **README.md** - Project overview with breakthrough discoveries
+4. **VARIABLE_STAKING_GUIDE.md** - Revolutionary staking system (+27% profit)
+5. **THRESHOLD_THEORY_MANUAL.md** - U-shaped market inefficiency pattern
+6. **src/ah-analysis/README.md** - Core analysis system
+7. **src/scripts/README.md** - Data processing pipeline  
+8. **plan/README.md** - Strategic framework and implementation
+9. **FBREF_INCIDENT_INTEGRATION_SUMMARY.md** - Data enhancement details
 
 ## 🎯 **Your Mission (If You Choose to Accept)**
 

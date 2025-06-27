@@ -1,0 +1,1543 @@
+{
+  "matchInfo": {
+    "id": "FB4784",
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "date": "2024-12-05",
+    "matchKey": "FB4784_2024-12-05_Newcastle_vs_Liverpool"
+  },
+  "analysis": {
+    "totalSnapshots": 58,
+    "timeSpan": {
+      "start": "2024-12-04T17:34:04.297Z",
+      "end": "2024-12-04T21:23:02.838Z",
+      "durationMinutes": 228.9756833333333
+    },
+    "handicapMovements": [
+      {
+        "from": -0.75,
+        "to": -0.25,
+        "change": 0.5,
+        "time": "2024-12-04T19:31:57.933Z"
+      },
+      {
+        "from": -0.25,
+        "to": 0.25,
+        "change": 0.5,
+        "time": "2024-12-04T20:06:59.514Z"
+      },
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-12-04T20:09:59.643Z"
+      },
+      {
+        "from": 0.75,
+        "to": -0.25,
+        "change": -1,
+        "time": "2024-12-04T20:41:58.999Z"
+      },
+      {
+        "from": -0.25,
+        "to": 0.75,
+        "change": 1,
+        "time": "2024-12-04T20:53:59.542Z"
+      },
+      {
+        "from": 0.75,
+        "to": -0.25,
+        "change": -1,
+        "time": "2024-12-04T20:59:57.808Z"
+      },
+      {
+        "from": -0.25,
+        "to": 0,
+        "change": 0.25,
+        "time": "2024-12-04T21:10:58.304Z"
+      },
+      {
+        "from": 0,
+        "to": -1,
+        "change": -1,
+        "time": "2024-12-04T21:14:58.489Z"
+      },
+      {
+        "from": -1,
+        "to": 0,
+        "change": 1,
+        "time": "2024-12-04T21:23:02.838Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2.04,
+        "to": 2.1,
+        "change": 0.06000000000000005,
+        "changePercent": "2.94",
+        "time": "2024-12-04T18:22:59.253Z"
+      },
+      {
+        "from": 2.19,
+        "to": 1.74,
+        "change": -0.44999999999999996,
+        "changePercent": "-20.55",
+        "time": "2024-12-04T19:31:57.933Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.78,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.78",
+        "time": "2024-12-04T19:45:58.551Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.73,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.89",
+        "time": "2024-12-04T19:49:58.731Z"
+      },
+      {
+        "from": 1.73,
+        "to": 1.81,
+        "change": 0.08000000000000007,
+        "changePercent": "4.62",
+        "time": "2024-12-04T19:52:58.870Z"
+      },
+      {
+        "from": 1.84,
+        "to": 1.78,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.26",
+        "time": "2024-12-04T20:02:59.316Z"
+      },
+      {
+        "from": 1.78,
+        "to": 2.13,
+        "change": 0.34999999999999987,
+        "changePercent": "19.66",
+        "time": "2024-12-04T20:06:59.514Z"
+      },
+      {
+        "from": 2.13,
+        "to": 1.66,
+        "change": -0.47,
+        "changePercent": "-22.07",
+        "time": "2024-12-04T20:09:59.643Z"
+      },
+      {
+        "from": 1.7,
+        "to": 1.78,
+        "change": 0.08000000000000007,
+        "changePercent": "4.71",
+        "time": "2024-12-04T20:17:57.989Z"
+      },
+      {
+        "from": 1.78,
+        "to": 1.85,
+        "change": 0.07000000000000006,
+        "changePercent": "3.93",
+        "time": "2024-12-04T20:19:58.070Z"
+      },
+      {
+        "from": 1.88,
+        "to": 2.1,
+        "change": 0.2200000000000002,
+        "changePercent": "11.70",
+        "time": "2024-12-04T20:41:58.999Z"
+      },
+      {
+        "from": 2.13,
+        "to": 2.06,
+        "change": -0.06999999999999984,
+        "changePercent": "-3.29",
+        "time": "2024-12-04T20:44:59.135Z"
+      },
+      {
+        "from": 2.11,
+        "to": 2.16,
+        "change": 0.050000000000000266,
+        "changePercent": "2.37",
+        "time": "2024-12-04T20:50:59.412Z"
+      },
+      {
+        "from": 2.16,
+        "to": 2.02,
+        "change": -0.14000000000000012,
+        "changePercent": "-6.48",
+        "time": "2024-12-04T20:53:59.542Z"
+      },
+      {
+        "from": 1.98,
+        "to": 2.22,
+        "change": 0.2400000000000002,
+        "changePercent": "12.12",
+        "time": "2024-12-04T20:59:57.808Z"
+      },
+      {
+        "from": 2.22,
+        "to": 2.32,
+        "change": 0.09999999999999964,
+        "changePercent": "4.50",
+        "time": "2024-12-04T21:03:57.983Z"
+      },
+      {
+        "from": 2.35,
+        "to": 1.51,
+        "change": -0.8400000000000001,
+        "changePercent": "-35.74",
+        "time": "2024-12-04T21:10:58.304Z"
+      },
+      {
+        "from": 1.51,
+        "to": 1.74,
+        "change": 0.22999999999999998,
+        "changePercent": "15.23",
+        "time": "2024-12-04T21:14:58.489Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.82,
+        "change": 0.08000000000000007,
+        "changePercent": "4.60",
+        "time": "2024-12-04T21:17:58.622Z"
+      },
+      {
+        "from": 1.82,
+        "to": 3,
+        "change": 1.18,
+        "changePercent": "64.84",
+        "time": "2024-12-04T21:23:02.838Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.44999999999999996,
+          "from": 2.19,
+          "to": 1.74,
+          "time": "2024-12-04T19:31:57.933Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.34999999999999987,
+          "from": 1.78,
+          "to": 2.13,
+          "time": "2024-12-04T20:06:59.514Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.47,
+          "from": 2.13,
+          "to": 1.66,
+          "time": "2024-12-04T20:09:59.643Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.2200000000000002,
+          "from": 1.88,
+          "to": 2.1,
+          "time": "2024-12-04T20:41:58.999Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.2400000000000002,
+          "from": 1.98,
+          "to": 2.22,
+          "time": "2024-12-04T20:59:57.808Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.8400000000000001,
+          "from": 2.35,
+          "to": 1.51,
+          "time": "2024-12-04T21:10:58.304Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.22999999999999998,
+          "from": 1.51,
+          "to": 1.74,
+          "time": "2024-12-04T21:14:58.489Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 1.18,
+          "from": 1.82,
+          "to": 3,
+          "time": "2024-12-04T21:23:02.838Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1733333644297,
+      "readableDate": "2024-12-04T17:34:04.297Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733333644289
+      }
+    },
+    {
+      "timestamp": 1733334908287,
+      "readableDate": "2024-12-04T17:55:08.287Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733334908275
+      }
+    },
+    {
+      "timestamp": 1733335004480,
+      "readableDate": "2024-12-04T17:56:44.480Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335004455
+      }
+    },
+    {
+      "timestamp": 1733335082900,
+      "readableDate": "2024-12-04T17:58:02.900Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335082892
+      }
+    },
+    {
+      "timestamp": 1733335109964,
+      "readableDate": "2024-12-04T17:58:29.964Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335109956
+      }
+    },
+    {
+      "timestamp": 1733335181978,
+      "readableDate": "2024-12-04T17:59:41.978Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335181972
+      }
+    },
+    {
+      "timestamp": 1733335232343,
+      "readableDate": "2024-12-04T18:00:32.343Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335232338
+      }
+    },
+    {
+      "timestamp": 1733335292773,
+      "readableDate": "2024-12-04T18:01:32.773Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335292747
+      }
+    },
+    {
+      "timestamp": 1733335401019,
+      "readableDate": "2024-12-04T18:03:21.019Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335401007
+      }
+    },
+    {
+      "timestamp": 1733335739568,
+      "readableDate": "2024-12-04T18:08:59.568Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335739560
+      }
+    },
+    {
+      "timestamp": 1733335785461,
+      "readableDate": "2024-12-04T18:09:45.461Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335785454
+      }
+    },
+    {
+      "timestamp": 1733335818129,
+      "readableDate": "2024-12-04T18:10:18.129Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335818123
+      }
+    },
+    {
+      "timestamp": 1733335852299,
+      "readableDate": "2024-12-04T18:10:52.299Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733335852293
+      }
+    },
+    {
+      "timestamp": 1733336136108,
+      "readableDate": "2024-12-04T18:15:36.108Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733336136102
+      }
+    },
+    {
+      "timestamp": 1733336223100,
+      "readableDate": "2024-12-04T18:17:03.100Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.79,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.79,
+        "oddsAway": 2.04,
+        "ts": 1733336223090
+      }
+    },
+    {
+      "timestamp": 1733336579253,
+      "readableDate": "2024-12-04T18:22:59.253Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.75,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.75,
+        "oddsAway": 2.1,
+        "ts": 1733336579252
+      }
+    },
+    {
+      "timestamp": 1733336759312,
+      "readableDate": "2024-12-04T18:25:59.312Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.14,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.14,
+        "ts": 1733336759311
+      }
+    },
+    {
+      "timestamp": 1733336821356,
+      "readableDate": "2024-12-04T18:27:01.356Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.69,
+      "oddsAway": 2.19,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.69,
+        "oddsAway": 2.19,
+        "ts": 1733336821354
+      }
+    },
+    {
+      "timestamp": 1733340717933,
+      "readableDate": "2024-12-04T19:31:57.933Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1733340717933,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733340777978,
+      "readableDate": "2024-12-04T19:32:57.978Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1733340777978,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733340838026,
+      "readableDate": "2024-12-04T19:33:58.026Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.94,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.94,
+        "oddsAway": 1.79,
+        "ts": 1733340838025,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733340898067,
+      "readableDate": "2024-12-04T19:34:58.067Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1733340898066,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341078195,
+      "readableDate": "2024-12-04T19:37:58.195Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1733341078195,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341138236,
+      "readableDate": "2024-12-04T19:38:58.236Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1733341138236,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341318370,
+      "readableDate": "2024-12-04T19:41:58.370Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1733341318370,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341378417,
+      "readableDate": "2024-12-04T19:42:58.417Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1733341378415,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341558551,
+      "readableDate": "2024-12-04T19:45:58.551Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1733341558550,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341738691,
+      "readableDate": "2024-12-04T19:48:58.691Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1733341738689,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341798731,
+      "readableDate": "2024-12-04T19:49:58.731Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1733341798731,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733341978870,
+      "readableDate": "2024-12-04T19:52:58.870Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1733341978870,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342158999,
+      "readableDate": "2024-12-04T19:55:58.999Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.9,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.9,
+        "oddsAway": 1.82,
+        "ts": 1733342158999,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342339141,
+      "readableDate": "2024-12-04T19:58:59.141Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1733342339140,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342459218,
+      "readableDate": "2024-12-04T20:00:59.218Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1733342459218,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342579316,
+      "readableDate": "2024-12-04T20:02:59.316Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1733342579315,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342819514,
+      "readableDate": "2024-12-04T20:06:59.514Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1733342819513,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733342999643,
+      "readableDate": "2024-12-04T20:09:59.643Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1733342999642,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733343119723,
+      "readableDate": "2024-12-04T20:11:59.723Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1733343119722,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "7",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733343179761,
+      "readableDate": "2024-12-04T20:12:59.761Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1733343179758,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "7",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733343393916,
+      "readableDate": "2024-12-04T20:16:33.916Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1733343393916,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733343477989,
+      "readableDate": "2024-12-04T20:17:57.989Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1733343477986,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1733343598070,
+      "readableDate": "2024-12-04T20:19:58.070Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1733343598068,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1733344618794,
+      "readableDate": "2024-12-04T20:36:58.794Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.86,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.86,
+        "oddsAway": 1.85,
+        "ts": 1733344618794,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733344798912,
+      "readableDate": "2024-12-04T20:39:58.912Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1733344798910,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733344918999,
+      "readableDate": "2024-12-04T20:41:58.999Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1733344918999,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345039093,
+      "readableDate": "2024-12-04T20:43:59.093Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1733345039093,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345099135,
+      "readableDate": "2024-12-04T20:44:59.135Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.69,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.69,
+        "oddsAway": 2.06,
+        "ts": 1733345099135,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345279274,
+      "readableDate": "2024-12-04T20:47:59.274Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.66,
+      "oddsAway": 2.11,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.66,
+        "oddsAway": 2.11,
+        "ts": 1733345279273,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345459412,
+      "readableDate": "2024-12-04T20:50:59.412Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.63,
+      "oddsAway": 2.16,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.63,
+        "oddsAway": 2.16,
+        "ts": 1733345459412,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345639542,
+      "readableDate": "2024-12-04T20:53:59.542Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.72,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.72,
+        "oddsAway": 2.02,
+        "ts": 1733345639542,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345817698,
+      "readableDate": "2024-12-04T20:56:57.698Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 1.75,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 1.75,
+        "oddsAway": 1.98,
+        "ts": 1733345817698,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733345997808,
+      "readableDate": "2024-12-04T20:59:57.808Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.6,
+      "oddsAway": 2.22,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.6,
+        "oddsAway": 2.22,
+        "ts": 1733345997807,
+        "homeScore": "2",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733346237983,
+      "readableDate": "2024-12-04T21:03:57.983Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.55,
+      "oddsAway": 2.32,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.55,
+        "oddsAway": 2.32,
+        "ts": 1733346237982,
+        "homeScore": "2",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733346298029,
+      "readableDate": "2024-12-04T21:04:58.029Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.55,
+      "oddsAway": 2.31,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.55,
+        "oddsAway": 2.31,
+        "ts": 1733346298028,
+        "homeScore": "2",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733346478183,
+      "readableDate": "2024-12-04T21:07:58.183Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.54,
+      "oddsAway": 2.35,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.54,
+        "oddsAway": 2.35,
+        "ts": 1733346478181,
+        "homeScore": "2",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733346658304,
+      "readableDate": "2024-12-04T21:10:58.304Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.41,
+      "oddsAway": 1.51,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.41,
+        "oddsAway": 1.51,
+        "ts": 1733346658303,
+        "homeScore": "2",
+        "awayScore": "2",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733346898489,
+      "readableDate": "2024-12-04T21:14:58.489Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.99,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.99,
+        "oddsAway": 1.74,
+        "ts": 1733346898488,
+        "homeScore": "2",
+        "awayScore": "3",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733347078622,
+      "readableDate": "2024-12-04T21:17:58.622Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.9,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.9,
+        "oddsAway": 1.82,
+        "ts": 1733347078621,
+        "homeScore": "2",
+        "awayScore": "3",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1733347382838,
+      "readableDate": "2024-12-04T21:23:02.838Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 3,
+      "oddsAway": 3,
+      "originalRecord": {
+        "id": "FB4784",
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "date": "2024-12-05",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 3,
+        "oddsAway": 3,
+        "ts": 1733347382838
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.417Z",
+    "totalSnapshots": 58,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

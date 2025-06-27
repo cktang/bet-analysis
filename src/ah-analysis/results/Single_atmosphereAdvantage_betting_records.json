@@ -1,0 +1,2084 @@
+{
+  "strategy": {
+    "name": "Single_atmosphereAdvantage",
+    "roi": "13.04%",
+    "correlation": "0.0758",
+    "factors": [
+      "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+    ],
+    "hypothesis": "Big atmosphere helps good home teams even without market confidence predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 58,
+    "totalStaked": 60200,
+    "totalProfit": 7850,
+    "winRate": "58.6%",
+    "roi": "13.04%",
+    "generatedAt": "2025-06-26T16:34:52.653Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "score": "2-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.88",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 1, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-05-10T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Chelsea",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.94",
+      "betSize": "650",
+      "profit": "611",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 325
+      }
+    },
+    {
+      "date": "2025-02-23T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.96",
+      "betSize": "950",
+      "profit": "-950",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 475
+      }
+    },
+    {
+      "date": "2025-02-02T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester City",
+      "score": "5-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "140",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 5"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-01-25T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Chelsea",
+      "score": "3-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "betSize": "1400",
+      "profit": "1386",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 700
+      }
+    },
+    {
+      "date": "2024-12-01T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester City",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "betSize": "200",
+      "profit": "160",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 1, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-10-27T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "betSize": "1400",
+      "profit": "-700",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 700
+      }
+    },
+    {
+      "date": "2024-09-27T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester City",
+      "score": "1-1",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "betSize": "200",
+      "profit": "158",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-05-15T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Newcastle",
+      "score": "3-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.77",
+      "betSize": "200",
+      "profit": "154",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 7"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-05-14T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "2.11",
+      "betSize": "3200",
+      "profit": "-3200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 1600
+      }
+    },
+    {
+      "date": "2024-05-11T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "score": "0-1",
+      "handicapLine": "+2",
+      "betSide": "Home",
+      "betOdds": "1.75",
+      "betSize": "200",
+      "profit": "150",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-27T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Arsenal",
+      "score": "2-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "betSize": "1250",
+      "profit": "-625",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 625
+      }
+    },
+    {
+      "date": "2024-04-26T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "betSize": "200",
+      "profit": "160",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-04-13T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "score": "0-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "-2300",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 13"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2024-04-12T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Tottenham",
+      "score": "4-0",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.77",
+      "betSize": "200",
+      "profit": "154",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-04-06T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "betSize": "800",
+      "profit": "760",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-04-02T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "score": "1-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.71",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 14"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-04-02T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Tottenham",
+      "score": "1-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.17",
+      "betSize": "4100",
+      "profit": "2399",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 5"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 2050
+      }
+    },
+    {
+      "date": "2024-03-16T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Aston Villa",
+      "score": "1-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "betSize": "200",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-03-09T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester City",
+      "score": "1-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "betSize": "3350",
+      "profit": "1876",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 2, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 1675
+      }
+    },
+    {
+      "date": "2024-02-10T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Arsenal",
+      "score": "0-6",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "betSize": "1400",
+      "profit": "-1400",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-02-04T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "score": "3-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "betSize": "1250",
+      "profit": "1225",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 625
+      }
+    },
+    {
+      "date": "2024-02-01T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Bournemouth",
+      "score": "1-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "betSize": "200",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 14"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-01-02T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Brighton",
+      "score": "0-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.14",
+      "betSize": "3650",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 8"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-26T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Aston Villa",
+      "score": "3-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.77",
+      "betSize": "200",
+      "profit": "154",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-23T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "score": "1-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "-1150",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2023-12-10T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Newcastle",
+      "score": "4-1",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.74",
+      "betSize": "200",
+      "profit": "148",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 7"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-12-06T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Chelsea",
+      "score": "2-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.08",
+      "betSize": "2750",
+      "profit": "2970",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 10"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-12-02T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester Utd",
+      "score": "1-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.76",
+      "betSize": "200",
+      "profit": "152",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 6"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-11-25T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Aston Villa",
+      "score": "1-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.94",
+      "betSize": "650",
+      "profit": "-650",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 5"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-11-24T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Chelsea",
+      "score": "4-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.04",
+      "betSize": "2150",
+      "profit": "2236",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 10"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-11-06T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Chelsea",
+      "score": "1-4",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "-500",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 2, Away position: 13"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 250
+      }
+    },
+    {
+      "date": "2023-11-04T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Arsenal",
+      "score": "1-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "betSize": "1550",
+      "profit": "1550",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-28T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "betSize": "350",
+      "profit": "-350",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-10-07T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester City",
+      "score": "1-0",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.80",
+      "betSize": "200",
+      "profit": "160",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-10-07T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Newcastle",
+      "score": "2-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.02",
+      "betSize": "1850",
+      "profit": "944",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 8"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 925
+      }
+    },
+    {
+      "date": "2023-09-30T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Liverpool",
+      "score": "2-1",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "465",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 250
+      }
+    },
+    {
+      "date": "2023-09-15T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Manchester City",
+      "score": "1-3",
+      "handicapLine": "+1",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-05-06T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Arsenal",
+      "score": "0-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.95",
+      "betSize": "800",
+      "profit": "-800",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 400
+      }
+    },
+    {
+      "date": "2023-04-27T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Manchester Utd",
+      "score": "2-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "betSize": "200",
+      "profit": "87",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 7, Away position: 4"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-04-08T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "score": "2-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.04",
+      "betSize": "2150",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-07T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Brighton",
+      "score": "2-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "465",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 6"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-04-01T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester Utd",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.00",
+      "betSize": "1550",
+      "profit": "1550",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 775
+      }
+    },
+    {
+      "date": "2023-03-05T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Manchester Utd",
+      "score": "7-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "2.05",
+      "betSize": "2300",
+      "profit": "2415",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1150
+      }
+    },
+    {
+      "date": "2023-02-25T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Chelsea",
+      "score": "2-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.03",
+      "betSize": "2000",
+      "profit": "2060",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 10"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-02-18T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Liverpool",
+      "score": "0-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.87",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 9"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2023-02-15T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester City",
+      "score": "1-3",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.93",
+      "betSize": "500",
+      "profit": "-500",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 1, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 250
+      }
+    },
+    {
+      "date": "2023-02-05T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Manchester City",
+      "score": "1-0",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.81",
+      "betSize": "200",
+      "profit": "162",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-01-15T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Arsenal",
+      "score": "0-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "1.98",
+      "betSize": "1250",
+      "profit": "-1250",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 625
+      }
+    },
+    {
+      "date": "2023-01-13T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Manchester City",
+      "score": "2-1",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.79",
+      "betSize": "200",
+      "profit": "158",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-11-12T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Chelsea",
+      "score": "1-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.78",
+      "betSize": "200",
+      "profit": "156",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 8"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-11-06T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Liverpool",
+      "score": "1-2",
+      "handicapLine": "0/+0.5",
+      "betSide": "Home",
+      "betOdds": "2.17",
+      "betSize": "4100",
+      "profit": "-4100",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 4, Away position: 10"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 2050
+      }
+    },
+    {
+      "date": "2022-10-22T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Newcastle",
+      "score": "1-2",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.86",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 6"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-10-19T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Tottenham",
+      "score": "2-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.99",
+      "betSize": "1400",
+      "profit": "1386",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 700
+      }
+    },
+    {
+      "date": "2022-10-15T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Newcastle",
+      "score": "0-0",
+      "handicapLine": "0/-0.5",
+      "betSide": "Home",
+      "betOdds": "1.73",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 5, Away position: 6"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          0,
+          -0.5
+        ],
+        "individualOutcomes": [
+          "Push",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-10-08T16:00:00.000Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "score": "3-2",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.85",
+      "betSize": "200",
+      "profit": "170",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 2, Away position: 10"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2022-09-03T16:00:00.000Z",
+      "homeTeam": "Manchester Utd",
+      "awayTeam": "Arsenal",
+      "score": "3-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.91",
+      "betSize": "200",
+      "profit": "182",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 8, Away position: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": null
+    },
+    {
+      "date": "2022-08-20T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester City",
+      "score": "3-3",
+      "handicapLine": "+1/+1.5",
+      "betSide": "Home",
+      "betOdds": "1.92",
+      "betSize": "350",
+      "profit": "322",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 6, Away position: 2"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.attendance > 50000 && (timeSeries.home.leaguePosition || 20) <= 8 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= -0.25) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0758",
+      "handicapDetails": {
+        "splitLines": [
+          1,
+          1.5
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 175
+      }
+    }
+  ]
+}

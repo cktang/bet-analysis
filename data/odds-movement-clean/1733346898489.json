@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4784",
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "date": "2024-12-05",
+    "ahHome": 1,
+    "ahAway": -1,
+    "oddsHome": 1.99,
+    "oddsAway": 1.74,
+    "ts": 1733346898488,
+    "homeScore": "2",
+    "awayScore": "3",
+    "totalCorner": "10",
+    "live": "2nd"
+  }
+]

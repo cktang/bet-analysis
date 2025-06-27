@@ -1,0 +1,249 @@
+{
+  "matchInfo": {
+    "id": "FB5255",
+    "home": "Liverpool",
+    "away": "Fulham",
+    "date": "2024-12-14",
+    "matchKey": "FB5255_2024-12-14_Liverpool_vs_Fulham"
+  },
+  "analysis": {
+    "totalSnapshots": 11,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-14T14:04:36.573Z",
+      "durationMinutes": 1185.1543166666668
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 1.78,
+        "to": 1.86,
+        "change": 0.08000000000000007,
+        "changePercent": "4.49",
+        "time": "2024-12-14T07:07:11.460Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": true,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.02,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.02,
+        "oddsAway": 1.76,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734149291762,
+      "readableDate": "2024-12-14T04:08:11.762Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1734149291761
+      }
+    },
+    {
+      "timestamp": 1734158650467,
+      "readableDate": "2024-12-14T06:44:10.467Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1734158650467
+      }
+    },
+    {
+      "timestamp": 1734160031460,
+      "readableDate": "2024-12-14T07:07:11.460Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1734160031458
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.82,
+        "ts": 1734169779415
+      }
+    },
+    {
+      "timestamp": 1734171576599,
+      "readableDate": "2024-12-14T10:19:36.599Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1734171576598
+      }
+    },
+    {
+      "timestamp": 1734174696998,
+      "readableDate": "2024-12-14T11:11:36.998Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1734174696998
+      }
+    },
+    {
+      "timestamp": 1734179376400,
+      "readableDate": "2024-12-14T12:29:36.400Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1734179376399
+      }
+    },
+    {
+      "timestamp": 1734181057491,
+      "readableDate": "2024-12-14T12:57:37.491Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.98,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.98,
+        "oddsAway": 1.84,
+        "ts": 1734181057491
+      }
+    },
+    {
+      "timestamp": 1734184476178,
+      "readableDate": "2024-12-14T13:54:36.178Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1734184476178
+      }
+    },
+    {
+      "timestamp": 1734185076573,
+      "readableDate": "2024-12-14T14:04:36.573Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.93,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB5255",
+        "home": "Liverpool",
+        "away": "Fulham",
+        "date": "2024-12-14",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.93,
+        "oddsAway": 1.89,
+        "ts": 1734185076573
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 11,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

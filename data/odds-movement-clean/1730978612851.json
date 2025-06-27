@@ -1,0 +1,112 @@
+[
+  {
+    "id": "FB3502",
+    "home": "Galatasaray",
+    "away": "Tottenham",
+    "date": "2024-11-08",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.01,
+    "oddsAway": 1.8,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3501",
+    "home": "Olympiakos",
+    "away": "Rangers",
+    "date": "2024-11-08",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 2.07,
+    "oddsAway": 1.75,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3472",
+    "home": "Union Saint Gilloise",
+    "away": "Roma",
+    "date": "2024-11-08",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 2.09,
+    "oddsAway": 1.72,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3473",
+    "home": "Frankfurt",
+    "away": "Slavia Prague",
+    "date": "2024-11-08",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.82,
+    "oddsAway": null,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3470",
+    "home": "Ludogorets Razgrad",
+    "away": "Bilbao",
+    "date": "2024-11-08",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.93,
+    "oddsAway": null,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3481",
+    "home": "Nice",
+    "away": "Twente",
+    "date": "2024-11-08",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.89,
+    "oddsAway": null,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3476",
+    "home": "Manchester Utd",
+    "away": "PAOK",
+    "date": "2024-11-08",
+    "ahHome": -1.75,
+    "ahAway": 1.75,
+    "oddsHome": 1.76,
+    "oddsAway": 2.06,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3480",
+    "home": "Lazio",
+    "away": "Porto",
+    "date": "2024-11-08",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.72,
+    "oddsAway": 2.1,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3474",
+    "home": "Hoffenheim",
+    "away": "Lyon",
+    "date": "2024-11-08",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.87,
+    "oddsAway": null,
+    "ts": 1730978612841
+  },
+  {
+    "id": "FB3475",
+    "home": "Viktoria Plzen",
+    "away": "Real Sociedad",
+    "date": "2024-11-08",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 2.15,
+    "oddsAway": null,
+    "ts": 1730978612841
+  }
+]

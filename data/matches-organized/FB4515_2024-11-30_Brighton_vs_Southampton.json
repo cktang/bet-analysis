@@ -1,0 +1,603 @@
+{
+  "matchInfo": {
+    "id": "FB4515",
+    "home": "Brighton",
+    "away": "Southampton",
+    "date": "2024-11-30",
+    "matchKey": "FB4515_2024-11-30_Brighton_vs_Southampton"
+  },
+  "analysis": {
+    "totalSnapshots": 20,
+    "timeSpan": {
+      "start": "2024-11-28T16:57:48.266Z",
+      "end": "2024-11-29T21:57:44.410Z",
+      "durationMinutes": 1739.9357333333332
+    },
+    "handicapMovements": [
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-11-29T15:00:31.322Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-11-29T20:02:08.700Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-11-29T20:38:36.166Z"
+      },
+      {
+        "from": 1.75,
+        "to": 0.25,
+        "change": -1.5,
+        "time": "2024-11-29T21:23:35.503Z"
+      },
+      {
+        "from": 0.25,
+        "to": 0,
+        "change": -0.25,
+        "time": "2024-11-29T21:57:44.410Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.88,
+        "to": 1.95,
+        "change": 0.07000000000000006,
+        "changePercent": "3.72",
+        "time": "2024-11-29T04:02:59.065Z"
+      },
+      {
+        "from": 1.95,
+        "to": 2,
+        "change": 0.050000000000000044,
+        "changePercent": "2.56",
+        "time": "2024-11-29T05:25:59.058Z"
+      },
+      {
+        "from": 2,
+        "to": 2.08,
+        "change": 0.08000000000000007,
+        "changePercent": "4.00",
+        "time": "2024-11-29T07:05:59.728Z"
+      },
+      {
+        "from": 2.08,
+        "to": 2.14,
+        "change": 0.06000000000000005,
+        "changePercent": "2.88",
+        "time": "2024-11-29T11:09:27.219Z"
+      },
+      {
+        "from": 2.17,
+        "to": 1.72,
+        "change": -0.44999999999999996,
+        "changePercent": "-20.74",
+        "time": "2024-11-29T15:00:31.322Z"
+      },
+      {
+        "from": 1.7,
+        "to": 2.05,
+        "change": 0.34999999999999987,
+        "changePercent": "20.59",
+        "time": "2024-11-29T20:02:08.700Z"
+      },
+      {
+        "from": 2.05,
+        "to": 1.91,
+        "change": -0.1399999999999999,
+        "changePercent": "-6.83",
+        "time": "2024-11-29T20:38:36.166Z"
+      },
+      {
+        "from": 1.91,
+        "to": 1.78,
+        "change": -0.1299999999999999,
+        "changePercent": "-6.81",
+        "time": "2024-11-29T20:50:56.775Z"
+      },
+      {
+        "from": 1.78,
+        "to": 2.3,
+        "change": 0.5199999999999998,
+        "changePercent": "29.21",
+        "time": "2024-11-29T21:23:35.503Z"
+      },
+      {
+        "from": 2.3,
+        "to": 1.98,
+        "change": -0.31999999999999984,
+        "changePercent": "-13.91",
+        "time": "2024-11-29T21:35:33.919Z"
+      },
+      {
+        "from": 1.96,
+        "to": 1.43,
+        "change": -0.53,
+        "changePercent": "-27.04",
+        "time": "2024-11-29T21:51:15.417Z"
+      },
+      {
+        "from": 1.43,
+        "to": 3.4,
+        "change": 1.97,
+        "changePercent": "137.76",
+        "time": "2024-11-29T21:57:44.410Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.44999999999999996,
+          "from": 2.17,
+          "to": 1.72,
+          "time": "2024-11-29T15:00:31.322Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.34999999999999987,
+          "from": 1.7,
+          "to": 2.05,
+          "time": "2024-11-29T20:02:08.700Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.5199999999999998,
+          "from": 1.78,
+          "to": 2.3,
+          "time": "2024-11-29T21:23:35.503Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.31999999999999984,
+          "from": 2.3,
+          "to": 1.98,
+          "time": "2024-11-29T21:35:33.919Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.53,
+          "from": 1.96,
+          "to": 1.43,
+          "time": "2024-11-29T21:51:15.417Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 1.97,
+          "from": 1.43,
+          "to": 3.4,
+          "time": "2024-11-29T21:57:44.410Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732813068266,
+      "readableDate": "2024-11-28T16:57:48.266Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732813068261
+      }
+    },
+    {
+      "timestamp": 1732815755565,
+      "readableDate": "2024-11-28T17:42:35.565Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732815755557
+      }
+    },
+    {
+      "timestamp": 1732815799414,
+      "readableDate": "2024-11-28T17:43:19.414Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732815799407
+      }
+    },
+    {
+      "timestamp": 1732843021592,
+      "readableDate": "2024-11-29T01:17:01.592Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732843021586
+      }
+    },
+    {
+      "timestamp": 1732852979065,
+      "readableDate": "2024-11-29T04:02:59.065Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.95,
+        "ts": 1732852979062
+      }
+    },
+    {
+      "timestamp": 1732857959058,
+      "readableDate": "2024-11-29T05:25:59.058Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1732857959057
+      }
+    },
+    {
+      "timestamp": 1732863959728,
+      "readableDate": "2024-11-29T07:05:59.728Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.76,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.76,
+        "oddsAway": 2.08,
+        "ts": 1732863959725
+      }
+    },
+    {
+      "timestamp": 1732878567219,
+      "readableDate": "2024-11-29T11:09:27.219Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.14,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.14,
+        "ts": 1732878567218
+      }
+    },
+    {
+      "timestamp": 1732880428718,
+      "readableDate": "2024-11-29T11:40:28.718Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.17,
+        "ts": 1732880428717
+      }
+    },
+    {
+      "timestamp": 1732892431322,
+      "readableDate": "2024-11-29T15:00:31.322Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.72,
+        "ts": 1732892431313
+      }
+    },
+    {
+      "timestamp": 1732895610791,
+      "readableDate": "2024-11-29T15:53:30.791Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.19,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.19,
+        "oddsAway": 1.69,
+        "ts": 1732895610788
+      }
+    },
+    {
+      "timestamp": 1732903830959,
+      "readableDate": "2024-11-29T18:10:30.959Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.17,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.17,
+        "oddsAway": 1.7,
+        "ts": 1732903830958
+      }
+    },
+    {
+      "timestamp": 1732910528700,
+      "readableDate": "2024-11-29T20:02:08.700Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1732910528698,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732912716166,
+      "readableDate": "2024-11-29T20:38:36.166Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1732912716165,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732913456775,
+      "readableDate": "2024-11-29T20:50:56.775Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1732913456774,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "6",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732915415503,
+      "readableDate": "2024-11-29T21:23:35.503Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.56,
+      "oddsAway": 2.3,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.56,
+        "oddsAway": 2.3,
+        "ts": 1732915415503,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732916133919,
+      "readableDate": "2024-11-29T21:35:33.919Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.74,
+      "oddsAway": 1.98,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.74,
+        "oddsAway": 1.98,
+        "ts": 1732916133919,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732916302297,
+      "readableDate": "2024-11-29T21:38:22.297Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1732916302297,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732917075417,
+      "readableDate": "2024-11-29T21:51:15.417Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 2.66,
+      "oddsAway": 1.43,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 2.66,
+        "oddsAway": 1.43,
+        "ts": 1732917075417,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732917464410,
+      "readableDate": "2024-11-29T21:57:44.410Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.28,
+      "oddsAway": 3.4,
+      "originalRecord": {
+        "id": "FB4515",
+        "home": "Brighton",
+        "away": "Southampton",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.28,
+        "oddsAway": 3.4,
+        "ts": 1732917464410,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.416Z",
+    "totalSnapshots": 20,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3185",
+    "home": "Liverpool",
+    "away": "Brighton",
+    "date": "2024-11-02",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.82,
+    "oddsAway": 1.89,
+    "homeScore": "2",
+    "awayScore": "1",
+    "totalCorner": "13",
+    "live": "2nd",
+    "ts": 1730565151804
+  }
+]

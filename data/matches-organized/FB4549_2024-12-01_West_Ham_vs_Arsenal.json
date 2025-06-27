@@ -1,0 +1,1641 @@
+{
+  "matchInfo": {
+    "id": "FB4549",
+    "home": "West Ham",
+    "away": "Arsenal",
+    "date": "2024-12-01",
+    "matchKey": "FB4549_2024-12-01_West_Ham_vs_Arsenal"
+  },
+  "analysis": {
+    "totalSnapshots": 60,
+    "timeSpan": {
+      "start": "2024-11-28T16:57:48.266Z",
+      "end": "2024-11-30T19:20:57.730Z",
+      "durationMinutes": 3023.1577333333335
+    },
+    "handicapMovements": [
+      {
+        "from": -1.25,
+        "to": -2,
+        "change": -0.75,
+        "time": "2024-11-30T17:41:56.992Z"
+      },
+      {
+        "from": -2,
+        "to": -1.75,
+        "change": 0.25,
+        "time": "2024-11-30T17:53:57.299Z"
+      },
+      {
+        "from": -1.75,
+        "to": -2.75,
+        "change": -1,
+        "time": "2024-11-30T17:58:57.418Z"
+      },
+      {
+        "from": -2.75,
+        "to": -3.75,
+        "change": -1,
+        "time": "2024-11-30T18:09:57.707Z"
+      },
+      {
+        "from": -3.75,
+        "to": -2.75,
+        "change": 1,
+        "time": "2024-11-30T18:11:57.765Z"
+      },
+      {
+        "from": -2.75,
+        "to": -3.75,
+        "change": -1,
+        "time": "2024-11-30T18:21:58.098Z"
+      },
+      {
+        "from": -3.75,
+        "to": -3.25,
+        "change": 0.5,
+        "time": "2024-11-30T18:26:58.236Z"
+      },
+      {
+        "from": -3.25,
+        "to": -3.75,
+        "change": -0.5,
+        "time": "2024-11-30T18:28:58.284Z"
+      },
+      {
+        "from": -3.75,
+        "to": -3.25,
+        "change": 0.5,
+        "time": "2024-11-30T18:40:58.613Z"
+      },
+      {
+        "from": -3.25,
+        "to": -3.75,
+        "change": -0.5,
+        "time": "2024-11-30T18:43:58.686Z"
+      },
+      {
+        "from": -3.75,
+        "to": -3.25,
+        "change": 0.5,
+        "time": "2024-11-30T18:44:56.733Z"
+      },
+      {
+        "from": -3.25,
+        "to": -3,
+        "change": 0.25,
+        "time": "2024-11-30T19:13:57.530Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.95,
+        "to": 2,
+        "change": 0.050000000000000044,
+        "changePercent": "2.56",
+        "time": "2024-11-30T17:48:57.185Z"
+      },
+      {
+        "from": 1.97,
+        "to": 1.73,
+        "change": -0.24,
+        "changePercent": "-12.18",
+        "time": "2024-11-30T17:53:57.299Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.86,
+        "change": 0.1200000000000001,
+        "changePercent": "6.90",
+        "time": "2024-11-30T17:58:57.418Z"
+      },
+      {
+        "from": 1.86,
+        "to": 1.81,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.69",
+        "time": "2024-11-30T18:00:57.464Z"
+      },
+      {
+        "from": 1.82,
+        "to": 1.87,
+        "change": 0.050000000000000044,
+        "changePercent": "2.75",
+        "time": "2024-11-30T18:09:57.707Z"
+      },
+      {
+        "from": 1.87,
+        "to": 2.07,
+        "change": 0.19999999999999973,
+        "changePercent": "10.70",
+        "time": "2024-11-30T18:11:57.765Z"
+      },
+      {
+        "from": 2.07,
+        "to": 2.13,
+        "change": 0.06000000000000005,
+        "changePercent": "2.90",
+        "time": "2024-11-30T18:14:57.845Z"
+      },
+      {
+        "from": 2.18,
+        "to": 1.61,
+        "change": -0.5700000000000001,
+        "changePercent": "-26.15",
+        "time": "2024-11-30T18:26:58.236Z"
+      },
+      {
+        "from": 1.61,
+        "to": 2.22,
+        "change": 0.6100000000000001,
+        "changePercent": "37.89",
+        "time": "2024-11-30T18:28:58.284Z"
+      },
+      {
+        "from": 2.22,
+        "to": 2.17,
+        "change": -0.050000000000000266,
+        "changePercent": "-2.25",
+        "time": "2024-11-30T18:33:58.426Z"
+      },
+      {
+        "from": 2.18,
+        "to": 1.6,
+        "change": -0.5800000000000001,
+        "changePercent": "-26.61",
+        "time": "2024-11-30T18:40:58.613Z"
+      },
+      {
+        "from": 1.61,
+        "to": 2.24,
+        "change": 0.6300000000000001,
+        "changePercent": "39.13",
+        "time": "2024-11-30T18:43:58.686Z"
+      },
+      {
+        "from": 2.24,
+        "to": 1.6,
+        "change": -0.6400000000000001,
+        "changePercent": "-28.57",
+        "time": "2024-11-30T18:44:56.733Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.84,
+        "change": 0.10000000000000009,
+        "changePercent": "5.75",
+        "time": "2024-11-30T18:57:57.045Z"
+      },
+      {
+        "from": 1.84,
+        "to": 1.9,
+        "change": 0.05999999999999983,
+        "changePercent": "3.26",
+        "time": "2024-11-30T19:00:57.157Z"
+      },
+      {
+        "from": 1.94,
+        "to": 2.02,
+        "change": 0.08000000000000007,
+        "changePercent": "4.12",
+        "time": "2024-11-30T19:04:57.257Z"
+      },
+      {
+        "from": 2.02,
+        "to": 2.18,
+        "change": 0.16000000000000014,
+        "changePercent": "7.92",
+        "time": "2024-11-30T19:06:57.307Z"
+      },
+      {
+        "from": 2.18,
+        "to": 2.29,
+        "change": 0.10999999999999988,
+        "changePercent": "5.05",
+        "time": "2024-11-30T19:09:57.404Z"
+      },
+      {
+        "from": 2.29,
+        "to": 2.45,
+        "change": 0.16000000000000014,
+        "changePercent": "6.99",
+        "time": "2024-11-30T19:10:57.440Z"
+      },
+      {
+        "from": 2.45,
+        "to": 1.45,
+        "change": -1.0000000000000002,
+        "changePercent": "-40.82",
+        "time": "2024-11-30T19:13:57.530Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.24,
+          "from": 1.97,
+          "to": 1.73,
+          "time": "2024-11-30T17:53:57.299Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.19999999999999973,
+          "from": 1.87,
+          "to": 2.07,
+          "time": "2024-11-30T18:11:57.765Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.5700000000000001,
+          "from": 2.18,
+          "to": 1.61,
+          "time": "2024-11-30T18:26:58.236Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6100000000000001,
+          "from": 1.61,
+          "to": 2.22,
+          "time": "2024-11-30T18:28:58.284Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.5800000000000001,
+          "from": 2.18,
+          "to": 1.6,
+          "time": "2024-11-30T18:40:58.613Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6300000000000001,
+          "from": 1.61,
+          "to": 2.24,
+          "time": "2024-11-30T18:43:58.686Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.6400000000000001,
+          "from": 2.24,
+          "to": 1.6,
+          "time": "2024-11-30T18:44:56.733Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16000000000000014,
+          "from": 2.02,
+          "to": 2.18,
+          "time": "2024-11-30T19:06:57.307Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16000000000000014,
+          "from": 2.29,
+          "to": 2.45,
+          "time": "2024-11-30T19:10:57.440Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 1.0000000000000002,
+          "from": 2.45,
+          "to": 1.45,
+          "time": "2024-11-30T19:13:57.530Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732813068266,
+      "readableDate": "2024-11-28T16:57:48.266Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732813068261
+      }
+    },
+    {
+      "timestamp": 1732815755565,
+      "readableDate": "2024-11-28T17:42:35.565Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732815755557
+      }
+    },
+    {
+      "timestamp": 1732815799414,
+      "readableDate": "2024-11-28T17:43:19.414Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732815799407
+      }
+    },
+    {
+      "timestamp": 1732843021592,
+      "readableDate": "2024-11-29T01:17:01.592Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.88,
+        "ts": 1732843021586
+      }
+    },
+    {
+      "timestamp": 1732940038726,
+      "readableDate": "2024-11-30T04:13:58.726Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.9,
+        "ts": 1732940038726
+      }
+    },
+    {
+      "timestamp": 1732943759533,
+      "readableDate": "2024-11-30T05:15:59.533Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1732943759530
+      }
+    },
+    {
+      "timestamp": 1732943937670,
+      "readableDate": "2024-11-30T05:18:57.670Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.97,
+        "ts": 1732943937669
+      }
+    },
+    {
+      "timestamp": 1732956537458,
+      "readableDate": "2024-11-30T08:48:57.458Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.94,
+        "ts": 1732956537456
+      }
+    },
+    {
+      "timestamp": 1732964157444,
+      "readableDate": "2024-11-30T10:55:57.444Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1732964157443
+      }
+    },
+    {
+      "timestamp": 1732966557366,
+      "readableDate": "2024-11-30T11:35:57.366Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.93,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.93,
+        "oddsAway": 1.89,
+        "ts": 1732966557365
+      }
+    },
+    {
+      "timestamp": 1732971178830,
+      "readableDate": "2024-11-30T12:52:58.830Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.87,
+        "ts": 1732971178828
+      }
+    },
+    {
+      "timestamp": 1732977117051,
+      "readableDate": "2024-11-30T14:31:57.051Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1732977117051
+      }
+    },
+    {
+      "timestamp": 1732983838020,
+      "readableDate": "2024-11-30T16:23:58.020Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.99,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.99,
+        "oddsAway": 1.83,
+        "ts": 1732983838020
+      }
+    },
+    {
+      "timestamp": 1732984796842,
+      "readableDate": "2024-11-30T16:39:56.842Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.94,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.94,
+        "oddsAway": 1.88,
+        "ts": 1732984796841
+      }
+    },
+    {
+      "timestamp": 1732987858426,
+      "readableDate": "2024-11-30T17:30:58.426Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.83,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.83,
+        "oddsAway": 1.89,
+        "ts": 1732987858424,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988038564,
+      "readableDate": "2024-11-30T17:33:58.564Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732988038562,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988216691,
+      "readableDate": "2024-11-30T17:36:56.691Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.79,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.79,
+        "oddsAway": 1.94,
+        "ts": 1732988216690,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988276736,
+      "readableDate": "2024-11-30T17:37:56.736Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1732988276736,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988516992,
+      "readableDate": "2024-11-30T17:41:56.992Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1732988516992,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988637033,
+      "readableDate": "2024-11-30T17:43:57.033Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732988637033,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988757091,
+      "readableDate": "2024-11-30T17:45:57.091Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.78,
+      "oddsAway": 1.95,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.78,
+        "oddsAway": 1.95,
+        "ts": 1732988757091,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732988937185,
+      "readableDate": "2024-11-30T17:48:57.185Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1732988937183,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989117251,
+      "readableDate": "2024-11-30T17:51:57.251Z",
+      "ahHome": 2,
+      "ahAway": -2,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2,
+        "ahAway": -2,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1732989117251,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989237299,
+      "readableDate": "2024-11-30T17:53:57.299Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1732989237299,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989357349,
+      "readableDate": "2024-11-30T17:55:57.349Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732989357349,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989537418,
+      "readableDate": "2024-11-30T17:58:57.418Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732989537418,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989657464,
+      "readableDate": "2024-11-30T18:00:57.464Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1732989657464,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732989717487,
+      "readableDate": "2024-11-30T18:01:57.487Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.9,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.9,
+        "oddsAway": 1.82,
+        "ts": 1732989717487,
+        "homeScore": "0",
+        "awayScore": "2",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990197707,
+      "readableDate": "2024-11-30T18:09:57.707Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.85,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.85,
+        "oddsAway": 1.87,
+        "ts": 1732990197706,
+        "homeScore": "1",
+        "awayScore": "4",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990317765,
+      "readableDate": "2024-11-30T18:11:57.765Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.69,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.69,
+        "oddsAway": 2.07,
+        "ts": 1732990317765,
+        "homeScore": "2",
+        "awayScore": "4",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990497845,
+      "readableDate": "2024-11-30T18:14:57.845Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.65,
+      "oddsAway": 2.13,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.65,
+        "oddsAway": 2.13,
+        "ts": 1732990497844,
+        "homeScore": "2",
+        "awayScore": "4",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990557868,
+      "readableDate": "2024-11-30T18:15:57.868Z",
+      "ahHome": 2.75,
+      "ahAway": -2.75,
+      "oddsHome": 1.68,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 2.75,
+        "ahAway": -2.75,
+        "oddsHome": 1.68,
+        "oddsAway": 2.08,
+        "ts": 1732990557867,
+        "homeScore": "2",
+        "awayScore": "4",
+        "totalCorner": "5",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990918098,
+      "readableDate": "2024-11-30T18:21:58.098Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1732990918098,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732990978127,
+      "readableDate": "2024-11-30T18:22:58.127Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.64,
+      "oddsAway": 2.15,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.64,
+        "oddsAway": 2.15,
+        "ts": 1732990978127,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732991098177,
+      "readableDate": "2024-11-30T18:24:58.177Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1732991098177,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "7",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732991218236,
+      "readableDate": "2024-11-30T18:26:58.236Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1732991218234,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "7",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732991338284,
+      "readableDate": "2024-11-30T18:28:58.284Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.6,
+      "oddsAway": 2.22,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.6,
+        "oddsAway": 2.22,
+        "ts": 1732991338284,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "7",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732991638426,
+      "readableDate": "2024-11-30T18:33:58.426Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.63,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.63,
+        "oddsAway": 2.17,
+        "ts": 1732991638424,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "7",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732991938550,
+      "readableDate": "2024-11-30T18:38:58.550Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1732991938548,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992058613,
+      "readableDate": "2024-11-30T18:40:58.613Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.22,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.22,
+        "oddsAway": 1.6,
+        "ts": 1732992058611,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992118636,
+      "readableDate": "2024-11-30T18:41:58.636Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1732992118634,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992238686,
+      "readableDate": "2024-11-30T18:43:58.686Z",
+      "ahHome": 3.75,
+      "ahAway": -3.75,
+      "oddsHome": 1.58,
+      "oddsAway": 2.24,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.75,
+        "ahAway": -3.75,
+        "oddsHome": 1.58,
+        "oddsAway": 2.24,
+        "ts": 1732992238684,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992296733,
+      "readableDate": "2024-11-30T18:44:56.733Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.22,
+      "oddsAway": 1.6,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.22,
+        "oddsAway": 1.6,
+        "ts": 1732992296732,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992358740,
+      "readableDate": "2024-11-30T18:45:58.740Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.2,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.2,
+        "oddsAway": 1.61,
+        "ts": 1732992358739,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992536863,
+      "readableDate": "2024-11-30T18:48:56.863Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.13,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.13,
+        "oddsAway": 1.65,
+        "ts": 1732992536863,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992716885,
+      "readableDate": "2024-11-30T18:51:56.885Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.07,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.07,
+        "oddsAway": 1.69,
+        "ts": 1732992716884,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992836940,
+      "readableDate": "2024-11-30T18:53:56.940Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.06,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.06,
+        "oddsAway": 1.69,
+        "ts": 1732992836940,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732992896960,
+      "readableDate": "2024-11-30T18:54:56.960Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2.04,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2.04,
+        "oddsAway": 1.71,
+        "ts": 1732992896960,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993017018,
+      "readableDate": "2024-11-30T18:56:57.018Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732993017017,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993077045,
+      "readableDate": "2024-11-30T18:57:57.045Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1732993077043,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993257157,
+      "readableDate": "2024-11-30T19:00:57.157Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732993257155,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "11",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993317180,
+      "readableDate": "2024-11-30T19:01:57.180Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.78,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.78,
+        "oddsAway": 1.94,
+        "ts": 1732993317179,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993497257,
+      "readableDate": "2024-11-30T19:04:57.257Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.02,
+        "ts": 1732993497254,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993617307,
+      "readableDate": "2024-11-30T19:06:57.307Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1732993617306,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993797404,
+      "readableDate": "2024-11-30T19:09:57.404Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.56,
+      "oddsAway": 2.29,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.56,
+        "oddsAway": 2.29,
+        "ts": 1732993797404,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732993857440,
+      "readableDate": "2024-11-30T19:10:57.440Z",
+      "ahHome": 3.25,
+      "ahAway": -3.25,
+      "oddsHome": 1.5,
+      "oddsAway": 2.45,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3.25,
+        "ahAway": -3.25,
+        "oddsHome": 1.5,
+        "oddsAway": 2.45,
+        "ts": 1732993857438,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732994037530,
+      "readableDate": "2024-11-30T19:13:57.530Z",
+      "ahHome": 3,
+      "ahAway": -3,
+      "oddsHome": 2.58,
+      "oddsAway": 1.45,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3,
+        "ahAway": -3,
+        "oddsHome": 2.58,
+        "oddsAway": 1.45,
+        "ts": 1732994037528,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732994217623,
+      "readableDate": "2024-11-30T19:16:57.623Z",
+      "ahHome": 3,
+      "ahAway": -3,
+      "oddsHome": 2.56,
+      "oddsAway": 1.46,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3,
+        "ahAway": -3,
+        "oddsHome": 2.56,
+        "oddsAway": 1.46,
+        "ts": 1732994217621,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732994397708,
+      "readableDate": "2024-11-30T19:19:57.708Z",
+      "ahHome": 3,
+      "ahAway": -3,
+      "oddsHome": 2.54,
+      "oddsAway": 1.47,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3,
+        "ahAway": -3,
+        "oddsHome": 2.54,
+        "oddsAway": 1.47,
+        "ts": 1732994397706,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732994457730,
+      "readableDate": "2024-11-30T19:20:57.730Z",
+      "ahHome": 3,
+      "ahAway": -3,
+      "oddsHome": 2.52,
+      "oddsAway": 1.47,
+      "originalRecord": {
+        "id": "FB4549",
+        "home": "West Ham",
+        "away": "Arsenal",
+        "date": "2024-12-01",
+        "ahHome": 3,
+        "ahAway": -3,
+        "oddsHome": 2.52,
+        "oddsAway": 1.47,
+        "ts": 1732994457728,
+        "homeScore": "2",
+        "awayScore": "5",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.416Z",
+    "totalSnapshots": 60,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

@@ -1,0 +1,1469 @@
+{
+  "matchInfo": {
+    "id": "FB3191",
+    "home": "Fulham",
+    "away": "Brentford",
+    "date": "2024-11-05",
+    "matchKey": "FB3191_2024-11-05_Fulham_vs_Brentford"
+  },
+  "analysis": {
+    "totalSnapshots": 53,
+    "timeSpan": {
+      "start": "2024-11-01T20:26:31.466Z",
+      "end": "2024-11-04T21:48:36.813Z",
+      "durationMinutes": 4402.089116666667
+    },
+    "handicapMovements": [
+      {
+        "from": 0.25,
+        "to": 0.75,
+        "change": 0.5,
+        "time": "2024-11-04T20:20:36.864Z"
+      },
+      {
+        "from": 0.75,
+        "to": 0.25,
+        "change": -0.5,
+        "time": "2024-11-04T20:22:36.958Z"
+      },
+      {
+        "from": 0.25,
+        "to": -0.25,
+        "change": -0.5,
+        "time": "2024-11-04T20:27:37.192Z"
+      },
+      {
+        "from": -0.25,
+        "to": -0.75,
+        "change": -0.5,
+        "time": "2024-11-04T21:14:37.304Z"
+      },
+      {
+        "from": -0.75,
+        "to": -1,
+        "change": -0.25,
+        "time": "2024-11-04T21:47:36.780Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 2.07,
+        "to": 2.12,
+        "change": 0.050000000000000266,
+        "changePercent": "2.42",
+        "time": "2024-11-04T20:07:36.242Z"
+      },
+      {
+        "from": 2.09,
+        "to": 2.19,
+        "change": 0.10000000000000009,
+        "changePercent": "4.78",
+        "time": "2024-11-04T20:15:36.627Z"
+      },
+      {
+        "from": 2.17,
+        "to": 1.64,
+        "change": -0.53,
+        "changePercent": "-24.42",
+        "time": "2024-11-04T20:20:36.864Z"
+      },
+      {
+        "from": 1.64,
+        "to": 2.18,
+        "change": 0.5400000000000003,
+        "changePercent": "32.93",
+        "time": "2024-11-04T20:22:36.958Z"
+      },
+      {
+        "from": 2.18,
+        "to": 1.74,
+        "change": -0.44000000000000017,
+        "changePercent": "-20.18",
+        "time": "2024-11-04T20:27:37.192Z"
+      },
+      {
+        "from": 1.73,
+        "to": 1.8,
+        "change": 0.07000000000000006,
+        "changePercent": "4.05",
+        "time": "2024-11-04T20:30:37.335Z"
+      },
+      {
+        "from": 1.68,
+        "to": 1.74,
+        "change": 0.06000000000000005,
+        "changePercent": "3.57",
+        "time": "2024-11-04T20:43:35.858Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.67,
+        "change": -0.07000000000000006,
+        "changePercent": "-4.02",
+        "time": "2024-11-04T20:46:35.986Z"
+      },
+      {
+        "from": 1.67,
+        "to": 1.72,
+        "change": 0.050000000000000044,
+        "changePercent": "2.99",
+        "time": "2024-11-04T20:47:36.026Z"
+      },
+      {
+        "from": 1.69,
+        "to": 1.64,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.96",
+        "time": "2024-11-04T21:09:37.091Z"
+      },
+      {
+        "from": 1.62,
+        "to": 2.25,
+        "change": 0.6299999999999999,
+        "changePercent": "38.89",
+        "time": "2024-11-04T21:14:37.304Z"
+      },
+      {
+        "from": 2.22,
+        "to": 2.14,
+        "change": -0.08000000000000007,
+        "changePercent": "-3.60",
+        "time": "2024-11-04T21:18:35.520Z"
+      },
+      {
+        "from": 2.14,
+        "to": 2.06,
+        "change": -0.08000000000000007,
+        "changePercent": "-3.74",
+        "time": "2024-11-04T21:21:35.612Z"
+      },
+      {
+        "from": 2.06,
+        "to": 2,
+        "change": -0.06000000000000005,
+        "changePercent": "-2.91",
+        "time": "2024-11-04T21:23:35.705Z"
+      },
+      {
+        "from": 2,
+        "to": 1.92,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.00",
+        "time": "2024-11-04T21:26:35.838Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.86,
+        "change": -0.05999999999999983,
+        "changePercent": "-3.12",
+        "time": "2024-11-04T21:28:35.933Z"
+      },
+      {
+        "from": 1.86,
+        "to": 1.78,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.30",
+        "time": "2024-11-04T21:31:36.080Z"
+      },
+      {
+        "from": 1.78,
+        "to": 1.68,
+        "change": -0.10000000000000009,
+        "changePercent": "-5.62",
+        "time": "2024-11-04T21:34:36.222Z"
+      },
+      {
+        "from": 1.67,
+        "to": 1.61,
+        "change": -0.05999999999999983,
+        "changePercent": "-3.59",
+        "time": "2024-11-04T21:38:36.412Z"
+      },
+      {
+        "from": 1.61,
+        "to": 1.56,
+        "change": -0.050000000000000044,
+        "changePercent": "-3.11",
+        "time": "2024-11-04T21:39:36.422Z"
+      },
+      {
+        "from": 1.56,
+        "to": 1.5,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.85",
+        "time": "2024-11-04T21:40:36.470Z"
+      },
+      {
+        "from": 1.5,
+        "to": 1.44,
+        "change": -0.06000000000000005,
+        "changePercent": "-4.00",
+        "time": "2024-11-04T21:42:36.559Z"
+      },
+      {
+        "from": 1.44,
+        "to": 1.39,
+        "change": -0.050000000000000044,
+        "changePercent": "-3.47",
+        "time": "2024-11-04T21:43:36.603Z"
+      },
+      {
+        "from": 1.38,
+        "to": 1.3,
+        "change": -0.07999999999999985,
+        "changePercent": "-5.80",
+        "time": "2024-11-04T21:45:36.698Z"
+      },
+      {
+        "from": 1.3,
+        "to": 3.32,
+        "change": 2.0199999999999996,
+        "changePercent": "155.38",
+        "time": "2024-11-04T21:47:36.780Z"
+      },
+      {
+        "from": 3.32,
+        "to": 3.26,
+        "change": -0.06000000000000005,
+        "changePercent": "-1.81",
+        "time": "2024-11-04T21:48:36.813Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.53,
+          "from": 2.17,
+          "to": 1.64,
+          "time": "2024-11-04T20:20:36.864Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.5400000000000003,
+          "from": 1.64,
+          "to": 2.18,
+          "time": "2024-11-04T20:22:36.958Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.44000000000000017,
+          "from": 2.18,
+          "to": 1.74,
+          "time": "2024-11-04T20:27:37.192Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.6299999999999999,
+          "from": 1.62,
+          "to": 2.25,
+          "time": "2024-11-04T21:14:37.304Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 2.0199999999999996,
+          "from": 1.3,
+          "to": 3.32,
+          "time": "2024-11-04T21:47:36.780Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1730492791466,
+      "readableDate": "2024-11-01T20:26:31.466Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730492791459
+      }
+    },
+    {
+      "timestamp": 1730492817092,
+      "readableDate": "2024-11-01T20:26:57.092Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730492817089
+      }
+    },
+    {
+      "timestamp": 1730492835668,
+      "readableDate": "2024-11-01T20:27:15.668Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730492835664
+      }
+    },
+    {
+      "timestamp": 1730556883070,
+      "readableDate": "2024-11-02T14:14:43.070Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730556883061
+      }
+    },
+    {
+      "timestamp": 1730557005873,
+      "readableDate": "2024-11-02T14:16:45.873Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730557005861
+      }
+    },
+    {
+      "timestamp": 1730557550369,
+      "readableDate": "2024-11-02T14:25:50.369Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730557550356
+      }
+    },
+    {
+      "timestamp": 1730557592632,
+      "readableDate": "2024-11-02T14:26:32.632Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.08,
+        "ts": 1730557592627
+      }
+    },
+    {
+      "timestamp": 1730692656957,
+      "readableDate": "2024-11-04T03:57:36.957Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.12,
+        "ts": 1730692656954
+      }
+    },
+    {
+      "timestamp": 1730750495982,
+      "readableDate": "2024-11-04T20:01:35.982Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.09,
+        "ts": 1730750495973,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730750556008,
+      "readableDate": "2024-11-04T20:02:36.008Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.73,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.73,
+        "oddsAway": 2.08,
+        "ts": 1730750556008,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730750736139,
+      "readableDate": "2024-11-04T20:05:36.139Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.74,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.74,
+        "oddsAway": 2.07,
+        "ts": 1730750736139,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730750856242,
+      "readableDate": "2024-11-04T20:07:36.242Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.12,
+        "ts": 1730750856241,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751036380,
+      "readableDate": "2024-11-04T20:10:36.380Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.71,
+      "oddsAway": 2.11,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.71,
+        "oddsAway": 2.11,
+        "ts": 1730751036379,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751276584,
+      "readableDate": "2024-11-04T20:14:36.584Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.09,
+        "ts": 1730751276583,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751336627,
+      "readableDate": "2024-11-04T20:15:36.627Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.66,
+      "oddsAway": 2.19,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.66,
+        "oddsAway": 2.19,
+        "ts": 1730751336627,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751516772,
+      "readableDate": "2024-11-04T20:18:36.772Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.17,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.17,
+        "ts": 1730751516771,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751636864,
+      "readableDate": "2024-11-04T20:20:36.864Z",
+      "ahHome": -0.75,
+      "ahAway": 0.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.75,
+        "ahAway": 0.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1730751636864,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730751756958,
+      "readableDate": "2024-11-04T20:22:36.958Z",
+      "ahHome": -0.25,
+      "ahAway": 0.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": -0.25,
+        "ahAway": 0.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1730751756957,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752057192,
+      "readableDate": "2024-11-04T20:27:37.192Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1730752057190,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752177285,
+      "readableDate": "2024-11-04T20:29:37.285Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.01,
+      "oddsAway": 1.73,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.01,
+        "oddsAway": 1.73,
+        "ts": 1730752177285,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752237335,
+      "readableDate": "2024-11-04T20:30:37.335Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1730752237334,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752417417,
+      "readableDate": "2024-11-04T20:33:37.417Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.96,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.96,
+        "oddsAway": 1.77,
+        "ts": 1730752417417,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752595569,
+      "readableDate": "2024-11-04T20:36:35.569Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1730752595568,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752775688,
+      "readableDate": "2024-11-04T20:39:35.688Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.03,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.03,
+        "oddsAway": 1.72,
+        "ts": 1730752775686,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730752955816,
+      "readableDate": "2024-11-04T20:42:35.816Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1730752955816,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730753015858,
+      "readableDate": "2024-11-04T20:43:35.858Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1730753015858,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730753195986,
+      "readableDate": "2024-11-04T20:46:35.986Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1730753195985,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730753256026,
+      "readableDate": "2024-11-04T20:47:36.026Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.03,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.03,
+        "oddsAway": 1.72,
+        "ts": 1730753256026,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1730753376126,
+      "readableDate": "2024-11-04T20:49:36.126Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.07,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.07,
+        "oddsAway": 1.68,
+        "ts": 1730753376126,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1730754276837,
+      "readableDate": "2024-11-04T21:04:36.837Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1730754276835,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754396954,
+      "readableDate": "2024-11-04T21:06:36.954Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.06,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.06,
+        "oddsAway": 1.69,
+        "ts": 1730754396951,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754577091,
+      "readableDate": "2024-11-04T21:09:37.091Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.14,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.14,
+        "oddsAway": 1.64,
+        "ts": 1730754577088,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754637138,
+      "readableDate": "2024-11-04T21:10:37.138Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1730754637136,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754697172,
+      "readableDate": "2024-11-04T21:11:37.172Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.19,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.19,
+        "oddsAway": 1.62,
+        "ts": 1730754697171,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754877304,
+      "readableDate": "2024-11-04T21:14:37.304Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.58,
+      "oddsAway": 2.25,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.58,
+        "oddsAway": 2.25,
+        "ts": 1730754877304,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730754937353,
+      "readableDate": "2024-11-04T21:15:37.353Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.6,
+      "oddsAway": 2.22,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.6,
+        "oddsAway": 2.22,
+        "ts": 1730754937352,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755115520,
+      "readableDate": "2024-11-04T21:18:35.520Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.64,
+      "oddsAway": 2.14,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.64,
+        "oddsAway": 2.14,
+        "ts": 1730755115518,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755295612,
+      "readableDate": "2024-11-04T21:21:35.612Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.69,
+      "oddsAway": 2.06,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.69,
+        "oddsAway": 2.06,
+        "ts": 1730755295610,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755415705,
+      "readableDate": "2024-11-04T21:23:35.705Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1730755415702,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755595838,
+      "readableDate": "2024-11-04T21:26:35.838Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1730755595837,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "7",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755715933,
+      "readableDate": "2024-11-04T21:28:35.933Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1730755715933,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730755896080,
+      "readableDate": "2024-11-04T21:31:36.080Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 1.94,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 1.94,
+        "oddsAway": 1.78,
+        "ts": 1730755896078,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756076222,
+      "readableDate": "2024-11-04T21:34:36.222Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.08,
+      "oddsAway": 1.68,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.08,
+        "oddsAway": 1.68,
+        "ts": 1730756076220,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756196314,
+      "readableDate": "2024-11-04T21:36:36.314Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.67,
+        "ts": 1730756196312,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756316412,
+      "readableDate": "2024-11-04T21:38:36.412Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.19,
+      "oddsAway": 1.61,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.19,
+        "oddsAway": 1.61,
+        "ts": 1730756316409,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756376422,
+      "readableDate": "2024-11-04T21:39:36.422Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.3,
+      "oddsAway": 1.56,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.3,
+        "oddsAway": 1.56,
+        "ts": 1730756376422,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756436470,
+      "readableDate": "2024-11-04T21:40:36.470Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.43,
+      "oddsAway": 1.5,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.43,
+        "oddsAway": 1.5,
+        "ts": 1730756436469,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756556559,
+      "readableDate": "2024-11-04T21:42:36.559Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.62,
+      "oddsAway": 1.44,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.62,
+        "oddsAway": 1.44,
+        "ts": 1730756556556,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756616603,
+      "readableDate": "2024-11-04T21:43:36.603Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.8,
+      "oddsAway": 1.39,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.8,
+        "oddsAway": 1.39,
+        "ts": 1730756616601,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756676655,
+      "readableDate": "2024-11-04T21:44:36.655Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.85,
+      "oddsAway": 1.38,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.85,
+        "oddsAway": 1.38,
+        "ts": 1730756676653,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756736698,
+      "readableDate": "2024-11-04T21:45:36.698Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 3.24,
+      "oddsAway": 1.3,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 3.24,
+        "oddsAway": 1.3,
+        "ts": 1730756736696,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756856780,
+      "readableDate": "2024-11-04T21:47:36.780Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.29,
+      "oddsAway": 3.32,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.29,
+        "oddsAway": 3.32,
+        "ts": 1730756856778,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1730756916813,
+      "readableDate": "2024-11-04T21:48:36.813Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.3,
+      "oddsAway": 3.26,
+      "originalRecord": {
+        "id": "FB3191",
+        "home": "Fulham",
+        "away": "Brentford",
+        "date": "2024-11-05",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.3,
+        "oddsAway": 3.26,
+        "ts": 1730756916813,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.413Z",
+    "totalSnapshots": 53,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

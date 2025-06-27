@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3937",
+    "home": "Southampton",
+    "away": "Liverpool",
+    "date": "2024-11-24",
+    "ahHome": 2,
+    "ahAway": -2,
+    "oddsHome": 1.86,
+    "oddsAway": 1.86,
+    "ts": 1732458910242,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "5",
+    "live": "1st"
+  }
+]

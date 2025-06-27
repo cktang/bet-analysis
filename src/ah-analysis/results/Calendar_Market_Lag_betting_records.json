@@ -1,0 +1,23 @@
+{
+  "strategy": {
+    "name": "Calendar_Market_Lag",
+    "roi": "0.00%",
+    "correlation": "0.0190",
+    "factors": [
+      "(fbref.week >= 18 && fbref.week <= 22)",
+      "preMatch.enhanced.homeImpliedProb > 60",
+      "(timeSeries.away.leaguePosition || 20) <= 8"
+    ],
+    "hypothesis": "Post-Christmas period + market overconfidence + quality away team",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalStaked": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "roi": "0.00%",
+    "generatedAt": "2025-06-26T16:34:55.694Z"
+  },
+  "bettingRecords": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB3672",
+    "home": "Manchester Utd",
+    "away": "Leicester",
+    "date": "2024-11-10",
+    "ahHome": -3.25,
+    "ahAway": 3.25,
+    "oddsHome": 3.9,
+    "oddsAway": 1.22,
+    "homeScore": "3",
+    "awayScore": "0",
+    "totalCorner": "6",
+    "live": "2nd",
+    "ts": 1731253833292
+  },
+  {
+    "id": "FB3673",
+    "home": "Tottenham",
+    "away": "Ipswich",
+    "date": "2024-11-10",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 2.21,
+    "oddsAway": 1.6,
+    "homeScore": "1",
+    "awayScore": "2",
+    "totalCorner": "14",
+    "live": "2nd",
+    "ts": 1731253833292
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4549",
+    "home": "West Ham",
+    "away": "Arsenal",
+    "date": "2024-12-01",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 1.83,
+    "oddsAway": 1.89,
+    "ts": 1732987858424,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "0",
+    "live": "1st"
+  }
+]

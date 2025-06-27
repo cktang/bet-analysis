@@ -1,13 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
+const { calculateVariableStake, calculateVariableStakeResult } = require('./variable_staking_utility');
 
 class AHCombinationTester {
-    constructor() {
+    constructor(options = {}) {
         this.dataPath = path.join(__dirname, '../../../data/processed');
         this.combinationsPath = path.join(__dirname, '../../../data/processed/ah_combinations.json');
         this.resultsDir = path.join(__dirname, '..', 'results');
         this.summaryPath = path.join(this.resultsDir, 'summary.json');
+        
+        // Variable staking configuration
+        this.useVariableStaking = options.useVariableStaking !== false; // Default to true
+        this.stakingConfig = options.stakingConfig || {
+            baseOdds: 1.91,
+            baseStake: 200,
+            increment: 150,
+            maxStake: 10000
+        };
+        
+        console.log(`🎯 Variable staking: ${this.useVariableStaking ? 'ENABLED' : 'DISABLED'}`);
+        if (this.useVariableStaking) {
+            console.log(`📊 Staking config: Base=$${this.stakingConfig.baseStake}, Increment=$${this.stakingConfig.increment}, Max=$${this.stakingConfig.maxStake}`);
+        }
         
         // Ensure results directory exists
         if (!fs.existsSync(this.resultsDir)) {
@@ -551,9 +566,9 @@ class AHCombinationTester {
                 
                 // Calculate actual ROI from betting records
                 const totalProfit = bettingRecords.reduce((sum, bet) => sum + parseFloat(bet.profit || 0), 0);
+                const totalStaked = bettingRecords.reduce((sum, bet) => sum + parseFloat(bet.betSize || 100), 0); // Use actual stakes
                 const totalBets = bettingRecords.length;
-                const totalInvestment = totalBets * 100; // 100 units per bet
-                const actualROI = totalBets > 0 ? (totalProfit / totalInvestment * 100).toFixed(2) : '0.00';
+                const actualROI = totalStaked > 0 ? (totalProfit / totalStaked * 100).toFixed(2) : '0.00';
                 
                 const recordsData = {
                     strategy: {
@@ -566,9 +581,11 @@ class AHCombinationTester {
                     },
                     summary: {
                         totalBets: bettingRecords.length,
+                        totalStaked: totalStaked, // Include total staked amount
                         totalProfit: totalProfit,
                         winRate: bettingRecords.length > 0 ? 
                             (bettingRecords.filter(bet => bet.outcome === 'Win' || bet.outcome === 'Half Win').length / bettingRecords.length * 100).toFixed(1) + '%' : '0%',
+                        roi: `${actualROI}%`, // Include ROI in summary
                         generatedAt: new Date().toISOString()
                     },
                     bettingRecords: bettingRecords
@@ -838,10 +855,17 @@ class AHCombinationTester {
             
             const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;
             
+            // Calculate stake using variable staking or fixed amount
+            let betAmount;
+            if (this.useVariableStaking && selectedOdds) {
+                betAmount = calculateVariableStake(selectedOdds, this.stakingConfig);
+            } else {
+                betAmount = 100; // Default fixed amount for backwards compatibility
+            }
+            
             // Calculate Asian Handicap outcome for each line (split betting)
             let totalProfit = 0;
             let outcomes = [];
-            const betAmount = 100; // Total bet amount
             const betPerLine = betAmount / handicapLines.length; // Split bet across lines
             
             handicapLines.forEach(handicapLine => {
@@ -903,6 +927,7 @@ class AHCombinationTester {
                 handicapLine: handicapStr,
                 betSide: betSide,
                 betOdds: selectedOdds?.toFixed(2) || 'N/A',
+                betSize: betAmount.toFixed(0), // Record the actual stake used
                 profit: profit.toFixed(0),
                 outcome: outcome,
                 

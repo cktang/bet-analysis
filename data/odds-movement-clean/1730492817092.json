@@ -1,0 +1,112 @@
+[
+  {
+    "id": "FB3187",
+    "home": "Newcastle",
+    "away": "Arsenal",
+    "date": "2024-11-02",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 2.15,
+    "oddsAway": 1.66,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3185",
+    "home": "Liverpool",
+    "away": "Brighton",
+    "date": "2024-11-02",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.73,
+    "oddsAway": 2.06,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3188",
+    "home": "Bournemouth",
+    "away": "Manchester City",
+    "date": "2024-11-02",
+    "ahHome": 1,
+    "ahAway": -1,
+    "oddsHome": 1.88,
+    "oddsAway": 1.88,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3184",
+    "home": "Ipswich",
+    "away": "Leicester",
+    "date": "2024-11-02",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.88,
+    "oddsAway": 1.88,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3186",
+    "home": "Nottingham Forest",
+    "away": "West Ham",
+    "date": "2024-11-02",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.76,
+    "oddsAway": 2.02,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3192",
+    "home": "Southampton",
+    "away": "Everton",
+    "date": "2024-11-02",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.83,
+    "oddsAway": 1.93,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3189",
+    "home": "Wolves",
+    "away": "Crystal Palace",
+    "date": "2024-11-03",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.06,
+    "oddsAway": 1.73,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3190",
+    "home": "Tottenham",
+    "away": "Aston Villa",
+    "date": "2024-11-03",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 2.05,
+    "oddsAway": 1.74,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3193",
+    "home": "Manchester Utd",
+    "away": "Chelsea",
+    "date": "2024-11-04",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.83,
+    "oddsAway": 1.93,
+    "ts": 1730492817089
+  },
+  {
+    "id": "FB3191",
+    "home": "Fulham",
+    "away": "Brentford",
+    "date": "2024-11-05",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.71,
+    "oddsAway": 2.08,
+    "ts": 1730492817089
+  }
+]

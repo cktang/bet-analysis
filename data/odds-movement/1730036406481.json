@@ -1,0 +1,46 @@
+[
+  {
+    "id": "FB2862",
+    "home": "Chelsea",
+    "away": "Newcastle",
+    "date": "2024-10-27",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.92,
+    "oddsAway": 1.9,
+    "ts": 1730036406475
+  },
+  {
+    "id": "FB2863",
+    "home": "Crystal Palace",
+    "away": "Tottenham",
+    "date": "2024-10-27",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.79,
+    "oddsAway": 2.04,
+    "ts": 1730036406475
+  },
+  {
+    "id": "FB2861",
+    "home": "West Ham",
+    "away": "Manchester Utd",
+    "date": "2024-10-27",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 2.07,
+    "oddsAway": 1.77,
+    "ts": 1730036406475
+  },
+  {
+    "id": "FB2765",
+    "home": "Arsenal",
+    "away": "Liverpool",
+    "date": "2024-10-28",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.08,
+    "oddsAway": 1.76,
+    "ts": 1730036406475
+  }
+]

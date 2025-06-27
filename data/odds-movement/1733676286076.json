@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4981",
+    "home": "Tottenham",
+    "away": "Chelsea",
+    "date": "2024-12-09",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.82,
+    "oddsAway": 1.9,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "2",
+    "live": "1st",
+    "ts": 1733676286075
+  }
+]

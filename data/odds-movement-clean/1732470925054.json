@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3944",
+    "home": "Ipswich",
+    "away": "Manchester Utd",
+    "date": "2024-11-25",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 1.84,
+    "oddsAway": 1.88,
+    "ts": 1732470925054,
+    "homeScore": "1",
+    "awayScore": "1",
+    "totalCorner": "5",
+    "live": "2nd"
+  }
+]

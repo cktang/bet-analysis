@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB5254",
+    "home": "Brighton",
+    "away": "Crystal Palace",
+    "date": "2024-12-15",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 2.1,
+    "oddsAway": 1.67,
+    "ts": 1734274055238,
+    "homeScore": "0",
+    "awayScore": "2",
+    "totalCorner": "5",
+    "live": "1st"
+  }
+]

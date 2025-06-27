@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3591",
+    "home": "Brighton",
+    "away": "Manchester City",
+    "date": "2024-11-10",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 1.61,
+    "oddsAway": 2.19,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "4",
+    "live": "2nd",
+    "ts": 1731179011906
+  }
+]

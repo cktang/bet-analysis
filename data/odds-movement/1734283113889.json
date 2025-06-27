@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB5266",
+    "home": "Manchester City",
+    "away": "Manchester Utd",
+    "date": "2024-12-16",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.76,
+    "oddsAway": 1.97,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "4",
+    "live": "1st",
+    "ts": 1734283113889
+  }
+]

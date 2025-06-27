@@ -1,0 +1,21 @@
+{
+  "strategy": {
+    "name": "Single_hotStreakFatigue",
+    "roi": "0.00%",
+    "correlation": "0.0000",
+    "factors": [
+      "((timeSeries.home.streaks.overall.current.count || 0) >= 4 && timeSeries.home.streaks.overall.current.type === 'W' && preMatch.enhanced.homeImpliedProb > 70) ? 1 : 0"
+    ],
+    "hypothesis": "Long winning streaks create overconfidence, regression likely predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalStaked": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "roi": "0.00%",
+    "generatedAt": "2025-06-26T16:34:56.287Z"
+  },
+  "bettingRecords": []
+}

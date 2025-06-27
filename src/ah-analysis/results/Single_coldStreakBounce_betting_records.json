@@ -1,0 +1,90 @@
+{
+  "strategy": {
+    "name": "Single_coldStreakBounce",
+    "roi": "-79.09%",
+    "correlation": "0.0032",
+    "factors": [
+      "((timeSeries.away.streaks.overall.current.count || 0) >= 3 && (timeSeries.away.streaks.overall.current.type === 'L' || timeSeries.away.streaks.overall.current.type === 'loss') && (timeSeries.away.leaguePosition || 20) <= 10 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.75) ? 1 : 0"
+    ],
+    "hypothesis": "Quality teams on losing streaks represent value when getting points predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 2,
+    "totalStaked": 1750,
+    "totalProfit": -1384,
+    "winRate": "50.0%",
+    "roi": "-79.09%",
+    "generatedAt": "2025-06-26T16:34:56.141Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-05-04T16:00:00.000Z",
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "score": "4-2",
+      "handicapLine": "-1/-1.5",
+      "betSide": "Away",
+      "betOdds": "2.00",
+      "betSize": "1550",
+      "profit": "-1550",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.away.streaks.overall.current.count || 0) >= 3 && (timeSeries.away.streaks.overall.current.type === 'L' || timeSeries.away.streaks.overall.current.type === 'loss') && (timeSeries.away.leaguePosition || 20) <= 10 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.75) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 5"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.away.streaks.overall.current.count || 0) >= 3 && (timeSeries.away.streaks.overall.current.type === 'L' || timeSeries.away.streaks.overall.current.type === 'loss') && (timeSeries.away.leaguePosition || 20) <= 10 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.75) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0032",
+      "handicapDetails": {
+        "splitLines": [
+          -1,
+          -1.5
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 775
+      }
+    },
+    {
+      "date": "2023-12-03T16:00:00.000Z",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Tottenham",
+      "score": "3-3",
+      "handicapLine": "-2",
+      "betSide": "Away",
+      "betOdds": "1.83",
+      "betSize": "200",
+      "profit": "166",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "((timeSeries.away.streaks.overall.current.count || 0) >= 3 && (timeSeries.away.streaks.overall.current.type === 'L' || timeSeries.away.streaks.overall.current.type === 'loss') && (timeSeries.away.leaguePosition || 20) <= 10 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.75) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Home position: 3, Away position: 6"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "((timeSeries.away.streaks.overall.current.count || 0) >= 3 && (timeSeries.away.streaks.overall.current.type === 'L' || timeSeries.away.streaks.overall.current.type === 'loss') && (timeSeries.away.leaguePosition || 20) <= 10 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -0.75) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0032",
+      "handicapDetails": null
+    }
+  ]
+}

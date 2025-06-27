@@ -1,0 +1,1815 @@
+{
+  "matchInfo": {
+    "id": "FB3944",
+    "home": "Ipswich",
+    "away": "Manchester Utd",
+    "date": "2024-11-25",
+    "matchKey": "FB3944_2024-11-25_Ipswich_vs_Manchester_Utd"
+  },
+  "analysis": {
+    "totalSnapshots": 67,
+    "timeSpan": {
+      "start": "2024-11-23T01:53:03.602Z",
+      "end": "2024-11-24T18:23:25.853Z",
+      "durationMinutes": 2430.37085
+    },
+    "handicapMovements": [
+      {
+        "from": -1,
+        "to": -0.75,
+        "change": 0.25,
+        "time": "2024-11-24T13:23:38.641Z"
+      },
+      {
+        "from": -0.75,
+        "to": -1,
+        "change": -0.25,
+        "time": "2024-11-24T15:26:41.112Z"
+      },
+      {
+        "from": -1,
+        "to": -0.75,
+        "change": 0.25,
+        "time": "2024-11-24T15:34:39.473Z"
+      },
+      {
+        "from": -0.75,
+        "to": -1.75,
+        "change": -1,
+        "time": "2024-11-24T16:46:26.043Z"
+      },
+      {
+        "from": -1.75,
+        "to": -1.25,
+        "change": 0.5,
+        "time": "2024-11-24T16:59:26.615Z"
+      },
+      {
+        "from": -1.25,
+        "to": -0.25,
+        "change": 1,
+        "time": "2024-11-24T17:15:25.330Z"
+      },
+      {
+        "from": -0.25,
+        "to": 0,
+        "change": 0.25,
+        "time": "2024-11-24T18:17:25.680Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.97,
+        "to": 2.02,
+        "change": 0.050000000000000044,
+        "changePercent": "2.54",
+        "time": "2024-11-24T12:36:40.579Z"
+      },
+      {
+        "from": 2.07,
+        "to": 1.78,
+        "change": -0.2899999999999998,
+        "changePercent": "-14.01",
+        "time": "2024-11-24T13:23:38.641Z"
+      },
+      {
+        "from": 1.75,
+        "to": 2,
+        "change": 0.25,
+        "changePercent": "14.29",
+        "time": "2024-11-24T15:26:41.112Z"
+      },
+      {
+        "from": 2,
+        "to": 2.07,
+        "change": 0.06999999999999984,
+        "changePercent": "3.50",
+        "time": "2024-11-24T15:33:39.479Z"
+      },
+      {
+        "from": 2.07,
+        "to": 1.79,
+        "change": -0.2799999999999998,
+        "changePercent": "-13.53",
+        "time": "2024-11-24T15:34:39.473Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.92,
+        "change": 0.16999999999999993,
+        "changePercent": "9.71",
+        "time": "2024-11-24T16:46:26.043Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.97,
+        "change": 0.050000000000000044,
+        "changePercent": "2.60",
+        "time": "2024-11-24T16:47:26.085Z"
+      },
+      {
+        "from": 1.97,
+        "to": 2.04,
+        "change": 0.07000000000000006,
+        "changePercent": "3.55",
+        "time": "2024-11-24T16:48:26.129Z"
+      },
+      {
+        "from": 2.05,
+        "to": 2.1,
+        "change": 0.050000000000000266,
+        "changePercent": "2.44",
+        "time": "2024-11-24T16:53:26.343Z"
+      },
+      {
+        "from": 2.12,
+        "to": 1.66,
+        "change": -0.4600000000000002,
+        "changePercent": "-21.70",
+        "time": "2024-11-24T16:59:26.615Z"
+      },
+      {
+        "from": 1.62,
+        "to": 1.76,
+        "change": 0.1399999999999999,
+        "changePercent": "8.64",
+        "time": "2024-11-24T17:02:24.789Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.88,
+        "change": 0.07999999999999985,
+        "changePercent": "4.44",
+        "time": "2024-11-24T17:05:24.885Z"
+      },
+      {
+        "from": 1.89,
+        "to": 1.99,
+        "change": 0.10000000000000009,
+        "changePercent": "5.29",
+        "time": "2024-11-24T17:11:25.156Z"
+      },
+      {
+        "from": 1.99,
+        "to": 1.8,
+        "change": -0.18999999999999995,
+        "changePercent": "-9.55",
+        "time": "2024-11-24T17:15:25.330Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.74,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.33",
+        "time": "2024-11-24T17:16:25.382Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.69,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.87",
+        "time": "2024-11-24T17:18:25.468Z"
+      },
+      {
+        "from": 1.7,
+        "to": 1.65,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.94",
+        "time": "2024-11-24T17:43:26.570Z"
+      },
+      {
+        "from": 1.65,
+        "to": 1.71,
+        "change": 0.06000000000000005,
+        "changePercent": "3.64",
+        "time": "2024-11-24T17:44:26.618Z"
+      },
+      {
+        "from": 1.71,
+        "to": 1.78,
+        "change": 0.07000000000000006,
+        "changePercent": "4.09",
+        "time": "2024-11-24T17:45:24.923Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.86,
+        "change": 0.06000000000000005,
+        "changePercent": "3.33",
+        "time": "2024-11-24T17:54:25.033Z"
+      },
+      {
+        "from": 1.83,
+        "to": 1.92,
+        "change": 0.08999999999999986,
+        "changePercent": "4.92",
+        "time": "2024-11-24T17:59:25.158Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.94,
+        "change": 0.08999999999999986,
+        "changePercent": "4.86",
+        "time": "2024-11-24T18:03:25.257Z"
+      },
+      {
+        "from": 1.96,
+        "to": 2.03,
+        "change": 0.06999999999999984,
+        "changePercent": "3.57",
+        "time": "2024-11-24T18:06:25.332Z"
+      },
+      {
+        "from": 2.03,
+        "to": 2.09,
+        "change": 0.06000000000000005,
+        "changePercent": "2.96",
+        "time": "2024-11-24T18:07:25.389Z"
+      },
+      {
+        "from": 2.09,
+        "to": 2.03,
+        "change": -0.06000000000000005,
+        "changePercent": "-2.87",
+        "time": "2024-11-24T18:09:25.453Z"
+      },
+      {
+        "from": 2.03,
+        "to": 2.27,
+        "change": 0.2400000000000002,
+        "changePercent": "11.82",
+        "time": "2024-11-24T18:10:25.478Z"
+      },
+      {
+        "from": 2.27,
+        "to": 2.39,
+        "change": 0.1200000000000001,
+        "changePercent": "5.29",
+        "time": "2024-11-24T18:12:25.531Z"
+      },
+      {
+        "from": 2.44,
+        "to": 2.58,
+        "change": 0.14000000000000012,
+        "changePercent": "5.74",
+        "time": "2024-11-24T18:15:25.590Z"
+      },
+      {
+        "from": 2.58,
+        "to": 2.74,
+        "change": 0.16000000000000014,
+        "changePercent": "6.20",
+        "time": "2024-11-24T18:16:25.638Z"
+      },
+      {
+        "from": 2.74,
+        "to": 1.36,
+        "change": -1.3800000000000001,
+        "changePercent": "-50.36",
+        "time": "2024-11-24T18:17:25.680Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": false,
+      "significantSwings": [
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.2899999999999998,
+          "from": 2.07,
+          "to": 1.78,
+          "time": "2024-11-24T13:23:38.641Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.25,
+          "from": 1.75,
+          "to": 2,
+          "time": "2024-11-24T15:26:41.112Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.2799999999999998,
+          "from": 2.07,
+          "to": 1.79,
+          "time": "2024-11-24T15:34:39.473Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16999999999999993,
+          "from": 1.75,
+          "to": 1.92,
+          "time": "2024-11-24T16:46:26.043Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.4600000000000002,
+          "from": 2.12,
+          "to": 1.66,
+          "time": "2024-11-24T16:59:26.615Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.18999999999999995,
+          "from": 1.99,
+          "to": 1.8,
+          "time": "2024-11-24T17:15:25.330Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.2400000000000002,
+          "from": 2.03,
+          "to": 2.27,
+          "time": "2024-11-24T18:10:25.478Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.16000000000000014,
+          "from": 2.58,
+          "to": 2.74,
+          "time": "2024-11-24T18:16:25.638Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 1.3800000000000001,
+          "from": 2.74,
+          "to": 1.36,
+          "time": "2024-11-24T18:17:25.680Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732326783602,
+      "readableDate": "2024-11-23T01:53:03.602Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 1.96,
+        "ts": 1732326783599
+      }
+    },
+    {
+      "timestamp": 1732415159699,
+      "readableDate": "2024-11-24T02:25:59.699Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.84,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.84,
+        "oddsAway": 1.92,
+        "ts": 1732415159693
+      }
+    },
+    {
+      "timestamp": 1732420619801,
+      "readableDate": "2024-11-24T03:56:59.801Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1732420619797
+      }
+    },
+    {
+      "timestamp": 1732433920073,
+      "readableDate": "2024-11-24T07:38:40.073Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 2.01,
+        "ts": 1732433920070
+      }
+    },
+    {
+      "timestamp": 1732441961096,
+      "readableDate": "2024-11-24T09:52:41.096Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.81,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.81,
+        "oddsAway": 2.02,
+        "ts": 1732441961089
+      }
+    },
+    {
+      "timestamp": 1732449819054,
+      "readableDate": "2024-11-24T12:03:39.054Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1732449819049
+      }
+    },
+    {
+      "timestamp": 1732450479556,
+      "readableDate": "2024-11-24T12:14:39.556Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.85,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.85,
+        "oddsAway": 1.97,
+        "ts": 1732450479555
+      }
+    },
+    {
+      "timestamp": 1732451800579,
+      "readableDate": "2024-11-24T12:36:40.579Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.8,
+      "oddsAway": 2.02,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.8,
+        "oddsAway": 2.02,
+        "ts": 1732451800575
+      }
+    },
+    {
+      "timestamp": 1732451980658,
+      "readableDate": "2024-11-24T12:39:40.658Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.8,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.8,
+        "oddsAway": 2.03,
+        "ts": 1732451980657
+      }
+    },
+    {
+      "timestamp": 1732454558593,
+      "readableDate": "2024-11-24T13:22:38.593Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.77,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.77,
+        "oddsAway": 2.07,
+        "ts": 1732454558593
+      }
+    },
+    {
+      "timestamp": 1732454618641,
+      "readableDate": "2024-11-24T13:23:38.641Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.78,
+        "ts": 1732454618641
+      }
+    },
+    {
+      "timestamp": 1732455339195,
+      "readableDate": "2024-11-24T13:35:39.195Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1732455339194
+      }
+    },
+    {
+      "timestamp": 1732460800206,
+      "readableDate": "2024-11-24T15:06:40.206Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1732460800206
+      }
+    },
+    {
+      "timestamp": 1732462001112,
+      "readableDate": "2024-11-24T15:26:41.112Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.82,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.82,
+        "oddsAway": 2,
+        "ts": 1732462001112
+      }
+    },
+    {
+      "timestamp": 1732462419479,
+      "readableDate": "2024-11-24T15:33:39.479Z",
+      "ahHome": 1,
+      "ahAway": -1,
+      "oddsHome": 1.77,
+      "oddsAway": 2.07,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1,
+        "ahAway": -1,
+        "oddsHome": 1.77,
+        "oddsAway": 2.07,
+        "ts": 1732462419478
+      }
+    },
+    {
+      "timestamp": 1732462479473,
+      "readableDate": "2024-11-24T15:34:39.473Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1732462479472
+      }
+    },
+    {
+      "timestamp": 1732463380194,
+      "readableDate": "2024-11-24T15:49:40.194Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2,
+      "oddsAway": 1.82,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2,
+        "oddsAway": 1.82,
+        "ts": 1732463380191
+      }
+    },
+    {
+      "timestamp": 1732463860529,
+      "readableDate": "2024-11-24T15:57:40.529Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.04,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.04,
+        "oddsAway": 1.79,
+        "ts": 1732463860528
+      }
+    },
+    {
+      "timestamp": 1732465525046,
+      "readableDate": "2024-11-24T16:25:25.046Z",
+      "ahHome": 0.75,
+      "ahAway": -0.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.75,
+        "ahAway": -0.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1732465525043
+      }
+    },
+    {
+      "timestamp": 1732466786043,
+      "readableDate": "2024-11-24T16:46:26.043Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732466786040,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732466846085,
+      "readableDate": "2024-11-24T16:47:26.085Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1732466846085,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732466906129,
+      "readableDate": "2024-11-24T16:48:26.129Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.71,
+      "oddsAway": 2.04,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.71,
+        "oddsAway": 2.04,
+        "ts": 1732466906128,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467026217,
+      "readableDate": "2024-11-24T16:50:26.217Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1732467026217,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467206343,
+      "readableDate": "2024-11-24T16:53:26.343Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1732467206342,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467386478,
+      "readableDate": "2024-11-24T16:56:26.478Z",
+      "ahHome": 1.75,
+      "ahAway": -1.75,
+      "oddsHome": 1.66,
+      "oddsAway": 2.12,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.75,
+        "ahAway": -1.75,
+        "oddsHome": 1.66,
+        "oddsAway": 2.12,
+        "ts": 1732467386478,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467566615,
+      "readableDate": "2024-11-24T16:59:26.615Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1732467566615,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467626657,
+      "readableDate": "2024-11-24T17:00:26.657Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 2.18,
+      "oddsAway": 1.62,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 2.18,
+        "oddsAway": 1.62,
+        "ts": 1732467626657,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "2",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467744789,
+      "readableDate": "2024-11-24T17:02:24.789Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.97,
+      "oddsAway": 1.76,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.97,
+        "oddsAway": 1.76,
+        "ts": 1732467744789,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467864833,
+      "readableDate": "2024-11-24T17:04:24.833Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1732467864833,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732467924885,
+      "readableDate": "2024-11-24T17:05:24.885Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732467924884,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468105017,
+      "readableDate": "2024-11-24T17:08:25.017Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.83,
+      "oddsAway": 1.89,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.83,
+        "oddsAway": 1.89,
+        "ts": 1732468105016,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468285156,
+      "readableDate": "2024-11-24T17:11:25.156Z",
+      "ahHome": 1.25,
+      "ahAway": -1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 1.25,
+        "ahAway": -1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 1.99,
+        "ts": 1732468285155,
+        "homeScore": "0",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468525330,
+      "readableDate": "2024-11-24T17:15:25.330Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1732468525328,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468585382,
+      "readableDate": "2024-11-24T17:16:25.382Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1732468585382,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468705468,
+      "readableDate": "2024-11-24T17:18:25.468Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.07,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.07,
+        "oddsAway": 1.69,
+        "ts": 1732468705468,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1732468825566,
+      "readableDate": "2024-11-24T17:20:25.566Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1732468825565,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732468945663,
+      "readableDate": "2024-11-24T17:22:25.663Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.12,
+      "oddsAway": 1.66,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.12,
+        "oddsAway": 1.66,
+        "ts": 1732468945660,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732469005699,
+      "readableDate": "2024-11-24T17:23:25.699Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.13,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.13,
+        "oddsAway": 1.65,
+        "ts": 1732469005698,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1732469846336,
+      "readableDate": "2024-11-24T17:37:26.336Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.12,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.12,
+        "oddsAway": 1.65,
+        "ts": 1732469846335,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732469966418,
+      "readableDate": "2024-11-24T17:39:26.418Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1732469966418,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470146532,
+      "readableDate": "2024-11-24T17:42:26.532Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.06,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.06,
+        "oddsAway": 1.7,
+        "ts": 1732470146532,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "3",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470206570,
+      "readableDate": "2024-11-24T17:43:26.570Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.14,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.14,
+        "oddsAway": 1.65,
+        "ts": 1732470206570,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470266618,
+      "readableDate": "2024-11-24T17:44:26.618Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 2.04,
+      "oddsAway": 1.71,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 2.04,
+        "oddsAway": 1.71,
+        "ts": 1732470266617,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "4",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470324923,
+      "readableDate": "2024-11-24T17:45:24.923Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1732470324921,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470386830,
+      "readableDate": "2024-11-24T17:46:26.830Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.93,
+      "oddsAway": 1.79,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.93,
+        "oddsAway": 1.79,
+        "ts": 1732470386827,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470504881,
+      "readableDate": "2024-11-24T17:48:24.881Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.94,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.94,
+        "oddsAway": 1.78,
+        "ts": 1732470504878,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470684960,
+      "readableDate": "2024-11-24T17:51:24.960Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.92,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.92,
+        "oddsAway": 1.8,
+        "ts": 1732470684957,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470865033,
+      "readableDate": "2024-11-24T17:54:25.033Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.86,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.86,
+        "oddsAway": 1.86,
+        "ts": 1732470865031,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470925054,
+      "readableDate": "2024-11-24T17:55:25.054Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.84,
+      "oddsAway": 1.88,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.84,
+        "oddsAway": 1.88,
+        "ts": 1732470925054,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732470985080,
+      "readableDate": "2024-11-24T17:56:25.080Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.89,
+      "oddsAway": 1.83,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.89,
+        "oddsAway": 1.83,
+        "ts": 1732470985080,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "5",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471165158,
+      "readableDate": "2024-11-24T17:59:25.158Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1732471165156,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471225183,
+      "readableDate": "2024-11-24T18:00:25.183Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1732471225181,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471285200,
+      "readableDate": "2024-11-24T18:01:25.200Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1732471285200,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471405257,
+      "readableDate": "2024-11-24T18:03:25.257Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.78,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.78,
+        "oddsAway": 1.94,
+        "ts": 1732471405256,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471465285,
+      "readableDate": "2024-11-24T18:04:25.285Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1732471465285,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471585332,
+      "readableDate": "2024-11-24T18:06:25.332Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.03,
+        "ts": 1732471585330,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471645389,
+      "readableDate": "2024-11-24T18:07:25.389Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.68,
+      "oddsAway": 2.09,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.68,
+        "oddsAway": 2.09,
+        "ts": 1732471645389,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471765453,
+      "readableDate": "2024-11-24T18:09:25.453Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.72,
+      "oddsAway": 2.03,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.72,
+        "oddsAway": 2.03,
+        "ts": 1732471765453,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471825478,
+      "readableDate": "2024-11-24T18:10:25.478Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.57,
+      "oddsAway": 2.27,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.57,
+        "oddsAway": 2.27,
+        "ts": 1732471825478,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732471945531,
+      "readableDate": "2024-11-24T18:12:25.531Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.51,
+      "oddsAway": 2.39,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.51,
+        "oddsAway": 2.39,
+        "ts": 1732471945528,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472065565,
+      "readableDate": "2024-11-24T18:14:25.565Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.5,
+      "oddsAway": 2.44,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.5,
+        "oddsAway": 2.44,
+        "ts": 1732472065565,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472125590,
+      "readableDate": "2024-11-24T18:15:25.590Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.45,
+      "oddsAway": 2.58,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.45,
+        "oddsAway": 2.58,
+        "ts": 1732472125589,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472185638,
+      "readableDate": "2024-11-24T18:16:25.638Z",
+      "ahHome": 0.25,
+      "ahAway": -0.25,
+      "oddsHome": 1.4,
+      "oddsAway": 2.74,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0.25,
+        "ahAway": -0.25,
+        "oddsHome": 1.4,
+        "oddsAway": 2.74,
+        "ts": 1732472185638,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472245680,
+      "readableDate": "2024-11-24T18:17:25.680Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.94,
+      "oddsAway": 1.36,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.94,
+        "oddsAway": 1.36,
+        "ts": 1732472245679,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472305704,
+      "readableDate": "2024-11-24T18:18:25.704Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.9,
+      "oddsAway": 1.37,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.9,
+        "oddsAway": 1.37,
+        "ts": 1732472305704,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472425756,
+      "readableDate": "2024-11-24T18:20:25.756Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.84,
+      "oddsAway": 1.39,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.84,
+        "oddsAway": 1.39,
+        "ts": 1732472425756,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1732472605853,
+      "readableDate": "2024-11-24T18:23:25.853Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.8,
+      "oddsAway": 1.39,
+      "originalRecord": {
+        "id": "FB3944",
+        "home": "Ipswich",
+        "away": "Manchester Utd",
+        "date": "2024-11-25",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.8,
+        "oddsAway": 1.39,
+        "ts": 1732472605851,
+        "homeScore": "1",
+        "awayScore": "1",
+        "totalCorner": "6",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.415Z",
+    "totalSnapshots": 67,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

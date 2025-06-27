@@ -1,0 +1,23 @@
+{
+  "strategy": {
+    "name": "Pressure_Momentum_Reversal",
+    "roi": "0.00%",
+    "correlation": "0.0452",
+    "factors": [
+      "fbref.week >= 30",
+      "(timeSeries.home.streaks.overall.current.count || 0) >= 3",
+      "preMatch.enhanced.homeImpliedProb > 70"
+    ],
+    "hypothesis": "Late season + momentum + overconfidence = reversal opportunity",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalStaked": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "roi": "0.00%",
+    "generatedAt": "2025-06-26T16:34:55.305Z"
+  },
+  "bettingRecords": []
+}

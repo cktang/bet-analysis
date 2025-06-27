@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB4644",
+    "home": "Manchester Utd",
+    "away": "Everton",
+    "date": "2024-12-01",
+    "ahHome": -2.25,
+    "ahAway": 2.25,
+    "oddsHome": 1.69,
+    "oddsAway": 2.07,
+    "homeScore": "2",
+    "awayScore": "0",
+    "totalCorner": "3",
+    "live": "HT",
+    "ts": 1733062675865
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "strategy": {
+    "name": "Single_fadeExtremeAwayWeek3to4",
+    "roi": "107.00%",
+    "correlation": "0.0395",
+    "factors": [
+      "(fbref.week >= 3 && fbref.week <= 4 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+    ],
+    "hypothesis": "Fade extreme away favorites weeks 3-4 - early season extreme away confidence predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 1,
+    "totalProfit": 107,
+    "winRate": "100.0%",
+    "generatedAt": "2025-06-25T18:56:51.542Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2023-08-26T16:00:00.000Z",
+      "homeTeam": "Sheff Utd",
+      "awayTeam": "Manchester City",
+      "score": "1-2",
+      "handicapLine": "+1.5/+2",
+      "betSide": "Home",
+      "betOdds": "2.07",
+      "profit": "107",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(fbref.week >= 3 && fbref.week <= 4 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Season week: 3"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(fbref.week >= 3 && fbref.week <= 4 && parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) >= 1.5) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0395",
+      "handicapDetails": {
+        "splitLines": [
+          1.5,
+          2
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 50
+      }
+    }
+  ]
+}

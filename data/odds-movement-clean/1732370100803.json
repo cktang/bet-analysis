@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3936",
+    "home": "Leicester",
+    "away": "Chelsea",
+    "date": "2024-11-23",
+    "ahHome": 1.25,
+    "ahAway": -1.25,
+    "oddsHome": 2.3,
+    "oddsAway": 1.56,
+    "ts": 1732370100801,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "8",
+    "live": "2nd"
+  }
+]

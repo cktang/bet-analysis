@@ -1,0 +1,101 @@
+[
+  {
+    "id": "FB2763",
+    "home": "Manchester City",
+    "away": "Southampton",
+    "date": "2024-10-26",
+    "ahHome": -2.75,
+    "ahAway": 2.75,
+    "oddsHome": 2.11,
+    "oddsAway": 1.74,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2766",
+    "home": "Aston Villa",
+    "away": "Bournemouth",
+    "date": "2024-10-26",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.94,
+    "oddsAway": 1.88,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2764",
+    "home": "Brentford",
+    "away": "Ipswich",
+    "date": "2024-10-26",
+    "ahHome": -0.5,
+    "ahAway": 0.5,
+    "oddsHome": 1.94,
+    "oddsAway": 1.87,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2761",
+    "home": "Brighton",
+    "away": "Wolves",
+    "date": "2024-10-26",
+    "ahHome": -0.5,
+    "ahAway": 0.5,
+    "oddsHome": 1.95,
+    "oddsAway": 1.87,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2762",
+    "home": "Everton",
+    "away": "Fulham",
+    "date": "2024-10-27",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.92,
+    "oddsAway": 1.9,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2862",
+    "home": "Chelsea",
+    "away": "Newcastle",
+    "date": "2024-10-27",
+    "ahHome": -0.75,
+    "ahAway": 0.75,
+    "oddsHome": 1.96,
+    "oddsAway": 1.81,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2863",
+    "home": "Crystal Palace",
+    "away": "Tottenham",
+    "date": "2024-10-27",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.81,
+    "oddsAway": 1.96,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2861",
+    "home": "West Ham",
+    "away": "Manchester Utd",
+    "date": "2024-10-27",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 1.88,
+    "oddsAway": 1.88,
+    "ts": 1729947434685
+  },
+  {
+    "id": "FB2765",
+    "home": "Arsenal",
+    "away": "Liverpool",
+    "date": "2024-10-28",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 2.08,
+    "oddsAway": 1.71,
+    "ts": 1729947434685
+  }
+]

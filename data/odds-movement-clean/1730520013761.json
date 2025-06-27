@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FB3186",
+    "home": "Nottingham Forest",
+    "away": "West Ham",
+    "date": "2024-11-02",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.78,
+    "oddsAway": 2.06,
+    "ts": 1730520013760
+  },
+  {
+    "id": "FB3192",
+    "home": "Southampton",
+    "away": "Everton",
+    "date": "2024-11-02",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.86,
+    "oddsAway": 1.96,
+    "ts": 1730520013760
+  }
+]

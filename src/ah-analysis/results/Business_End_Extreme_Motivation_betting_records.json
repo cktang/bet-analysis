@@ -1,0 +1,22 @@
+{
+  "strategy": {
+    "name": "Business_End_Extreme_Motivation",
+    "roi": "0.00%",
+    "correlation": "0.0157",
+    "factors": [
+      "fbref.week >= 30",
+      "Math.abs(parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0])) >= 1.5",
+      "((timeSeries.home.leaguePosition || 20) <= 6 || (timeSeries.home.leaguePosition || 20) >= 17)",
+      "((timeSeries.away.leaguePosition || 20) <= 6 || (timeSeries.away.leaguePosition || 20) >= 17)"
+    ],
+    "hypothesis": "Business end extreme confidence with high stakes positions",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 0,
+    "totalProfit": 0,
+    "winRate": "0%",
+    "generatedAt": "2025-06-25T18:56:54.964Z"
+  },
+  "bettingRecords": []
+}

@@ -16,7 +16,9 @@
       "Bash(TARGET_SEASON=2024-2025 npx playwright test scrap-oddsportal-result.spec.ts)",
       "Bash(git restore:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(timeout:*)",
+      "Bash(gtimeout:*)"
     ],
     "deny": []
   }

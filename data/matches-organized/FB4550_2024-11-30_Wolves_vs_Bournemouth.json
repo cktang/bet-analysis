@@ -1,0 +1,277 @@
+{
+  "matchInfo": {
+    "id": "FB4550",
+    "home": "Wolves",
+    "away": "Bournemouth",
+    "date": "2024-11-30",
+    "matchKey": "FB4550_2024-11-30_Wolves_vs_Bournemouth"
+  },
+  "analysis": {
+    "totalSnapshots": 11,
+    "timeSpan": {
+      "start": "2024-11-28T16:57:48.266Z",
+      "end": "2024-11-30T14:48:57.785Z",
+      "durationMinutes": 2751.15865
+    },
+    "handicapMovements": [],
+    "oddsMovements": [
+      {
+        "from": 1.8,
+        "to": 1.86,
+        "change": 0.06000000000000005,
+        "changePercent": "3.33",
+        "time": "2024-11-30T04:57:58.718Z"
+      },
+      {
+        "from": 1.86,
+        "to": 1.8,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.23",
+        "time": "2024-11-30T09:40:57.942Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.85,
+        "change": 0.050000000000000044,
+        "changePercent": "2.78",
+        "time": "2024-11-30T12:09:58.942Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.91,
+        "change": 0.05999999999999983,
+        "changePercent": "3.24",
+        "time": "2024-11-30T13:49:59.346Z"
+      },
+      {
+        "from": 1.91,
+        "to": 1.96,
+        "change": 0.050000000000000044,
+        "changePercent": "2.62",
+        "time": "2024-11-30T14:22:58.607Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": true,
+      "oddsVolatility": "LOW",
+      "trappedInQuarter": false,
+      "significantSwings": []
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1732813068266,
+      "readableDate": "2024-11-28T16:57:48.266Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1732813068261
+      }
+    },
+    {
+      "timestamp": 1732815755565,
+      "readableDate": "2024-11-28T17:42:35.565Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1732815755557
+      }
+    },
+    {
+      "timestamp": 1732815799414,
+      "readableDate": "2024-11-28T17:43:19.414Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1732815799407
+      }
+    },
+    {
+      "timestamp": 1732843021592,
+      "readableDate": "2024-11-29T01:17:01.592Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1732843021586
+      }
+    },
+    {
+      "timestamp": 1732939558330,
+      "readableDate": "2024-11-30T04:05:58.330Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1732939558330
+      }
+    },
+    {
+      "timestamp": 1732942678718,
+      "readableDate": "2024-11-30T04:57:58.718Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.96,
+      "oddsAway": 1.86,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.96,
+        "oddsAway": 1.86,
+        "ts": 1732942678716
+      }
+    },
+    {
+      "timestamp": 1732959657942,
+      "readableDate": "2024-11-30T09:40:57.942Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1732959657940
+      }
+    },
+    {
+      "timestamp": 1732968598942,
+      "readableDate": "2024-11-30T12:09:58.942Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.97,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.97,
+        "oddsAway": 1.85,
+        "ts": 1732968598941
+      }
+    },
+    {
+      "timestamp": 1732974599346,
+      "readableDate": "2024-11-30T13:49:59.346Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.91,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.91,
+        "oddsAway": 1.91,
+        "ts": 1732974599345
+      }
+    },
+    {
+      "timestamp": 1732976578607,
+      "readableDate": "2024-11-30T14:22:58.607Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.86,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.86,
+        "oddsAway": 1.96,
+        "ts": 1732976578607
+      }
+    },
+    {
+      "timestamp": 1732978137785,
+      "readableDate": "2024-11-30T14:48:57.785Z",
+      "ahHome": 0,
+      "ahAway": 0,
+      "oddsHome": 1.89,
+      "oddsAway": 1.93,
+      "originalRecord": {
+        "id": "FB4550",
+        "home": "Wolves",
+        "away": "Bournemouth",
+        "date": "2024-11-30",
+        "ahHome": 0,
+        "ahAway": 0,
+        "oddsHome": 1.89,
+        "oddsAway": 1.93,
+        "ts": 1732978137784
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.416Z",
+    "totalSnapshots": 11,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

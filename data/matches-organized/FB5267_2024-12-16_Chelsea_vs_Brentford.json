@@ -1,0 +1,1567 @@
+{
+  "matchInfo": {
+    "id": "FB5267",
+    "home": "Chelsea",
+    "away": "Brentford",
+    "date": "2024-12-16",
+    "matchKey": "FB5267_2024-12-16_Chelsea_vs_Brentford"
+  },
+  "analysis": {
+    "totalSnapshots": 55,
+    "timeSpan": {
+      "start": "2024-12-13T18:19:27.314Z",
+      "end": "2024-12-15T20:49:34.321Z",
+      "durationMinutes": 3030.1167833333334
+    },
+    "handicapMovements": [
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-12-15T19:04:34.688Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1.75,
+        "change": 0.5,
+        "time": "2024-12-15T19:06:34.758Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-12-15T19:09:34.843Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1,
+        "change": -0.25,
+        "time": "2024-12-15T19:39:33.696Z"
+      },
+      {
+        "from": 1,
+        "to": 1.75,
+        "change": 0.75,
+        "time": "2024-12-15T19:45:33.867Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.25,
+        "change": -0.5,
+        "time": "2024-12-15T20:22:35.068Z"
+      },
+      {
+        "from": 1.25,
+        "to": 2.25,
+        "change": 1,
+        "time": "2024-12-15T20:39:33.859Z"
+      },
+      {
+        "from": 2.25,
+        "to": 1.25,
+        "change": -1,
+        "time": "2024-12-15T20:48:34.279Z"
+      },
+      {
+        "from": 1.25,
+        "to": 1,
+        "change": -0.25,
+        "time": "2024-12-15T20:49:34.321Z"
+      }
+    ],
+    "oddsMovements": [
+      {
+        "from": 1.77,
+        "to": 1.72,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.82",
+        "time": "2024-12-15T04:17:34.928Z"
+      },
+      {
+        "from": 1.75,
+        "to": 1.8,
+        "change": 0.050000000000000044,
+        "changePercent": "2.86",
+        "time": "2024-12-15T18:59:34.459Z"
+      },
+      {
+        "from": 1.8,
+        "to": 1.72,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.44",
+        "time": "2024-12-15T19:00:34.511Z"
+      },
+      {
+        "from": 1.72,
+        "to": 1.67,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.91",
+        "time": "2024-12-15T19:03:34.644Z"
+      },
+      {
+        "from": 1.67,
+        "to": 2.08,
+        "change": 0.41000000000000014,
+        "changePercent": "24.55",
+        "time": "2024-12-15T19:04:34.688Z"
+      },
+      {
+        "from": 2.08,
+        "to": 1.7,
+        "change": -0.3800000000000001,
+        "changePercent": "-18.27",
+        "time": "2024-12-15T19:06:34.758Z"
+      },
+      {
+        "from": 1.7,
+        "to": 2.1,
+        "change": 0.40000000000000013,
+        "changePercent": "23.53",
+        "time": "2024-12-15T19:09:34.843Z"
+      },
+      {
+        "from": 2.1,
+        "to": 2.05,
+        "change": -0.050000000000000266,
+        "changePercent": "-2.38",
+        "time": "2024-12-15T19:12:34.899Z"
+      },
+      {
+        "from": 1.99,
+        "to": 1.94,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.51",
+        "time": "2024-12-15T19:19:35.125Z"
+      },
+      {
+        "from": 1.84,
+        "to": 1.78,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.26",
+        "time": "2024-12-15T19:34:33.502Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.99,
+        "change": 0.25,
+        "changePercent": "14.37",
+        "time": "2024-12-15T19:39:33.696Z"
+      },
+      {
+        "from": 1.92,
+        "to": 1.85,
+        "change": -0.06999999999999984,
+        "changePercent": "-3.65",
+        "time": "2024-12-15T20:08:34.503Z"
+      },
+      {
+        "from": 1.85,
+        "to": 1.77,
+        "change": -0.08000000000000007,
+        "changePercent": "-4.32",
+        "time": "2024-12-15T20:11:34.595Z"
+      },
+      {
+        "from": 1.77,
+        "to": 1.72,
+        "change": -0.050000000000000044,
+        "changePercent": "-2.82",
+        "time": "2024-12-15T20:12:34.649Z"
+      },
+      {
+        "from": 1.7,
+        "to": 1.64,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.53",
+        "time": "2024-12-15T20:17:34.869Z"
+      },
+      {
+        "from": 1.64,
+        "to": 1.58,
+        "change": -0.05999999999999983,
+        "changePercent": "-3.66",
+        "time": "2024-12-15T20:21:35.030Z"
+      },
+      {
+        "from": 1.58,
+        "to": 2.3,
+        "change": 0.7199999999999998,
+        "changePercent": "45.57",
+        "time": "2024-12-15T20:22:35.068Z"
+      },
+      {
+        "from": 2.3,
+        "to": 2.18,
+        "change": -0.11999999999999966,
+        "changePercent": "-5.22",
+        "time": "2024-12-15T20:25:35.198Z"
+      },
+      {
+        "from": 2.18,
+        "to": 2.08,
+        "change": -0.10000000000000009,
+        "changePercent": "-4.59",
+        "time": "2024-12-15T20:28:35.342Z"
+      },
+      {
+        "from": 2.08,
+        "to": 2,
+        "change": -0.08000000000000007,
+        "changePercent": "-3.85",
+        "time": "2024-12-15T20:30:33.455Z"
+      },
+      {
+        "from": 2,
+        "to": 1.9,
+        "change": -0.10000000000000009,
+        "changePercent": "-5.00",
+        "time": "2024-12-15T20:32:33.524Z"
+      },
+      {
+        "from": 1.9,
+        "to": 1.81,
+        "change": -0.08999999999999986,
+        "changePercent": "-4.74",
+        "time": "2024-12-15T20:33:33.572Z"
+      },
+      {
+        "from": 1.81,
+        "to": 1.74,
+        "change": -0.07000000000000006,
+        "changePercent": "-3.87",
+        "time": "2024-12-15T20:36:33.719Z"
+      },
+      {
+        "from": 1.74,
+        "to": 1.59,
+        "change": -0.1499999999999999,
+        "changePercent": "-8.62",
+        "time": "2024-12-15T20:39:33.859Z"
+      },
+      {
+        "from": 1.59,
+        "to": 1.53,
+        "change": -0.06000000000000005,
+        "changePercent": "-3.77",
+        "time": "2024-12-15T20:40:33.907Z"
+      },
+      {
+        "from": 1.53,
+        "to": 1.48,
+        "change": -0.050000000000000044,
+        "changePercent": "-3.27",
+        "time": "2024-12-15T20:42:36.005Z"
+      },
+      {
+        "from": 1.48,
+        "to": 1.43,
+        "change": -0.050000000000000044,
+        "changePercent": "-3.38",
+        "time": "2024-12-15T20:43:34.054Z"
+      },
+      {
+        "from": 1.43,
+        "to": 1.32,
+        "change": -0.10999999999999988,
+        "changePercent": "-7.69",
+        "time": "2024-12-15T20:48:34.279Z"
+      },
+      {
+        "from": 1.32,
+        "to": 3.18,
+        "change": 1.86,
+        "changePercent": "140.91",
+        "time": "2024-12-15T20:49:34.321Z"
+      }
+    ],
+    "patterns": {
+      "handicapStability": false,
+      "oddsVolatility": "HIGH",
+      "trappedInQuarter": true,
+      "significantSwings": [
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.41000000000000014,
+          "from": 1.67,
+          "to": 2.08,
+          "time": "2024-12-15T19:04:34.688Z"
+        },
+        {
+          "type": "SHORTENING",
+          "magnitude": 0.3800000000000001,
+          "from": 2.08,
+          "to": 1.7,
+          "time": "2024-12-15T19:06:34.758Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.40000000000000013,
+          "from": 1.7,
+          "to": 2.1,
+          "time": "2024-12-15T19:09:34.843Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.25,
+          "from": 1.74,
+          "to": 1.99,
+          "time": "2024-12-15T19:39:33.696Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 0.7199999999999998,
+          "from": 1.58,
+          "to": 2.3,
+          "time": "2024-12-15T20:22:35.068Z"
+        },
+        {
+          "type": "LENGTHENING",
+          "magnitude": 1.86,
+          "from": 1.32,
+          "to": 3.18,
+          "time": "2024-12-15T20:49:34.321Z"
+        }
+      ]
+    }
+  },
+  "oddsTimeline": [
+    {
+      "timestamp": 1734113967314,
+      "readableDate": "2024-12-13T18:19:27.314Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1734113967305
+      }
+    },
+    {
+      "timestamp": 1734169779419,
+      "readableDate": "2024-12-14T09:49:39.419Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2,
+        "oddsAway": 1.77,
+        "ts": 1734169779415
+      }
+    },
+    {
+      "timestamp": 1734235656494,
+      "readableDate": "2024-12-15T04:07:36.494Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.07,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.07,
+        "oddsAway": 1.77,
+        "ts": 1734235656492
+      }
+    },
+    {
+      "timestamp": 1734236254928,
+      "readableDate": "2024-12-15T04:17:34.928Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.72,
+        "ts": 1734236254928
+      }
+    },
+    {
+      "timestamp": 1734236975465,
+      "readableDate": "2024-12-15T04:29:35.465Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.19,
+      "oddsAway": 1.69,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.19,
+        "oddsAway": 1.69,
+        "ts": 1734236975465
+      }
+    },
+    {
+      "timestamp": 1734260315725,
+      "readableDate": "2024-12-15T10:58:35.725Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.72,
+        "ts": 1734260315724
+      }
+    },
+    {
+      "timestamp": 1734287315023,
+      "readableDate": "2024-12-15T18:28:35.023Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.09,
+      "oddsAway": 1.75,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.09,
+        "oddsAway": 1.75,
+        "ts": 1734287315023
+      }
+    },
+    {
+      "timestamp": 1734289174459,
+      "readableDate": "2024-12-15T18:59:34.459Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.03,
+      "oddsAway": 1.8,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.03,
+        "oddsAway": 1.8,
+        "ts": 1734289174459
+      }
+    },
+    {
+      "timestamp": 1734289234511,
+      "readableDate": "2024-12-15T19:00:34.511Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.03,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.03,
+        "oddsAway": 1.72,
+        "ts": 1734289234510,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734289414644,
+      "readableDate": "2024-12-15T19:03:34.644Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.1,
+      "oddsAway": 1.67,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.1,
+        "oddsAway": 1.67,
+        "ts": 1734289414643,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734289474688,
+      "readableDate": "2024-12-15T19:04:34.688Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.68,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.68,
+        "oddsAway": 2.08,
+        "ts": 1734289474687,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734289594758,
+      "readableDate": "2024-12-15T19:06:34.758Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1734289594758,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734289774843,
+      "readableDate": "2024-12-15T19:09:34.843Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.67,
+      "oddsAway": 2.1,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.67,
+        "oddsAway": 2.1,
+        "ts": 1734289774843,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734289954899,
+      "readableDate": "2024-12-15T19:12:34.899Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.7,
+      "oddsAway": 2.05,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.7,
+        "oddsAway": 2.05,
+        "ts": 1734289954898,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "0",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290135013,
+      "readableDate": "2024-12-15T19:15:35.013Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1734290135013,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290195037,
+      "readableDate": "2024-12-15T19:16:35.037Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.75,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.75,
+        "oddsAway": 1.99,
+        "ts": 1734290195037,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "1",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290375125,
+      "readableDate": "2024-12-15T19:19:35.125Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.79,
+      "oddsAway": 1.94,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.79,
+        "oddsAway": 1.94,
+        "ts": 1734290375125,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290435132,
+      "readableDate": "2024-12-15T19:20:35.132Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1734290435132,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290495171,
+      "readableDate": "2024-12-15T19:21:35.171Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1734290495170,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290675253,
+      "readableDate": "2024-12-15T19:24:35.253Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1734290675253,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "3",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290855306,
+      "readableDate": "2024-12-15T19:27:35.306Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.81,
+      "oddsAway": 1.91,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.81,
+        "oddsAway": 1.91,
+        "ts": 1734290855306,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290915332,
+      "readableDate": "2024-12-15T19:28:35.332Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1734290915332,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "4",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734290975355,
+      "readableDate": "2024-12-15T19:29:35.355Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.85,
+      "oddsAway": 1.87,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.85,
+        "oddsAway": 1.87,
+        "ts": 1734290975355,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291095407,
+      "readableDate": "2024-12-15T19:31:35.407Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1734291095407,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291153430,
+      "readableDate": "2024-12-15T19:32:33.430Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.88,
+      "oddsAway": 1.84,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.88,
+        "oddsAway": 1.84,
+        "ts": 1734291153430,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291273502,
+      "readableDate": "2024-12-15T19:34:33.502Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.95,
+      "oddsAway": 1.78,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.95,
+        "oddsAway": 1.78,
+        "ts": 1734291273502,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291453649,
+      "readableDate": "2024-12-15T19:37:33.649Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1734291453648,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "6",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291573696,
+      "readableDate": "2024-12-15T19:39:33.696Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.75,
+      "oddsAway": 1.99,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.75,
+        "oddsAway": 1.99,
+        "ts": 1734291573695,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291633736,
+      "readableDate": "2024-12-15T19:40:33.736Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1734291633736,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291753796,
+      "readableDate": "2024-12-15T19:42:33.796Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.77,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.77,
+        "oddsAway": 1.96,
+        "ts": 1734291753795,
+        "homeScore": "0",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734291933867,
+      "readableDate": "2024-12-15T19:45:33.867Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.73,
+      "oddsAway": 2.01,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.73,
+        "oddsAway": 2.01,
+        "ts": 1734291933867,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "1st"
+      }
+    },
+    {
+      "timestamp": 1734292053914,
+      "readableDate": "2024-12-15T19:47:33.914Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.76,
+      "oddsAway": 1.97,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.76,
+        "oddsAway": 1.97,
+        "ts": 1734292053913,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "HT"
+      }
+    },
+    {
+      "timestamp": 1734292954310,
+      "readableDate": "2024-12-15T20:02:34.310Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.76,
+      "oddsAway": 1.96,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.76,
+        "oddsAway": 1.96,
+        "ts": 1734292954310,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "8",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293134390,
+      "readableDate": "2024-12-15T20:05:34.390Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.8,
+      "oddsAway": 1.92,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.8,
+        "oddsAway": 1.92,
+        "ts": 1734293134390,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293314503,
+      "readableDate": "2024-12-15T20:08:34.503Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.87,
+      "oddsAway": 1.85,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.87,
+        "oddsAway": 1.85,
+        "ts": 1734293314503,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293494595,
+      "readableDate": "2024-12-15T20:11:34.595Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 1.96,
+      "oddsAway": 1.77,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 1.96,
+        "oddsAway": 1.77,
+        "ts": 1734293494595,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "9",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293554649,
+      "readableDate": "2024-12-15T20:12:34.649Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.02,
+      "oddsAway": 1.72,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.02,
+        "oddsAway": 1.72,
+        "ts": 1734293554649,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293674736,
+      "readableDate": "2024-12-15T20:14:34.736Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.05,
+      "oddsAway": 1.7,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.05,
+        "oddsAway": 1.7,
+        "ts": 1734293674735,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293854869,
+      "readableDate": "2024-12-15T20:17:34.869Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.15,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.15,
+        "oddsAway": 1.64,
+        "ts": 1734293854869,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293914905,
+      "readableDate": "2024-12-15T20:18:34.905Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.13,
+      "oddsAway": 1.65,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.13,
+        "oddsAway": 1.65,
+        "ts": 1734293914905,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734293974948,
+      "readableDate": "2024-12-15T20:19:34.948Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.14,
+      "oddsAway": 1.64,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.14,
+        "oddsAway": 1.64,
+        "ts": 1734293974948,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294095030,
+      "readableDate": "2024-12-15T20:21:35.030Z",
+      "ahHome": -1.75,
+      "ahAway": 1.75,
+      "oddsHome": 2.25,
+      "oddsAway": 1.58,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.75,
+        "ahAway": 1.75,
+        "oddsHome": 2.25,
+        "oddsAway": 1.58,
+        "ts": 1734294095030,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294155068,
+      "readableDate": "2024-12-15T20:22:35.068Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.56,
+      "oddsAway": 2.3,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.56,
+        "oddsAway": 2.3,
+        "ts": 1734294155068,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294335198,
+      "readableDate": "2024-12-15T20:25:35.198Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.62,
+      "oddsAway": 2.18,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.62,
+        "oddsAway": 2.18,
+        "ts": 1734294335197,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "10",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294515342,
+      "readableDate": "2024-12-15T20:28:35.342Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.68,
+      "oddsAway": 2.08,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.68,
+        "oddsAway": 2.08,
+        "ts": 1734294515342,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294633455,
+      "readableDate": "2024-12-15T20:30:33.455Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.74,
+      "oddsAway": 2,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.74,
+        "oddsAway": 2,
+        "ts": 1734294633454,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294753524,
+      "readableDate": "2024-12-15T20:32:33.524Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.82,
+      "oddsAway": 1.9,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.82,
+        "oddsAway": 1.9,
+        "ts": 1734294753524,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294813572,
+      "readableDate": "2024-12-15T20:33:33.572Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 1.91,
+      "oddsAway": 1.81,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 1.91,
+        "oddsAway": 1.81,
+        "ts": 1734294813572,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734294993719,
+      "readableDate": "2024-12-15T20:36:33.719Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 2,
+      "oddsAway": 1.74,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 2,
+        "oddsAway": 1.74,
+        "ts": 1734294993717,
+        "homeScore": "1",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295173859,
+      "readableDate": "2024-12-15T20:39:33.859Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 2.24,
+      "oddsAway": 1.59,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 2.24,
+        "oddsAway": 1.59,
+        "ts": 1734295173859,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295233907,
+      "readableDate": "2024-12-15T20:40:33.907Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 2.36,
+      "oddsAway": 1.53,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 2.36,
+        "oddsAway": 1.53,
+        "ts": 1734295233907,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295356005,
+      "readableDate": "2024-12-15T20:42:36.005Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 2.49,
+      "oddsAway": 1.48,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 2.49,
+        "oddsAway": 1.48,
+        "ts": 1734295356004,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295414054,
+      "readableDate": "2024-12-15T20:43:34.054Z",
+      "ahHome": -2.25,
+      "ahAway": 2.25,
+      "oddsHome": 2.64,
+      "oddsAway": 1.43,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -2.25,
+        "ahAway": 2.25,
+        "oddsHome": 2.64,
+        "oddsAway": 1.43,
+        "ts": 1734295414053,
+        "homeScore": "2",
+        "awayScore": "0",
+        "totalCorner": "12",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295714279,
+      "readableDate": "2024-12-15T20:48:34.279Z",
+      "ahHome": -1.25,
+      "ahAway": 1.25,
+      "oddsHome": 3.12,
+      "oddsAway": 1.32,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1.25,
+        "ahAway": 1.25,
+        "oddsHome": 3.12,
+        "oddsAway": 1.32,
+        "ts": 1734295714279,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "---",
+        "live": "2nd"
+      }
+    },
+    {
+      "timestamp": 1734295774321,
+      "readableDate": "2024-12-15T20:49:34.321Z",
+      "ahHome": -1,
+      "ahAway": 1,
+      "oddsHome": 1.31,
+      "oddsAway": 3.18,
+      "originalRecord": {
+        "id": "FB5267",
+        "home": "Chelsea",
+        "away": "Brentford",
+        "date": "2024-12-16",
+        "ahHome": -1,
+        "ahAway": 1,
+        "oddsHome": 1.31,
+        "oddsAway": 3.18,
+        "ts": 1734295774321,
+        "homeScore": "2",
+        "awayScore": "1",
+        "totalCorner": "13",
+        "live": "2nd"
+      }
+    }
+  ],
+  "exportMetadata": {
+    "exportedAt": "2025-06-26T17:11:21.419Z",
+    "totalSnapshots": 55,
+    "dataQuality": "CLEAN_PRE_MATCH_ONLY"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FB4983",
+    "home": "Fulham",
+    "away": "Arsenal",
+    "date": "2024-12-08",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 2,
+    "oddsAway": 1.74,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "3",
+    "live": "1st",
+    "ts": 1733668063817
+  },
+  {
+    "id": "FB4980",
+    "home": "Leicester",
+    "away": "Brighton",
+    "date": "2024-12-08",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.66,
+    "oddsAway": 2.12,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "5",
+    "live": "1st",
+    "ts": 1733668063817
+  }
+]

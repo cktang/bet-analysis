@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB5253",
+    "home": "Arsenal",
+    "away": "Everton",
+    "date": "2024-12-14",
+    "ahHome": -0.25,
+    "ahAway": 0.25,
+    "oddsHome": 1.65,
+    "oddsAway": 2.13,
+    "homeScore": "0",
+    "awayScore": "0",
+    "totalCorner": "8",
+    "live": "2nd",
+    "ts": 1734194076489
+  }
+]

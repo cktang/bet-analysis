@@ -1,0 +1,35 @@
+[
+  {
+    "id": "FB3589",
+    "home": "Crystal Palace",
+    "away": "Fulham",
+    "date": "2024-11-09",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 1.75,
+    "oddsAway": 2.09,
+    "ts": 1731140197123
+  },
+  {
+    "id": "FB3591",
+    "home": "Brighton",
+    "away": "Manchester City",
+    "date": "2024-11-10",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.9,
+    "oddsAway": 1.92,
+    "ts": 1731140197123
+  },
+  {
+    "id": "FB3592",
+    "home": "Liverpool",
+    "away": "Aston Villa",
+    "date": "2024-11-10",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 1.92,
+    "oddsAway": 1.9,
+    "ts": 1731140197123
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3674",
+    "home": "Chelsea",
+    "away": "Arsenal",
+    "date": "2024-11-11",
+    "ahHome": 0,
+    "ahAway": 0,
+    "oddsHome": 1.86,
+    "oddsAway": 1.86,
+    "ts": 1731262532867,
+    "homeScore": "1",
+    "awayScore": "1",
+    "totalCorner": "6",
+    "live": "2nd"
+  }
+]

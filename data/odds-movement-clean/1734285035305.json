@@ -1,0 +1,28 @@
+[
+  {
+    "id": "FB5266",
+    "home": "Manchester City",
+    "away": "Manchester Utd",
+    "date": "2024-12-16",
+    "ahHome": -1.25,
+    "ahAway": 1.25,
+    "oddsHome": 2.01,
+    "oddsAway": 1.73,
+    "ts": 1734285035304,
+    "homeScore": "1",
+    "awayScore": "0",
+    "totalCorner": "6",
+    "live": "2nd"
+  },
+  {
+    "id": "FB5268",
+    "home": "Southampton",
+    "away": "Tottenham",
+    "date": "2024-12-16",
+    "ahHome": 0.75,
+    "ahAway": -0.75,
+    "oddsHome": 1.92,
+    "oddsAway": 1.9,
+    "ts": 1734285035304
+  }
+]

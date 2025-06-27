@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FB3190",
+    "home": "Tottenham",
+    "away": "Aston Villa",
+    "date": "2024-11-03",
+    "ahHome": 0.25,
+    "ahAway": -0.25,
+    "oddsHome": 1.94,
+    "oddsAway": 1.79,
+    "homeScore": "0",
+    "awayScore": "1",
+    "totalCorner": "7",
+    "live": "1st",
+    "ts": 1730644897372
+  }
+]

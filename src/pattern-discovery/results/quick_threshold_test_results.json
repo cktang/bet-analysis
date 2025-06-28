@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-06-28T06:13:56.249Z",
+  "targetCombination": "side-away_size-fix_time-veryEarly_handicapType-quarter",
+  "baseline": {
+    "testName": "baseline",
+    "thresholdChanges": {},
+    "totalROI": 19.94,
+    "accuracy": 64.52,
+    "totalBets": 93,
+    "averageStake": 200,
+    "totalProfit": 3709,
+    "score": 37.772
+  },
+  "allResults": [
+    {
+      "testName": "baseline",
+      "thresholdChanges": {},
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "veryEarly_3weeks",
+      "thresholdChanges": {
+        "name": "veryEarly_3weeks",
+        "veryEarlyWeek": 3
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "veryEarly_4weeks",
+      "thresholdChanges": {
+        "name": "veryEarly_4weeks",
+        "veryEarlyWeek": 4
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "veryEarly_5weeks",
+      "thresholdChanges": {
+        "name": "veryEarly_5weeks",
+        "veryEarlyWeek": 5
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "veryEarly_6weeks",
+      "thresholdChanges": {
+        "name": "veryEarly_6weeks",
+        "veryEarlyWeek": 6
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "ultraEarly_4weeks",
+      "thresholdChanges": {
+        "name": "ultraEarly_4weeks",
+        "ultraEarlyWeek": 4
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "ultraEarly_5weeks",
+      "thresholdChanges": {
+        "name": "ultraEarly_5weeks",
+        "ultraEarlyWeek": 5
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "ultraEarly_6weeks",
+      "thresholdChanges": {
+        "name": "ultraEarly_6weeks",
+        "ultraEarlyWeek": 6
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "ultraEarly_7weeks",
+      "thresholdChanges": {
+        "name": "ultraEarly_7weeks",
+        "ultraEarlyWeek": 7
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "ultraEarly_8weeks",
+      "thresholdChanges": {
+        "name": "ultraEarly_8weeks",
+        "ultraEarlyWeek": 8
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "trapped_1.65",
+      "thresholdChanges": {
+        "name": "trapped_1.65",
+        "trappedOdds": 1.65
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "trapped_1.70",
+      "thresholdChanges": {
+        "name": "trapped_1.70",
+        "trappedOdds": 1.7
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "trapped_1.72",
+      "thresholdChanges": {
+        "name": "trapped_1.72",
+        "trappedOdds": 1.72
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "trapped_1.75",
+      "thresholdChanges": {
+        "name": "trapped_1.75",
+        "trappedOdds": 1.75
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "trapped_1.80",
+      "thresholdChanges": {
+        "name": "trapped_1.80",
+        "trappedOdds": 1.8
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "sweetspot_1.95-2.25",
+      "thresholdChanges": {
+        "name": "sweetspot_1.95-2.25",
+        "sweetSpotMin": 1.95,
+        "sweetSpotMax": 2.25
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "sweetspot_2.00-2.30",
+      "thresholdChanges": {
+        "name": "sweetspot_2.00-2.30",
+        "sweetSpotMin": 2,
+        "sweetSpotMax": 2.3
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "sweetspot_2.05-2.35",
+      "thresholdChanges": {
+        "name": "sweetspot_2.05-2.35",
+        "sweetSpotMin": 2.05,
+        "sweetSpotMax": 2.35
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    },
+    {
+      "testName": "sweetspot_1.90-2.20",
+      "thresholdChanges": {
+        "name": "sweetspot_1.90-2.20",
+        "sweetSpotMin": 1.9,
+        "sweetSpotMax": 2.2
+      },
+      "totalROI": 19.94,
+      "accuracy": 64.52,
+      "totalBets": 93,
+      "averageStake": 200,
+      "totalProfit": 3709,
+      "score": 37.772
+    }
+  ],
+  "bestResult": {
+    "testName": "baseline",
+    "thresholdChanges": {},
+    "totalROI": 19.94,
+    "accuracy": 64.52,
+    "totalBets": 93,
+    "averageStake": 200,
+    "totalProfit": 3709,
+    "score": 37.772
+  },
+  "summary": {
+    "totalTests": 19,
+    "bestROI": 19.94,
+    "bestAccuracy": 64.52,
+    "avgImprovement": 0
+  }
+}

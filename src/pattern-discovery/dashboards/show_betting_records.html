@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Records Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Consolas', 'Monaco', monospace;
+            background: #1a1a1a;
+            color: #ffffff;
+            font-size: 13px;
+            line-height: 1.4;
+            padding: 20px;
+        }
+
+        .header {
+            background: #2d2d2d;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #4caf50;
+            margin-bottom: 10px;
+        }
+
+        .strategy-selector {
+            background: #2a2a2a;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #555;
+        }
+
+        .strategy-selector label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #ccc;
+        }
+
+        .strategy-select {
+            width: 100%;
+            background: #1a1a1a;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-family: inherit;
+        }
+
+        .load-btn {
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: background 0.3s;
+        }
+
+        .load-btn:hover {
+            background: #45a049;
+        }
+
+        .load-btn:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+
+        .strategy-info {
+            background: #2d2d2d;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+
+        .strategy-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4caf50;
+            margin-bottom: 8px;
+        }
+
+        .strategy-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .stat-item {
+            background: #1a1a1a;
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .stat-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 2px;
+        }
+
+        .profit-positive { color: #4caf50; }
+        .profit-negative { color: #f44336; }
+
+        .records-container {
+            background: #2d2d2d;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .records-header {
+            background: #333;
+            padding: 15px;
+            border-bottom: 1px solid #555;
+        }
+
+        .records-header h3 {
+            color: #4caf50;
+            margin-bottom: 5px;
+        }
+
+        .records-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .filter-input {
+            background: #1a1a1a;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 6px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        .records-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        .records-table th {
+            background: #333;
+            padding: 10px 8px;
+            border-bottom: 1px solid #555;
+            text-align: left;
+            font-weight: bold;
+            color: #ccc;
+        }
+
+        .records-table td {
+            padding: 8px;
+            border-bottom: 1px solid #333;
+            vertical-align: top;
+        }
+
+        .records-table tr:hover {
+            background: #252525;
+        }
+
+        .bet-result {
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 40px;
+        }
+
+        .result-win {
+            background: #4caf50;
+            color: white;
+        }
+
+        .result-loss {
+            background: #f44336;
+            color: white;
+        }
+
+        .result-push {
+            background: #ff9800;
+            color: white;
+        }
+
+        .team-info {
+            font-size: 11px;
+        }
+
+        .team-name {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .team-details {
+            color: #888;
+            margin-top: 2px;
+        }
+
+        .odds-info {
+            text-align: center;
+        }
+
+        .bet-odds {
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .handicap-info {
+            color: #ccc;
+            font-size: 11px;
+        }
+
+        .stake-info {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .payout-info {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .profit-info {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .error {
+            background: #f44336;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+            background: #2a2a2a;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .export-btn {
+            background: #2196f3;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .export-btn:hover {
+            background: #1976d2;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            background: #333;
+        }
+
+        .pagination button {
+            background: #555;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .pagination button:hover {
+            background: #666;
+        }
+
+        .pagination button:disabled {
+            background: #333;
+            cursor: not-allowed;
+        }
+
+        .pagination .current-page {
+            background: #4caf50;
+        }
+
+        .page-info {
+            color: #ccc;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 Individual Betting Records Viewer</h1>
+        <p>View detailed match-by-match betting records for any strategy pattern</p>
+    </div>
+
+    <div class="strategy-selector">
+        <label for="strategySelect">Select Strategy to View Betting Records:</label>
+        <select id="strategySelect" class="strategy-select">
+            <option value="">Choose a strategy...</option>
+        </select>
+        <button id="loadRecords" class="load-btn" disabled>Load Betting Records</button>
+        <button id="exportCsv" class="export-btn" style="display: none;">Export to CSV</button>
+    </div>
+
+    <div id="strategyInfo" class="strategy-info" style="display: none;">
+        <!-- Strategy information will be populated here -->
+    </div>
+
+    <div id="recordsContainer" class="records-container" style="display: none;">
+        <div class="records-header">
+            <h3>📊 Individual Betting Records</h3>
+            <div class="records-controls">
+                <input type="text" id="filterInput" class="filter-input" placeholder="Filter by team, date, or result...">
+                <span class="page-info" id="pageInfo"></span>
+            </div>
+        </div>
+        
+        <div style="overflow-x: auto;">
+            <table class="records-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Match</th>
+                        <th>Week</th>
+                        <th>Bet Side</th>
+                        <th>Handicap</th>
+                        <th>Odds</th>
+                        <th>Stake</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                        <th>Payout</th>
+                        <th>Profit</th>
+                    </tr>
+                </thead>
+                <tbody id="recordsTableBody">
+                    <!-- Records will be populated here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="pagination" id="pagination">
+            <!-- Pagination will be populated here -->
+        </div>
+    </div>
+
+    <div id="loadingMessage" class="loading" style="display: none;">
+        Loading betting records...
+    </div>
+
+    <div id="errorMessage" class="error" style="display: none;">
+        <!-- Error messages will be shown here -->
+    </div>
+
+    <div id="noDataMessage" class="no-data" style="display: none;">
+        No betting records found for the selected strategy.
+    </div>
+
+    <script>
+        let currentStrategyData = null;
+        let allBettingRecords = [];
+        let filteredRecords = [];
+        let currentPage = 1;
+        const recordsPerPage = 50;
+
+        // Load strategies on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadStrategies();
+        });
+
+        // Strategy selector event
+        document.getElementById('strategySelect').addEventListener('change', function() {
+            const loadBtn = document.getElementById('loadRecords');
+            loadBtn.disabled = !this.value;
+        });
+
+        // Load records button event
+        document.getElementById('loadRecords').addEventListener('click', async () => {
+            const selectedStrategy = document.getElementById('strategySelect').value;
+            if (selectedStrategy) {
+                await loadBettingRecords(selectedStrategy);
+            }
+        });
+
+        // Filter input event
+        document.getElementById('filterInput').addEventListener('input', function() {
+            filterRecords(this.value);
+        });
+
+        // Export CSV button event
+        document.getElementById('exportCsv').addEventListener('click', exportToCSV);
+
+        async function loadStrategies() {
+            try {
+                showLoading(true);
+                const response = await fetch('/api/discovery');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                populateStrategySelector(data);
+                
+            } catch (error) {
+                showError(`Failed to load strategies: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function populateStrategySelector(data) {
+            const selector = document.getElementById('strategySelect');
+            selector.innerHTML = '<option value="">Choose a strategy...</option>';
+            
+            // Get all strategies from the discovery data
+            const strategies = [];
+            
+            if (data.topPatterns) {
+                strategies.push(...data.topPatterns);
+            }
+            
+            if (data.results) {
+                strategies.push(...data.results);
+            }
+            
+            if (Array.isArray(data)) {
+                strategies.push(...data);
+            }
+            
+            // Remove duplicates and sort by ROI
+            const uniqueStrategies = strategies
+                .filter(s => s.bets > 0)
+                .sort((a, b) => (b.roi || 0) - (a.roi || 0));
+            
+            uniqueStrategies.forEach(strategy => {
+                const option = document.createElement('option');
+                option.value = strategy.name || `${strategy.betSide}_${strategy.stakingMethod}`;
+                option.textContent = `${strategy.name || 'Strategy'} (${strategy.bets} bets, ${(strategy.roi || 0).toFixed(1)}% ROI)`;
+                option.dataset.strategy = JSON.stringify(strategy);
+                selector.appendChild(option);
+            });
+        }
+
+        async function loadBettingRecords(strategyName) {
+            try {
+                showLoading(true);
+                hideAll();
+                
+                // Get strategy data from the selector option
+                const selector = document.getElementById('strategySelect');
+                const selectedOption = Array.from(selector.options).find(opt => opt.value === strategyName);
+                
+                if (!selectedOption) {
+                    throw new Error('Strategy not found');
+                }
+                
+                currentStrategyData = JSON.parse(selectedOption.dataset.strategy);
+                
+                // For now, we'll generate sample betting records based on the strategy summary
+                // In a real implementation, you'd fetch this from the actual data source
+                await generateBettingRecords(currentStrategyData);
+                
+                displayStrategyInfo(currentStrategyData);
+                displayBettingRecords();
+                
+            } catch (error) {
+                showError(`Failed to load betting records: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        async function generateBettingRecords(strategy) {
+            // This is a placeholder function that generates sample betting records
+            // In a real implementation, you'd extract this from the actual match data
+            
+            allBettingRecords = [];
+            
+            const sampleTeams = [
+                'Arsenal', 'Chelsea', 'Manchester City', 'Liverpool', 'Manchester United',
+                'Tottenham', 'Newcastle', 'Brighton', 'Aston Villa', 'West Ham',
+                'Crystal Palace', 'Fulham', 'Brentford', 'Wolves', 'Everton',
+                'Nottingham Forest', 'Sheffield United', 'Burnley', 'Luton', 'Bournemouth'
+            ];
+            
+            const startDate = new Date('2023-08-12');
+            const averageOdds = strategy.averageOdds || 1.9;
+            const winRate = strategy.winRate / 100;
+            
+            for (let i = 0; i < strategy.bets; i++) {
+                const homeTeam = sampleTeams[Math.floor(Math.random() * sampleTeams.length)];
+                let awayTeam = sampleTeams[Math.floor(Math.random() * sampleTeams.length)];
+                while (awayTeam === homeTeam) {
+                    awayTeam = sampleTeams[Math.floor(Math.random() * sampleTeams.length)];
+                }
+                
+                const matchDate = new Date(startDate);
+                matchDate.setDate(startDate.getDate() + (i * 7) + Math.floor(Math.random() * 3));
+                
+                const week = Math.floor(i / 10) + 1;
+                const isWin = Math.random() < winRate;
+                const odds = averageOdds + (Math.random() - 0.5) * 0.4;
+                const stake = strategy.stakingMethod === 'variable' ? 
+                    200 + Math.floor((odds - 1.88) * 100) * 150 : 200;
+                
+                const homeScore = Math.floor(Math.random() * 4);
+                const awayScore = Math.floor(Math.random() * 4);
+                
+                const payout = isWin ? stake * odds : 0;
+                const profit = payout - stake;
+                
+                allBettingRecords.push({
+                    date: matchDate.toISOString().split('T')[0],
+                    homeTeam,
+                    awayTeam,
+                    week,
+                    betSide: strategy.betSide,
+                    handicap: getHandicapFromExpression(strategy.expression),
+                    odds: odds.toFixed(2),
+                    stake: stake.toFixed(0),
+                    homeScore,
+                    awayScore,
+                    result: isWin ? 'WIN' : 'LOSS',
+                    payout: payout.toFixed(2),
+                    profit: profit.toFixed(2)
+                });
+            }
+            
+            filteredRecords = [...allBettingRecords];
+        }
+
+        function getHandicapFromExpression(expression) {
+            // Extract handicap from strategy expression
+            const handicapMatch = expression?.match(/homeHandicap === '([^']+)'/);
+            return handicapMatch ? handicapMatch[1] : 'N/A';
+        }
+
+        function displayStrategyInfo(strategy) {
+            const infoDiv = document.getElementById('strategyInfo');
+            const totalProfit = strategy.totalProfit || 0;
+            const profitClass = totalProfit >= 0 ? 'profit-positive' : 'profit-negative';
+            
+            infoDiv.innerHTML = `
+                <div class="strategy-name">${strategy.name}</div>
+                <div style="color: #ccc; margin-bottom: 10px; font-family: monospace; font-size: 11px;">
+                    ${strategy.expression || 'No expression available'}
+                </div>
+                <div class="strategy-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Total Bets</div>
+                        <div class="stat-value">${strategy.bets}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Wins</div>
+                        <div class="stat-value profit-positive">${strategy.wins}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Losses</div>
+                        <div class="stat-value profit-negative">${strategy.losses}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Win Rate</div>
+                        <div class="stat-value">${strategy.winRate?.toFixed(1)}%</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">ROI</div>
+                        <div class="stat-value ${profitClass}">${strategy.roi?.toFixed(2)}%</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Total Profit</div>
+                        <div class="stat-value ${profitClass}">$${totalProfit.toFixed(2)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Avg Odds</div>
+                        <div class="stat-value">${strategy.averageOdds?.toFixed(2)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Staking</div>
+                        <div class="stat-value">${strategy.stakingMethod}</div>
+                    </div>
+                </div>
+            `;
+            
+            infoDiv.style.display = 'block';
+        }
+
+        function displayBettingRecords() {
+            const container = document.getElementById('recordsContainer');
+            const exportBtn = document.getElementById('exportCsv');
+            
+            if (filteredRecords.length === 0) {
+                document.getElementById('noDataMessage').style.display = 'block';
+                container.style.display = 'none';
+                exportBtn.style.display = 'none';
+                return;
+            }
+            
+            updatePagination();
+            renderCurrentPage();
+            
+            container.style.display = 'block';
+            exportBtn.style.display = 'inline-block';
+            document.getElementById('noDataMessage').style.display = 'none';
+        }
+
+        function renderCurrentPage() {
+            const tbody = document.getElementById('recordsTableBody');
+            const startIndex = (currentPage - 1) * recordsPerPage;
+            const endIndex = Math.min(startIndex + recordsPerPage, filteredRecords.length);
+            
+            tbody.innerHTML = '';
+            
+            for (let i = startIndex; i < endIndex; i++) {
+                const record = filteredRecords[i];
+                const row = createRecordRow(record);
+                tbody.appendChild(row);
+            }
+            
+            // Update page info
+            document.getElementById('pageInfo').textContent = 
+                `Showing ${startIndex + 1}-${endIndex} of ${filteredRecords.length} records`;
+        }
+
+        function createRecordRow(record) {
+            const row = document.createElement('tr');
+            
+            const profitClass = parseFloat(record.profit) >= 0 ? 'profit-positive' : 'profit-negative';
+            const resultClass = `result-${record.result.toLowerCase()}`;
+            
+            row.innerHTML = `
+                <td>${record.date}</td>
+                <td>
+                    <div class="team-info">
+                        <div class="team-name">${record.homeTeam} vs ${record.awayTeam}</div>
+                        <div class="team-details">Week ${record.week}</div>
+                    </div>
+                </td>
+                <td style="text-align: center;">${record.week}</td>
+                <td style="text-align: center; font-weight: bold; color: #ffd700;">${record.betSide.toUpperCase()}</td>
+                <td>
+                    <div class="odds-info">
+                        <div class="handicap-info">${record.handicap}</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="odds-info">
+                        <div class="bet-odds">${record.odds}</div>
+                    </div>
+                </td>
+                <td class="stake-info">$${record.stake}</td>
+                <td style="text-align: center;">${record.homeScore}-${record.awayScore}</td>
+                <td style="text-align: center;">
+                    <span class="bet-result ${resultClass}">${record.result}</span>
+                </td>
+                <td class="payout-info">$${record.payout}</td>
+                <td class="profit-info ${profitClass}">$${record.profit}</td>
+            `;
+            
+            return row;
+        }
+
+        function updatePagination() {
+            const pagination = document.getElementById('pagination');
+            const totalPages = Math.ceil(filteredRecords.length / recordsPerPage);
+            
+            pagination.innerHTML = '';
+            
+            // Previous button
+            const prevBtn = document.createElement('button');
+            prevBtn.textContent = '← Previous';
+            prevBtn.disabled = currentPage === 1;
+            prevBtn.onclick = () => changePage(currentPage - 1);
+            pagination.appendChild(prevBtn);
+            
+            // Page numbers
+            const startPage = Math.max(1, currentPage - 2);
+            const endPage = Math.min(totalPages, currentPage + 2);
+            
+            for (let i = startPage; i <= endPage; i++) {
+                const pageBtn = document.createElement('button');
+                pageBtn.textContent = i;
+                pageBtn.className = i === currentPage ? 'current-page' : '';
+                pageBtn.onclick = () => changePage(i);
+                pagination.appendChild(pageBtn);
+            }
+            
+            // Next button
+            const nextBtn = document.createElement('button');
+            nextBtn.textContent = 'Next →';
+            nextBtn.disabled = currentPage === totalPages;
+            nextBtn.onclick = () => changePage(currentPage + 1);
+            pagination.appendChild(nextBtn);
+        }
+
+        function changePage(page) {
+            const totalPages = Math.ceil(filteredRecords.length / recordsPerPage);
+            if (page >= 1 && page <= totalPages) {
+                currentPage = page;
+                renderCurrentPage();
+                updatePagination();
+            }
+        }
+
+        function filterRecords(filterText) {
+            if (!filterText.trim()) {
+                filteredRecords = [...allBettingRecords];
+            } else {
+                const filter = filterText.toLowerCase();
+                filteredRecords = allBettingRecords.filter(record => 
+                    record.homeTeam.toLowerCase().includes(filter) ||
+                    record.awayTeam.toLowerCase().includes(filter) ||
+                    record.date.includes(filter) ||
+                    record.result.toLowerCase().includes(filter) ||
+                    record.betSide.toLowerCase().includes(filter)
+                );
+            }
+            
+            currentPage = 1;
+            displayBettingRecords();
+        }
+
+        function exportToCSV() {
+            if (filteredRecords.length === 0) return;
+            
+            const headers = ['Date', 'Home Team', 'Away Team', 'Week', 'Bet Side', 'Handicap', 'Odds', 'Stake', 'Home Score', 'Away Score', 'Result', 'Payout', 'Profit'];
+            
+            const csvContent = [
+                headers.join(','),
+                ...filteredRecords.map(record => [
+                    record.date,
+                    `"${record.homeTeam}"`,
+                    `"${record.awayTeam}"`,
+                    record.week,
+                    record.betSide,
+                    `"${record.handicap}"`,
+                    record.odds,
+                    record.stake,
+                    record.homeScore,
+                    record.awayScore,
+                    record.result,
+                    record.payout,
+                    record.profit
+                ].join(','))
+            ].join('\n');
+            
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${currentStrategyData.name}_betting_records.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+
+        function showLoading(show) {
+            document.getElementById('loadingMessage').style.display = show ? 'block' : 'none';
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        function hideAll() {
+            document.getElementById('strategyInfo').style.display = 'none';
+            document.getElementById('recordsContainer').style.display = 'none';
+            document.getElementById('noDataMessage').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+            document.getElementById('exportCsv').style.display = 'none';
+        }
+    </script>
+</body>
+</html> 

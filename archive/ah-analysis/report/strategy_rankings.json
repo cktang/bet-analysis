@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2025-01-28T00:00:00Z",
+  "totalStrategies": 92,
+  "scoringCriteria": {
+    "statistical": "Statistical significance (t-test) - 0-25 pts",
+    "sampleSize": "Number of betting opportunities - 0-20 pts", 
+    "roi": "Return on investment sustainability - 0-20 pts",
+    "complexity": "Rule simplicity and interpretability - 0-15 pts",
+    "sharpe": "Risk-adjusted performance - 0-10 pts",
+    "feasibility": "Implementation practicality - 0-10 pts"
+  },
+  "gradeScale": {
+    "A+": "85-100 points (Exceptional)",
+    "A": "75-84 points (Excellent)", 
+    "B+": "65-74 points (Very Good)",
+    "B": "55-64 points (Good)",
+    "C+": "45-54 points (Fair)",
+    "C": "35-44 points (Poor)",
+    "D": "<35 points (Avoid)"
+  },
+  "topStrategies": [
+    {
+      "rank": 1,
+      "name": "Single_topSixBattle",
+      "totalScore": 67,
+      "grade": "B+",
+      "roi": 12.35,
+      "totalBets": 149,
+      "winRate": 57.0,
+      "sharpeRatio": 0.126,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Single_ahSlightFavorite", 
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 13.03,
+      "totalBets": 183,
+      "winRate": 62.8,
+      "sharpeRatio": 0.084,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Single_fadeAllSeasonQuarterFavorites",
+      "totalScore": 65,
+      "grade": "B+", 
+      "roi": 12.35,
+      "totalBets": 175,
+      "winRate": 62.9,
+      "sharpeRatio": 0.088,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Single_alwaysBetAwayTopSix",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 12.19,
+      "totalBets": 278,
+      "winRate": 55.0,
+      "sharpeRatio": 0.107,
+      "recommended": true,
+      "tier": "1",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 8
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Single_awayTopSix",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 10.66,
+      "totalBets": 299,
+      "winRate": 54.8,
+      "sharpeRatio": 0.103,
+      "recommended": true,
+      "tier": "1", 
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 8
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Single_hkjcSplitHandicapEdge",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 7.16,
+      "totalBets": 871,
+      "winRate": 51.7,
+      "sharpeRatio": -0.001,
+      "recommended": true,
+      "tier": "1",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 20,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 0,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Single_atmosphereAdvantage",
+      "totalScore": 62,
+      "grade": "B",
+      "roi": 13.04,
+      "totalBets": 58,
+      "winRate": 58.6,
+      "sharpeRatio": 0.245,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Single_giantKilling",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 13.88,
+      "totalBets": 96,
+      "winRate": 51.0,
+      "sharpeRatio": 0.037,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Single_backEarlyAllStrongerFavorites",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 12.00,
+      "totalBets": 66,
+      "winRate": 54.5,
+      "sharpeRatio": 0.071,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Single_underperformingTeam",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 6.73,
+      "totalBets": 169,
+      "winRate": 49.7,
+      "sharpeRatio": -0.024,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 0,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Single_sweetSpotUnderdog",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 6.53,
+      "totalBets": 58,
+      "winRate": 53.4,
+      "sharpeRatio": 0.100,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Single_earlySeasonConfusion",
+      "totalScore": 57,
+      "grade": "B",
+      "roi": 26.82,
+      "totalBets": 143,
+      "winRate": 59.4,
+      "sharpeRatio": 0.135,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 10,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    }
+  ],
+  "implementationRecommendations": {
+    "tier1": {
+      "title": "Immediate Implementation",
+      "strategies": ["Single_hkjcSplitHandicapEdge", "Single_alwaysBetAwayTopSix", "Single_awayTopSix"],
+      "allocation": "Conservative: 50%/25%/25%, Aggressive: 30%/25%/20%"
+    },
+    "tier2": {
+      "title": "Strong Consideration", 
+      "strategies": ["Single_topSixBattle", "Single_ahSlightFavorite", "Single_fadeAllSeasonQuarterFavorites", "Single_earlySeasonConfusion"],
+      "allocation": "Aggressive portfolio: 20%/15%/15%/10%"
+    },
+    "expectedROI": {
+      "conservative": "8-10%",
+      "aggressive": "10-13%"
+    }
+  }
+} 

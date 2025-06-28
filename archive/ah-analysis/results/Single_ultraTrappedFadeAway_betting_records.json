@@ -1,0 +1,61 @@
+{
+  "strategy": {
+    "name": "Single_ultraTrappedFadeAway",
+    "roi": "66.00%",
+    "correlation": "0.0251",
+    "factors": [
+      "(match.asianHandicapOdds.homeHandicap.includes('/') && match.asianHandicapOdds.awayOdds <= 1.65) ? 1 : 0"
+    ],
+    "hypothesis": "Ultra trapped away favorites (<=1.65 odds) - HKJC very confident but wrong predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 1,
+    "totalStaked": 6350,
+    "totalProfit": 4191,
+    "winRate": "100.0%",
+    "roi": "66.00%",
+    "generatedAt": "2025-06-27T17:41:52.203Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2022-10-28T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Southampton",
+      "score": "1-0",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Home",
+      "betOdds": "2.32",
+      "betSize": "6350",
+      "profit": "4191",
+      "outcome": "Half Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap.includes('/') && match.asianHandicapOdds.awayOdds <= 1.65) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap.includes('/') && match.asianHandicapOdds.awayOdds <= 1.65) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0251",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Push"
+        ],
+        "betPerLine": 3175
+      }
+    }
+  ]
+}

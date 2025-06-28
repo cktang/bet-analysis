@@ -1,0 +1,109 @@
+{
+  "strategy": {
+    "name": "Single_simpleHandicapExtremeControl",
+    "roi": "-44.53%",
+    "correlation": "0.0048",
+    "factors": [
+      "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0"
+    ],
+    "hypothesis": "CONTROL: Simple handicaps with extreme odds - should perform worse than trapped quarters predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 3,
+    "totalStaked": 7200,
+    "totalProfit": -3206,
+    "winRate": "33.3%",
+    "roi": "-44.53%",
+    "generatedAt": "2025-06-27T17:41:53.586Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2024-08-30T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Bournemouth",
+      "score": "2-3",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.12",
+      "betSize": "3350",
+      "profit": "-3350",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0048",
+      "handicapDetails": null
+    },
+    {
+      "date": "2024-01-02T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Brighton",
+      "score": "0-0",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "2.14",
+      "betSize": "3650",
+      "profit": "0",
+      "outcome": "Push",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0048",
+      "handicapDetails": null
+    },
+    {
+      "date": "2022-08-19T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Aston Villa",
+      "score": "3-1",
+      "handicapLine": "0",
+      "betSide": "Home",
+      "betOdds": "1.72",
+      "betSize": "200",
+      "profit": "144",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(!match.asianHandicapOdds.homeHandicap.includes('/') && (match.asianHandicapOdds.homeOdds <= 1.72 || match.asianHandicapOdds.awayOdds <= 1.72)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0048",
+      "handicapDetails": null
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "strategy": {
+    "name": "Single_trappedPlusHalfOne",
+    "roi": "-19.60%",
+    "correlation": "0.0236",
+    "factors": [
+      "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+    ],
+    "hypothesis": "Trapped +0.5/+1 handicap with extreme odds - underdog overvalued predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 15,
+    "totalStaked": 3000,
+    "totalProfit": -588,
+    "winRate": "40.0%",
+    "roi": "-19.60%",
+    "generatedAt": "2025-06-27T17:41:52.256Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-04-04T16:00:00.000Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Arsenal",
+      "score": "1-1",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.64",
+      "betSize": "200",
+      "profit": "128",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-02-21T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Tottenham",
+      "score": "1-4",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.67",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2025-01-15T16:00:00.000Z",
+      "homeTeam": "Leicester",
+      "awayTeam": "Crystal Palace",
+      "score": "0-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-12-04T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Liverpool",
+      "score": "3-3",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "138",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-09-28T16:00:00.000Z",
+      "homeTeam": "Ipswich",
+      "awayTeam": "Aston Villa",
+      "score": "2-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.68",
+      "betSize": "200",
+      "profit": "136",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-08-17T16:00:00.000Z",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester City",
+      "score": "0-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-05-15T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Chelsea",
+      "score": "1-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2024-04-05T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Bournemouth",
+      "score": "2-1",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "140",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-11-24T16:00:00.000Z",
+      "homeTeam": "Luton",
+      "awayTeam": "Crystal Palace",
+      "score": "2-1",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.66",
+      "betSize": "200",
+      "profit": "132",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-10-07T16:00:00.000Z",
+      "homeTeam": "Brighton",
+      "awayTeam": "Liverpool",
+      "score": "2-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "138",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-08-25T16:00:00.000Z",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Tottenham",
+      "score": "0-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-04-26T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Liverpool",
+      "score": "1-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2023-04-07T16:00:00.000Z",
+      "homeTeam": "Brentford",
+      "awayTeam": "Newcastle",
+      "score": "1-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-10-15T16:00:00.000Z",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Chelsea",
+      "score": "0-2",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.69",
+      "betSize": "200",
+      "profit": "-200",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 100
+      }
+    },
+    {
+      "date": "2022-08-26T16:00:00.000Z",
+      "homeTeam": "Southampton",
+      "awayTeam": "Manchester Utd",
+      "score": "0-1",
+      "handicapLine": "+0.5/+1",
+      "betSide": "Home",
+      "betOdds": "1.70",
+      "betSize": "200",
+      "profit": "-100",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.1,
+      "thresholdType": "Dynamic (Positive Correlation)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '+0.5/+1' && (match.asianHandicapOdds.homeOdds <= 1.7 || match.asianHandicapOdds.awayOdds <= 1.7)) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0236",
+      "handicapDetails": {
+        "splitLines": [
+          0.5,
+          1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 100
+      }
+    }
+  ]
+}

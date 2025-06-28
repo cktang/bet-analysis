@@ -1,0 +1,217 @@
+{
+  "strategy": {
+    "name": "Single_trappedHalfOneOptimal",
+    "roi": "-30.74%",
+    "correlation": "0.0199",
+    "factors": [
+      "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+    ],
+    "hypothesis": "Trapped -0.5/-1 home favorites - moderate favorites overvalued predicts AH outcomes",
+    "error": null
+  },
+  "summary": {
+    "totalBets": 5,
+    "totalStaked": 20050,
+    "totalProfit": -6164,
+    "winRate": "20.0%",
+    "roi": "-30.74%",
+    "generatedAt": "2025-06-27T17:41:52.440Z"
+  },
+  "bettingRecords": [
+    {
+      "date": "2025-01-17T16:00:00.000Z",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Bournemouth",
+      "score": "1-4",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.14",
+      "betSize": "3650",
+      "profit": "4161",
+      "outcome": "Win",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0199",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Win",
+          "Win"
+        ],
+        "betPerLine": 1825
+      }
+    },
+    {
+      "date": "2024-01-30T16:00:00.000Z",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Sheff Utd",
+      "score": "3-2",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.17",
+      "betSize": "4100",
+      "profit": "-2050",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0199",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 2050
+      }
+    },
+    {
+      "date": "2022-11-11T16:00:00.000Z",
+      "homeTeam": "Tottenham",
+      "awayTeam": "Leeds",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.17",
+      "betSize": "4100",
+      "profit": "-2050",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0199",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 2050
+      }
+    },
+    {
+      "date": "2022-11-04T16:00:00.000Z",
+      "homeTeam": "Leeds",
+      "awayTeam": "Bournemouth",
+      "score": "4-3",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.16",
+      "betSize": "3950",
+      "profit": "-1975",
+      "outcome": "Half Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0199",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Push"
+        ],
+        "betPerLine": 1975
+      }
+    },
+    {
+      "date": "2022-10-08T16:00:00.000Z",
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "score": "3-1",
+      "handicapLine": "-0.5/-1",
+      "betSide": "Away",
+      "betOdds": "2.18",
+      "betSize": "4250",
+      "profit": "-4250",
+      "outcome": "Loss",
+      "factorValue": "1.0000",
+      "factorCalculation": [
+        {
+          "factorIndex": 1,
+          "expression": "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0",
+          "calculatedValue": "1.0000",
+          "explanation": "Calculated value: 1"
+        }
+      ],
+      "threshold": 0.2,
+      "thresholdType": "Dynamic (Absolute Value)",
+      "thresholdMet": true,
+      "factors": [
+        "(match.asianHandicapOdds.homeHandicap === '-0.5/-1' && match.asianHandicapOdds.homeOdds <= 1.72) ? 1 : 0"
+      ],
+      "strategyCorrelation": "0.0199",
+      "handicapDetails": {
+        "splitLines": [
+          -0.5,
+          -1
+        ],
+        "individualOutcomes": [
+          "Loss",
+          "Loss"
+        ],
+        "betPerLine": 2125
+      }
+    }
+  ]
+}

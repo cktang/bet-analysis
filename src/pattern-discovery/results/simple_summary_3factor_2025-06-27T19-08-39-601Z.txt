@@ -1,0 +1,27 @@
+SIMPLE 3-FACTOR DISCOVERY RESULTS
+=========================================
+Total combinations tested: 30
+Profitable patterns (ROI > 0%, bets >= 10): 5
+
+TOP 10 PROFITABLE PATTERNS:
+
+1. time-earlySeason_homeAway-home_ahLevel-0
+   ROI: 14.48% | Bets: 21 | Win Rate: 47.62%
+   Expression: fbref.week >= 1 && fbref.week <= 8 && true && match.asianHandicapOdds.homeHandicap === '0'
+
+2. time-earlySeason_homeAway-home_handicapType-eqaul
+   ROI: 7.6% | Bets: 50 | Win Rate: 40%
+   Expression: fbref.week >= 1 && fbref.week <= 8 && true && !match.asianHandicapOdds.homeHandicap.includes('/')
+
+3. time-earlySeason_homeAway-home_context-bottomSixHome
+   ROI: 7.48% | Bets: 90 | Win Rate: 52.22%
+   Expression: fbref.week >= 1 && fbref.week <= 8 && true && fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) >= 15
+
+4. time-earlySeason_homeAway-home_context-bottomSixAway
+   ROI: 7.48% | Bets: 90 | Win Rate: 52.22%
+   Expression: fbref.week >= 1 && fbref.week <= 8 && true && fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15
+
+5. time-earlySeason_homeAway-home_ahLevel--0.75
+   ROI: 7.35% | Bets: 33 | Win Rate: 63.64%
+   Expression: fbref.week >= 1 && fbref.week <= 8 && true && match.asianHandicapOdds.homeHandicap === '-0.5/-1'
+

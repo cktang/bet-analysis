@@ -1,0 +1,19 @@
+SIMPLE 1-FACTOR DISCOVERY RESULTS
+=========================================
+Total combinations tested: 65
+Profitable patterns (ROI > 0%, bets >= 10): 3
+
+TOP 10 PROFITABLE PATTERNS:
+
+1. ahLevel--0.75
+   ROI: 7.14% | Bets: 183 | Win Rate: 62.84%
+   Expression: match.asianHandicapOdds.homeHandicap === '-0.5/-1'
+
+2. ahLevel-0
+   ROI: 2.29% | Bets: 119 | Win Rate: 41.18%
+   Expression: match.asianHandicapOdds.homeHandicap === '0'
+
+3. handicapType-eqaul
+   ROI: 0.17% | Bets: 254 | Win Rate: 39.76%
+   Expression: !match.asianHandicapOdds.homeHandicap.includes('/')
+

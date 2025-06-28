@@ -1,0 +1,25 @@
+SYSTEMATIC PATTERN DISCOVERY SUMMARY
+==================================================
+Timestamp: 2025-06-27T18:58:59.504Z
+Total Combinations Tested: 25
+
+KEY FINDINGS:
+✅ Profitable Patterns: 2 (8.00%)
+🚀 Exceptional Patterns: 0 (0.00%)
+⚠️  Suspicious Results: 0
+📈 Best ROI: 9.29%
+
+TOP 5 PROFITABLE PATTERNS:
+1. ahLevel--0.75
+   ROI: 9.29% | Bets: 183 | Win Rate: 62.84%
+   Expression: match.asianHandicapOdds.homeHandicap === '-0.5/-1'
+   Factors:
+     ahLevel: -0.75 (Quarter handicap -0.5/-1)
+
+2. ahLevel-0
+   ROI: 6.72% | Bets: 119 | Win Rate: 41.18%
+   Expression: match.asianHandicapOdds.homeHandicap === '0'
+   Factors:
+     ahLevel: 0 (Level handicap 0)
+
+RECOMMENDATIONS:

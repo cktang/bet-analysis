@@ -116,6 +116,21 @@
             text-align: center;
             border-radius: 3px;
             font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid #4caf50;
+        }
+
+        .factor-selected:hover {
+            background: #4a7c4a !important;
+            border-color: #66bb6a;
+            transform: scale(1.02);
+        }
+
+        .factor-selected:hover .factor-desc::after {
+            content: " ✖ Click to remove";
+            color: #ffeb3b;
+            font-weight: bold;
         }
 
         .factor-empty {
@@ -353,8 +368,6 @@
             min-height: 45px;
             height: auto;
         }
-
-
 
         .factor-category {
             font-size: 9px;
@@ -638,24 +651,6 @@
             color: #888;
             margin: 0 4px;
         }
-
-        .factor-selected {
-            cursor: pointer;
-            transition: all 0.2s;
-            border: 1px solid #4caf50;
-        }
-
-        .factor-selected:hover {
-            background: #f44336 !important;
-            border-color: #f44336;
-            transform: scale(0.98);
-        }
-
-        .factor-selected:hover .factor-name::after {
-            content: " ✖";
-            color: white;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -753,9 +748,22 @@
         async function init() {
             try {
                 const response = await fetch('../results/optimized_discovery.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
                 discoveryData = await response.json();
                 
+                if (!discoveryData || discoveryData.length === 0) {
+                    throw new Error('No discovery data found');
+                }
+                
                 extractAvailableFactors();
+                
+                if (availableFactors.length === 0) {
+                    throw new Error('No factors extracted from data');
+                }
                 
                 resetTable();
                 
@@ -764,9 +772,13 @@
                 updateBreadcrumb();
                 updateBackButton();
                 
+                console.log(`Loaded ${discoveryData.length} strategies with ${availableFactors.length} factors`);
+                
             } catch (error) {
+                console.error('Initialization error:', error);
                 document.getElementById('loading').innerHTML = 
-                    '<div style="color: #f44336;">Error loading data.</div>';
+                    `<div style="color: #f44336;">Error loading data: ${error.message}</div>
+                     <div style="color: #888; margin-top: 10px;">Make sure discovery data exists at ../results/optimized_discovery.json</div>`;
             }
         }
 
@@ -796,14 +808,16 @@
                 }
             });
             
-            availableFactors = Array.from(factorSet).sort((a, b) => {
-                const aCat = factorDefinitions[a].category;
-                const bCat = factorDefinitions[b].category;
-                if (aCat === bCat) {
-                    return factorDefinitions[a].name.localeCompare(factorDefinitions[b].name);
-                }
-                return aCat.localeCompare(bCat);
-            });
+            availableFactors = Array.from(factorSet)
+                .filter(factor => factorDefinitions[factor]) // Only include factors we have definitions for
+                .sort((a, b) => {
+                    const aCat = factorDefinitions[a].category;
+                    const bCat = factorDefinitions[b].category;
+                    if (aCat === bCat) {
+                        return factorDefinitions[a].name.localeCompare(factorDefinitions[b].name);
+                    }
+                    return aCat.localeCompare(bCat);
+                });
         }
 
         function getPerformance(selectedFactors = []) {
@@ -979,8 +993,6 @@
             breadcrumbDiv.innerHTML = breadcrumbHTML;
         }
 
-
-
         function addFactorAtPosition(position, factorKey) {
             if (!factorKey || factorKey === '') return;
             
@@ -1023,6 +1035,10 @@
             addFactorAtPosition(currentFactors.length, factorKey);
         }
 
+        function getCurrentPerformance() {
+            return factorCombinations[currentStep].performance;
+        }
+
         function removeFactorByKey(factorKey) {
             const currentFactors = factorCombinations[currentStep].factors;
             const factorIndex = currentFactors.indexOf(factorKey);
@@ -1032,7 +1048,6 @@
             // Create new combination without this factor
             const newFactors = currentFactors.filter(f => f !== factorKey);
             
-            const previousPerformance = getCurrentPerformance();
             const performance = getPerformance(newFactors);
             
             factorCombinations.push({
@@ -1169,8 +1184,6 @@
             renderCurrentRow(currentCombo);
         }
 
-
-
         function renderCurrentRow(combo) {
             const tbody = document.getElementById('tableBody');
             const row = tbody.insertRow();
@@ -1186,13 +1199,21 @@
                     // Show existing selected factor (clickable for removal)
                     const factor = currentFactors[i];
                     const def = factorDefinitions[factor];
+                    
+                    if (!def) {
+                        console.error('Factor definition not found:', factor);
+                        cell.className = 'factor-empty';
+                        cell.textContent = `Error: ${factor}`;
+                        continue;
+                    }
+                    
                     cell.className = 'factor-selected';
                     cell.onclick = () => removeFactorFromCombination(factor);
                     cell.title = `Click to remove ${def.name}`;
                     cell.innerHTML = `
                         <div class="factor-category">${def.category}</div>
                         <div class="factor-name">${def.name}</div>
-                        <div class="factor-desc">${def.desc} (click to remove)</div>
+                        <div class="factor-desc">${def.desc}</div>
                     `;
                 } else if (i === currentFactors.length && currentStep < 6) {
                     // Show factor list with ROI for next selection

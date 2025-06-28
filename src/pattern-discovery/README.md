@@ -9,9 +9,9 @@ Automated system for discovering profitable betting patterns with dynamic variab
 # Run optimized discovery (recommended)
 node run_discovery.js
 
-# Launch all dashboards ⭐ NEW UNIFIED ACCESS
+# Launch drill dashboard
 node launch_dashboards.js
-# Opens http://localhost:8888 - Choose from 3 dashboards
+# Opens http://localhost:8888 - Factor drilling interface
 
 # Analyze results 
 node run_analysis.js
@@ -107,42 +107,35 @@ This system is production-ready for:
 - **Risk management** (conservative scaling with proven edge amplification)
 - **Systematic deployment** (automated factor evaluation and stake calculation)
 
-## Unified Dashboard Hub
+## Factor Drilling Dashboard
 
-All reporting and analysis tools consolidated in one place:
+Interactive dashboard for building and analyzing factor combinations:
 
 ```bash
 node launch_dashboards.js
-# Opens http://localhost:8888 - Dashboard selection hub
+# Opens http://localhost:8888 - Factor drilling interface
 ```
 
-### 🔍 Factor Drilling (/drill)
-Interactive table for building factor combinations step-by-step. Add factors one by one and see performance impact. All 31 factors available.
+### 🔍 Factor Drilling Features
+- **Interactive table** for building factor combinations step-by-step
+- **31 betting factors** available across all categories
+- **Real-time performance updates** as factors are added
+- **Individual betting records** with match details for each strategy
+- **Navigation controls** with breadcrumb trails and step-back functionality
+- **Strategy aggregation** showing combined performance across patterns
 
-### 📊 Comprehensive Analysis (/analysis)  
-Full overview dashboard with charts, tables, and complete analysis. Best for exploring all discovery results at once.
-
-### 🎨 Visual Dashboard (/visual)
-Rich visual interface with interactive charts and graphs. Perfect for presentations and visual analysis.
-
-**Dashboard Features:**
+**Key Features:**
+- **Add factors one by one** and see immediate performance impact
+- **View individual betting records** for any strategy combination
+- **Navigate factor combinations** with flexible back/forward controls
+- **Aggregate strategy display** combining multiple profitable patterns
 - **Real-time data loading** from discovery results
-- **Interactive charts:** Stakes distribution, ROI scatter plots, odds performance
-- **Filterable pattern tables** with sorting and search
-- **Variable vs fixed staking comparison** 
-- **Responsive design** for desktop and mobile
-- **Auto-refresh** when new discovery data is available
-
-**Chart Types:**
-- 📊 **Stakes Distribution** (doughnut chart)
-- 📈 **ROI vs Sample Size** (scatter plot with fixed/variable distinction)
-- 🎯 **Performance by Odds Range** (bar chart showing 1.88 threshold impact)
-- ⚖️ **Fixed vs Variable Staking** (comparison chart)
+- **Responsive design** for desktop analysis
 
 ## Next Steps
 
-1. **Launch dashboard** to visualize current results
-2. **Select top patterns** from interactive tables
+1. **Launch drill dashboard** to explore factor combinations
+2. **Select top patterns** from interactive analysis
 3. **Implement in live betting system** with variable staking
 4. **Monitor performance** using analysis tools
 5. **Scale gradually** as confidence builds

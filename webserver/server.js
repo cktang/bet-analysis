@@ -14,7 +14,7 @@ const port = 3000;
 let records = [];
 
 // Directory to watch
-const watchDir = path.join(__dirname, './../../tracker/odds-movement/');
+const watchDir = path.join(__dirname, '../data/odds-movement/');
 
 // Function to read JSON files and update records
 const updateRecords = filePath => {

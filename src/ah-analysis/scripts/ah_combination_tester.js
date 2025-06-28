@@ -851,7 +851,7 @@ class AHCombinationTester {
             const thresholdInfo = this.getThresholdInfo(strategy, factorValue);
             
             // Determine betting side
-            const betSide = this.determineBettingSide(strategy);
+            const betSide = this.determineBettingSide(strategy, match);
             
             const selectedOdds = betSide === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds;
             
@@ -1068,11 +1068,38 @@ class AHCombinationTester {
     /**
      * Determines which side to bet based on strategy type
      * @param {Object} strategy - Strategy configuration
+     * @param {Object} match - Match data (needed for higherOdds logic)
      * @returns {string} 'Home' or 'Away'
      */
-    determineBettingSide(strategy) {
+    determineBettingSide(strategy, match = null) {
         // Strategies with explicit bet side preference
         if (strategy.betSide) {
+            // Handle higherOdds directive - bet the side with higher odds
+            if (strategy.betSide === 'higherOdds' && match) {
+                const ahOdds = match.preMatch?.match?.asianHandicapOdds;
+                if (ahOdds && ahOdds.homeOdds && ahOdds.awayOdds) {
+                    const side = ahOdds.homeOdds > ahOdds.awayOdds ? 'Home' : 'Away';
+                    // Debug: Log higher odds selection
+                    if (strategy.name && strategy.name.includes('quarter')) {
+                        console.log(`🎯 ${strategy.name}: Betting ${side} side (higher odds: ${side === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds} vs ${side === 'Home' ? ahOdds.awayOdds : ahOdds.homeOdds})`);
+                    }
+                    return side;
+                }
+            }
+            
+            // Handle lowerOdds directive - bet the side with lower odds (for hybrid exception strategy)
+            if (strategy.betSide === 'lowerOdds' && match) {
+                const ahOdds = match.preMatch?.match?.asianHandicapOdds;
+                if (ahOdds && ahOdds.homeOdds && ahOdds.awayOdds) {
+                    const side = ahOdds.homeOdds < ahOdds.awayOdds ? 'Home' : 'Away';
+                    // Debug: Log lower odds selection for hybrid exception
+                    if (strategy.name && strategy.name.includes('Exception')) {
+                        console.log(`🔄 ${strategy.name}: Betting ${side} side (lower odds: ${side === 'Home' ? ahOdds.homeOdds : ahOdds.awayOdds} vs ${side === 'Home' ? ahOdds.awayOdds : ahOdds.homeOdds}) - HYBRID EXCEPTION`);
+                    }
+                    return side;
+                }
+            }
+            
             const side = strategy.betSide === 'away' ? 'Away' : 'Home';
             // Debug: Log bet side determination for fade strategies
             if (strategy.name && strategy.name.includes('fade')) {

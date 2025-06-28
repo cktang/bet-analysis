@@ -34,6 +34,11 @@
                     </div>
                 </div>
             </div>
+            <!-- Rankings Info -->
+            <div class="mt-2 text-xs text-slate-300">
+                <span>📊 Multi-criteria scoring: Statistical + Sample Size + ROI + Complexity + Sharpe + Feasibility</span>
+                <span class="ml-4" id="rankingsInfo">Loading rankings...</span>
+            </div>
         </div>
 
         <!-- Main Content -->
@@ -42,9 +47,9 @@
             <div class="bg-slate-800 border-r border-slate-700 flex flex-col overflow-hidden">
                 <div class="px-3 py-2 bg-slate-700 border-b border-slate-600 flex-shrink-0">
                     <h2 class="text-lg font-semibold text-white">Strategies</h2>
-                    <p class="text-slate-300 text-xs">Sorted by ROI • Strategy type shown in blue • Click to view details</p>
+                    <p class="text-slate-300 text-xs">Sorted by multi-criteria score • Tier and rank shown • Click to view details</p>
                     <!-- Filter Controls -->
-                    <div class="mt-2 flex items-center space-x-2">
+                    <div class="mt-2 flex items-center space-x-2 flex-wrap">
                         <label for="minBetsFilter" class="text-slate-300 text-xs font-medium">Min Bets:</label>
                         <input 
                             type="number" 
@@ -55,6 +60,17 @@
                             value="0"
                             onchange="applyFilters()"
                         >
+                        <label for="tierFilter" class="text-slate-300 text-xs font-medium ml-2">Tier:</label>
+                        <select 
+                            id="tierFilter" 
+                            class="bg-slate-600 text-white text-xs px-2 py-1 rounded border border-slate-500 focus:border-blue-400 focus:outline-none"
+                            onchange="applyFilters()"
+                        >
+                            <option value="">All</option>
+                            <option value="1">Tier 1</option>
+                            <option value="2">Tier 2</option>
+                            <option value="3">Other</option>
+                        </select>
                         <span id="filteredCount" class="text-slate-400 text-xs"></span>
                     </div>
                 </div>
@@ -83,23 +99,38 @@
     <script>
         let strategiesData = null;
         let allStrategies = null;
+        let rankingsData = null;
 
         // Function to apply filters to strategies
         function applyFilters() {
             if (!allStrategies || !strategiesData) return;
             
             const minBets = parseInt(document.getElementById('minBetsFilter').value) || 0;
+            const tierFilter = document.getElementById('tierFilter')?.value || '';
             
-            // Filter strategies based on minimum bets
+            // Filter strategies based on minimum bets and tier
             const filteredStrategies = allStrategies.filter(strategy => {
                 const totalBets = parseInt(strategy.totalBets) || 0;
-                return totalBets >= minBets;
+                const ranking = rankingLookup[strategy.name];
+                const strategyTier = ranking?.tier || '3';
+                
+                // Apply minimum bets filter
+                if (totalBets < minBets) return false;
+                
+                // Apply tier filter if selected
+                if (tierFilter && strategyTier !== tierFilter) return false;
+                
+                return true;
             });
             
             // Update the filtered count display
             const totalCount = allStrategies.length;
             const filteredCount = filteredStrategies.length;
-            document.getElementById('filteredCount').textContent = `(${filteredCount}/${totalCount})`;
+            const profitableCount = filteredStrategies.filter(s => parseFloat(s.roi.replace('%', '')) > 0).length;
+            const recommendedCount = filteredStrategies.filter(s => rankingLookup[s.name]?.recommended).length;
+            
+            document.getElementById('filteredCount').textContent = 
+                `(${filteredCount}/${totalCount}, ${profitableCount} profitable, ${recommendedCount} ⭐)`;
             
             // Update metadata and display filtered strategies
             displayMetadata(strategiesData.metadata, filteredStrategies);
@@ -157,20 +188,45 @@
             }
         }
 
+        // Initialize rankings after data is available
+        function initializeRankings() {
+            rankingLookup = createRankingLookup();
+        }
+
+        // Display rankings information in header
+        function displayRankingsInfo() {
+            const recommendedCount = embeddedRankingsData.topStrategies.filter(s => s.recommended).length;
+            const tier1Count = embeddedRankingsData.topStrategies.filter(s => s.tier === '1').length;
+            const tier2Count = embeddedRankingsData.topStrategies.filter(s => s.tier === '2').length;
+            
+            document.getElementById('rankingsInfo').innerHTML = `
+                <span class="text-green-400">⭐ ${recommendedCount} recommended</span>
+                <span class="ml-2 text-green-400">Tier 1: ${tier1Count}</span>
+                <span class="ml-2 text-yellow-400">Tier 2: ${tier2Count}</span>
+                <span class="ml-2 text-slate-400">Total analyzed: ${embeddedRankingsData.totalStrategies}</span>
+            `;
+        }
+
         // Load and display strategies
         async function loadStrategies() {
             try {
+                // Initialize rankings lookup after embeddedRankingsData is available
+                initializeRankings();
+                
                 const response = await fetch('../results/summary.json');
                 const data = await response.json();
                 strategiesData = data;
                 allStrategies = data.strategies;
                 
                 displayMetadata(data.metadata);
+                displayRankingsInfo(); // Display rankings summary
                 applyFilters(); // Apply initial filters (will show all strategies since min bet is 0)
             } catch (error) {
                 console.error('Error loading strategies:', error);
                 document.getElementById('strategyList').innerHTML = 
                     '<div class="p-4 text-red-400">Error loading strategies data</div>';
+                document.getElementById('rankingsInfo').innerHTML = 
+                    '<span class="text-red-400">Error loading rankings</span>';
             }
         }
 
@@ -202,11 +258,19 @@
         function displayStrategies(strategies) {
             const listElement = document.getElementById('strategyList');
             
-            // Sort strategies by profitability (ROI) in descending order (highest first)
+            // Sort strategies by multi-criteria ranking first (lowest rank number = best), then by ROI
             const sortedStrategies = [...strategies].sort((a, b) => {
+                const rankA = rankingLookup[a.name]?.rank || 999;
+                const rankB = rankingLookup[b.name]?.rank || 999;
+                
+                if (rankA !== rankB) {
+                    return rankA - rankB; // Lower rank number first (rank 1 beats rank 2)
+                }
+                
+                // If same rank or both unranked, sort by ROI
                 const roiA = parseFloat(a.roi.replace('%', ''));
                 const roiB = parseFloat(b.roi.replace('%', ''));
-                return roiB - roiA; // Descending order (highest ROI first)
+                return roiB - roiA; // Higher ROI first
             });
             
             listElement.innerHTML = sortedStrategies.map((strategy, index) => {
@@ -214,24 +278,41 @@
                 const roiColor = roiValue >= 0 ? 'text-green-400' : 'text-red-400';
                 const correlationValue = parseFloat(strategy.correlation) || 0;
                 
-                // Add indicator for missing files (we'll check this when clicked)
-                const detailsIndicator = `<span class="text-xs text-slate-500" title="Click to view details">📊</span>`;
+                // Get ranking info
+                const ranking = rankingLookup[strategy.name];
+                const rankText = ranking ? `#${ranking.rank}` : 'Unranked';
+                const tierText = ranking ? getTierText(ranking.tier) : 'Tier 3';
+                const scoreText = ranking ? `${ranking.totalScore}/100` : 'N/A';
+                const gradeText = ranking ? ranking.grade : 'N/A';
+                const isRecommended = ranking?.recommended || false;
+                
+                // Colors based on ranking
+                const rankColor = ranking ? (ranking.rank <= 6 ? 'text-yellow-400' : 'text-blue-400') : 'text-slate-400';
+                const tierColor = getTierColor(ranking?.tier || '3');
+                const gradeColor = ranking ? getGradeColor(ranking.grade) : 'text-slate-400';
                 
                 return `
-                    <div class="strategy-item px-3 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 border-l-2 border-transparent hover:border-l-blue-500" 
+                    <div class="strategy-item px-3 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 border-l-2 ${isRecommended ? 'border-l-green-500' : 'border-transparent'} hover:border-l-blue-500" 
                          onclick="loadStrategyDetails('${strategy.name}', '${strategy.detailsFile}', this)">
                         <div class="flex justify-between items-center mb-1">
-                            <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight" title="${strategy.name}">${toStartCase(strategy.name)}</h3>
+                            <h3 class="font-medium text-white text-xs truncate pr-2 leading-tight" title="${strategy.name}">
+                                ${isRecommended ? '⭐ ' : ''}${toStartCase(strategy.name)}
+                            </h3>
                             <span class="text-xs ${roiColor} font-bold whitespace-nowrap">${strategy.roi}</span>
                         </div>
                         <div class="flex justify-between items-center mb-1">
-                            <span class="text-xs text-blue-400 font-medium">${getStrategyType(strategy.name)}</span>
+                            <div class="flex items-center space-x-2">
+                                <span class="text-xs ${rankColor} font-bold">${rankText}</span>
+                                <span class="text-xs ${tierColor} font-medium">${tierText}</span>
+                                <span class="text-xs ${gradeColor} font-medium">${gradeText}</span>
+                            </div>
                             <span class="text-xs text-slate-500">${strategy.totalBets} bets</span>
                         </div>
-                        <div class="grid grid-cols-3 gap-1 text-xs text-slate-400 mb-1">
-                            <div>C: ${strategy.correlation}</div>
+                        <div class="grid grid-cols-4 gap-1 text-xs text-slate-400 mb-1">
+                            <div>Score: ${scoreText}</div>
                             <div>W: ${strategy.winRate}</div>
-                            <div>Factors: ${strategy.factors.length}</div>
+                            <div>C: ${strategy.correlation}</div>
+                            <div>F: ${strategy.factors.length}</div>
                         </div>
                         <div class="text-xs text-slate-500 truncate leading-tight">
                             ${strategy.hypothesis}
@@ -577,6 +658,336 @@
             `;
 
             detailsElement.innerHTML = strategyInfo + recordsTable;
+        }
+
+        // Create a mapping from strategy name to ranking info for quick lookup
+        function createRankingLookup() {
+            const lookup = {};
+            if (embeddedRankingsData && embeddedRankingsData.topStrategies) {
+                embeddedRankingsData.topStrategies.forEach(strategy => {
+                    lookup[strategy.name] = {
+                        rank: strategy.rank,
+                        tier: strategy.tier,
+                        totalScore: strategy.totalScore,
+                        grade: strategy.grade,
+                        recommended: strategy.recommended
+                    };
+                });
+            }
+            return lookup;
+        }
+        
+        // Will initialize after embeddedRankingsData is defined
+        let rankingLookup = {};
+
+        // Embedded rankings data to avoid CORS issues when opening file directly
+        const embeddedRankingsData = {
+  "generatedAt": "2025-01-28T00:00:00Z",
+  "totalStrategies": 92,
+  "scoringCriteria": {
+    "statistical": "Statistical significance (t-test) - 0-25 pts",
+    "sampleSize": "Number of betting opportunities - 0-20 pts", 
+    "roi": "Return on investment sustainability - 0-20 pts",
+    "complexity": "Rule simplicity and interpretability - 0-15 pts",
+    "sharpe": "Risk-adjusted performance - 0-10 pts",
+    "feasibility": "Implementation practicality - 0-10 pts"
+  },
+  "gradeScale": {
+    "A+": "85-100 points (Exceptional)",
+    "A": "75-84 points (Excellent)", 
+    "B+": "65-74 points (Very Good)",
+    "B": "55-64 points (Good)",
+    "C+": "45-54 points (Fair)",
+    "C": "35-44 points (Poor)",
+    "D": "<35 points (Avoid)"
+  },
+  "topStrategies": [
+    {
+      "rank": 1,
+      "name": "Single_topSixBattle",
+      "totalScore": 67,
+      "grade": "B+",
+      "roi": 12.35,
+      "totalBets": 149,
+      "winRate": 57.0,
+      "sharpeRatio": 0.126,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Single_ahSlightFavorite", 
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 13.03,
+      "totalBets": 183,
+      "winRate": 62.8,
+      "sharpeRatio": 0.084,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Single_fadeAllSeasonQuarterFavorites",
+      "totalScore": 65,
+      "grade": "B+", 
+      "roi": 12.35,
+      "totalBets": 175,
+      "winRate": 62.9,
+      "sharpeRatio": 0.088,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Single_alwaysBetAwayTopSix",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 12.19,
+      "totalBets": 278,
+      "winRate": 55.0,
+      "sharpeRatio": 0.107,
+      "recommended": true,
+      "tier": "1",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 8
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Single_awayTopSix",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 10.66,
+      "totalBets": 299,
+      "winRate": 54.8,
+      "sharpeRatio": 0.103,
+      "recommended": true,
+      "tier": "1", 
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 8
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Single_hkjcSplitHandicapEdge",
+      "totalScore": 65,
+      "grade": "B+",
+      "roi": 7.16,
+      "totalBets": 871,
+      "winRate": 51.7,
+      "sharpeRatio": -0.001,
+      "recommended": true,
+      "tier": "1",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 20,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 0,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Single_atmosphereAdvantage",
+      "totalScore": 62,
+      "grade": "B",
+      "roi": 13.04,
+      "totalBets": 58,
+      "winRate": 58.6,
+      "sharpeRatio": 0.245,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Single_giantKilling",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 13.88,
+      "totalBets": 96,
+      "winRate": 51.0,
+      "sharpeRatio": 0.037,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Single_backEarlyAllStrongerFavorites",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 12.00,
+      "totalBets": 66,
+      "winRate": 54.5,
+      "sharpeRatio": 0.071,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Single_underperformingTeam",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 6.73,
+      "totalBets": 169,
+      "winRate": 49.7,
+      "sharpeRatio": -0.024,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 0,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Single_sweetSpotUnderdog",
+      "totalScore": 60,
+      "grade": "B",
+      "roi": 6.53,
+      "totalBets": 58,
+      "winRate": 53.4,
+      "sharpeRatio": 0.100,
+      "recommended": false,
+      "tier": "3",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 10,
+        "roi": 20,
+        "complexity": 15,
+        "sharpe": 5,
+        "feasibility": 10
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Single_earlySeasonConfusion",
+      "totalScore": 57,
+      "grade": "B",
+      "roi": 26.82,
+      "totalBets": 143,
+      "winRate": 59.4,
+      "sharpeRatio": 0.135,
+      "recommended": true,
+      "tier": "2",
+      "scores": {
+        "statistical": 0,
+        "sampleSize": 15,
+        "roi": 10,
+        "complexity": 15,
+        "sharpe": 7,
+        "feasibility": 10
+      }
+    }
+  ],
+  "implementationRecommendations": {
+    "tier1": {
+      "title": "Immediate Implementation",
+      "strategies": ["Single_hkjcSplitHandicapEdge", "Single_alwaysBetAwayTopSix", "Single_awayTopSix"],
+      "allocation": "Conservative: 50%/25%/25%, Aggressive: 30%/25%/20%"
+    },
+    "tier2": {
+      "title": "Strong Consideration", 
+      "strategies": ["Single_topSixBattle", "Single_ahSlightFavorite", "Single_fadeAllSeasonQuarterFavorites", "Single_earlySeasonConfusion"],
+      "allocation": "Aggressive portfolio: 20%/15%/15%/10%"
+    },
+    "expectedROI": {
+      "conservative": "8-10%",
+      "aggressive": "10-13%"
+    }
+  }
+        };
+
+        // Helper functions for rankings display
+        function getGradeColor(grade) {
+            switch(grade) {
+                case 'A+': return 'text-green-400';
+                case 'A': return 'text-green-300';
+                case 'B+': return 'text-blue-400';
+                case 'B': return 'text-blue-300';
+                case 'C+': return 'text-yellow-400';
+                case 'C': return 'text-yellow-300';
+                default: return 'text-red-400';
+            }
+        }
+
+        function getTierColor(tier) {
+            switch(tier) {
+                case '1': return 'text-green-400 font-bold';
+                case '2': return 'text-yellow-400 font-medium';
+                default: return 'text-slate-400';
+            }
+        }
+
+        function getTierText(tier) {
+            switch(tier) {
+                case '1': return 'Tier 1';
+                case '2': return 'Tier 2';
+                default: return 'Tier 3';
+            }
         }
 
         // Initialize the page

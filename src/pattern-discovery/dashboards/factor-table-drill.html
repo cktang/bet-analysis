@@ -116,21 +116,14 @@
             text-align: center;
             border-radius: 3px;
             font-size: 11px;
-            cursor: pointer;
+            cursor: default;
             transition: all 0.2s;
             border: 1px solid #4caf50;
         }
 
         .factor-selected:hover {
-            background: #4a7c4a !important;
-            border-color: #66bb6a;
-            transform: scale(1.02);
-        }
-
-        .factor-selected:hover .factor-desc::after {
-            content: " ✖ Click to remove";
-            color: #ffeb3b;
-            font-weight: bold;
+            background: #2d5a2d;
+            border-color: #4caf50;
         }
 
         .factor-empty {
@@ -854,41 +847,124 @@
             // Sort all patterns by ROI for display
             const sortedPatterns = [...filtered].sort((a, b) => b.roi - a.roi);
 
-            // Create aggregate strategy for display
+            // Try to find exact match first, then fall back to aggregate
             let exactMatch = null;
             if (selectedFactors.length > 0 && filtered.length > 0) {
-                // Create an aggregate "strategy" representing all matching patterns
-                const selectedBetSide = selectedFactors.find(f => f.startsWith('betSide-'))?.replace('betSide-', '');
-                const selectedStaking = selectedFactors.find(f => f.startsWith('staking-'))?.replace('staking-', '');
-                
-                // Calculate aggregate values
-                const totalWins = filtered.reduce((sum, p) => sum + (p.wins || Math.round(p.bets * (p.winRate || 50) / 100)), 0);
-                const totalLosses = filtered.reduce((sum, p) => sum + (p.losses || Math.round(p.bets * (100 - (p.winRate || 50)) / 100)), 0);
-                const avgOdds = filtered.reduce((sum, p) => sum + (p.averageOdds || 1.9), 0) / filtered.length;
-                const aggregateWinRate = (totalWins / (totalWins + totalLosses)) * 100;
-                
-                // Create aggregate strategy name
-                const factorNames = selectedFactors.map(f => {
-                    if (f.startsWith('betSide-')) return f.replace('betSide-', 'side-');
-                    if (f.startsWith('staking-')) return f.replace('staking-', 'staking-');
-                    return f;
-                });
-                
-                exactMatch = {
-                    name: `AGGREGATE: ${factorNames.join('_')}`,
-                    betSide: selectedBetSide || 'multiple',
-                    stakingMethod: selectedStaking || 'mixed',
-                    bets: bets,
-                    wins: totalWins,
-                    losses: totalLosses,
-                    winRate: aggregateWinRate,
-                    roi: roi,
-                    totalProfit: profit,
-                    averageOdds: avgOdds,
-                    patterns: filtered.length,
-                    isAggregate: true,
-                    topStrategies: sortedPatterns.slice(0, 5) // Show top 5 individual strategies
-                };
+                // Try to find an exact strategy match first
+                if (filtered.length === 1) {
+                    // Single exact match - use it directly
+                    const strategy = filtered[0];
+                    exactMatch = {
+                        name: strategy.name,
+                        betSide: strategy.betSide,
+                        stakingMethod: strategy.stakingMethod || 'fixed',
+                        bets: strategy.bets,
+                        wins: strategy.wins || Math.round(strategy.bets * (strategy.winRate || 50) / 100),
+                        losses: strategy.losses || Math.round(strategy.bets * (100 - (strategy.winRate || 50)) / 100),
+                        winRate: strategy.winRate || 50,
+                        roi: strategy.roi,
+                        totalProfit: strategy.totalProfit,
+                        averageOdds: strategy.averageOdds || 1.9,
+                        patterns: 1,
+                        isAggregate: false
+                    };
+                } else {
+                    // Multiple matches - try to find the best representative strategy
+                    const selectedBetSide = selectedFactors.find(f => f.startsWith('betSide-'))?.replace('betSide-', '');
+                    const selectedStaking = selectedFactors.find(f => f.startsWith('staking-'))?.replace('staking-', '');
+                    
+                    // Look for the most specific strategy that matches all selected factors
+                    let bestStrategy = null;
+                    
+                    // First, try to find exact matches by constructing expected strategy names
+                    const factorParts = selectedFactors.map(f => {
+                        if (f.startsWith('betSide-')) return f.replace('betSide-', 'side-');
+                        if (f.startsWith('staking-')) return f.replace('staking-', 'staking-');
+                        return f;
+                    });
+                    
+                    // Try different combinations with size-fix and size-dynamic
+                    const possibleNames = [
+                        [...factorParts, 'size-fix'].join('_'),
+                        [...factorParts, 'size-dynamic'].join('_'),
+                        ['side-' + selectedBetSide, ...factorParts.filter(p => !p.startsWith('side-')), 'size-fix'].join('_'),
+                        ['side-' + selectedBetSide, ...factorParts.filter(p => !p.startsWith('side-')), 'size-dynamic'].join('_')
+                    ];
+                    
+                    for (const name of possibleNames) {
+                        bestStrategy = filtered.find(s => s.name === name);
+                        if (bestStrategy) break;
+                    }
+                    
+                    // If no exact match, find the best representative strategy
+                    if (!bestStrategy && filtered.length > 0) {
+                        // Sort by ROI and take the best performing one with reasonable bet count
+                        const sortedByROI = filtered
+                            .filter(s => s.bets >= 20) // Only strategies with sufficient data
+                            .sort((a, b) => b.roi - a.roi);
+                        
+                        if (sortedByROI.length > 0) {
+                            bestStrategy = sortedByROI[0];
+                        } else {
+                            // Fallback to any strategy with most bets
+                            bestStrategy = filtered.sort((a, b) => b.bets - a.bets)[0];
+                        }
+                    }
+                    
+                    // Only show a single strategy if we found an exact match or it's truly representative
+                    if (bestStrategy && filtered.length <= 10) {
+                        // Only use single strategy if we have a good match and not too many alternatives
+                        const factorNames = selectedFactors.map(f => factorDefinitions[f]?.name).filter(Boolean);
+                        exactMatch = {
+                            name: bestStrategy.name,
+                            betSide: bestStrategy.betSide,
+                            stakingMethod: bestStrategy.stakingMethod || 'fixed',
+                            bets: bestStrategy.bets,
+                            wins: bestStrategy.wins || Math.round(bestStrategy.bets * (bestStrategy.winRate || 50) / 100),
+                            losses: bestStrategy.losses || Math.round(bestStrategy.bets * (100 - (bestStrategy.winRate || 50)) / 100),
+                            winRate: bestStrategy.winRate || 50,
+                            roi: bestStrategy.roi,
+                            totalProfit: bestStrategy.totalProfit,
+                            averageOdds: bestStrategy.averageOdds || 1.9,
+                            patterns: 1,
+                            isAggregate: false,
+                            note: filtered.length > 1 ? `Exact match from ${filtered.length} similar strategies` : null
+                        };
+
+                    } else if (selectedFactors.length >= 3 && filtered.length <= 50) {
+                        // For complex factor combinations with reasonable number of matches, create aggregate
+                        const totalWins = filtered.reduce((sum, p) => sum + (p.wins || Math.round(p.bets * (p.winRate || 50) / 100)), 0);
+                        const totalLosses = filtered.reduce((sum, p) => sum + (p.losses || Math.round(p.bets * (100 - (p.winRate || 50)) / 100)), 0);
+                        const avgOdds = filtered.reduce((sum, p) => sum + (p.averageOdds || 1.9), 0) / filtered.length;
+                        const aggregateWinRate = (totalWins / (totalWins + totalLosses)) * 100;
+                        
+                        // Create aggregate strategy name
+                        const factorNames = selectedFactors.map(f => {
+                            if (f.startsWith('betSide-')) return f.replace('betSide-', 'side-');
+                            if (f.startsWith('staking-')) return f.replace('staking-', 'staking-');
+                            return f;
+                        });
+                        
+                        exactMatch = {
+                            name: `AGGREGATE: ${factorNames.join('_')}`,
+                            betSide: selectedBetSide || 'multiple',
+                            stakingMethod: selectedStaking || 'mixed',
+                            bets: bets,
+                            wins: totalWins,
+                            losses: totalLosses,
+                            winRate: aggregateWinRate,
+                            roi: roi,
+                            totalProfit: profit,
+                            averageOdds: avgOdds,
+                            patterns: filtered.length,
+                            isAggregate: true,
+                            topStrategies: sortedPatterns.slice(0, 5) // Show top 5 individual strategies
+                        };
+                    } else {
+                        // Too many matches or too broad - show no exact match
+                        exactMatch = null;
+                    }
+                }
             }
             
             return {
@@ -930,28 +1006,7 @@
             }
         }
 
-        function removeFactorFromCombination(factorToRemove) {
-            const currentFactors = factorCombinations[currentStep].factors;
-            const factorIndex = currentFactors.indexOf(factorToRemove);
-            
-            if (factorIndex === -1) return; // Factor not found
-            
-            // Create new combination without this factor
-            const newFactors = currentFactors.filter(f => f !== factorToRemove);
-            
-            const performance = getPerformance(newFactors);
-            
-            factorCombinations.push({
-                factors: newFactors,
-                performance: performance,
-                removedFactor: factorToRemove
-            });
-            
-            currentStep++;
-            renderTable();
-            updateBreadcrumb();
-            updateBackButton();
-        }
+
 
         function updateBackButton() {
             const backBtn = document.getElementById('backBtn');
@@ -1019,14 +1074,14 @@
         function addFactorByClick(factorKey) {
             const currentFactors = factorCombinations[currentStep].factors;
             
-            // Check if factor already selected - if so, remove it
+            // Check if factor already selected
             if (currentFactors.includes(factorKey)) {
-                removeFactorByKey(factorKey);
+                alert('Factor already selected. Use Reset or Back to modify selection.');
                 return;
             }
 
-            // Check if we can add more factors
-            if (currentStep >= 6) {
+            // Check if we can add more factors (based on current factor count, not step count)
+            if (currentFactors.length >= 6) {
                 alert('Maximum 6 factors allowed');
                 return;
             }
@@ -1039,28 +1094,7 @@
             return factorCombinations[currentStep].performance;
         }
 
-        function removeFactorByKey(factorKey) {
-            const currentFactors = factorCombinations[currentStep].factors;
-            const factorIndex = currentFactors.indexOf(factorKey);
-            
-            if (factorIndex === -1) return; // Factor not found
-            
-            // Create new combination without this factor
-            const newFactors = currentFactors.filter(f => f !== factorKey);
-            
-            const performance = getPerformance(newFactors);
-            
-            factorCombinations.push({
-                factors: newFactors,
-                performance: performance,
-                removedFactor: factorKey
-            });
-            
-            currentStep++;
-            renderTable();
-            updateBreadcrumb();
-            updateBackButton();
-        }
+
 
         function parseStrategyFactors(strategyName) {
             // Extract factors from strategy name
@@ -1090,8 +1124,9 @@
                 
                 if (currentFactors.includes(factor)) {
                     className += ' selected';
-                    tooltipText += ' (click to remove)';
-                } else if (currentStep >= 6) {
+                    tooltipText += ' (already selected)';
+                    onclick = ''; // Don't allow clicking selected factors
+                } else if (currentFactors.length >= 6) {
                     className += ' disabled';
                     onclick = ''; // Max factors reached
                     tooltipText += ' (max factors reached)';
@@ -1144,12 +1179,11 @@
         }
 
         function addBestFactor() {
-            if (currentStep >= 6) {
+            const currentFactors = factorCombinations[currentStep].factors;
+            if (currentFactors.length >= 6) {
                 alert('Maximum 6 factors allowed');
                 return;
             }
-
-            const currentFactors = factorCombinations[currentStep].factors;
             const currentROI = factorCombinations[currentStep].performance.roi;
             
             let bestFactor = null;
@@ -1208,14 +1242,13 @@
                     }
                     
                     cell.className = 'factor-selected';
-                    cell.onclick = () => removeFactorFromCombination(factor);
-                    cell.title = `Click to remove ${def.name}`;
+                    cell.title = `${def.category}: ${def.name} - ${def.desc}`;
                     cell.innerHTML = `
                         <div class="factor-category">${def.category}</div>
                         <div class="factor-name">${def.name}</div>
                         <div class="factor-desc">${def.desc}</div>
                     `;
-                } else if (i === currentFactors.length && currentStep < 6) {
+                } else if (i === currentFactors.length && currentFactors.length < 6) {
                     // Show factor list with ROI for next selection
                     const availableFactorsWithROI = getAvailableFactorsWithROI();
                     
@@ -1287,7 +1320,7 @@
                     <div class="bet-details">
                         <div class="strategy-name-header">
                             <div class="exact-strategy-name">${strategy.name}</div>
-                            <div class="strategy-type">${strategy.betSide} • ${strategy.stakingMethod}${strategy.isAggregate ? ` • ${strategy.patterns} strategies combined` : ''}</div>
+                            <div class="strategy-type">${strategy.betSide} • ${strategy.stakingMethod}${strategy.isAggregate ? ` • ${strategy.patterns} strategies combined` : ''}${strategy.note ? ` • ${strategy.note}` : ''}</div>
                         </div>
                         
                         <div class="bet-summary-grid">
@@ -1361,6 +1394,15 @@
                             </div>
                             ` : ''}
                             
+                            ${strategy.note && !strategy.isAggregate ? `
+                            <div style="margin-top: 10px; padding: 8px; background: #1a1a1a; border-radius: 4px;">
+                                <div class="metric-label">Strategy Note:</div>
+                                <div style="font-size: 10px; color: #ccc; margin-top: 4px;">
+                                    This strategy represents the core betting pattern. ${strategy.note}
+                                </div>
+                            </div>
+                            ` : ''}
+                            
                             <div id="records-${strategy.name.replace(/[^a-zA-Z0-9]/g, '')}" class="betting-records-container">
                                 <table class="betting-records-table">
                                     <thead>
@@ -1386,13 +1428,19 @@
                     </div>
                 `;
             } else if (combo.factors.length > 0) {
+                const factorNames = combo.factors.map(f => factorDefinitions[f]?.name).filter(Boolean);
                 betDetailsHTML = `
                     <div class="bet-details">
                         <div class="no-match">
-                            <div class="metric-label">No Exact Match Found</div>
+                            <div class="metric-label">No Representative Strategy Found</div>
                             <div class="no-match-text">
-                                No strategy found with exactly these factors.<br>
-                                Try removing a factor or selecting different combinations.
+                                Found ${combo.performance.patterns} strategies matching "${factorNames.join(' + ')}" but no single strategy is representative enough.<br>
+                                <strong>Add more specific factors</strong> to narrow down to a clear betting strategy, or try different factor combinations.
+                            </div>
+                            <div style="margin-top: 10px; padding: 8px; background: #1a1a1a; border-radius: 4px;">
+                                <div style="font-size: 10px; color: #888;">
+                                    Combined Performance: ${combo.performance.roi.toFixed(2)}% ROI across ${combo.performance.bets.toLocaleString()} bets
+                                </div>
                             </div>
                         </div>
                     </div>

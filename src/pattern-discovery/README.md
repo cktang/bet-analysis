@@ -11,7 +11,7 @@ node run_discovery.js
 
 # Launch drill dashboard
 node launch_dashboards.js
-# Opens http://localhost:8888 - Factor drilling interface
+# Opens http://localhost:8888 - Interactive factor drilling interface
 
 # Analyze results 
 node run_analysis.js
@@ -46,6 +46,7 @@ From latest discovery run:
 
 ### Directories
 - `results/` - Discovery outputs and summaries
+- `dashboards/` - Interactive drilling interface
 - `analysis/` - Analysis scripts for results interpretation
 - `archive/` - Older versions and utilities
 
@@ -107,38 +108,36 @@ This system is production-ready for:
 - **Risk management** (conservative scaling with proven edge amplification)
 - **Systematic deployment** (automated factor evaluation and stake calculation)
 
-## Factor Drilling Dashboard
+## Interactive Drill Dashboard
 
-Interactive dashboard for building and analyzing factor combinations:
+**Single-purpose drilling interface** for building and analyzing factor combinations:
 
 ```bash
 node launch_dashboards.js
-# Opens http://localhost:8888 - Factor drilling interface
+# Opens http://localhost:8888 - Interactive factor drilling interface
 ```
 
-### 🔍 Factor Drilling Features
-- **Interactive table** for building factor combinations step-by-step
-- **31 betting factors** available across all categories
-- **Real-time performance updates** as factors are added
-- **Individual betting records** with match details for each strategy
-- **Navigation controls** with breadcrumb trails and step-back functionality
-- **Strategy aggregation** showing combined performance across patterns
+### 🔍 Dashboard Features
+- **Step-by-step factor building** with real-time performance updates
+- **6-factor maximum** with navigation controls (Reset, Back, Breadcrumb jumping)
+- **Individual betting records** showing actual match details and outcomes
+- **Real-time data loading** from discovery results with 20,000+ strategies
+- **Add-only interface** with navigation-based modification (no individual factor removal)
 
-**Key Features:**
-- **Add factors one by one** and see immediate performance impact
-- **View individual betting records** for any strategy combination
-- **Navigate factor combinations** with flexible back/forward controls
-- **Aggregate strategy display** combining multiple profitable patterns
-- **Real-time data loading** from discovery results
-- **Responsive design** for desktop analysis
+**Key Capabilities:**
+- **Interactive factor selection** from 31 available factors across all categories
+- **Immediate ROI calculation** as factors are added
+- **Strategy aggregation** showing combined performance across patterns
+- **Betting record visualization** with team names, dates, scores, and profit/loss
+- **Navigation controls** including step-back and full reset functionality
 
 ## Next Steps
 
-1. **Launch drill dashboard** to explore factor combinations
-2. **Select top patterns** from interactive analysis
-3. **Implement in live betting system** with variable staking
-4. **Monitor performance** using analysis tools
-5. **Scale gradually** as confidence builds
+1. **Launch drill dashboard** to explore factor combinations interactively
+2. **Build 2-6 factor strategies** using the drilling interface
+3. **Analyze individual betting records** for selected combinations
+4. **Implement top patterns** in live betting system with variable staking
+5. **Monitor performance** using the analysis tools
 
 ---
 

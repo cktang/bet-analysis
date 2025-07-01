@@ -250,7 +250,7 @@ class FootballDataJsonMerger {
                             // Add FBRef data as reference
                             this.resultData[matchKey].fbref = {
                                 date: record.Date,
-                                week: record.Wk,
+                                week: parseInt(record.Wk) || null,
                                 day: record.Day,
                                 time: record.Time,
                                 homeGoals: parseInt(record.FTHG) || null,
@@ -822,8 +822,23 @@ class FootballDataJsonMerger {
         }
         
         // Update Asian Handicap streaks (if data available)
-        if (matchData.enhanced && matchData.enhanced.asianHandicapBetting) {
-            const ahResult = matchData.enhanced.asianHandicapBetting.homeResult === 'win' ? 'win' : 'loss';
+        if (matchData.enhanced && 
+            matchData.enhanced.postMatch && 
+            matchData.enhanced.postMatch.bettingOutcomes &&
+            matchData.enhanced.postMatch.bettingOutcomes.homeResult) {
+            
+            // Determine AH result from the team's perspective
+            const bettingOutcomes = matchData.enhanced.postMatch.bettingOutcomes;
+            let ahResult;
+            
+            if (venue === 'home') {
+                // For home team, use homeResult directly
+                ahResult = (bettingOutcomes.homeResult === 'win' || bettingOutcomes.homeResult === 'half-win') ? 'win' : 'loss';
+            } else {
+                // For away team, use awayResult directly
+                ahResult = (bettingOutcomes.awayResult === 'win' || bettingOutcomes.awayResult === 'half-win') ? 'win' : 'loss';
+            }
+            
             const ahStreaks = teamStats.streaks.asianHandicap;
             
             if (ahStreaks.current.type === ahResult) {

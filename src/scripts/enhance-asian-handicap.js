@@ -387,6 +387,14 @@ class AsianHandicapEnhancer {
             return matchData; // Skip if missing essential data
         }
 
+        // SKIP matches without Asian Handicap odds (HKJC didn't offer AH betting)
+        if (!matchData.match.asianHandicapOdds || 
+            !matchData.match.asianHandicapOdds.homeHandicap || 
+            matchData.match.asianHandicapOdds.homeHandicap === '') {
+            console.log(`Skipping ${matchKey}: No Asian Handicap odds available`);
+            return null; // Don't include in enhanced data
+        }
+
         // Try to find matching FBRef incident data
         let fbrefIncidents = null;
         if (this.fbrefIncidentData[season]) {
@@ -461,7 +469,7 @@ class AsianHandicapEnhancer {
                 fbref: {
                     // Pre-match context (known before kickoff)
                     date: matchData.fbref.date,
-                    week: matchData.fbref.week,
+                    week: typeof matchData.fbref.week === 'string' ? parseInt(matchData.fbref.week) || null : matchData.fbref.week,
                     day: matchData.fbref.day,
                     time: matchData.fbref.time,
                     referee: matchData.fbref.referee,
@@ -549,10 +557,19 @@ class AsianHandicapEnhancer {
         let enhancedCount = 0;
         let incidentDataFound = 0;
         
+        let skippedCount = 0;
+        
         Object.entries(data.matches).forEach(([matchKey, matchData]) => {
             processedCount++;
             
             const enhanced = this.enhanceMatch(matchKey, matchData, season);
+            
+            // Skip matches that don't have Asian Handicap odds
+            if (enhanced === null) {
+                skippedCount++;
+                return; // Don't add to enhancedMatches
+            }
+            
             if (enhanced.preMatch && enhanced.preMatch.enhanced) {
                 enhancedCount++;
             }
@@ -580,10 +597,14 @@ class AsianHandicapEnhancer {
                     preventedDataLeakage: true,
                     resultDependentStatsIsolated: true,
                     safeForPredictiveModeling: true,
-                    xgMovedToPostMatch: "xG data moved to postMatch as it's calculated from actual shots"
+                    xgMovedToPostMatch: "xG data moved to postMatch as it's calculated from actual shots",
+                    asianHandicapFilteringEnabled: true,
+                    filteredOutMatches: skippedCount,
+                    filterReason: "Matches without Asian Handicap odds excluded (HKJC didn't offer AH betting)"
                 },
                 enhancements: [
                     "Data leakage prevention (preMatch/postMatch separation)",
+                    "Asian handicap filtering (excludes matches without AH odds)",
                     "Asian handicap simulation (postMatch)",
                     "Market efficiency analysis (preMatch)", 
                     "xG-based performance metrics (mixed)",
@@ -604,10 +625,11 @@ class AsianHandicapEnhancer {
         fs.writeFileSync(outputPath, JSON.stringify(enhancedData, null, 2));
         
         console.log(`Enhanced ${enhancedCount}/${processedCount} matches`);
-        console.log(`Found FBRef incident data for ${incidentDataFound}/${processedCount} matches`);
+        console.log(`Skipped ${skippedCount}/${processedCount} matches (no Asian Handicap odds)`);
+        console.log(`Found FBRef incident data for ${incidentDataFound}/${enhancedCount} matches`);
         console.log(`Output: ${outputPath}`);
         
-        return { processedCount, enhancedCount, incidentDataFound };
+        return { processedCount, enhancedCount, incidentDataFound, skippedCount };
     }
 
     // Process all JSON files in processed directory
@@ -642,18 +664,22 @@ class AsianHandicapEnhancer {
         console.log('\n=== ENHANCEMENT SUMMARY ===');
         results.forEach(result => {
             const successRate = Math.round((result.enhancedCount / result.processedCount) * 100);
-            const incidentRate = Math.round((result.incidentDataFound / result.processedCount) * 100);
-            console.log(`${result.file}: ${result.enhancedCount}/${result.processedCount} enhanced (${successRate}%), ${result.incidentDataFound} with incidents (${incidentRate}%)`);
+            const skipRate = Math.round((result.skippedCount / result.processedCount) * 100);
+            const incidentRate = result.enhancedCount > 0 ? Math.round((result.incidentDataFound / result.enhancedCount) * 100) : 0;
+            console.log(`${result.file}: ${result.enhancedCount}/${result.processedCount} enhanced (${successRate}%), ${result.skippedCount} skipped (${skipRate}%), ${result.incidentDataFound} with incidents (${incidentRate}%)`);
         });
 
         const totalProcessed = results.reduce((sum, r) => sum + r.processedCount, 0);
         const totalEnhanced = results.reduce((sum, r) => sum + r.enhancedCount, 0);
+        const totalSkipped = results.reduce((sum, r) => sum + r.skippedCount, 0);
         const totalIncidents = results.reduce((sum, r) => sum + r.incidentDataFound, 0);
         const overallRate = Math.round((totalEnhanced / totalProcessed) * 100);
-        const incidentRate = Math.round((totalIncidents / totalProcessed) * 100);
+        const skipRate = Math.round((totalSkipped / totalProcessed) * 100);
+        const incidentRate = totalEnhanced > 0 ? Math.round((totalIncidents / totalEnhanced) * 100) : 0;
         
         console.log(`\nOverall: ${totalEnhanced}/${totalProcessed} matches enhanced (${overallRate}%)`);
-        console.log(`FBRef incidents: ${totalIncidents}/${totalProcessed} matches (${incidentRate}%)`);
+        console.log(`Skipped: ${totalSkipped}/${totalProcessed} matches (${skipRate}%) - no Asian Handicap odds`);
+        console.log(`FBRef incidents: ${totalIncidents}/${totalEnhanced} enhanced matches (${incidentRate}%)`);
         console.log(`Enhanced files saved to: ${enhancedDir}/`);
     }
 }

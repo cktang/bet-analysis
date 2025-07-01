@@ -1,238 +1,351 @@
 /**
- * Comprehensive Test Suite for AsianHandicapCalculator
+ * Test Suite for AsianHandicapCalculator
  * 
- * Run with: node AsianHandicapCalculator.test.js
+ * Comprehensive tests covering all calculation scenarios, edge cases,
+ * and input validation for Asian Handicap betting calculations.
  */
 
 const AsianHandicapCalculator = require('./AsianHandicapCalculator');
 
-class TestRunner {
-    constructor() {
-        this.passed = 0;
-        this.failed = 0;
-        this.tests = [];
-    }
+describe('AsianHandicapCalculator', () => {
     
-    test(name, fn) {
-        try {
-            fn();
-            this.passed++;
-            console.log(`✅ ${name}`);
-        } catch (error) {
-            this.failed++;
-            console.log(`❌ ${name}: ${error.message}`);
-        }
-    }
+    describe('Input Validation', () => {
+        test('should throw error for non-numeric scores', () => {
+            expect(() => {
+                AsianHandicapCalculator.calculate('2', 1, '-0.5', 'home', 1.9, 100);
+            }).toThrow('Scores must be numbers');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, '1', '-0.5', 'home', 1.9, 100);
+            }).toThrow('Scores must be numbers');
+        });
+        
+        test('should throw error for invalid bet side', () => {
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'invalid', 1.9, 100);
+            }).toThrow('betSide must be "home" or "away"');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', '', 1.9, 100);
+            }).toThrow('betSide must be "home" or "away"');
+        });
+        
+        test('should throw error for invalid odds', () => {
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 0, 100);
+            }).toThrow('Odds must be a positive number');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', -1.5, 100);
+            }).toThrow('Odds must be a positive number');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 'abc', 100);
+            }).toThrow('Odds must be a positive number');
+        });
+        
+        test('should throw error for invalid stake', () => {
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 1.9, 0);
+            }).toThrow('Stake must be a positive number');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 1.9, -100);
+            }).toThrow('Stake must be a positive number');
+        });
+    });
     
-    expect(actual) {
-        return {
-            toBe: (expected) => {
-                if (actual !== expected) {
-                    throw new Error(`Expected ${expected}, got ${actual}`);
-                }
-            },
-            toBeCloseTo: (expected, precision = 2) => {
-                const diff = Math.abs(actual - expected);
-                const tolerance = Math.pow(10, -precision);
-                if (diff > tolerance) {
-                    throw new Error(`Expected ${expected} (±${tolerance}), got ${actual}`);
-                }
-            }
-        };
-    }
+    describe('Simple Handicap Calculations', () => {
+        
+        describe('Home Team Betting', () => {
+            test('should calculate home win with negative handicap', () => {
+                // Home 2-1, betting home -0.5 at odds 1.9, stake 100
+                // Adjusted: Home 1.5 vs Away 1 = Home wins
+                const result = AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 1.9, 100);
+                
+                expect(result.outcome).toBe('win');
+                expect(result.payout).toBe(190);
+                expect(result.profit).toBe(90);
+                expect(result.isQuarterHandicap).toBe(false);
+                expect(result.details.handicap).toBe(-0.5);
+                expect(result.details.result).toBe(1);
+            });
+            
+            test('should calculate home loss with negative handicap', () => {
+                // Home 1-1, betting home -0.5 at odds 1.9, stake 100
+                // Adjusted: Home 0.5 vs Away 1 = Away wins
+                const result = AsianHandicapCalculator.calculate(1, 1, '-0.5', 'home', 1.9, 100);
+                
+                expect(result.outcome).toBe('loss');
+                expect(result.payout).toBe(0);
+                expect(result.profit).toBe(-100);
+                expect(result.isQuarterHandicap).toBe(false);
+            });
+            
+            test('should calculate home push with zero handicap', () => {
+                // Home 1-1, betting home 0 at odds 1.9, stake 100
+                // Adjusted: Home 1 vs Away 1 = Draw/Push
+                const result = AsianHandicapCalculator.calculate(1, 1, '0', 'home', 1.9, 100);
+                
+                expect(result.outcome).toBe('push');
+                expect(result.payout).toBe(100);
+                expect(result.profit).toBe(0);
+            });
+            
+            test('should calculate home win with positive handicap', () => {
+                // Home 1-2, betting home +0.5 at odds 1.9, stake 100
+                // Adjusted: Home 1.5 vs Away 2 = Away wins, but we bet home
+                const result = AsianHandicapCalculator.calculate(1, 2, '+0.5', 'home', 1.9, 100);
+                
+                expect(result.outcome).toBe('loss');
+                expect(result.profit).toBe(-100);
+            });
+            
+            test('should calculate home win with positive handicap advantage', () => {
+                // Home 0-1, betting home +1.5 at odds 1.9, stake 100
+                // Adjusted: Home 1.5 vs Away 1 = Home wins
+                const result = AsianHandicapCalculator.calculate(0, 1, '+1.5', 'home', 1.9, 100);
+                
+                expect(result.outcome).toBe('win');
+                expect(result.profit).toBe(90);
+            });
+        });
+        
+        describe('Away Team Betting', () => {
+            test('should calculate away win with home negative handicap', () => {
+                // Home 1-1, betting away (home has -0.5) at odds 2.0, stake 100
+                // Adjusted: Home 0.5 vs Away 1 = Away wins
+                const result = AsianHandicapCalculator.calculate(1, 1, '-0.5', 'away', 2.0, 100);
+                
+                expect(result.outcome).toBe('win');
+                expect(result.payout).toBe(200);
+                expect(result.profit).toBe(100);
+            });
+            
+            test('should calculate away loss with home negative handicap', () => {
+                // Home 2-1, betting away (home has -0.5) at odds 2.0, stake 100
+                // Adjusted: Home 1.5 vs Away 1 = Home wins
+                const result = AsianHandicapCalculator.calculate(2, 1, '-0.5', 'away', 2.0, 100);
+                
+                expect(result.outcome).toBe('loss');
+                expect(result.profit).toBe(-100);
+            });
+        });
+        
+        describe('Edge Cases', () => {
+            test('should handle large handicaps', () => {
+                // Home 5-0, betting home -4.5 at odds 1.5, stake 50
+                // Adjusted: Home 0.5 vs Away 0 = Home wins
+                const result = AsianHandicapCalculator.calculate(5, 0, '-4.5', 'home', 1.5, 50);
+                
+                expect(result.outcome).toBe('win');
+                expect(result.profit).toBe(25);
+            });
+            
+            test('should handle decimal scores', () => {
+                // This shouldn't happen in real football but test robustness
+                const result = AsianHandicapCalculator.calculate(2.5, 1.3, '-0.5', 'home', 1.8, 100);
+                
+                expect(result.outcome).toBe('win'); // 2.0 vs 1.3
+                expect(result.profit).toBe(80);
+            });
+        });
+    });
     
-    summary() {
-        console.log(`\n📊 Test Summary: ${this.passed} passed, ${this.failed} failed`);
-        if (this.failed === 0) {
-            console.log('🎉 All tests passed!');
-        }
-    }
-}
-
-const test = new TestRunner();
-
-console.log('🧪 Testing AsianHandicapCalculator\n');
-
-// ==================== SIMPLE HANDICAP TESTS ====================
-
-test.test('Simple handicap: Home team wins with negative handicap', () => {
-    // Man City vs Brighton: 4-0, City has -2 handicap, bet on City
-    // Adjusted: 4-2 = 2 vs 0, City wins
-    const result = AsianHandicapCalculator.calculate(4, 0, '-2', 'home', 1.8, 100);
-    test.expect(result.outcome).toBe('win');
-    test.expect(result.profit).toBe(80);
-    test.expect(result.payout).toBe(180);
-});
-
-test.test('Simple handicap: Home team loses with negative handicap', () => {
-    // Chelsea vs Liverpool: 1-3, Chelsea has -1 handicap, bet on Chelsea  
-    // Adjusted: 1-1 = 0 vs 3, Chelsea loses
-    const result = AsianHandicapCalculator.calculate(1, 3, '-1', 'home', 2.0, 100);
-    test.expect(result.outcome).toBe('loss');
-    test.expect(result.profit).toBe(-100);
-    test.expect(result.payout).toBe(0);
-});
-
-test.test('Simple handicap: Home wins after overcoming negative handicap', () => {
-    // Arsenal vs Spurs: 2-1, Arsenal has -1 handicap, bet on Arsenal
-    // Adjusted: 2+(-1) = 1 vs 1, draw = push
-    const result = AsianHandicapCalculator.calculate(2, 1, '-1', 'home', 1.9, 100);
-    test.expect(result.outcome).toBe('push');
-    test.expect(result.profit).toBe(0);
-    test.expect(result.payout).toBe(100);
-});
-
-test.test('Simple handicap: Away team with positive handicap wins', () => {
-    // Burnley vs Man City: 0-2, bet on Burnley with +2 handicap
-    // Adjusted: 0+2 = 2 vs 2, draw = push
-    const result = AsianHandicapCalculator.calculate(0, 2, '+2', 'away', 2.1, 100);
-    test.expect(result.outcome).toBe('push');
-    test.expect(result.profit).toBe(0);
-    test.expect(result.payout).toBe(100);
-});
-
-// ==================== QUARTER HANDICAP TESTS ====================
-
-test.test('Quarter handicap: Full win (both halves win)', () => {
-    // Man City vs West Ham: 3-0, bet on City with -1/-1.5 
-    // Half 1: 3-1 = 2 vs 0 (WIN), Half 2: 3-1.5 = 1.5 vs 0 (WIN)
-    const result = AsianHandicapCalculator.calculate(3, 0, '-1/-1.5', 'home', 1.8, 100);
-    test.expect(result.outcome).toBe('win');
-    test.expect(result.profit).toBe(80);
-    test.expect(result.payout).toBe(180);
-    test.expect(result.isQuarterHandicap).toBe(true);
-});
-
-test.test('Quarter handicap: Half win (one wins, one pushes)', () => {
-    // Southampton vs Man Utd: 0-1, bet on Man Utd (away)
-    // Man Utd has -0.5/-1 handicap, so Southampton gets +0.5/+1
-    // Half 1: 0+0.5 = 0.5 vs 1 (Man Utd wins = AWAY WIN)
-    // Half 2: 0+1 = 1 vs 1 (Draw = PUSH)
-    const awayHandicap = '-0.5/-1';
-    const homeHandicap = AsianHandicapCalculator.getAwayHandicap(awayHandicap); // +0.5/+1
-    const result = AsianHandicapCalculator.calculate(0, 1, homeHandicap, 'away', 2.17, 100);
-    test.expect(result.outcome).toBe('win');
-    test.expect(result.profit).toBeCloseTo(58.5, 1); // (50 * 2.17) + 50 - 100 = 58.5
-    test.expect(result.payout).toBeCloseTo(158.5, 1);
-});
-
-test.test('Quarter handicap: Half loss (one loses, one pushes)', () => {
-    // Liverpool vs Arsenal: 2-1, bet on Arsenal (away)
-    // Arsenal has +0.5/+1 handicap, so Liverpool gets -0.5/-1 
-    // Wait, this doesn't make sense. Let me fix this test case.
-    // Let's say: Home team 2-1 Away team, bet on away with disadvantage
-    // Away team has -0.5/-1, so home gets +0.5/+1
-    // Half 1: 2+0.5 = 2.5 vs 1 (Home wins = AWAY LOSS)
-    // Half 2: 2+1 = 3 vs 1 (Home wins = AWAY LOSS) 
-    // This would be full loss, not half loss. Let me create a proper half loss scenario:
-    // Home 1 - Away 2, bet on home team with +0.5/+1 handicap
-    // Half 1: 1+0.5 = 1.5 vs 2 (Away wins = HOME LOSS)
-    // Half 2: 1+1 = 2 vs 2 (Draw = PUSH)
-    const result = AsianHandicapCalculator.calculate(1, 2, '+0.5/+1', 'home', 2.0, 100);
-    test.expect(result.outcome).toBe('loss');
-    test.expect(result.profit).toBe(-50); // 0 + 50 - 100 = -50
-    test.expect(result.payout).toBe(50);
-});
-
-test.test('Quarter handicap: Full loss (both halves lose)', () => {
-    // Man City vs Brighton: 4-0, bet on Brighton with +1/+1.5
-    // Half 1: 4-1 = 3 vs 0 (Brighton loses)
-    // Half 2: 4-1.5 = 2.5 vs 0 (Brighton loses)
-    const result = AsianHandicapCalculator.calculate(4, 0, '+1/+1.5', 'away', 2.5, 100);
-    test.expect(result.outcome).toBe('loss');
-    test.expect(result.profit).toBe(-100);
-    test.expect(result.payout).toBe(0);
-});
-
-// ==================== EDGE CASES ====================
-
-test.test('Level handicap (0)', () => {
-    // Standard 1X2 bet with 0 handicap
-    const result = AsianHandicapCalculator.calculate(2, 1, '0', 'home', 1.5, 100);
-    test.expect(result.outcome).toBe('win');
-    test.expect(result.profit).toBe(50);
-});
-
-test.test('Large positive handicap', () => {
-    const result = AsianHandicapCalculator.calculate(1, 3, '+3', 'home', 1.9, 100);
-    test.expect(result.outcome).toBe('win'); // 1+3 = 4 vs 3
-    test.expect(result.profit).toBe(90);
-});
-
-// ==================== AWAY HANDICAP CONVERSION TESTS ====================
-
-test.test('Away handicap conversion: Simple', () => {
-    const away = AsianHandicapCalculator.getAwayHandicap('-1');
-    test.expect(away).toBe('+1');
-});
-
-test.test('Away handicap conversion: Quarter', () => {
-    const away = AsianHandicapCalculator.getAwayHandicap('-0.5/-1');
-    test.expect(away).toBe('+0.5/+1');
-});
-
-test.test('Away handicap conversion: Zero', () => {
-    const away = AsianHandicapCalculator.getAwayHandicap('0');
-    test.expect(away).toBe('0');
-});
-
-// ==================== VALIDATION TESTS ====================
-
-test.test('Invalid input validation', () => {
-    try {
-        AsianHandicapCalculator.calculate('invalid', 1, '-1', 'home', 2.0, 100);
-        throw new Error('Should have thrown validation error');
-    } catch (error) {
-        test.expect(error.message).toBe('Scores must be numbers');
-    }
-});
-
-test.test('Invalid bet side validation', () => {
-    try {
-        AsianHandicapCalculator.calculate(1, 1, '-1', 'invalid', 2.0, 100);
-        throw new Error('Should have thrown validation error');
-    } catch (error) {
-        test.expect(error.message).toBe('betSide must be "home" or "away"');
-    }
-});
-
-// ==================== REAL WORLD SCENARIOS ====================
-
-test.test('Real scenario: Manchester Derby with small handicap', () => {
-    // Man City vs Man Utd: 3-1, City -0.5, betting on City
-    const result = AsianHandicapCalculator.calculate(3, 1, '-0.5', 'home', 1.75, 200);
-    test.expect(result.outcome).toBe('win'); // 3-0.5 = 2.5 vs 1
-    test.expect(result.profit).toBe(150); // 200 * 1.75 - 200
-});
-
-test.test('Real scenario: Underdog cover', () => {
-    // Leicester vs Liverpool: 1-2, Leicester +1.5, betting on Leicester  
-    const result = AsianHandicapCalculator.calculate(1, 2, '+1.5', 'home', 2.2, 100);
-    test.expect(result.outcome).toBe('win'); // 1+1.5 = 2.5 vs 2
-    test.expect(result.profit).toBe(120);
-});
-
-console.log('\n=== VERIFICATION AGAINST PREVIOUS BUG ===');
-
-test.test('Bug fix verification: Southampton vs Man Utd', () => {
-    // This was the test case that revealed our bug
-    // Southampton 0-1 Man Utd, Man Utd (away) has -0.5/-1 handicap
-    // Convert to home handicap: +0.5/+1
-    const awayHandicap = '-0.5/-1';
-    const homeHandicap = AsianHandicapCalculator.getAwayHandicap(awayHandicap);
-    const result = AsianHandicapCalculator.calculate(0, 1, homeHandicap, 'away', 2.17, 100);
+    describe('Quarter Handicap Calculations', () => {
+        
+        test('should calculate full win on quarter handicap', () => {
+            // Home 2-0, betting home -0.5/-1 at odds 1.9, stake 100
+            // Split: 50 on -0.5 (Home 1.5 vs 0 = Win) + 50 on -1 (Home 1 vs 0 = Win)
+            const result = AsianHandicapCalculator.calculate(2, 0, '-0.5/-1', 'home', 1.9, 100);
+            
+            expect(result.outcome).toBe('win');
+            expect(result.payout).toBe(190); // Both halves win: 50*1.9 + 50*1.9
+            expect(result.profit).toBe(90);
+            expect(result.isQuarterHandicap).toBe(true);
+            expect(result.details.handicap1).toBe(-0.5);
+            expect(result.details.handicap2).toBe(-1);
+            expect(result.details.halfStake).toBe(50);
+        });
+        
+        test('should calculate half win on quarter handicap', () => {
+            // Home 1-0, betting home -0.5/-1 at odds 1.9, stake 100
+            // Split: 50 on -0.5 (Home 0.5 vs 0 = Win) + 50 on -1 (Home 0 vs 0 = Push)
+            const result = AsianHandicapCalculator.calculate(1, 0, '-0.5/-1', 'home', 1.9, 100);
+            
+            expect(result.outcome).toBe('win');
+            expect(result.payout).toBe(145); // 50*1.9 (win) + 50 (push)
+            expect(result.profit).toBe(45);
+            expect(result.details.result1).toBe(1); // -0.5 wins
+            expect(result.details.result2).toBe(0); // -1 pushes
+        });
+        
+                 test('should calculate half loss on quarter handicap', () => {
+             // Home 1-2, betting home +0.5/+1 at odds 1.9, stake 100
+             // Split: 50 on +0.5 (Home 1.5 vs Away 2 = Loss) + 50 on +1 (Home 2 vs Away 2 = Push)
+             const result = AsianHandicapCalculator.calculate(1, 2, '+0.5/+1', 'home', 1.9, 100);
+             
+             expect(result.outcome).toBe('loss');
+             expect(result.payout).toBe(50); // 0 (loss) + 50 (push)
+             expect(result.profit).toBe(-50);
+             expect(result.details.result1).toBe(-1); // +0.5 loses
+             expect(result.details.result2).toBe(0); // +1 pushes
+         });
+        
+        test('should calculate full loss on quarter handicap', () => {
+            // Home 0-2, betting home -0.5/-1 at odds 1.9, stake 100
+            // Split: Both halves lose
+            const result = AsianHandicapCalculator.calculate(0, 2, '-0.5/-1', 'home', 1.9, 100);
+            
+            expect(result.outcome).toBe('loss');
+            expect(result.payout).toBe(0);
+            expect(result.profit).toBe(-100);
+        });
+        
+        test('should calculate away team quarter handicap', () => {
+            // Home 1-2, betting away (home has -0.5/-1) at odds 2.1, stake 200
+            // From away perspective: away gets +0.5/+1
+            // Split: 100 on +0.5 (Home 1 vs Away 2.5 = Away Win) + 100 on +1 (Home 1 vs Away 3 = Away Win)
+            const result = AsianHandicapCalculator.calculate(1, 2, '-0.5/-1', 'away', 2.1, 200);
+            
+            expect(result.outcome).toBe('win');
+            expect(result.payout).toBe(420); // Both halves win
+            expect(result.profit).toBe(220);
+        });
+        
+        test('should handle positive quarter handicaps', () => {
+            // Home 0-1, betting home +0.5/+1 at odds 1.8, stake 100
+            // Split: 50 on +0.5 (Home 0.5 vs 1 = Loss) + 50 on +1 (Home 1 vs 1 = Push)
+            const result = AsianHandicapCalculator.calculate(0, 1, '+0.5/+1', 'home', 1.8, 100);
+            
+            expect(result.outcome).toBe('loss');
+            expect(result.payout).toBe(50); // Loss + Push
+            expect(result.profit).toBe(-50);
+        });
+        
+        test('should throw error for invalid quarter handicap format', () => {
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, '-0.5/-1/-1.5', 'home', 1.9, 100);
+            }).toThrow('Invalid quarter handicap format');
+            
+            expect(() => {
+                AsianHandicapCalculator.calculate(2, 1, 'invalid/format', 'home', 1.9, 100);
+            }).toThrow('Invalid handicap numbers');
+        });
+    });
     
-    // Should be half win: one half wins, one half pushes
-    test.expect(result.outcome).toBe('win');
-    test.expect(result.profit).toBeCloseTo(58.5, 1); // NOT 117 like before
-    test.expect(result.details.result1).toBe(1); // +0.5: away wins (0.5 vs 1)
-    test.expect(result.details.result2).toBe(0); // +1: push (1 vs 1)
-});
-
-// Run all tests
-test.summary();
-
-// Export for use in other files
-if (typeof module !== 'undefined') {
-    module.exports = { AsianHandicapCalculator, TestRunner };
-} 
+    describe('Helper Methods', () => {
+        
+        describe('getAwayHandicap', () => {
+            test('should convert simple negative home handicap to positive away', () => {
+                expect(AsianHandicapCalculator.getAwayHandicap('-1')).toBe('+1');
+                expect(AsianHandicapCalculator.getAwayHandicap('-0.5')).toBe('+0.5');
+                expect(AsianHandicapCalculator.getAwayHandicap('-2.5')).toBe('+2.5');
+            });
+            
+            test('should convert simple positive home handicap to negative away', () => {
+                expect(AsianHandicapCalculator.getAwayHandicap('+1')).toBe('-1');
+                expect(AsianHandicapCalculator.getAwayHandicap('+0.5')).toBe('-0.5');
+                expect(AsianHandicapCalculator.getAwayHandicap('+1.5')).toBe('-1.5');
+            });
+            
+            test('should handle zero handicap', () => {
+                expect(AsianHandicapCalculator.getAwayHandicap('0')).toBe('0');
+            });
+            
+            test('should convert quarter handicaps', () => {
+                expect(AsianHandicapCalculator.getAwayHandicap('-0.5/-1')).toBe('+0.5/+1');
+                expect(AsianHandicapCalculator.getAwayHandicap('+0.5/+1')).toBe('-0.5/-1');
+                expect(AsianHandicapCalculator.getAwayHandicap('-1.5/-2')).toBe('+1.5/+2');
+            });
+        });
+        
+        describe('explainHandicap', () => {
+            test('should explain home team handicaps', () => {
+                expect(AsianHandicapCalculator.explainHandicap('-1', 'home'))
+                    .toBe('Home team starts 1 goal(s) behind');
+                
+                expect(AsianHandicapCalculator.explainHandicap('+1.5', 'home'))
+                    .toBe('Home team gets +1.5 goal advantage');
+                
+                expect(AsianHandicapCalculator.explainHandicap('0', 'home'))
+                    .toBe('Level betting (no handicap)');
+            });
+            
+            test('should explain away team handicaps', () => {
+                expect(AsianHandicapCalculator.explainHandicap('-1', 'away'))
+                    .toBe('Away team gets +1 goal advantage');
+                
+                expect(AsianHandicapCalculator.explainHandicap('+1.5', 'away'))
+                    .toBe('Away team starts 1.5 goal(s) behind');
+                
+                expect(AsianHandicapCalculator.explainHandicap('0', 'away'))
+                    .toBe('Level betting (no handicap)');
+            });
+        });
+    });
+    
+    describe('Real World Scenarios', () => {
+        
+        test('Manchester City vs Brighton scenario', () => {
+            // Man City (favorites) at home, handicap -1.5, lose 1-2
+            // Betting on Man City at odds 1.85, stake 500
+            const result = AsianHandicapCalculator.calculate(1, 2, '-1.5', 'home', 1.85, 500);
+            
+            expect(result.outcome).toBe('loss');
+            expect(result.profit).toBe(-500);
+        });
+        
+        test('Underdog away win scenario', () => {
+            // Leicester away vs Man City, handicap +2.5, win 0-3
+            // Betting on Leicester at odds 1.95, stake 200
+            const result = AsianHandicapCalculator.calculate(0, 3, '+2.5', 'away', 1.95, 200);
+            
+            expect(result.outcome).toBe('win');
+            expect(result.profit).toBe(190); // 200 * 1.95 - 200
+        });
+        
+                 test('Quarter handicap tight margin scenario', () => {
+             // Arsenal vs Tottenham 2-1, Arsenal -0.5/-1, stake 1000, odds 1.92
+             // Split: 500 on -0.5 (Home 1.5 vs Away 1 = Win) + 500 on -1 (Home 1 vs Away 1 = Push)
+             const result = AsianHandicapCalculator.calculate(2, 1, '-0.5/-1', 'home', 1.92, 1000);
+             
+             expect(result.outcome).toBe('win');
+             expect(result.profit).toBe(460); // Half win: (500 * 1.92) + 500 - 1000 = 460
+         });
+        
+        test('Draw with level handicap', () => {
+            // Chelsea vs Liverpool 1-1, level handicap (0), Chelsea bet
+            const result = AsianHandicapCalculator.calculate(1, 1, '0', 'home', 2.05, 150);
+            
+            expect(result.outcome).toBe('push');
+            expect(result.profit).toBe(0);
+            expect(result.payout).toBe(150); // Stake returned
+        });
+    });
+    
+    describe('Precision and Rounding', () => {
+        
+        test('should properly round monetary values', () => {
+            // Test case that could produce floating point precision issues
+            const result = AsianHandicapCalculator.calculate(2, 1, '-0.5', 'home', 1.91, 333.33);
+            
+            expect(result.payout).toBe(636.66); // Should be properly rounded
+            expect(result.profit).toBe(303.33);
+        });
+        
+        test('should handle very small stakes', () => {
+            const result = AsianHandicapCalculator.calculate(1, 0, '-0.5', 'home', 2.0, 0.01);
+            
+            expect(result.payout).toBe(0.02);
+            expect(result.profit).toBe(0.01);
+        });
+        
+        test('should handle very large stakes', () => {
+            const result = AsianHandicapCalculator.calculate(3, 0, '-2.5', 'home', 1.5, 100000);
+            
+            expect(result.payout).toBe(150000);
+            expect(result.profit).toBe(50000);
+        });
+    });
+}); 

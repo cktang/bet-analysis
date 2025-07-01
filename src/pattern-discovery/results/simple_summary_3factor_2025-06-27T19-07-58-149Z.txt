@@ -1,5 +1,0 @@
-SIMPLE 3-FACTOR DISCOVERY RESULTS
-=========================================
-Total combinations tested: 30
-Profitable patterns (ROI > 0%, bets >= 10): 0
-

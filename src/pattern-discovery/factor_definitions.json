@@ -38,42 +38,57 @@
     "earlySeason": {
       "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 8",
       "description": "Early season weeks 1-8",
-      "displayExpression": "fbref.week"
+      "displayExpression": ["fbref.week"]
+    },
+    "notEarlySeason": {
+      "expression": "parseInt(fbref.week) >= 8",
+      "description": "weeks 8+",
+      "displayExpression": ["fbref.week"]
     },
     "midSeason": {
       "expression": "parseInt(fbref.week) >= 9 && parseInt(fbref.week) <= 24",
-      "description": "Mid season weeks 9-24",
-      "displayExpression": "fbref.week"
+      "description": "weeks 9-24",
+      "displayExpression": ["fbref.week"]
     },
     "lateSeason": {
-      "expression": "parseInt(fbref.week) >= 25 && parseInt(fbref.week) <= 38",
-      "description": "Late season weeks 25-38",
-      "displayExpression": "fbref.week"
+      "expression": "parseInt(fbref.week) >= 25",
+      "description": "weeks 25+",
+      "displayExpression": ["fbref.week"]
     },
-    "veryEarly": {
-      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 4",
-      "description": "Very early season weeks 1-4",
-      "displayExpression": "fbref.week"
+    "firstHalf": {
+      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 18",
+      "description": "weeks 1-18",
+      "displayExpression": ["fbref.week"]
+    },
+    "secondHalf": {
+      "expression": "parseInt(fbref.week) >= 19",
+      "description": "weeks 19+",
+      "displayExpression": ["fbref.week"]
     },
     "ultraEarly": {
+      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 4",
+      "description": "weeks 1-4",
+      "displayExpression": ["fbref.week"]
+    },
+    "veryEarly": {
       "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 6",
-      "description": "Ultra early season weeks 1-6 (highest uncertainty)",
-      "displayExpression": "fbref.week"
+      "description": "weeks 1-6",
+      "displayExpression": ["fbref.week"]
     },
     "christmas": {
       "expression": "parseInt(fbref.week) >= 17 && parseInt(fbref.week) <= 22",
-      "description": "Christmas period weeks 17-22",
-      "displayExpression": "fbref.week"
+      "description": "weeks 17-22",
+      "displayExpression": ["fbref.week"]
     },
     "finalStretch": {
       "expression": "parseInt(fbref.week) >= 32 && parseInt(fbref.week) <= 38",
-      "description": "Final stretch weeks 32-38",
-      "displayExpression": "fbref.week"
+      "description": "weeks 32-38",
+      "displayExpression": ["fbref.week"]
     },
     "businessEnd": {
       "expression": "parseInt(fbref.week) >= 28",
-      "description": "Business end of season (high stakes)",
-      "displayExpression": "fbref.week"
+      "description": "Week 28+",
+      "displayExpression": ["fbref.week"]
     }
   },
   "ahLevel": {
@@ -174,106 +189,111 @@
     "balanced": {
       "expression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 2",
       "description": "Max odds ≤ 2.00 (balanced)",
-      "displayExpression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds)"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "extreme": {
       "expression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) > 2",
       "description": "Max odds > 2.00 (extreme)",
-      "displayExpression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds)"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "trapped": {
       "expression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 1.72",
       "description": "Trapped pricing ≤1.72",
-      "displayExpression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds)"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "ultraTrapped": {
       "expression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 1.65",
       "description": "Ultra trapped pricing ≤1.65",
-      "displayExpression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds)"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "closeOdds": {
       "expression": "Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) <= 0.1",
       "description": "Very close odds (≤0.1 difference)",
-      "displayExpression": "Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds)"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "goodAwayValue": {
       "expression": "match.asianHandicapOdds.awayOdds >= 1.85 && match.asianHandicapOdds.awayOdds <= 2.1",
       "description": "Good away value range 1.85-2.10",
-      "displayExpression": "match.asianHandicapOdds.awayOdds"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     },
     "optimalAwayValue": {
       "expression": "match.asianHandicapOdds.awayOdds >= 1.9 && match.asianHandicapOdds.awayOdds <= 2.1",
       "description": "Optimal away value range 1.90-2.10",
-      "displayExpression": "match.asianHandicapOdds.awayOdds"
+      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
     }
   },
   "context": {
     "topSixHome": {
       "expression": "fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) <= 6",
       "description": "Top 6 teams playing at home",
-      "displayExpression": "timeSeries.home.leaguePosition || 20"
+      "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "topSixAway": {
       "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Top 6 teams playing away",
-      "displayExpression": "timeSeries.away.leaguePosition || 20"
+      "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "bottomSixHome": {
       "expression": "fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) >= 15",
       "description": "Bottom 6 teams playing at home",
-      "displayExpression": "timeSeries.home.leaguePosition || 20"
+      "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "bottomSixAway": {
       "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
       "description": "Bottom 6 teams playing away",
-      "displayExpression": "timeSeries.away.leaguePosition || 20"
+      "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "topTenAway": {
       "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 10",
       "description": "Top 10 teams playing away (undervalued quality)",
-      "displayExpression": "timeSeries.away.leaguePosition || 20"
+      "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "relegationBattle": {
       "expression": "fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
       "description": "Week >= 25, Both teams are bottom 4",
-      "displayExpression": "(timeSeries.home.leaguePosition || 20) + '/' + (timeSeries.away.leaguePosition || 20)"
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "europeanStakes": {
       "expression": "fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8)",
       "description": "Both teams are Top 8",
-      "displayExpression": "(timeSeries.home.leaguePosition || 20) + '/' + (timeSeries.away.leaguePosition || 20)"
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "giantKilling": {
       "expression": "(timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Lower team vs top 6",
-      "displayExpression": "(timeSeries.home.leaguePosition || 20) + '/' + (timeSeries.away.leaguePosition || 20)"
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
   },
   "matchUp": {
     "balance": {
       "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) <= 0.1",
       "description": "Balanced implied probability (40-60%)",
-      "displayExpression": "(preMatch.marketEfficiency.homeImpliedProb * 100).toFixed(1) + '%'"
+      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
     },
     "extreme": {
       "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2",
       "description": "Extreme implied probability (<30% or >70%)",
-      "displayExpression": "(preMatch.marketEfficiency.homeImpliedProb * 100).toFixed(1) + '%'"
+      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
     },
     "extremeAway": {
       "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and away team is top 6",
-      "displayExpression": "(preMatch.marketEfficiency.homeImpliedProb * 100).toFixed(1) + '%'"
+      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
     },
     "extremeHome": {
       "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2 && (timeSeries.home.leaguePosition || 20) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and home team is top 6",
-      "displayExpression": "(preMatch.marketEfficiency.homeImpliedProb * 100).toFixed(1) + '%'"
+      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
     },
-    "topSizeClash": {
+    "top6Clash": {
       "expression": "(timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Top 6 teams playing at home and away (clash)",
-      "displayExpression": "(timeSeries.home.leaguePosition || 20) + '/' + (timeSeries.away.leaguePosition || 20)"
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
+    },
+    "top8Clash": {
+      "expression": "(timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8",
+      "description": "Top 6 teams playing at home and away (clash)",
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
   },
   "irregularity": {
@@ -296,83 +316,83 @@
     "positionFormDivergence": {
       "expression": "Math.abs((timeSeries.home.leaguePosition || 20) - (timeSeries.away.leaguePosition || 20)) > 8 && Math.abs((timeSeries.home.streaks.overall?.current?.count || 0) - (timeSeries.away.streaks.overall?.current?.count || 0)) > 3",
       "description": "Large position gap (>8) with diverging current form (>3 streak difference)",
-      "displayExpression": "Math.abs((timeSeries.home.leaguePosition || 20) - (timeSeries.away.leaguePosition || 20))"
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
   },
   "streaking": {
     "HomeWinAHStreak": {
       "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'win' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.asianHandicap?.current?.count"],
       "description": "Home team on 2+ game AH win streak"
     },
     "HomeLossAHStreak": {
       "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.asianHandicap?.current?.count"],
       "description": "Home team on 2+ game AH loss streak"
     },
     "AwayWinAHStreak": {
       "expression": "timeSeries.away.streaks.asianHandicap?.current?.type === 'win' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.away.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.asianHandicap?.current?.count"],
       "description": "Away team on 2+ game AH win streak"
     },
     "AwayLossAHStreak": {
       "expression": "timeSeries.away.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.away.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.asianHandicap?.current?.count"],
       "description": "Away team on 2+ game AH loss streak"
     },
     "homeWinStreak": {
       "expression": "timeSeries.home.streaks.overall?.current?.type === 'win' && timeSeries.home.streaks.overall?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.overall?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.overall?.current?.count"],
       "description": "Home team on 2+ game win streak"
     },
     "homeLossStreak": {
       "expression": "timeSeries.home.streaks.overall?.current?.type === 'loss' && timeSeries.home.streaks.overall?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.overall?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.overall?.current?.count"],
       "description": "Home team on 2+ game loss streak"
     },
     "awayWinStreak": {
       "expression": "timeSeries.away.streaks.overall?.current?.type === 'win' && timeSeries.away.streaks.overall?.current?.count >= 2",
-      "displayExpression": "timeSeries.away.streaks.overall?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.overall?.current?.count"],
       "description": "Away team on 2+ game win streak"
     },
     "awayLossStreak": {
       "expression": "timeSeries.away.streaks.overall?.current?.type === 'loss' && timeSeries.away.streaks.overall?.current?.count >= 2",
-      "displayExpression": "timeSeries.away.streaks.overall?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.overall?.current?.count"],
       "description": "Away team on 2+ game loss streak"
     },
     "homeVenueStreak": {
       "expression": "timeSeries.home.streaks.home?.current?.type === 'win' && timeSeries.home.streaks.home?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.home?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.home?.current?.count"],
       "description": "Home team on 2+ home game win streak"
     },
     "awayVenueStreak": {
       "expression": "timeSeries.away.streaks.away?.current?.type === 'win' && timeSeries.away.streaks.away?.current?.count >= 2",
-      "displayExpression": "timeSeries.away.streaks.away?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.away?.current?.count"],
       "description": "Away team on 2+ away game win streak"
     },
     "longStreak": {
       "expression": "(timeSeries.home.streaks.overall?.current?.count >= 3 || timeSeries.away.streaks.overall?.current?.count >= 3)",
-      "displayExpression": "Math.max(timeSeries.home.streaks.overall?.current?.count || 0, timeSeries.away.streaks.overall?.current?.count || 0)",
+      "displayExpression": ["Math.max(timeSeries.home.streaks.overall?.current?.count || 0, timeSeries.away.streaks.overall?.current?.count || 0)"],
       "description": "Either team on 3+ game streak"
     },
     "momentumReversal": {
       "expression": "timeSeries.home.streaks.overall?.current?.type === 'loss' && timeSeries.home.streaks.overall?.longest.win >= 2 && timeSeries.away.streaks.overall?.current?.type === 'win' && timeSeries.away.streaks.overall?.longest.loss >= 2",
-      "displayExpression": "Math.max(timeSeries.home.streaks.overall?.longest.win, timeSeries.away.streaks.overall?.longest.loss)",
+      "displayExpression": ["timeSeries.home.streaks.overall?.longest.win", "timeSeries.away.streaks.overall?.longest.loss"],
       "description": "Home team losing after winning streak, away team winning after losing streak"
     },
     "handicapStreak": {
       "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'win' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.asianHandicap?.current?.count"],
       "description": "Home team on 2+ game AH win streak"
     },
     "handicapLossStreak": {
       "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "displayExpression": ["timeSeries.home.streaks.asianHandicap?.current?.count"],
       "description": "Home team on 2+ game AH loss streak"
     },
     "streakFatigue": {
       "expression": "timeSeries.home.streaks.overall?.current?.count >= 4 || timeSeries.away.streaks.overall?.current?.count >= 4",
-      "displayExpression": "timeSeries.away.streaks.overall?.current?.count",
+      "displayExpression": ["timeSeries.away.streaks.overall?.current?.count"],
       "description": "Either team on 4+ game streak"
     }
   }

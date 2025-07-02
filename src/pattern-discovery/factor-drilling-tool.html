@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asian Handicap Factor Drilling Tool</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', monospace, sans-serif; background: #1a1a1a; color: #e0e0e0; font-size: 11px; }
@@ -162,6 +164,27 @@
         .profit-negative { color: #ff6b6b; }
         .profit-neutral { color: #888; }
         
+        .chart-section { 
+            background: #252525; 
+            border: 1px solid #404040; 
+            padding: 10px; 
+            margin-bottom: 12px; 
+            flex-shrink: 0; 
+        }
+        .chart-header { 
+            color: #00bfff; 
+            font-size: 10px; 
+            font-weight: bold; 
+            margin-bottom: 8px; 
+            text-transform: uppercase; 
+        }
+        .chart-container { 
+            position: relative; 
+            height: 200px; 
+            background: #1a1a1a; 
+            border-radius: 4px; 
+        }
+        
         .records-section { flex-shrink: 0; }
         .records-header { color: #00bfff; font-size: 10px; font-weight: bold; margin-bottom: 6px; text-transform: uppercase; }
         .records-table { width: 100%; border-collapse: collapse; font-size: 9px; table-layout: fixed; }
@@ -171,7 +194,7 @@
         .records-table tr:hover td { background: #2a2a2a; }
         
         /* Column widths for betting records table */
-        .records-table th:nth-child(1) { width: 65px; } /* Date */
+        .records-table th:nth-child(1) { width: 40px; } /* Date */
         .records-table th:nth-child(2) { width: 200px; } /* Match - made wider */
         .records-table th:nth-child(3) { width: 50px; } /* Score */
         .records-table th:nth-child(4) { width: 70px; } /* Handicap */
@@ -192,8 +215,8 @@
         .records-table td:nth-child(9) { width: 60px; } /* P&L */
         
         /* Factor columns - limit width for better layout */
-        .records-table th:nth-child(n+10) { width: 80px; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } /* Factor columns */
-        .records-table td:nth-child(n+10) { width: 80px; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } /* Factor columns */
+        .records-table th:nth-child(n+10) { width: 50px; max-width: 50px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } /* Factor columns */
+        .records-table td:nth-child(n+10) { width: 50px; max-width: 50px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } /* Factor columns */
         
         .team-link { color: #00bfff; cursor: pointer; text-decoration: underline; }
         .team-link:hover { color: #64b5f6; }
@@ -718,6 +741,133 @@
         // Update status line
         function updateStatus(message) {
             document.getElementById('status-line').textContent = message;
+        }
+        
+        // Create profit chart
+        let profitChart = null;
+        
+        function createProfitChart(bettingRecords) {
+            const canvas = document.getElementById('profitChart');
+            const ctx = canvas.getContext('2d');
+            
+            // Destroy existing chart if it exists
+            if (profitChart) {
+                profitChart.destroy();
+            }
+            
+            if (!bettingRecords || bettingRecords.length === 0) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = '#666';
+                ctx.font = '12px monospace';
+                ctx.textAlign = 'center';
+                ctx.fillText('No betting data available', canvas.width / 2, canvas.height / 2);
+                return;
+            }
+            
+            // Sort records by date
+            const sortedRecords = [...bettingRecords].sort((a, b) => new Date(a.date) - new Date(b.date));
+            
+            // Calculate cumulative profit with proper time data
+            let cumulativeProfit = 0;
+            const chartData = sortedRecords.map((record, index) => {
+                cumulativeProfit += record.profit;
+                return {
+                    x: new Date(record.date),
+                    y: cumulativeProfit
+                };
+            });
+            
+            // Create the chart
+            profitChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Cumulative Profit',
+                        data: chartData,
+                        borderColor: cumulativeProfit >= 0 ? '#00ff88' : '#ff6b6b',
+                        backgroundColor: cumulativeProfit >= 0 ? 'rgba(0, 255, 136, 0.1)' : 'rgba(255, 107, 107, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.1,
+                        pointRadius: 0,
+                        pointHoverRadius: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: '#2d2d2d',
+                            titleColor: '#e0e0e0',
+                            bodyColor: '#e0e0e0',
+                            borderColor: '#404040',
+                            borderWidth: 1,
+                            callbacks: {
+                                title: function(context) {
+                                    const index = context[0].dataIndex;
+                                    const record = sortedRecords[index];
+                                    return `${record.homeTeam} v ${record.awayTeam}`;
+                                },
+                                label: function(context) {
+                                    const index = context.dataIndex;
+                                    const record = sortedRecords[index];
+                                    const profit = record.profit >= 0 ? `+${formatCurrency(record.profit)}` : formatCurrency(record.profit);
+                                    return [
+                                        `Date: ${new Date(record.date).toLocaleDateString()}`,
+                                        `Bet: ${profit} (${record.outcome.toUpperCase()})`,
+                                        `Total: ${formatCurrency(context.parsed.y)}`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'day',
+                                displayFormats: {
+                                    day: 'MMM dd'
+                                }
+                            },
+                            grid: {
+                                color: '#404040',
+                                borderColor: '#404040'
+                            },
+                            ticks: {
+                                color: '#888',
+                                font: {
+                                    size: 10
+                                },
+                                maxTicksLimit: 10
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#404040',
+                                borderColor: '#404040'
+                            },
+                            ticks: {
+                                color: '#888',
+                                font: {
+                                    size: 10
+                                },
+                                callback: function(value) {
+                                    return formatCurrency(value);
+                                }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
         }
         
         // Update status with performance stats
@@ -1267,6 +1417,13 @@
                     </div>
                 </div>
                 
+                <div class="chart-section">
+                    <div class="chart-header">Cumulative Profit Over Time</div>
+                    <div class="chart-container">
+                        <canvas id="profitChart"></canvas>
+                    </div>
+                </div>
+                
                 <div class="records-section">
                     <div class="records-header">Betting Records (${bettingRecords.length} matches)</div>
                     <table class="records-table">
@@ -1304,8 +1461,14 @@
                                     <td class="${getProfitColorClass(record.profit)}">${formatCurrency(record.profit)}</td>
                                     ${factorsWithDisplay.map(factor => {
                                         const displayExpression = factor.displayExpression;
-                                        const value = eval('record.match.' + displayExpression);
-                                        const displayValue = value ?? '-';
+                                        let displayValue = '-';
+                                        try {
+                                            const value = displayExpression.map(exp => eval('record.match.' + exp)).join(', ');
+                                            displayValue = value ?? '-';
+                                        } catch (error) {
+                                            console.warn(`Error evaluating display expression for ${factor.key}:${displayExpression}`, error);
+                                            displayValue = 'Error';
+                                        }
                                         return `<td>${displayValue}</td>`;
                                     }).join('')}
                                 </tr>
@@ -1316,6 +1479,23 @@
             `;
             
             document.getElementById('results').innerHTML = resultsHTML;
+            
+            // Create the profit chart
+            try {
+                createProfitChart(bettingRecords);
+            } catch (error) {
+                console.error('Error creating profit chart:', error);
+                // Clear the chart canvas and show error message
+                const canvas = document.getElementById('profitChart');
+                if (canvas) {
+                    const ctx = canvas.getContext('2d');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillStyle = '#ff6b6b';
+                    ctx.font = '12px monospace';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('Chart error - check console', canvas.width / 2, canvas.height / 2);
+                }
+            }
             
             // Update status with performance info
             const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;

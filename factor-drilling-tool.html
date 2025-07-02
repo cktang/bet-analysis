@@ -8,11 +8,80 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', monospace, sans-serif; background: #1a1a1a; color: #e0e0e0; font-size: 11px; }
         
-        .container { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+        .container { display: flex; flex-direction: column; height: 100vh; overflow: hidden; position: relative; }
         
-        .top-bar { background: #2d2d2d; padding: 8px 12px; border-bottom: 1px solid #404040; flex-shrink: 0; }
+        .top-bar { background: #2d2d2d; padding: 8px 12px; padding-right: 320px; border-bottom: 1px solid #404040; flex-shrink: 0; position: relative; }
         .app-title { color: #00ff88; font-weight: bold; font-size: 14px; margin-bottom: 4px; }
         .status-line { color: #888; font-size: 10px; }
+        
+        .pinned-strategies { 
+            position: fixed; 
+            top: 0; 
+            right: 0; 
+            width: 300px; 
+            height: 160px; 
+            background: #1e1e1e; 
+            border-left: 1px solid #404040; 
+            border-bottom: 1px solid #404040; 
+            padding: 8px; 
+            z-index: 100;
+            overflow-y: auto;
+        }
+        .pinned-strategies-title { 
+            color: #00bfff; 
+            font-size: 9px; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            margin-bottom: 6px; 
+            padding-bottom: 4px;
+            border-bottom: 1px solid #333;
+        }
+        .pinned-strategy { 
+            display: flex; 
+            flex-direction: column; 
+            background: #2a2a2a; 
+            margin: 3px 0; 
+            padding: 6px 8px; 
+            border-radius: 2px; 
+            font-size: 9px; 
+        }
+        .pinned-strategy-name { 
+            color: #00bfff; 
+            cursor: pointer; 
+            font-weight: bold; 
+            margin-bottom: 2px;
+        }
+        .pinned-strategy-name:hover { 
+            color: #64b5f6; 
+        }
+        .pinned-strategy-info { 
+            color: #888; 
+            font-size: 8px; 
+            margin-bottom: 4px; 
+        }
+        .pinned-strategy-controls { 
+            display: flex; 
+            gap: 4px; 
+            justify-content: flex-end;
+        }
+        .pinned-strategy-btn {
+            background: #555;
+            color: white;
+            border: none;
+            padding: 2px 6px;
+            font-size: 8px;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .pinned-strategy-btn:hover {
+            background: #666;
+        }
+        .pinned-strategy-btn.danger {
+            background: #d32f2f;
+        }
+        .pinned-strategy-btn.danger:hover {
+            background: #f44336;
+        }
         
         .selected-panel { background: #252525; padding: 8px 12px; border-bottom: 1px solid #404040; min-height: 60px; max-height: 100px; flex-shrink: 0; overflow-y: auto; }
         .selected-title { color: #00bfff; font-size: 10px; font-weight: bold; margin-bottom: 4px; text-transform: uppercase; }
@@ -29,7 +98,7 @@
         .mandatory-section { background: #2d1b1b; border-bottom: 1px solid #404040; padding: 8px; }
         .mandatory-title { color: #ff6b6b; font-size: 9px; font-weight: bold; text-transform: uppercase; margin-bottom: 4px; }
         .mandatory-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
-        .mandatory-item { background: #3d2d2d; padding: 4px 6px; border-radius: 2px; cursor: pointer; border: 1px solid transparent; }
+        .mandatory-item { background: #3d2d2d; padding: 4px 6px; border-radius: 2px; cursor: pointer; border: 1px solid transparent; position: relative; overflow: hidden; }
         .mandatory-item:hover { border-color: #ff6b6b; }
         .mandatory-item.selected { background: #d32f2f; color: white; }
         .mandatory-item-name { font-weight: bold; font-size: 9px; }
@@ -37,18 +106,47 @@
         
         .factor-section { padding: 6px; border-bottom: 1px solid #333; }
         .factor-title { color: #00bfff; font-size: 9px; font-weight: bold; text-transform: uppercase; margin-bottom: 4px; padding: 2px 4px; background: #1a1a1a; }
-        .factor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
-        .factor-item { background: #2a2a2a; padding: 3px 5px; border-radius: 2px; cursor: pointer; border: 1px solid transparent; }
+        .factor-grid { display: flex; flex-wrap: wrap; gap: 2px; }
+        .factor-item { 
+            background: #2a2a2a; 
+            padding: 3px 5px; 
+            border-radius: 2px; 
+            cursor: pointer; 
+            border: 1px solid transparent; 
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            min-width: fit-content;
+        }
         .factor-item:hover { border-color: #00bfff; background: #333; }
         .factor-item.selected { background: #1565c0; color: white; }
-        .factor-item.negative-roi { opacity: 0.7; }
+        .factor-item.negative-roi { }
         
-        .mandatory-item.negative-roi { opacity: 0.7; }
+        .mandatory-item.negative-roi { }
+        
+        /* ROI Background Bar System */
+        .factor-item::before, .mandatory-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: var(--roi-width, 0%);
+            background: var(--roi-color, transparent);
+            opacity: 0.25;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .factor-item > *, .mandatory-item > * {
+            position: relative;
+            z-index: 2;
+        }
         .factor-name { font-weight: bold; font-size: 9px; }
         .factor-desc { font-size: 8px; color: #888; margin-top: 1px; line-height: 1.2; }
         .factor-roi { font-size: 8px; font-weight: bold; margin-top: 1px; }
         .roi-positive { color: #00ff88; }
-        .roi-negative { color: #ff6b6b; opacity: 0.7; }
+        .roi-negative { color: #ff6b6b; }
         .roi-neutral { color: #888; opacity: 0.7; }
         
         .results-content { padding: 12px; height: 100%; overflow-y: auto; box-sizing: border-box; }
@@ -71,6 +169,27 @@
         .records-table td { padding: 3px 6px; border: 1px solid #333; background: #1e1e1e; word-wrap: break-word; }
         .records-table tr:nth-child(even) td { background: #252525; }
         .records-table tr:hover td { background: #2a2a2a; }
+        
+        /* Column widths for betting records table */
+        .records-table th:nth-child(1) { width: 65px; } /* Date */
+        .records-table th:nth-child(2) { width: 200px; } /* Match - made wider */
+        .records-table th:nth-child(3) { width: 50px; } /* Score */
+        .records-table th:nth-child(4) { width: 70px; } /* Handicap */
+        .records-table th:nth-child(5) { width: 45px; } /* Side */
+        .records-table th:nth-child(6) { width: 50px; } /* Odds */
+        .records-table th:nth-child(7) { width: 60px; } /* Stake */
+        .records-table th:nth-child(8) { width: 55px; } /* Result */
+        .records-table th:nth-child(9) { width: 60px; } /* P&L */
+        
+        .records-table td:nth-child(1) { width: 65px; } /* Date */
+        .records-table td:nth-child(2) { width: 200px; } /* Match - made wider */
+        .records-table td:nth-child(3) { width: 50px; } /* Score */
+        .records-table td:nth-child(4) { width: 70px; } /* Handicap */
+        .records-table td:nth-child(5) { width: 45px; } /* Side */
+        .records-table td:nth-child(6) { width: 50px; } /* Odds */
+        .records-table td:nth-child(7) { width: 60px; } /* Stake */
+        .records-table td:nth-child(8) { width: 55px; } /* Result */
+        .records-table td:nth-child(9) { width: 60px; } /* P&L */
         
         .team-link { color: #00bfff; cursor: pointer; text-decoration: underline; }
         .team-link:hover { color: #64b5f6; }
@@ -120,6 +239,12 @@
         <div class="top-bar">
             <div class="app-title">Asian Handicap Factor Analysis</div>
             <div class="status-line" id="status-line">Initializing...</div>
+            
+            <!-- Pinned Saved Strategies -->
+            <div class="pinned-strategies">
+                <div class="pinned-strategies-title">Saved Strategies</div>
+                <div id="pinnedSavedStrategies"></div>
+            </div>
         </div>
         
         <!-- Selected Factors Panel -->
@@ -138,9 +263,6 @@
                 <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importStrategy(event)">
                 <button class="strategy-btn" onclick="document.getElementById('importFile').click()">Import</button>
             </div>
-            
-            <!-- Saved Strategies -->
-            <div class="saved-strategies" id="savedStrategies"></div>
         </div>
         
         <!-- Main Content -->
@@ -492,7 +614,9 @@
         // Load factor definitions from JSON file
         async function loadFactorDefinitions() {
             try {
-                const response = await fetch('src/pattern-discovery/factor_definitions.json');
+                // Add cache-busting timestamp to ensure fresh data
+                const cacheBuster = new Date().getTime();
+                const response = await fetch(`src/pattern-discovery/factor_definitions.json?v=${cacheBuster}`);
                 if (!response.ok) {
                     throw new Error(`Failed to load factor definitions: ${response.statusText}`);
                 }
@@ -608,6 +732,26 @@
             }
         }
         
+        // Calculate ROI background bar properties
+        function calculateRoiBar(roi) {
+            if (!roi || roi === 0) {
+                return { width: '0%', color: 'transparent' };
+            }
+            
+            // Scale ROI to a reasonable bar width (max 100% width for ±20% ROI)
+            const maxRoi = 20; // ROI values beyond ±20% will be capped for display
+            const scaledRoi = Math.max(-maxRoi, Math.min(maxRoi, roi));
+            const width = Math.abs(scaledRoi / maxRoi) * 100;
+            
+            // Color based on positive/negative ROI
+            const color = roi > 0 ? '#00ff88' : '#ff0000'; // Light green for positive, bright red for negative
+            
+            return {
+                width: `${width}%`,
+                color: color
+            };
+        }
+        
         // Render factor selection UI
         function renderFactorSelection() {
             if (Object.keys(factorDefinitions).length === 0) return;
@@ -658,10 +802,16 @@
             sideFactorsWithRoi.sort((a, b) => b.roi - a.roi);
             
             // Render sorted SIDE factors
-            sideFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roiHtml }) => {                    
+            sideFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
                 const factorDiv = document.createElement('div');
                 const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
                 factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+                
+                // Apply ROI background bar
+                const roiBarData = calculateRoiBar(roi);
+                factorDiv.style.setProperty('--roi-width', roiBarData.width);
+                factorDiv.style.setProperty('--roi-color', roiBarData.color);
+                
                 factorDiv.innerHTML = `
                     <div class="mandatory-item-name">SIDE: ${toStartCase(factorKey)}</div>
                     <div class="mandatory-item-desc">${factor.description}</div>
@@ -705,10 +855,16 @@
             sizeFactorsWithRoi.sort((a, b) => b.roi - a.roi);
             
             // Render sorted SIZE factors
-            sizeFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roiHtml }) => {                    
+            sizeFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
                 const factorDiv = document.createElement('div');
                 const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
                 factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+                
+                // Apply ROI background bar
+                const roiBarData = calculateRoiBar(roi);
+                factorDiv.style.setProperty('--roi-width', roiBarData.width);
+                factorDiv.style.setProperty('--roi-color', roiBarData.color);
+                
                 factorDiv.innerHTML = `
                     <div class="mandatory-item-name">SIZE: ${toStartCase(factorKey)}</div>
                     <div class="mandatory-item-desc">${factor.description}</div>
@@ -789,10 +945,16 @@
                 factorsWithRoi.sort((a, b) => b.roi - a.roi);
                 
                 // Render sorted factors
-                factorsWithRoi.forEach(({ factorKey, factor, isSelected, roiHtml }) => {
+                factorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {
                     const factorDiv = document.createElement('div');
                     const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
                     factorDiv.className = `factor-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+                    
+                    // Apply ROI background bar
+                    const roiBarData = calculateRoiBar(roi);
+                    factorDiv.style.setProperty('--roi-width', roiBarData.width);
+                    factorDiv.style.setProperty('--roi-color', roiBarData.color);
+                    
                     factorDiv.innerHTML = `
                         <div class="factor-name">${toStartCase(factorKey)}</div>
                         <div class="factor-desc">${factor.description}</div>
@@ -994,6 +1156,19 @@
                     // Calculate result
                     const result = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, stake);
                     
+                    // Evaluate displayExpressions for selected factors
+                    const factorValues = {};
+                    selectedFactors.forEach(factor => {
+                        if (factor.displayExpression) {
+                            try {
+                                const value = evaluateFactorExpression(match, factor.displayExpression);
+                                factorValues[factor.key] = value;
+                            } catch (error) {
+                                factorValues[factor.key] = 'Error';
+                            }
+                        }
+                    });
+
                     // Create record
                     const record = {
                         matchKey: match.matchKey,
@@ -1009,7 +1184,8 @@
                         payout: result.payout,
                         profit: result.profit,
                         week: match.fbref?.week || 0,
-                        season: match.season || 'unknown'
+                        season: match.season || 'unknown',
+                        factorValues: factorValues
                     };
                     
                     bettingRecords.push(record);
@@ -1059,6 +1235,9 @@
             
             const { summary, bettingRecords } = currentResults;
             
+            // Get factors with displayExpressions
+            const factorsWithDisplay = selectedFactors.filter(f => f.displayExpression);
+            
             const resultsHTML = `
                 <div class="summary">
                     <div class="summary-header">Strategy Performance</div>
@@ -1099,15 +1278,18 @@
                     <table class="records-table">
                         <thead>
                             <tr>
-                                <th style="width: 8%;">Date</th>
-                                <th style="width: 28%;">Match</th>
-                                <th style="width: 8%;">Score</th>
-                                <th style="width: 10%;">Handicap</th>
-                                <th style="width: 6%;">Side</th>
-                                <th style="width: 8%;">Odds</th>
-                                <th style="width: 8%;">Stake</th>
-                                <th style="width: 8%;">Result</th>
-                                <th style="width: 8%;">P&L</th>
+                                <th>Date</th>
+                                <th>Match</th>
+                                <th>Score</th>
+                                <th>Handicap</th>
+                                <th>Side</th>
+                                <th>Odds</th>
+                                <th>Stake</th>
+                                <th>Result</th>
+                                <th>P&L</th>
+                                ${factorsWithDisplay.map(factor => `
+                                    <th title="${factor.description || factor.key}">${toStartCase(factor.key)}</th>
+                                `).join('')}
                             </tr>
                         </thead>
                         <tbody>
@@ -1126,6 +1308,11 @@
                                     <td>${formatCurrency(record.stake)}</td>
                                     <td>${record.outcome.toUpperCase()}</td>
                                     <td class="${getProfitColorClass(record.profit)}">${formatCurrency(record.profit)}</td>
+                                    ${factorsWithDisplay.map(factor => {
+                                        const value = record.factorValues?.[factor.key];
+                                        const displayValue = value ?? '-';
+                                        return `<td>${displayValue}</td>`;
+                                    }).join('')}
                                 </tr>
                             `).join('')}
                         </tbody>
@@ -1524,10 +1711,10 @@
         
         function renderSavedStrategies() {
             const savedStrategies = getSavedStrategies();
-            const container = document.getElementById('savedStrategies');
+            const container = document.getElementById('pinnedSavedStrategies');
             
             if (savedStrategies.length === 0) {
-                container.innerHTML = '';
+                container.innerHTML = '<div style="color: #666; font-size: 9px; text-align: center; padding: 20px;">No saved strategies</div>';
                 return;
             }
             
@@ -1543,15 +1730,15 @@
                 const timeAgo = getTimeAgo(strategy.timestamp);
                 
                 return `
-                    <div class="saved-strategy">
-                        <div class="saved-strategy-name" onclick="loadStrategy('${strategy.name}')" title="Click to load: ${strategy.name}">
+                    <div class="pinned-strategy">
+                        <div class="pinned-strategy-name" onclick="loadStrategy('${strategy.name}')" title="Click to load: ${strategy.name}">
                             ${strategy.name}
                         </div>
-                        <div class="saved-strategy-info" title="${perfText}">
+                        <div class="pinned-strategy-info" title="${perfText}">
                             ${timeAgo} • ${perfText}
                         </div>
-                        <div class="saved-strategy-controls">
-                            <button class="strategy-btn danger" onclick="deleteStrategy('${strategy.name}')" title="Delete strategy">×</button>
+                        <div class="pinned-strategy-controls">
+                            <button class="pinned-strategy-btn danger" onclick="deleteStrategy('${strategy.name}')" title="Delete strategy">×</button>
                         </div>
                     </div>
                 `;

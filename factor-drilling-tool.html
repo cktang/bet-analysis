@@ -72,8 +72,41 @@
         .records-table tr:nth-child(even) td { background: #252525; }
         .records-table tr:hover td { background: #2a2a2a; }
         
+        .team-link { color: #00bfff; cursor: pointer; text-decoration: underline; }
+        .team-link:hover { color: #64b5f6; }
+        
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); }
+        .modal-content { background-color: #1e1e1e; margin: 2% auto; padding: 20px; border: 1px solid #404040; width: 90%; max-width: 1200px; height: 90%; overflow-y: auto; border-radius: 4px; }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid #404040; padding-bottom: 10px; }
+        .modal-title { color: #00ff88; font-size: 16px; font-weight: bold; }
+        .modal-close { color: #aaa; font-size: 24px; font-weight: bold; cursor: pointer; }
+        .modal-close:hover { color: #fff; }
+        .team-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 20px; }
+        .team-stat { background: #252525; padding: 10px; border: 1px solid #404040; text-align: center; }
+        .team-stat-value { font-size: 14px; font-weight: bold; margin-bottom: 5px; }
+        .team-stat-label { font-size: 10px; color: #888; text-transform: uppercase; }
+        .team-matches-table { width: 100%; border-collapse: collapse; font-size: 10px; }
+        .team-matches-table th { background: #2d2d2d; color: #00bfff; padding: 6px; text-align: left; font-weight: bold; font-size: 9px; text-transform: uppercase; border: 1px solid #404040; }
+        .team-matches-table td { padding: 4px 6px; border: 1px solid #333; background: #1e1e1e; }
+        .team-matches-table tr:nth-child(even) td { background: #252525; }
+        .team-matches-table tr:hover td { background: #2a2a2a; }
+        
+        .strategy-controls { display: flex; gap: 8px; align-items: center; margin-top: 8px; padding-top: 8px; border-top: 1px solid #404040; }
+        .strategy-input { background: #2a2a2a; border: 1px solid #404040; color: #e0e0e0; padding: 4px 8px; font-size: 9px; border-radius: 2px; width: 120px; }
+        .strategy-btn { background: #1565c0; color: white; border: none; padding: 4px 8px; font-size: 9px; border-radius: 2px; cursor: pointer; }
+        .strategy-btn:hover { background: #1976d2; }
+        .strategy-btn.danger { background: #d32f2f; }
+        .strategy-btn.danger:hover { background: #f44336; }
+        .strategy-btn:disabled { background: #555; cursor: not-allowed; opacity: 0.6; }
+        
+        .saved-strategies { max-height: 120px; overflow-y: auto; margin-top: 8px; }
+        .saved-strategy { display: flex; justify-content: space-between; align-items: center; background: #2a2a2a; margin: 2px 0; padding: 4px 8px; border-radius: 2px; font-size: 9px; }
+        .saved-strategy-name { color: #00bfff; cursor: pointer; flex: 1; }
+        .saved-strategy-name:hover { color: #64b5f6; }
+        .saved-strategy-info { color: #888; font-size: 8px; margin-right: 8px; }
+        .saved-strategy-controls { display: flex; gap: 4px; }
+        
         .loading { text-align: center; padding: 40px; color: #888; font-size: 10px; }
-        .error { color: #ff6b6b; background: #2d1b1b; padding: 8px; border: 1px solid #ff6b6b; margin: 8px 0; font-size: 10px; }
         
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #1a1a1a; }
@@ -95,6 +128,19 @@
             <div class="selected-factors-list" id="selected-factors-list">
                 <div style="color: #666; font-size: 9px;">Select betting side and stake method to begin</div>
             </div>
+            
+            <!-- Strategy Controls -->
+            <div class="strategy-controls">
+                <input type="text" id="strategyName" class="strategy-input" placeholder="Strategy name..." maxlength="30">
+                <button class="strategy-btn" onclick="saveStrategy()" id="saveBtn" disabled>Save</button>
+                <button class="strategy-btn" onclick="clearStrategy()">Clear All</button>
+                <button class="strategy-btn" onclick="exportStrategy()" id="exportBtn" disabled>Export</button>
+                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importStrategy(event)">
+                <button class="strategy-btn" onclick="document.getElementById('importFile').click()">Import</button>
+            </div>
+            
+            <!-- Saved Strategies -->
+            <div class="saved-strategies" id="savedStrategies"></div>
         </div>
         
         <!-- Main Content -->
@@ -118,6 +164,35 @@
                         <div class="loading">Loading strategy engine...</div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Team Analysis Modal -->
+    <div id="teamModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTeamName">Team Analysis</div>
+                <span class="modal-close" onclick="closeTeamModal()">&times;</span>
+            </div>
+            <div class="team-stats" id="teamStats"></div>
+            <div class="team-matches-section">
+                <h3 style="color: #00bfff; margin-bottom: 10px;">All Matches</h3>
+                <table class="team-matches-table" id="teamMatchesTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Opponent</th>
+                            <th>Venue</th>
+                            <th>Score</th>
+                            <th>Result</th>
+                            <th>AH</th>
+                            <th>AH Result</th>
+                            <th>Streak</th>
+                        </tr>
+                    </thead>
+                    <tbody id="teamMatchesBody"></tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -358,6 +433,7 @@
                 };
                 
                 result = new Function(...Object.keys(context), `return ${expression}`)(...Object.values(context));
+                
             } catch (error) {
                 console.warn(`Error evaluating expression: ${expression}`, error);
                 result = false;
@@ -474,11 +550,19 @@
                     }
                     
                     const data = await response.json();
+                    
+                    // Extract season from filename (e.g., "year-2023-2024-enhanced.json" -> "2023-24")
+                    const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
+                    const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
+                    
                     if (data.matches) {
                         Object.keys(data.matches).forEach(matchKey => {
                             const match = data.matches[matchKey];
-                            match.matchKey = matchKey;
-                            match.season = data.metadata?.season || 'unknown';
+                            // Create unique matchKey including season to avoid collisions
+                            const uniqueMatchKey = `${season}_${matchKey}`;
+                            match.matchKey = uniqueMatchKey;
+                            match.originalMatchKey = matchKey;
+                            match.season = season;
                             allMatches.push(match);
                         });
                     }
@@ -487,6 +571,8 @@
                 updateStatus(`Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches | 🚀 Performance cache active`);
                 renderFactorSelection();
                 updateResults();
+                renderSavedStrategies();
+                updateStrategyControls();
                 
             } catch (error) {
                 updateStatus(`ERROR: ${error.message}`);
@@ -740,6 +826,7 @@
             renderFactorSelection();
             renderSelectedFactors();
             updateResults();
+            updateStrategyControls();
         }
         
         // Select additional factor
@@ -748,6 +835,7 @@
             renderFactorSelection();
             renderSelectedFactors();
             updateResults();
+            updateStrategyControls();
         }
         
         // Remove selected factor
@@ -756,6 +844,7 @@
             renderFactorSelection();
             renderSelectedFactors();
             updateResults();
+            updateStrategyControls();
         }
         
         // Deselect factor from sidebar
@@ -766,6 +855,7 @@
                 renderFactorSelection();
                 renderSelectedFactors();
                 updateResults();
+                updateStrategyControls();
             }
         }
         
@@ -812,6 +902,7 @@
             renderFactorSelection();
             renderSelectedFactors();
             updateResults();
+            updateStrategyControls();
         }
         
         // Update results based on selected factors
@@ -903,8 +994,6 @@
                     // Calculate result
                     const result = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, stake);
                     
-
-
                     // Create record
                     const record = {
                         matchKey: match.matchKey,
@@ -919,7 +1008,8 @@
                         outcome: result.outcome,
                         payout: result.payout,
                         profit: result.profit,
-                        week: match.fbref?.week || 0
+                        week: match.fbref?.week || 0,
+                        season: match.season || 'unknown'
                     };
                     
                     bettingRecords.push(record);
@@ -1024,7 +1114,11 @@
                             ${bettingRecords.map(record => `
                                 <tr>
                                     <td>${new Date(record.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
-                                    <td>${record.homeTeam} v ${record.awayTeam}</td>
+                                    <td>
+                                        <span class="team-link" onclick="openTeamModal('${record.homeTeam}')">${record.homeTeam}</span> v 
+                                        <span class="team-link" onclick="openTeamModal('${record.awayTeam}')">${record.awayTeam}</span>
+                                        <span style="font-size: 8px; color: #666; margin-left: 4px;">(${record.season || 'S?'})</span>
+                                    </td>
                                     <td>${record.score}</td>
                                     <td>${record.handicap}</td>
                                     <td>${record.betSide.toUpperCase()}</td>
@@ -1046,6 +1140,445 @@
             updateStatusWithPerformance(baseStatus);
         }
         
+        // Team Analysis Functions
+        function openTeamModal(teamName) {
+            analyzeTeam(teamName);
+            document.getElementById('teamModal').style.display = 'block';
+        }
+        
+        function closeTeamModal() {
+            document.getElementById('teamModal').style.display = 'none';
+        }
+        
+        function analyzeTeam(teamName) {
+            console.log(`🔍 Analyzing team: ${teamName}`);
+            
+            // Get all matches for this team
+            const teamMatches = allMatches.filter(match => {
+                const matchData = match.match || {};
+                return matchData.homeTeam === teamName || matchData.awayTeam === teamName;
+            }).sort((a, b) => new Date(a.match?.date || 0) - new Date(b.match?.date || 0));
+            
+            // Calculate team statistics
+            let wins = 0, losses = 0, draws = 0;
+            let ahWins = 0, ahLosses = 0, ahPushes = 0;
+            let homeRecord = { wins: 0, losses: 0, draws: 0 };
+            let awayRecord = { wins: 0, losses: 0, draws: 0 };
+            let currentStreak = { type: '', count: 0 };
+            let ahCurrentStreak = { type: '', count: 0 };
+            
+            teamMatches.forEach((match, index) => {
+                const matchData = match.match || {};
+                const isHome = matchData.homeTeam === teamName;
+                const homeScore = matchData.homeScore || 0;
+                const awayScore = matchData.awayScore || 0;
+                const handicap = matchData.asianHandicapOdds?.homeHandicap;
+                
+                // Overall result
+                let result = 'draw';
+                if (isHome) {
+                    if (homeScore > awayScore) { result = 'win'; wins++; homeRecord.wins++; }
+                    else if (homeScore < awayScore) { result = 'loss'; losses++; homeRecord.losses++; }
+                    else { draws++; homeRecord.draws++; }
+                } else {
+                    if (awayScore > homeScore) { result = 'win'; wins++; awayRecord.wins++; }
+                    else if (awayScore < homeScore) { result = 'loss'; losses++; awayRecord.losses++; }
+                    else { draws++; awayRecord.draws++; }
+                }
+                
+                // Update current streak
+                if (index === 0) {
+                    currentStreak = { type: result, count: result === 'draw' ? 0 : 1 };
+                } else if (result === currentStreak.type && result !== 'draw') {
+                    currentStreak.count++;
+                } else if (result !== 'draw') {
+                    currentStreak = { type: result, count: 1 };
+                }
+                
+                // Asian Handicap result
+                if (handicap) {
+                    const betSide = isHome ? 'home' : 'away';
+                    const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
+                    const ahResult = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
+                    
+                    if (ahResult.outcome === 'win') ahWins++;
+                    else if (ahResult.outcome === 'loss') ahLosses++;
+                    else ahPushes++;
+                    
+                    // Update AH streak
+                    if (index === 0) {
+                        ahCurrentStreak = { type: ahResult.outcome, count: ahResult.outcome === 'push' ? 0 : 1 };
+                    } else if (ahResult.outcome === ahCurrentStreak.type && ahResult.outcome !== 'push') {
+                        ahCurrentStreak.count++;
+                    } else if (ahResult.outcome !== 'push') {
+                        ahCurrentStreak = { type: ahResult.outcome, count: 1 };
+                    }
+                }
+            });
+            
+            // Update modal content
+            document.getElementById('modalTeamName').textContent = `${teamName} - Complete Analysis`;
+            
+            // Team statistics
+            const totalMatches = teamMatches.length;
+            const winRate = totalMatches > 0 ? (wins / totalMatches * 100).toFixed(1) : '0.0';
+            const ahWinRate = (ahWins + ahLosses + ahPushes) > 0 ? (ahWins / (ahWins + ahLosses + ahPushes) * 100).toFixed(1) : '0.0';
+            
+            const statsHTML = `
+                <div class="team-stat">
+                    <div class="team-stat-value">${totalMatches}</div>
+                    <div class="team-stat-label">Total Matches</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${wins}W-${losses}L-${draws}D</div>
+                    <div class="team-stat-label">Overall Record</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${winRate}%</div>
+                    <div class="team-stat-label">Win Rate</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${homeRecord.wins}W-${homeRecord.losses}L-${homeRecord.draws}D</div>
+                    <div class="team-stat-label">Home Record</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${awayRecord.wins}W-${awayRecord.losses}L-${awayRecord.draws}D</div>
+                    <div class="team-stat-label">Away Record</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${ahWins}W-${ahLosses}L-${ahPushes}P</div>
+                    <div class="team-stat-label">AH Record</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value">${ahWinRate}%</div>
+                    <div class="team-stat-label">AH Win Rate</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-value ${currentStreak.type === 'win' ? 'profit-positive' : currentStreak.type === 'loss' ? 'profit-negative' : ''}">${currentStreak.count} ${currentStreak.type.toUpperCase()}</div>
+                    <div class="team-stat-label">Current Streak</div>
+                </div>
+            `;
+            
+            document.getElementById('teamStats').innerHTML = statsHTML;
+            
+            // Matches table
+            const matchesHTML = teamMatches.map((match, index) => {
+                const matchData = match.match || {};
+                const isHome = matchData.homeTeam === teamName;
+                const opponent = isHome ? matchData.awayTeam : matchData.homeTeam;
+                const venue = isHome ? 'HOME' : 'AWAY';
+                const homeScore = matchData.homeScore || 0;
+                const awayScore = matchData.awayScore || 0;
+                const score = `${homeScore}-${awayScore}`;
+                
+                // Overall result
+                let result = 'DRAW';
+                let resultClass = 'profit-neutral';
+                if (isHome) {
+                    if (homeScore > awayScore) { result = 'WIN'; resultClass = 'profit-positive'; }
+                    else if (homeScore < awayScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
+                } else {
+                    if (awayScore > homeScore) { result = 'WIN'; resultClass = 'profit-positive'; }
+                    else if (awayScore < homeScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
+                }
+                
+                // AH result
+                const handicap = matchData.asianHandicapOdds?.homeHandicap || 'N/A';
+                let ahResult = 'N/A';
+                let ahResultClass = '';
+                
+                if (handicap !== 'N/A') {
+                    const betSide = isHome ? 'home' : 'away';
+                    const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
+                    const calculation = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
+                    ahResult = calculation.outcome.toUpperCase();
+                    ahResultClass = calculation.outcome === 'win' ? 'profit-positive' : calculation.outcome === 'loss' ? 'profit-negative' : 'profit-neutral';
+                }
+                
+                // Get streak info from timeSeries if available
+                let streakInfo = '';
+                if (match.timeSeries) {
+                    const teamSeries = isHome ? match.timeSeries.home : match.timeSeries.away;
+                    if (teamSeries?.streaks?.overall?.current) {
+                        const streak = teamSeries.streaks.overall.current;
+                        streakInfo = `${streak.count} ${streak.type.toUpperCase()}`;
+                    }
+                }
+                
+                return `
+                    <tr>
+                        <td>${new Date(matchData.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
+                        <td>${opponent}</td>
+                        <td>${venue}</td>
+                        <td>${score}</td>
+                        <td class="${resultClass}">${result}</td>
+                        <td>${handicap}</td>
+                        <td class="${ahResultClass}">${ahResult}</td>
+                        <td>${streakInfo}</td>
+                    </tr>
+                `;
+            }).join('');
+            
+            document.getElementById('teamMatchesBody').innerHTML = matchesHTML;
+        }
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('teamModal');
+            if (event.target === modal) {
+                closeTeamModal();
+            }
+        }
+        
+        // Strategy Save/Load Functions
+        function saveStrategy() {
+            const name = document.getElementById('strategyName').value.trim();
+            if (!name) {
+                alert('Please enter a strategy name');
+                return;
+            }
+            
+            if (!selectedSide || !selectedSize) {
+                alert('Please select both betting side and stake size before saving');
+                return;
+            }
+            
+            const strategy = {
+                name: name,
+                timestamp: Date.now(),
+                side: selectedSide,
+                size: selectedSize,
+                factors: selectedFactors,
+                performance: currentResults ? {
+                    roi: currentResults.summary.roi,
+                    totalBets: currentResults.summary.totalBets,
+                    winRate: currentResults.summary.winRate,
+                    totalProfit: currentResults.summary.totalProfit
+                } : null
+            };
+            
+            // Get existing strategies
+            let savedStrategies = getSavedStrategies();
+            
+            // Check if name already exists
+            if (savedStrategies.some(s => s.name === name)) {
+                if (!confirm(`Strategy "${name}" already exists. Overwrite?`)) {
+                    return;
+                }
+                savedStrategies = savedStrategies.filter(s => s.name !== name);
+            }
+            
+            // Add new strategy
+            savedStrategies.push(strategy);
+            
+            // Save to localStorage
+            localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
+            
+            // Clear input and refresh display
+            document.getElementById('strategyName').value = '';
+            renderSavedStrategies();
+            updateStatus(`Strategy "${name}" saved successfully`);
+            
+            console.log('💾 Strategy saved:', strategy);
+        }
+        
+        function loadStrategy(name) {
+            const savedStrategies = getSavedStrategies();
+            const strategy = savedStrategies.find(s => s.name === name);
+            
+            if (!strategy) {
+                alert('Strategy not found');
+                return;
+            }
+            
+            // Load the strategy
+            selectedSide = strategy.side;
+            selectedSize = strategy.size;
+            selectedFactors = strategy.factors || [];
+            
+            // Refresh the UI
+            renderFactorSelection();
+            renderSelectedFactors();
+            updateResults();
+            updateStrategyControls();
+            
+            updateStatus(`Strategy "${name}" loaded successfully`);
+            console.log('📂 Strategy loaded:', strategy);
+        }
+        
+        function deleteStrategy(name) {
+            if (!confirm(`Delete strategy "${name}"?`)) {
+                return;
+            }
+            
+            let savedStrategies = getSavedStrategies();
+            savedStrategies = savedStrategies.filter(s => s.name !== name);
+            
+            localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
+            renderSavedStrategies();
+            updateStatus(`Strategy "${name}" deleted`);
+        }
+        
+        function clearStrategy() {
+            if (selectedSide || selectedSize || selectedFactors.length > 0) {
+                if (!confirm('Clear all selected factors?')) {
+                    return;
+                }
+            }
+            
+            selectedSide = null;
+            selectedSize = null;
+            selectedFactors = [];
+            
+            renderFactorSelection();
+            renderSelectedFactors();
+            updateResults();
+            updateStrategyControls();
+            
+            updateStatus('Strategy cleared');
+        }
+        
+        function exportStrategy() {
+            if (!selectedSide || !selectedSize) {
+                alert('Please select both betting side and stake size before exporting');
+                return;
+            }
+            
+            const strategy = {
+                name: document.getElementById('strategyName').value.trim() || 'Unnamed Strategy',
+                timestamp: Date.now(),
+                side: selectedSide,
+                size: selectedSize,
+                factors: selectedFactors,
+                performance: currentResults ? {
+                    roi: currentResults.summary.roi,
+                    totalBets: currentResults.summary.totalBets,
+                    winRate: currentResults.summary.winRate,
+                    totalProfit: currentResults.summary.totalProfit
+                } : null,
+                exportedFrom: 'Asian Handicap Factor Drilling Tool'
+            };
+            
+            const blob = new Blob([JSON.stringify(strategy, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `ah_strategy_${strategy.name.replace(/[^a-z0-9]/gi, '_')}_${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            updateStatus(`Strategy exported: ${a.download}`);
+        }
+        
+        function importStrategy(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const strategy = JSON.parse(e.target.result);
+                    
+                    // Validate strategy structure
+                    if (!strategy.side || !strategy.size) {
+                        throw new Error('Invalid strategy file format');
+                    }
+                    
+                    // Load the strategy
+                    selectedSide = strategy.side;
+                    selectedSize = strategy.size;
+                    selectedFactors = strategy.factors || [];
+                    
+                    // Update name input
+                    document.getElementById('strategyName').value = strategy.name || '';
+                    
+                    // Refresh the UI
+                    renderFactorSelection();
+                    renderSelectedFactors();
+                    updateResults();
+                    updateStrategyControls();
+                    
+                    updateStatus(`Strategy "${strategy.name}" imported successfully`);
+                    console.log('📥 Strategy imported:', strategy);
+                    
+                } catch (error) {
+                    alert('Error importing strategy: ' + error.message);
+                    console.error('Import error:', error);
+                }
+            };
+            reader.readAsText(file);
+            
+            // Clear the file input
+            event.target.value = '';
+        }
+        
+        function getSavedStrategies() {
+            try {
+                const saved = localStorage.getItem('ah_strategies');
+                return saved ? JSON.parse(saved) : [];
+            } catch (error) {
+                console.error('Error loading saved strategies:', error);
+                return [];
+            }
+        }
+        
+        function renderSavedStrategies() {
+            const savedStrategies = getSavedStrategies();
+            const container = document.getElementById('savedStrategies');
+            
+            if (savedStrategies.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            // Sort by timestamp (newest first)
+            savedStrategies.sort((a, b) => b.timestamp - a.timestamp);
+            
+            const strategiesHTML = savedStrategies.map(strategy => {
+                const perf = strategy.performance;
+                const perfText = perf ? 
+                    `${perf.totalBets} bets, ${perf.roi.toFixed(1)}% ROI` : 
+                    'No performance data';
+                
+                const timeAgo = getTimeAgo(strategy.timestamp);
+                
+                return `
+                    <div class="saved-strategy">
+                        <div class="saved-strategy-name" onclick="loadStrategy('${strategy.name}')" title="Click to load: ${strategy.name}">
+                            ${strategy.name}
+                        </div>
+                        <div class="saved-strategy-info" title="${perfText}">
+                            ${timeAgo} • ${perfText}
+                        </div>
+                        <div class="saved-strategy-controls">
+                            <button class="strategy-btn danger" onclick="deleteStrategy('${strategy.name}')" title="Delete strategy">×</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = strategiesHTML;
+        }
+        
+        function getTimeAgo(timestamp) {
+            const now = Date.now();
+            const diff = now - timestamp;
+            const minutes = Math.floor(diff / 60000);
+            const hours = Math.floor(diff / 3600000);
+            const days = Math.floor(diff / 86400000);
+            
+            if (days > 0) return `${days}d ago`;
+            if (hours > 0) return `${hours}h ago`;
+            if (minutes > 0) return `${minutes}m ago`;
+            return 'Just now';
+        }
+        
+        function updateStrategyControls() {
+            const hasValidStrategy = selectedSide && selectedSize;
+            document.getElementById('saveBtn').disabled = !hasValidStrategy;
+            document.getElementById('exportBtn').disabled = !hasValidStrategy;
+        }
+        
         // Initialize on page load
         window.onload = function() {
             console.log('🚀 Asian Handicap Factor Analysis Tool with Performance Optimization');
@@ -1054,7 +1587,15 @@
             console.log('   • Asian Handicap calculation caching');
             console.log('   • Match filtering caching');
             console.log('   • Complete betting result caching');
-            console.log('⌨️  Shortcuts: Ctrl+Shift+C = Clear cache');
+            console.log('🎯 Interactive Features:');
+            console.log('   • Click team names in betting records for detailed analysis');
+            console.log('   • Complete match history and streak analysis per team');
+            console.log('💾 Strategy Management:');
+            console.log('   • Save/load factor combinations with localStorage');
+            console.log('   • Export/import strategies as JSON files');
+            console.log('   • Performance tracking for saved strategies');
+
+            console.log('⌨️  Shortcuts: Ctrl+Shift+C = Clear cache, ESC = Close modal');
             
             updateStatus('Initializing...');
             loadData().then(() => {
@@ -1085,6 +1626,11 @@
                         const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;
                         updateStatusWithPerformance(baseStatus);
                     }, 2000);
+                }
+                
+                // ESC to close modal
+                if (e.key === 'Escape') {
+                    closeTeamModal();
                 }
             });
         };

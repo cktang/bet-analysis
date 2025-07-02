@@ -288,6 +288,51 @@ node scripts/launch_dashboards.js
 
 ## ⚠️ Important Notes
 
+### 🚨 CRITICAL: MATCH IDENTIFICATION AND UNIQUE KEYS
+**⚠️ CATASTROPHIC BUG ALERT - SEASON MATCH COLLISIONS**
+
+**A critical bug was discovered in June 2024** that could have led to **devastating betting losses**. All agents must follow this rule:
+
+#### **💀 THE DEADLY BUG**
+```javascript
+// ❌ NEVER DO THIS - CAUSES SEASON COLLISIONS
+const matchKey = `${homeTeam} v ${awayTeam}`;  // "Southampton v Arsenal"
+```
+
+**What went wrong**: Multi-season datasets have identical fixtures across years:
+- `Southampton v Arsenal` appears in 2022-23, 2023-24, AND 2024-25
+- Factor evaluation found FIRST match (early 2022-23 season)  
+- Results display showed LAST match (final 2024-25 season)
+- **Result**: Factor said "Southampton has win streak" (wrong match data)
+- **Reality**: Southampton had loss streak (correct match data)
+- **Outcome**: COMPLETELY FALSE ROI CALCULATIONS
+
+#### **✅ MANDATORY SOLUTION - ALWAYS INCLUDE SEASON**
+```javascript
+// ✅ REQUIRED FORMAT - ALWAYS DO THIS
+const matchKey = `${season}_${homeTeam} v ${awayTeam}`;  // "2024-25_Southampton v Arsenal"
+
+// ✅ EXTRACT SEASON FROM FILENAME
+const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
+const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
+
+// ✅ DISPLAY SEASON IN UI
+`${homeTeam} v ${awayTeam} (${season})`
+```
+
+#### **💰 FINANCIAL IMPACT**
+- **Factor ROI calculations**: Completely wrong (could show +30% when actual is -20%)
+- **Strategy recommendations**: Based on wrong match evaluations  
+- **Real money losses**: Potentially catastrophic if deployed to live trading
+
+#### **🛡️ VALIDATION CHECKLIST**
+1. **Test with known duplicates**: Southampton v Arsenal, Manchester United v Liverpool
+2. **Question unexpected results**: Team with obvious losing streak selected by "win streak" factor
+3. **Include temporal context**: Season, week, date in ALL identifiers
+4. **Log verification**: Always display which specific match is being analyzed
+
+**Remember: In betting analysis, a small data error can cause catastrophic financial losses.** 💰⚠️
+
 ### 🚨 CRITICAL: Asian Handicap vs 1X2 Betting
 **⚠️ NEVER CONFUSE ASIAN HANDICAP WITH WIN/LOSE/DRAW CALCULATIONS**
 

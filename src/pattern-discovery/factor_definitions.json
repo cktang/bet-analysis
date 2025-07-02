@@ -24,8 +24,8 @@
   },
   "size": {
     "fix": {
-      "expression": "200",
-      "description": "$200",
+      "expression": "1500",
+      "description": "$1500",
       "stakingMethod": "fixed"
     },
     "dynamic": {
@@ -301,24 +301,24 @@
   },
   "streaking": {
     "HomeWinAHStreak": {
-      "expression": "timeSeries.home.streaks.handicap?.current?.type === 'win' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
+      "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'win' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
       "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
-      "description": "Home team on 2+ game win streak"
+      "description": "Home team on 2+ game AH win streak"
     },
     "HomeLossAHStreak": {
-      "expression": "timeSeries.home.streaks.handicap?.current?.type === 'loss' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
+      "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
       "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
-      "description": "Home team on 2+ game loss streak"
+      "description": "Home team on 2+ game AH loss streak"
     },
     "AwayWinAHStreak": {
-      "expression": "timeSeries.away.streaks.handicap?.current?.type === 'win' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
+      "expression": "timeSeries.away.streaks.asianHandicap?.current?.type === 'win' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
       "displayExpression": "timeSeries.away.streaks.asianHandicap?.current?.count",
-      "description": "Away team on 2+ game win streak"
+      "description": "Away team on 2+ game AH win streak"
     },
     "AwayLossAHStreak": {
-      "expression": "timeSeries.away.streaks.handicap?.current?.type === 'loss' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
+      "expression": "timeSeries.away.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.away.streaks.asianHandicap?.current?.count >= 2",
       "displayExpression": "timeSeries.away.streaks.asianHandicap?.current?.count",
-      "description": "Away team on 2+ game loss streak"
+      "description": "Away team on 2+ game AH loss streak"
     },
     "homeWinStreak": {
       "expression": "timeSeries.home.streaks.overall?.current?.type === 'win' && timeSeries.home.streaks.overall?.current?.count >= 2",
@@ -361,14 +361,14 @@
       "description": "Home team losing after winning streak, away team winning after losing streak"
     },
     "handicapStreak": {
-      "expression": "timeSeries.home.streaks.handicap?.current?.type === 'win' && timeSeries.home.streaks.handicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.handicap?.current?.count",
-      "description": "Home team on 2+ game win streak"
+      "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'win' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
+      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "description": "Home team on 2+ game AH win streak"
     },
     "handicapLossStreak": {
-      "expression": "timeSeries.home.streaks.handicap?.current?.type === 'loss' && timeSeries.home.streaks.handicap?.current?.count >= 2",
-      "displayExpression": "timeSeries.home.streaks.handicap?.current?.count",
-      "description": "Home team on 2+ game loss streak"
+      "expression": "timeSeries.home.streaks.asianHandicap?.current?.type === 'loss' && timeSeries.home.streaks.asianHandicap?.current?.count >= 2",
+      "displayExpression": "timeSeries.home.streaks.asianHandicap?.current?.count",
+      "description": "Home team on 2+ game AH loss streak"
     },
     "streakFatigue": {
       "expression": "timeSeries.home.streaks.overall?.current?.count >= 4 || timeSeries.away.streaks.overall?.current?.count >= 4",

@@ -239,6 +239,115 @@ node analyze_strategies.js
 - **Add documentation** for your new work
 - **Ask questions** about unclear areas
 
+## 🚨 **CRITICAL: MATCH IDENTIFICATION AND UNIQUE KEYS**
+
+### **⚠️ CATASTROPHIC BUG ALERT - ALREADY FIXED BUT LEARN FROM IT**
+
+**A critical bug was discovered in June 2024** that could have led to **devastating betting losses**. This section ensures **NO FUTURE AGENT MAKES THE SAME MISTAKE**.
+
+### **🔥 The Problem: Season Match Collisions**
+When working with **multi-season datasets**, identical fixtures exist across different years:
+- `Southampton v Arsenal` appears in 2022-23, 2023-24, AND 2024-25
+- `Manchester United v Liverpool` appears in all 3 seasons
+- **Every Premier League fixture repeats across seasons**
+
+### **💀 What Went Wrong**
+```javascript
+// ❌ DEADLY BUG - DON'T DO THIS
+const matchKey = `${homeTeam} v ${awayTeam}`;  // "Southampton v Arsenal"
+
+// Factor evaluation found FIRST match (early 2022-23 season)
+// But results display showed LAST match (final 2024-25 season)
+// Result: Factor said "Southampton has win streak" (wrong match)
+// Reality: Southampton had loss streak (correct match)
+// Outcome: COMPLETELY FALSE ROI CALCULATIONS
+```
+
+### **✅ The Fix: Season-Aware Unique Keys**
+```javascript
+// ✅ CORRECT - ALWAYS DO THIS
+const matchKey = `${season}_${homeTeam} v ${awayTeam}`;  // "2024-25_Southampton v Arsenal"
+
+// Examples of proper unique match identification:
+// "2022-23_Southampton v Arsenal" 
+// "2023-24_Southampton v Arsenal"
+// "2024-25_Southampton v Arsenal"
+```
+
+### **🛡️ MANDATORY RULES FOR MATCH IDENTIFICATION**
+
+#### **1. ALWAYS Include Season in Match Keys**
+```javascript
+// ✅ REQUIRED FORMAT
+const uniqueMatchKey = `${season}_${originalMatchKey}`;
+
+// ✅ EXTRACT SEASON FROM FILENAME
+const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
+const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
+```
+
+#### **2. VERIFY Season Information in Results**
+```javascript
+// ✅ ALWAYS DISPLAY SEASON IN UI
+`${homeTeam} v ${awayTeam} (${season})`
+
+// ✅ LOG MATCH LOADING FOR VERIFICATION  
+console.log(`Found ${matches.length} Southampton v Arsenal matches:`);
+matches.forEach(m => console.log(`- ${m.matchKey} (${m.match?.date}) - Season: ${m.season}`));
+```
+
+#### **3. VALIDATE Multi-Season Data Loading**
+```javascript
+// ✅ CHECK FOR DUPLICATE TEAM COMBINATIONS
+const duplicateFixtures = allMatches
+    .filter(m => m.match?.homeTeam === 'Southampton' && m.match?.awayTeam === 'Arsenal');
+    
+if (duplicateFixtures.length > 1) {
+    console.log('✅ Multiple seasons detected - using unique keys');
+    duplicateFixtures.forEach(m => console.log(`- ${m.matchKey}`));
+}
+```
+
+### **💰 FINANCIAL IMPACT OF THIS BUG**
+- **Factor ROI calculations**: Completely wrong (could show +30% when actual is -20%)
+- **Strategy recommendations**: Based on wrong match evaluations
+- **Betting decisions**: Would bet on teams with fake win streaks
+- **Real money losses**: Potentially catastrophic if deployed to live trading
+
+### **🔍 HOW TO SPOT SIMILAR BUGS**
+1. **Unexpected factor results** - Team with obvious losing streak selected by "win streak" factor
+2. **ROI inconsistencies** - Factor preview doesn't match detailed match analysis
+3. **Impossible combinations** - Early season data mixed with late season outcomes
+4. **Missing season context** - Any analysis without clear seasonal boundaries
+
+### **✅ TESTING YOUR MATCH IDENTIFICATION**
+```javascript
+// ✅ ALWAYS TEST WITH KNOWN DUPLICATES
+const testMatches = allMatches.filter(m => 
+    m.match?.homeTeam === 'Southampton' && m.match?.awayTeam === 'Arsenal'
+);
+
+console.log('Testing match identification:');
+testMatches.forEach(match => {
+    console.log(`- Key: ${match.matchKey}`);
+    console.log(`- Date: ${match.match?.date}`);
+    console.log(`- Season: ${match.season}`);
+    console.log(`- Home streak: ${match.timeSeries?.home?.streaks?.asianHandicap?.current?.type}`);
+    console.log('---');
+});
+```
+
+### **🚨 NEVER FORGET**
+**This bug could have led to real money losses in live betting.** Always prioritize **data integrity** over feature development. When working with betting analysis systems:
+
+1. **Question unexpected results** - If something looks too good/bad to be true, verify the data
+2. **Always include temporal context** - Season, week, date in all identifiers
+3. **Validate cross-seasonal analysis** - Ensure you're comparing like with like  
+4. **Test with edge cases** - Use known duplicate fixtures to verify uniqueness
+5. **Document data assumptions** - Make temporal boundaries explicit
+
+**Remember: In betting analysis, a small data error can cause catastrophic financial losses.** 💰⚠️
+
 ## 📚 **Essential Reading Order**
 
 1. **This file** - Understanding project boundaries

@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "live-betting": "npx ts-node src/v2/main.ts",
+    "build": "npx tsc",
+    "dev": "npx ts-node --watch src/v2/main.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +17,17 @@
     "@playwright/test": "^1.46.1",
     "@types/lodash": "^4.17.7",
     "@types/node": "^22.5.1",
-    "jest": "^30.0.3"
+    "jest": "^30.0.3",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@nestjs/cli": "^11.0.7",
+    "@nestjs/common": "^11.1.3",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.3",
+    "@nestjs/platform-express": "^11.1.3",
+    "@nestjs/schedule": "^6.0.0",
     "axios": "^1.10.0",
     "cheerio": "^1.1.0",
     "chokidar": "^4.0.1",
@@ -29,6 +40,7 @@
     "lodash": "^4.17.21",
     "moment": "^2.30.1",
     "playwright": "^1.52.0",
-    "rxjs": "^7.8.1"
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
   }
 }

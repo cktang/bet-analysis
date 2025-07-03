@@ -9,6 +9,12 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
+// Serve static files from the data directory
+app.use('/data', express.static(path.join(__dirname, '../data')));
+
+// Serve the factor drilling tool and other HTML files
+app.use(express.static(path.join(__dirname, '..')));
+
 const port = 3000;
 
 let records = [];

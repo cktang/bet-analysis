@@ -722,7 +722,7 @@
                 updateStatus(`Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches | 🚀 Performance cache active`);
                 renderFactorSelection();
                 updateResults();
-                renderSavedStrategies();
+                await renderSavedStrategies();
                 updateStrategyControls();
                 
             } catch (error) {
@@ -1693,7 +1693,7 @@
         }
         
         // Strategy Save/Load Functions
-        function saveStrategy() {
+        async function saveStrategy() {
             const name = document.getElementById('strategyName').value.trim();
             if (!name) {
                 alert('Please enter a strategy name');
@@ -1720,7 +1720,7 @@
             };
             
             // Get existing strategies
-            let savedStrategies = getSavedStrategies();
+            let savedStrategies = await getSavedStrategies();
             
             // Check if name already exists
             if (savedStrategies.some(s => s.name === name)) {
@@ -1744,8 +1744,8 @@
             console.log('💾 Strategy saved:', strategy);
         }
         
-        function loadStrategy(name) {
-            const savedStrategies = getSavedStrategies();
+        async function loadStrategy(name) {
+            const savedStrategies = await getSavedStrategies();
             const strategy = savedStrategies.find(s => s.name === name);
             
             if (!strategy) {
@@ -1768,12 +1768,12 @@
             console.log('📂 Strategy loaded:', strategy);
         }
         
-        function deleteStrategy(name) {
+        async function deleteStrategy(name) {
             if (!confirm(`Delete strategy "${name}"?`)) {
                 return;
             }
             
-            let savedStrategies = getSavedStrategies();
+            let savedStrategies = await getSavedStrategies();
             savedStrategies = savedStrategies.filter(s => s.name !== name);
             
             localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
@@ -1874,18 +1874,41 @@
             event.target.value = '';
         }
         
-        function getSavedStrategies() {
+        async function getSavedStrategies() {
             try {
                 const saved = localStorage.getItem('ah_strategies');
-                return saved ? JSON.parse(saved) : [];
+                if (saved) {
+                    return JSON.parse(saved);
+                }
+                
+                // If localStorage is empty, try to load from strategy.json
+                console.log('📂 No saved strategies in localStorage, loading from strategy.json...');
+                try {
+                    const response = await fetch('strategy.json');
+                    if (response.ok) {
+                        const strategies = await response.json();
+                        console.log(`✅ Loaded ${strategies.length} strategies from strategy.json`);
+                        
+                        // Save to localStorage for future use
+                        localStorage.setItem('ah_strategies', JSON.stringify(strategies));
+                        
+                        return strategies;
+                    } else {
+                        console.log('⚠️ strategy.json not found or not accessible');
+                    }
+                } catch (fetchError) {
+                    console.log('⚠️ Error loading strategy.json:', fetchError.message);
+                }
+                
+                return [];
             } catch (error) {
                 console.error('Error loading saved strategies:', error);
                 return [];
             }
         }
         
-        function renderSavedStrategies() {
-            const savedStrategies = getSavedStrategies();
+        async function renderSavedStrategies() {
+            const savedStrategies = await getSavedStrategies();
             const container = document.getElementById('pinnedSavedStrategies');
             
             if (savedStrategies.length === 0) {

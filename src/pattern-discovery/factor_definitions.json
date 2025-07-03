@@ -249,6 +249,11 @@
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "relegationBattle": {
+      "expression": "((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
+      "description": "Both teams are bottom 4",
+      "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
+    },
+    "lateRelegationBattle": {
       "expression": "fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
       "description": "Week >= 25, Both teams are bottom 4",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]

@@ -8,4 +8,4 @@
 // Example: export * from './UserService';
 // Example: export * from './GameService';
 
-export {};
+export * from './BettingService';

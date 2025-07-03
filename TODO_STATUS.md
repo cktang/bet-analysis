@@ -27,9 +27,9 @@
   - **Purpose**: Analyze historical patterns and trends
 
 - ✅ **Record patterns in files**
-  - **Status**: COMPLETE - Historical analysis documentation
-  - **Files**: PROJECT_STATUS.md, strategy documentation, data files
-  - **Coverage**: Historical backtesting results and analysis
+  - **Status**: COMPLETE - Basic pattern recording capability
+  - **Files**: `src/pattern-discovery/factor_definitions.json`
+  - **Coverage**: Factor definitions and pattern discovery tool available
 
 ---
 
@@ -164,10 +164,10 @@
 ## 🚀 CURRENT SYSTEM STATUS
 
 ### **✅ Historical Analysis Foundation**
-- **Data Collection Tools** - Scripts to scrape historical data from multiple sources
-- **Analysis Framework** - Asian Handicap calculations and backtesting utilities
-- **Pattern Discovery** - Interactive tools for strategy development
-- **Documentation** - Comprehensive analysis of historical performance
+- **Data Collection Tools** - Scripts to scrape historical data from multiple sources (`src/scripts/`, `src/parsers/`)
+- **Analysis Framework** - Asian Handicap calculations (`src/utils/AsianHandicapCalculator.js`)
+- **Pattern Discovery** - Interactive HTML tool (`src/pattern-discovery/factor-drilling-tool.html`)
+- **Basic Utilities** - Betting analysis utils and factor definitions
 
 ### **❌ Missing for Live Trading (Major Components)**
 - **Real-time data feeds** - No live pre-match data collection
@@ -230,15 +230,15 @@
 ## 📝 ACCURATE PROJECT SUMMARY
 
 **🎯 CURRENT REALITY**: 
-- **Historical Analysis**: COMPLETE ✅ - Comprehensive backtesting and strategy development tools built
+- **Historical Analysis**: BASIC TOOLS BUILT ✅ - Data collection, calculation utilities, and pattern discovery tools exist
 - **Live Betting System**: NOT STARTED ❌ - All major components for live trading need to be built from scratch
 
 **📊 What Actually Exists:**
-- Data collection scripts for historical analysis
-- Asian Handicap calculation utilities  
-- Pattern discovery and backtesting tools
-- Basic betting automation prototype (test only)
-- Comprehensive historical datasets and documentation
+- Data collection scripts for historical analysis (`src/scripts/`, `src/parsers/`)
+- Asian Handicap calculation utilities (`src/utils/AsianHandicapCalculator.js`)
+- Interactive pattern discovery tool (`src/pattern-discovery/factor-drilling-tool.html`)
+- Basic betting automation prototype (`src/parsers/others/test-betting.js`)
+- Historical datasets stored in `data/` directory
 
 **🚧 What Still Needs To Be Built (90% of Live System):**
 - Real-time data collection agents

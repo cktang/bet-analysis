@@ -643,7 +643,7 @@
             try {
                 // Add cache-busting timestamp to ensure fresh data
                 const cacheBuster = new Date().getTime();
-                const response = await fetch(`factor_definitions.json?v=${cacheBuster}`);
+                const response = await fetch(`${basePath}/factor_definitions.json?v=${cacheBuster}`);
                 if (!response.ok) {
                     throw new Error(`Failed to load factor definitions: ${response.statusText}`);
                 }
@@ -684,10 +684,14 @@
                 
                 updateStatus('Loading match data...');
                 
+                // Detect if we're on GitHub Pages (has /bet-analysis/ in path) or local server
+                const isGitHubPages = window.location.pathname.includes('/bet-analysis/');
+                const basePath = isGitHubPages ? '/bet-analysis' : '';
+                
                 const dataFiles = [
-                    '/data/enhanced/year-2022-2023-enhanced.json',
-                    '/data/enhanced/year-2023-2024-enhanced.json',
-                    '/data/enhanced/year-2024-2025-enhanced.json'
+                    `${basePath}/data/enhanced/year-2022-2023-enhanced.json`,
+                    `${basePath}/data/enhanced/year-2023-2024-enhanced.json`,
+                    `${basePath}/data/enhanced/year-2024-2025-enhanced.json`
                 ];
                 
                 allMatches = [];

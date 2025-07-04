@@ -347,1682 +347,1686 @@
     </div>
 
     <script>
-        // Global variables
-        let allMatches = [];
-        let selectedSide = null;
-        let selectedSize = null;
-        let selectedFactors = [];
-        let currentResults = null;
+    // Detect if we're on GitHub Pages (has /bet-analysis/ in path) or local server
+    const isGitHubPages = window.location.pathname.includes('/bet-analysis/');
+    const basePath = isGitHubPages ? '/bet-analysis' : '';
+
+    // Global variables
+    let allMatches = [];
+    let selectedSide = null;
+    let selectedSize = null;
+    let selectedFactors = [];
+    let currentResults = null;
+    
+    // Factor definitions (loaded dynamically from factor_definitions.js)
+    let factorDefinitions = {};
+    
+    // PERFORMANCE OPTIMIZATION: Caching system
+    const performanceCache = {
+        // Cache for factor expression evaluations: "matchKey|expression" -> boolean
+        factorEvaluations: new Map(),
         
-        // Factor definitions (loaded dynamically from factor_definitions.js)
-        let factorDefinitions = {};
+        // Cache for Asian Handicap calculations: "homeScore|awayScore|handicap|betSide|odds|stake" -> result
+        asianHandicapResults: new Map(),
         
-        // PERFORMANCE OPTIMIZATION: Caching system
-        const performanceCache = {
-            // Cache for factor expression evaluations: "matchKey|expression" -> boolean
-            factorEvaluations: new Map(),
-            
-            // Cache for Asian Handicap calculations: "homeScore|awayScore|handicap|betSide|odds|stake" -> result
-            asianHandicapResults: new Map(),
-            
-            // Cache for filtered match lists: "factorCombinationHash" -> matchArray
-            filteredMatches: new Map(),
-            
-            // Cache for complete betting results: "matchListHash|sideKey|sizeKey" -> results
-            bettingResults: new Map(),
-            
-            // Performance stats
-            stats: {
-                factorEvalHits: 0,
-                factorEvalMisses: 0,
-                ahCalcHits: 0,
-                ahCalcMisses: 0,
-                matchFilterHits: 0,
-                matchFilterMisses: 0,
-                bettingResultHits: 0,
-                bettingResultMisses: 0
-            },
-            
-            // Clear all caches
-            clearAll() {
-                this.factorEvaluations.clear();
-                this.asianHandicapResults.clear();
-                this.filteredMatches.clear();
-                this.bettingResults.clear();
-                console.log('🧹 Performance cache cleared');
-            },
-            
-            // Get cache hit rates
-            getHitRates() {
-                const factorRate = this.stats.factorEvalHits / (this.stats.factorEvalHits + this.stats.factorEvalMisses) * 100;
-                const ahRate = this.stats.ahCalcHits / (this.stats.ahCalcHits + this.stats.ahCalcMisses) * 100;
-                const filterRate = this.stats.matchFilterHits / (this.stats.matchFilterHits + this.stats.matchFilterMisses) * 100;
-                const resultRate = this.stats.bettingResultHits / (this.stats.bettingResultHits + this.stats.bettingResultMisses) * 100;
-                
-                return {
-                    factorEvaluation: isNaN(factorRate) ? 0 : factorRate.toFixed(1),
-                    asianHandicap: isNaN(ahRate) ? 0 : ahRate.toFixed(1),
-                    matchFilter: isNaN(filterRate) ? 0 : filterRate.toFixed(1),
-                    bettingResult: isNaN(resultRate) ? 0 : resultRate.toFixed(1)
-                };
-            }
-        };
+        // Cache for filtered match lists: "factorCombinationHash" -> matchArray
+        filteredMatches: new Map(),
         
-        // Asian Handicap Calculator (browser version with caching)
-        class AsianHandicapCalculator {
-            static calculate(homeScore, awayScore, handicap, betSide, odds, stake) {
-                // Create cache key for this calculation
-                const cacheKey = `${homeScore}|${awayScore}|${handicap}|${betSide}|${odds}|${stake}`;
-                
-                // Check cache first
-                if (performanceCache.asianHandicapResults.has(cacheKey)) {
-                    performanceCache.stats.ahCalcHits++;
-                    return performanceCache.asianHandicapResults.get(cacheKey);
-                }
-                
-                // Calculate result
-                let result;
-                if (handicap.includes('/')) {
-                    result = this._calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
-                } else {
-                    result = this._calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
-                }
-                
-                // Cache the result
-                performanceCache.asianHandicapResults.set(cacheKey, result);
-                performanceCache.stats.ahCalcMisses++;
-                
-                return result;
-            }
+        // Cache for complete betting results: "matchListHash|sideKey|sizeKey" -> results
+        bettingResults: new Map(),
+        
+        // Performance stats
+        stats: {
+            factorEvalHits: 0,
+            factorEvalMisses: 0,
+            ahCalcHits: 0,
+            ahCalcMisses: 0,
+            matchFilterHits: 0,
+            matchFilterMisses: 0,
+            bettingResultHits: 0,
+            bettingResultMisses: 0
+        },
+        
+        // Clear all caches
+        clearAll() {
+            this.factorEvaluations.clear();
+            this.asianHandicapResults.clear();
+            this.filteredMatches.clear();
+            this.bettingResults.clear();
+            console.log('🧹 Performance cache cleared');
+        },
+        
+        // Get cache hit rates
+        getHitRates() {
+            const factorRate = this.stats.factorEvalHits / (this.stats.factorEvalHits + this.stats.factorEvalMisses) * 100;
+            const ahRate = this.stats.ahCalcHits / (this.stats.ahCalcHits + this.stats.ahCalcMisses) * 100;
+            const filterRate = this.stats.matchFilterHits / (this.stats.matchFilterHits + this.stats.matchFilterMisses) * 100;
+            const resultRate = this.stats.bettingResultHits / (this.stats.bettingResultHits + this.stats.bettingResultMisses) * 100;
             
-            static _calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
-                const parts = handicap.split('/');
-                const h1 = parseFloat(parts[0]);
-                const h2 = parseFloat(parts[1]);
-                const halfStake = stake / 2;
-                
-                const result1 = this._calculateSimpleHandicapResult(homeScore, awayScore, h1, betSide);
-                const result2 = this._calculateSimpleHandicapResult(homeScore, awayScore, h2, betSide);
-                
-                let totalPayout = 0;
-                if (result1 === 1) totalPayout += halfStake * odds;
-                else if (result1 === 0) totalPayout += halfStake;
-                if (result2 === 1) totalPayout += halfStake * odds;
-                else if (result2 === 0) totalPayout += halfStake;
-                
-                const totalProfit = totalPayout - stake;
-                let outcome = totalProfit > 0 ? 'win' : totalProfit < 0 ? 'loss' : 'push';
-                
-                return {
-                    outcome: outcome,
-                    payout: Math.round(totalPayout * 100) / 100,
-                    profit: Math.round(totalProfit * 100) / 100
-                };
-            }
-            
-            static _calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
-                const h = parseFloat(handicap);
-                const result = this._calculateSimpleHandicapResult(homeScore, awayScore, h, betSide);
-                
-                let payout = 0;
-                if (result === 1) payout = stake * odds;
-                else if (result === 0) payout = stake;
-                
-                const profit = payout - stake;
-                let outcome = profit > 0 ? 'win' : profit < 0 ? 'loss' : 'push';
-                
-                return {
-                    outcome: outcome,
-                    payout: Math.round(payout * 100) / 100,
-                    profit: Math.round(profit * 100) / 100
-                };
-            }
-            
-            static _calculateSimpleHandicapResult(homeScore, awayScore, handicap, betSide) {
-                const adjustedHomeScore = homeScore + handicap;
-                if (adjustedHomeScore > awayScore) {
-                    return betSide === 'home' ? 1 : -1;
-                } else if (adjustedHomeScore < awayScore) {
-                    return betSide === 'away' ? 1 : -1;
-                } else {
-                    return 0;
-                }
-            }
-        }
-        
-        // Utility functions
-        function formatCurrency(value) {
-            return new Intl.NumberFormat('en-US', {
-                style: 'currency',
-                currency: 'USD',
-                minimumFractionDigits: 0,
-                maximumFractionDigits: 0
-            }).format(value);
-        }
-        
-        function formatPercent(value) {
-            return `${value >= 0 ? '+' : ''}${value.toFixed(2)}%`;
-        }
-        
-        function getProfitColorClass(value) {
-            if (value > 0) return 'profit-positive';
-            if (value < 0) return 'profit-negative';
-            return 'profit-neutral';
-        }
-        
-        function toStartCase(str) {
-            return str
-                // Insert space before uppercase letters (for camelCase)
-                .replace(/([a-z])([A-Z])/g, '$1 $2')
-                // Insert space before numbers
-                .replace(/([a-zA-Z])(\d)/g, '$1 $2')
-                // Insert space after numbers
-                .replace(/(\d)([a-zA-Z])/g, '$1 $2')
-                // Split by various delimiters and join with spaces
-                .replace(/[_-]+/g, ' ')
-                // Capitalize first letter of each word
-                .replace(/\b\w/g, l => l.toUpperCase())
-                // Clean up multiple spaces
-                .replace(/\s+/g, ' ')
-                .trim();
-        }
-        
-        function abbreviateTeamName(teamName) {
-            // Smart team name abbreviations to avoid collisions
-            const abbreviations = {
-                'Manchester United': 'Man Utd',
-                'Manchester City': 'Man City',
-                'Tottenham Hotspur': 'Spurs',
-                'Brighton & Hove Albion': 'Brighton',
-                'Brighton': 'Brighton',
-                'Newcastle United': 'Newcastle',
-                'Sheffield United': 'Sheffield',
-                'West Ham United': 'West Ham',
-                'Wolverhampton Wanderers': 'Wolves',
-                'Wolverhampton': 'Wolves',
-                'Leicester City': 'Leicester',
-                'Norwich City': 'Norwich',
-                'Crystal Palace': 'C Palace',
-                'Nottingham Forest': "Nott'm F",
-                'Aston Villa': 'Villa',
-                'Southampton': 'Saints',
-                'Bournemouth': 'Bmth'
+            return {
+                factorEvaluation: isNaN(factorRate) ? 0 : factorRate.toFixed(1),
+                asianHandicap: isNaN(ahRate) ? 0 : ahRate.toFixed(1),
+                matchFilter: isNaN(filterRate) ? 0 : filterRate.toFixed(1),
+                bettingResult: isNaN(resultRate) ? 0 : resultRate.toFixed(1)
             };
-            
-            // Use custom abbreviation if available
-            if (abbreviations[teamName]) {
-                return abbreviations[teamName];
-            }
-            
-            // Fallback: take first word and limit to 8 chars
-            const firstWord = teamName.split(' ')[0];
-            return firstWord.length > 8 ? firstWord.substring(0, 8) : firstWord;
         }
-        
-        function evaluateFactorExpression(match, expression) {
-            // Create cache key
-            const cacheKey = `${match.matchKey}|${expression}`;
+    };
+    
+    // Asian Handicap Calculator (browser version with caching)
+    class AsianHandicapCalculator {
+        static calculate(homeScore, awayScore, handicap, betSide, odds, stake) {
+            // Create cache key for this calculation
+            const cacheKey = `${homeScore}|${awayScore}|${handicap}|${betSide}|${odds}|${stake}`;
             
             // Check cache first
-            if (performanceCache.factorEvaluations.has(cacheKey)) {
-                performanceCache.stats.factorEvalHits++;
-                return performanceCache.factorEvaluations.get(cacheKey);
+            if (performanceCache.asianHandicapResults.has(cacheKey)) {
+                performanceCache.stats.ahCalcHits++;
+                return performanceCache.asianHandicapResults.get(cacheKey);
             }
             
             // Calculate result
             let result;
-            try {
-                const context = {
-                    match: match.match || {},
-                    fbref: match.fbref || {},
-                    timeSeries: match.timeSeries || {},
-                    preMatch: match.enhanced?.preMatch || {},
-                    postMatch: match.enhanced?.postMatch || {},
-                    Math: Math
-                };
-                
-                result = new Function(...Object.keys(context), `return ${expression}`)(...Object.values(context));
-                
-            } catch (error) {
-                console.warn(`Error evaluating expression: ${expression}`, error);
-                result = false;
+            if (handicap.includes('/')) {
+                result = this._calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
+            } else {
+                result = this._calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
             }
             
             // Cache the result
-            performanceCache.factorEvaluations.set(cacheKey, result);
-            performanceCache.stats.factorEvalMisses++;
+            performanceCache.asianHandicapResults.set(cacheKey, result);
+            performanceCache.stats.ahCalcMisses++;
             
             return result;
         }
         
-        // PERFORMANCE: Cached match filtering
-        function getFilteredMatches(factors) {
-            // Create cache key from factor combination
-            const factorHash = factors.map(f => `${f.category}:${f.key}`).sort().join('|');
+        static _calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
+            const parts = handicap.split('/');
+            const h1 = parseFloat(parts[0]);
+            const h2 = parseFloat(parts[1]);
+            const halfStake = stake / 2;
             
-            // Check cache first
-            if (performanceCache.filteredMatches.has(factorHash)) {
-                performanceCache.stats.matchFilterHits++;
-                return performanceCache.filteredMatches.get(factorHash);
-            }
+            const result1 = this._calculateSimpleHandicapResult(homeScore, awayScore, h1, betSide);
+            const result2 = this._calculateSimpleHandicapResult(homeScore, awayScore, h2, betSide);
             
-            // Filter matches
-            const filteredMatches = allMatches.filter(match => {
-                return factors.every(factor => {
-                    return evaluateFactorExpression(match, factor.expression);
-                });
-            });
+            let totalPayout = 0;
+            if (result1 === 1) totalPayout += halfStake * odds;
+            else if (result1 === 0) totalPayout += halfStake;
+            if (result2 === 1) totalPayout += halfStake * odds;
+            else if (result2 === 0) totalPayout += halfStake;
             
-            // Cache the result
-            performanceCache.filteredMatches.set(factorHash, filteredMatches);
-            performanceCache.stats.matchFilterMisses++;
-            
-            return filteredMatches;
-        }
-        
-        // PERFORMANCE: Generate hash for betting configuration
-        function getBettingConfigHash(matches, sideSelection, sizeSelection) {
-            // Create hash from match keys + side + size
-            const matchKeys = matches.map(m => m.matchKey).sort().join(',');
-            const sideKey = `${sideSelection.category}:${sideSelection.key}`;
-            const sizeKey = `${sizeSelection.category}:${sizeSelection.key}`;
-            
-            // Simple hash function
-            const str = `${matchKeys}|${sideKey}|${sizeKey}`;
-            let hash = 0;
-            for (let i = 0; i < str.length; i++) {
-                const char = str.charCodeAt(i);
-                hash = ((hash << 5) - hash) + char;
-                hash = hash & hash; // Convert to 32-bit integer
-            }
-            return hash.toString();
-        }
-        
-        // Load factor definitions from JSON file
-        async function loadFactorDefinitions() {
-            try {
-                // Add cache-busting timestamp to ensure fresh data
-                const cacheBuster = new Date().getTime();
-                const response = await fetch(`${basePath}/factor_definitions.json?v=${cacheBuster}`);
-                if (!response.ok) {
-                    throw new Error(`Failed to load factor definitions: ${response.statusText}`);
-                }
-                
-                factorDefinitions = await response.json();
-                
-                console.log('✅ Factor definitions loaded:', Object.keys(factorDefinitions));
-                return true;
-                
-            } catch (error) {
-                console.error('❌ Error loading factor definitions:', error);
-                
-                // Fallback to minimal factors if loading fails
-                factorDefinitions = {
-                    side: {
-                        home: { expression: "true", description: "Bet on home team", betSide: "home" },
-                        away: { expression: "true", description: "Bet on away team", betSide: "away" },
-                        higherOdds: { expression: "true", description: "Bet on team with higher odds", betSide: "match.asianHandicapOdds.homeOdds > match.asianHandicapOdds.awayOdds ? 'home' : 'away'" },
-                        lowerOdds: { expression: "true", description: "Bet on team with lower odds", betSide: "match.asianHandicapOdds.homeOdds < match.asianHandicapOdds.awayOdds ? 'home' : 'away'" }
-                    },
-                    size: {
-                        fix: { expression: "200", description: "Fixed $200 stake", stakingMethod: "fixed" },
-                        dynamic: { expression: "match.asianHandicapOdds.homeOdds <= 1.88 || match.asianHandicapOdds.awayOdds <= 1.88 ? 200 : 200 + Math.floor((Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) - 1.88) * 100) * 150", description: "Variable staking", stakingMethod: "variable" }
-                    }
-                };
-                
-                return false;
-            }
-        }
-        
-        // Load data from JSON files
-        async function loadData() {
-            try {
-                updateStatus('Loading factor definitions...');
-                
-                // Load factor definitions first
-                await loadFactorDefinitions();
-                
-                updateStatus('Loading match data...');
-                
-                // Detect if we're on GitHub Pages (has /bet-analysis/ in path) or local server
-                const isGitHubPages = window.location.pathname.includes('/bet-analysis/');
-                const basePath = isGitHubPages ? '/bet-analysis' : '';
-                
-                const dataFiles = [
-                    `${basePath}/data/enhanced/year-2022-2023-enhanced.json`,
-                    `${basePath}/data/enhanced/year-2023-2024-enhanced.json`,
-                    `${basePath}/data/enhanced/year-2024-2025-enhanced.json`
-                ];
-                
-                allMatches = [];
-                for (let i = 0; i < dataFiles.length; i++) {
-                    const file = dataFiles[i];
-                    updateStatus(`Loading ${file.split('/').pop()} (${i + 1}/${dataFiles.length})`);
-                    
-                    const response = await fetch(file);
-                    if (!response.ok) {
-                        throw new Error(`Failed to load ${file}: ${response.statusText}`);
-                    }
-                    
-                    const data = await response.json();
-                    
-                    // Extract season from filename (e.g., "year-2023-2024-enhanced.json" -> "2023-24")
-                    const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
-                    const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
-                    
-                    if (data.matches) {
-                        Object.keys(data.matches).forEach(matchKey => {
-                            const match = data.matches[matchKey];
-                            // Create unique matchKey including season to avoid collisions
-                            const uniqueMatchKey = `${season}_${matchKey}`;
-                            match.matchKey = uniqueMatchKey;
-                            match.originalMatchKey = matchKey;
-                            match.season = season;
-                            allMatches.push(match);
-                        });
-                    }
-                }
-                
-                updateStatus(`Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches | 🚀 Performance cache active`);
-                renderFactorSelection();
-                updateResults();
-                await renderSavedStrategies();
-                updateStrategyControls();
-                
-            } catch (error) {
-                updateStatus(`ERROR: ${error.message}`);
-                
-                document.getElementById('results').innerHTML = `
-                    <div class="error">
-                        <strong>Data Loading Error</strong><br>
-                        ${error.message}<br>
-                        Make sure you're serving this page from a web server and both the enhanced data files and factor_definitions.json are available.
-                    </div>
-                `;
-            }
-        }
-        
-        // Update status line
-        function updateStatus(message) {
-            document.getElementById('status-line').textContent = message;
-        }
-        
-        // Create profit chart
-        let profitChart = null;
-        
-        function createProfitChart(bettingRecords) {
-            const canvas = document.getElementById('profitChart');
-            const ctx = canvas.getContext('2d');
-            
-            // Destroy existing chart if it exists
-            if (profitChart) {
-                profitChart.destroy();
-            }
-            
-            if (!bettingRecords || bettingRecords.length === 0) {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.fillStyle = '#666';
-                ctx.font = '12px monospace';
-                ctx.textAlign = 'center';
-                ctx.fillText('No betting data available', canvas.width / 2, canvas.height / 2);
-                return;
-            }
-            
-            // Sort records by date
-            const sortedRecords = [...bettingRecords].sort((a, b) => new Date(a.date) - new Date(b.date));
-            
-            // Calculate cumulative profit with proper time data
-            let cumulativeProfit = 0;
-            const chartData = sortedRecords.map((record, index) => {
-                cumulativeProfit += record.profit;
-                return {
-                    x: new Date(record.date),
-                    y: cumulativeProfit
-                };
-            });
-            
-            // Create the chart
-            profitChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    datasets: [{
-                        label: 'Cumulative Profit',
-                        data: chartData,
-                        borderColor: cumulativeProfit >= 0 ? '#00ff88' : '#ff6b6b',
-                        backgroundColor: cumulativeProfit >= 0 ? 'rgba(0, 255, 136, 0.1)' : 'rgba(255, 107, 107, 0.1)',
-                        borderWidth: 2,
-                        fill: true,
-                        tension: 0.1,
-                        pointRadius: 0,
-                        pointHoverRadius: 0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            backgroundColor: '#2d2d2d',
-                            titleColor: '#e0e0e0',
-                            bodyColor: '#e0e0e0',
-                            borderColor: '#404040',
-                            borderWidth: 1,
-                            callbacks: {
-                                title: function(context) {
-                                    const index = context[0].dataIndex;
-                                    const record = sortedRecords[index];
-                                    return `${record.homeTeam} v ${record.awayTeam}`;
-                                },
-                                label: function(context) {
-                                    const index = context.dataIndex;
-                                    const record = sortedRecords[index];
-                                    const profit = record.profit >= 0 ? `+${formatCurrency(record.profit)}` : formatCurrency(record.profit);
-                                    return [
-                                        `Date: ${new Date(record.date).toLocaleDateString()}`,
-                                        `Bet: ${profit} (${record.outcome.toUpperCase()})`,
-                                        `Total: ${formatCurrency(context.parsed.y)}`
-                                    ];
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            type: 'time',
-                            time: {
-                                unit: 'day',
-                                displayFormats: {
-                                    day: 'MMM dd'
-                                }
-                            },
-                            grid: {
-                                color: '#404040',
-                                borderColor: '#404040'
-                            },
-                            ticks: {
-                                color: '#888',
-                                font: {
-                                    size: 10
-                                },
-                                maxTicksLimit: 10
-                            }
-                        },
-                        y: {
-                            grid: {
-                                color: '#404040',
-                                borderColor: '#404040'
-                            },
-                            ticks: {
-                                color: '#888',
-                                font: {
-                                    size: 10
-                                },
-                                callback: function(value) {
-                                    return formatCurrency(value);
-                                }
-                            }
-                        }
-                    },
-                    interaction: {
-                        intersect: false,
-                        mode: 'index'
-                    }
-                }
-            });
-        }
-        
-        // Update status with performance stats
-        function updateStatusWithPerformance(baseMessage) {
-            const hitRates = performanceCache.getHitRates();
-            const totalCacheSize = performanceCache.factorEvaluations.size + 
-                                 performanceCache.asianHandicapResults.size + 
-                                 performanceCache.filteredMatches.size + 
-                                 performanceCache.bettingResults.size;
-            
-            if (totalCacheSize > 0) {
-                const statusMessage = `${baseMessage} | 💨 Cache: ${hitRates.asianHandicap}% AH, ${hitRates.bettingResult}% results`;
-                updateStatus(statusMessage);
-            } else {
-                updateStatus(baseMessage);
-            }
-        }
-        
-        // Calculate ROI background bar properties
-        function calculateRoiBar(roi) {
-            if (!roi || roi === 0) {
-                return { width: '0%', color: 'transparent' };
-            }
-            
-            // Scale ROI to a reasonable bar width (max 100% width for ±20% ROI)
-            const maxRoi = 20; // ROI values beyond ±20% will be capped for display
-            const scaledRoi = Math.max(-maxRoi, Math.min(maxRoi, roi));
-            const width = Math.abs(scaledRoi / maxRoi) * 100;
-            
-            // Color based on positive/negative ROI
-            const color = roi > 0 ? '#00ff88' : '#ff0000'; // Light green for positive, bright red for negative
+            const totalProfit = totalPayout - stake;
+            let outcome = totalProfit > 0 ? 'win' : totalProfit < 0 ? 'loss' : 'push';
             
             return {
-                width: `${width}%`,
-                color: color
+                outcome: outcome,
+                payout: Math.round(totalPayout * 100) / 100,
+                profit: Math.round(totalProfit * 100) / 100
             };
         }
         
-        // Render factor selection UI
-        function renderFactorSelection() {
-            if (Object.keys(factorDefinitions).length === 0) return;
+        static _calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
+            const h = parseFloat(handicap);
+            const result = this._calculateSimpleHandicapResult(homeScore, awayScore, h, betSide);
             
-            // Render mandatory factors
-            const mandatoryContainer = document.getElementById('mandatory-factors');
-            mandatoryContainer.innerHTML = '';
+            let payout = 0;
+            if (result === 1) payout = stake * odds;
+            else if (result === 0) payout = stake;
             
-            // Handle both old structure (direct side/size) and new structure (nested in mandatory)
-            const sideFactors = factorDefinitions.side || factorDefinitions.mandatory?.side || {};
-            const sizeFactors = factorDefinitions.size || factorDefinitions.mandatory?.size || {};
+            const profit = payout - stake;
+            let outcome = profit > 0 ? 'win' : profit < 0 ? 'loss' : 'push';
             
-            // Create mandatory grid
-            const mandatoryGrid = document.createElement('div');
-            mandatoryGrid.className = 'mandatory-grid';
-            
-            // Add SIDE factors (sorted by ROI)
-            const sideFactorsWithRoi = [];
-            Object.keys(sideFactors).forEach(factorKey => {
-                const factor = sideFactors[factorKey];
-                const isSelected = selectedSide?.key === factorKey;
-                
-                let roi = 0;
-                let roiHtml = '';
-                
-                // Calculate ROI if this side is selected with current size
-                if (!isSelected && selectedSize && allMatches.length > 0) {
-                    try {
-                        const tempSide = { category: 'side', key: factorKey, ...factor };
-                        const tempMatches = getFilteredMatches(selectedFactors);
-                        
-                        if (tempMatches.length > 0) {
-                            const tempResults = calculateBettingResults(tempMatches, tempSide, selectedSize);
-                            roi = tempResults.summary.roi;
-                            const matchCount = tempResults.summary.totalBets;
-                            const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
-                            roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
-                        }
-                    } catch (error) {
-                        // Silently ignore ROI calculation errors
-                    }
-                }
-                
-                sideFactorsWithRoi.push({ factorKey, factor, isSelected, roi, roiHtml });
-            });
-            
-            // Sort by ROI (descending)
-            sideFactorsWithRoi.sort((a, b) => b.roi - a.roi);
-            
-            // Render sorted SIDE factors
-            sideFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
-                const factorDiv = document.createElement('div');
-                const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
-                factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
-                
-                // Apply ROI background bar
-                const roiBarData = calculateRoiBar(roi);
-                factorDiv.style.setProperty('--roi-width', roiBarData.width);
-                factorDiv.style.setProperty('--roi-color', roiBarData.color);
-                
-                factorDiv.innerHTML = `
-                    <div class="mandatory-item-name">SIDE: ${toStartCase(factorKey)}</div>
-                    <div class="mandatory-item-desc">${factor.description}</div>
-                    ${roiHtml}
-                `;
-                factorDiv.onclick = () => selectMandatoryFactor('side', factorKey, factor);
-                mandatoryGrid.appendChild(factorDiv);
-            });
-            
-            // Add SIZE factors (sorted by ROI)
-            const sizeFactorsWithRoi = [];
-            Object.keys(sizeFactors).forEach(factorKey => {
-                const factor = sizeFactors[factorKey];
-                const isSelected = selectedSize?.key === factorKey;
-                
-                let roi = 0;
-                let roiHtml = '';
-                
-                // Calculate ROI if this size is selected with current side
-                if (!isSelected && selectedSide && allMatches.length > 0) {
-                    try {
-                        const tempSize = { category: 'size', key: factorKey, ...factor };
-                        const tempMatches = getFilteredMatches(selectedFactors);
-                        
-                        if (tempMatches.length > 0) {
-                            const tempResults = calculateBettingResults(tempMatches, selectedSide, tempSize);
-                            roi = tempResults.summary.roi;
-                            const matchCount = tempResults.summary.totalBets;
-                            const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
-                            roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
-                        }
-                    } catch (error) {
-                        // Silently ignore ROI calculation errors
-                    }
-                }
-                
-                sizeFactorsWithRoi.push({ factorKey, factor, isSelected, roi, roiHtml });
-            });
-            
-            // Sort by ROI (descending)
-            sizeFactorsWithRoi.sort((a, b) => b.roi - a.roi);
-            
-            // Render sorted SIZE factors
-            sizeFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
-                const factorDiv = document.createElement('div');
-                const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
-                factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
-                
-                // Apply ROI background bar
-                const roiBarData = calculateRoiBar(roi);
-                factorDiv.style.setProperty('--roi-width', roiBarData.width);
-                factorDiv.style.setProperty('--roi-color', roiBarData.color);
-                
-                factorDiv.innerHTML = `
-                    <div class="mandatory-item-name">SIZE: ${toStartCase(factorKey)}</div>
-                    <div class="mandatory-item-desc">${factor.description}</div>
-                    ${roiHtml}
-                `;
-                factorDiv.onclick = () => selectMandatoryFactor('size', factorKey, factor);
-                mandatoryGrid.appendChild(factorDiv);
-            });
-            
-            mandatoryContainer.appendChild(mandatoryGrid);
-            
-            // Render available factors
-            const availableContainer = document.getElementById('available-factors');
-            availableContainer.innerHTML = '';
-            
-            Object.keys(factorDefinitions).forEach(category => {
-                // Skip mandatory categories and empty categories
-                if (category === 'side' || category === 'size' || category === 'mandatory') return;
-                if (!factorDefinitions[category] || Object.keys(factorDefinitions[category]).length === 0) return;
-                
-                const sectionDiv = document.createElement('div');
-                sectionDiv.className = 'factor-section';
-                
-                const titleDiv = document.createElement('div');
-                titleDiv.className = 'factor-title';
-                titleDiv.textContent = toStartCase(category);
-                sectionDiv.appendChild(titleDiv);
-                
-                const gridDiv = document.createElement('div');
-                gridDiv.className = 'factor-grid';
-                
-                let hasVisibleFactors = false;
-                
-                // Collect all factors with their ROI data for sorting
-                const factorsWithRoi = [];
-                
-                Object.keys(factorDefinitions[category]).forEach(factorKey => {
-                    const factor = factorDefinitions[category][factorKey];
-                    const isSelected = selectedFactors.some(f => f.category === category && f.key === factorKey);
-                    
-                    if (factor.expression && factor.description) {
-                        hasVisibleFactors = true;
-                        
-                        let roi = 0;
-                        let matchCount = 0;
-                        let roiHtml = '';
-                        
-                        // Calculate ROI if we have mandatory factors and data loaded
-                        if (!isSelected && selectedSide && selectedSize && allMatches.length > 0) {
-                            try {
-                                const tempFactors = [...selectedFactors, { category, key: factorKey, ...factor }];
-                                const tempMatches = getFilteredMatches(tempFactors);
-                                
-                                if (tempMatches.length > 0) {
-                                    const tempResults = calculateBettingResults(tempMatches, selectedSide, selectedSize);
-                                    roi = tempResults.summary.roi;
-                                    matchCount = tempResults.summary.totalBets;
-                                    const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
-                                    roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
-                                }
-                            } catch (error) {
-                                // Silently ignore ROI calculation errors
-                            }
-                        }
-                        
-                        factorsWithRoi.push({
-                            factorKey,
-                            factor,
-                            isSelected,
-                            roi,
-                            matchCount,
-                            roiHtml
-                        });
-                    }
-                });
-                
-                // Sort factors by ROI (descending)
-                factorsWithRoi.sort((a, b) => b.roi - a.roi);
-                
-                // Render sorted factors
-                factorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {
-                    const factorDiv = document.createElement('div');
-                    const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
-                    factorDiv.className = `factor-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
-                    
-                    // Apply ROI background bar
-                    const roiBarData = calculateRoiBar(roi);
-                    factorDiv.style.setProperty('--roi-width', roiBarData.width);
-                    factorDiv.style.setProperty('--roi-color', roiBarData.color);
-                    
-                    factorDiv.innerHTML = `
-                        <div class="factor-name">${toStartCase(factorKey)}</div>
-                        <div class="factor-desc">${factor.description}</div>
-                        ${roiHtml}
-                    `;
-                    factorDiv.onclick = () => {
-                        if (isSelected) {
-                            deselectFactor(category, factorKey);
-                        } else {
-                            selectFactor(category, factorKey, factor);
-                        }
-                    };
-                    gridDiv.appendChild(factorDiv);
-                });
-                
-                if (hasVisibleFactors) {
-                    sectionDiv.appendChild(gridDiv);
-                    availableContainer.appendChild(sectionDiv);
-                }
-            });
+            return {
+                outcome: outcome,
+                payout: Math.round(payout * 100) / 100,
+                profit: Math.round(profit * 100) / 100
+            };
         }
         
-        // Select mandatory factor
-        function selectMandatoryFactor(category, factorKey, factor) {
-            if (category === 'side') {
-                selectedSide = { category, key: factorKey, ...factor };
-            } else if (category === 'size') {
-                selectedSize = { category, key: factorKey, ...factor };
+        static _calculateSimpleHandicapResult(homeScore, awayScore, handicap, betSide) {
+            const adjustedHomeScore = homeScore + handicap;
+            if (adjustedHomeScore > awayScore) {
+                return betSide === 'home' ? 1 : -1;
+            } else if (adjustedHomeScore < awayScore) {
+                return betSide === 'away' ? 1 : -1;
+            } else {
+                return 0;
+            }
+        }
+    }
+    
+    // Utility functions
+    function formatCurrency(value) {
+        return new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0
+        }).format(value);
+    }
+    
+    function formatPercent(value) {
+        return `${value >= 0 ? '+' : ''}${value.toFixed(2)}%`;
+    }
+    
+    function getProfitColorClass(value) {
+        if (value > 0) return 'profit-positive';
+        if (value < 0) return 'profit-negative';
+        return 'profit-neutral';
+    }
+    
+    function toStartCase(str) {
+        return str
+            // Insert space before uppercase letters (for camelCase)
+            .replace(/([a-z])([A-Z])/g, '$1 $2')
+            // Insert space before numbers
+            .replace(/([a-zA-Z])(\d)/g, '$1 $2')
+            // Insert space after numbers
+            .replace(/(\d)([a-zA-Z])/g, '$1 $2')
+            // Split by various delimiters and join with spaces
+            .replace(/[_-]+/g, ' ')
+            // Capitalize first letter of each word
+            .replace(/\b\w/g, l => l.toUpperCase())
+            // Clean up multiple spaces
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+    
+    function abbreviateTeamName(teamName) {
+        // Smart team name abbreviations to avoid collisions
+        const abbreviations = {
+            'Manchester United': 'Man Utd',
+            'Manchester City': 'Man City',
+            'Tottenham Hotspur': 'Spurs',
+            'Brighton & Hove Albion': 'Brighton',
+            'Brighton': 'Brighton',
+            'Newcastle United': 'Newcastle',
+            'Sheffield United': 'Sheffield',
+            'West Ham United': 'West Ham',
+            'Wolverhampton Wanderers': 'Wolves',
+            'Wolverhampton': 'Wolves',
+            'Leicester City': 'Leicester',
+            'Norwich City': 'Norwich',
+            'Crystal Palace': 'C Palace',
+            'Nottingham Forest': "Nott'm F",
+            'Aston Villa': 'Villa',
+            'Southampton': 'Saints',
+            'Bournemouth': 'Bmth'
+        };
+        
+        // Use custom abbreviation if available
+        if (abbreviations[teamName]) {
+            return abbreviations[teamName];
+        }
+        
+        // Fallback: take first word and limit to 8 chars
+        const firstWord = teamName.split(' ')[0];
+        return firstWord.length > 8 ? firstWord.substring(0, 8) : firstWord;
+    }
+    
+    function evaluateFactorExpression(match, expression) {
+        // Create cache key
+        const cacheKey = `${match.matchKey}|${expression}`;
+        
+        // Check cache first
+        if (performanceCache.factorEvaluations.has(cacheKey)) {
+            performanceCache.stats.factorEvalHits++;
+            return performanceCache.factorEvaluations.get(cacheKey);
+        }
+        
+        // Calculate result
+        let result;
+        try {
+            const context = {
+                match: match.match || {},
+                fbref: match.fbref || {},
+                timeSeries: match.timeSeries || {},
+                preMatch: match.enhanced?.preMatch || {},
+                postMatch: match.enhanced?.postMatch || {},
+                Math: Math
+            };
+            
+            result = new Function(...Object.keys(context), `return ${expression}`)(...Object.values(context));
+            
+        } catch (error) {
+            console.warn(`Error evaluating expression: ${expression}`, error);
+            result = false;
+        }
+        
+        // Cache the result
+        performanceCache.factorEvaluations.set(cacheKey, result);
+        performanceCache.stats.factorEvalMisses++;
+        
+        return result;
+    }
+    
+    // PERFORMANCE: Cached match filtering
+    function getFilteredMatches(factors) {
+        // Create cache key from factor combination
+        const factorHash = factors.map(f => `${f.category}:${f.key}`).sort().join('|');
+        
+        // Check cache first
+        if (performanceCache.filteredMatches.has(factorHash)) {
+            performanceCache.stats.matchFilterHits++;
+            return performanceCache.filteredMatches.get(factorHash);
+        }
+        
+        // Filter matches
+        const filteredMatches = allMatches.filter(match => {
+            return factors.every(factor => {
+                return evaluateFactorExpression(match, factor.expression);
+            });
+        });
+        
+        // Cache the result
+        performanceCache.filteredMatches.set(factorHash, filteredMatches);
+        performanceCache.stats.matchFilterMisses++;
+        
+        return filteredMatches;
+    }
+    
+    // PERFORMANCE: Generate hash for betting configuration
+    function getBettingConfigHash(matches, sideSelection, sizeSelection) {
+        // Create hash from match keys + side + size
+        const matchKeys = matches.map(m => m.matchKey).sort().join(',');
+        const sideKey = `${sideSelection.category}:${sideSelection.key}`;
+        const sizeKey = `${sizeSelection.category}:${sizeSelection.key}`;
+        
+        // Simple hash function
+        const str = `${matchKeys}|${sideKey}|${sizeKey}`;
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            const char = str.charCodeAt(i);
+            hash = ((hash << 5) - hash) + char;
+            hash = hash & hash; // Convert to 32-bit integer
+        }
+        return hash.toString();
+    }
+    
+    // Load factor definitions from JSON file
+    async function loadFactorDefinitions() {
+        try {
+            // Add cache-busting timestamp to ensure fresh data
+            const cacheBuster = new Date().getTime();
+            const response = await fetch(`${basePath}/factor_definitions.json?v=${cacheBuster}`);
+            if (!response.ok) {
+                throw new Error(`Failed to load factor definitions: ${response.statusText}`);
             }
             
+            factorDefinitions = await response.json();
+            
+            console.log('✅ Factor definitions loaded:', Object.keys(factorDefinitions));
+            return true;
+            
+        } catch (error) {
+            console.error('❌ Error loading factor definitions:', error);
+            
+            // Fallback to minimal factors if loading fails
+            factorDefinitions = {
+                side: {
+                    home: { expression: "true", description: "Bet on home team", betSide: "home" },
+                    away: { expression: "true", description: "Bet on away team", betSide: "away" },
+                    higherOdds: { expression: "true", description: "Bet on team with higher odds", betSide: "match.asianHandicapOdds.homeOdds > match.asianHandicapOdds.awayOdds ? 'home' : 'away'" },
+                    lowerOdds: { expression: "true", description: "Bet on team with lower odds", betSide: "match.asianHandicapOdds.homeOdds < match.asianHandicapOdds.awayOdds ? 'home' : 'away'" }
+                },
+                size: {
+                    fix: { expression: "200", description: "Fixed $200 stake", stakingMethod: "fixed" },
+                    dynamic: { expression: "match.asianHandicapOdds.homeOdds <= 1.88 || match.asianHandicapOdds.awayOdds <= 1.88 ? 200 : 200 + Math.floor((Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) - 1.88) * 100) * 150", description: "Variable staking", stakingMethod: "variable" }
+                }
+            };
+            
+            return false;
+        }
+    }
+    
+    // Load data from JSON files
+    async function loadData() {
+        try {
+            updateStatus('Loading factor definitions...');
+            
+            // Load factor definitions first
+            await loadFactorDefinitions();
+            
+            updateStatus('Loading match data...');
+            
+            // Detect if we're on GitHub Pages (has /bet-analysis/ in path) or local server
+            const isGitHubPages = window.location.pathname.includes('/bet-analysis/');
+            const basePath = isGitHubPages ? '/bet-analysis' : '';
+            
+            const dataFiles = [
+                `${basePath}/data/enhanced/year-2022-2023-enhanced.json`,
+                `${basePath}/data/enhanced/year-2023-2024-enhanced.json`,
+                `${basePath}/data/enhanced/year-2024-2025-enhanced.json`
+            ];
+            
+            allMatches = [];
+            for (let i = 0; i < dataFiles.length; i++) {
+                const file = dataFiles[i];
+                updateStatus(`Loading ${file.split('/').pop()} (${i + 1}/${dataFiles.length})`);
+                
+                const response = await fetch(file);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${file}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                // Extract season from filename (e.g., "year-2023-2024-enhanced.json" -> "2023-24")
+                const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
+                const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
+                
+                if (data.matches) {
+                    Object.keys(data.matches).forEach(matchKey => {
+                        const match = data.matches[matchKey];
+                        // Create unique matchKey including season to avoid collisions
+                        const uniqueMatchKey = `${season}_${matchKey}`;
+                        match.matchKey = uniqueMatchKey;
+                        match.originalMatchKey = matchKey;
+                        match.season = season;
+                        allMatches.push(match);
+                    });
+                }
+            }
+            
+            updateStatus(`Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches | 🚀 Performance cache active`);
             renderFactorSelection();
-            renderSelectedFactors();
             updateResults();
+            await renderSavedStrategies();
             updateStrategyControls();
+            
+        } catch (error) {
+            updateStatus(`ERROR: ${error.message}`);
+            
+            document.getElementById('results').innerHTML = `
+                <div class="error">
+                    <strong>Data Loading Error</strong><br>
+                    ${error.message}<br>
+                    Make sure you're serving this page from a web server and both the enhanced data files and factor_definitions.json are available.
+                </div>
+            `;
+        }
+    }
+    
+    // Update status line
+    function updateStatus(message) {
+        document.getElementById('status-line').textContent = message;
+    }
+    
+    // Create profit chart
+    let profitChart = null;
+    
+    function createProfitChart(bettingRecords) {
+        const canvas = document.getElementById('profitChart');
+        const ctx = canvas.getContext('2d');
+        
+        // Destroy existing chart if it exists
+        if (profitChart) {
+            profitChart.destroy();
         }
         
-        // Select additional factor
-        function selectFactor(category, factorKey, factor) {
-            selectedFactors.push({ category, key: factorKey, ...factor });
-            renderFactorSelection();
-            renderSelectedFactors();
-            updateResults();
-            updateStrategyControls();
+        if (!bettingRecords || bettingRecords.length === 0) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#666';
+            ctx.font = '12px monospace';
+            ctx.textAlign = 'center';
+            ctx.fillText('No betting data available', canvas.width / 2, canvas.height / 2);
+            return;
         }
         
-        // Remove selected factor
-        function removeFactor(index) {
+        // Sort records by date
+        const sortedRecords = [...bettingRecords].sort((a, b) => new Date(a.date) - new Date(b.date));
+        
+        // Calculate cumulative profit with proper time data
+        let cumulativeProfit = 0;
+        const chartData = sortedRecords.map((record, index) => {
+            cumulativeProfit += record.profit;
+            return {
+                x: new Date(record.date),
+                y: cumulativeProfit
+            };
+        });
+        
+        // Create the chart
+        profitChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                datasets: [{
+                    label: 'Cumulative Profit',
+                    data: chartData,
+                    borderColor: cumulativeProfit >= 0 ? '#00ff88' : '#ff6b6b',
+                    backgroundColor: cumulativeProfit >= 0 ? 'rgba(0, 255, 136, 0.1)' : 'rgba(255, 107, 107, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.1,
+                    pointRadius: 0,
+                    pointHoverRadius: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: '#2d2d2d',
+                        titleColor: '#e0e0e0',
+                        bodyColor: '#e0e0e0',
+                        borderColor: '#404040',
+                        borderWidth: 1,
+                        callbacks: {
+                            title: function(context) {
+                                const index = context[0].dataIndex;
+                                const record = sortedRecords[index];
+                                return `${record.homeTeam} v ${record.awayTeam}`;
+                            },
+                            label: function(context) {
+                                const index = context.dataIndex;
+                                const record = sortedRecords[index];
+                                const profit = record.profit >= 0 ? `+${formatCurrency(record.profit)}` : formatCurrency(record.profit);
+                                return [
+                                    `Date: ${new Date(record.date).toLocaleDateString()}`,
+                                    `Bet: ${profit} (${record.outcome.toUpperCase()})`,
+                                    `Total: ${formatCurrency(context.parsed.y)}`
+                                ];
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        type: 'time',
+                        time: {
+                            unit: 'day',
+                            displayFormats: {
+                                day: 'MMM dd'
+                            }
+                        },
+                        grid: {
+                            color: '#404040',
+                            borderColor: '#404040'
+                        },
+                        ticks: {
+                            color: '#888',
+                            font: {
+                                size: 10
+                            },
+                            maxTicksLimit: 10
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: '#404040',
+                            borderColor: '#404040'
+                        },
+                        ticks: {
+                            color: '#888',
+                            font: {
+                                size: 10
+                            },
+                            callback: function(value) {
+                                return formatCurrency(value);
+                            }
+                        }
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+    }
+    
+    // Update status with performance stats
+    function updateStatusWithPerformance(baseMessage) {
+        const hitRates = performanceCache.getHitRates();
+        const totalCacheSize = performanceCache.factorEvaluations.size + 
+                             performanceCache.asianHandicapResults.size + 
+                             performanceCache.filteredMatches.size + 
+                             performanceCache.bettingResults.size;
+        
+        if (totalCacheSize > 0) {
+            const statusMessage = `${baseMessage} | 💨 Cache: ${hitRates.asianHandicap}% AH, ${hitRates.bettingResult}% results`;
+            updateStatus(statusMessage);
+        } else {
+            updateStatus(baseMessage);
+        }
+    }
+    
+    // Calculate ROI background bar properties
+    function calculateRoiBar(roi) {
+        if (!roi || roi === 0) {
+            return { width: '0%', color: 'transparent' };
+        }
+        
+        // Scale ROI to a reasonable bar width (max 100% width for ±20% ROI)
+        const maxRoi = 20; // ROI values beyond ±20% will be capped for display
+        const scaledRoi = Math.max(-maxRoi, Math.min(maxRoi, roi));
+        const width = Math.abs(scaledRoi / maxRoi) * 100;
+        
+        // Color based on positive/negative ROI
+        const color = roi > 0 ? '#00ff88' : '#ff0000'; // Light green for positive, bright red for negative
+        
+        return {
+            width: `${width}%`,
+            color: color
+        };
+    }
+    
+    // Render factor selection UI
+    function renderFactorSelection() {
+        if (Object.keys(factorDefinitions).length === 0) return;
+        
+        // Render mandatory factors
+        const mandatoryContainer = document.getElementById('mandatory-factors');
+        mandatoryContainer.innerHTML = '';
+        
+        // Handle both old structure (direct side/size) and new structure (nested in mandatory)
+        const sideFactors = factorDefinitions.side || factorDefinitions.mandatory?.side || {};
+        const sizeFactors = factorDefinitions.size || factorDefinitions.mandatory?.size || {};
+        
+        // Create mandatory grid
+        const mandatoryGrid = document.createElement('div');
+        mandatoryGrid.className = 'mandatory-grid';
+        
+        // Add SIDE factors (sorted by ROI)
+        const sideFactorsWithRoi = [];
+        Object.keys(sideFactors).forEach(factorKey => {
+            const factor = sideFactors[factorKey];
+            const isSelected = selectedSide?.key === factorKey;
+            
+            let roi = 0;
+            let roiHtml = '';
+            
+            // Calculate ROI if this side is selected with current size
+            if (!isSelected && selectedSize && allMatches.length > 0) {
+                try {
+                    const tempSide = { category: 'side', key: factorKey, ...factor };
+                    const tempMatches = getFilteredMatches(selectedFactors);
+                    
+                    if (tempMatches.length > 0) {
+                        const tempResults = calculateBettingResults(tempMatches, tempSide, selectedSize);
+                        roi = tempResults.summary.roi;
+                        const matchCount = tempResults.summary.totalBets;
+                        const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
+                        roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
+                    }
+                } catch (error) {
+                    // Silently ignore ROI calculation errors
+                }
+            }
+            
+            sideFactorsWithRoi.push({ factorKey, factor, isSelected, roi, roiHtml });
+        });
+        
+        // Sort by ROI (descending)
+        sideFactorsWithRoi.sort((a, b) => b.roi - a.roi);
+        
+        // Render sorted SIDE factors
+        sideFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
+            const factorDiv = document.createElement('div');
+            const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
+            factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+            
+            // Apply ROI background bar
+            const roiBarData = calculateRoiBar(roi);
+            factorDiv.style.setProperty('--roi-width', roiBarData.width);
+            factorDiv.style.setProperty('--roi-color', roiBarData.color);
+            
+            factorDiv.innerHTML = `
+                <div class="mandatory-item-name">SIDE: ${toStartCase(factorKey)}</div>
+                <div class="mandatory-item-desc">${factor.description}</div>
+                ${roiHtml}
+            `;
+            factorDiv.onclick = () => selectMandatoryFactor('side', factorKey, factor);
+            mandatoryGrid.appendChild(factorDiv);
+        });
+        
+        // Add SIZE factors (sorted by ROI)
+        const sizeFactorsWithRoi = [];
+        Object.keys(sizeFactors).forEach(factorKey => {
+            const factor = sizeFactors[factorKey];
+            const isSelected = selectedSize?.key === factorKey;
+            
+            let roi = 0;
+            let roiHtml = '';
+            
+            // Calculate ROI if this size is selected with current side
+            if (!isSelected && selectedSide && allMatches.length > 0) {
+                try {
+                    const tempSize = { category: 'size', key: factorKey, ...factor };
+                    const tempMatches = getFilteredMatches(selectedFactors);
+                    
+                    if (tempMatches.length > 0) {
+                        const tempResults = calculateBettingResults(tempMatches, selectedSide, tempSize);
+                        roi = tempResults.summary.roi;
+                        const matchCount = tempResults.summary.totalBets;
+                        const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
+                        roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
+                    }
+                } catch (error) {
+                    // Silently ignore ROI calculation errors
+                }
+            }
+            
+            sizeFactorsWithRoi.push({ factorKey, factor, isSelected, roi, roiHtml });
+        });
+        
+        // Sort by ROI (descending)
+        sizeFactorsWithRoi.sort((a, b) => b.roi - a.roi);
+        
+        // Render sorted SIZE factors
+        sizeFactorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {                    
+            const factorDiv = document.createElement('div');
+            const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
+            factorDiv.className = `mandatory-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+            
+            // Apply ROI background bar
+            const roiBarData = calculateRoiBar(roi);
+            factorDiv.style.setProperty('--roi-width', roiBarData.width);
+            factorDiv.style.setProperty('--roi-color', roiBarData.color);
+            
+            factorDiv.innerHTML = `
+                <div class="mandatory-item-name">SIZE: ${toStartCase(factorKey)}</div>
+                <div class="mandatory-item-desc">${factor.description}</div>
+                ${roiHtml}
+            `;
+            factorDiv.onclick = () => selectMandatoryFactor('size', factorKey, factor);
+            mandatoryGrid.appendChild(factorDiv);
+        });
+        
+        mandatoryContainer.appendChild(mandatoryGrid);
+        
+        // Render available factors
+        const availableContainer = document.getElementById('available-factors');
+        availableContainer.innerHTML = '';
+        
+        Object.keys(factorDefinitions).forEach(category => {
+            // Skip mandatory categories and empty categories
+            if (category === 'side' || category === 'size' || category === 'mandatory') return;
+            if (!factorDefinitions[category] || Object.keys(factorDefinitions[category]).length === 0) return;
+            
+            const sectionDiv = document.createElement('div');
+            sectionDiv.className = 'factor-section';
+            
+            const titleDiv = document.createElement('div');
+            titleDiv.className = 'factor-title';
+            titleDiv.textContent = toStartCase(category);
+            sectionDiv.appendChild(titleDiv);
+            
+            const gridDiv = document.createElement('div');
+            gridDiv.className = 'factor-grid';
+            
+            let hasVisibleFactors = false;
+            
+            // Collect all factors with their ROI data for sorting
+            const factorsWithRoi = [];
+            
+            Object.keys(factorDefinitions[category]).forEach(factorKey => {
+                const factor = factorDefinitions[category][factorKey];
+                const isSelected = selectedFactors.some(f => f.category === category && f.key === factorKey);
+                
+                if (factor.expression && factor.description) {
+                    hasVisibleFactors = true;
+                    
+                    let roi = 0;
+                    let matchCount = 0;
+                    let roiHtml = '';
+                    
+                    // Calculate ROI if we have mandatory factors and data loaded
+                    if (!isSelected && selectedSide && selectedSize && allMatches.length > 0) {
+                        try {
+                            const tempFactors = [...selectedFactors, { category, key: factorKey, ...factor }];
+                            const tempMatches = getFilteredMatches(tempFactors);
+                            
+                            if (tempMatches.length > 0) {
+                                const tempResults = calculateBettingResults(tempMatches, selectedSide, selectedSize);
+                                roi = tempResults.summary.roi;
+                                matchCount = tempResults.summary.totalBets;
+                                const roiClass = roi > 0 ? 'roi-positive' : roi < 0 ? 'roi-negative' : 'roi-neutral';
+                                roiHtml = `<div class="factor-roi ${roiClass}">${matchCount} / ${roi.toFixed(2)}%</div>`;
+                            }
+                        } catch (error) {
+                            // Silently ignore ROI calculation errors
+                        }
+                    }
+                    
+                    factorsWithRoi.push({
+                        factorKey,
+                        factor,
+                        isSelected,
+                        roi,
+                        matchCount,
+                        roiHtml
+                    });
+                }
+            });
+            
+            // Sort factors by ROI (descending)
+            factorsWithRoi.sort((a, b) => b.roi - a.roi);
+            
+            // Render sorted factors
+            factorsWithRoi.forEach(({ factorKey, factor, isSelected, roi, roiHtml }) => {
+                const factorDiv = document.createElement('div');
+                const negativeRoiClass = roiHtml.includes('roi-negative') ? ' negative-roi' : '';
+                factorDiv.className = `factor-item ${isSelected ? 'selected' : ''}${negativeRoiClass}`;
+                
+                // Apply ROI background bar
+                const roiBarData = calculateRoiBar(roi);
+                factorDiv.style.setProperty('--roi-width', roiBarData.width);
+                factorDiv.style.setProperty('--roi-color', roiBarData.color);
+                
+                factorDiv.innerHTML = `
+                    <div class="factor-name">${toStartCase(factorKey)}</div>
+                    <div class="factor-desc">${factor.description}</div>
+                    ${roiHtml}
+                `;
+                factorDiv.onclick = () => {
+                    if (isSelected) {
+                        deselectFactor(category, factorKey);
+                    } else {
+                        selectFactor(category, factorKey, factor);
+                    }
+                };
+                gridDiv.appendChild(factorDiv);
+            });
+            
+            if (hasVisibleFactors) {
+                sectionDiv.appendChild(gridDiv);
+                availableContainer.appendChild(sectionDiv);
+            }
+        });
+    }
+    
+    // Select mandatory factor
+    function selectMandatoryFactor(category, factorKey, factor) {
+        if (category === 'side') {
+            selectedSide = { category, key: factorKey, ...factor };
+        } else if (category === 'size') {
+            selectedSize = { category, key: factorKey, ...factor };
+        }
+        
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+    }
+    
+    // Select additional factor
+    function selectFactor(category, factorKey, factor) {
+        selectedFactors.push({ category, key: factorKey, ...factor });
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+    }
+    
+    // Remove selected factor
+    function removeFactor(index) {
+        selectedFactors.splice(index, 1);
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+    }
+    
+    // Deselect factor from sidebar
+    function deselectFactor(category, factorKey) {
+        const index = selectedFactors.findIndex(f => f.category === category && f.key === factorKey);
+        if (index !== -1) {
             selectedFactors.splice(index, 1);
             renderFactorSelection();
             renderSelectedFactors();
             updateResults();
             updateStrategyControls();
         }
+    }
+    
+    // Render selected factors as tags
+    function renderSelectedFactors() {
+        const selectedContainer = document.getElementById('selected-factors-list');
         
-        // Deselect factor from sidebar
-        function deselectFactor(category, factorKey) {
-            const index = selectedFactors.findIndex(f => f.category === category && f.key === factorKey);
-            if (index !== -1) {
-                selectedFactors.splice(index, 1);
-                renderFactorSelection();
-                renderSelectedFactors();
-                updateResults();
-                updateStrategyControls();
-            }
+        let tags = [];
+        
+        // Add mandatory selections
+        if (selectedSide) {
+            tags.push(`<div class="selected-tag mandatory" title="${selectedSide.description}">
+                SIDE: ${toStartCase(selectedSide.key)} <span class="remove-x" onclick="deselectMandatory('side')">×</span>
+            </div>`);
         }
         
-        // Render selected factors as tags
-        function renderSelectedFactors() {
-            const selectedContainer = document.getElementById('selected-factors-list');
-            
-            let tags = [];
-            
-            // Add mandatory selections
-            if (selectedSide) {
-                tags.push(`<div class="selected-tag mandatory" title="${selectedSide.description}">
-                    SIDE: ${toStartCase(selectedSide.key)} <span class="remove-x" onclick="deselectMandatory('side')">×</span>
-                </div>`);
-            }
-            
-            if (selectedSize) {
-                tags.push(`<div class="selected-tag mandatory" title="${selectedSize.description}">
-                    SIZE: ${toStartCase(selectedSize.key)} <span class="remove-x" onclick="deselectMandatory('size')">×</span>
-                </div>`);
-            }
-            
-            // Add optional factors
-            selectedFactors.forEach((factor, index) => {
-                tags.push(`<div class="selected-tag" title="${factor.description}">
-                    ${toStartCase(factor.category)}.${toStartCase(factor.key)} <span class="remove-x" onclick="removeFactor(${index})">×</span>
-                </div>`);
-            });
-            
-            if (tags.length === 0) {
-                selectedContainer.innerHTML = '<div style="color: #666; font-size: 9px;">Select betting side and stake method to begin</div>';
-            } else {
-                selectedContainer.innerHTML = tags.join('');
-            }
+        if (selectedSize) {
+            tags.push(`<div class="selected-tag mandatory" title="${selectedSize.description}">
+                SIZE: ${toStartCase(selectedSize.key)} <span class="remove-x" onclick="deselectMandatory('size')">×</span>
+            </div>`);
         }
         
-        // Deselect mandatory factor
-        function deselectMandatory(type) {
-            if (type === 'side') {
-                selectedSide = null;
-            } else if (type === 'size') {
-                selectedSize = null;
-            }
-            renderFactorSelection();
-            renderSelectedFactors();
-            updateResults();
-            updateStrategyControls();
+        // Add optional factors
+        selectedFactors.forEach((factor, index) => {
+            tags.push(`<div class="selected-tag" title="${factor.description}">
+                ${toStartCase(factor.category)}.${toStartCase(factor.key)} <span class="remove-x" onclick="removeFactor(${index})">×</span>
+            </div>`);
+        });
+        
+        if (tags.length === 0) {
+            selectedContainer.innerHTML = '<div style="color: #666; font-size: 9px;">Select betting side and stake method to begin</div>';
+        } else {
+            selectedContainer.innerHTML = tags.join('');
+        }
+    }
+    
+    // Deselect mandatory factor
+    function deselectMandatory(type) {
+        if (type === 'side') {
+            selectedSide = null;
+        } else if (type === 'size') {
+            selectedSize = null;
+        }
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+    }
+    
+    // Update results based on selected factors
+    function updateResults() {
+        if (!allMatches.length) {
+            document.getElementById('results').innerHTML = '<div class="loading">Loading strategy engine...</div>';
+            return;
         }
         
-        // Update results based on selected factors
-        function updateResults() {
-            if (!allMatches.length) {
-                document.getElementById('results').innerHTML = '<div class="loading">Loading strategy engine...</div>';
-                return;
-            }
-            
-            if (!selectedSide || !selectedSize) {
-                document.getElementById('results').innerHTML = `
-                    <div class="loading">
-                        <strong>Configuration Required</strong><br><br>
-                        Select betting side and staking method to begin analysis.<br><br>
-                        Current: ${selectedSide ? 'SIDE: ' + selectedSide.key : 'SIDE: Not selected'}<br>
-                        Current: ${selectedSize ? 'SIZE: ' + selectedSize.key : 'SIZE: Not selected'}
-                    </div>
-                `;
-                return;
-            }
-            
-            try {
-                // Filter matches by selected factors (cached)
-                const filteredMatches = getFilteredMatches(selectedFactors);
-                
-                // Calculate betting results (cached)
-                currentResults = calculateBettingResults(filteredMatches, selectedSide, selectedSize);
-                
-                // Render results
-                renderResults();
-                
-            } catch (error) {
-                document.getElementById('results').innerHTML = `
-                    <div class="error">
-                        <strong>Analysis Error</strong><br>
-                        ${error.message}<br>
-                        Check factor selections and try again.
-                    </div>
-                `;
-                console.error('Analysis error:', error);
-            }
-        }
-        
-        // Calculate betting results (with caching)
-        function calculateBettingResults(matches, sideSelection, sizeSelection) {
-            // Check cache first
-            const configHash = getBettingConfigHash(matches, sideSelection, sizeSelection);
-            if (performanceCache.bettingResults.has(configHash)) {
-                performanceCache.stats.bettingResultHits++;
-                return performanceCache.bettingResults.get(configHash);
-            }
-            
-            const bettingRecords = [];
-            let totalStake = 0;
-            let totalPayout = 0;
-            let wins = 0;
-            let losses = 0;
-            let pushes = 0;
-            
-            matches.forEach(match => {
-                try {
-                    const matchData = match.match || {};
-                    const homeScore = matchData.homeScore || 0;
-                    const awayScore = matchData.awayScore || 0;
-                    const handicap = matchData.asianHandicapOdds?.homeHandicap;
-                    
-                    if (!handicap) return;
-                    
-                    // Determine betting side
-                    let betSide = sideSelection.betSide;
-                    if (typeof betSide === 'string' && betSide.includes('match.')) {
-                        betSide = evaluateFactorExpression(match, betSide);
-                    }
-                    
-                    // Determine stake size
-                    let stake = 200;
-                    if (sizeSelection.expression && sizeSelection.expression !== "200") {
-                        stake = evaluateFactorExpression(match, sizeSelection.expression);
-                    }
-                    
-                    // Get odds
-                    const homeOdds = matchData.asianHandicapOdds?.homeOdds || 2.0;
-                    const awayOdds = matchData.asianHandicapOdds?.awayOdds || 2.0;
-                    const odds = betSide === 'home' ? homeOdds : awayOdds;
-                    
-                    // Skip invalid data
-                    if (!odds || odds <= 1 || !stake || stake <= 0) return;
-                    
-                    // Calculate result
-                    const result = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, stake);
-                    
-                    // Note: Factor display values are now calculated at render time, no need to pre-calculate
-
-                    // Create record
-                    const record = {
-                        matchKey: match.matchKey,
-                        date: matchData.date,
-                        homeTeam: matchData.homeTeam,
-                        awayTeam: matchData.awayTeam,
-                        score: `${homeScore}-${awayScore}`,
-                        handicap: handicap,
-                        betSide: betSide,
-                        odds: odds,
-                        stake: stake,
-                        outcome: result.outcome,
-                        payout: result.payout,
-                        profit: result.profit,
-                        week: match.fbref?.week || 0,
-                        season: match.season || 'unknown',
-                        match
-                    };
-                    
-                    bettingRecords.push(record);
-                    totalStake += stake;
-                    totalPayout += result.payout;
-                    
-                    if (result.outcome === 'win') wins++;
-                    else if (result.outcome === 'loss') losses++;
-                    else if (result.outcome === 'push') pushes++;
-                    
-                } catch (error) {
-                    console.warn('Error calculating betting result:', error);
-                }
-            });
-            
-            const totalProfit = totalPayout - totalStake;
-            const roi = totalStake > 0 ? (totalProfit / totalStake) * 100 : 0;
-            const winRate = (wins + losses + pushes) > 0 ? (wins / (wins + losses + pushes)) * 100 : 0;
-            
-            const result = {
-                bettingRecords,
-                summary: {
-                    totalBets: bettingRecords.length,
-                    filteredMatches: matches.length,
-                    totalMatches: allMatches.length,
-                    totalStake: Math.round(totalStake * 100) / 100,
-                    totalPayout: Math.round(totalPayout * 100) / 100,
-                    totalProfit: Math.round(totalProfit * 100) / 100,
-                    roi: Math.round(roi * 100) / 100,
-                    winRate: Math.round(winRate * 100) / 100,
-                    wins,
-                    losses,
-                    pushes
-                }
-            };
-            
-            // Cache the result
-            performanceCache.bettingResults.set(configHash, result);
-            performanceCache.stats.bettingResultMisses++;
-            
-            return result;
-        }
-        
-        // Render results
-        function renderResults() {
-            if (!currentResults) return;
-            
-            const { summary, bettingRecords } = currentResults;
-            
-            // Get factors with displayExpressions - these should match what we evaluated
-            const factorsWithDisplay = selectedFactors.filter(f => f.displayExpression);
-
-            
-            const resultsHTML = `
-                <div class="summary">
-                    <div class="summary-header">Strategy Performance</div>
-                    <div class="summary-stats">
-                        Filtered ${summary.filteredMatches} matches from ${summary.totalMatches} total (${((summary.filteredMatches/summary.totalMatches)*100).toFixed(1)}% match rate)<br>
-                        Active factors: ${selectedFactors.map(f => toStartCase(f.key)).join(', ') || 'Base strategy only'}
-                    </div>
-                    <div class="summary-grid">
-                        <div class="summary-metric">
-                            <div class="summary-value">${summary.totalBets}</div>
-                            <div class="summary-label">Bets</div>
-                        </div>
-                        <div class="summary-metric">
-                            <div class="summary-value">${formatCurrency(summary.totalStake)}</div>
-                            <div class="summary-label">Stake</div>
-                        </div>
-                        <div class="summary-metric">
-                            <div class="summary-value ${getProfitColorClass(summary.totalProfit)}">${formatCurrency(summary.totalProfit)}</div>
-                            <div class="summary-label">Profit</div>
-                        </div>
-                        <div class="summary-metric">
-                            <div class="summary-value ${getProfitColorClass(summary.roi)}">${formatPercent(summary.roi)}</div>
-                            <div class="summary-label">ROI</div>
-                        </div>
-                        <div class="summary-metric">
-                            <div class="summary-value">${summary.winRate.toFixed(1)}%</div>
-                            <div class="summary-label">Win Rate</div>
-                        </div>
-                        <div class="summary-metric">
-                            <div class="summary-value">${summary.wins}W/${summary.losses}L/${summary.pushes}P</div>
-                            <div class="summary-label">Record</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chart-section">
-                    <div class="chart-header">Cumulative Profit Over Time</div>
-                    <div class="chart-container">
-                        <canvas id="profitChart"></canvas>
-                    </div>
-                </div>
-                
-                <div class="records-section">
-                    <div class="records-header">Betting Records (${bettingRecords.length} matches)</div>
-                    <table class="records-table">
-                        <thead>
-                            <tr>
-                                <th>Date</th>
-                                <th>Match</th>
-                                <th>Score</th>
-                                <th>Handicap</th>
-                                <th>Side</th>
-                                <th>Odds</th>
-                                <th>Stake</th>
-                                <th>Result</th>
-                                <th>P&L</th>
-                                ${factorsWithDisplay.map(factor => `
-                                    <th title="${factor.description || factor.key}">${toStartCase(factor.key)}</th>
-                                `).join('')}
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${bettingRecords.map(record => `
-                                <tr>
-                                    <td>${new Date(record.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
-                                    <td>
-                                        <span class="team-link" onclick="openTeamModal('${record.homeTeam}')">${record.homeTeam}</span> v 
-                                        <span class="team-link" onclick="openTeamModal('${record.awayTeam}')">${record.awayTeam}</span>
-                                        <span style="font-size: 8px; color: #666; margin-left: 4px;">(${record.season || 'S?'})</span>
-                                    </td>
-                                    <td>${record.score}</td>
-                                    <td>${record.handicap}</td>
-                                    <td>${record.betSide.toUpperCase()}</td>
-                                    <td>${record.odds.toFixed(2)}</td>
-                                    <td>${formatCurrency(record.stake)}</td>
-                                    <td>${record.outcome.toUpperCase()}</td>
-                                    <td class="${getProfitColorClass(record.profit)}">${formatCurrency(record.profit)}</td>
-                                    ${factorsWithDisplay.map(factor => {
-                                        const displayExpression = factor.displayExpression;
-                                        let displayValue = '-';
-                                        try {
-                                            const value = displayExpression.map(exp => eval('record.match.' + exp)).join(', ');
-                                            displayValue = value ?? '-';
-                                        } catch (error) {
-                                            console.warn(`Error evaluating display expression for ${factor.key}:${displayExpression}`, error);
-                                            displayValue = 'Error';
-                                        }
-                                        return `<td>${displayValue}</td>`;
-                                    }).join('')}
-                                </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
+        if (!selectedSide || !selectedSize) {
+            document.getElementById('results').innerHTML = `
+                <div class="loading">
+                    <strong>Configuration Required</strong><br><br>
+                    Select betting side and staking method to begin analysis.<br><br>
+                    Current: ${selectedSide ? 'SIDE: ' + selectedSide.key : 'SIDE: Not selected'}<br>
+                    Current: ${selectedSize ? 'SIZE: ' + selectedSize.key : 'SIZE: Not selected'}
                 </div>
             `;
+            return;
+        }
+        
+        try {
+            // Filter matches by selected factors (cached)
+            const filteredMatches = getFilteredMatches(selectedFactors);
             
-            document.getElementById('results').innerHTML = resultsHTML;
+            // Calculate betting results (cached)
+            currentResults = calculateBettingResults(filteredMatches, selectedSide, selectedSize);
             
-            // Create the profit chart
+            // Render results
+            renderResults();
+            
+        } catch (error) {
+            document.getElementById('results').innerHTML = `
+                <div class="error">
+                    <strong>Analysis Error</strong><br>
+                    ${error.message}<br>
+                    Check factor selections and try again.
+                </div>
+            `;
+            console.error('Analysis error:', error);
+        }
+    }
+    
+    // Calculate betting results (with caching)
+    function calculateBettingResults(matches, sideSelection, sizeSelection) {
+        // Check cache first
+        const configHash = getBettingConfigHash(matches, sideSelection, sizeSelection);
+        if (performanceCache.bettingResults.has(configHash)) {
+            performanceCache.stats.bettingResultHits++;
+            return performanceCache.bettingResults.get(configHash);
+        }
+        
+        const bettingRecords = [];
+        let totalStake = 0;
+        let totalPayout = 0;
+        let wins = 0;
+        let losses = 0;
+        let pushes = 0;
+        
+        matches.forEach(match => {
             try {
-                createProfitChart(bettingRecords);
-            } catch (error) {
-                console.error('Error creating profit chart:', error);
-                // Clear the chart canvas and show error message
-                const canvas = document.getElementById('profitChart');
-                if (canvas) {
-                    const ctx = canvas.getContext('2d');
-                    ctx.clearRect(0, 0, canvas.width, canvas.height);
-                    ctx.fillStyle = '#ff6b6b';
-                    ctx.font = '12px monospace';
-                    ctx.textAlign = 'center';
-                    ctx.fillText('Chart error - check console', canvas.width / 2, canvas.height / 2);
-                }
-            }
-            
-            // Update status with performance info
-            const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;
-            updateStatusWithPerformance(baseStatus);
-        }
-        
-        // Team Analysis Functions
-        function openTeamModal(teamName) {
-            analyzeTeam(teamName);
-            document.getElementById('teamModal').style.display = 'block';
-        }
-        
-        function closeTeamModal() {
-            document.getElementById('teamModal').style.display = 'none';
-        }
-        
-        function analyzeTeam(teamName) {
-            console.log(`🔍 Analyzing team: ${teamName}`);
-            
-            // Get all matches for this team
-            const teamMatches = allMatches.filter(match => {
                 const matchData = match.match || {};
-                return matchData.homeTeam === teamName || matchData.awayTeam === teamName;
-            }).sort((a, b) => new Date(a.match?.date || 0) - new Date(b.match?.date || 0));
-            
-            // Calculate team statistics
-            let wins = 0, losses = 0, draws = 0;
-            let ahWins = 0, ahLosses = 0, ahPushes = 0;
-            let homeRecord = { wins: 0, losses: 0, draws: 0 };
-            let awayRecord = { wins: 0, losses: 0, draws: 0 };
-            let currentStreak = { type: '', count: 0 };
-            let ahCurrentStreak = { type: '', count: 0 };
-            
-            teamMatches.forEach((match, index) => {
-                const matchData = match.match || {};
-                const isHome = matchData.homeTeam === teamName;
                 const homeScore = matchData.homeScore || 0;
                 const awayScore = matchData.awayScore || 0;
                 const handicap = matchData.asianHandicapOdds?.homeHandicap;
                 
-                // Overall result
-                let result = 'draw';
-                if (isHome) {
-                    if (homeScore > awayScore) { result = 'win'; wins++; homeRecord.wins++; }
-                    else if (homeScore < awayScore) { result = 'loss'; losses++; homeRecord.losses++; }
-                    else { draws++; homeRecord.draws++; }
-                } else {
-                    if (awayScore > homeScore) { result = 'win'; wins++; awayRecord.wins++; }
-                    else if (awayScore < homeScore) { result = 'loss'; losses++; awayRecord.losses++; }
-                    else { draws++; awayRecord.draws++; }
+                if (!handicap) return;
+                
+                // Determine betting side
+                let betSide = sideSelection.betSide;
+                if (typeof betSide === 'string' && betSide.includes('match.')) {
+                    betSide = evaluateFactorExpression(match, betSide);
                 }
                 
-                // Update current streak
+                // Determine stake size
+                let stake = 200;
+                if (sizeSelection.expression && sizeSelection.expression !== "200") {
+                    stake = evaluateFactorExpression(match, sizeSelection.expression);
+                }
+                
+                // Get odds
+                const homeOdds = matchData.asianHandicapOdds?.homeOdds || 2.0;
+                const awayOdds = matchData.asianHandicapOdds?.awayOdds || 2.0;
+                const odds = betSide === 'home' ? homeOdds : awayOdds;
+                
+                // Skip invalid data
+                if (!odds || odds <= 1 || !stake || stake <= 0) return;
+                
+                // Calculate result
+                const result = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, stake);
+                
+                // Note: Factor display values are now calculated at render time, no need to pre-calculate
+
+                // Create record
+                const record = {
+                    matchKey: match.matchKey,
+                    date: matchData.date,
+                    homeTeam: matchData.homeTeam,
+                    awayTeam: matchData.awayTeam,
+                    score: `${homeScore}-${awayScore}`,
+                    handicap: handicap,
+                    betSide: betSide,
+                    odds: odds,
+                    stake: stake,
+                    outcome: result.outcome,
+                    payout: result.payout,
+                    profit: result.profit,
+                    week: match.fbref?.week || 0,
+                    season: match.season || 'unknown',
+                    match
+                };
+                
+                bettingRecords.push(record);
+                totalStake += stake;
+                totalPayout += result.payout;
+                
+                if (result.outcome === 'win') wins++;
+                else if (result.outcome === 'loss') losses++;
+                else if (result.outcome === 'push') pushes++;
+                
+            } catch (error) {
+                console.warn('Error calculating betting result:', error);
+            }
+        });
+        
+        const totalProfit = totalPayout - totalStake;
+        const roi = totalStake > 0 ? (totalProfit / totalStake) * 100 : 0;
+        const winRate = (wins + losses + pushes) > 0 ? (wins / (wins + losses + pushes)) * 100 : 0;
+        
+        const result = {
+            bettingRecords,
+            summary: {
+                totalBets: bettingRecords.length,
+                filteredMatches: matches.length,
+                totalMatches: allMatches.length,
+                totalStake: Math.round(totalStake * 100) / 100,
+                totalPayout: Math.round(totalPayout * 100) / 100,
+                totalProfit: Math.round(totalProfit * 100) / 100,
+                roi: Math.round(roi * 100) / 100,
+                winRate: Math.round(winRate * 100) / 100,
+                wins,
+                losses,
+                pushes
+            }
+        };
+        
+        // Cache the result
+        performanceCache.bettingResults.set(configHash, result);
+        performanceCache.stats.bettingResultMisses++;
+        
+        return result;
+    }
+    
+    // Render results
+    function renderResults() {
+        if (!currentResults) return;
+        
+        const { summary, bettingRecords } = currentResults;
+        
+        // Get factors with displayExpressions - these should match what we evaluated
+        const factorsWithDisplay = selectedFactors.filter(f => f.displayExpression);
+
+        
+        const resultsHTML = `
+            <div class="summary">
+                <div class="summary-header">Strategy Performance</div>
+                <div class="summary-stats">
+                    Filtered ${summary.filteredMatches} matches from ${summary.totalMatches} total (${((summary.filteredMatches/summary.totalMatches)*100).toFixed(1)}% match rate)<br>
+                    Active factors: ${selectedFactors.map(f => toStartCase(f.key)).join(', ') || 'Base strategy only'}
+                </div>
+                <div class="summary-grid">
+                    <div class="summary-metric">
+                        <div class="summary-value">${summary.totalBets}</div>
+                        <div class="summary-label">Bets</div>
+                    </div>
+                    <div class="summary-metric">
+                        <div class="summary-value">${formatCurrency(summary.totalStake)}</div>
+                        <div class="summary-label">Stake</div>
+                    </div>
+                    <div class="summary-metric">
+                        <div class="summary-value ${getProfitColorClass(summary.totalProfit)}">${formatCurrency(summary.totalProfit)}</div>
+                        <div class="summary-label">Profit</div>
+                    </div>
+                    <div class="summary-metric">
+                        <div class="summary-value ${getProfitColorClass(summary.roi)}">${formatPercent(summary.roi)}</div>
+                        <div class="summary-label">ROI</div>
+                    </div>
+                    <div class="summary-metric">
+                        <div class="summary-value">${summary.winRate.toFixed(1)}%</div>
+                        <div class="summary-label">Win Rate</div>
+                    </div>
+                    <div class="summary-metric">
+                        <div class="summary-value">${summary.wins}W/${summary.losses}L/${summary.pushes}P</div>
+                        <div class="summary-label">Record</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <div class="chart-header">Cumulative Profit Over Time</div>
+                <div class="chart-container">
+                    <canvas id="profitChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="records-section">
+                <div class="records-header">Betting Records (${bettingRecords.length} matches)</div>
+                <table class="records-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Match</th>
+                            <th>Score</th>
+                            <th>Handicap</th>
+                            <th>Side</th>
+                            <th>Odds</th>
+                            <th>Stake</th>
+                            <th>Result</th>
+                            <th>P&L</th>
+                            ${factorsWithDisplay.map(factor => `
+                                <th title="${factor.description || factor.key}">${toStartCase(factor.key)}</th>
+                            `).join('')}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${bettingRecords.map(record => `
+                            <tr>
+                                <td>${new Date(record.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
+                                <td>
+                                    <span class="team-link" onclick="openTeamModal('${record.homeTeam}')">${record.homeTeam}</span> v 
+                                    <span class="team-link" onclick="openTeamModal('${record.awayTeam}')">${record.awayTeam}</span>
+                                    <span style="font-size: 8px; color: #666; margin-left: 4px;">(${record.season || 'S?'})</span>
+                                </td>
+                                <td>${record.score}</td>
+                                <td>${record.handicap}</td>
+                                <td>${record.betSide.toUpperCase()}</td>
+                                <td>${record.odds.toFixed(2)}</td>
+                                <td>${formatCurrency(record.stake)}</td>
+                                <td>${record.outcome.toUpperCase()}</td>
+                                <td class="${getProfitColorClass(record.profit)}">${formatCurrency(record.profit)}</td>
+                                ${factorsWithDisplay.map(factor => {
+                                    const displayExpression = factor.displayExpression;
+                                    let displayValue = '-';
+                                    try {
+                                        const value = displayExpression.map(exp => eval('record.match.' + exp)).join(', ');
+                                        displayValue = value ?? '-';
+                                    } catch (error) {
+                                        console.warn(`Error evaluating display expression for ${factor.key}:${displayExpression}`, error);
+                                        displayValue = 'Error';
+                                    }
+                                    return `<td>${displayValue}</td>`;
+                                }).join('')}
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            </div>
+        `;
+        
+        document.getElementById('results').innerHTML = resultsHTML;
+        
+        // Create the profit chart
+        try {
+            createProfitChart(bettingRecords);
+        } catch (error) {
+            console.error('Error creating profit chart:', error);
+            // Clear the chart canvas and show error message
+            const canvas = document.getElementById('profitChart');
+            if (canvas) {
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = '#ff6b6b';
+                ctx.font = '12px monospace';
+                ctx.textAlign = 'center';
+                ctx.fillText('Chart error - check console', canvas.width / 2, canvas.height / 2);
+            }
+        }
+        
+        // Update status with performance info
+        const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;
+        updateStatusWithPerformance(baseStatus);
+    }
+    
+    // Team Analysis Functions
+    function openTeamModal(teamName) {
+        analyzeTeam(teamName);
+        document.getElementById('teamModal').style.display = 'block';
+    }
+    
+    function closeTeamModal() {
+        document.getElementById('teamModal').style.display = 'none';
+    }
+    
+    function analyzeTeam(teamName) {
+        console.log(`🔍 Analyzing team: ${teamName}`);
+        
+        // Get all matches for this team
+        const teamMatches = allMatches.filter(match => {
+            const matchData = match.match || {};
+            return matchData.homeTeam === teamName || matchData.awayTeam === teamName;
+        }).sort((a, b) => new Date(a.match?.date || 0) - new Date(b.match?.date || 0));
+        
+        // Calculate team statistics
+        let wins = 0, losses = 0, draws = 0;
+        let ahWins = 0, ahLosses = 0, ahPushes = 0;
+        let homeRecord = { wins: 0, losses: 0, draws: 0 };
+        let awayRecord = { wins: 0, losses: 0, draws: 0 };
+        let currentStreak = { type: '', count: 0 };
+        let ahCurrentStreak = { type: '', count: 0 };
+        
+        teamMatches.forEach((match, index) => {
+            const matchData = match.match || {};
+            const isHome = matchData.homeTeam === teamName;
+            const homeScore = matchData.homeScore || 0;
+            const awayScore = matchData.awayScore || 0;
+            const handicap = matchData.asianHandicapOdds?.homeHandicap;
+            
+            // Overall result
+            let result = 'draw';
+            if (isHome) {
+                if (homeScore > awayScore) { result = 'win'; wins++; homeRecord.wins++; }
+                else if (homeScore < awayScore) { result = 'loss'; losses++; homeRecord.losses++; }
+                else { draws++; homeRecord.draws++; }
+            } else {
+                if (awayScore > homeScore) { result = 'win'; wins++; awayRecord.wins++; }
+                else if (awayScore < homeScore) { result = 'loss'; losses++; awayRecord.losses++; }
+                else { draws++; awayRecord.draws++; }
+            }
+            
+            // Update current streak
+            if (index === 0) {
+                currentStreak = { type: result, count: result === 'draw' ? 0 : 1 };
+            } else if (result === currentStreak.type && result !== 'draw') {
+                currentStreak.count++;
+            } else if (result !== 'draw') {
+                currentStreak = { type: result, count: 1 };
+            }
+            
+            // Asian Handicap result
+            if (handicap) {
+                const betSide = isHome ? 'home' : 'away';
+                const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
+                const ahResult = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
+                
+                if (ahResult.outcome === 'win') ahWins++;
+                else if (ahResult.outcome === 'loss') ahLosses++;
+                else ahPushes++;
+                
+                // Update AH streak
                 if (index === 0) {
-                    currentStreak = { type: result, count: result === 'draw' ? 0 : 1 };
-                } else if (result === currentStreak.type && result !== 'draw') {
-                    currentStreak.count++;
-                } else if (result !== 'draw') {
-                    currentStreak = { type: result, count: 1 };
+                    ahCurrentStreak = { type: ahResult.outcome, count: ahResult.outcome === 'push' ? 0 : 1 };
+                } else if (ahResult.outcome === ahCurrentStreak.type && ahResult.outcome !== 'push') {
+                    ahCurrentStreak.count++;
+                } else if (ahResult.outcome !== 'push') {
+                    ahCurrentStreak = { type: ahResult.outcome, count: 1 };
+                }
+            }
+        });
+        
+        // Update modal content
+        document.getElementById('modalTeamName').textContent = `${teamName} - Complete Analysis`;
+        
+        // Team statistics
+        const totalMatches = teamMatches.length;
+        const winRate = totalMatches > 0 ? (wins / totalMatches * 100).toFixed(1) : '0.0';
+        const ahWinRate = (ahWins + ahLosses + ahPushes) > 0 ? (ahWins / (ahWins + ahLosses + ahPushes) * 100).toFixed(1) : '0.0';
+        
+        const statsHTML = `
+            <div class="team-stat">
+                <div class="team-stat-value">${totalMatches}</div>
+                <div class="team-stat-label">Total Matches</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${wins}W-${losses}L-${draws}D</div>
+                <div class="team-stat-label">Overall Record</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${winRate}%</div>
+                <div class="team-stat-label">Win Rate</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${homeRecord.wins}W-${homeRecord.losses}L-${homeRecord.draws}D</div>
+                <div class="team-stat-label">Home Record</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${awayRecord.wins}W-${awayRecord.losses}L-${awayRecord.draws}D</div>
+                <div class="team-stat-label">Away Record</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${ahWins}W-${ahLosses}L-${ahPushes}P</div>
+                <div class="team-stat-label">AH Record</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value">${ahWinRate}%</div>
+                <div class="team-stat-label">AH Win Rate</div>
+            </div>
+            <div class="team-stat">
+                <div class="team-stat-value ${currentStreak.type === 'win' ? 'profit-positive' : currentStreak.type === 'loss' ? 'profit-negative' : ''}">${currentStreak.count} ${currentStreak.type.toUpperCase()}</div>
+                <div class="team-stat-label">Current Streak</div>
+            </div>
+        `;
+        
+        document.getElementById('teamStats').innerHTML = statsHTML;
+        
+        // Matches table
+        const matchesHTML = teamMatches.map((match, index) => {
+            const matchData = match.match || {};
+            const isHome = matchData.homeTeam === teamName;
+            const opponent = isHome ? matchData.awayTeam : matchData.homeTeam;
+            const venue = isHome ? 'HOME' : 'AWAY';
+            const homeScore = matchData.homeScore || 0;
+            const awayScore = matchData.awayScore || 0;
+            const score = `${homeScore}-${awayScore}`;
+            
+            // Overall result
+            let result = 'DRAW';
+            let resultClass = 'profit-neutral';
+            if (isHome) {
+                if (homeScore > awayScore) { result = 'WIN'; resultClass = 'profit-positive'; }
+                else if (homeScore < awayScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
+            } else {
+                if (awayScore > homeScore) { result = 'WIN'; resultClass = 'profit-positive'; }
+                else if (awayScore < homeScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
+            }
+            
+            // AH result
+            const handicap = matchData.asianHandicapOdds?.homeHandicap || 'N/A';
+            let ahResult = 'N/A';
+            let ahResultClass = '';
+            
+            if (handicap !== 'N/A') {
+                const betSide = isHome ? 'home' : 'away';
+                const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
+                const calculation = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
+                ahResult = calculation.outcome.toUpperCase();
+                ahResultClass = calculation.outcome === 'win' ? 'profit-positive' : calculation.outcome === 'loss' ? 'profit-negative' : 'profit-neutral';
+            }
+            
+            // Get streak info from timeSeries if available
+            let streakInfo = '';
+            if (match.timeSeries) {
+                const teamSeries = isHome ? match.timeSeries.home : match.timeSeries.away;
+                if (teamSeries?.streaks?.overall?.current) {
+                    const streak = teamSeries.streaks.overall.current;
+                    streakInfo = `${streak.count} ${streak.type.toUpperCase()}`;
+                }
+            }
+            
+            return `
+                <tr>
+                    <td>${new Date(matchData.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
+                    <td>${opponent}</td>
+                    <td>${venue}</td>
+                    <td>${score}</td>
+                    <td class="${resultClass}">${result}</td>
+                    <td>${handicap}</td>
+                    <td class="${ahResultClass}">${ahResult}</td>
+                    <td>${streakInfo}</td>
+                </tr>
+            `;
+        }).join('');
+        
+        document.getElementById('teamMatchesBody').innerHTML = matchesHTML;
+    }
+    
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById('teamModal');
+        if (event.target === modal) {
+            closeTeamModal();
+        }
+    }
+    
+    // Strategy Save/Load Functions
+    async function saveStrategy() {
+        const name = document.getElementById('strategyName').value.trim();
+        if (!name) {
+            alert('Please enter a strategy name');
+            return;
+        }
+        
+        if (!selectedSide || !selectedSize) {
+            alert('Please select both betting side and stake size before saving');
+            return;
+        }
+        
+        const strategy = {
+            name: name,
+            timestamp: Date.now(),
+            side: selectedSide,
+            size: selectedSize,
+            factors: selectedFactors,
+            performance: currentResults ? {
+                roi: currentResults.summary.roi,
+                totalBets: currentResults.summary.totalBets,
+                winRate: currentResults.summary.winRate,
+                totalProfit: currentResults.summary.totalProfit
+            } : null
+        };
+        
+        // Get existing strategies
+        let savedStrategies = await getSavedStrategies();
+        
+        // Check if name already exists
+        if (savedStrategies.some(s => s.name === name)) {
+            if (!confirm(`Strategy "${name}" already exists. Overwrite?`)) {
+                return;
+            }
+            savedStrategies = savedStrategies.filter(s => s.name !== name);
+        }
+        
+        // Add new strategy
+        savedStrategies.push(strategy);
+        
+        // Save to localStorage
+        localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
+        
+        // Clear input and refresh display
+        document.getElementById('strategyName').value = '';
+        renderSavedStrategies();
+        updateStatus(`Strategy "${name}" saved successfully`);
+        
+        console.log('💾 Strategy saved:', strategy);
+    }
+    
+    async function loadStrategy(name) {
+        const savedStrategies = await getSavedStrategies();
+        const strategy = savedStrategies.find(s => s.name === name);
+        
+        if (!strategy) {
+            alert('Strategy not found');
+            return;
+        }
+        
+        // Load the strategy
+        selectedSide = strategy.side;
+        selectedSize = strategy.size;
+        selectedFactors = strategy.factors || [];
+        
+        // Refresh the UI
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+        
+        updateStatus(`Strategy "${name}" loaded successfully`);
+        console.log('📂 Strategy loaded:', strategy);
+    }
+    
+    async function deleteStrategy(name) {
+        if (!confirm(`Delete strategy "${name}"?`)) {
+            return;
+        }
+        
+        let savedStrategies = await getSavedStrategies();
+        savedStrategies = savedStrategies.filter(s => s.name !== name);
+        
+        localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
+        renderSavedStrategies();
+        updateStatus(`Strategy "${name}" deleted`);
+    }
+    
+    function clearStrategy() {
+        if (selectedSide || selectedSize || selectedFactors.length > 0) {
+            if (!confirm('Clear all selected factors?')) {
+                return;
+            }
+        }
+        
+        selectedSide = null;
+        selectedSize = null;
+        selectedFactors = [];
+        
+        renderFactorSelection();
+        renderSelectedFactors();
+        updateResults();
+        updateStrategyControls();
+        
+        updateStatus('Strategy cleared');
+    }
+    
+    function exportStrategy() {
+        if (!selectedSide || !selectedSize) {
+            alert('Please select both betting side and stake size before exporting');
+            return;
+        }
+        
+        const strategy = {
+            name: document.getElementById('strategyName').value.trim() || 'Unnamed Strategy',
+            timestamp: Date.now(),
+            side: selectedSide,
+            size: selectedSize,
+            factors: selectedFactors,
+            performance: currentResults ? {
+                roi: currentResults.summary.roi,
+                totalBets: currentResults.summary.totalBets,
+                winRate: currentResults.summary.winRate,
+                totalProfit: currentResults.summary.totalProfit
+            } : null,
+            exportedFrom: 'Asian Handicap Factor Drilling Tool'
+        };
+        
+        const blob = new Blob([JSON.stringify(strategy, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `ah_strategy_${strategy.name.replace(/[^a-z0-9]/gi, '_')}_${new Date().toISOString().split('T')[0]}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        
+        updateStatus(`Strategy exported: ${a.download}`);
+    }
+    
+    function importStrategy(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const strategy = JSON.parse(e.target.result);
+                
+                // Validate strategy structure
+                if (!strategy.side || !strategy.size) {
+                    throw new Error('Invalid strategy file format');
                 }
                 
-                // Asian Handicap result
-                if (handicap) {
-                    const betSide = isHome ? 'home' : 'away';
-                    const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
-                    const ahResult = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
+                // Load the strategy
+                selectedSide = strategy.side;
+                selectedSize = strategy.size;
+                selectedFactors = strategy.factors || [];
+                
+                // Update name input
+                document.getElementById('strategyName').value = strategy.name || '';
+                
+                // Refresh the UI
+                renderFactorSelection();
+                renderSelectedFactors();
+                updateResults();
+                updateStrategyControls();
+                
+                updateStatus(`Strategy "${strategy.name}" imported successfully`);
+                console.log('📥 Strategy imported:', strategy);
+                
+            } catch (error) {
+                alert('Error importing strategy: ' + error.message);
+                console.error('Import error:', error);
+            }
+        };
+        reader.readAsText(file);
+        
+        // Clear the file input
+        event.target.value = '';
+    }
+    
+    async function getSavedStrategies() {
+        try {
+            const saved = localStorage.getItem('ah_strategies');
+            if (saved) {
+                return JSON.parse(saved);
+            }
+            
+            // If localStorage is empty, try to load from strategy.json
+            console.log('📂 No saved strategies in localStorage, loading from strategy.json...');
+            try {
+                const response = await fetch('strategy.json');
+                if (response.ok) {
+                    const strategies = await response.json();
+                    console.log(`✅ Loaded ${strategies.length} strategies from strategy.json`);
                     
-                    if (ahResult.outcome === 'win') ahWins++;
-                    else if (ahResult.outcome === 'loss') ahLosses++;
-                    else ahPushes++;
+                    // Save to localStorage for future use
+                    localStorage.setItem('ah_strategies', JSON.stringify(strategies));
                     
-                    // Update AH streak
-                    if (index === 0) {
-                        ahCurrentStreak = { type: ahResult.outcome, count: ahResult.outcome === 'push' ? 0 : 1 };
-                    } else if (ahResult.outcome === ahCurrentStreak.type && ahResult.outcome !== 'push') {
-                        ahCurrentStreak.count++;
-                    } else if (ahResult.outcome !== 'push') {
-                        ahCurrentStreak = { type: ahResult.outcome, count: 1 };
-                    }
+                    return strategies;
+                } else {
+                    console.log('⚠️ strategy.json not found or not accessible');
                 }
-            });
+            } catch (fetchError) {
+                console.log('⚠️ Error loading strategy.json:', fetchError.message);
+            }
             
-            // Update modal content
-            document.getElementById('modalTeamName').textContent = `${teamName} - Complete Analysis`;
+            return [];
+        } catch (error) {
+            console.error('Error loading saved strategies:', error);
+            return [];
+        }
+    }
+    
+    async function renderSavedStrategies() {
+        const savedStrategies = await getSavedStrategies();
+        const container = document.getElementById('pinnedSavedStrategies');
+        
+        if (savedStrategies.length === 0) {
+            container.innerHTML = '<div style="color: #666; font-size: 9px; text-align: center; padding: 20px;">No saved strategies</div>';
+            return;
+        }
+        
+        // Sort by timestamp (newest first)
+        savedStrategies.sort((a, b) => b.timestamp - a.timestamp);
+        
+        const strategiesHTML = savedStrategies.map(strategy => {
+            const perf = strategy.performance;
+            const perfText = perf ? 
+                `${perf.totalBets} bets, ${perf.roi.toFixed(1)}% ROI` : 
+                'No performance data';
             
-            // Team statistics
-            const totalMatches = teamMatches.length;
-            const winRate = totalMatches > 0 ? (wins / totalMatches * 100).toFixed(1) : '0.0';
-            const ahWinRate = (ahWins + ahLosses + ahPushes) > 0 ? (ahWins / (ahWins + ahLosses + ahPushes) * 100).toFixed(1) : '0.0';
+            const timeAgo = getTimeAgo(strategy.timestamp);
             
-            const statsHTML = `
-                <div class="team-stat">
-                    <div class="team-stat-value">${totalMatches}</div>
-                    <div class="team-stat-label">Total Matches</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${wins}W-${losses}L-${draws}D</div>
-                    <div class="team-stat-label">Overall Record</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${winRate}%</div>
-                    <div class="team-stat-label">Win Rate</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${homeRecord.wins}W-${homeRecord.losses}L-${homeRecord.draws}D</div>
-                    <div class="team-stat-label">Home Record</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${awayRecord.wins}W-${awayRecord.losses}L-${awayRecord.draws}D</div>
-                    <div class="team-stat-label">Away Record</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${ahWins}W-${ahLosses}L-${ahPushes}P</div>
-                    <div class="team-stat-label">AH Record</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value">${ahWinRate}%</div>
-                    <div class="team-stat-label">AH Win Rate</div>
-                </div>
-                <div class="team-stat">
-                    <div class="team-stat-value ${currentStreak.type === 'win' ? 'profit-positive' : currentStreak.type === 'loss' ? 'profit-negative' : ''}">${currentStreak.count} ${currentStreak.type.toUpperCase()}</div>
-                    <div class="team-stat-label">Current Streak</div>
+            return `
+                <div class="pinned-strategy">
+                    <div class="pinned-strategy-name" onclick="loadStrategy('${strategy.name}')" title="Click to load: ${strategy.name}">
+                        ${strategy.name}
+                    </div>
+                    <div class="pinned-strategy-info" title="${perfText}">
+                        ${timeAgo} • ${perfText}
+                    </div>
+                    <div class="pinned-strategy-controls">
+                        <button class="pinned-strategy-btn danger" onclick="deleteStrategy('${strategy.name}')" title="Delete strategy">×</button>
+                    </div>
                 </div>
             `;
-            
-            document.getElementById('teamStats').innerHTML = statsHTML;
-            
-            // Matches table
-            const matchesHTML = teamMatches.map((match, index) => {
-                const matchData = match.match || {};
-                const isHome = matchData.homeTeam === teamName;
-                const opponent = isHome ? matchData.awayTeam : matchData.homeTeam;
-                const venue = isHome ? 'HOME' : 'AWAY';
-                const homeScore = matchData.homeScore || 0;
-                const awayScore = matchData.awayScore || 0;
-                const score = `${homeScore}-${awayScore}`;
-                
-                // Overall result
-                let result = 'DRAW';
-                let resultClass = 'profit-neutral';
-                if (isHome) {
-                    if (homeScore > awayScore) { result = 'WIN'; resultClass = 'profit-positive'; }
-                    else if (homeScore < awayScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
-                } else {
-                    if (awayScore > homeScore) { result = 'WIN'; resultClass = 'profit-positive'; }
-                    else if (awayScore < homeScore) { result = 'LOSS'; resultClass = 'profit-negative'; }
-                }
-                
-                // AH result
-                const handicap = matchData.asianHandicapOdds?.homeHandicap || 'N/A';
-                let ahResult = 'N/A';
-                let ahResultClass = '';
-                
-                if (handicap !== 'N/A') {
-                    const betSide = isHome ? 'home' : 'away';
-                    const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
-                    const calculation = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
-                    ahResult = calculation.outcome.toUpperCase();
-                    ahResultClass = calculation.outcome === 'win' ? 'profit-positive' : calculation.outcome === 'loss' ? 'profit-negative' : 'profit-neutral';
-                }
-                
-                // Get streak info from timeSeries if available
-                let streakInfo = '';
-                if (match.timeSeries) {
-                    const teamSeries = isHome ? match.timeSeries.home : match.timeSeries.away;
-                    if (teamSeries?.streaks?.overall?.current) {
-                        const streak = teamSeries.streaks.overall.current;
-                        streakInfo = `${streak.count} ${streak.type.toUpperCase()}`;
+        }).join('');
+        
+        container.innerHTML = strategiesHTML;
+    }
+    
+    function getTimeAgo(timestamp) {
+        const now = Date.now();
+        const diff = now - timestamp;
+        const minutes = Math.floor(diff / 60000);
+        const hours = Math.floor(diff / 3600000);
+        const days = Math.floor(diff / 86400000);
+        
+        if (days > 0) return `${days}d ago`;
+        if (hours > 0) return `${hours}h ago`;
+        if (minutes > 0) return `${minutes}m ago`;
+        return 'Just now';
+    }
+    
+    function updateStrategyControls() {
+        const hasValidStrategy = selectedSide && selectedSize;
+        document.getElementById('saveBtn').disabled = !hasValidStrategy;
+        document.getElementById('exportBtn').disabled = !hasValidStrategy;
+    }
+    
+    // Initialize on page load
+    window.onload = function() {
+        console.log('🚀 Asian Handicap Factor Analysis Tool with Performance Optimization');
+        console.log('💡 Performance Features:');
+        console.log('   • Factor evaluation caching');
+        console.log('   • Asian Handicap calculation caching');
+        console.log('   • Match filtering caching');
+        console.log('   • Complete betting result caching');
+        console.log('🎯 Interactive Features:');
+        console.log('   • Click team names in betting records for detailed analysis');
+        console.log('   • Complete match history and streak analysis per team');
+        console.log('💾 Strategy Management:');
+        console.log('   • Save/load factor combinations with localStorage');
+        console.log('   • Export/import strategies as JSON files');
+        console.log('   • Performance tracking for saved strategies');
+
+        console.log('⌨️  Shortcuts: Ctrl+Shift+C = Clear cache, ESC = Close modal');
+        
+        updateStatus('Initializing...');
+        loadData().then(() => {
+            // Debug: Log match data structure
+            if (allMatches.length > 0) {
+                console.log('🔍 MATCH DATA STRUCTURE DEBUG:');
+                console.log('Sample match object:', allMatches[0]);
+                console.log('Match fields:', Object.keys(allMatches[0]));
+                if (allMatches[0].preMatch) {
+                    console.log('preMatch fields:', Object.keys(allMatches[0].preMatch));
+                    if (allMatches[0].preMatch.match) {
+                        console.log('preMatch.match fields:', Object.keys(allMatches[0].preMatch.match));
+                    }
+                    if (allMatches[0].preMatch.fbref) {
+                        console.log('preMatch.fbref fields:', Object.keys(allMatches[0].preMatch.fbref));
                     }
                 }
-                
-                return `
-                    <tr>
-                        <td>${new Date(matchData.date).toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'})}</td>
-                        <td>${opponent}</td>
-                        <td>${venue}</td>
-                        <td>${score}</td>
-                        <td class="${resultClass}">${result}</td>
-                        <td>${handicap}</td>
-                        <td class="${ahResultClass}">${ahResult}</td>
-                        <td>${streakInfo}</td>
-                    </tr>
-                `;
-            }).join('');
-            
-            document.getElementById('teamMatchesBody').innerHTML = matchesHTML;
-        }
+            }
+        });
         
-        // Close modal when clicking outside
-        window.onclick = function(event) {
-            const modal = document.getElementById('teamModal');
-            if (event.target === modal) {
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl+Shift+C to clear cache
+            if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+                performanceCache.clearAll();
+                updateStatus('Cache cleared - next calculations will be slower but fresh');
+                setTimeout(() => {
+                    const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;
+                    updateStatusWithPerformance(baseStatus);
+                }, 2000);
+            }
+            
+            // ESC to close modal
+            if (e.key === 'Escape') {
                 closeTeamModal();
             }
-        }
-        
-        // Strategy Save/Load Functions
-        async function saveStrategy() {
-            const name = document.getElementById('strategyName').value.trim();
-            if (!name) {
-                alert('Please enter a strategy name');
-                return;
-            }
-            
-            if (!selectedSide || !selectedSize) {
-                alert('Please select both betting side and stake size before saving');
-                return;
-            }
-            
-            const strategy = {
-                name: name,
-                timestamp: Date.now(),
-                side: selectedSide,
-                size: selectedSize,
-                factors: selectedFactors,
-                performance: currentResults ? {
-                    roi: currentResults.summary.roi,
-                    totalBets: currentResults.summary.totalBets,
-                    winRate: currentResults.summary.winRate,
-                    totalProfit: currentResults.summary.totalProfit
-                } : null
-            };
-            
-            // Get existing strategies
-            let savedStrategies = await getSavedStrategies();
-            
-            // Check if name already exists
-            if (savedStrategies.some(s => s.name === name)) {
-                if (!confirm(`Strategy "${name}" already exists. Overwrite?`)) {
-                    return;
-                }
-                savedStrategies = savedStrategies.filter(s => s.name !== name);
-            }
-            
-            // Add new strategy
-            savedStrategies.push(strategy);
-            
-            // Save to localStorage
-            localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
-            
-            // Clear input and refresh display
-            document.getElementById('strategyName').value = '';
-            renderSavedStrategies();
-            updateStatus(`Strategy "${name}" saved successfully`);
-            
-            console.log('💾 Strategy saved:', strategy);
-        }
-        
-        async function loadStrategy(name) {
-            const savedStrategies = await getSavedStrategies();
-            const strategy = savedStrategies.find(s => s.name === name);
-            
-            if (!strategy) {
-                alert('Strategy not found');
-                return;
-            }
-            
-            // Load the strategy
-            selectedSide = strategy.side;
-            selectedSize = strategy.size;
-            selectedFactors = strategy.factors || [];
-            
-            // Refresh the UI
-            renderFactorSelection();
-            renderSelectedFactors();
-            updateResults();
-            updateStrategyControls();
-            
-            updateStatus(`Strategy "${name}" loaded successfully`);
-            console.log('📂 Strategy loaded:', strategy);
-        }
-        
-        async function deleteStrategy(name) {
-            if (!confirm(`Delete strategy "${name}"?`)) {
-                return;
-            }
-            
-            let savedStrategies = await getSavedStrategies();
-            savedStrategies = savedStrategies.filter(s => s.name !== name);
-            
-            localStorage.setItem('ah_strategies', JSON.stringify(savedStrategies));
-            renderSavedStrategies();
-            updateStatus(`Strategy "${name}" deleted`);
-        }
-        
-        function clearStrategy() {
-            if (selectedSide || selectedSize || selectedFactors.length > 0) {
-                if (!confirm('Clear all selected factors?')) {
-                    return;
-                }
-            }
-            
-            selectedSide = null;
-            selectedSize = null;
-            selectedFactors = [];
-            
-            renderFactorSelection();
-            renderSelectedFactors();
-            updateResults();
-            updateStrategyControls();
-            
-            updateStatus('Strategy cleared');
-        }
-        
-        function exportStrategy() {
-            if (!selectedSide || !selectedSize) {
-                alert('Please select both betting side and stake size before exporting');
-                return;
-            }
-            
-            const strategy = {
-                name: document.getElementById('strategyName').value.trim() || 'Unnamed Strategy',
-                timestamp: Date.now(),
-                side: selectedSide,
-                size: selectedSize,
-                factors: selectedFactors,
-                performance: currentResults ? {
-                    roi: currentResults.summary.roi,
-                    totalBets: currentResults.summary.totalBets,
-                    winRate: currentResults.summary.winRate,
-                    totalProfit: currentResults.summary.totalProfit
-                } : null,
-                exportedFrom: 'Asian Handicap Factor Drilling Tool'
-            };
-            
-            const blob = new Blob([JSON.stringify(strategy, null, 2)], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `ah_strategy_${strategy.name.replace(/[^a-z0-9]/gi, '_')}_${new Date().toISOString().split('T')[0]}.json`;
-            a.click();
-            URL.revokeObjectURL(url);
-            
-            updateStatus(`Strategy exported: ${a.download}`);
-        }
-        
-        function importStrategy(event) {
-            const file = event.target.files[0];
-            if (!file) return;
-            
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                try {
-                    const strategy = JSON.parse(e.target.result);
-                    
-                    // Validate strategy structure
-                    if (!strategy.side || !strategy.size) {
-                        throw new Error('Invalid strategy file format');
-                    }
-                    
-                    // Load the strategy
-                    selectedSide = strategy.side;
-                    selectedSize = strategy.size;
-                    selectedFactors = strategy.factors || [];
-                    
-                    // Update name input
-                    document.getElementById('strategyName').value = strategy.name || '';
-                    
-                    // Refresh the UI
-                    renderFactorSelection();
-                    renderSelectedFactors();
-                    updateResults();
-                    updateStrategyControls();
-                    
-                    updateStatus(`Strategy "${strategy.name}" imported successfully`);
-                    console.log('📥 Strategy imported:', strategy);
-                    
-                } catch (error) {
-                    alert('Error importing strategy: ' + error.message);
-                    console.error('Import error:', error);
-                }
-            };
-            reader.readAsText(file);
-            
-            // Clear the file input
-            event.target.value = '';
-        }
-        
-        async function getSavedStrategies() {
-            try {
-                const saved = localStorage.getItem('ah_strategies');
-                if (saved) {
-                    return JSON.parse(saved);
-                }
-                
-                // If localStorage is empty, try to load from strategy.json
-                console.log('📂 No saved strategies in localStorage, loading from strategy.json...');
-                try {
-                    const response = await fetch('strategy.json');
-                    if (response.ok) {
-                        const strategies = await response.json();
-                        console.log(`✅ Loaded ${strategies.length} strategies from strategy.json`);
-                        
-                        // Save to localStorage for future use
-                        localStorage.setItem('ah_strategies', JSON.stringify(strategies));
-                        
-                        return strategies;
-                    } else {
-                        console.log('⚠️ strategy.json not found or not accessible');
-                    }
-                } catch (fetchError) {
-                    console.log('⚠️ Error loading strategy.json:', fetchError.message);
-                }
-                
-                return [];
-            } catch (error) {
-                console.error('Error loading saved strategies:', error);
-                return [];
-            }
-        }
-        
-        async function renderSavedStrategies() {
-            const savedStrategies = await getSavedStrategies();
-            const container = document.getElementById('pinnedSavedStrategies');
-            
-            if (savedStrategies.length === 0) {
-                container.innerHTML = '<div style="color: #666; font-size: 9px; text-align: center; padding: 20px;">No saved strategies</div>';
-                return;
-            }
-            
-            // Sort by timestamp (newest first)
-            savedStrategies.sort((a, b) => b.timestamp - a.timestamp);
-            
-            const strategiesHTML = savedStrategies.map(strategy => {
-                const perf = strategy.performance;
-                const perfText = perf ? 
-                    `${perf.totalBets} bets, ${perf.roi.toFixed(1)}% ROI` : 
-                    'No performance data';
-                
-                const timeAgo = getTimeAgo(strategy.timestamp);
-                
-                return `
-                    <div class="pinned-strategy">
-                        <div class="pinned-strategy-name" onclick="loadStrategy('${strategy.name}')" title="Click to load: ${strategy.name}">
-                            ${strategy.name}
-                        </div>
-                        <div class="pinned-strategy-info" title="${perfText}">
-                            ${timeAgo} • ${perfText}
-                        </div>
-                        <div class="pinned-strategy-controls">
-                            <button class="pinned-strategy-btn danger" onclick="deleteStrategy('${strategy.name}')" title="Delete strategy">×</button>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-            
-            container.innerHTML = strategiesHTML;
-        }
-        
-        function getTimeAgo(timestamp) {
-            const now = Date.now();
-            const diff = now - timestamp;
-            const minutes = Math.floor(diff / 60000);
-            const hours = Math.floor(diff / 3600000);
-            const days = Math.floor(diff / 86400000);
-            
-            if (days > 0) return `${days}d ago`;
-            if (hours > 0) return `${hours}h ago`;
-            if (minutes > 0) return `${minutes}m ago`;
-            return 'Just now';
-        }
-        
-        function updateStrategyControls() {
-            const hasValidStrategy = selectedSide && selectedSize;
-            document.getElementById('saveBtn').disabled = !hasValidStrategy;
-            document.getElementById('exportBtn').disabled = !hasValidStrategy;
-        }
-        
-        // Initialize on page load
-        window.onload = function() {
-            console.log('🚀 Asian Handicap Factor Analysis Tool with Performance Optimization');
-            console.log('💡 Performance Features:');
-            console.log('   • Factor evaluation caching');
-            console.log('   • Asian Handicap calculation caching');
-            console.log('   • Match filtering caching');
-            console.log('   • Complete betting result caching');
-            console.log('🎯 Interactive Features:');
-            console.log('   • Click team names in betting records for detailed analysis');
-            console.log('   • Complete match history and streak analysis per team');
-            console.log('💾 Strategy Management:');
-            console.log('   • Save/load factor combinations with localStorage');
-            console.log('   • Export/import strategies as JSON files');
-            console.log('   • Performance tracking for saved strategies');
-
-            console.log('⌨️  Shortcuts: Ctrl+Shift+C = Clear cache, ESC = Close modal');
-            
-            updateStatus('Initializing...');
-            loadData().then(() => {
-                // Debug: Log match data structure
-                if (allMatches.length > 0) {
-                    console.log('🔍 MATCH DATA STRUCTURE DEBUG:');
-                    console.log('Sample match object:', allMatches[0]);
-                    console.log('Match fields:', Object.keys(allMatches[0]));
-                    if (allMatches[0].preMatch) {
-                        console.log('preMatch fields:', Object.keys(allMatches[0].preMatch));
-                        if (allMatches[0].preMatch.match) {
-                            console.log('preMatch.match fields:', Object.keys(allMatches[0].preMatch.match));
-                        }
-                        if (allMatches[0].preMatch.fbref) {
-                            console.log('preMatch.fbref fields:', Object.keys(allMatches[0].preMatch.fbref));
-                        }
-                    }
-                }
-            });
-            
-            // Add keyboard shortcuts
-            document.addEventListener('keydown', function(e) {
-                // Ctrl+Shift+C to clear cache
-                if (e.ctrlKey && e.shiftKey && e.key === 'C') {
-                    performanceCache.clearAll();
-                    updateStatus('Cache cleared - next calculations will be slower but fresh');
-                    setTimeout(() => {
-                        const baseStatus = `Ready | ${Object.keys(factorDefinitions).length} categories | ${allMatches.length} matches`;
-                        updateStatusWithPerformance(baseStatus);
-                    }, 2000);
-                }
-                
-                // ESC to close modal
-                if (e.key === 'Escape') {
-                    closeTeamModal();
-                }
-            });
-        };
+        });
+    };
     </script>
 </body>
 </html> 

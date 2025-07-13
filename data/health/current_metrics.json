@@ -1,0 +1,51 @@
+{
+  "timestamp": 1752424800017,
+  "system": {
+    "cpuUsage": 14,
+    "memoryUsage": {
+      "used": 17117560832,
+      "total": 17179869184,
+      "percentage": 99.6373176574707
+    },
+    "diskUsage": {
+      "used": 0,
+      "total": 1,
+      "percentage": 0,
+      "status": "accessible"
+    },
+    "uptime": 2340568
+  },
+  "services": {
+    "DataCollection": {
+      "status": "healthy",
+      "lastActivity": 1752424580318,
+      "errorCount": 0,
+      "responseTime": 5
+    },
+    "DataProcessing": {
+      "status": "healthy",
+      "lastActivity": 1752418800043,
+      "errorCount": 0,
+      "responseTime": 1
+    },
+    "Analysis": {
+      "status": "healthy",
+      "lastActivity": 1751565155145,
+      "errorCount": 0,
+      "responseTime": 0
+    },
+    "LiveTrading": {
+      "status": "warning",
+      "lastActivity": 1752424801028,
+      "errorCount": 0,
+      "responseTime": 0
+    },
+    "Database": {
+      "status": "healthy",
+      "lastActivity": 1752424801028,
+      "errorCount": 0,
+      "responseTime": 0
+    }
+  },
+  "alerts": []
+}

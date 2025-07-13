@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2 Data Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', monospace, sans-serif; background: #1a1a1a; color: #e0e0e0; font-size: 11px; }
+        
+        .container { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+        
+        .top-bar { 
+            background: #2d2d2d; 
+            padding: 8px 12px; 
+            border-bottom: 1px solid #404040; 
+            flex-shrink: 0; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .app-title { color: #00ff88; font-weight: bold; font-size: 14px; }
+        .status-line { color: #888; font-size: 10px; }
+        
+        .main-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 1px; 
+            background: #000; 
+            flex: 1; 
+            height: calc(100vh - 50px);
+            overflow: hidden;
+        }
+        
+        .panel { 
+            margin: 2px;
+            background: #121212; 
+            display: flex; 
+            flex-direction: column; 
+            overflow: hidden;
+            min-height: 0;
+        }
+        
+        .panel-header { 
+            background: #333; 
+            padding: 6px 8px; 
+            color: #00ff88; 
+            font-weight: bold; 
+            font-size: 10px; 
+            text-transform: uppercase; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        
+        .panel-content { 
+            flex: 1; 
+            overflow-y: auto; 
+            overflow-x: hidden;
+            padding: 2px; 
+            font-size: 9px;
+            background: #0f0f0f;
+            min-height: 0;
+            max-height: 100%;
+        }
+        
+        .data-item { 
+            background: #333; 
+            /* border: 1px solid #555;  */
+            /* border-radius: 3px;  */
+            padding: 8px; 
+            margin-bottom: 2px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .item-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 4px; 
+        }
+        
+        .item-title { 
+            font-weight: bold; 
+            font-size: 11px; 
+            color: #00ff88; 
+        }
+        
+        .item-time { 
+            font-size: 9px; 
+            color: #bbb; 
+        }
+        
+        .item-details { 
+            font-size: 9px; 
+            color: #ddd; 
+            line-height: 1.4; 
+        }
+        
+        .status-indicator {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        
+        .status-updated { background: #00ff88; }
+        .status-unchanged { background: #888; }
+        .status-error { background: #ff6b6b; }
+        
+        .loading { 
+            text-align: center; 
+            padding: 20px; 
+            color: #888; 
+            font-size: 10px; 
+        }
+        
+        .error { 
+            color: #ff6b6b; 
+            background: #2d1b1b; 
+            padding: 8px; 
+            border-radius: 2px; 
+            margin: 4px 0; 
+        }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #1a1a1a; }
+        ::-webkit-scrollbar-thumb { background: #404040; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="app-title">V2 Data Dashboard</div>
+            <div class="status-line" id="status-line">Initializing...</div>
+        </div>
+        
+        <!-- Main Grid -->
+        <div class="main-grid">
+            <!-- Fixtures Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>Fixtures</span>
+                    <span id="fixtures-count">0</span>
+                </div>
+                <div class="panel-content" id="fixtures-content">
+                    <div class="loading">Loading fixtures...</div>
+                </div>
+            </div>
+            
+            <!-- Bet Records Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>Bet Records</span>
+                    <span id="bet-records-count">0</span>
+                </div>
+                <div class="panel-content" id="bet-records-content">
+                    <div class="loading">Loading bet records...</div>
+                </div>
+            </div>
+            
+            <!-- Strategies Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>Strategies</span>
+                    <span id="strategies-count">0</span>
+                </div>
+                <div class="panel-content" id="strategies-content">
+                    <div class="loading">Loading strategies...</div>
+                </div>
+            </div>
+            
+            <!-- Bet Decisions Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>Bet Decisions</span>
+                    <span id="bet-decisions-count">0</span>
+                </div>
+                <div class="panel-content" id="bet-decisions-content">
+                    <div class="loading">Loading bet decisions...</div>
+                </div>
+            </div>
+            
+            <!-- Logs Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>System Logs</span>
+                    <span id="logs-count">0</span>
+                </div>
+                <div class="panel-content" id="logs-content">
+                    <div class="loading">Loading logs...</div>
+                </div>
+            </div>
+            
+            <!-- System Status Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span>System Status</span>
+                    <span id="status-indicator"></span>
+                </div>
+                <div class="panel-content" id="status-content">
+                    <div class="loading">Loading system status...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class V2Dashboard {
+            constructor() {
+                this.updateInterval = null;
+                this.lastUpdate = new Date();
+                this.fileModTimes = new Map();
+                
+                this.init();
+            }
+            
+            init() {
+                this.updateStatus('Initializing dashboard...');
+                this.startAutoRefresh();
+                this.updateDashboard();
+            }
+            
+            async updateDashboard() {
+                try {
+                    // Load all data from API endpoints
+                    const [fixtures, betRecords, strategies, betDecisions, logs, systemStatus] = await Promise.all([
+                        this.fetchData('/api/v2/fixtures'),
+                        this.fetchData('/api/v2/bet-records'),
+                        this.fetchData('/api/v2/strategies'),
+                        this.fetchData('/api/v2/bet-decisions'),
+                        this.fetchData('/api/v2/logs'),
+                        this.fetchData('/api/v2/system/status')
+                    ]);
+                    
+                    this.updatePanel('fixtures', fixtures);
+                    this.updatePanel('bet-records', betRecords);
+                    this.updatePanel('strategies', strategies);
+                    this.updatePanel('bet-decisions', betDecisions);
+                    this.updatePanel('logs', logs);
+                    this.updatePanel('status', systemStatus);
+                    
+                    this.lastUpdate = new Date();
+                    this.updateStatus(`Last update: ${this.lastUpdate.toLocaleTimeString()}`);
+                    
+                } catch (error) {
+                    console.error('Failed to update dashboard:', error);
+                    this.updateStatus(`ERROR: ${error.message}`);
+                }
+            }
+            
+            async fetchData(endpoint) {
+                const response = await fetch(endpoint);
+                if (!response.ok) {
+                    throw new Error(`${endpoint}: ${response.statusText}`);
+                }
+                return response.json();
+            }
+            
+            updatePanel(panelType, data) {
+                const contentId = `${panelType}-content`;
+                const countId = `${panelType}-count`;
+                const content = document.getElementById(contentId);
+                const counter = document.getElementById(countId);
+                
+                if (!content) return;
+                
+                if (data.error) {
+                    content.innerHTML = `<div class="error">${data.error}</div>`;
+                    if (counter) counter.textContent = '!';
+                    return;
+                }
+                
+                switch (panelType) {
+                    case 'fixtures':
+                        this.renderFixtures(content, counter, data);
+                        break;
+                    case 'bet-records':
+                        this.renderBetRecords(content, counter, data);
+                        break;
+                    case 'strategies':
+                        this.renderStrategies(content, counter, data);
+                        break;
+                    case 'bet-decisions':
+                        this.renderBetDecisions(content, counter, data);
+                        break;
+                    case 'logs':
+                        this.renderLogs(content, counter, data);
+                        break;
+                    case 'status':
+                        this.renderSystemStatus(content, counter, data);
+                        break;
+                }
+            }
+            
+            renderFixtures(content, counter, data) {
+                if (!Array.isArray(data) || data.length === 0) {
+                    content.innerHTML = '<div class="loading">No fixtures available</div>';
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                const fixturesHtml = data.map(fixture => {
+                    const kickoffTime = new Date(fixture.kickoffTime);
+                    const timeStr = kickoffTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+                    
+                    return `
+                        <div class="data-item">
+                            <div class="item-header">
+                                <div class="item-title">${fixture.homeTeam} vs ${fixture.awayTeam}</div>
+                                <div class="item-time">${timeStr}</div>
+                            </div>
+                            <div class="item-details">
+                                AH: ${fixture.asianHandicapOdds?.homeHandicap || 'N/A'} @ ${fixture.asianHandicapOdds?.homeOdds || 'N/A'}<br>
+                                Week: ${fixture.fbref?.week || 'N/A'}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                content.innerHTML = fixturesHtml;
+                if (counter) counter.textContent = data.length.toString();
+            }
+            
+            renderBetRecords(content, counter, data) {
+                if (!Array.isArray(data) || data.length === 0) {
+                    content.innerHTML = `
+                        <div class="loading">
+                            <strong>No Real Betting Records</strong><br>
+                            Betting records will appear here only when actual bets are placed.<br>
+                            Mock bet records have been removed.
+                        </div>`;
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                // Filter out any remaining mock records
+                const realRecords = data.filter(record => {
+                    // Only show records that are not mock/test records
+                    return record.betId && 
+                           !record.matchId?.includes('MOCK_') && 
+                           !record.isPaperTrade &&
+                           record.hkjcBetId; // Must have real HKJC bet ID
+                });
+                
+                if (realRecords.length === 0) {
+                    content.innerHTML = `
+                        <div class="loading">
+                            <strong>No Real Betting Records</strong><br>
+                            ${data.length} mock records filtered out.<br>
+                            Only real HKJC bets will be displayed.
+                        </div>`;
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                const recordsHtml = realRecords.map(record => {
+                    const timestamp = new Date(record.placedAt || record.timestamp);
+                    const timeStr = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+                    
+                    return `
+                        <div class="data-item">
+                            <div class="item-header">
+                                <div class="item-title">${record.homeTeam || 'N/A'} vs ${record.awayTeam || 'N/A'}</div>
+                                <div class="item-time">${timeStr}</div>
+                            </div>
+                            <div class="item-details">
+                                Strategy: ${record.strategyName || 'N/A'}<br>
+                                Bet: ${record.betSide} @ ${record.odds}<br>
+                                Stake: $${record.stakeAmount}<br>
+                                Status: ${record.outcome || 'pending'}<br>
+                                HKJC ID: ${record.hkjcBetId || 'N/A'}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                content.innerHTML = recordsHtml;
+                if (counter) counter.textContent = realRecords.length.toString();
+            }
+            
+            renderStrategies(content, counter, data) {
+                if (!Array.isArray(data) || data.length === 0) {
+                    content.innerHTML = '<div class="loading">No strategies available</div>';
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                const strategiesHtml = data.map(strategy => {
+                    return `
+                        <div class="data-item">
+                            <div class="item-header">
+                                <div class="item-title">${strategy.name || 'Unnamed Strategy'}</div>
+                                <div class="item-time">${strategy.type || 'N/A'}</div>
+                            </div>
+                            <div class="item-details">
+                                ${JSON.stringify(strategy).substring(0, 100)}...
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                content.innerHTML = strategiesHtml;
+                if (counter) counter.textContent = data.length.toString();
+            }
+            
+            renderBetDecisions(content, counter, data) {
+                if (!Array.isArray(data) || data.length === 0) {
+                    content.innerHTML = '<div class="loading">No bet decisions available</div>';
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                const decisionsHtml = data.map(decision => {
+                    const timestamp = decision.timestamp ? new Date(decision.timestamp) : new Date();
+                    const timeStr = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+                    
+                    return `
+                        <div class="data-item">
+                            <div class="item-header">
+                                <div class="item-title">Decision ${decision.id || 'N/A'}</div>
+                                <div class="item-time">${timeStr}</div>
+                            </div>
+                            <div class="item-details">
+                                ${JSON.stringify(decision).substring(0, 100)}...
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                content.innerHTML = decisionsHtml;
+                if (counter) counter.textContent = data.length.toString();
+            }
+            
+            renderLogs(content, counter, data) {
+                if (!Array.isArray(data) || data.length === 0) {
+                    content.innerHTML = '<div class="loading">No logs available</div>';
+                    if (counter) counter.textContent = '0';
+                    return;
+                }
+                
+                const logsHtml = data.map(log => {
+                    const timestamp = new Date(log.timestamp);
+                    const timeStr = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+                    
+                    return `
+                        <div class="data-item">
+                            <div class="item-header">
+                                <div class="item-title">${log.level?.toUpperCase() || 'LOG'}</div>
+                                <div class="item-time">${timeStr}</div>
+                            </div>
+                            <div class="item-details">
+                                ${log.message || 'No message'}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                content.innerHTML = logsHtml;
+                if (counter) counter.textContent = data.length.toString();
+            }
+            
+            renderSystemStatus(content, counter, data) {
+                const statusHtml = `
+                    <div class="data-item">
+                        <div class="item-header">
+                            <div class="item-title">System Health</div>
+                            <div class="item-time">Live</div>
+                        </div>
+                        <div class="item-details">
+                            Status: ${data.status || 'Unknown'}<br>
+                            Uptime: ${data.uptime || 'N/A'}<br>
+                            ${JSON.stringify(data).substring(0, 150)}...
+                        </div>
+                    </div>
+                `;
+                
+                content.innerHTML = statusHtml;
+                if (counter) {
+                    const statusDot = data.status === 'healthy' ? '●' : data.status === 'error' ? '!' : '○';
+                    counter.textContent = statusDot;
+                }
+            }
+            
+            updateStatus(message) {
+                document.getElementById('status-line').textContent = message;
+            }
+            
+            startAutoRefresh() {
+                this.updateInterval = setInterval(() => {
+                    this.updateDashboard();
+                }, 5000); // Update every 5 seconds
+            }
+            
+            stopAutoRefresh() {
+                if (this.updateInterval) {
+                    clearInterval(this.updateInterval);
+                }
+            }
+        }
+        
+        // Initialize dashboard when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new V2Dashboard();
+        });
+    </script>
+</body>
+</html>

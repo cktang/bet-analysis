@@ -1,0 +1,21 @@
+{
+  "hkjcCredentials": {
+    "username": "04098071",
+    "password": "1glorybox",
+    "answers": {
+      "你出生的醫院名稱是甚麼?": "queene",
+      "你最喜愛的食物?": "eggs",
+      "你第一份工作的地點?": "metro",
+      "你最喜愛的女藝人?": "kaytse",
+      "你的駕駛執照有效期至?": "2022"
+    }
+  },
+  "oddsMonitorInterval": 30000,
+  "enableLiveBetting": true,
+  "enablePaperTrading": false,
+  "confidenceThreshold": 0.6,
+  "baseStake": 100,
+  "maxStake": 500,
+  "headlessBrowser": false,
+  "enableOddsMonitoring": true
+}

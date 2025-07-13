@@ -1,0 +1,50 @@
+{
+  "jest.jestCommandLine": "npm test",
+  "jest.autoRun": {
+    "watch": false,
+    "onStartup": ["all-tests"]
+  },
+  "jest.testExplorer": {
+    "enabled": true,
+    "showInlineError": true
+  },
+  "jest.disabledWorkspaceFolders": [],
+  "jest.autoEnable": true,
+  "jest.pathToJest": "node_modules/.bin/jest",
+  "jest.pathToConfig": "jest.config.js",
+  "jest.nodeEnv": {},
+  "jest.consoleOptions": "never",
+  "jest.internalConsoleOptions": "never",
+  "jest.showCoverageOnLoad": false,
+  "jest.coverageFormatter": "DefaultFormatter",
+  "jest.coverageColors": {
+    "uncovered": "rgba(255,99,71, 0.2)",
+    "partially-covered": "rgba(255,215,0, 0.2)"
+  },
+  "jest.coverageReporters": [
+    "text",
+    "html",
+    "lcov"
+  ],
+  "jest.coverageDirectory": "coverage",
+  "jest.coverageCollector": "v8",
+  "jest.debugMode": false,
+  "jest.enableInlineErrorMessages": false,
+  "jest.enableCodeLens": true,
+  "jest.enableYarnPnpSupport": false,
+  "jest.monitorLongRun": 60000,
+  "jest.autoRunDelay": 0,
+  "jest.autoRunOnSave": "test-file",
+  "jest.autoRunOnStartup": true,
+  "jest.autoRunOnStartupDelay": 0,
+  "jest.autoRunOnStartupFiles": [],
+  "jest.autoRunOnStartupFolders": [],
+  "jest.autoRunOnStartupPatterns": [],
+  "jest.autoRunOnStartupExcludePatterns": [],
+  "jest.autoRunOnStartupIncludePatterns": [],
+  "jest.autoRunOnStartupTestFiles": [],
+  "jest.autoRunOnStartupTestFolders": [],
+  "jest.autoRunOnStartupTestPatterns": [],
+  "jest.autoRunOnStartupTestExcludePatterns": [],
+  "jest.autoRunOnStartupTestIncludePatterns": []
+} 

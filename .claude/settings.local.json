@@ -18,7 +18,19 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(timeout:*)",
-      "Bash(gtimeout:*)"
+      "Bash(gtimeout:*)",
+      "Bash(git checkout:*)",
+      "Bash(cp:*)",
+      "Bash(npm run start:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm start)",
+      "Bash(pkill:*)",
+      "Bash(npm run:*)",
+      "Bash(echo:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }

@@ -1,0 +1,26 @@
+[
+  {
+    "handicap": 0,
+    "homeOdds": 1,
+    "awayOdds": 1,
+    "season": "2024-2025",
+    "processed": true,
+    "processedAt": 1751648400031,
+    "timeSeries": {
+      "undefined": {
+        "position": {
+          "points": 0,
+          "goalDiff": 0,
+          "played": 0
+        },
+        "form": "",
+        "goals": {
+          "scored": 0,
+          "conceded": 0,
+          "average": 0
+        },
+        "matches": 0
+      }
+    }
+  }
+]

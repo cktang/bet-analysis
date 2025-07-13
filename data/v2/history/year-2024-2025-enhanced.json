@@ -1,0 +1,39 @@
+[
+  {
+    "handicap": 0,
+    "homeOdds": 1,
+    "awayOdds": 1,
+    "season": "2024-2025",
+    "processed": true,
+    "processedAt": 1751648400031,
+    "timeSeries": {
+      "undefined": {
+        "position": {
+          "points": 0,
+          "goalDiff": 0,
+          "played": 0
+        },
+        "form": "",
+        "goals": {
+          "scored": 0,
+          "conceded": 0,
+          "average": 0
+        },
+        "matches": 0
+      }
+    },
+    "enhanced": false,
+    "enhancedAt": 1751740200012,
+    "matchCleanlinessScore": 0.5,
+    "cardDisciplineIndex": 0.5,
+    "goalTimingAnalysis": {
+      "early": 0,
+      "late": 0
+    },
+    "substitutionPatterns": {
+      "tactical": 0,
+      "injury": 0
+    },
+    "incidentDensity": 0.5
+  }
+]

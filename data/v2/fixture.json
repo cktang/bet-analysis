@@ -1,0 +1,188 @@
+[
+  {
+    "id": "CHRISTMAS_STRATEGY_TEST",
+    "homeTeam": "Arsenal",
+    "awayTeam": "Liverpool",
+    "kickoffTime": "2025-07-08T12:00:00.000Z",
+    "matchId": "christmas_test_match",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_Christmas_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "-0.5",
+      "homeOdds": 1.95,
+      "awayHandicap": "+0.5",
+      "awayOdds": 1.85
+    },
+    "fbref": {
+      "week": 19
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 4,
+        "matchesPlayed": 18,
+        "form": "WWLWW"
+      },
+      "away": {
+        "leaguePosition": 2,
+        "matchesPlayed": 18,
+        "form": "WWWLW"
+      }
+    }
+  },
+  {
+    "id": "TOP8_CLASH_TEST",
+    "homeTeam": "Manchester United",
+    "awayTeam": "Chelsea",
+    "kickoffTime": "2025-07-08T12:30:00.000Z",
+    "matchId": "top8_clash_test",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_Top8_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "+0.25",
+      "homeOdds": 2.00,
+      "awayHandicap": "-0.25",
+      "awayOdds": 1.80
+    },
+    "fbref": {
+      "week": 15
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 6,
+        "matchesPlayed": 14,
+        "form": "WLDWW"
+      },
+      "away": {
+        "leaguePosition": 5,
+        "matchesPlayed": 14,
+        "form": "LWWDW"
+      }
+    }
+  },
+  {
+    "id": "TRAPPED_ODDS_TEST",
+    "homeTeam": "Manchester City",
+    "awayTeam": "Tottenham",
+    "kickoffTime": "2025-07-08T13:00:00.000Z",
+    "matchId": "trapped_odds_test",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_Trapped_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "-1.0",
+      "homeOdds": 1.70,
+      "awayHandicap": "+1.0",
+      "awayOdds": 2.10
+    },
+    "fbref": {
+      "week": 12
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 1,
+        "matchesPlayed": 11,
+        "form": "WWWWW"
+      },
+      "away": {
+        "leaguePosition": 8,
+        "matchesPlayed": 11,
+        "form": "WLWDL"
+      }
+    }
+  },
+  {
+    "id": "RELEGATION_BATTLE_TEST",
+    "homeTeam": "Southampton",
+    "awayTeam": "Everton",
+    "kickoffTime": "2025-07-08T13:30:00.000Z",
+    "matchId": "relegation_battle_test",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_Relegation_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "+0.5",
+      "homeOdds": 2.05,
+      "awayHandicap": "-0.5",
+      "awayOdds": 1.75
+    },
+    "fbref": {
+      "week": 25
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 18,
+        "matchesPlayed": 24,
+        "form": "LLLWL"
+      },
+      "away": {
+        "leaguePosition": 17,
+        "matchesPlayed": 24,
+        "form": "LDWLL"
+      }
+    }
+  },
+  {
+    "id": "GIANT_KILLING_TEST",
+    "homeTeam": "Burnley",
+    "awayTeam": "Newcastle",
+    "kickoffTime": "2025-07-08T14:00:00.000Z",
+    "matchId": "giant_killing_test",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_GiantKilling_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "+1.5",
+      "homeOdds": 2.20,
+      "awayHandicap": "-1.5",
+      "awayOdds": 1.65
+    },
+    "fbref": {
+      "week": 20
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 19,
+        "matchesPlayed": 19,
+        "form": "LLLLD"
+      },
+      "away": {
+        "leaguePosition": 4,
+        "matchesPlayed": 19,
+        "form": "WWWDW"
+      }
+    }
+  },
+  {
+    "id": "BOTTOM6_EXTREME_TEST",
+    "homeTeam": "Brighton",
+    "awayTeam": "Crystal Palace",
+    "kickoffTime": "2025-07-08T14:30:00.000Z",
+    "matchId": "bottom6_extreme_test",
+    "date": "2025-07-08",
+    "league": "EPL",
+    "source": "Mock_Bottom6_Test",
+    "asianHandicapOdds": {
+      "homeHandicap": "-0.25",
+      "homeOdds": 1.75,
+      "awayHandicap": "+0.25",
+      "awayOdds": 2.05
+    },
+    "fbref": {
+      "week": 16
+    },
+    "timeSeries": {
+      "home": {
+        "leaguePosition": 12,
+        "matchesPlayed": 15,
+        "form": "WLDWL"
+      },
+      "away": {
+        "leaguePosition": 16,
+        "matchesPlayed": 15,
+        "form": "LLWDL"
+      }
+    }
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Christmas-Away",
+    "timestamp": 1751479950169,
+    "side": {
+      "category": "side",
+      "key": "away",
+      "expression": "true",
+      "description": "Bet on away team",
+      "betSide": "away"
+    },
+    "size": {
+      "category": "size",
+      "key": "fix",
+      "expression": "1500",
+      "description": "$1500",
+      "stakingMethod": "fixed"
+    },
+    "factors": [
+      {
+        "category": "time",
+        "key": "christmas",
+        "expression": "parseInt(fbref.week) >= 17 && parseInt(fbref.week) <= 22",
+        "description": "weeks 17-22",
+        "displayExpression": ["fbref.week"]
+      }
+    ],
+    "performance": {
+      "roi": 11.92,
+      "totalBets": 171,
+      "winRate": 55.56,
+      "totalProfit": 30585
+    }
+  },
+  {
+    "name": "Top8-Dynamic-Home",
+    "timestamp": 1751479066903,
+    "side": {
+      "category": "side",
+      "key": "home",
+      "expression": "true",
+      "description": "Bet on home team",
+      "betSide": "home"
+    },
+    "size": {
+      "category": "size",
+      "key": "dynamic",
+      "expression": "200 + Math.floor((Math.max(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "description": "$200 if odds <=1.91, else +$150 per 0.01",
+      "stakingMethod": "variable"
+    },
+    "factors": [
+      {
+        "category": "matchUp",
+        "key": "top8Clash",
+        "expression": "(timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8",
+        "description": "Top 8 teams playing at home and away (clash)",
+        "displayExpression": [
+          "timeSeries.home.leaguePosition",
+          "timeSeries.away.leaguePosition"
+        ]
+      },
+      {
+        "category": "time",
+        "key": "notEarlySeason",
+        "expression": "parseInt(fbref.week) >= 7",
+        "description": "weeks 7+",
+        "displayExpression": ["fbref.week"]
+      }
+    ],
+    "performance": {
+      "roi": 25.96,
+      "totalBets": 130,
+      "winRate": 59.23,
+      "totalProfit": 61607.5
+    }
+  },
+  {
+    "name": "Trapped-HighOdds",
+    "timestamp": 1751428518507,
+    "side": {
+      "category": "side",
+      "key": "higherOdds",
+      "expression": "true",
+      "description": "Bet on team with higher odds",
+      "betSide": "asianHandicapOdds.homeOdds > asianHandicapOdds.awayOdds ? 'home' : 'away'"
+    },
+    "size": {
+      "category": "size",
+      "key": "fix",
+      "expression": "1500",
+      "description": "$1500",
+      "stakingMethod": "fixed"
+    },
+    "factors": [
+      {
+        "category": "oddsLevel",
+        "key": "trapped",
+        "expression": "Math.min(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds) <= 1.72",
+        "description": "Trapped pricing ≤1.72",
+        "displayExpression": "Math.min(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds)"
+      }
+    ],
+    "performance": {
+      "roi": 12.2,
+      "totalBets": 120,
+      "winRate": 57.5,
+      "totalProfit": 21967.5
+    }
+  },
+  {
+    "name": "Relegation-Dynamic-High",
+    "timestamp": 1751481974511,
+    "side": {
+      "category": "side",
+      "key": "higherOdds",
+      "expression": "true",
+      "description": "Bet on team with higher odds",
+      "betSide": "asianHandicapOdds.homeOdds > asianHandicapOdds.awayOdds ? 'home' : 'away'"
+    },
+    "size": {
+      "category": "size",
+      "key": "dynamic",
+      "expression": "200 + Math.floor((Math.max(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "description": "$200 if odds <=1.91, else +$150 per 0.01",
+      "stakingMethod": "variable"
+    },
+    "factors": [
+      {
+        "category": "context",
+        "key": "relegationBattle",
+        "expression": "((timeSeries.home.leaguePosition || 20) >= 16 || (timeSeries.away.leaguePosition || 20) >= 16)",
+        "description": "At least one team in bottom 5 (relegation battle)",
+        "displayExpression": [
+          "timeSeries.home.leaguePosition",
+          "timeSeries.away.leaguePosition"
+        ]
+      },
+      {
+        "category": "time",
+        "key": "notEarlySeason",
+        "expression": "parseInt(fbref.week) >= 8",
+        "description": "weeks 8+",
+        "displayExpression": ["fbref.week"]
+      }
+    ],
+    "performance": {
+      "roi": 16.3,
+      "totalBets": 56,
+      "winRate": 51.79,
+      "totalProfit": 18693.25
+    }
+  },
+  {
+    "name": "GiantKilling-Dynamic-High",
+    "timestamp": 1751482026050,
+    "side": {
+      "category": "side",
+      "key": "higherOdds",
+      "expression": "true",
+      "description": "Bet on team with higher odds",
+      "betSide": "asianHandicapOdds.homeOdds > asianHandicapOdds.awayOdds ? 'home' : 'away'"
+    },
+    "size": {
+      "category": "size",
+      "key": "dynamic",
+      "expression": "200 + Math.floor((Math.max(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "description": "$200 if odds <=1.91, else +$150 per 0.01",
+      "stakingMethod": "variable"
+    },
+    "factors": [
+      {
+        "category": "context",
+        "key": "giantKilling",
+        "expression": "(timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6",
+        "description": "Lower team vs top 6",
+        "displayExpression": [
+          "timeSeries.home.leaguePosition",
+          "timeSeries.away.leaguePosition"
+        ]
+      },
+      {
+        "category": "time",
+        "key": "notEarlySeason",
+        "expression": "parseInt(fbref.week) >= 8",
+        "description": "weeks 8+",
+        "displayExpression": ["fbref.week"]
+      }
+    ],
+    "performance": {
+      "roi": 21.02,
+      "totalBets": 78,
+      "winRate": 56.41,
+      "totalProfit": 34899.25
+    }
+  },
+  {
+    "name": "Bottom6Away-Extreme-High",
+    "timestamp": 1751482505808,
+    "side": {
+      "category": "side",
+      "key": "higherOdds",
+      "expression": "true",
+      "description": "Bet on team with higher odds",
+      "betSide": "asianHandicapOdds.homeOdds > asianHandicapOdds.awayOdds ? 'home' : 'away'"
+    },
+    "size": {
+      "category": "size",
+      "key": "fix",
+      "expression": "1500",
+      "description": "$1500",
+      "stakingMethod": "fixed"
+    },
+    "factors": [
+      {
+        "category": "oddsLevel",
+        "key": "extreme",
+        "expression": "Math.max(asianHandicapOdds.homeOdds, asianHandicapOdds.awayOdds) > 2",
+        "description": "Max odds > 2.00 (extreme)",
+        "displayExpression": [
+          "asianHandicapOdds.homeOdds",
+          "asianHandicapOdds.awayOdds"
+        ]
+      },
+      {
+        "category": "context",
+        "key": "bottomSixAway",
+        "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
+        "description": "Bottom 6 teams playing away",
+        "displayExpression": ["timeSeries.away.leaguePosition"]
+      },
+      {
+        "category": "time",
+        "key": "notEarlySeason",
+        "expression": "parseInt(fbref.week) >= 8",
+        "description": "weeks 8+",
+        "displayExpression": ["fbref.week"]
+      }
+    ],
+    "performance": {
+      "roi": 17.4,
+      "totalBets": 140,
+      "winRate": 57.86,
+      "totalProfit": 36540
+    }
+  }
+]

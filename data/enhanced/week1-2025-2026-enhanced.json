@@ -1,0 +1,687 @@
+{
+  "metadata": {
+    "totalMatches": 10,
+    "matchesWithFBRef": 10,
+    "matchesWithoutFBRef": 0,
+    "matchesWithEnhancements": 10,
+    "generatedAt": "2025-07-04T10:30:00.000Z",
+    "structure": {
+      "preMatch": "Predictive analysis available before match",
+      "postMatch": "Result-dependent analysis only after match completion",
+      "timeSeries": "Team streaks, patterns, and historical performance"
+    },
+    "week": 1,
+    "season": "2025-2026"
+  },
+  "matches": {
+    "2025-26_Arsenal_v_Liverpool": {
+      "match": {
+        "eventId": "FB10001",
+        "date": "2025-08-16T15:00:00.000Z",
+        "homeTeam": "Arsenal",
+        "awayTeam": "Liverpool",
+        "homeScore": 2,
+        "awayScore": 1,
+        "asianHandicapOdds": {
+          "homeHandicap": "-0.25",
+          "homeOdds": 1.85,
+          "awayHandicap": "+0.25",
+          "awayOdds": 1.95
+        },
+        "homeWinOdds": 2.4,
+        "drawOdds": 3.3,
+        "awayWinOdds": 2.9,
+        "over2_5Odds": 1.6,
+        "under2_5Odds": 2.3,
+        "filePath": "data/raw/matches/2025-2026/20250816-FB10001.txt"
+      },
+      "fbref": {
+        "date": "2025-08-16",
+        "week": 1,
+        "day": "Sat",
+        "time": "15:00 (23:00)",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "homeXG": 1.8,
+        "awayXG": 1.2,
+        "referee": "Michael Oliver",
+        "venue": "Emirates Stadium",
+        "attendance": 60000
+      },
+      "enhanced": {
+        "preMatch": {
+          "marketEfficiency": {
+            "homeImpliedProb": 0.5405405405405405,
+            "drawImpliedProb": 0.30303030303030304,
+            "awayImpliedProb": 0.3448275862068966,
+            "totalImpliedProb": 1.1884384267542432,
+            "cutPercentage": 18.84384267542432,
+            "fairHomeOdds": 2.4,
+            "fairDrawOdds": 3.3,
+            "fairAwayOdds": 2.9
+          },
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.5",
+            "homeOdds": 1.85,
+            "awayHandicap": "+0.5",
+            "awayOdds": 1.95
+          },
+          "venue": {
+            "name": "Emirates Stadium",
+            "attendance": 60000,
+            "homeAdvantage": 0.15
+          },
+          "referee": {
+            "name": "Michael Oliver",
+            "impact": 0.02
+          },
+          "xgExpected": {
+            "homeXG": 1.8,
+            "awayXG": 1.2,
+            "totalXG": 3.0,
+            "xgLine": 0.6
+          }
+        },
+        "postMatch": {
+          "asianHandicapResults": {
+            "line_minus_2": "home_win",
+            "line_minus_1_5": "home_win",
+            "line_minus_1": "home_win",
+            "line_minus_0_5": "home_win",
+            "line_0": "home_win",
+            "line_0_5": "home_win",
+            "line_1": "home_win",
+            "line_1_5": "home_win",
+            "line_2": "draw"
+          },
+          "bettingOutcomes": {
+            "homeHandicap": "-0.5",
+            "awayHandicap": "+0.5",
+            "homeOdds": 1.85,
+            "awayOdds": 1.95,
+            "homeResult": "win",
+            "awayResult": "loss",
+            "homeBet100Return": 185,
+            "awayBet100Return": 0,
+            "homeProfit": 85,
+            "awayProfit": -100,
+            "cutPercentage": "5.13",
+            "hadResult": "home",
+            "ouResult": {
+              "over2_5": "over",
+              "over3_5": "under",
+              "totalGoals": 3
+            }
+          },
+          "performance": {
+            "homeXGDiff": 0.2,
+            "awayXGDiff": -0.2,
+            "homeEfficiency": 1.11,
+            "awayEfficiency": 0.83,
+            "totalXG": 3.0,
+            "totalGoals": 3,
+            "xgAccuracy": 0.0
+          },
+          "actualResults": {
+            "homeGoals": 2,
+            "awayGoals": 1,
+            "totalGoals": 3,
+            "goalDifference": 1,
+            "result": "home"
+          }
+        },
+        "metadata": {
+          "hasXGData": true,
+          "hasOddsData": true,
+          "hasAsianHandicapOdds": true,
+          "matchWeek": 1,
+          "matchDay": "Sat"
+        }
+      },
+      "timeSeries": {
+        "home": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 1,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0,
+                "draw": 0
+              },
+              "form": [
+                "win"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0,
+                "draw": 0
+              },
+              "form": [
+                "win"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0
+              },
+              "form": [
+                "win"
+              ]
+            }
+          }
+        },
+        "away": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 8,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1,
+                "draw": 0
+              },
+              "form": [
+                "loss"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1,
+                "draw": 0
+              },
+              "form": [
+                "loss"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1
+              },
+              "form": [
+                "loss"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "2025-26_Manchester City v Chelsea": {
+      "match": {
+        "eventId": "FB10002",
+        "date": "2025-08-17T17:30:00.000Z",
+        "homeTeam": "Manchester City",
+        "awayTeam": "Chelsea",
+        "homeScore": 3,
+        "awayScore": 0,
+        "asianHandicapOdds": {
+          "homeHandicap": "-1.0",
+          "homeOdds": 1.90,
+          "awayHandicap": "+1.0",
+          "awayOdds": 1.90
+        },
+        "homeWinOdds": 1.7,
+        "drawOdds": 3.8,
+        "awayWinOdds": 4.5,
+        "over2_5Odds": 1.45,
+        "under2_5Odds": 2.75,
+        "filePath": "data/raw/matches/2025-2026/20250817-FB10002.txt"
+      },
+      "fbref": {
+        "date": "2025-08-17",
+        "week": 1,
+        "day": "Sun",
+        "time": "17:30 (01:30)",
+        "homeGoals": 3,
+        "awayGoals": 0,
+        "homeXG": 2.4,
+        "awayXG": 0.8,
+        "referee": "Craig Pawson",
+        "venue": "Etihad Stadium",
+        "attendance": 55000
+      },
+      "enhanced": {
+        "preMatch": {
+          "marketEfficiency": {
+            "homeImpliedProb": 0.5882352941176471,
+            "drawImpliedProb": 0.2631578947368421,
+            "awayImpliedProb": 0.2222222222222222,
+            "totalImpliedProb": 1.0736154110767114,
+            "cutPercentage": 7.36154110767114,
+            "fairHomeOdds": 1.7,
+            "fairDrawOdds": 3.8,
+            "fairAwayOdds": 4.5
+          },
+          "asianHandicapOdds": {
+            "homeHandicap": "-1.0",
+            "homeOdds": 1.90,
+            "awayHandicap": "+1.0",
+            "awayOdds": 1.90
+          },
+          "venue": {
+            "name": "Etihad Stadium",
+            "attendance": 55000,
+            "homeAdvantage": 0.18
+          },
+          "referee": {
+            "name": "Craig Pawson",
+            "impact": 0.01
+          },
+          "xgExpected": {
+            "homeXG": 2.4,
+            "awayXG": 0.8,
+            "totalXG": 3.2,
+            "xgLine": 1.6
+          }
+        },
+        "postMatch": {
+          "asianHandicapResults": {
+            "line_minus_2": "home_win",
+            "line_minus_1_5": "home_win",
+            "line_minus_1": "home_win",
+            "line_minus_0_5": "home_win",
+            "line_0": "home_win",
+            "line_0_5": "home_win",
+            "line_1": "home_win",
+            "line_1_5": "home_win",
+            "line_2": "home_win"
+          },
+          "bettingOutcomes": {
+            "homeHandicap": "-1.0",
+            "awayHandicap": "+1.0",
+            "homeOdds": 1.90,
+            "awayOdds": 1.90,
+            "homeResult": "win",
+            "awayResult": "loss",
+            "homeBet100Return": 190,
+            "awayBet100Return": 0,
+            "homeProfit": 90,
+            "awayProfit": -100,
+            "cutPercentage": "5.26",
+            "hadResult": "home",
+            "ouResult": {
+              "over2_5": "over",
+              "over3_5": "under",
+              "totalGoals": 3
+            }
+          },
+          "performance": {
+            "homeXGDiff": 0.6,
+            "awayXGDiff": -0.8,
+            "homeEfficiency": 1.25,
+            "awayEfficiency": 0.0,
+            "totalXG": 3.2,
+            "totalGoals": 3,
+            "xgAccuracy": -0.2
+          },
+          "actualResults": {
+            "homeGoals": 3,
+            "awayGoals": 0,
+            "totalGoals": 3,
+            "goalDifference": 3,
+            "result": "home"
+          }
+        },
+        "metadata": {
+          "hasXGData": true,
+          "hasOddsData": true,
+          "hasAsianHandicapOdds": true,
+          "matchWeek": 1,
+          "matchDay": "Sun"
+        }
+      },
+      "timeSeries": {
+        "home": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 2,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0,
+                "draw": 0
+              },
+              "form": [
+                "win"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0,
+                "draw": 0
+              },
+              "form": [
+                "win"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "win",
+                "count": 1
+              },
+              "longest": {
+                "win": 1,
+                "loss": 0
+              },
+              "form": [
+                "win"
+              ]
+            }
+          }
+        },
+        "away": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 15,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1,
+                "draw": 0
+              },
+              "form": [
+                "loss"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1,
+                "draw": 0
+              },
+              "form": [
+                "loss"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "loss",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 1
+              },
+              "form": [
+                "loss"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "2025-26_Brighton_v_Liverpool": {
+      "match": {
+        "eventId": "FB10003",
+        "date": "2025-08-18T16:00:00.000Z",
+        "homeTeam": "Brighton",
+        "awayTeam": "Liverpool",
+        "homeScore": 1,
+        "awayScore": 1,
+        "asianHandicapOdds": {
+          "homeHandicap": "+0.75",
+          "homeOdds": 1.88,
+          "awayHandicap": "-0.75",
+          "awayOdds": 1.92
+        },
+        "homeWinOdds": 3.80,
+        "drawOdds": 3.40,
+        "awayWinOdds": 1.95,
+        "over2_5Odds": 1.55,
+        "under2_5Odds": 2.45,
+        "filePath": "data/raw/matches/2025-2026/20250818-FB10003.txt"
+      },
+      "fbref": {
+        "date": "2025-08-18",
+        "week": 1,
+        "day": "Mon",
+        "time": "16:00 (00:00)",
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "homeXG": 1.4,
+        "awayXG": 1.3,
+        "referee": "Simon Hooper",
+        "venue": "Amex Stadium",
+        "attendance": 62000
+      },
+      "enhanced": {
+        "preMatch": {
+          "marketEfficiency": {
+            "homeImpliedProb": 0.2631578947368421,
+            "drawImpliedProb": 0.29411764705882354,
+            "awayImpliedProb": 0.5128205128205128,
+            "totalImpliedProb": 1.0700960545561795,
+            "cutPercentage": 7.00960545561795,
+            "fairHomeOdds": 3.80,
+            "fairDrawOdds": 3.40,
+            "fairAwayOdds": 1.95
+          },
+          "asianHandicapOdds": {
+            "homeHandicap": "+0.75",
+            "homeOdds": 1.88,
+            "awayHandicap": "-0.75",
+            "awayOdds": 1.92
+          },
+          "venue": {
+            "name": "Amex Stadium",
+            "attendance": 31800,
+            "homeAdvantage": 0.08
+          },
+          "referee": {
+            "name": "Simon Hooper",
+            "impact": 0.03
+          },
+          "xgExpected": {
+            "homeXG": 1.4,
+            "awayXG": 1.3,
+            "totalXG": 2.7,
+            "xgLine": 0.1
+          }
+        },
+        "postMatch": {
+          "asianHandicapResults": {
+            "line_minus_2": "draw",
+            "line_minus_1_5": "draw",
+            "line_minus_1": "draw",
+            "line_minus_0_5": "draw",
+            "line_0": "draw",
+            "line_0_5": "draw",
+            "line_1": "draw",
+            "line_1_5": "draw",
+            "line_2": "draw"
+          },
+          "bettingOutcomes": {
+            "homeHandicap": "0.0",
+            "awayHandicap": "0.0",
+            "homeOdds": 1.88,
+            "awayOdds": 1.92,
+            "homeResult": "draw",
+            "awayResult": "draw",
+            "homeBet100Return": 100,
+            "awayBet100Return": 100,
+            "homeProfit": 0,
+            "awayProfit": 0,
+            "cutPercentage": "6.67",
+            "hadResult": "draw",
+            "ouResult": {
+              "over2_5": "under",
+              "over3_5": "under",
+              "totalGoals": 2
+            }
+          },
+          "performance": {
+            "homeXGDiff": 0.1,
+            "awayXGDiff": -0.1,
+            "homeEfficiency": 0.71,
+            "awayEfficiency": 0.77,
+            "totalXG": 2.7,
+            "totalGoals": 2,
+            "xgAccuracy": -0.7
+          },
+          "actualResults": {
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "totalGoals": 2,
+            "goalDifference": 0,
+            "result": "draw"
+          }
+        },
+        "metadata": {
+          "hasXGData": true,
+          "hasOddsData": true,
+          "hasAsianHandicapOdds": true,
+          "matchWeek": 1,
+          "matchDay": "Mon"
+        }
+      },
+      "timeSeries": {
+        "home": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 16,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0,
+                "draw": 1
+              },
+              "form": [
+                "draw"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0,
+                "draw": 1
+              },
+              "form": [
+                "draw"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0
+              },
+              "form": [
+                "draw"
+              ]
+            }
+          }
+        },
+        "away": {
+          "matchesPlayed": 1,
+          "venueMatches": 1,
+          "leaguePosition": 3,
+          "streaks": {
+            "overall": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0,
+                "draw": 1
+              },
+              "form": [
+                "draw"
+              ]
+            },
+            "venue": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0,
+                "draw": 1
+              },
+              "form": [
+                "draw"
+              ]
+            },
+            "asianHandicap": {
+              "current": {
+                "type": "draw",
+                "count": 1
+              },
+              "longest": {
+                "win": 0,
+                "loss": 0
+              },
+              "form": [
+                "draw"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

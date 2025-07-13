@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Betting System V2 - Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .status-bar {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .status-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid #28a745;
+        }
+        
+        .status-item.warning {
+            border-left-color: #ffc107;
+        }
+        
+        .status-item.error {
+            border-left-color: #dc3545;
+        }
+        
+        .main-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .card-title {
+            font-size: 1.4em;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        .card-content {
+            margin-bottom: 20px;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .metric:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: #7f8c8d;
+        }
+        
+        .metric-value {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .metric-value.positive {
+            color: #28a745;
+        }
+        
+        .metric-value.negative {
+            color: #dc3545;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            margin: 5px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+        }
+        
+        .btn-warning {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+        }
+        
+        .navigation {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .nav-link {
+            margin: 0 10px;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+        
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border-left: 4px solid #dc3545;
+        }
+        
+        .alert-warning {
+            background: #fff3cd;
+            color: #856404;
+            border-left: 4px solid #ffc107;
+        }
+        
+        @media (max-width: 768px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .status-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Live Betting System V2</h1>
+            <p class="subtitle">Complete NestJS Unified Platform</p>
+        </div>
+        
+        <div class="navigation">
+            <a href="/dashboard" class="btn">Dashboard</a>
+            <a href="/factor-drilling" class="btn btn-secondary">Factor Drilling</a>
+            <a href="/live-trading" class="btn btn-success">Live Trading</a>
+            <a href="/performance" class="btn btn-warning">Performance</a>
+            <a href="/data-management" class="btn btn-secondary">Data Management</a>
+        </div>
+        
+        <div class="status-bar">
+            <h3 style="margin-bottom: 15px;">🔧 System Status</h3>
+            <div class="status-grid" id="statusGrid">
+                <div class="loading">Loading system status...</div>
+            </div>
+        </div>
+        
+        <div class="main-grid">
+            <!-- Live Trading Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">💰</div>
+                    <div class="card-title">Live Trading</div>
+                </div>
+                <div class="card-content" id="liveTradingContent">
+                    <div class="loading">Loading trading status...</div>
+                </div>
+                <div>
+                    <button class="btn btn-success" onclick="startAutomatedTrading()">Start Automated Trading</button>
+                    <button class="btn btn-warning" onclick="evaluateStrategies()">Evaluate Strategies</button>
+                    <button class="btn" onclick="monitorOdds()">Monitor Odds</button>
+                </div>
+            </div>
+            
+            <!-- Performance Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">📊</div>
+                    <div class="card-title">System Performance</div>
+                </div>
+                <div class="card-content" id="performanceContent">
+                    <div class="loading">Loading performance data...</div>
+                </div>
+                <div>
+                    <button class="btn" onclick="updateResults()">Update Results</button>
+                    <a href="/performance" class="btn btn-secondary">View Details</a>
+                </div>
+            </div>
+            
+            <!-- Data Collection Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🔍</div>
+                    <div class="card-title">Data Collection</div>
+                </div>
+                <div class="card-content">
+                    <div class="metric">
+                        <span class="metric-label">HKJC Scraping</span>
+                        <span class="metric-value">Every 30 minutes</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">FBRef Scraping</span>
+                        <span class="metric-value">Every 6 hours</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Data Processing</span>
+                        <span class="metric-value">Every hour</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Data Enhancement</span>
+                        <span class="metric-value">Every 2 hours</span>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn" onclick="scrapeHKJC()">Scrape HKJC</button>
+                    <button class="btn" onclick="scrapeFBRef()">Scrape FBRef</button>
+                    <button class="btn btn-secondary" onclick="processData()">Process Data</button>
+                </div>
+            </div>
+            
+            <!-- Analysis Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-title">Strategy Analysis</div>
+                </div>
+                <div class="card-content" id="analysisContent">
+                    <div class="loading">Loading analysis data...</div>
+                </div>
+                <div>
+                    <a href="/factor-drilling" class="btn">Factor Drilling</a>
+                    <button class="btn btn-secondary" onclick="loadTopStrategies()">Top Strategies</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="alerts"></div>
+    </div>
+
+    <script>
+        // API base URL
+        const API_BASE = '/api';
+        
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSystemStatus();
+            loadLiveTradingStatus();
+            loadPerformanceData();
+            loadAnalysisData();
+        });
+        
+        // Load system status
+        async function loadSystemStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/system/status`);
+                const data = await response.json();
+                
+                const statusGrid = document.getElementById('statusGrid');
+                statusGrid.innerHTML = '';
+                
+                const services = data.services;
+                Object.keys(services).forEach(category => {
+                    Object.keys(services[category]).forEach(service => {
+                        const status = services[category][service];
+                        const statusClass = typeof status === 'object' ? 
+                            (status.isRunning ? 'status-item' : 'status-item warning') :
+                            'status-item';
+                        
+                        const statusText = typeof status === 'object' ? 
+                            (status.isRunning ? 'Running' : 'Idle') : status;
+                        
+                        statusGrid.innerHTML += `
+                            <div class="${statusClass}">
+                                <div style="font-weight: 600;">${service}</div>
+                                <div style="font-size: 0.9em; color: #666;">${statusText}</div>
+                            </div>
+                        `;
+                    });
+                });
+            } catch (error) {
+                showAlert('Error loading system status: ' + error.message, 'error');
+            }
+        }
+        
+        // Load live trading status
+        async function loadLiveTradingStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/trading/odds/latest`);
+                const data = await response.json();
+                
+                const content = document.getElementById('liveTradingContent');
+                if (data && data.matches) {
+                    content.innerHTML = `
+                        <div class="metric">
+                            <span class="metric-label">Available Matches</span>
+                            <span class="metric-value">${data.matches.length}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Last Update</span>
+                            <span class="metric-value">${new Date(data.timestamp).toLocaleTimeString()}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Data Source</span>
+                            <span class="metric-value">${data.source.toUpperCase()}</span>
+                        </div>
+                    `;
+                } else {
+                    content.innerHTML = `
+                        <div class="metric">
+                            <span class="metric-label">Status</span>
+                            <span class="metric-value">No matches available</span>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                document.getElementById('liveTradingContent').innerHTML = `
+                    <div class="metric">
+                        <span class="metric-label">Status</span>
+                        <span class="metric-value">Error loading data</span>
+                    </div>
+                `;
+            }
+        }
+        
+        // Load performance data
+        async function loadPerformanceData() {
+            try {
+                const response = await fetch(`${API_BASE}/performance/system`);
+                const data = await response.json();
+                
+                const content = document.getElementById('performanceContent');
+                content.innerHTML = `
+                    <div class="metric">
+                        <span class="metric-label">Total Strategies</span>
+                        <span class="metric-value">${data.totalStrategies}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Total Bets</span>
+                        <span class="metric-value">${data.totalBets}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Active Bets</span>
+                        <span class="metric-value">${data.activeBets}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">System ROI</span>
+                        <span class="metric-value ${data.systemROI >= 0 ? 'positive' : 'negative'}">${data.systemROI.toFixed(2)}%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Total Profit</span>
+                        <span class="metric-value ${data.totalProfit >= 0 ? 'positive' : 'negative'}">$${data.totalProfit.toFixed(2)}</span>
+                    </div>
+                `;
+            } catch (error) {
+                document.getElementById('performanceContent').innerHTML = `
+                    <div class="metric">
+                        <span class="metric-label">Status</span>
+                        <span class="metric-value">Error loading data</span>
+                    </div>
+                `;
+            }
+        }
+        
+        // Load analysis data
+        async function loadAnalysisData() {
+            try {
+                const response = await fetch(`${API_BASE}/analysis/strategies`);
+                const strategies = await response.json();
+                
+                const factorResponse = await fetch(`${API_BASE}/analysis/factor-definitions`);
+                const factors = await factorResponse.json();
+                
+                const content = document.getElementById('analysisContent');
+                content.innerHTML = `
+                    <div class="metric">
+                        <span class="metric-label">Loaded Strategies</span>
+                        <span class="metric-value">${strategies ? strategies.length : 0}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Factor Definitions</span>
+                        <span class="metric-value">${factors ? Object.keys(factors).length : 0}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Analysis Engine</span>
+                        <span class="metric-value">Ready</span>
+                    </div>
+                `;
+            } catch (error) {
+                document.getElementById('analysisContent').innerHTML = `
+                    <div class="metric">
+                        <span class="metric-label">Status</span>
+                        <span class="metric-value">Error loading data</span>
+                    </div>
+                `;
+            }
+        }
+        
+        // Trading functions
+        async function startAutomatedTrading() {
+            showAlert('Starting automated trading...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/trading/automated/start`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    showAlert(`Automated trading completed: ${result.data.executed} bets executed out of ${result.data.signals} signals`, 'success');
+                } else {
+                    showAlert('Automated trading failed: ' + result.message, 'error');
+                }
+                
+                // Refresh data
+                loadLiveTradingStatus();
+                loadPerformanceData();
+            } catch (error) {
+                showAlert('Error in automated trading: ' + error.message, 'error');
+            }
+        }
+        
+        async function evaluateStrategies() {
+            showAlert('Evaluating strategies...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/trading/strategies/evaluate-all`, {
+                    method: 'POST'
+                });
+                const signals = await response.json();
+                
+                showAlert(`Strategy evaluation completed: ${signals.length} betting signals generated`, 'success');
+                loadLiveTradingStatus();
+            } catch (error) {
+                showAlert('Error evaluating strategies: ' + error.message, 'error');
+            }
+        }
+        
+        async function monitorOdds() {
+            showAlert('Monitoring odds...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/trading/odds/monitor`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                
+                showAlert(`Odds monitoring completed: ${result.data.matches.length} matches found`, 'success');
+                loadLiveTradingStatus();
+            } catch (error) {
+                showAlert('Error monitoring odds: ' + error.message, 'error');
+            }
+        }
+        
+        // Data collection functions
+        async function scrapeHKJC() {
+            showAlert('Scraping HKJC...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/data/scrape-hkjc`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                showAlert(result.message, 'success');
+            } catch (error) {
+                showAlert('Error scraping HKJC: ' + error.message, 'error');
+            }
+        }
+        
+        async function scrapeFBRef() {
+            showAlert('Scraping FBRef...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/data/scrape-fbref`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                showAlert(result.message, 'success');
+            } catch (error) {
+                showAlert('Error scraping FBRef: ' + error.message, 'error');
+            }
+        }
+        
+        async function processData() {
+            showAlert('Processing data...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/data/process`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                showAlert(result.message, 'success');
+            } catch (error) {
+                showAlert('Error processing data: ' + error.message, 'error');
+            }
+        }
+        
+        async function updateResults() {
+            showAlert('Updating results...', 'warning');
+            try {
+                const response = await fetch(`${API_BASE}/performance/update`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                showAlert(result.message, 'success');
+                loadPerformanceData();
+            } catch (error) {
+                showAlert('Error updating results: ' + error.message, 'error');
+            }
+        }
+        
+        async function loadTopStrategies() {
+            try {
+                const response = await fetch(`${API_BASE}/analysis/top-strategies?limit=10`);
+                const result = await response.json();
+                
+                showAlert(`Loaded ${result.strategies.length} top strategies`, 'success');
+            } catch (error) {
+                showAlert('Error loading top strategies: ' + error.message, 'error');
+            }
+        }
+        
+        // Utility functions
+        function showAlert(message, type = 'success') {
+            const alertsContainer = document.getElementById('alerts');
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type}`;
+            alertDiv.textContent = message;
+            
+            alertsContainer.appendChild(alertDiv);
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 5000);
+        }
+        
+        // Auto-refresh every 30 seconds
+        setInterval(() => {
+            loadSystemStatus();
+            loadLiveTradingStatus();
+        }, 30000);
+    </script>
+</body>
+</html>

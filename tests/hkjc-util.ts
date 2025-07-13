@@ -42,7 +42,7 @@ const hkjc_logout = async (page) => {
     await page.getByText("Close").click();
 };
 
-const hkjc_bet_handicap = async (page, match, amount = 200) => {
+const hkjc_bet_handicap = async (page, match, amount = 10) => {
     const element = match.element;
     if (match.decision === "home") {
         await element.locator("input[type='checkbox']").first().check();

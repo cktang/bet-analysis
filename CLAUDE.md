@@ -433,3 +433,80 @@ Asian Handicap betting is fundamentally different from 1X2 (win/lose/draw) betti
 - Established complementary roles: pattern-discovery for exploration, ah-analysis for depth
 
 This conversation established the simplified dashboard system and clean project organization that supports focused factor exploration and analysis.
+
+# Claude Memory Bank
+
+## Project Context
+- This is a betting analysis system with data collection, processing, and live trading capabilities
+- The system processes football match data, odds movements, and makes automated betting decisions
+- Uses NestJS framework with TypeScript/JavaScript modules
+- Has both v1 (legacy) and v2 (current) implementations
+- Focuses on Asian handicap betting strategies and live betting automation
+
+## Key Memories
+
+### 1. Archive Directory Rule
+The archive/ directory contains historical/deprecated code and analysis that should be ignored when analyzing the current project structure. Focus on active components outside archive/.
+
+### 2. NO FAKE DATA IN FINANCIAL OPERATIONS (CRITICAL)
+**NEVER create fake, assumed, or fallback data in betting/financial systems:**
+
+❌ **NEVER DO:**
+- Generate fake timestamps (e.g., `new Date() + 1 hour`)
+- Create placeholder odds, stakes, or financial amounts
+- Use fallback dates like "current time + X" for match kickoffs
+- Assume default values for critical financial data (odds, handicap, stake)
+- Mock real financial data in production code paths
+
+✅ **ALWAYS DO:**
+- Return `null` or `undefined` when data parsing fails
+- Throw errors for invalid financial data
+- Skip operations entirely if critical data is missing
+- Fail fast rather than proceed with assumptions
+- Log the failure clearly and stop the financial operation
+
+**Why this matters:**
+- Fake timestamps → betting on matches that already started → financial losses
+- Wrong odds/stakes → incorrect bet amounts → unexpected losses/exposure
+- Assumed data → systematic errors → compounding losses
+- Better to miss opportunities than make wrong bets with fake data
+
+**Examples:**
+```typescript
+// ❌ WRONG - creates fake data
+const kickoffTime = match.date ? parseDate(match.date) : new Date() + 1hour;
+
+// ✅ RIGHT - fails explicitly  
+const kickoffTime = match.date ? parseDate(match.date) : null;
+if (!kickoffTime) return; // Skip operation entirely
+```
+
+### 3. Testable Code and Robust Testing Strategy
+Always write code that is easy to test by:
+- Making methods pure and focused on single responsibilities
+- Using dependency injection to allow mocking of external dependencies
+- Avoiding tight coupling between components
+- Exposing clear interfaces and contracts
+
+When writing test cases:
+- Call the actual methods directly rather than duplicating their logic
+- Test the behavior and outcomes, not the implementation details
+- Use mocks/stubs for external dependencies (APIs, databases, etc.)
+- Focus on testing the public API and expected behavior
+- Avoid copying internal logic into tests - this creates maintenance burden when code changes
+
+This approach ensures tests remain valid and don't become outdated when the underlying code changes rapidly, which is common in this fast-paced development environment.
+
+## Technical Stack
+- Backend: NestJS, TypeScript/JavaScript
+- Data Processing: Node.js scripts
+- Testing: Jest, Playwright
+- Data Storage: JSON files, potential database integration
+- Web Interface: Static HTML/CSS/JS
+
+## Current Focus Areas
+- Live betting automation
+- Data collection and processing
+- Asian handicap calculations
+- Pattern discovery and strategy development
+- Health monitoring and system reliability

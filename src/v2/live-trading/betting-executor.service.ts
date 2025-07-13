@@ -127,7 +127,7 @@ export class BettingExecutorService {
           
           // before 10 minutes of kickoff, skip
           if (minutesUntilKickoff < 0 || minutesUntilKickoff > 10) {
-            console.log(`⏰ Skipping ${typedDecision.homeTeam} v ${typedDecision.awayTeam}: ${minutesUntilKickoff} minutes until kickoff (outside 0-180 minute window)`);
+            console.log(`⏰ Skipping ${typedDecision.homeTeam} v ${typedDecision.awayTeam}: ${minutesUntilKickoff} minutes until kickoff (outside 10m window)`);
             skippedTimeWindow++;
             continue;
           }

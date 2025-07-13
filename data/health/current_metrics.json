@@ -1,11 +1,11 @@
 {
-  "timestamp": 1752424800017,
+  "timestamp": 1752426300014,
   "system": {
-    "cpuUsage": 14,
+    "cpuUsage": 12,
     "memoryUsage": {
-      "used": 17117560832,
+      "used": 17113038848,
       "total": 17179869184,
-      "percentage": 99.6373176574707
+      "percentage": 99.61099624633789
     },
     "diskUsage": {
       "used": 0,
@@ -13,20 +13,20 @@
       "percentage": 0,
       "status": "accessible"
     },
-    "uptime": 2340568
+    "uptime": 2342068
   },
   "services": {
     "DataCollection": {
       "status": "healthy",
-      "lastActivity": 1752424580318,
+      "lastActivity": 1752425283802,
       "errorCount": 0,
-      "responseTime": 5
+      "responseTime": 4
     },
     "DataProcessing": {
       "status": "healthy",
-      "lastActivity": 1752418800043,
+      "lastActivity": 1752426000062,
       "errorCount": 0,
-      "responseTime": 1
+      "responseTime": 0
     },
     "Analysis": {
       "status": "healthy",
@@ -36,13 +36,13 @@
     },
     "LiveTrading": {
       "status": "warning",
-      "lastActivity": 1752424801028,
+      "lastActivity": 1752426301021,
       "errorCount": 0,
       "responseTime": 0
     },
     "Database": {
       "status": "healthy",
-      "lastActivity": 1752424801028,
+      "lastActivity": 1752426301021,
       "errorCount": 0,
       "responseTime": 0
     }

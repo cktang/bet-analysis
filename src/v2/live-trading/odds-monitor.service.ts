@@ -298,7 +298,58 @@ export class OddsMonitorService {
   private async scrapeMatchesFromDOM(): Promise<any[]> {
     console.log(`${this.logPrefix} 🔍 Scraping matches using DOM-based method...`);
     
-    const matches = await this.page.$$eval('.match-row', (elements) => {
+    // Debug: Check what elements are actually available
+    const pageHTML = await this.page.content();
+    console.log(`${this.logPrefix} 🔍 Page HTML length: ${pageHTML.length} characters`);
+    
+    // Try multiple possible selectors for HKJC match rows
+    const possibleSelectors = [
+      '[id^="HDC_"]',  // Elements with ID starting with HDC_ (most specific)
+      '.match-row',
+      'tr[id^="HDC"]',
+      'div[id^="HDC"]',
+      'tr[id^="FB"]',
+      'table tr',
+      '.fixture',
+      '.match',
+      'tr'
+    ];
+    
+    let matchElements = [];
+    let usedSelector = '';
+    
+    for (const selector of possibleSelectors) {
+      try {
+        const elements = await this.page.$$(selector);
+        console.log(`${this.logPrefix} 🔍 Selector "${selector}": found ${elements.length} elements`);
+        
+        if (elements.length > 0) {
+          // Check if these elements contain match-like data
+          const hasMatchData = await this.page.$$eval(selector, (elements) => {
+            return elements.some(el => {
+              const text = el.textContent || '';
+              return text.includes('[') && text.includes(']') && /\d+\.\d+/.test(text);
+            });
+          });
+          
+          if (hasMatchData) {
+            matchElements = elements;
+            usedSelector = selector;
+            console.log(`${this.logPrefix} ✅ Found match data using selector: "${selector}"`);
+            break;
+          }
+        }
+      } catch (error) {
+        console.log(`${this.logPrefix} ❌ Selector "${selector}" failed: ${(error as Error).message}`);
+      }
+    }
+    
+    if (matchElements.length === 0) {
+      console.log(`${this.logPrefix} ❌ No match elements found with any selector`);
+      return [];
+    }
+    
+    const matches = await this.page.$$eval(usedSelector, (elements) => {
       const results = [];
       
       // Helper functions defined within page context
@@ -338,22 +389,37 @@ export class OddsMonitorService {
         
         // Look for handicap patterns like [+0.5] or [-1.5/+1.5]
         const handicapRegex = /\[([+\-]?\d+(?:\.\d+)?(?:\/[+\-]?\d+(?:\.\d+)?)?)\]/g;
-        const oddsRegex = /(\d+\.\d+)/g;
         
         const handicapMatches = Array.from(text.matchAll(handicapRegex));
-        const oddsMatches = Array.from(text.matchAll(oddsRegex));
         
-        if (handicapMatches.length >= 2 && oddsMatches.length >= 2) {
+        if (handicapMatches.length >= 2) {
           // Parse handicap (take first team's handicap)
           const handicapText = handicapMatches[0][1];
           const handicap = parseHandicap(handicapText);
           
-          // Get the last two odds values (usually home and away)
-          const allOdds = oddsMatches.map(match => parseFloat(match[1]));
-          const homeOdds = allOdds[allOdds.length - 2];
-          const awayOdds = allOdds[allOdds.length - 1];
+          // Extract odds by removing handicap text first, then finding decimal numbers
+          let cleanText = text;
+          handicapMatches.forEach(match => {
+            cleanText = cleanText.replace(match[0], ''); // Remove [+0.5/+1] patterns
+          });
           
-          return { handicap, homeOdds, awayOdds };
+          // Remove common broadcasting channels that might interfere
+          cleanText = cleanText.replace(/\b(DAZN|ESPN|FOX|NBC|CBS|BBC|SKY)\b/gi, '');
+          
+          // Now find odds values (should be >= 1.0 for valid betting odds)
+          const oddsRegex = /(\d+\.\d+)/g;
+          const oddsMatches = Array.from(cleanText.matchAll(oddsRegex));
+          const validOdds = oddsMatches
+            .map(match => parseFloat(match[1]))
+            .filter(odds => odds >= 1.0); // Filter out handicap values that leaked through
+          
+          if (validOdds.length >= 2) {
+            // Get the last two valid odds values (home and away)
+            const homeOdds = validOdds[validOdds.length - 2];
+            const awayOdds = validOdds[validOdds.length - 1];
+            
+            return { handicap, homeOdds, awayOdds };
+          }
         }
         
         return null;
@@ -372,29 +438,120 @@ export class OddsMonitorService {
           date: null
         };
         
-        // Extract match ID from element ID
+        console.log(`\n--- Parsing element with ID: ${element.id || 'NO_ID'} ---`);
+        
+        // Extract match ID from element ID (HDC_FB3224 -> FB3224)
         const matchId = element.id;
         if (matchId && matchId.startsWith('HDC_')) {
           match.id = matchId.replace('HDC_', '');
+          console.log(`Extracted match ID: ${match.id}`);
         }
         
-        // Extract date
-        const dateElement = element.querySelector('.date');
-        if (dateElement) {
-          match.date = dateElement.textContent?.trim();
-        }
-        
-        // Extract team names - HKJC has one .team element with both teams inside
-        const teamElement = element.querySelector('.team');
-        if (teamElement) {
-          // Look for the div with title="All Odds" or similar that contains both teams
-          const teamContainer = teamElement.querySelector('div[title*="Odds"], div[title*="Betting"]');
-          if (teamContainer) {
-            const teamDivs = teamContainer.querySelectorAll('div');
-            if (teamDivs.length >= 2) {
-              match.homeTeam = teamDivs[0].textContent?.trim() || null;
-              match.awayTeam = teamDivs[1].textContent?.trim() || null;
+        // Extract date - look for date/time patterns
+        const dateSelectors = ['.date', 'td:first-child', 'div:first-child'];
+        for (const selector of dateSelectors) {
+          const dateElement = element.querySelector(selector);
+          if (dateElement) {
+            const dateText = dateElement.textContent?.trim();
+            console.log(`Found date element "${selector}": "${dateText}"`);
+            if (dateText && /\d{2}\/\d{2}\/\d{4}/.test(dateText)) {
+              match.date = dateText;
+              console.log(`Set match date: ${match.date}`);
+              break;
             }
+          }
+        }
+        
+        // Extract team names - try multiple approaches
+        console.log(`Looking for team names...`);
+        
+        // Method 1: .team div[title="All Odds"] structure
+        const teamContainer = element.querySelector('.team div[title="All Odds"]');
+        if (teamContainer) {
+          const teamDivs = teamContainer.querySelectorAll('div');
+          console.log(`Found ${teamDivs.length} team divs in .team container`);
+          if (teamDivs.length >= 2) {
+            match.homeTeam = teamDivs[0].textContent?.trim() || null;
+            match.awayTeam = teamDivs[1].textContent?.trim() || null;
+            console.log(`Teams from .team container: "${match.homeTeam}" vs "${match.awayTeam}"`);
+          }
+        }
+        
+        // Method 2: Look for any team-like content if method 1 failed
+        if (!match.homeTeam || !match.awayTeam) {
+          console.log(`Team container method failed, trying alternative approaches...`);
+          
+          // Look for text content that might contain team names
+          const fullText = element.textContent || '';
+          console.log(`Full element text: "${fullText.substring(0, 200)}..."`);
+          
+          // Try to find known team patterns
+          const teamPatterns = [
+            /Chelsea.*?Paris Saint Germain/,
+            /Hacken.*?/,
+            /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s+(\d+\.\d+)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/
+          ];
+          
+          for (const pattern of teamPatterns) {
+            const match_pattern = fullText.match(pattern);
+            if (match_pattern) {
+              console.log(`Found team pattern match:`, match_pattern);
+              // This would need custom logic per pattern
+            }
+          }
+        }
+        
+        // Extract handicap and odds from .oddsLine structure
+        console.log(`Looking for odds line...`);
+        const oddsLine = element.querySelector('.oddsLine.HDC');
+        if (oddsLine) {
+          console.log(`Found .oddsLine.HDC element`);
+          const oddsItems = oddsLine.querySelectorAll('.hdcOddsItem');
+          console.log(`Found ${oddsItems.length} .hdcOddsItem elements`);
+          
+          if (oddsItems.length >= 2) {
+            // First item is home team ([+0.5/+1] 1.95)
+            const homeItem = oddsItems[0];
+            const homeCondElement = homeItem.querySelector('.cond');
+            const homeOddsElement = homeItem.querySelector('.add-to-slip');
+            
+            // Second item is away team ([-0.5/-1] 1.85)
+            const awayItem = oddsItems[1];
+            const awayOddsElement = awayItem.querySelector('.add-to-slip');
+            
+            console.log(`Home cond: "${homeCondElement?.textContent?.trim()}", odds: "${homeOddsElement?.textContent?.trim()}"`);
+            console.log(`Away odds: "${awayOddsElement?.textContent?.trim()}"`);
+            
+            if (homeCondElement && homeOddsElement && awayOddsElement) {
+              // Parse handicap from home condition [+0.5/+1] -> 0.75
+              const handicapText = homeCondElement.textContent?.trim();
+              if (handicapText) {
+                const cleanHandicap = handicapText.replace(/[\[\]]/g, '');
+                match.handicap = parseHandicap(cleanHandicap);
+                console.log(`Parsed handicap: "${handicapText}" -> ${match.handicap}`);
+              }
+              
+              // Parse odds
+              const homeOddsText = homeOddsElement.textContent?.trim();
+              const awayOddsText = awayOddsElement.textContent?.trim();
+              
+              if (homeOddsText && awayOddsText) {
+                match.homeOdds = parseFloat(homeOddsText);
+                match.awayOdds = parseFloat(awayOddsText);
+                console.log(`Parsed odds: home=${match.homeOdds}, away=${match.awayOdds}`);
+              }
+            }
+          }
+        } else {
+          console.log(`No .oddsLine.HDC found, trying fallback odds extraction...`);
+          
+          // Fallback: use the general odds extraction method
+          const oddsData = extractOddsFromElement(element);
+          if (oddsData) {
+            match.handicap = oddsData.handicap;
+            match.homeOdds = oddsData.homeOdds;
+            match.awayOdds = oddsData.awayOdds;
+            console.log(`Fallback extraction: handicap=${match.handicap}, home=${match.homeOdds}, away=${match.awayOdds}`);
           }
         }
         
@@ -410,19 +567,23 @@ export class OddsMonitorService {
           match.state = 'live';
         }
         
-        // Extract handicap and odds using more robust method
-        const oddsData = extractOddsFromElement(element);
-        if (oddsData) {
-          match.handicap = oddsData.handicap;
-          match.homeOdds = oddsData.homeOdds;
-          match.awayOdds = oddsData.awayOdds;
-        }
+        console.log(`Final match data:`, {
+          id: match.id,
+          homeTeam: match.homeTeam,
+          awayTeam: match.awayTeam,
+          handicap: match.handicap,
+          homeOdds: match.homeOdds,
+          awayOdds: match.awayOdds,
+          date: match.date,
+          isValid: !!(match.homeTeam && match.awayTeam && match.homeOdds && match.awayOdds)
+        });
         
-        // Validate match data
+        // Validate match data - must have teams and odds
         if (match.homeTeam && match.awayTeam && match.homeOdds && match.awayOdds) {
           return match;
         }
         
+        console.log(`Match validation failed - missing required data`);
         return null;
       };
       
@@ -432,8 +593,24 @@ export class OddsMonitorService {
           // Skip invisible elements
           if (element.offsetParent === null) return;
           
+          console.log(`Processing element ${index + 1}/${elements.length}`);
+          
+          // Debug: Show element content
+          const elementText = element.textContent || '';
+          console.log(`Element text preview: "${elementText.substring(0, 200)}..."`);
+          
           // Extract data using DOM structure instead of string splitting
           const match = parseMatchElement(element);
+          
+          console.log(`Parsed match data:`, {
+            id: match?.id,
+            homeTeam: match?.homeTeam,
+            awayTeam: match?.awayTeam,
+            handicap: match?.handicap,
+            homeOdds: match?.homeOdds,
+            awayOdds: match?.awayOdds,
+            isValid: !!match
+          });
           
           if (match) {
             results.push({

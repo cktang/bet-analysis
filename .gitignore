@@ -1965,3 +1965,4 @@ data/v2/browser-session-odds/segmentation_platform/ukm_db
 data/v2/browser-session-odds/segmentation_platform/ukm_db-wal
 system.log
 server.log
+data/v2/browser-session*

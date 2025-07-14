@@ -24,20 +24,61 @@ const hkjc_login = async (page, credentials = null) => {
   await page.getByText("Login").first().click();
   await page.waitForTimeout(TIMEOUT);
 
-  let question = null;
-  if (await page.locator(".login-question").count() > 0) {
-    question = await page.locator(".login-question").textContent();
-  }
-  
-  if (question) {
-    const answer = answersMap[question.trim()];
-    console.warn("Answering question", question);
-  
-    await page.locator('#betslip-panel').getByRole('textbox').fill(answer);
+
+  // "more ways to verify" might not appear, so wait for a while to see if it shows up and click if present
+  // Find the div with the exact text inside the OTP popup container
+
+  // Wait for it to be visible and click it
+  // Wait up to 5s for .otp-popup-container to appear
+  const otpPopupAppeared = await page.locator('.otp-popup-container').waitFor({ timeout: 5000 }).then(() => true).catch(() => false);
+  if (otpPopupAppeared) {
+    console.warn('found login captcha popup');
+    const moreWaysDiv = await page.locator('.otp-popup-container >> text="More ways to verify"').first();
+    await moreWaysDiv.click();
+
+    const iWantToUseAnswerDiv = await page.locator('.otp-trouble >> text="I want to use login answer to login"').first();
+    await iWantToUseAnswerDiv.click();
     await page.waitForTimeout(TIMEOUT);
-    await page.getByText("Confirm", { exact: true }).click();
+
+    // Use a different variable name to avoid redeclaration
+    const loginQuestion = await page.locator(".ekbapopup-container .ekbapopup-login-question").textContent();
+    const answer = answersMap[(loginQuestion + "").trim() ?? ""];
+    console.warn({loginQuestion, answer});
+
+    // Find the input inside the .ekbapopup-answer-input container and fill it (case sensitive)
+    const answerInput = await page.locator('.ekbapopup-answer-input input').first();
+    await answerInput.fill(answer);
+
+    // Click the "Next" button with exact case-sensitive match, but only inside the .ekbapopup-container
+    await page.locator('.ekbapopup-container').getByText("Next", { exact: true }).click();
+
+    // Click the div with the exact case-sensitive text "Trust this browser" (multi-line allowed)
+    // This is part of the text only, so we still match the container by partial text
     await page.waitForTimeout(TIMEOUT);
+    // Find the first div that has the exact text "Trust this browser" and click it
+    await page.locator('div', { hasText: "Trust this browser" }).nth(1).click();
+
+    // Click the "Next" button again, but only inside the same div.trustbrowser-container2
+    await page.locator('div.trustbrowser-container').getByText("Next", { exact: true }).click();
+  } else {
+    console.warn('"login popup" not found or not visible');
   }
+
+
+  // let question = null;
+  // if (await page.locator(".login-question").count() > 0) {
+  //   question = await page.locator(".login-question").textContent();
+  // }
+
+  // if (question) {
+  //   const answer = answersMap[question.trim()];
+  //   console.warn("Answering question", question);
+  
+  //   await page.locator('#betslip-panel').getByRole('textbox').fill(answer);
+  //   await page.waitForTimeout(TIMEOUT);
+  //   await page.getByText("Confirm", { exact: true }).click();
+  //   await page.waitForTimeout(TIMEOUT);
+  // }
   await page.getByText("Proceed").click();
   await page.waitForTimeout(TIMEOUT);
 

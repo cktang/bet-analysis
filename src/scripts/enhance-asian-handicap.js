@@ -465,7 +465,15 @@ class AsianHandicapEnhancer {
         const result = {
             // preMatch: Data available before match starts (SAFE for prediction)
             preMatch: {
-                match: { ...matchData.match },
+                match: { 
+                    ...matchData.match,
+                    // Convert handicap format from string (+0.5/+1) to decimal (0.75) to align with odds-data.json
+                    asianHandicapOdds: matchData.match.asianHandicapOdds ? {
+                        ...matchData.match.asianHandicapOdds,
+                        homeHandicap: this.handicapConverter(matchData.match.asianHandicapOdds.homeHandicap),
+                        awayHandicap: this.handicapConverter(matchData.match.asianHandicapOdds.awayHandicap)
+                    } : null
+                },
                 fbref: {
                     // Pre-match context (known before kickoff)
                     date: matchData.fbref.date,

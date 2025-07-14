@@ -20,7 +20,7 @@
       {
         "category": "time",
         "key": "christmas",
-        "expression": "parseInt(fbref.week) >= 17 && parseInt(fbref.week) <= 22",
+        "expression": "fbref.week >= 17 && fbref.week <= 22",
         "description": "weeks 17-22",
         "displayExpression": ["fbref.week"]
       }
@@ -63,7 +63,7 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "parseInt(fbref.week) >= 7",
+        "expression": "fbref.week >= 7",
         "description": "weeks 7+",
         "displayExpression": ["fbref.week"]
       }
@@ -139,7 +139,7 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "parseInt(fbref.week) >= 8",
+        "expression": "fbref.week >= 8",
         "description": "weeks 8+",
         "displayExpression": ["fbref.week"]
       }
@@ -182,7 +182,7 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "parseInt(fbref.week) >= 8",
+        "expression": "fbref.week >= 8",
         "description": "weeks 8+",
         "displayExpression": ["fbref.week"]
       }
@@ -232,7 +232,7 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "parseInt(fbref.week) >= 8",
+        "expression": "fbref.week >= 8",
         "description": "weeks 8+",
         "displayExpression": ["fbref.week"]
       }

@@ -9,8 +9,9 @@ const hkjc_login = async (page) => {
   await page.locator("#login-password-input").fill("1glorybox");
   await page.waitForTimeout(1000);
   await page.getByText("Login").first().click();
+  await page.waitForTimeout(3000);
 
-  const betslipPanel = await page.locator("#betslip-panel");
+//   const betslipPanel = await page.locator("#betslip-panel");
 
   const answersMap = {
     "你出生的醫院名稱是甚麼?": "queene",
@@ -20,8 +21,24 @@ const hkjc_login = async (page) => {
     "你的駕駛執照有效期至?": "2022",
   };
 
-  const question = await page.locator(".login-question").textContent();
-  await betslipPanel.getByRole("textbox").fill(answersMap[question ?? ""]);
+
+  console.warn('finding more ways to verify');
+  // "more ways to verify" might not appear, so wait for a while to see if it shows up and click if present
+  const moreWays = await page.getByText("More ways to verify").waitFor({ timeout: 5000 }).catch(() => null);
+  if (moreWays) {
+    await moreWays.click();
+    await page.getByText("I want to use login answer to login").click();
+
+    // Use a different variable name to avoid redeclaration
+    const loginQuestion = await page.locator(".login-question").textContent();
+    await page.getByRole("textbox").fill(answersMap[loginQuestion ?? ""]);
+    await page.getByText("Next", { exact: true }).click();
+    await page.getByText("Trust this browser", { exact: false }).click();
+    await page.getByText("Next", { exact: true }).click();
+  }
+
+//   const question = await page.locator(".login-question").textContent();
+//   await betslipPanel.getByRole("textbox").fill(answersMap[question ?? ""]);
 
   await page.waitForTimeout(1000);
   await page.getByText("Confirm", { exact: true }).click();

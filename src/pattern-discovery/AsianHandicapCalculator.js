@@ -118,12 +118,22 @@ class AsianHandicapCalculator {
         
         const totalProfit = totalPayout - stake;
         
-        // Determine overall outcome
+        // Determine overall outcome with quarter handicap specificity
         let outcome;
         if (totalProfit > 0) {
-            outcome = 'win';
+            // Check if it's a full win or half win
+            if (totalProfit === (stake * odds) - stake) {
+                outcome = 'win'; // Full win
+            } else {
+                outcome = 'half-win'; // Half win
+            }
         } else if (totalProfit < 0) {
-            outcome = 'loss';
+            // Check if it's a full loss or half loss
+            if (totalProfit === -stake) {
+                outcome = 'loss'; // Full loss
+            } else {
+                outcome = 'half-loss'; // Half loss
+            }
         } else {
             outcome = 'push';
         }
@@ -188,12 +198,22 @@ class AsianHandicapCalculator {
         
         const totalProfit = totalPayout - stake;
         
-        // Determine overall outcome
+        // Determine overall outcome with quarter handicap specificity
         let outcome;
         if (totalProfit > 0) {
-            outcome = 'win';
+            // Check if it's a full win or half win
+            if (totalProfit === (stake * odds) - stake) {
+                outcome = 'win'; // Full win
+            } else {
+                outcome = 'half-win'; // Half win
+            }
         } else if (totalProfit < 0) {
-            outcome = 'loss';
+            // Check if it's a full loss or half loss
+            if (totalProfit === -stake) {
+                outcome = 'loss'; // Full loss
+            } else {
+                outcome = 'half-loss'; // Half loss
+            }
         } else {
             outcome = 'push';
         }

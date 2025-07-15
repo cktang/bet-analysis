@@ -500,12 +500,22 @@
                 
                 const totalProfit = totalPayout - stake;
                 
-                // Determine overall outcome
+                // Determine overall outcome with quarter handicap specificity
                 let outcome;
                 if (totalProfit > 0) {
-                    outcome = 'win';
+                    // Check if it's a full win or half win
+                    if (totalProfit === (stake * odds) - stake) {
+                        outcome = 'win'; // Full win
+                    } else {
+                        outcome = 'half-win'; // Half win
+                    }
                 } else if (totalProfit < 0) {
-                    outcome = 'loss';
+                    // Check if it's a full loss or half loss
+                    if (totalProfit === -stake) {
+                        outcome = 'loss'; // Full loss
+                    } else {
+                        outcome = 'half-loss'; // Half loss
+                    }
                 } else {
                     outcome = 'push';
                 }
@@ -1421,8 +1431,8 @@
                     totalStake += stake;
                     totalPayout += result.payout;
                     
-                    if (result.outcome === 'win') wins++;
-                    else if (result.outcome === 'loss') losses++;
+                    if (result.outcome === 'win' || result.outcome === 'half-win') wins++;
+                    else if (result.outcome === 'loss' || result.outcome === 'half-loss') losses++;
                     else if (result.outcome === 'push') pushes++;
                     
                 } catch (error) {
@@ -1658,8 +1668,8 @@
                     const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
                     const ahResult = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
                     
-                    if (ahResult.outcome === 'win') ahWins++;
-                    else if (ahResult.outcome === 'loss') ahLosses++;
+                    if (ahResult.outcome === 'win' || ahResult.outcome === 'half-win') ahWins++;
+                    else if (ahResult.outcome === 'loss' || ahResult.outcome === 'half-loss') ahLosses++;
                     else ahPushes++;
                     
                     // Update AH streak
@@ -1749,7 +1759,7 @@
                     const odds = isHome ? matchData.asianHandicapOdds?.homeOdds || 2.0 : matchData.asianHandicapOdds?.awayOdds || 2.0;
                     const calculation = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, 100);
                     ahResult = calculation.outcome.toUpperCase();
-                    ahResultClass = calculation.outcome === 'win' ? 'profit-positive' : calculation.outcome === 'loss' ? 'profit-negative' : 'profit-neutral';
+                    ahResultClass = (calculation.outcome === 'win' || calculation.outcome === 'half-win') ? 'profit-positive' : (calculation.outcome === 'loss' || calculation.outcome === 'half-loss') ? 'profit-negative' : 'profit-neutral';
                 }
                 
                 // Get streak info from timeSeries if available

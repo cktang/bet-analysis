@@ -986,5 +986,83 @@
       "LiveTrading": "warning",
       "Database": "healthy"
     }
+  },
+  {
+    "timestamp": 1752600300021,
+    "cpuUsage": 10,
+    "memoryUsage": 99.6316909790039,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "warning",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752600600034,
+    "cpuUsage": 17,
+    "memoryUsage": 99.63979721069336,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752600900004,
+    "cpuUsage": 32,
+    "memoryUsage": 99.54872131347656,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752601200005,
+    "cpuUsage": 13,
+    "memoryUsage": 99.61786270141602,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752601500003,
+    "cpuUsage": 17,
+    "memoryUsage": 99.63970184326172,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752601800021,
+    "cpuUsage": 6,
+    "memoryUsage": 99.64494705200195,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
   }
 ]

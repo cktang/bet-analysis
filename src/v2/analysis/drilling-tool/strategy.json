@@ -12,7 +12,7 @@
     "size": {
       "category": "size",
       "key": "dynamic",
-      "expression": "200 + Math.floor((Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     },
@@ -20,14 +20,14 @@
       {
         "category": "time",
         "key": "veryEarly",
-        "expression": "fbref.week >= 1 && fbref.week <= 6",
+        "expression": "preMatch.fbref.week >= 1 && preMatch.fbref.week <= 6",
         "description": "Very early season weeks 1-6",
-        "displayExpression": "fbref.week"
+        "displayExpression": "preMatch.fbref.week"
       },
       {
         "category": "ahLevel",
         "key": "quarterHandicap",
-        "expression": "match.asianHandicapOdds.homeHandicap % 0.25 === 0 && match.asianHandicapOdds.homeHandicap % 0.5 !== 0",
+        "expression": "preMatch.match.asianHandicapOdds.homeHandicap % 0.25 === 0 && preMatch.match.asianHandicapOdds.homeHandicap % 0.5 !== 0",
         "description": "Quarter/split handicaps (0.25, -0.25..)"
       }
     ],
@@ -46,7 +46,7 @@
       "key": "higherOdds",
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.preMatch.match.asianHandicapOdds.homeOdds > match.preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "size": {
       "category": "size",
@@ -59,9 +59,9 @@
       {
         "category": "oddsLevel",
         "key": "trapped",
-        "expression": "Math.min(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) <= 1.72",
+        "expression": "Math.min(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) <= 1.72",
         "description": "Trapped pricing ≤1.72",
-        "displayExpression": "Math.min(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds)"
+        "displayExpression": "Math.min(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds)"
       }
     ],
     "performance": {
@@ -84,7 +84,7 @@
     "size": {
       "category": "size",
       "key": "dynamic",
-      "expression": "200 + Math.floor((Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     },
@@ -102,10 +102,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "fbref.week >= 7",
+        "expression": "preMatch.fbref.week >= 7",
         "description": "weeks 7+",
         "displayExpression": [
-          "fbref.week"
+          "preMatch.fbref.week"
         ]
       }
     ],
@@ -137,10 +137,10 @@
       {
         "category": "time",
         "key": "christmas",
-        "expression": "fbref.week >= 17 && fbref.week <= 22",
+        "expression": "preMatch.fbref.week >= 17 && preMatch.fbref.week <= 22",
         "description": "weeks 17-22",
         "displayExpression": [
-          "fbref.week"
+          "preMatch.fbref.week"
         ]
       }
     ],
@@ -159,12 +159,12 @@
       "key": "higherOdds",
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.preMatch.match.asianHandicapOdds.homeOdds > match.preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "size": {
       "category": "size",
       "key": "dynamic",
-      "expression": "200 + Math.floor((Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     },
@@ -182,10 +182,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "fbref.week >= 8",
+        "expression": "preMatch.fbref.week >= 8",
         "description": "weeks 8+",
         "displayExpression": [
-          "fbref.week"
+          "preMatch.fbref.week"
         ]
       }
     ],
@@ -204,12 +204,12 @@
       "key": "higherOdds",
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.preMatch.match.asianHandicapOdds.homeOdds > match.preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "size": {
       "category": "size",
       "key": "dynamic",
-      "expression": "200 + Math.floor((Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     },
@@ -227,10 +227,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "fbref.week >= 8",
+        "expression": "preMatch.fbref.week >= 8",
         "description": "weeks 8+",
         "displayExpression": [
-          "fbref.week"
+          "preMatch.fbref.week"
         ]
       }
     ],
@@ -249,7 +249,7 @@
       "key": "higherOdds",
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.preMatch.match.asianHandicapOdds.homeOdds > match.preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "size": {
       "category": "size",
@@ -302,7 +302,7 @@
       "key": "higherOdds",
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.preMatch.match.asianHandicapOdds.homeOdds > match.preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "size": {
       "category": "size",
@@ -315,7 +315,7 @@
       {
         "category": "oddsLevel",
         "key": "extreme",
-        "expression": "Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) > 2",
+        "expression": "Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) > 2",
         "description": "Max odds > 2.00 (extreme)",
         "displayExpression": [
           "preMatch.match.asianHandicapOdds.homeOdds",
@@ -369,7 +369,7 @@
       {
         "category": "ahLevel",
         "key": "minus 0.25",
-        "expression": "match.asianHandicapOdds.homeHandicap === -0.25",
+        "expression": "preMatch.match.asianHandicapOdds.homeHandicap === -0.25",
         "description": "Quarter handicap -0.25"
       },
       {
@@ -402,7 +402,7 @@
     "size": {
       "category": "size",
       "key": "dynamic",
-      "expression": "200 + Math.floor((Math.max(match.preMatch.match.asianHandicapOdds.homeOdds, match.preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     },

@@ -126,11 +126,24 @@ export class DataFileService {
   }
 
   async getStrategies() {
-    return this.readFile('strategy.json');
+    try {
+      const strategyPath = path.join(__dirname, '..', 'analysis', 'drilling-tool', 'strategy.json');
+      const data = await fs.readFile(strategyPath, 'utf-8');
+      return JSON.parse(data);
+    } catch (error) {
+      console.error(`Failed to read strategy.json: ${(error as Error).message}`);
+      return [];
+    }
   }
 
   async setStrategies(strategies: any[]) {
-    await this.writeFile('strategy.json', strategies);
+    try {
+      const strategyPath = path.join(__dirname, '..', 'analysis', 'drilling-tool', 'strategy.json');
+      await fs.writeFile(strategyPath, JSON.stringify(strategies, null, 2));
+      await this.writeLog('info', `Updated strategy.json with ${strategies.length} strategies`);
+    } catch (error) {
+      await this.writeLog('error', `Failed to write strategy.json: ${(error as Error).message}`);
+    }
   }
 
   async getBetDecisions() {

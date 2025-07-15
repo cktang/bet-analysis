@@ -1380,11 +1380,15 @@
                                             // Handle both string and array formats for displayExpression
                                             const expressions = Array.isArray(displayExpression) ? displayExpression : [displayExpression];
                                             const value = expressions.map(exp => {
-                                                // Handle the fact that timeSeries and preMatch are nested under record.match
-                                                if (exp.startsWith('timeSeries.') || exp.startsWith('preMatch.')) {
-                                                    return eval('record.match.' + exp);
-                                                } else {
-                                                    return eval('record.' + exp);
+                                                try {
+                                                    return new Function('Math', 'preMatch', 'timeSeries', `return ${exp}`)(
+                                                        Math,
+                                                        record.match.preMatch || {},
+                                                        record.match.timeSeries || {},
+                                                    );
+                                                } catch (error) {
+                                                    console.warn(`Error evaluating display expression: ${exp}`, error, record);
+                                                    return 'Error';
                                                 }
                                             }).join(', ');
                                             displayValue = value ?? '-';

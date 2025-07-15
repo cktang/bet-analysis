@@ -243,8 +243,8 @@ export class SystemHealthService {
     
     try {
       // Check if strategy and factor files exist
-      const strategyFile = path.join(process.cwd(), 'src', 'pattern-discovery', 'strategy.json');
-      const factorFile = path.join(process.cwd(), 'src', 'pattern-discovery', 'factor_definitions.json');
+      const strategyFile = path.join(__dirname, '..', 'analysis', 'drilling-tool', 'strategy.json');
+      const factorFile = path.join(__dirname, '..', 'analysis', 'drilling-tool', 'factor_definitions.json');
       
       const strategyExists = fs.existsSync(strategyFile);
       const factorExists = fs.existsSync(factorFile);

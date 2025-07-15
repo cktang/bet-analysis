@@ -79,7 +79,7 @@ export class AnalysisController {
   @Get('drill-app/legacy')
   serveOriginalFactorDrillingApp(@Res() res: Response) {
     try {
-      const htmlPath = join(__dirname, '..', '..', 'pattern-discovery', 'factor-drilling-tool.html');
+      const htmlPath = join(__dirname, 'drilling-tool', 'index.html');
       const html = readFileSync(htmlPath, 'utf8');
       res.setHeader('Content-Type', 'text/html');
       res.send(html);
@@ -152,7 +152,7 @@ export class AnalysisController {
   @Get('js/profit-calculators/asian-handicap-calculator.js')
   getAsianHandicapProfitCalculator(@Res() res: Response) {
     try {
-      const jsPath = join(__dirname, '..', '..', 'pattern-discovery', 'profit-calculators', 'asian-handicap-calculator.js');
+      const jsPath = join(__dirname, 'drilling-tool', 'profit-calculators', 'asian-handicap-calculator.js');
       const js = readFileSync(jsPath, 'utf8');
       res.setHeader('Content-Type', 'application/javascript');
       res.send(js);
@@ -164,7 +164,7 @@ export class AnalysisController {
   @Get('js/generic-evaluator.js')
   getGenericEvaluator(@Res() res: Response) {
     try {
-      const jsPath = join(__dirname, '..', '..', 'pattern-discovery', 'generic-evaluator.js');
+      const jsPath = join(__dirname, 'drilling-tool', 'generic-evaluator.js');
       const js = readFileSync(jsPath, 'utf8');
       res.setHeader('Content-Type', 'application/javascript');
       res.send(js);
@@ -176,7 +176,7 @@ export class AnalysisController {
   @Get('js/drilling-config.json')
   getDrillingConfig(@Res() res: Response) {
     try {
-      const jsonPath = join(__dirname, '..', '..', 'pattern-discovery', 'drilling-config.json');
+      const jsonPath = join(__dirname, 'drilling-tool', 'drilling-config.json');
       const json = readFileSync(jsonPath, 'utf8');
       res.setHeader('Content-Type', 'application/json');
       res.send(json);
@@ -188,7 +188,7 @@ export class AnalysisController {
   @Get('js/factor_definitions.json')
   getFactorDefinitionsForGeneric(@Res() res: Response) {
     try {
-      const jsonPath = join(__dirname, '..', '..', 'pattern-discovery', 'factor_definitions.json');
+      const jsonPath = join(__dirname, 'drilling-tool', 'factor_definitions.json');
       const json = readFileSync(jsonPath, 'utf8');
       res.setHeader('Content-Type', 'application/json');
       res.send(json);

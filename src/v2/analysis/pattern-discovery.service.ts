@@ -30,7 +30,7 @@ export class PatternDiscoveryService {
 
   private async loadFactorDefinitions() {
     try {
-      const factorPath = path.join(process.cwd(), 'src', 'pattern-discovery', 'factor_definitions.json');
+      const factorPath = path.join(__dirname, 'drilling-tool', 'factor_definitions.json');
       if (fs.existsSync(factorPath)) {
         const data = await fs.promises.readFile(factorPath, 'utf8');
         this.factorDefinitions = JSON.parse(data);
@@ -47,7 +47,7 @@ export class PatternDiscoveryService {
 
   private async loadStrategies() {
     try {
-      const strategyPath = path.join(process.cwd(), 'src', 'pattern-discovery', 'strategy.json');
+      const strategyPath = path.join(__dirname, 'drilling-tool', 'strategy.json');
       if (fs.existsSync(strategyPath)) {
         const data = await fs.promises.readFile(strategyPath, 'utf8');
         this.strategies = JSON.parse(data);

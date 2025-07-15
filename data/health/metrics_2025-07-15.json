@@ -947,5 +947,31 @@
       "LiveTrading": "warning",
       "Database": "healthy"
     }
+  },
+  {
+    "timestamp": 1752599400012,
+    "cpuUsage": 16,
+    "memoryUsage": 99.6206283569336,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
+  },
+  {
+    "timestamp": 1752599700011,
+    "cpuUsage": 10,
+    "memoryUsage": 99.5762825012207,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "healthy",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
   }
 ]

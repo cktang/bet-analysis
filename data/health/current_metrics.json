@@ -1,11 +1,11 @@
 {
-  "timestamp": 1752598800057,
+  "timestamp": 1752599700011,
   "system": {
-    "cpuUsage": 19,
+    "cpuUsage": 10,
     "memoryUsage": {
-      "used": 17114480640,
+      "used": 17107075072,
       "total": 17179869184,
-      "percentage": 99.61938858032227
+      "percentage": 99.5762825012207
     },
     "diskUsage": {
       "used": 0,
@@ -13,12 +13,12 @@
       "percentage": 0,
       "status": "accessible"
     },
-    "uptime": 2514567
+    "uptime": 2515467
   },
   "services": {
     "DataCollection": {
       "status": "healthy",
-      "lastActivity": 1752597618715,
+      "lastActivity": 1752599273502,
       "errorCount": 0,
       "responseTime": 2
     },
@@ -26,7 +26,7 @@
       "status": "healthy",
       "lastActivity": 1752589799285,
       "errorCount": 0,
-      "responseTime": 0
+      "responseTime": 1
     },
     "Analysis": {
       "status": "healthy",
@@ -36,23 +36,23 @@
     },
     "LiveTrading": {
       "status": "warning",
-      "lastActivity": 1752598801061,
+      "lastActivity": 1752599701015,
       "errorCount": 0,
       "responseTime": 0
     },
     "Database": {
       "status": "healthy",
-      "lastActivity": 1752598801062,
+      "lastActivity": 1752599701015,
       "errorCount": 0,
-      "responseTime": 1
+      "responseTime": 0
     }
   },
   "alerts": [
     {
-      "id": "1752597901021_91at0edu3",
+      "id": "1752599401027_ydvdn6gjj",
       "severity": "critical",
       "message": "High memory usage: 99.6%",
-      "timestamp": 1752597901021,
+      "timestamp": 1752599401027,
       "service": "System"
     }
   ]

@@ -140,7 +140,7 @@ export class AnalysisController {
   @Get('js/AsianHandicapCalculator.js')
   getAsianHandicapCalculator(@Res() res: Response) {
     try {
-      const jsPath = join(__dirname, 'drilling-tool', 'AsianHandicapCalculator.js');
+      const jsPath = join(__dirname, '..', '..', 'utils', 'AsianHandicapCalculator.js');
       const js = readFileSync(jsPath, 'utf8');
       res.setHeader('Content-Type', 'application/javascript');
       res.send(js);

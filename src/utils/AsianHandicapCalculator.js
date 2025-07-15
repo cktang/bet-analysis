@@ -15,7 +15,7 @@ class AsianHandicapCalculator {
      * 
      * @param {number} homeScore - Final home team score
      * @param {number} awayScore - Final away team score  
-     * @param {string} handicap - Handicap string (e.g., "-0.5", "+1/+1.5", "0")
+     * @param {string|number} handicap - Handicap value (e.g., "-0.5", -0.25, "+1/+1.5", "0")
      * @param {string} betSide - Which team we bet on ("home" or "away")
      * @param {number} odds - Betting odds for our bet
      * @param {number} stake - Amount staked
@@ -36,12 +36,121 @@ class AsianHandicapCalculator {
             throw new Error('Stake must be a positive number');
         }
         
-        // Handle quarter handicaps (split handicaps)
-        if (handicap.includes('/')) {
+        // Handle both string and numeric handicaps
+        if (typeof handicap === 'string' && handicap.includes('/')) {
             return this._calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
         } else {
-            return this._calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
+            // Parse as number and check for quarter handicap
+            const h = parseFloat(handicap);
+            if (isNaN(h)) {
+                throw new Error(`Invalid handicap: ${handicap}`);
+            }
+            
+            const decimal = Math.abs(h % 1);
+            const isQuarterHandicap = decimal === 0.25 || decimal === 0.75;
+            
+            if (isQuarterHandicap) {
+                return this._calculateNumericQuarterHandicap(homeScore, awayScore, h, betSide, odds, stake);
+            } else {
+                return this._calculateSimpleHandicap(homeScore, awayScore, h, betSide, odds, stake);
+            }
         }
+    }
+    
+    /**
+     * Calculate numeric quarter handicap (e.g., -0.25, 0.75)
+     * Splits stake in half and calculates each part separately
+     */
+    static _calculateNumericQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
+        const h = parseFloat(handicap);
+        const decimal = Math.abs(h % 1);
+        
+        let h1, h2;
+        if (decimal === 0.25) {
+            // -0.25 splits to -0.5 and 0
+            // +0.25 splits to 0 and +0.5
+            if (h > 0) {
+                h1 = 0;
+                h2 = h + 0.25;
+            } else {
+                h1 = h - 0.25;
+                h2 = 0;
+            }
+        } else if (decimal === 0.75) {
+            // -0.75 splits to -0.5 and -1
+            // +0.75 splits to +0.5 and +1
+            if (h > 0) {
+                h1 = h - 0.25;
+                h2 = h + 0.25;
+            } else {
+                h1 = h + 0.25;
+                h2 = h - 0.25;
+            }
+        } else {
+            throw new Error(`Invalid quarter handicap: ${handicap}`);
+        }
+        
+        // Split stake in half
+        const halfStake = stake / 2;
+        
+        // Calculate each half separately
+        const result1 = this._calculateSimpleHandicapResult(homeScore, awayScore, h1, betSide);
+        const result2 = this._calculateSimpleHandicapResult(homeScore, awayScore, h2, betSide);
+        
+        // Calculate payout for each half
+        let totalPayout = 0;
+        
+        // First half
+        if (result1 === 1) {
+            totalPayout += halfStake * odds; // Win
+        } else if (result1 === 0) {
+            totalPayout += halfStake; // Push (stake returned)
+        }
+        // Loss = 0 payout
+        
+        // Second half  
+        if (result2 === 1) {
+            totalPayout += halfStake * odds; // Win
+        } else if (result2 === 0) {
+            totalPayout += halfStake; // Push (stake returned)
+        }
+        // Loss = 0 payout
+        
+        const totalProfit = totalPayout - stake;
+        
+        // Determine overall outcome with quarter handicap specificity
+        let outcome;
+        if (totalProfit > 0) {
+            // Check if it's a full win or half win
+            if (totalProfit === (stake * odds) - stake) {
+                outcome = 'win'; // Full win
+            } else {
+                outcome = 'half-win'; // Half win
+            }
+        } else if (totalProfit < 0) {
+            // Check if it's a full loss or half loss
+            if (totalProfit === -stake) {
+                outcome = 'loss'; // Full loss
+            } else {
+                outcome = 'half-loss'; // Half loss
+            }
+        } else {
+            outcome = 'push';
+        }
+        
+        return {
+            outcome: outcome,
+            payout: Math.round(totalPayout * 100) / 100,
+            profit: Math.round(totalProfit * 100) / 100,
+            isQuarterHandicap: true,
+            details: {
+                handicap1: h1,
+                result1: result1,
+                handicap2: h2,
+                result2: result2,
+                halfStake: halfStake
+            }
+        };
     }
     
     /**
@@ -89,12 +198,22 @@ class AsianHandicapCalculator {
         
         const totalProfit = totalPayout - stake;
         
-        // Determine overall outcome
+        // Determine overall outcome with quarter handicap specificity
         let outcome;
         if (totalProfit > 0) {
-            outcome = 'win';
+            // Check if it's a full win or half win
+            if (totalProfit === (stake * odds) - stake) {
+                outcome = 'win'; // Full win
+            } else {
+                outcome = 'half-win'; // Half win
+            }
         } else if (totalProfit < 0) {
-            outcome = 'loss';
+            // Check if it's a full loss or half loss
+            if (totalProfit === -stake) {
+                outcome = 'loss'; // Full loss
+            } else {
+                outcome = 'half-loss'; // Half loss
+            }
         } else {
             outcome = 'push';
         }
@@ -115,7 +234,7 @@ class AsianHandicapCalculator {
     }
     
     /**
-     * Calculate simple handicap (e.g., "-0.5", "+1", "0")
+     * Calculate simple handicap (e.g., "-0.5", "+1", "0", -0.5, 1, 0)
      */
     static _calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
         const h = parseFloat(handicap);

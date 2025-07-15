@@ -973,5 +973,18 @@
       "LiveTrading": "warning",
       "Database": "healthy"
     }
+  },
+  {
+    "timestamp": 1752600000006,
+    "cpuUsage": 17,
+    "memoryUsage": 99.39355850219727,
+    "diskUsage": 0,
+    "serviceHealth": {
+      "DataCollection": "healthy",
+      "DataProcessing": "healthy",
+      "Analysis": "warning",
+      "LiveTrading": "warning",
+      "Database": "healthy"
+    }
   }
 ]

@@ -20,14 +20,14 @@
       {
         "category": "time",
         "key": "veryEarly",
-        "expression": "preMatch.fbref.week >= 1 && preMatch.fbref.week <= 6",
+        "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 6",
         "description": "Very early season weeks 1-6",
-        "displayExpression": "preMatch.fbref.week"
+        "displayExpression": "fbref.week"
       },
       {
         "category": "ahLevel",
         "key": "quarterHandicap",
-        "expression": "preMatch.match.asianHandicapOdds.homeHandicap % 0.25 === 0 && preMatch.match.asianHandicapOdds.homeHandicap % 0.5 !== 0",
+        "expression": "match.asianHandicapOdds.homeHandicap.includes('/')",
         "description": "Quarter/split handicaps (0.25, -0.25..)"
       }
     ],
@@ -102,10 +102,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "preMatch.fbref.week >= 7",
+        "expression": "parseInt(fbref.week) >= 7",
         "description": "weeks 7+",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -137,10 +137,10 @@
       {
         "category": "time",
         "key": "christmas",
-        "expression": "preMatch.fbref.week >= 17 && preMatch.fbref.week <= 22",
+        "expression": "parseInt(fbref.week) >= 17 && parseInt(fbref.week) <= 22",
         "description": "weeks 17-22",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -182,10 +182,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "preMatch.fbref.week >= 8",
+        "expression": "parseInt(fbref.week) >= 8",
         "description": "weeks 8+",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -227,10 +227,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "preMatch.fbref.week >= 8",
+        "expression": "parseInt(fbref.week) >= 8",
         "description": "weeks 8+",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -280,10 +280,10 @@
       {
         "category": "time",
         "key": "secondHalf",
-        "expression": "preMatch.fbref.week >= 19",
+        "expression": "parseInt(fbref.week) >= 19",
         "description": "weeks 19+",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -325,7 +325,7 @@
       {
         "category": "context",
         "key": "bottomSixAway",
-        "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
+        "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
         "description": "Bottom 6 teams playing away",
         "displayExpression": [
           "timeSeries.away.leaguePosition"
@@ -334,10 +334,10 @@
       {
         "category": "time",
         "key": "notEarlySeason",
-        "expression": "preMatch.fbref.week >= 8",
+        "expression": "parseInt(fbref.week) >= 8",
         "description": "weeks 8+",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],
@@ -369,16 +369,16 @@
       {
         "category": "ahLevel",
         "key": "minus 0.25",
-        "expression": "preMatch.match.asianHandicapOdds.homeHandicap === -0.25",
-        "description": "Quarter handicap -0.25"
+        "expression": "match.asianHandicapOdds.homeHandicap === '0/-0.5'",
+        "description": "Quarter handicap 0/-0.5"
       },
       {
         "category": "time",
         "key": "earlySeason",
-        "expression": "preMatch.fbref.week >= 1 && preMatch.fbref.week <= 8",
+        "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 8",
         "description": "Early season weeks 1-8",
         "displayExpression": [
-          "preMatch.fbref.week"
+          "fbref.week"
         ]
       }
     ],

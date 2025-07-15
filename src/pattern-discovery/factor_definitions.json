@@ -13,12 +13,12 @@
     "higherOdds": {
       "expression": "true",
       "description": "Bet on team with higher odds",
-      "betSide": "match.asianHandicapOdds.homeOdds > match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+      "betSide": "preMatch.match.asianHandicapOdds.homeOdds > preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     },
     "lowerOdds": {
         "expression": "true",
         "description": "Bet on team with lower odds", 
-        "betSide": "match.asianHandicapOdds.homeOdds < match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
+        "betSide": "preMatch.match.asianHandicapOdds.homeOdds < preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     }
 
   },
@@ -29,222 +29,222 @@
       "stakingMethod": "fixed"
     },
     "dynamic": {
-      "expression": "200 + Math.floor((Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
+      "expression": "200 + Math.floor((Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) - 1.91) * 100) * 150",
       "description": "$200 if odds <=1.91, else +$150 per 0.01",
       "stakingMethod": "variable"
     }
   },
   "time": {
     "earlySeason": {
-      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 8",
+      "expression": "parseInt(preMatch.fbref.week) >= 1 && parseInt(preMatch.fbref.week) <= 8",
       "description": "Early season weeks 1-8",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "notEarlySeason": {
-      "expression": "parseInt(fbref.week) >= 8",
+      "expression": "parseInt(preMatch.fbref.week) >= 8",
       "description": "weeks 8+",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "midSeason": {
-      "expression": "parseInt(fbref.week) >= 9 && parseInt(fbref.week) <= 24",
+      "expression": "parseInt(preMatch.fbref.week) >= 9 && parseInt(preMatch.fbref.week) <= 24",
       "description": "weeks 9-24",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "lateSeason": {
-      "expression": "parseInt(fbref.week) >= 25",
+      "expression": "parseInt(preMatch.fbref.week) >= 25",
       "description": "weeks 25+",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "firstHalf": {
-      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 18",
+      "expression": "parseInt(preMatch.fbref.week) >= 1 && parseInt(preMatch.fbref.week) <= 18",
       "description": "weeks 1-18",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "secondHalf": {
-      "expression": "parseInt(fbref.week) >= 19",
+      "expression": "parseInt(preMatch.fbref.week) >= 19",
       "description": "weeks 19+",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "ultraEarly": {
-      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 4",
+      "expression": "parseInt(preMatch.fbref.week) >= 1 && parseInt(preMatch.fbref.week) <= 4",
       "description": "weeks 1-4",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "veryEarly": {
-      "expression": "parseInt(fbref.week) >= 1 && parseInt(fbref.week) <= 6",
+      "expression": "parseInt(preMatch.fbref.week) >= 1 && parseInt(preMatch.fbref.week) <= 6",
       "description": "weeks 1-6",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "christmas": {
-      "expression": "parseInt(fbref.week) >= 17 && parseInt(fbref.week) <= 22",
+      "expression": "parseInt(preMatch.fbref.week) >= 17 && parseInt(preMatch.fbref.week) <= 22",
       "description": "weeks 17-22",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "finalStretch": {
-      "expression": "parseInt(fbref.week) >= 32 && parseInt(fbref.week) <= 38",
+      "expression": "parseInt(preMatch.fbref.week) >= 32 && parseInt(preMatch.fbref.week) <= 38",
       "description": "weeks 32-38",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     },
     "businessEnd": {
-      "expression": "parseInt(fbref.week) >= 28",
+      "expression": "parseInt(preMatch.fbref.week) >= 28",
       "description": "Week 28+",
-      "displayExpression": ["fbref.week"]
+      "displayExpression": ["preMatch.fbref.week"]
     }
   },
   "ahLevel": {
     "homeFavorite": {
-      "expression": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) < 0",
+      "expression": "parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) < 0",
       "description": "Home team is favored"
     },
     "awayFavorite": {
-      "expression": "parseFloat(match.asianHandicapOdds.awayHandicap.split('/')[0]) < 0",
+      "expression": "parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) > 0",
       "description": "Away team is favored"
     },
     "quarterHandicap": {
-      "expression": "match.asianHandicapOdds.homeHandicap.includes('/')",
+      "expression": "preMatch.match.asianHandicapOdds.homeHandicap.toString().includes('/')",
       "description": "Quarter/split handicaps (0.25, -0.25..)"
     },
     "equalHandicap": {
-      "expression": "!match.asianHandicapOdds.homeHandicap.includes('/')",
+      "expression": "!preMatch.match.asianHandicapOdds.homeHandicap.toString().includes('/')",
       "description": "Simple handicaps (0,1,2...)"
     },
     "extremeHomeFavorites": {
-      "expression": "parseFloat(match.asianHandicapOdds.homeHandicap.split('/')[0]) <= -2",
+      "expression": "parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) <= -2",
       "description": "Negative handicap >= -2"
     },
     "extremeAwayFavorites": {
-      "expression": "parseFloat(match.asianHandicapOdds.awayHandicap.split('/')[0]) <= -2",
-      "description": "Positive handicap >= -2"
+      "expression": "parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) >= 2",
+      "description": "Home handicap >= +2 (away team heavily favored)"
     },
     "minus 3": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-3'",
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-3)) < 0.01",
       "description": "Deep handicap -3"
     },
     "minus 2.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-3/-3.5'",
-      "description": "Quarter handicap -3/-3.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-2.75)) < 0.01",
+      "description": "Quarter handicap -2.75"
     },
     "minus 2.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-2/-2.5'",
-      "description": "Quarter handicap -2/-2.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-2.25)) < 0.01",
+      "description": "Quarter handicap -2.25"
     },
     "minus 2": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-2'",
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-2)) < 0.01",
       "description": "Deep handicap -2"
     },
     "minus 1.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-1.5/-2'",
-      "description": "Quarter handicap -1.5/-2"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-1.75)) < 0.01",
+      "description": "Quarter handicap -1.75"
     },
     "minus 1.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-1/-1.5'",
-      "description": "Quarter handicap -1/-1.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-1.25)) < 0.01",
+      "description": "Quarter handicap -1.25"
     },
     "minus 0.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '-0.5/-1'",
-      "description": "Quarter handicap -0.5/-1"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-0.75)) < 0.01",
+      "description": "Quarter handicap -0.75"
     },
     "minus 0.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '0/-0.5'",
-      "description": "Quarter handicap 0/-0.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - (-0.25)) < 0.01",
+      "description": "Quarter handicap -0.25"
     },
     "zero": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '0'",
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 0) < 0.01",
       "description": "Level handicap 0"
     },
     "plus 0.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+0.5/+1'",
-      "description": "Quarter handicap +0.5/+1"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 0.25) < 0.01",
+      "description": "Quarter handicap +0.25"
     },
     "plus 0.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+1/+1.5'",
-      "description": "Quarter handicap +1/+1.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 0.75) < 0.01",
+      "description": "Quarter handicap +0.75"
     },
     "plus 1.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+1.5/+2'",
-      "description": "Quarter handicap +1.5/+2"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 1.25) < 0.01",
+      "description": "Quarter handicap +1.25"
     },
     "plus 1.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+2/+2.5'",
-      "description": "Quarter handicap +2/+2.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 1.75) < 0.01",
+      "description": "Quarter handicap +1.75"
     },
     "plus 2": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+2'",
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 2) < 0.01",
       "description": "Handicap +2"
     },
     "plus 2.25": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+2.5/+3'",
-      "description": "Quarter handicap +2.5/+3"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 2.25) < 0.01",
+      "description": "Quarter handicap +2.25"
     },
     "plus 2.75": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+3/+3.5'",
-      "description": "Quarter handicap +3/+3.5"
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 2.75) < 0.01",
+      "description": "Quarter handicap +2.75"
     },
     "plus 3": {
-      "expression": "match.asianHandicapOdds.homeHandicap === '+3'",
+      "expression": "Math.abs(parseFloat(preMatch.match.asianHandicapOdds.homeHandicap.toString().split('/')[0]) - 3) < 0.01",
       "description": "Handicap +3"
     }
   },
   "oddsLevel": {
     "balanced": {
-      "expression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 2",
+      "expression": "Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) <= 2",
       "description": "Max odds ≤ 2.00 (balanced)",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "extreme": {
-      "expression": "Math.max(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) > 2",
+      "expression": "Math.max(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) > 2",
       "description": "Max odds > 2.00 (extreme)",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "trapped": {
-      "expression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 1.72",
+      "expression": "Math.min(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) <= 1.72",
       "description": "Trapped pricing ≤1.72",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "ultraTrapped": {
-      "expression": "Math.min(match.asianHandicapOdds.homeOdds, match.asianHandicapOdds.awayOdds) <= 1.65",
+      "expression": "Math.min(preMatch.match.asianHandicapOdds.homeOdds, preMatch.match.asianHandicapOdds.awayOdds) <= 1.65",
       "description": "Ultra trapped pricing ≤1.65",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "closeOdds": {
-      "expression": "Math.abs(match.asianHandicapOdds.homeOdds - match.asianHandicapOdds.awayOdds) <= 0.1",
+      "expression": "Math.abs(preMatch.match.asianHandicapOdds.homeOdds - preMatch.match.asianHandicapOdds.awayOdds) <= 0.1",
       "description": "Very close odds (≤0.1 difference)",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "goodAwayValue": {
-      "expression": "match.asianHandicapOdds.awayOdds >= 1.85 && match.asianHandicapOdds.awayOdds <= 2.1",
+      "expression": "preMatch.match.asianHandicapOdds.awayOdds >= 1.85 && preMatch.match.asianHandicapOdds.awayOdds <= 2.1",
       "description": "Good away value range 1.85-2.10",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     },
     "optimalAwayValue": {
-      "expression": "match.asianHandicapOdds.awayOdds >= 1.9 && match.asianHandicapOdds.awayOdds <= 2.1",
+      "expression": "preMatch.match.asianHandicapOdds.awayOdds >= 1.9 && preMatch.match.asianHandicapOdds.awayOdds <= 2.1",
       "description": "Optimal away value range 1.90-2.10",
-      "displayExpression": ["asianHandicapOdds.homeOdds", "asianHandicapOdds.awayOdds"]
+      "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     }
   },
   "context": {
     "topSixHome": {
-      "expression": "fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) <= 6",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) <= 6",
       "description": "Top 6 teams playing at home",
       "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "topSixAway": {
-      "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Top 6 teams playing away",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "bottomSixHome": {
-      "expression": "fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) >= 15",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) >= 15",
       "description": "Bottom 6 teams playing at home",
       "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "bottomSixAway": {
-      "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
       "description": "Bottom 6 teams playing away",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "topTenAway": {
-      "expression": "fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 10",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 10",
       "description": "Top 10 teams playing away (undervalued quality)",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
@@ -254,12 +254,12 @@
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "lateRelegationBattle": {
-      "expression": "fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
+      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
       "description": "Week >= 25, Both teams are bottom 4",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "europeanStakes": {
-      "expression": "fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8)",
+      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8)",
       "description": "Both teams are Top 8",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
@@ -271,24 +271,24 @@
   },
   "matchUp": {
     "balance": {
-      "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) <= 0.1",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) <= 0.1",
       "description": "Balanced implied probability (40-60%)",
-      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
+      "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "extreme": {
-      "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2",
       "description": "Extreme implied probability (<30% or >70%)",
-      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
+      "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "extremeAway": {
-      "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.away.leaguePosition || 20) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and away team is top 6",
-      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
+      "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "extremeHome": {
-      "expression": "Math.abs(preMatch.marketEfficiency.homeImpliedProb - 0.5) > 0.2 && (timeSeries.home.leaguePosition || 20) <= 6",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.home.leaguePosition || 20) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and home team is top 6",
-      "displayExpression": ["preMatch.marketEfficiency.homeImpliedProb"]
+      "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "top6Clash": {
       "expression": "(timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
@@ -303,11 +303,11 @@
   },
   "irregularity": {
     "xgMismatch": {
-      "expression": "Math.abs((timeSeries.home.averages.overall.xGFor - timeSeries.away.averages.overall.xGFor) - (preMatch.marketEfficiency.homeImpliedProb - 0.5)) > 0.15",
+      "expression": "Math.abs((timeSeries.home.averages.overall.xGFor - timeSeries.away.averages.overall.xGFor) - (preMatch.enhanced.homeImpliedProb / 100 - 0.5)) > 0.15",
       "description": "XG difference doesn't match implied probability (mismatch > 10%)"
     },
     "goalDifferenceMismatch": {
-      "expression": "Math.abs((timeSeries.home.averages.overall.goalsFor - timeSeries.away.averages.overall.goalsFor) - (preMatch.marketEfficiency.homeImpliedProb - 0.5)) > 0.15",
+      "expression": "Math.abs((timeSeries.home.averages.overall.goalsFor - timeSeries.away.averages.overall.goalsFor) - (preMatch.enhanced.homeImpliedProb / 100 - 0.5)) > 0.15",
       "description": "Goal difference doesn't match implied probability (mismatch > 15%)"
     },
     "xgUnderperformance": {

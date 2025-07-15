@@ -408,7 +408,7 @@
             }
         };
         
-        // Asian Handicap Calculator (browser version with caching)
+        // Asian Handicap Calculator (proper implementation with quarter handicap support)
         class AsianHandicapCalculator {
             static calculate(homeScore, awayScore, handicap, betSide, odds, stake) {
                 // Create cache key for this calculation
@@ -420,8 +420,20 @@
                     return performanceCache.asianHandicapResults.get(cacheKey);
                 }
                 
-                // Calculate result - handicap is now always a number
-                const result = this._calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake);
+                // Parse handicap as number
+                const h = parseFloat(handicap);
+                if (isNaN(h)) {
+                    throw new Error(`Invalid handicap: ${handicap}`);
+                }
+                
+                // Check if it's a quarter handicap (ends in .25 or .75)
+                const decimal = Math.abs(h % 1);
+                const isQuarterHandicap = decimal === 0.25 || decimal === 0.75;
+                
+                // Calculate result using proper method
+                const result = isQuarterHandicap
+                    ? this._calculateQuarterHandicap(homeScore, awayScore, h, betSide, odds, stake)
+                    : this._calculateSimpleHandicap(homeScore, awayScore, h, betSide, odds, stake);
                 
                 // Cache the result
                 performanceCache.asianHandicapResults.set(cacheKey, result);
@@ -430,31 +442,143 @@
                 return result;
             }
             
+            // Calculate quarter handicap directly from decimal value (e.g., -0.25, -0.75)
+            static _calculateQuarterHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
+                const h = parseFloat(handicap);
+                const decimal = Math.abs(h % 1);
+                
+                let h1, h2;
+                if (decimal === 0.25) {
+                    // -0.25 splits to -0.5 and 0
+                    // +0.25 splits to 0 and +0.5
+                    if (h > 0) {
+                        h1 = 0;
+                        h2 = h + 0.25;
+                    } else {
+                        h1 = h - 0.25;
+                        h2 = 0;
+                    }
+                } else if (decimal === 0.75) {
+                    // -0.75 splits to -0.5 and -1
+                    // +0.75 splits to +0.5 and +1
+                    if (h > 0) {
+                        h1 = h - 0.25;
+                        h2 = h + 0.25;
+                    } else {
+                        h1 = h + 0.25;
+                        h2 = h - 0.25;
+                    }
+                } else {
+                    throw new Error(`Invalid quarter handicap: ${handicap}`);
+                }
+                
+                // Split stake in half
+                const halfStake = stake / 2;
+                
+                // Calculate each half separately
+                const result1 = this._calculateSimpleHandicapResult(homeScore, awayScore, h1, betSide);
+                const result2 = this._calculateSimpleHandicapResult(homeScore, awayScore, h2, betSide);
+                
+                // Calculate payout for each half
+                let totalPayout = 0;
+                
+                // First half
+                if (result1 === 1) {
+                    totalPayout += halfStake * odds; // Win
+                } else if (result1 === 0) {
+                    totalPayout += halfStake; // Push (stake returned)
+                }
+                // Loss = 0 payout
+                
+                // Second half  
+                if (result2 === 1) {
+                    totalPayout += halfStake * odds; // Win
+                } else if (result2 === 0) {
+                    totalPayout += halfStake; // Push (stake returned)
+                }
+                // Loss = 0 payout
+                
+                const totalProfit = totalPayout - stake;
+                
+                // Determine overall outcome
+                let outcome;
+                if (totalProfit > 0) {
+                    outcome = 'win';
+                } else if (totalProfit < 0) {
+                    outcome = 'loss';
+                } else {
+                    outcome = 'push';
+                }
+                
+                return {
+                    outcome: outcome,
+                    payout: Math.round(totalPayout * 100) / 100,
+                    profit: Math.round(totalProfit * 100) / 100,
+                    isQuarterHandicap: true,
+                    details: {
+                        handicap1: h1,
+                        result1: result1,
+                        handicap2: h2,
+                        result2: result2,
+                        halfStake: halfStake
+                    }
+                };
+            }
             
+            // Calculate simple handicap
             static _calculateSimpleHandicap(homeScore, awayScore, handicap, betSide, odds, stake) {
-                const result = this._calculateSimpleHandicapResult(homeScore, awayScore, handicap, betSide);
+                const h = parseFloat(handicap);
+                
+                if (isNaN(h)) {
+                    throw new Error(`Invalid handicap: ${handicap}`);
+                }
+                
+                const result = this._calculateSimpleHandicapResult(homeScore, awayScore, h, betSide);
                 
                 let payout = 0;
-                if (result === 1) payout = stake * odds;
-                else if (result === 0) payout = stake;
+                if (result === 1) {
+                    payout = stake * odds; // Win
+                } else if (result === 0) {
+                    payout = stake; // Push (stake returned)
+                }
+                // Loss = 0 payout
                 
                 const profit = payout - stake;
-                let outcome = profit > 0 ? 'win' : profit < 0 ? 'loss' : 'push';
+                
+                let outcome;
+                if (profit > 0) {
+                    outcome = 'win';
+                } else if (profit < 0) {
+                    outcome = 'loss';
+                } else {
+                    outcome = 'push';
+                }
                 
                 return {
                     outcome: outcome,
                     payout: Math.round(payout * 100) / 100,
-                    profit: Math.round(profit * 100) / 100
+                    profit: Math.round(profit * 100) / 100,
+                    isQuarterHandicap: false,
+                    details: {
+                        handicap: h,
+                        result: result
+                    }
                 };
             }
             
             static _calculateSimpleHandicapResult(homeScore, awayScore, handicap, betSide) {
+                // Apply handicap to HOME team score
                 const adjustedHomeScore = homeScore + handicap;
+                
+                // Compare adjusted scores to determine winner
                 if (adjustedHomeScore > awayScore) {
+                    // Home team wins after handicap adjustment
                     return betSide === 'home' ? 1 : -1;
                 } else if (adjustedHomeScore < awayScore) {
+                    // Away team wins after handicap adjustment  
                     return betSide === 'away' ? 1 : -1;
                 } else {
+                    // Draw after handicap adjustment = push
                     return 0;
                 }
             }

@@ -1,8 +1,9 @@
 import { Injectable, Inject } from '@nestjs/common';
 import { Cron } from '@nestjs/schedule';
 import { ConfigService } from '@nestjs/config';
-import { chromium, BrowserContext, Page } from 'playwright';
+import { Page } from 'playwright';
 import { DataFileService } from '../core/data-file.service';
+import { SharedBrowserService, BrowserConfig } from '../core/shared-browser.service';
 import { DATA_FILE_SERVICE } from './tokens';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -10,17 +11,16 @@ import * as chokidar from 'chokidar';
 
 @Injectable()
 export class OddsMonitorService {
-  private browser: BrowserContext | null = null;
-  private page: Page | null = null;
   private isRunning = false;
   private lastOddsData: any = null;
   private fileWatcher: chokidar.FSWatcher;
   private readonly logPrefix = '[OddsMonitorService]';
-  private isInitialized = false;
+  private readonly serviceName = 'OddsMonitor';
 
   constructor(
     private configService: ConfigService,
-    @Inject(DATA_FILE_SERVICE) private dataFileService: DataFileService
+    @Inject(DATA_FILE_SERVICE) private dataFileService: DataFileService,
+    private sharedBrowserService: SharedBrowserService
   ) {}
 
   async onModuleInit() {
@@ -93,8 +93,9 @@ export class OddsMonitorService {
     if (this.fileWatcher) {
       await this.fileWatcher.close();
     }
-    // Don't close browser - let it persist for continuous operation
-    console.log(`${this.logPrefix} 📊 Odds Monitor shutdown (browser kept alive)`);
+    // Clean up browser instance
+    await this.sharedBrowserService.cleanupService(this.serviceName);
+    console.log(`${this.logPrefix} 📊 Odds Monitor shutdown complete`);
   }
 
   @Cron('0 */1 * * * *') // Every minute during live trading hours
@@ -141,73 +142,32 @@ export class OddsMonitorService {
   }
 
   private async initializeBrowser() {
-    // Only initialize once to prevent multiple browser instances
-    if (this.isInitialized && this.browser && this.page) {
-      console.log(`${this.logPrefix} ♻️ Reusing existing odds monitor browser instance`);
-      return;
-    }
-    
-    if (this.isInitialized) {
-      console.log(`${this.logPrefix} ⏳ Browser initialization already in progress, skipping...`);
-      return;
-    }
-    
-    this.isInitialized = true;
-    
     // Get browser configuration from injected data service (respects mock mode)
     const browserConfig = this.dataFileService.getBrowserConfig();
     console.log(`${this.logPrefix} 📊 Odds Monitor Browser config: headless=${browserConfig.headless}`);
     
-    // Use COMPLETELY ISOLATED browser context for odds monitoring
-    const userDataDir = './data/v2/browser-odds-monitor';
-    const fs = require('fs');
-    if (!fs.existsSync(userDataDir)) {
-      fs.mkdirSync(userDataDir, { recursive: true });
-    }
+    const config: BrowserConfig = {
+      headless: browserConfig.headless,
+      timeout: 30000,
+      userDataDir: './data/v2/browser-odds-monitor',
+      debuggingPort: 9225,
+      userAgent: 'OddsMonitor-Process'
+    };
     
-    console.log(`${this.logPrefix} 📊 Creating ISOLATED odds monitoring browser (separate process from betting)...`);
-    
-    try {
-      this.browser = await chromium.launchPersistentContext(userDataDir, {
-        headless: browserConfig.headless,
-        args: [
-          '--no-sandbox', 
-          '--disable-setuid-sandbox',
-          '--disable-blink-features=AutomationControlled',
-          '--disable-web-security',
-          '--disable-features=VizDisplayCompositor',
-          '--remote-debugging-port=9225', // UNIQUE port for odds monitor (not 9222!)
-          '--force-device-scale-factor=1',
-          '--disable-background-timer-throttling',
-          '--disable-renderer-backgrounding',
-          '--disable-backgrounding-occluded-windows',
-          '--user-agent=OddsMonitor-Process'
-        ],
-        viewport: { width: 1920, height: 1080 },
-        ignoreHTTPSErrors: true,
-        acceptDownloads: false,
-        bypassCSP: true
-      });
-      
-      // Use the default page from persistent context
-      const pages = this.browser.pages();
-      this.page = pages.length > 0 ? pages[0] : await this.browser.newPage();
-      
-      await this.page.setExtraHTTPHeaders({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 OddsMonitor-Isolated'
-      });
-      await this.page.setViewportSize({ width: 1920, height: 1080 });
-      
-      console.log(`${this.logPrefix} ✅ ISOLATED odds monitor browser initialized (port 9225, profile: browser-odds-monitor)`);
-    } catch (error) {
-      console.error(`${this.logPrefix} ❌ Browser initialization failed:`, error);
-      this.isInitialized = false; // Reset flag so we can try again
-      throw error;
-    }
+    // Initialize browser through shared service
+    await this.sharedBrowserService.getPageInstance(this.serviceName, config);
+    console.log(`${this.logPrefix} ✅ ISOLATED odds monitor browser initialized (port 9225, profile: browser-odds-monitor)`);
   }
 
   private async scrapeCurrentOdds(): Promise<any> {
-    if (!this.page) throw new Error('Browser not initialized');
+    // Get page instance from shared service
+    const page = await this.sharedBrowserService.getPageInstance(this.serviceName, {
+      headless: this.dataFileService.getBrowserConfig().headless,
+      timeout: 30000,
+      userDataDir: './data/v2/browser-odds-monitor',
+      debuggingPort: 9225,
+      userAgent: 'OddsMonitor-Process'
+    });
 
     // Get HKJC URLs from injected data service (respects mock/real mode)
     const urlConfig = this.dataFileService.getHKJCUrls();
@@ -218,7 +178,7 @@ export class OddsMonitorService {
     let pageLoaded = false;
     try {
       console.log(`${this.logPrefix} 📊 Trying HKJC URL: ${url}`);
-      await this.page.goto(url, { 
+      await page.goto(url, { 
         timeout: urlConfig.timeout || 30000,
         waitUntil: 'networkidle'
       });
@@ -234,10 +194,10 @@ export class OddsMonitorService {
     
     // Wait for dynamic content to load and fixtures to appear
     console.log(`${this.logPrefix} ⏳ Waiting for fixtures to appear...`);
-    await this.waitForFixturesToLoad();
+    await this.waitForFixturesToLoad(page);
     
     // Use improved DOM-based scraping method
-    const matches = await this.scrapeMatchesFromDOM();
+    const matches = await this.scrapeMatchesFromDOM(page);
 
     // Return ALL matches, not just EPL (normalize team names for consistency)
     const allMatches = matches.map(match => ({
@@ -254,7 +214,7 @@ export class OddsMonitorService {
     };
   }
 
-  private async waitForFixturesToLoad(): Promise<void> {
+  private async waitForFixturesToLoad(page: Page): Promise<void> {
     const maxWaitTime = 60000; // 1 minute max wait
     const checkInterval = 2000; // Check every 2 seconds
     const startTime = Date.now();
@@ -262,16 +222,16 @@ export class OddsMonitorService {
     while (Date.now() - startTime < maxWaitTime) {
       try {
         // Check if match rows exist
-        const matchCount = await this.page.$$eval('.match-row', (elements) => elements.length);
+        const matchCount = await page.$$eval('.match-row', (elements) => elements.length);
         
         if (matchCount > 0) {
           console.log(`${this.logPrefix} ✅ Found ${matchCount} fixture rows`);
           
           // Wait a bit more for odds to load
-          await this.page.waitForTimeout(3000);
+          await page.waitForTimeout(3000);
           
           // Verify odds are loaded by checking for handicap data
-          const oddsLoaded = await this.page.$$eval('.match-row', (elements) => {
+          const oddsLoaded = await page.$$eval('.match-row', (elements) => {
             return elements.some(el => {
               const text = el.textContent || '';
               return text.includes('[') && text.includes(']') && /\d+\.\d+/.test(text);
@@ -285,21 +245,21 @@ export class OddsMonitorService {
         }
         
         console.log(`${this.logPrefix} ⏳ Waiting for fixtures to appear...`);
-        await this.page.waitForTimeout(checkInterval);
+        await page.waitForTimeout(checkInterval);
       } catch (error) {
         console.log(`${this.logPrefix} ⚠️ Error checking fixtures:`, (error as Error).message);
-        await this.page.waitForTimeout(checkInterval);
+        await page.waitForTimeout(checkInterval);
       }
     }
     
     throw new Error('Fixtures did not appear within the expected time frame');
   }
 
-  private async scrapeMatchesFromDOM(): Promise<any[]> {
+  private async scrapeMatchesFromDOM(page: Page): Promise<any[]> {
     console.log(`${this.logPrefix} 🔍 Scraping matches using DOM-based method...`);
     
     // Debug: Check what elements are actually available
-    const pageHTML = await this.page.content();
+    const pageHTML = await page.content();
     console.log(`${this.logPrefix} 🔍 Page HTML length: ${pageHTML.length} characters`);
     
     // Try multiple possible selectors for HKJC match rows
@@ -320,12 +280,12 @@ export class OddsMonitorService {
     
     for (const selector of possibleSelectors) {
       try {
-        const elements = await this.page.$$(selector);
+        const elements = await page.$$(selector);
         console.log(`${this.logPrefix} 🔍 Selector "${selector}": found ${elements.length} elements`);
         
         if (elements.length > 0) {
           // Check if these elements contain match-like data
-          const hasMatchData = await this.page.$$eval(selector, (elements) => {
+          const hasMatchData = await page.$$eval(selector, (elements) => {
             return elements.some(el => {
               const text = el.textContent || '';
               return text.includes('[') && text.includes(']') && /\d+\.\d+/.test(text);
@@ -349,7 +309,7 @@ export class OddsMonitorService {
       return [];
     }
     
-    const matches = await this.page.$$eval(usedSelector, (elements) => {
+    const matches = await page.$$eval(usedSelector, (elements) => {
       const results = [];
       
       // Helper functions defined within page context

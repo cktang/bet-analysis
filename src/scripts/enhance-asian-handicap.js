@@ -69,11 +69,32 @@ class AsianHandicapEnhancer {
     // Convert handicap string to numerical value (from HKJC parser)
     handicapConverter(handicap) {
         if (!handicap) return null;
-        handicap = handicap.split(/(?=\[)/g)[1] || handicap;
-        handicap = handicap.replace(/[\[\]]/g, '');
-        handicap = handicap.split('/');
-        handicap = handicap.map(h => Number(h));
-        return _(handicap).mean();
+        
+        // If it's already a number, return it
+        if (typeof handicap === 'number') return handicap;
+        
+        // Handle string handicaps like "+0.5/+1", "-0.5/-1", "0", "+0.5", "-0.25", etc.
+        let handicapStr = String(handicap);
+        
+        // Remove brackets if present
+        handicapStr = handicapStr.replace(/[\[\]]/g, '');
+        
+        // Check if it contains a slash (quarter handicap)
+        if (handicapStr.includes('/')) {
+            // Split on slash and convert each part
+            const parts = handicapStr.split('/');
+            const numbers = parts.map(part => {
+                // Remove + sign and convert to number
+                const num = parseFloat(part.replace(/^\+/, ''));
+                return isNaN(num) ? 0 : num;
+            });
+            // Return average of the two handicaps
+            return _(numbers).mean();
+        } else {
+            // Simple handicap - just convert to number
+            const num = parseFloat(handicapStr.replace(/^\+/, ''));
+            return isNaN(num) ? 0 : num;
+        }
     }
 
     // Calculate cut percentage for odds (how much bookmaker is taking)
@@ -725,4 +746,35 @@ async function main() {
     }
 }
 
-main(); 
+// Test the handicapConverter function
+function testHandicapConverter() {
+    const enhancer = new AsianHandicapEnhancer();
+    
+    const testCases = [
+        "+0.5/+1",
+        "-0.5/-1",
+        "0",
+        "+0.5",
+        "-0.25",
+        "-0.75",
+        "+1.25/+1.5",
+        0.75,
+        -0.5,
+        null,
+        undefined,
+        ""
+    ];
+    
+    console.log("Testing handicapConverter function:");
+    testCases.forEach(testCase => {
+        const result = enhancer.handicapConverter(testCase);
+        console.log(`${JSON.stringify(testCase)} -> ${result}`);
+    });
+}
+
+// If running with test argument, run tests
+if (process.argv[2] === 'test') {
+    testHandicapConverter();
+} else {
+    main();
+} 

@@ -30,7 +30,9 @@
       "Bash(pkill:*)",
       "Bash(npm run:*)",
       "Bash(echo:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(kill:*)",
+      "Bash(sed:*)"
     ],
     "deny": []
   }

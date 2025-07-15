@@ -26,7 +26,7 @@ export class OrchestratorService implements OnModuleInit {
       await this.dataFileService.writeLog('info', 'Core V2 services started successfully');
       
     } catch (error) {
-      await this.dataFileService.writeLog('error', `Failed to start services: ${error.message}`);
+      await this.dataFileService.writeLog('error', `Failed to start services: ${(error as Error).message}`);
     }
   }
 

@@ -1,388 +1,260 @@
-# V2 Automated Betting System - Architecture Documentation
+# V2 Live Trading System - Architecture Documentation
 
 ## Overview
 
-This document provides a comprehensive visual guide to the V2 Automated Betting System architecture, data flows, and component interactions.
+This document provides a comprehensive guide to the V2 Live Trading System architecture, focusing on the current shared services implementation and file-based communication system.
 
-## 🎯 V2 System Visual Data Flow
+## 🎯 Current System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           🤖 AUTOMATED BETTING SYSTEM V2                        │
+│                     🤖 LIVE TRADING SYSTEM V2 (NESTJS)                         │
 └─────────────────────────────────────────────────────────────────────────────────┘
 
-     🌐 HKJC Website                    📋 Config Files                🎯 Strategy Files
-           │                                  │                              │
-           │ Fixtures, Odds, Betting          │ Credentials, Settings        │ Proven Strategies
-           ▼                                  ▼                              ▼
+    📂 File-Based Communication            🔧 Shared Services              🎯 Factor Drilling
+           │                                     │                              │
+           │ JSON Data Exchange                  │ Browser & Betting Utils      │ Interactive Analysis
+           ▼                                     ▼                              ▼
    ┌─────────────────┐              ┌─────────────────┐              ┌─────────────────┐
-   │  🔗 Browser     │              │  ⚙️  Core       │              │  🧠 Analysis    │
-   │  Service        │◄─────────────┤  Services       │─────────────►│  Engine         │
+   │  📁 Data Files  │              │  ⚙️  Core       │              │  🧠 Analysis    │
+   │  Service        │◄─────────────┤  Services       │─────────────►│  Controller     │
    │                 │              │                 │              │                 │
-   │ • Login/Logout  │              │ • Config Load   │              │ • Load Strategy │
-   │ • Scrape Data   │              │ • Team Mapping  │              │ • Factor Eval   │
-   │ • Place Bets    │              │ • Validation    │              │ • Pattern Match │
+   │ • Config Load   │              │ • Shared Browser│              │ • Factor Drill  │
+   │ • File Watch    │              │ • Betting Utils │              │ • Interactive UI│
+   │ • Data Persist  │              │ • Validation    │              │ • JSON Serving  │
    └─────────────────┘              └─────────────────┘              └─────────────────┘
-           │                                  │                              │
-           │                                  │                              │
-           ▼                                  ▼                              ▼
+           │                                     │                              │
+           │                                     │                              │
+           ▼                                     ▼                              ▼
                                     
-           📅 FIXTURE SERVICE ◄──────────────────────────────────────► 🎯 STRATEGY SERVICE
+           📊 ODDS MONITOR ◄──────────────────────────────────────► 🎯 BETTING EXECUTOR
                     │                                                          │
-                    │ Today's EPL Matches                    Strategy Signals  │
-                    │ + Kickoff Times                        + Betting Advice  │
+                    │ Live Odds Data                      Betting Decisions    │
+                    │ + Market Updates                    + Execution Results  │
                     ▼                                                          ▼
                     
-            ⏰ TRADING SCHEDULER                                    💰 BETTING EXECUTOR
+            💡 BETTING DECISION SERVICE                            📈 RESULTS TRACKER
                     │                                                          ▲
-                    │ Every Minute Check:                                      │
-                    │ "5-10 mins before kickoff?"                            │
+                    │ Strategy Evaluation:                                     │
+                    │ "Match criteria met?"                                    │
                     ▼                                                          │
                     
-            🎭 AUTOMATION ORCHESTRATOR ──────────────────────────────────────────┘
+            📁 FILE WATCHER SYSTEM ──────────────────────────────────────────────┘
                     │
                     │ Complete Trading Cycle:
-                    │ 1. Get Odds → 2. Evaluate → 3. Bet → 4. Record
-                    ▼
-                    
-            📈 RESULTS TRACKER
-                    │
-                    │ P&L, Win Rate, ROI
-                    │ Bet History
+                    │ 1. Watch Files → 2. Process → 3. Execute → 4. Record
                     ▼
                     
     ┌─────────────────────────────────────────────────────────────────────────────┐
-    │                          🌐 PROFESSIONAL TRADING INTERFACE                   │
+    │                          🌐 FACTOR DRILLING INTERFACE                       │
     │                                                                             │
     │  ┌─────────────┐    ┌──────────────────┐    ┌─────────────────────────────┐ │
-    │  │📅 TODAY'S   │    │📊 PERFORMANCE    │    │📱 LIVE ACTIVITY FEED       │ │
-    │  │  FIXTURES   │    │   CHARTS         │    │                             │ │
-    │  │             │    │                  │    │ ⚡ Trading signals          │ │
-    │  │• Arsenal vs │    │ $$$ Daily P&L    │    │ 💰 Bet placements          │ │
-    │  │  Chelsea    │    │ 📈 ROI Graph     │    │ 📊 Odds updates            │ │
-    │  │• Man City vs│    │ 🎯 Win Rate      │    │ ⚙️  System events          │ │
-    │  │  Liverpool  │    │ 📋 Total Bets    │    │                             │ │
-    │  │             │    │                  │    │ Auto-refresh: 30s           │ │
+    │  │🔍 FACTOR    │    │📊 DRILL RESULTS  │    │🎯 BETTING RECORDS          │ │
+    │  │  SELECTION  │    │                  │    │                             │ │
+    │  │             │    │ 📈 Performance   │    │ 💰 Individual bets         │ │
+    │  │• Add Factor │    │ 🎯 Strategy ROI  │    │ 📊 Match details           │ │
+    │  │• Navigation │    │ 📋 Match Count   │    │ ⚙️  Profit/Loss calc      │ │
+    │  │• Breadcrumbs│    │ 🔢 Statistics    │    │                             │ │
+    │  │             │    │                  │    │ Real match data             │ │
     │  └─────────────┘    └──────────────────┘    └─────────────────────────────┘ │
     │                                                                             │
-    │  🟢 AUTOMATION ACTIVE    🟢 HKJC CONNECTED    🟡 PAPER TRADING             │
+    │  🟢 SYSTEM ACTIVE    🟢 FILE WATCHING    🟡 INTERACTIVE MODE                │
     └─────────────────────────────────────────────────────────────────────────────┘
                                          ▲
                                          │
-                              📡 REST API ENDPOINTS
-                                   (Auto-refresh)
+                              📡 ANALYSIS CONTROLLER
+                                   (Static serving)
 ```
 
-## ⚡ Real-Time Flow Animation
+## 🏗️ Core Services Architecture
 
+### 1. **SharedBrowserService** (`src/v2/core/shared-browser.service.ts`)
+- **Centralized browser management** with isolated instances per service
+- **Isolated profiles** to prevent conflicts (betting-executor, odds-monitor, etc.)
+- **Unified login/logout** handling with session management
+- **Debugging ports** assigned per service (9224, 9225, 9226)
+
+### 2. **BettingUtilitiesService** (`src/v2/core/betting-utilities.service.ts`)
+- **Common betting logic** shared across all services
+- **Bet validation** and request formatting
+- **Season collision prevention** with standardized match keys
+- **Paper trading** simulation capabilities
+
+### 3. **DataFileService** (`src/v2/core/data-file.service.ts`)
+- **File-based communication** hub for all data exchange
+- **Configuration management** for system settings
+- **JSON file operations** with error handling
+- **Strategy and factor** data loading
+
+## 📊 File-Based Communication System
+
+### Data Files Structure (`data/v2/`)
 ```
-TIME: 8:00 AM - Daily Fixture Load
-┌─────────────────────────────────────────────┐
-│ 📅 FIXTURE SERVICE                          │
-│ "Loading today's EPL fixtures..."           │  ──► 🌐 HKJC Website
-│                                             │  ◄── Arsenal vs Chelsea (3:00 PM)
-│ ✅ Loaded 3 matches for today               │  ◄── Man City vs Liverpool (5:30 PM)
-└─────────────────────────────────────────────┘  ◄── Tottenham vs Man Utd (8:00 PM)
-
-TIME: 2:50 PM - Trading Window Detected
-┌─────────────────────────────────────────────┐
-│ ⏰ TRADING SCHEDULER                        │
-│ "Arsenal vs Chelsea in 10 minutes!"        │  ──► 🎭 ORCHESTRATOR
-│                                             │      "Start automated cycle!"
-└─────────────────────────────────────────────┘
-
-TIME: 2:51 PM - Automated Trading Cycle
-┌─────────────────────────────────────────────┐      ┌─────────────────────────────┐
-│ 🎭 ORCHESTRATOR                             │ ──►  │ 🔗 BROWSER SERVICE         │
-│ "Step 1: Get latest odds..."                │      │ "Scraping Arsenal vs        │
-└─────────────────────────────────────────────┘      │  Chelsea odds..."           │
-                     ▼                                             │
-┌─────────────────────────────────────────────┐                   ▼
-│ 🧠 STRATEGY SERVICE                         │              🌐 HKJC Website
-│ "Evaluating 20 strategies..."              │              Home: 1.85, Away: 2.05
-│ ✅ Strategy 'homeUnderdog' triggered!       │              Handicap: Arsenal -0.5
-└─────────────────────────────────────────────┘
-                     ▼
-┌─────────────────────────────────────────────┐      ┌─────────────────────────────┐
-│ 💰 BETTING EXECUTOR                         │ ──►  │ 🔗 BROWSER SERVICE         │
-│ "Placing $200 bet on Chelsea +0.5..."      │      │ "Logging into HKJC..."     │
-└─────────────────────────────────────────────┘      │ "Navigating to match..."    │
-                     ▼                                │ "Selecting Chelsea..."      │
-┌─────────────────────────────────────────────┐      │ "Entering $200..."         │
-│ 📈 RESULTS TRACKER                          │      │ "Confirming bet..."        │
-│ "✅ Bet recorded: Bet ID #12345"            │      │ "✅ Bet placed!"           │
-│ "💰 Daily P&L: +$47.50"                    │      └─────────────────────────────┘
-└─────────────────────────────────────────────┘
-
-TIME: 2:52 PM - Dashboard Updates
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ 🌐 PROFESSIONAL TRADING INTERFACE                                           │
-│                                                                             │
-│ 📱 LIVE ACTIVITY FEED:                                                      │
-│ ⚡ 14:52 - Trading window detected: Arsenal vs Chelsea                      │
-│ 💰 14:52 - Bet placed: Chelsea +0.5 @ 2.05 ($200)                         │
-│ 📊 14:52 - homeUnderdog strategy triggered                                 │
-│ ⚙️  14:52 - Automation cycle completed successfully                        │
-│                                                                             │
-│ 📊 PERFORMANCE: Daily P&L: +$47.50 | ROI: 12.3% | Win Rate: 67%           │
-└─────────────────────────────────────────────────────────────────────────────┘
+data/v2/
+├── odds-data.json          # Live odds from HKJC
+├── betting-decisions.json  # Strategy evaluation results
+├── bet-record.json         # Executed bet history
+├── system-config.json      # System configuration
+├── strategies.json         # Betting strategies
+└── browser-*/             # Browser profile directories
 ```
 
-## 🔄 Simplified Component Interaction
+### Communication Flow
+1. **OddsMonitorService** → writes `odds-data.json`
+2. **BettingDecisionService** → watches `odds-data.json` → writes `betting-decisions.json`
+3. **BettingExecutorService** → watches `betting-decisions.json` → writes `bet-record.json`
+4. **All services** → read configuration from `system-config.json`
 
-```
-USER                    SYSTEM                      EXTERNAL
- │                        │                           │
- │ Open Dashboard         │                           │
- │ ──────────────────────►│                           │
- │                        │ Load Config Files         │
- │                        │ ◄─────────────────────────│
- │                        │                           │
- │                        │ Daily: Load Fixtures      │
- │                        │ ──────────────────────────►│ HKJC
- │                        │ ◄──────────────────────────│
- │                        │                           │
- │ See Live Interface     │ Every Minute: Check Time  │
- │ ◄──────────────────────│                           │
- │                        │                           │
- │                        │ 5-10 mins before? YES!    │
- │                        │ ──────────────────────────►│ HKJC
- │                        │ ◄──────────────────────────│ (Auto Trade)
- │                        │                           │
- │ Watch Live Updates     │ Update Dashboard          │
- │ ◄──────────────────────│                           │
- │                        │                           │
-```
+## 🎯 Factor Drilling Integration
 
-## 🏗️ NestJS Application Startup Flow
+### Analysis Controller (`src/v2/analysis/analysis.controller.ts`)
+- **Factor drilling interface** serving at `/analysis/drill-app`
+- **JSON data serving** for interactive drilling
+- **Static file serving** for the drilling UI
+- **Root redirect** from `/` to factor drilling app
+
+### Interactive Features
+- **Add-only interface** for factor selection
+- **Navigation controls** (Reset, Back, Breadcrumb jumping)
+- **Individual betting records** with complete match details
+- **Real-time drilling** through factor combinations
+
+## ⚡ Service Initialization Flow
 
 ```
 🟢 NestJS Bootstrap (nestjs-main.ts)
      │
      ├─ App Module Loads
-     │   ├─ Core Module (HkjcBrowserService, TeamMappingService)
-     │   ├─ Data Collection Module (HkjcScrapingService, FbrefScrapingService)
-     │   ├─ Data Processing Module (DataMergerService, DataEnhancerService)
-     │   ├─ Analysis Module (PatternDiscoveryService, FactorDrillingService)
-     │   ├─ Live Trading Module (OddsMonitorService, StrategyDecisionService, BettingExecutorService, ResultsTrackerService)
-     │   ├─ Automation Module (FixtureService, TradingSchedulerService, AutomationOrchestratorService)
-     │   ├─ Web Interface Module (DashboardController, ApiController)
-     │   └─ Health Module (SystemHealthService)
+     │   ├─ Core Module (SharedBrowserService, BettingUtilitiesService, DataFileService)
+     │   ├─ LiveTradingModule (BettingExecutorService, OddsMonitorService, BettingDecisionService)
+     │   ├─ AnalysisModule (AnalysisController for factor drilling)
+     │   ├─ DataCollectionModule (Market data collection)
+     │   ├─ AutomationModule (Scheduling and coordination)
+     │   └─ HealthModule (System health monitoring)
      │
-🟡 Service Initialization (onModuleInit for each service)
+🟡 Service Initialization (onModuleInit)
      │
-     ├─ PatternDiscoveryService.loadFactorDefinitions() → src/v2/factor_definitions.json
-     ├─ PatternDiscoveryService.loadStrategies() → src/v2/strategy.json
-     ├─ StrategyDecisionService.loadStrategies() → src/v2/strategy.json
-     ├─ FixtureService.initialize() → HkjcBrowserService (DISABLED for startup)
-     ├─ OddsMonitorService.initialize() → (DISABLED for startup)
-     └─ Other services initialize...
+     ├─ SharedBrowserService.initialize() → Setup browser management
+     ├─ BettingExecutorService.initialize() → Setup file watching (3s delay)
+     ├─ OddsMonitorService.initialize() → Setup odds monitoring (1s delay)
+     ├─ BettingDecisionService.initialize() → Setup decision engine
+     └─ DataFileService.initialize() → Load configuration files
      │
 🟢 Server Starts on Port 3000
      │
-     ├─ Web Interface Available: http://localhost:3000
-     ├─ Dashboard: http://localhost:3000/dashboard → automated-dashboard.html
-     └─ API Endpoints: http://localhost:3000/api/*
+     ├─ Factor Drilling Available: http://localhost:3000/analysis/drill-app
+     ├─ Root Redirect: http://localhost:3000 → /analysis/drill-app
+     └─ System Status: http://localhost:3000/health
 ```
 
-## ⚙️ Automation Flow (When Enabled)
+## 🔄 Live Trading Flow
 
+### 1. **Odds Monitoring**
 ```
-⏰ TradingSchedulerService (@Cron Jobs)
+OddsMonitorService (every 30s)
      │
-     ├─ Daily Fixture Load (8 AM): FixtureService.loadDailyFixtures()
-     │   └─ HkjcBrowserService.scrapeTodaysFixtures() → EPL fixtures with kickoff times
+     ├─ SharedBrowserService.getPageInstance('OddsMonitor')
+     ├─ Scrape current HKJC odds
+     ├─ DataFileService.writeFile('odds-data.json')
+     └─ BettingDecisionService receives file change event
+```
+
+### 2. **Strategy Evaluation**
+```
+BettingDecisionService (file watcher)
      │
-     └─ Every Minute Check: TradingSchedulerService.checkTradingWindows()
-           │
-           ├─ FixtureService.getMatchesInTradingWindow() → 5-10 mins before kickoff?
-           │
-           └─ IF matches found → AutomationOrchestratorService.executeAutomatedTradingCycle()
-                 │
-                 ├─ Step 1: HkjcBrowserService.scrapeMatchOdds(matchId)
-                 │     └─ Get current Asian Handicap odds for match
-                 │
-                 ├─ Step 2: StrategyDecisionService.evaluateStrategiesForMatch(matchData)
-                 │     ├─ Load strategies from strategy.json
-                 │     ├─ Evaluate each strategy's factors against match
-                 │     └─ Generate betting signals (if strategy criteria met)
-                 │
-                 ├─ Step 3: For each betting signal → HkjcBrowserService.placeBet()
-                 │     ├─ Login to HKJC (if not logged in)
-                 │     ├─ Navigate to match betting page
-                 │     ├─ Select home/away based on signal
-                 │     ├─ Enter stake amount
-                 │     └─ Confirm bet placement
-                 │
-                 └─ Step 4: ResultsTrackerService.recordBet(betResult)
-                       └─ Save bet record with timestamp, strategy, odds, stake
+     ├─ DataFileService.readFile('odds-data.json')
+     ├─ DataFileService.getStrategies()
+     ├─ Evaluate each match against strategies
+     ├─ Generate betting decisions
+     └─ DataFileService.writeFile('betting-decisions.json')
 ```
 
-## 🌐 Web Interface Flow
-
+### 3. **Bet Execution**
 ```
-🌐 User visits http://localhost:3000
+BettingExecutorService (file watcher + RxJS)
      │
-     ├─ DashboardController.root() → redirects to /dashboard
-     │
-     └─ DashboardController.dashboard() → serves automated-dashboard.html
-           │
-           └─ Professional Trading Interface Loads:
-                 │
-                 ├─ Left Panel: Today's Fixtures
-                 │   └─ API: GET /api/automation/fixtures
-                 │       └─ FixtureService.getTodaysFixtures()
-                 │
-                 ├─ Center Panel: Performance Charts
-                 │   └─ API: GET /api/performance/system
-                 │       └─ ResultsTrackerService.getSystemPerformance()
-                 │
-                 ├─ Right Panel: Live Activity Feed
-                 │   └─ Real-time updates from automation events
-                 │
-                 ├─ Top Bar: System Status Indicators
-                 │   ├─ Automation Active/Inactive
-                 │   ├─ HKJC Connected/Disconnected
-                 │   └─ Paper Trading/Live Trading
-                 │
-                 └─ Auto-refresh every 30 seconds
-                       └─ Calls all API endpoints to update data
+     ├─ DataFileService.readFile('betting-decisions.json')
+     ├─ Filter by time window (0-10 mins before kickoff)
+     ├─ Prevent duplicates with season-aware match keys
+     ├─ BettingUtilitiesService.placeBet() OR executePaperBet()
+     └─ DataFileService.addBetRecord()
 ```
 
-## 📊 API Endpoint Flow
+## 🛠️ Key Architectural Improvements
 
-```
-ApiController (/api) provides:
+### Eliminated Duplication
+- **Shared browser management** replaces multiple browser instances
+- **Common betting utilities** eliminate code duplication
+- **Centralized configuration** through DataFileService
+- **Unified error handling** across all services
 
-🤖 Automation Monitoring:
-     ├─ GET /api/automation/status → TradingSchedulerService + AutomationOrchestratorService status
-     ├─ GET /api/automation/fixtures → FixtureService.getTodaysFixtures()
-     └─ GET /api/automation/trading-window → FixtureService.getMatchesInTradingWindow()
+### Enhanced Reliability
+- **Isolated browser instances** prevent conflicts
+- **File-based communication** ensures data persistence
+- **Duplicate prevention** with season-aware match keys
+- **Staggered initialization** prevents startup conflicts
 
-📊 Performance Tracking:
-     ├─ GET /api/performance/system → ResultsTrackerService.getSystemPerformance()
-     ├─ GET /api/performance/strategies → ResultsTrackerService.getAllStrategyPerformances()
-     └─ POST /api/performance/update → ResultsTrackerService.manualUpdateResults()
+### Simplified Architecture
+- **Removed coordinator system** complexity
+- **Direct file watching** instead of complex event bus
+- **Shared services** pattern for common functionality
+- **Single responsibility** principle for each service
 
-🏥 System Health:
-     ├─ GET /api/system/status → Overall system status with all service states
-     └─ Shows: Automation, HKJC, Trading mode, Service health
+## 📱 Current Usage
 
-🔍 Analysis (Available but not used in automation):
-     ├─ POST /api/analysis/discover-patterns → PatternDiscoveryService.discoverPatterns()
-     ├─ POST /api/analysis/drill-factors → FactorDrillingService.drillFactors()
-     └─ GET /api/analysis/strategies → PatternDiscoveryService.getStrategies()
+### Starting the System
+```bash
+# Start live trading system
+cd src/v2
+npm run start:dev
 
-⚙️ Configuration:
-     ├─ GET /api/config/system → Current system configuration
-     └─ POST /api/config/validate-credentials → BettingExecutorService.validateCredentials()
-```
-
-## 🔄 Data Flow Architecture
-
-```
-Configuration Files:
-├─ .env → Environment variables (credentials, settings)
-├─ config/live-betting.json → HKJC credentials and system config
-├─ src/v2/strategy.json → Proven betting strategies
-└─ src/v2/factor_definitions.json → Factor definitions for analysis
-
-Runtime Data Flow:
-     ┌─ HKJC Website (Live Data)
-     │     ├─ Fixture Data → FixtureService
-     │     ├─ Odds Data → OddsMonitorService  
-     │     └─ Bet Placement → BettingExecutorService
-     │
-     ├─ Strategy Files → StrategyDecisionService
-     │     └─ Factor Evaluation → Betting Signals
-     │
-     └─ Results Storage:
-           ├─ Bet Records → ResultsTrackerService
-           ├─ Performance Metrics → Dashboard
-           └─ Activity Logs → Live Feed
+# Access factor drilling interface
+# http://localhost:3000 (redirects to /analysis/drill-app)
 ```
 
-## 💾 Key Files and Directories
+### Alternative Factor Drilling
+```bash
+# Start standalone factor drilling
+node scripts/launch_dashboards.js
 
-### Core Application Files
-- `src/v2/nestjs-main.ts` - Main NestJS application entry point
-- `src/v2/app.module.ts` - Root application module
-- `tsconfig.json` - TypeScript configuration
-- `.env` - Environment variables
-- `config/live-betting.json` - HKJC credentials and settings
-
-### Strategy and Configuration Files
-- `src/v2/strategy.json` - Proven betting strategies (copied from pattern-discovery)
-- `src/v2/factor_definitions.json` - Factor definitions for analysis (copied from pattern-discovery)
-
-### Core Services
-- `src/v2/core/hkjc-browser.service.ts` - Browser automation for HKJC interaction
-- `src/v2/core/team-mapping.service.ts` - EPL team name mappings
-
-### Automation Services
-- `src/v2/fixtures/fixture.service.ts` - Daily fixture loading and trading window detection
-- `src/v2/automation/trading-scheduler.service.ts` - Cron jobs for automation timing
-- `src/v2/automation/automation-orchestrator.service.ts` - Complete trading cycle execution
-
-### Live Trading Services
-- `src/v2/live-trading/strategy-decision.service.ts` - Strategy evaluation and signal generation
-- `src/v2/live-trading/betting-executor.service.ts` - HKJC bet placement
-- `src/v2/live-trading/results-tracker.service.ts` - P&L tracking and performance metrics
-- `src/v2/live-trading/odds-monitor.service.ts` - Real-time odds monitoring
-
-### Web Interface
-- `src/v2/web-interface/public/automated-dashboard.html` - Professional trading interface
-- `src/v2/web-interface/dashboard.controller.ts` - Dashboard serving
-- `src/v2/web-interface/api.controller.ts` - REST API endpoints
-
-## 🚀 Your "Super Simple Flow" Implementation
-
-The user's approved "super simple flow" is implemented as:
-
-```
-Daily: Load Fixtures → Every Minute: Check Time → 5-10 mins before? → YES → Auto Trade
-                                      │                                      │
-                                      ▼                                      ▼
-                                 Keep Checking ←────────────────────── Monitor Results
+# Access at http://localhost:8888
 ```
 
-**Actual Implementation:**
-1. **Daily Load Fixtures (8 AM)**: `FixtureService.loadDailyFixtures()` via cron job
-2. **Every Minute Check**: `TradingSchedulerService.checkTradingWindows()` via cron job
-3. **5-10 mins before kickoff**: `FixtureService.getMatchesInTradingWindow()`
-4. **Auto Trade**: `AutomationOrchestratorService.executeAutomatedTradingCycle()`
-5. **Monitor Results**: Real-time dashboard updates and `ResultsTrackerService`
+## 🔧 Configuration Files
 
-## 🎯 Professional Trading Interface Features
+### System Configuration (`config/live-betting.json`)
+- **HKJC credentials** for automated trading
+- **System settings** (paper trading, live betting modes)
+- **Browser configuration** (headless mode, timeouts)
 
-The V2 system includes a professional stock trading-style interface with:
-
-- **Dark Theme**: Terminal-like aesthetics matching factor drilling tool
-- **Real-time Charts**: Performance graphs with Chart.js
-- **Live Activity Feed**: Real-time automation events
-- **System Status**: Green/red indicators for all services
-- **Performance Metrics**: Daily P&L, ROI, win rates
-- **Auto-refresh**: 30-second intervals for live data
+### Strategy Configuration (`src/v2/strategies.json`)
+- **Proven betting strategies** from pattern discovery
+- **Factor definitions** and evaluation logic
+- **Staking rules** and risk management
 
 ## 📈 Current Status
 
 **✅ COMPLETED:**
-- NestJS architecture setup
-- All service implementations
-- Professional trading interface
-- TypeScript compilation fixes
-- Configuration file setup
-- API endpoint implementation
+- Shared services architecture implementation
+- File-based communication system
+- Factor drilling interface integration
+- Duplicate prevention with season-aware keys
+- Staggered service initialization
+- Clean module structure
 
-**🟡 CURRENT ISSUE:**
-- System hangs during service initialization (likely browser automation startup)
-- Temporary fix: Browser initialization disabled for quick startup
+**🟡 OPERATIONAL:**
+- Live trading system with shared browser management
+- Interactive factor drilling at localhost:3000
+- File-based data exchange between services
+- Automated bet execution with duplicate prevention
 
 **🚀 READY FOR:**
-- Final browser automation debugging
 - Live deployment with HKJC credentials
 - Real-time automated trading execution
+- Pattern discovery through factor drilling interface
+- Integration with proven betting strategies
 
 ---
 
-*This document serves as the definitive reference for the V2 Automated Betting System architecture and implementation.*
+*This document reflects the current V2 system architecture after major refactoring to eliminate duplication and implement shared services pattern.*

@@ -20,13 +20,13 @@ export class BettingDecisionService implements OnModuleInit {
 
   // Parse HKJC local time (Hong Kong timezone) and convert to UTC
   private parseMatchDate(dateString: string): string | null {
-    console.log(`🕐 Parsing HKJC local time: "${dateString}"`);
+    // console.log(`🕐 Parsing HKJC local time: "${dateString}"`);
     // Parse as Hong Kong time (UTC+8)
     const parsed = moment.tz(dateString, 'DD/MM/YYYY HH:mm', 'Asia/Hong_Kong');
     
     if (parsed.isValid()) {
       const utcTime = parsed.utc().toISOString();
-      console.log(`✅ Parsed HK time "${dateString}" to UTC: ${utcTime}`);
+      // console.log(`✅ Parsed HK time "${dateString}" to UTC: ${utcTime}`);
       return utcTime;
     } else {
       console.log(`❌ Failed to parse "${dateString}", returning null`);
@@ -114,7 +114,7 @@ export class BettingDecisionService implements OnModuleInit {
               };
               
               decisions.push(decision);
-              console.log(`🎯 🎉 BETTING OPPORTUNITY: ${decision.strategyName} -> ${decision.homeTeam} vs ${decision.awayTeam} -> BET ${decision.betSide.toUpperCase()} @ ${decision.odds} (kickoff: ${kickoffTime})`);
+              console.log(`🎯BETTING DECISION: ${decision.strategyName} -> ${decision.homeTeam} vs ${decision.awayTeam} -> BET ${decision.betSide.toUpperCase()} @ ${decision.odds}`);
             }
           } catch (error) {
             console.error(`❌ Error evaluating ${match.homeTeam} vs ${match.awayTeam} with strategy ${(strategy as any).name}:`, error);

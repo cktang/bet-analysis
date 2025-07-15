@@ -1,0 +1,49 @@
+{
+  "appTitle": "Asian Handicap Factor Drilling Tool",
+  "description": "Interactive drilling tool for discovering profitable patterns in data",
+  
+  "dataSources": {
+    "enhanced": {
+      "name": "Enhanced Match Data", 
+      "path": "./data/enhanced/",
+      "pattern": "year-*-enhanced.json",
+      "description": "Football match data with enhanced metrics"
+    }
+  },
+  
+  "factorDefinitions": {
+    "path": "./factor_definitions.json",
+    "description": "Factor definitions for pattern discovery"
+  },
+  
+  "profitCalculator": {
+    "type": "asian-handicap",
+    "module": "./profit-calculators/asian-handicap-calculator.js",
+    "description": "Asian Handicap betting profit calculation"
+  },
+  
+  "dataStructure": {
+    "recordFields": {
+      "match": "preMatch.match",
+      "fbref": "preMatch.fbref", 
+      "timeSeries": "timeSeries",
+      "enhanced": "preMatch.enhanced",
+      "preMatch": "preMatch",
+      "postMatch": "postMatch"
+    },
+    "resultFields": {
+      "homeScore": "preMatch.match.homeScore",
+      "awayScore": "preMatch.match.awayScore",
+      "handicap": "preMatch.match.asianHandicapOdds.homeHandicap",
+      "odds": "preMatch.match.asianHandicapOdds.homeOdds",
+      "matchDate": "preMatch.match.date"
+    }
+  },
+  
+  "ui": {
+    "performanceCache": true,
+    "chartSupport": true,
+    "pinnedStrategies": true,
+    "breadcrumbNavigation": true
+  }
+}

@@ -22,7 +22,7 @@ A comprehensive data-driven system that has **DISCOVERED SYSTEMATIC MARKET INEFF
 - **Validated across 1,126 matches** with predictable market psychology patterns
 
 ## 🤖 **NEW AGENTS: READ THIS FIRST**
-**📖 [NEW_AGENT_GUIDE.md](NEW_AGENT_GUIDE.md)** - Essential reading for anyone new to this project. Explains what's already done, what not to modify, and where to contribute safely.
+**📖 [docs/guides/NEW_AGENT_GUIDE.md](docs/guides/NEW_AGENT_GUIDE.md)** - Essential reading for anyone new to this project. Explains what's already done, what not to modify, and where to contribute safely.
 **📊 [PROJECT_STATUS.md](PROJECT_STATUS.md)** - **CRITICAL**: Complete status of all major discoveries and current system state.
 
 ## 🎯 Project Overview
@@ -72,7 +72,8 @@ bet-analysis/
 │   │   ├── fbref/            # FBRef match incident data
 │   │   └── team-mapping.csv  # Team name normalization
 │   ├── processed/            # Processed match data with enhancements
-│   └── enhanced/            # Final enhanced datasets with FBRef integration
+│   ├── enhanced/            # Final enhanced datasets with FBRef integration
+│   └── v2/                  # Live trading system data files
 ├── src/
 │   ├── scripts/            # Data processing and enhancement scripts
 │   │   ├── merge-football-data-json.js    # Main data processing
@@ -86,14 +87,41 @@ bet-analysis/
 │   │   ├── extract_actual_betting_records.js  # Betting record extraction
 │   │   ├── rules/                        # Factor definitions (12 files)
 │   │   └── winning_strategies_records_REAL/   # Final betting records (42 files)
+│   ├── pattern-discovery/  # Interactive factor drilling system
+│   ├── v2/                # Live trading system (NestJS)
+│   │   ├── core/          # Shared services (browser, betting utilities)
+│   │   ├── live-trading/  # Live betting execution
+│   │   ├── analysis/      # Factor drilling interface
+│   │   └── data-collection/ # Market data collection
 │   └── parsers/          # Data parsing utilities
-├── plan/                 # Strategic planning documents
+├── scripts/              # Launch scripts and utilities
 └── docs/                # Project documentation
 ```
 
 ## 🚀 Quick Start
 
-### 1. Data Processing Pipeline
+### 1. Factor Drilling Interface (Interactive Pattern Discovery)
+
+```bash
+# Launch the interactive factor drilling dashboard
+node scripts/launch_dashboards.js
+
+# Access at: http://localhost:8888
+# Interactive drilling through betting factor combinations
+```
+
+### 2. Live Trading System (NestJS)
+
+```bash
+# Start the live trading system with factor drilling
+cd src/v2
+npm run start:dev
+
+# Access at: http://localhost:3000
+# Redirects to factor drilling interface
+```
+
+### 3. Data Processing Pipeline
 
 ```bash
 # Process all seasons and generate enhanced datasets
@@ -108,7 +136,7 @@ node enhance-asian-handicap.js ../data/processed/year-2023-2024.json ../data/enh
 node enhance-asian-handicap.js ../data/processed/year-2024-2025.json ../data/enhanced/year-2024-2025-enhanced.json
 ```
 
-### 2. Access Winning Strategies
+### 4. Access Winning Strategies
 
 ```bash
 # View extracted betting records
@@ -225,6 +253,10 @@ cat src/ah-analysis/winning_strategies_records_REAL/_MASTER_SUMMARY.json
 
 ## 🛠️ Scripts Reference
 
+### Launch Scripts
+- `scripts/launch_dashboards.js` - Start factor drilling dashboard at localhost:8888
+- `src/v2/nestjs-main.ts` - Start live trading system at localhost:3000
+
 ### Core Processing Scripts
 - `merge-football-data-json.js` - Main data processing and timeSeries generation
 - `enhance-asian-handicap.js` - FBRef integration and metric calculation
@@ -242,10 +274,16 @@ cat src/ah-analysis/winning_strategies_records_REAL/_MASTER_SUMMARY.json
 
 ## 📚 Documentation
 
+### Quick Navigation
+- **New Contributors**: Start with [docs/guides/NEW_AGENT_GUIDE.md](docs/guides/NEW_AGENT_GUIDE.md)
+- **System Architecture**: See [docs/v2-system-architecture.md](docs/v2-system-architecture.md)
+- **Program Flow**: Check [docs/PROGRAM_FLOW_DIAGRAM.md](docs/PROGRAM_FLOW_DIAGRAM.md)
+- **Current Status**: Always refer to [PROJECT_STATUS.md](PROJECT_STATUS.md)
+
 ### Strategic Planning
-- `plan/master-strategy-plan.md` - Comprehensive betting strategy framework
-- `plan/hkjc-realistic-approach.md` - HKJC-specific implementation strategy
-- `plan/data-validation-framework.md` - Data quality validation approach
+- `docs/archive/plan/master-strategy-plan.md` - Comprehensive betting strategy framework
+- `docs/archive/plan/hkjc-realistic-approach.md` - HKJC-specific implementation strategy
+- `docs/archive/plan/data-validation-framework.md` - Data quality validation approach
 
 ### Analysis Documentation  
 - `src/ah-analysis/README.md` - Asian Handicap analysis system overview
@@ -254,7 +292,9 @@ cat src/ah-analysis/winning_strategies_records_REAL/_MASTER_SUMMARY.json
 
 ### Technical Documentation
 - `src/scripts/README.md` - Data processing pipeline documentation
-- `FBREF_INCIDENT_INTEGRATION_SUMMARY.md` - FBRef integration details
+- `src/v2/README.md` - Live trading system overview
+- `data/v2/README.md` - File-based communication system
+- `docs/guides/` - Technical implementation guides
 
 ## ⚠️ Important Notes
 
@@ -283,6 +323,12 @@ The `src/ah-analysis/` directory contains the essential strategy discovery syste
 - Realistic returns (13-53% depending on selectivity)
 - Proven data integrity with zero look-ahead bias
 - Production-ready implementation
+
+#### ✅ **Interactive Tools Available**
+- **Factor Drilling Dashboard**: `node scripts/launch_dashboards.js` then visit localhost:8888
+- **Live Trading System**: `cd src/v2 && npm run start:dev` then visit localhost:3000
+- **Real-time Pattern Discovery**: Drill down through factor combinations interactively
+- **Individual Bet Analysis**: View complete match details with profit/loss calculations
 
 ## 🔮 Future Development
 

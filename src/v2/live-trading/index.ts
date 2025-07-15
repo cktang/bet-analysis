@@ -3,6 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { BettingExecutorService } from './betting-executor.service';
 import { OddsMonitorService } from './odds-monitor.service';
 import { MockDataFileService } from '../core/mock-data-file.service';
+import { CoreModule } from '../core/core.module';
 import { DATA_FILE_SERVICE } from './tokens';
 import { BettingDecisionService } from './betting-decision.service';
 
@@ -11,7 +12,7 @@ export class LiveTradingModule {
   static register(): DynamicModule {
     return {
       module: LiveTradingModule,
-      imports: [ConfigModule],
+      imports: [ConfigModule, CoreModule],
       providers: [
         MockDataFileService,
         {

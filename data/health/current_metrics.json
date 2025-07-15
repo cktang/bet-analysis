@@ -1,11 +1,11 @@
 {
-  "timestamp": 1752454500006,
+  "timestamp": 1752598800057,
   "system": {
-    "cpuUsage": 34,
+    "cpuUsage": 19,
     "memoryUsage": {
-      "used": 17094950912,
+      "used": 17114480640,
       "total": 17179869184,
-      "percentage": 99.50571060180664
+      "percentage": 99.61938858032227
     },
     "diskUsage": {
       "used": 0,
@@ -13,389 +13,46 @@
       "percentage": 0,
       "status": "accessible"
     },
-    "uptime": 2370268
+    "uptime": 2514567
   },
   "services": {
     "DataCollection": {
       "status": "healthy",
-      "lastActivity": 1752454444424,
+      "lastActivity": 1752597618715,
       "errorCount": 0,
-      "responseTime": 12
+      "responseTime": 2
     },
     "DataProcessing": {
       "status": "healthy",
-      "lastActivity": 1752451200050,
+      "lastActivity": 1752589799285,
       "errorCount": 0,
-      "responseTime": 1
+      "responseTime": 0
     },
     "Analysis": {
       "status": "healthy",
-      "lastActivity": 1751565155145,
+      "lastActivity": 1752594878043,
       "errorCount": 0,
       "responseTime": 0
     },
     "LiveTrading": {
       "status": "warning",
-      "lastActivity": 1752454501022,
+      "lastActivity": 1752598801061,
       "errorCount": 0,
       "responseTime": 0
     },
     "Database": {
       "status": "healthy",
-      "lastActivity": 1752454501022,
+      "lastActivity": 1752598801062,
       "errorCount": 0,
-      "responseTime": 0
+      "responseTime": 1
     }
   },
   "alerts": [
     {
-      "id": "1752427201012_5g6klrk8h",
-      "severity": "critical",
-      "message": "High memory usage: 99.3%",
-      "timestamp": 1752427201013,
-      "service": "System"
-    },
-    {
-      "id": "1752427501014_y57kcvrc5",
-      "severity": "critical",
-      "message": "High memory usage: 98.9%",
-      "timestamp": 1752427501014,
-      "service": "System"
-    },
-    {
-      "id": "1752428101012_mi8tz1fyp",
-      "severity": "critical",
-      "message": "High memory usage: 97.7%",
-      "timestamp": 1752428101012,
-      "service": "System"
-    },
-    {
-      "id": "1752428401028_yra821jsa",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752428401028,
-      "service": "System"
-    },
-    {
-      "id": "1752430501117_4v9r30luv",
-      "severity": "critical",
-      "message": "High memory usage: 99.4%",
-      "timestamp": 1752430501117,
-      "service": "System"
-    },
-    {
-      "id": "1752430801027_d3aqowgjt",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752430801027,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752431401053_14kim7s0l",
+      "id": "1752597901021_91at0edu3",
       "severity": "critical",
       "message": "High memory usage: 99.6%",
-      "timestamp": 1752431401053,
-      "service": "System"
-    },
-    {
-      "id": "1752432001019_8sbs454cc",
-      "severity": "critical",
-      "message": "High memory usage: 96.9%",
-      "timestamp": 1752432001019,
-      "service": "System"
-    },
-    {
-      "id": "1752432301037_0bl0nw3gw",
-      "severity": "critical",
-      "message": "High memory usage: 97.7%",
-      "timestamp": 1752432301037,
-      "service": "System"
-    },
-    {
-      "id": "1752432601056_l48qll25i",
-      "severity": "critical",
-      "message": "High memory usage: 98.4%",
-      "timestamp": 1752432601056,
-      "service": "System"
-    },
-    {
-      "id": "1752432901030_hi58m2ndx",
-      "severity": "critical",
-      "message": "High memory usage: 99.2%",
-      "timestamp": 1752432901030,
-      "service": "System"
-    },
-    {
-      "id": "1752433501024_wg86rmajy",
-      "severity": "critical",
-      "message": "High memory usage: 98.7%",
-      "timestamp": 1752433501024,
-      "service": "System"
-    },
-    {
-      "id": "1752434401014_njzgw6lyg",
-      "severity": "critical",
-      "message": "High memory usage: 99.0%",
-      "timestamp": 1752434401014,
-      "service": "System"
-    },
-    {
-      "id": "1752434701020_07fojb4p8",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752434701020,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752435001031_mzymh6ax1",
-      "severity": "critical",
-      "message": "High memory usage: 97.4%",
-      "timestamp": 1752435001031,
-      "service": "System"
-    },
-    {
-      "id": "1752435301019_01y3yn3nv",
-      "severity": "critical",
-      "message": "High memory usage: 97.6%",
-      "timestamp": 1752435301019,
-      "service": "System"
-    },
-    {
-      "id": "1752435601021_3af065ep2",
-      "severity": "critical",
-      "message": "High memory usage: 99.4%",
-      "timestamp": 1752435601021,
-      "service": "System"
-    },
-    {
-      "id": "1752435901019_3dfrx19ph",
-      "severity": "critical",
-      "message": "High memory usage: 99.3%",
-      "timestamp": 1752435901019,
-      "service": "System"
-    },
-    {
-      "id": "1752436201012_vd3si2wyl",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752436201012,
-      "service": "System"
-    },
-    {
-      "id": "1752438001033_tckjlitzm",
-      "severity": "critical",
-      "message": "High memory usage: 99.6%",
-      "timestamp": 1752438001033,
-      "service": "System"
-    },
-    {
-      "id": "1752438301026_se8p9zre3",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752438301026,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752438901038_9qdq24kfr",
-      "severity": "critical",
-      "message": "High memory usage: 99.7%",
-      "timestamp": 1752438901039,
-      "service": "System"
-    },
-    {
-      "id": "1752439201023_zqa7svl1c",
-      "severity": "critical",
-      "message": "High memory usage: 99.4%",
-      "timestamp": 1752439201023,
-      "service": "System"
-    },
-    {
-      "id": "1752439801023_wedkk1qsa",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752439801023,
-      "service": "System"
-    },
-    {
-      "id": "1752440101022_iuwrwie42",
-      "severity": "critical",
-      "message": "High memory usage: 99.3%",
-      "timestamp": 1752440101023,
-      "service": "System"
-    },
-    {
-      "id": "1752440401044_iaydg54d8",
-      "severity": "critical",
-      "message": "High memory usage: 97.8%",
-      "timestamp": 1752440401044,
-      "service": "System"
-    },
-    {
-      "id": "1752440701135_9vaovw9g9",
-      "severity": "critical",
-      "message": "High memory usage: 97.4%",
-      "timestamp": 1752440701136,
-      "service": "System"
-    },
-    {
-      "id": "1752441301015_wyhqgars0",
-      "severity": "critical",
-      "message": "High memory usage: 99.2%",
-      "timestamp": 1752441301015,
-      "service": "System"
-    },
-    {
-      "id": "1752441901026_ec7s5do7k",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752441901026,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752442801023_spzlnsq3d",
-      "severity": "critical",
-      "message": "High memory usage: 99.6%",
-      "timestamp": 1752442801023,
-      "service": "System"
-    },
-    {
-      "id": "1752444301025_hpggk2lpr",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752444301025,
-      "service": "System"
-    },
-    {
-      "id": "1752444601025_vet1eyca4",
-      "severity": "critical",
-      "message": "High memory usage: 98.1%",
-      "timestamp": 1752444601025,
-      "service": "System"
-    },
-    {
-      "id": "1752444901016_uw2p2d6re",
-      "severity": "critical",
-      "message": "High memory usage: 98.4%",
-      "timestamp": 1752444901016,
-      "service": "System"
-    },
-    {
-      "id": "1752445201019_9q7899e5r",
-      "severity": "critical",
-      "message": "High memory usage: 97.8%",
-      "timestamp": 1752445201020,
-      "service": "System"
-    },
-    {
-      "id": "1752445801031_x17d1fryr",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752445801031,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752446701013_790jiam4z",
-      "severity": "critical",
-      "message": "High memory usage: 99.6%",
-      "timestamp": 1752446701014,
-      "service": "System"
-    },
-    {
-      "id": "1752447301023_5bhblv1uc",
-      "severity": "critical",
-      "message": "High memory usage: 99.4%",
-      "timestamp": 1752447301024,
-      "service": "System"
-    },
-    {
-      "id": "1752448501018_tsy1c1tf0",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752448501018,
-      "service": "System"
-    },
-    {
-      "id": "1752449101021_852evs90t",
-      "severity": "critical",
-      "message": "High memory usage: 98.2%",
-      "timestamp": 1752449101021,
-      "service": "System"
-    },
-    {
-      "id": "1752449401021_ehie9qrw9",
-      "severity": "critical",
-      "message": "High memory usage: 97.9%",
-      "timestamp": 1752449401021,
-      "service": "System"
-    },
-    {
-      "id": "1752449701021_2n58almr1",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752449701021,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752450301025_arwh78uf4",
-      "severity": "critical",
-      "message": "High memory usage: 99.6%",
-      "timestamp": 1752450301026,
-      "service": "System"
-    },
-    {
-      "id": "1752450601026_8c0j3hihj",
-      "severity": "critical",
-      "message": "High memory usage: 99.2%",
-      "timestamp": 1752450601026,
-      "service": "System"
-    },
-    {
-      "id": "1752450901024_7mlp39g3b",
-      "severity": "critical",
-      "message": "High memory usage: 99.4%",
-      "timestamp": 1752450901024,
-      "service": "System"
-    },
-    {
-      "id": "1752452101027_u6nc4iac6",
-      "severity": "critical",
-      "message": "High memory usage: 99.5%",
-      "timestamp": 1752452101027,
-      "service": "System"
-    },
-    {
-      "id": "1752453001042_a3b5nc9xj",
-      "severity": "critical",
-      "message": "High memory usage: 98.8%",
-      "timestamp": 1752453001042,
-      "service": "System"
-    },
-    {
-      "id": "1752453301031_drbc0py1f",
-      "severity": "critical",
-      "message": "High memory usage: 99.1%",
-      "timestamp": 1752453301031,
-      "service": "System"
-    },
-    {
-      "id": "1752453301031_z3griddvy",
-      "severity": "warning",
-      "message": "Service Analysis has been inactive for over 6 hours",
-      "timestamp": 1752453301031,
-      "service": "Analysis"
-    },
-    {
-      "id": "1752453601022_vmsodqhlp",
-      "severity": "critical",
-      "message": "High memory usage: 98.6%",
-      "timestamp": 1752453601022,
-      "service": "System"
-    },
-    {
-      "id": "1752453901060_7oyn0k6ru",
-      "severity": "critical",
-      "message": "High memory usage: 98.1%",
-      "timestamp": 1752453901060,
+      "timestamp": 1752597901021,
       "service": "System"
     }
   ]

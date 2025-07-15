@@ -7,7 +7,7 @@ export class MockDataFileService extends DataFileService {
   private mockStrategies = [
     {
       name: "Mock-Strategy-Home",
-      side: { betSide: "home" },
+      side: { betSide: "higherOdds" },
       size: { expression: "200", stakingMethod: "fixed" }, // 200 is HKJC minimum
       factors: [
         {
@@ -20,7 +20,7 @@ export class MockDataFileService extends DataFileService {
     },
     {
       name: "Mock-Strategy-Away", 
-      side: { betSide: "away" },
+      side: { betSide: "higherOdds" },
       size: { expression: "200", stakingMethod: "fixed" },
       factors: [
         {

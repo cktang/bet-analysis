@@ -8,6 +8,16 @@ export class AppController {
     res.redirect('/analysis/drill-app');
   }
 
+  @Get('drill')
+  redirectDrillToAnalysis(@Res() res: Response) {
+    res.redirect('/analysis/drill-app');
+  }
+
+  @Get('drill/*')
+  redirectDrillWildcardToAnalysis(@Res() res: Response) {
+    res.redirect('/analysis/drill-app');
+  }
+
   @Get('health')
   healthCheck() {
     return { 

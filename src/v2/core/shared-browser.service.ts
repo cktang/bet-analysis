@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { chromium, BrowserContext, Page } from 'playwright';
-import { hkjc_login, hkjc_logout } from '../../parsers/others/hkjc-util.js';
+import { hkjc_login, hkjc_logout } from '../../utils/hkjc-util.js';
 
 export interface BrowserConfig {
   headless: boolean;

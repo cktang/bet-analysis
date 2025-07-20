@@ -6,6 +6,7 @@ import { MockDataFileService } from '../core/mock-data-file.service';
 import { CoreModule } from '../core/core.module';
 import { DATA_FILE_SERVICE } from './tokens';
 import { BettingDecisionService } from './betting-decision.service';
+import { LiveEnhancementService } from './live-enhancement.service';
 
 @Module({})
 export class LiveTradingModule {
@@ -23,8 +24,9 @@ export class LiveTradingModule {
         BettingExecutorService,
         BettingDecisionService,
         OddsMonitorService,
+        LiveEnhancementService,
       ],
-      exports: [DATA_FILE_SERVICE, BettingExecutorService, OddsMonitorService, BettingDecisionService],
+      exports: [DATA_FILE_SERVICE, BettingExecutorService, OddsMonitorService, BettingDecisionService, LiveEnhancementService],
     };
   }
 } 

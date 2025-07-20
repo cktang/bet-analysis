@@ -7,14 +7,12 @@ import { SharedBrowserService, BrowserConfig } from '../core/shared-browser.serv
 import { DATA_FILE_SERVICE } from './tokens';
 import * as fs from 'fs';
 import * as path from 'path';
-import * as chokidar from 'chokidar';
 
 @Injectable()
 export class OddsMonitorService {
   private isRunning = false;
   private lastOddsData: any = null;
-  private fileWatcher: chokidar.FSWatcher;
-  private readonly logPrefix = '[OddsMonitorService]';
+  private readonly logPrefix = '[OddsMonitor]';
   private readonly serviceName = 'OddsMonitor';
 
   constructor(
@@ -24,85 +22,27 @@ export class OddsMonitorService {
   ) {}
 
   async onModuleInit() {
-    console.log(`${this.logPrefix} 📊 Odds Monitor Service initialized - FILE-BASED MODE`);
-    
-    // Initialize with empty odds data first (immediate)
-    this.lastOddsData = {
-      timestamp: Date.now(),
-      matches: [],
-      source: 'hkjc',
-      totalMatches: 0
-    };
-    
-    // Write initial empty odds data to file
+    // Initialize with empty odds data
+    this.lastOddsData = { timestamp: Date.now(), matches: [], source: 'hkjc' };
     await this.dataFileService.writeFile('odds-data.json', this.lastOddsData);
     
-    console.log(`${this.logPrefix} 📊 Odds Monitor ready - will scrape real HKJC data`);
-    
-    // Initialize browser with delay to prevent startup conflicts, then start monitoring
+    // Start monitoring after short delay
     setTimeout(async () => {
       try {
-        console.log(`${this.logPrefix} 📊 Starting odds monitor browser initialization...`);
         await this.initializeBrowser();
-        
-        // Start monitoring immediately after browser is ready
-        const systemConfig = this.dataFileService.getSystemConfig();
-        console.log(`${this.logPrefix} 📊 ${systemConfig.mockMode ? 'Mock' : 'Real'} mode detected - starting odds monitoring from HKJC`);
         await this.monitorOdds();
       } catch (error) {
-        console.error(`${this.logPrefix} ❌ Delayed odds monitor initialization failed:`, error);
+        console.error(`${this.logPrefix} Initialization failed:`, error);
       }
-    }, 1000); // 1 second delay to start first
-    
-    // Set up file watcher for triggers
-    this.setupFileWatcher();
-  }
-
-  private setupFileWatcher() {
-    // Watch for fixtures to determine when to monitor odds
-    this.fileWatcher = chokidar.watch('./data/v2/fixtures.json');
-    this.fileWatcher.on('change', async () => {
-      console.log(`${this.logPrefix} 📊 Fixtures updated, checking for trading window matches...`);
-      await this.checkTradingWindowMatches();
-    });
-  }
-
-  private async checkTradingWindowMatches() {
-    try {
-      const fixtures = await this.dataFileService.getFixtures();
-      const now = new Date();
-      
-      // Check for matches in trading window (5-10 minutes from kickoff)
-      const tradingWindowMatches = fixtures.filter((fixture: any) => {
-        const kickoff = new Date(fixture.kickoffTime);
-        const timeDiff = kickoff.getTime() - now.getTime();
-        const minutesUntilKickoff = timeDiff / (1000 * 60);
-        return minutesUntilKickoff >= 5 && minutesUntilKickoff <= 10;
-      });
-      
-      if (tradingWindowMatches.length > 0) {
-        console.log(`${this.logPrefix} 📊 ${tradingWindowMatches.length} matches in trading window, monitoring odds...`);
-        await this.monitorOdds();
-      }
-    } catch (error) {
-      console.error(`${this.logPrefix} ❌ Error checking trading window matches:`, error);
-    }
+    }, 2000);
   }
 
   async onModuleDestroy() {
-    if (this.fileWatcher) {
-      await this.fileWatcher.close();
-    }
-    // Clean up browser instance
     await this.sharedBrowserService.cleanupService(this.serviceName);
-    console.log(`${this.logPrefix} 📊 Odds Monitor shutdown complete`);
   }
 
-  @Cron('0 */1 * * * *') // Every minute during live trading hours
+  @Cron('0 */5 * * * *') // Every 5 minutes during trading hours
   async scheduledOddsMonitor() {
-    const interval = this.configService.get('ODDS_MONITOR_INTERVAL', 60000);
-    
-    // Only run during trading hours (adjust as needed)
     const now = new Date();
     const hour = now.getHours();
     
@@ -115,48 +55,38 @@ export class OddsMonitorService {
     if (this.isRunning) return;
     
     this.isRunning = true;
-    console.log(`${this.logPrefix} 📊 Monitoring HKJC odds...`);
+    console.log(`${this.logPrefix} Scraping HKJC odds...`);
     
     try {
       await this.initializeBrowser();
       const oddsData = await this.scrapeCurrentOdds();
       
-      if (oddsData && oddsData.matches.length > 0) {
-        await this.saveOddsData(oddsData);
-        await this.detectOddsChanges(oddsData);
+      if (oddsData?.matches?.length > 0) {
         this.lastOddsData = oddsData;
-        
-        // Write updated odds to file for other services
         await this.dataFileService.writeFile('odds-data.json', oddsData);
+        console.log(`${this.logPrefix} Saved ${oddsData.matches.length} matches`);
       }
       
       return oddsData;
     } catch (error) {
-      console.error(`${this.logPrefix} ❌ Odds monitoring failed:`, error);
-      throw error;
+      console.error(`${this.logPrefix} Failed:`, (error as Error).message);
+      return null;
     } finally {
       this.isRunning = false;
-      // DON'T close browser - keep it persistent for continuous operation
-      console.log(`${this.logPrefix} ✅ Odds monitoring completed, browser kept alive for next run`);
     }
   }
 
   private async initializeBrowser() {
-    // Get browser configuration from injected data service (respects mock mode)
     const browserConfig = this.dataFileService.getBrowserConfig();
-    console.log(`${this.logPrefix} 📊 Odds Monitor Browser config: headless=${browserConfig.headless}`);
-    
     const config: BrowserConfig = {
       headless: browserConfig.headless,
       timeout: 30000,
       userDataDir: './data/v2/browser-odds-monitor',
       debuggingPort: 9225,
-      userAgent: 'OddsMonitor-Process'
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     };
     
-    // Initialize browser through shared service
     await this.sharedBrowserService.getPageInstance(this.serviceName, config);
-    console.log(`${this.logPrefix} ✅ ISOLATED odds monitor browser initialized (port 9225, profile: browser-odds-monitor)`);
   }
 
   private async scrapeCurrentOdds(): Promise<any> {
@@ -172,20 +102,15 @@ export class OddsMonitorService {
     // Get HKJC URLs from injected data service (respects mock/real mode)
     const urlConfig = this.dataFileService.getHKJCUrls();
     const url = urlConfig.url;
-    console.log(`${this.logPrefix} 📊 Using ${urlConfig.mockMode ? 'MOCK' : 'REAL'} mode URL: ${url} URL configured`);
-    console.log(`${this.logPrefix} 📊 Configuration: timeout=${urlConfig.timeout}ms, retryAttempts=${urlConfig.retryAttempts}`);
-    
     let pageLoaded = false;
     try {
-      console.log(`${this.logPrefix} 📊 Trying HKJC URL: ${url}`);
       await page.goto(url, { 
         timeout: urlConfig.timeout || 30000,
-        waitUntil: 'networkidle'
+        waitUntil: 'domcontentloaded'
       });
       pageLoaded = true;
-      console.log(`${this.logPrefix} ✅ Successfully loaded: ${url}`);
     } catch (error) {
-      console.log(`${this.logPrefix} ❌ Failed to load ${url}: ${(error as Error).message}`);
+      // Failed to load page
     }
     
     if (!pageLoaded) {
@@ -193,7 +118,6 @@ export class OddsMonitorService {
     }
     
     // Wait for dynamic content to load and fixtures to appear
-    console.log(`${this.logPrefix} ⏳ Waiting for fixtures to appear...`);
     await this.waitForFixturesToLoad(page);
     
     // Use improved DOM-based scraping method
@@ -225,9 +149,7 @@ export class OddsMonitorService {
         const matchCount = await page.$$eval('.match-row', (elements) => elements.length);
         
         if (matchCount > 0) {
-          console.log(`${this.logPrefix} ✅ Found ${matchCount} fixture rows`);
-          
-          // Wait a bit more for odds to load
+            // Wait a bit more for odds to load
           await page.waitForTimeout(3000);
           
           // Verify odds are loaded by checking for handicap data
@@ -239,15 +161,12 @@ export class OddsMonitorService {
           });
           
           if (oddsLoaded) {
-            console.log(`${this.logPrefix} ✅ Odds data loaded successfully`);
             return;
           }
         }
         
-        console.log(`${this.logPrefix} ⏳ Waiting for fixtures to appear...`);
         await page.waitForTimeout(checkInterval);
       } catch (error) {
-        console.log(`${this.logPrefix} ⚠️ Error checking fixtures:`, (error as Error).message);
         await page.waitForTimeout(checkInterval);
       }
     }
@@ -256,11 +175,6 @@ export class OddsMonitorService {
   }
 
   private async scrapeMatchesFromDOM(page: Page): Promise<any[]> {
-    console.log(`${this.logPrefix} 🔍 Scraping matches using DOM-based method...`);
-    
-    // Debug: Check what elements are actually available
-    const pageHTML = await page.content();
-    console.log(`${this.logPrefix} 🔍 Page HTML length: ${pageHTML.length} characters`);
     
     // Try multiple possible selectors for HKJC match rows
     const possibleSelectors = [
@@ -281,8 +195,6 @@ export class OddsMonitorService {
     for (const selector of possibleSelectors) {
       try {
         const elements = await page.$$(selector);
-        console.log(`${this.logPrefix} 🔍 Selector "${selector}": found ${elements.length} elements`);
-        
         if (elements.length > 0) {
           // Check if these elements contain match-like data
           const hasMatchData = await page.$$eval(selector, (elements) => {
@@ -295,17 +207,15 @@ export class OddsMonitorService {
           if (hasMatchData) {
             matchElements = elements;
             usedSelector = selector;
-            console.log(`${this.logPrefix} ✅ Found match data using selector: "${selector}"`);
             break;
           }
         }
       } catch (error) {
-        console.log(`${this.logPrefix} ❌ Selector "${selector}" failed: ${(error as Error).message}`);
+        // Selector failed, try next one
       }
     }
     
     if (matchElements.length === 0) {
-      console.log(`${this.logPrefix} ❌ No match elements found with any selector`);
       return [];
     }
     
@@ -398,13 +308,10 @@ export class OddsMonitorService {
           date: null
         };
         
-        console.log(`\n--- Parsing element with ID: ${element.id || 'NO_ID'} ---`);
-        
         // Extract match ID from element ID (HDC_FB3224 -> FB3224)
         const matchId = element.id;
         if (matchId && matchId.startsWith('HDC_')) {
           match.id = matchId.replace('HDC_', '');
-          console.log(`Extracted match ID: ${match.id}`);
         }
         
         // Extract date - look for date/time patterns
@@ -413,37 +320,27 @@ export class OddsMonitorService {
           const dateElement = element.querySelector(selector);
           if (dateElement) {
             const dateText = dateElement.textContent?.trim();
-            console.log(`Found date element "${selector}": "${dateText}"`);
             if (dateText && /\d{2}\/\d{2}\/\d{4}/.test(dateText)) {
               match.date = dateText;
-              console.log(`Set match date: ${match.date}`);
               break;
             }
           }
         }
         
-        // Extract team names - try multiple approaches
-        console.log(`Looking for team names...`);
-        
-        // Method 1: .team div[title="All Odds"] structure
+        // Extract team names - Method 1: .team div[title="All Odds"] structure
         const teamContainer = element.querySelector('.team div[title="All Odds"]');
         if (teamContainer) {
           const teamDivs = teamContainer.querySelectorAll('div');
-          console.log(`Found ${teamDivs.length} team divs in .team container`);
           if (teamDivs.length >= 2) {
             match.homeTeam = teamDivs[0].textContent?.trim() || null;
             match.awayTeam = teamDivs[1].textContent?.trim() || null;
-            console.log(`Teams from .team container: "${match.homeTeam}" vs "${match.awayTeam}"`);
           }
         }
         
         // Method 2: Look for any team-like content if method 1 failed
         if (!match.homeTeam || !match.awayTeam) {
-          console.log(`Team container method failed, trying alternative approaches...`);
-          
           // Look for text content that might contain team names
           const fullText = element.textContent || '';
-          console.log(`Full element text: "${fullText.substring(0, 200)}..."`);
           
           // Try to find known team patterns
           const teamPatterns = [
@@ -455,19 +352,15 @@ export class OddsMonitorService {
           for (const pattern of teamPatterns) {
             const match_pattern = fullText.match(pattern);
             if (match_pattern) {
-              console.log(`Found team pattern match:`, match_pattern);
               // This would need custom logic per pattern
             }
           }
         }
         
         // Extract handicap and odds from .oddsLine structure
-        console.log(`Looking for odds line...`);
         const oddsLine = element.querySelector('.oddsLine.HDC');
         if (oddsLine) {
-          console.log(`Found .oddsLine.HDC element`);
           const oddsItems = oddsLine.querySelectorAll('.hdcOddsItem');
-          console.log(`Found ${oddsItems.length} .hdcOddsItem elements`);
           
           if (oddsItems.length >= 2) {
             // First item is home team ([+0.5/+1] 1.95)
@@ -479,16 +372,12 @@ export class OddsMonitorService {
             const awayItem = oddsItems[1];
             const awayOddsElement = awayItem.querySelector('.add-to-slip');
             
-            console.log(`Home cond: "${homeCondElement?.textContent?.trim()}", odds: "${homeOddsElement?.textContent?.trim()}"`);
-            console.log(`Away odds: "${awayOddsElement?.textContent?.trim()}"`);
-            
             if (homeCondElement && homeOddsElement && awayOddsElement) {
               // Parse handicap from home condition [+0.5/+1] -> 0.75
               const handicapText = homeCondElement.textContent?.trim();
               if (handicapText) {
                 const cleanHandicap = handicapText.replace(/[\[\]]/g, '');
                 match.handicap = parseHandicap(cleanHandicap);
-                console.log(`Parsed handicap: "${handicapText}" -> ${match.handicap}`);
               }
               
               // Parse odds
@@ -498,20 +387,16 @@ export class OddsMonitorService {
               if (homeOddsText && awayOddsText) {
                 match.homeOdds = parseFloat(homeOddsText);
                 match.awayOdds = parseFloat(awayOddsText);
-                console.log(`Parsed odds: home=${match.homeOdds}, away=${match.awayOdds}`);
               }
             }
           }
         } else {
-          console.log(`No .oddsLine.HDC found, trying fallback odds extraction...`);
-          
           // Fallback: use the general odds extraction method
           const oddsData = extractOddsFromElement(element);
           if (oddsData) {
             match.handicap = oddsData.handicap;
             match.homeOdds = oddsData.homeOdds;
             match.awayOdds = oddsData.awayOdds;
-            console.log(`Fallback extraction: handicap=${match.handicap}, home=${match.homeOdds}, away=${match.awayOdds}`);
           }
         }
         
@@ -527,23 +412,11 @@ export class OddsMonitorService {
           match.state = 'live';
         }
         
-        console.log(`Final match data:`, {
-          id: match.id,
-          homeTeam: match.homeTeam,
-          awayTeam: match.awayTeam,
-          handicap: match.handicap,
-          homeOdds: match.homeOdds,
-          awayOdds: match.awayOdds,
-          date: match.date,
-          isValid: !!(match.homeTeam && match.awayTeam && match.homeOdds && match.awayOdds)
-        });
-        
         // Validate match data - must have teams and odds
         if (match.homeTeam && match.awayTeam && match.homeOdds && match.awayOdds) {
           return match;
         }
         
-        console.log(`Match validation failed - missing required data`);
         return null;
       };
       
@@ -553,24 +426,8 @@ export class OddsMonitorService {
           // Skip invisible elements
           if (element.offsetParent === null) return;
           
-          console.log(`Processing element ${index + 1}/${elements.length}`);
-          
-          // Debug: Show element content
-          const elementText = element.textContent || '';
-          console.log(`Element text preview: "${elementText.substring(0, 200)}..."`);
-          
           // Extract data using DOM structure instead of string splitting
           const match = parseMatchElement(element);
-          
-          console.log(`Parsed match data:`, {
-            id: match?.id,
-            homeTeam: match?.homeTeam,
-            awayTeam: match?.awayTeam,
-            handicap: match?.handicap,
-            homeOdds: match?.homeOdds,
-            awayOdds: match?.awayOdds,
-            isValid: !!match
-          });
           
           if (match) {
             results.push({
@@ -588,14 +445,13 @@ export class OddsMonitorService {
             });
           }
         } catch (error) {
-          console.log(`${this.logPrefix} ❌ Error parsing match element ${index}:`, (error as Error).message);
+          // Skip failed elements
         }
       });
       
       return results;
     });
     
-    console.log(`${this.logPrefix} ✅ Successfully scraped ${matches.length} matches`);
     return matches;
   }
 
@@ -611,7 +467,6 @@ export class OddsMonitorService {
     }
     
     await fs.promises.writeFile(filepath, JSON.stringify(oddsData, null, 2));
-    console.log(`${this.logPrefix} 💾 Saved ${oddsData.matches.length} matches to odds-movement/${filename}`);
   }
 
   private async detectOddsChanges(newOddsData: any) {
@@ -642,10 +497,6 @@ export class OddsMonitorService {
     }
     
     if (changes.length > 0) {
-      console.log(`${this.logPrefix} 🔄 Detected ${changes.length} odds changes:`, 
-        changes.map(c => `${c.match}: H${c.homeOdds.change > 0 ? '+' : ''}${c.homeOdds.change.toFixed(3)}, A${c.awayOdds.change > 0 ? '+' : ''}${c.awayOdds.change.toFixed(3)}`).join(', ')
-      );
-      
       // Emit odds change events (for strategy decision engine)
       // EventBus implementation would go here
     }

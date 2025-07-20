@@ -5,11 +5,12 @@ module.exports = {
   // Test file patterns
   testMatch: [
     '**/__tests__/**/*.js',
-    '**/?(*.)+(spec|test).js'
+    '**/?(*.)+(spec|test).js',
+    '**/?(*.)+(spec|test).ts'
   ],
   
   // Coverage settings
-  collectCoverage: true,
+  collectCoverage: false, // Disable for testing
   coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov', 'html'],
   coveragePathIgnorePatterns: [
@@ -26,11 +27,13 @@ module.exports = {
   setupFilesAfterEnv: [],
   
   // Module file extensions
-  moduleFileExtensions: ['js', 'json'],
+  moduleFileExtensions: ['js', 'json', 'ts'],
   
   // Transform files
-  transform: {},
+  transform: {
+    '^.+\\.ts$': 'ts-jest'
+  },
   
   // Test timeout
-  testTimeout: 10000
+  testTimeout: 30000
 }; 

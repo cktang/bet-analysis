@@ -1,512 +1,1333 @@
-# Football Betting Analysis System - Project Overview
+# Development Guidelines for Claude
 
-## 🚨 **FOR NEW AGENTS: CRITICAL INFORMATION**
+## Core Philosophy
 
-**📖 READ FIRST**: [docs/guides/NEW_AGENT_GUIDE.md](docs/guides/NEW_AGENT_GUIDE.md) - Essential guide explaining project boundaries, what's complete, and where to contribute safely.
+**TEST-DRIVEN DEVELOPMENT IS NON-NEGOTIABLE.** Every single line of production code must be written in response to a failing test. No exceptions. This is not a suggestion or a preference - it is the fundamental practice that enables all other principles in this document.
 
-**📊 PROJECT STATUS**: [PROJECT_STATUS.md](PROJECT_STATUS.md) - Current status overview and next phase opportunities.
+I follow Test-Driven Development (TDD) with a strong emphasis on behavior-driven testing and functional programming principles. All work should be done in small, incremental changes that maintain a working state throughout development.
 
-## 🎯 System Status: OPERATIONAL & ENHANCED
+## Quick Reference
 
-**⚠️ IMPORTANT**: This system is **COMPLETE and OPERATIONAL**. The strategy discovery phase is finished. Recent focus has been on **simplified dashboard interface, project cleanup, and deployment readiness**.
+**Key Principles:**
 
-**✅ COMPLETE**: Comprehensive betting analysis system with 20 proven profitable strategies  
-**✅ DATA PIPELINE**: Processing 1,126 EPL matches across 3 seasons (2022-2025)  
-**✅ STRATEGY VALIDATION**: Real betting records with 3-61% ROI documented  
-**✅ QUALITY ASSURANCE**: All data integrity issues resolved, comprehensive validation  
-**✅ SIMPLIFIED DASHBOARD**: Single drill interface for interactive pattern exploration  
-**✅ PROJECT CLEANUP**: Organized structure ready for live deployment
+- Write tests first (TDD)
+- Test behavior, not implementation
+- No `any` types or type assertions
+- Immutable data only
+- Small, pure functions
+- TypeScript strict mode always
+- Use real schemas/types in tests, never redefine them
 
-## 🆕 Recent Major Developments (December 2024)
+**Preferred Tools:**
 
-### Dashboard Simplification & Enhancement
-- **Single Drill Interface**: Simplified to focus on factor drilling at localhost:8888
-- **Enhanced Navigation**: Reset, Back, and breadcrumb jumping controls
-- **Individual Betting Records**: Real match data with complete details
-- **Add-Only Interface**: Streamlined factor selection with navigation-based modification
-- **Performance Optimization**: Faster loading with real-time data integration
+- **Language**: TypeScript (strict mode), Prefer Angular and NestJS and RXJS whenever possible
+- **Testing**: Jest/Vitest
+- **State Management**: Prefer immutable patterns, Prefer RXJS
 
-### Major Project Cleanup & Reorganization
-- **Documentation Structure**: Organized from 11+ scattered docs to clean `docs/` hierarchy
-  ```
-  docs/
-  ├── README.md          # Navigation guide
-  ├── guides/            # Technical implementation guides
-  ├── strategies/        # Betting strategy documentation  
-  └── archive/           # Historical planning documents
-  ```
-- **Root Level Cleanup**: Moved scripts to `scripts/`, data files to `data/`
-- **Dashboard Consolidation**: Removed multiple dashboard files, kept single drill interface
-- **System Files**: Removed all .DS_Store files, cleaned temporary files
+## Testing Principles
 
-### Pattern Discovery vs AH-Analysis Comparison
-Both systems validated for accuracy:
-- **Pattern-discovery**: 376 profitable strategies, 16,136 combinations tested, interactive exploration
-- **AH-analysis**: 127 profitable strategies, 727 combinations tested, static reports  
-- **Both use real match data** and AsianHandicapCalculator for profit calculations
-- **Pattern-discovery shows more realistic ROI ranges** (16-20% typical)
+### Behavior-Driven Testing
 
-### Dashboard Functionality Improvements
-- **Streamlined factor drilling**: Single interface for all factor exploration
-- **Individual betting records display**: Real match details, dates, teams, scores
-- **Navigation controls**: Reset, step-back, and breadcrumb jumping
-- **Simplified UX**: Removed complex multi-dashboard system for focused experience
+- **No "unit tests"** - this term is not helpful. Tests should verify expected behavior, treating implementation as a black box
+- Test through the public API exclusively - internals should be invisible to tests
+- No 1:1 mapping between test files and implementation files
+- Tests that examine internal implementation details are wasteful and should be avoided
+- **Coverage targets**: 100% coverage should be expected at all times, but these tests must ALWAYS be based on business behaviour, not implementation details
+- Tests must document expected business behaviour
 
-## 📊 Project Achievements
+### Testing Tools
 
-### Profitable Strategy Discovery
-- **20 winning strategies** identified and validated
-- **ROI range**: 3% to 61% across different strategy types
-- **2,000+ individual bets** analyzed with real profit/loss calculations
-- **Complete betting records** with actual team names, scores, and odds
+- **Jest** or **Vitest** for testing frameworks
+- **React Testing Library** for React components
+- **MSW (Mock Service Worker)** for API mocking when needed
+- All test code must follow the same TypeScript strict mode rules as production code
 
-### Data Processing Excellence
-- **1,126 total matches** processed across 3 seasons
-- **298 matches** enhanced with detailed FBRef incident data
-- **100% data quality** - fixed 2022-2023 incomplete processing
-- **v2.0 enhancement** with 8 new FBRef-based metrics
+### Test Organization
 
-### Technical Infrastructure
-- **Complete data pipeline** from raw files to enhanced analysis-ready datasets
-- **Machine learning approach** to strategy discovery and validation
-- **Statistical rigor** with correlation analysis and significance testing
-- **Professional validation** eliminating look-ahead bias and overfitting
-
-## 🏗️ Architecture Overview
-
-### Data Flow Pipeline
 ```
-Raw Match Files (*.txt) + FBRef Data (*.csv) + Team Mapping
-                    ↓
-        merge-football-data-json.js (Processing Engine)
-                    ↓
-        data/processed/year-YYYY-YYYY.json (TimeSeries + Outcomes)
-                    ↓
-        enhance-asian-handicap.js (FBRef Integration)
-                    ↓
-        data/enhanced/year-YYYY-YYYY-enhanced.json (Complete Dataset)
-                    ↓
-        Asian Handicap Analysis System (Strategy Discovery)
-                    ↓
-        20 Profitable Strategies with Real Betting Records
+src/
+  features/
+    payment/
+      payment-processor.ts
+      payment-validator.ts
+      payment-processor.test.ts // The validator is an implementation detail. Validation is fully covered, but by testing the expected business behaviour, treating the validation code itself as an implementation detail
 ```
 
-### Core Components
+### Test Data Pattern
 
-**Data Processing Scripts** (`src/scripts/`):
-- `merge-football-data-json.js` - Main data processing and timeSeries generation
-- `enhance-asian-handicap.js` - FBRef integration and advanced metrics
-- `process-all-fbref-incidents.sh` - FBRef data extraction pipeline
-- `update-team-mapping.js` - Team name normalization
-- `analyze-missing-matches.js` - Data quality validation
+Use factory functions with optional overrides for test data:
 
-**Analysis Engine** (`src/ah-analysis/`):
-- `ah_combination_generator.js` - Intelligent factor combination generation
-- `ah_combination_tester.js` - Statistical testing and backtesting
-- `run_feedback_loop.js` - Adaptive learning orchestration
-- `extract_actual_betting_records.js` - Real betting record extraction
-- `rules/` - Modular factor definitions and combinations
+```typescript
+const getMockPaymentPostPaymentRequest = (
+  overrides?: Partial<PostPaymentsRequestV3>
+): PostPaymentsRequestV3 => {
+  return {
+    CardAccountId: "1234567890123456",
+    Amount: 100,
+    Source: "Web",
+    AccountStatus: "Normal",
+    LastName: "Doe",
+    DateOfBirth: "1980-01-01",
+    PayingCardDetails: {
+      Cvv: "123",
+      Token: "token",
+    },
+    AddressDetails: getMockAddressDetails(),
+    Brand: "Visa",
+    ...overrides,
+  };
+};
 
-**Strategic Planning** (`plan/`):
-- Complete strategic framework documents
-- Risk management and validation methodologies
-- Implementation roadmaps and success metrics
-- Professional operational standards
-
-## 📁 Data Architecture
-
-### Raw Data Sources
-- **Match Files**: `data/raw/matches/YYYY-YYYY/` - Betting odds, handicap lines, market data
-- **FBRef Data**: `data/raw/fbref/YYYY-YYYY/` - Match incidents, cards, penalties, statistics
-- **Team Mapping**: `data/raw/team-mapping.csv` - Normalized team names across sources
-
-### Processed Datasets
-- **Season Data**: `data/processed/year-YYYY-YYYY.json` - Complete match data with timeSeries
-- **Enhanced Data**: `data/enhanced/year-YYYY-YYYY-enhanced.json` - With FBRef integration
-- **Betting Records**: `src/ah-analysis/winning_strategies_records_REAL/` - Strategy outputs
-
-### Data Quality Metrics
-- **Coverage**: 100% of EPL matches across 3 seasons
-- **Enhancement**: 26% of matches include detailed FBRef incident analysis
-- **Validation**: Complete timeSeries data for all 20 Premier League teams
-- **Integrity**: All data quality issues identified and resolved
-
-## 🎲 Winning Strategies Overview
-
-### Top Performing Strategies
-1. **Single_awayGoalDiff** - 17.73% profit (222 bets, 61.3% win rate)
-2. **European_Pressure** - 15.42% profit (65 bets, 55.4% win rate)
-3. **Single_homeFormLength** - 14.89% profit (47 bets, 57.4% win rate)
-4. **Single_awayTopSix** - 14.44% profit (90 bets, 56.7% win rate)
-5. **Single_awayFormLength** - 13.83% profit (47 bets, 57.4% win rate)
-
-### Strategy Categories
-- **Form Analysis**: Team performance streaks and momentum patterns
-- **Positional Strategies**: League table position and pressure situations
-- **Market Efficiency**: Odds vs actual team strength discrepancies
-- **Contextual Factors**: Season timing, European competition effects
-- **Advanced Combinations**: Multi-factor adaptive strategies
-
-### Validation Features
-- ✅ **Real historical data** with actual team names and match results
-- ✅ **Actual betting odds** used for profit/loss calculations
-- ✅ **No look-ahead bias** - only pre-match information used
-- ✅ **Statistical significance** - tested across multiple seasons
-- ✅ **Detailed documentation** - complete betting logic and records
-
-## 🔧 Technical Capabilities
-
-### Data Processing Engine
-- **Team Name Normalization**: Intelligent matching across data sources
-- **TimeSeries Generation**: Complete performance tracking for all teams
-- **Market Analysis**: Asian Handicap outcome calculations and efficiency metrics
-- **Quality Validation**: Comprehensive data integrity checks
-
-### Enhancement Features (v2.0)
-- **Match Cleanliness Score**: Penalty/card impact assessment
-- **Card Discipline Index**: Team discipline tracking over time
-- **Goal Timing Analysis**: Early vs late goal scoring patterns
-- **Substitution Patterns**: Tactical change impact analysis
-- **Incident Density**: Overall match intensity measurement
-- **Market Efficiency**: Comprehensive odds analysis and value detection
-
-### Analysis Framework
-- **Machine Learning Approach**: Adaptive factor combination discovery
-- **Statistical Validation**: Pearson correlation and significance testing
-- **Backtesting Engine**: Historical performance simulation with realistic constraints
-- **Strategy Optimization**: Threshold tuning for maximum profitability
-
-## 🛠️ Updated Usage Instructions
-
-### Dashboard Launch
-```bash
-# Start interactive drill dashboard
-node scripts/launch_dashboards.js
-
-# Access at:
-# http://localhost:8888 - Interactive factor drilling interface
+const getMockAddressDetails = (
+  overrides?: Partial<AddressDetails>
+): AddressDetails => {
+  return {
+    HouseNumber: "123",
+    HouseName: "Test House",
+    AddressLine1: "Test Address Line 1",
+    AddressLine2: "Test Address Line 2",
+    City: "Test City",
+    ...overrides,
+  };
+};
 ```
 
-### Data Processing Pipeline
-```bash
-# Process all seasons
-cd src/scripts
-node merge-football-data-json.js 2022
-node merge-football-data-json.js 2023
-node merge-football-data-json.js 2024
+Key principles:
 
-# Enhance with FBRef data
-node enhance-asian-handicap.js ../../data/processed/year-2022-2023.json ../../data/enhanced/year-2022-2023-enhanced.json
-node enhance-asian-handicap.js ../../data/processed/year-2023-2024.json ../../data/enhanced/year-2023-2024-enhanced.json
-node enhance-asian-handicap.js ../../data/processed/year-2024-2025.json ../../data/enhanced/year-2024-2025-enhanced.json
+- Always return complete objects with sensible defaults
+- Accept optional `Partial<T>` overrides
+- Build incrementally - extract nested object factories as needed
+- Compose factories for complex objects
+- Consider using a test data builder pattern for very complex objects
+
+## TypeScript Guidelines
+
+### Strict Mode Requirements
+
+```json
+// tsconfig.json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
 ```
 
-### Strategy Analysis
-```bash
-# Run complete analysis framework
-cd src/ah-analysis
-node run_feedback_loop.js
+- **No `any`** - ever. Use `unknown` if type is truly unknown
+- **No type assertions** (`as SomeType`) unless absolutely necessary with clear justification
+- **No `@ts-ignore`** or `@ts-expect-error` without explicit explanation
+- These rules apply to test code as well as production code
 
-# Extract betting records for profitable strategies
-node extract_actual_betting_records.js
+### Type Definitions
 
-# View results
-ls winning_strategies_records_REAL/
-cat winning_strategies_records_REAL/_MASTER_SUMMARY.json
+- **Prefer `type` over `interface`** in all cases
+- Use explicit typing where it aids clarity, but leverage inference where appropriate
+- Utilize utility types effectively (`Pick`, `Omit`, `Partial`, `Required`, etc.)
+- Create domain-specific types (e.g., `UserId`, `PaymentId`) for type safety
+- Use Zod or any other [Standard Schema](https://standardschema.dev/) compliant schema library to create types, by creating schemas first
+
+```typescript
+// Good
+type UserId = string & { readonly brand: unique symbol };
+type PaymentAmount = number & { readonly brand: unique symbol };
+
+// Avoid
+type UserId = string;
+type PaymentAmount = number;
 ```
 
-### Pattern Discovery Analysis
-```bash
-# Run pattern discovery system
-cd src/pattern-discovery
-node optimized_discovery.js
+#### Schema-First Development with Zod
 
-# Launch interactive dashboard
-cd ../..
-node scripts/launch_dashboards.js
+Always define your schemas first, then derive types from them:
+
+```typescript
+import { z } from "zod";
+
+// Define schemas first - these provide runtime validation
+const AddressDetailsSchema = z.object({
+  houseNumber: z.string(),
+  houseName: z.string().optional(),
+  addressLine1: z.string().min(1),
+  addressLine2: z.string().optional(),
+  city: z.string().min(1),
+  postcode: z.string().regex(/^[A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}$/i),
+});
+
+const PayingCardDetailsSchema = z.object({
+  cvv: z.string().regex(/^\d{3,4}$/),
+  token: z.string().min(1),
+});
+
+const PostPaymentsRequestV3Schema = z.object({
+  cardAccountId: z.string().length(16),
+  amount: z.number().positive(),
+  source: z.enum(["Web", "Mobile", "API"]),
+  accountStatus: z.enum(["Normal", "Restricted", "Closed"]),
+  lastName: z.string().min(1),
+  dateOfBirth: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  payingCardDetails: PayingCardDetailsSchema,
+  addressDetails: AddressDetailsSchema,
+  brand: z.enum(["Visa", "Mastercard", "Amex"]),
+});
+
+// Derive types from schemas
+type AddressDetails = z.infer<typeof AddressDetailsSchema>;
+type PayingCardDetails = z.infer<typeof PayingCardDetailsSchema>;
+type PostPaymentsRequestV3 = z.infer<typeof PostPaymentsRequestV3Schema>;
+
+// Use schemas at runtime boundaries
+export const parsePaymentRequest = (data: unknown): PostPaymentsRequestV3 => {
+  return PostPaymentsRequestV3Schema.parse(data);
+};
+
+// Example of schema composition for complex domains
+const BaseEntitySchema = z.object({
+  id: z.string().uuid(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
+
+const CustomerSchema = BaseEntitySchema.extend({
+  email: z.string().email(),
+  tier: z.enum(["standard", "premium", "enterprise"]),
+  creditLimit: z.number().positive(),
+});
+
+type Customer = z.infer<typeof CustomerSchema>;
 ```
 
-## 📈 Performance Metrics
+#### Schema Usage in Tests
 
-### System Performance
-- **Processing Speed**: ~30-60 seconds per season for complete enhancement
-- **Memory Usage**: ~100-200MB for full dataset processing
-- **Storage Efficiency**: ~4MB per enhanced season dataset
-- **Success Rate**: 100% data processing success across all seasons
+**CRITICAL**: Tests must use real schemas and types from the main project, not redefine their own.
 
-### Strategy Performance
-- **Discovery Rate**: 20 profitable strategies from comprehensive analysis
-- **Win Rate Range**: 45% to 85% depending on strategy selectivity
-- **ROI Distribution**: 3% to 61% across different strategy types
-- **Statistical Significance**: All strategies validated across multiple seasons
+```typescript
+// ❌ WRONG - Defining schemas in test files
+const ProjectSchema = z.object({
+  id: z.string(),
+  workspaceId: z.string(),
+  ownerId: z.string().nullable(),
+  name: z.string(),
+  createdAt: z.coerce.date(),
+  updatedAt: z.coerce.date(),
+});
 
-### Data Coverage
-- **2022-2023**: 380 matches, 106 with FBRef data (28% enhanced)
-- **2023-2024**: 373 matches, 80 with FBRef data (21% enhanced)
-- **2024-2025**: 373 matches, 112 with FBRef data (30% enhanced)
-
-## 🚀 Current Implementation Readiness
-
-### Simplified Dashboard Interface
-- **Single Drill Interface**: Focused factor exploration at localhost:8888
-- **Streamlined Navigation**: Reset, Back, and breadcrumb jumping controls
-- **Individual Bet Tracking**: Complete match details with profit/loss calculations
-- **Add-Only Design**: Simplified factor selection with navigation-based modification
-
-### Clean Project Structure
-- **Organized Documentation**: Clear separation of guides, strategies, and archives
-- **Logical File Organization**: Scripts, data, and docs in appropriate directories
-- **Deployment Ready**: Clean root level with essential files only
-- **Version Control**: All changes committed with clear history
-
-### Validated Analysis Systems
-- **Dual System Validation**: Both pattern-discovery and ah-analysis confirmed accurate
-- **Real Data Integration**: All calculations use actual EPL match data
-- **Conservative Estimates**: Realistic ROI expectations maintained
-- **Professional Standards**: Complete validation and testing frameworks
-
-### Next Phase Capabilities
-1. **Live Trading Implementation**: Deploy proven strategies with real-time data
-2. **Enhanced Pattern Discovery**: Expand interactive analysis capabilities  
-3. **Multi-Market Expansion**: Apply framework to additional leagues and bet types
-4. **Automated Execution**: Integrate with betting APIs for real-time execution
-
-## 📚 Updated Documentation Access
-
-### Quick Navigation
-- **New Contributors**: Start with [docs/guides/NEW_AGENT_GUIDE.md](docs/guides/NEW_AGENT_GUIDE.md)
-- **Strategy Implementation**: See [docs/strategies/RECOMMENDED_BETTING_STRATEGIES.md](docs/strategies/RECOMMENDED_BETTING_STRATEGIES.md)  
-- **Technical Details**: Browse [docs/guides/](docs/guides/) for implementation guides
-- **Historical Context**: Check [docs/archive/plan/](docs/archive/plan/) for development history
-- **Current Status**: Always refer to [PROJECT_STATUS.md](PROJECT_STATUS.md)
-
-### Interactive Tools
-- **Drill Dashboard**: `node scripts/launch_dashboards.js` then visit localhost:8888
-- **Pattern Discovery**: Drill down through factor combinations interactively
-- **Betting Records**: View individual bets with complete match details
-- **Performance Analysis**: Real-time strategy performance evaluation
-
-## ⚠️ Important Notes
-
-### 🚨 CRITICAL: MATCH IDENTIFICATION AND UNIQUE KEYS
-**⚠️ CATASTROPHIC BUG ALERT - SEASON MATCH COLLISIONS**
-
-**A critical bug was discovered in June 2024** that could have led to **devastating betting losses**. All agents must follow this rule:
-
-#### **💀 THE DEADLY BUG**
-```javascript
-// ❌ NEVER DO THIS - CAUSES SEASON COLLISIONS
-const matchKey = `${homeTeam} v ${awayTeam}`;  // "Southampton v Arsenal"
+// ✅ CORRECT - Import schemas from the shared schema package
+import { ProjectSchema, type Project } from "@your-org/schemas";
 ```
-
-**What went wrong**: Multi-season datasets have identical fixtures across years:
-- `Southampton v Arsenal` appears in 2022-23, 2023-24, AND 2024-25
-- Factor evaluation found FIRST match (early 2022-23 season)  
-- Results display showed LAST match (final 2024-25 season)
-- **Result**: Factor said "Southampton has win streak" (wrong match data)
-- **Reality**: Southampton had loss streak (correct match data)
-- **Outcome**: COMPLETELY FALSE ROI CALCULATIONS
-
-#### **✅ MANDATORY SOLUTION - ALWAYS INCLUDE SEASON**
-```javascript
-// ✅ REQUIRED FORMAT - ALWAYS DO THIS
-const matchKey = `${season}_${homeTeam} v ${awayTeam}`;  // "2024-25_Southampton v Arsenal"
-
-// ✅ EXTRACT SEASON FROM FILENAME
-const seasonMatch = file.match(/year-(\d{4})-(\d{4})-enhanced\.json/);
-const season = seasonMatch ? `${seasonMatch[1]}-${seasonMatch[2].slice(-2)}` : 'unknown';
-
-// ✅ DISPLAY SEASON IN UI
-`${homeTeam} v ${awayTeam} (${season})`
-```
-
-#### **💰 FINANCIAL IMPACT**
-- **Factor ROI calculations**: Completely wrong (could show +30% when actual is -20%)
-- **Strategy recommendations**: Based on wrong match evaluations  
-- **Real money losses**: Potentially catastrophic if deployed to live trading
-
-#### **🛡️ VALIDATION CHECKLIST**
-1. **Test with known duplicates**: Southampton v Arsenal, Manchester United v Liverpool
-2. **Question unexpected results**: Team with obvious losing streak selected by "win streak" factor
-3. **Include temporal context**: Season, week, date in ALL identifiers
-4. **Log verification**: Always display which specific match is being analyzed
-
-**Remember: In betting analysis, a small data error can cause catastrophic financial losses.** 💰⚠️
-
-### 🚨 CRITICAL: Asian Handicap vs 1X2 Betting
-**⚠️ NEVER CONFUSE ASIAN HANDICAP WITH WIN/LOSE/DRAW CALCULATIONS**
-
-Asian Handicap betting is fundamentally different from 1X2 (win/lose/draw) betting:
-
-1. **Two Outcomes Only**: Home team covers handicap OR away team covers handicap
-2. **No Draw**: Stakes returned if handicap exactly matches goal difference  
-3. **Handicap Coverage**: Calculations must be based on whether teams cover the spread, NOT match results
-4. **ROI Calculations**: Based on handicap coverage, not match win/lose outcomes
-
-**Example**: 
-- Match: Arsenal 2-1 Chelsea, Handicap: Arsenal -0.5
-- Arsenal covers (2-1 > 0.5), Arsenal handicap bet wins
-- Chelsea 1X2 loss ≠ Chelsea handicap loss (they covered +0.5)
-
-**⚠️ VALIDATION REQUIREMENT**: Always verify that betting analysis uses handicap coverage, not match results, to avoid inflated performance metrics.
-
-### System Integrity
-- **Analysis System**: `src/ah-analysis/` contains the complete working framework - DO NOT MODIFY
-- **Pattern Discovery**: `src/pattern-discovery/` provides interactive exploration capabilities
-- **Data Quality**: All datasets have been validated and quality issues resolved
-- **Strategy Validation**: All betting records use real historical data with actual odds
-- **No Biases**: System designed to eliminate look-ahead bias and overfitting
-
-### Operational Standards
-- **Professional Validation**: Comprehensive testing and quality assurance
-- **Realistic Expectations**: Conservative approach with validated ROI ranges
-- **Risk Management**: Built-in safeguards and validation frameworks
-- **Scalability**: Architecture supports expansion to additional markets and leagues
-
-## 🎯 Success Validation
-
-### Original Objectives: ACHIEVED
-- ✅ **Data Foundation**: Comprehensive, high-quality datasets
-- ✅ **Strategy Discovery**: Multiple profitable betting patterns identified
-- ✅ **Risk Management**: Professional validation and testing standards
-- ✅ **Implementation Ready**: Complete operational framework
-- ✅ **Simplified Interface**: Single drill dashboard for factor exploration
-- ✅ **Clean Organization**: Professional project structure
-
-### Professional Standards: MET
-- ✅ **Data Quality**: 100% coverage with comprehensive validation
-- ✅ **Statistical Rigor**: Proper correlation analysis and significance testing
-- ✅ **Realistic Returns**: Conservative validation with achievable ROI targets
-- ✅ **Operational Excellence**: Professional-grade implementation framework
-- ✅ **Documentation Standards**: Organized, navigable documentation structure
-- ✅ **Streamlined UX**: Focused, intuitive interface design
-
----
-
-**Status**: ✅ **SYSTEM ENHANCED & DEPLOYMENT READY** - Complete betting analysis system with simplified drill interface, clean project structure, and proven profitable strategies ready for live deployment.
-
-*This system represents successful evolution from concept through development to operational readiness, demonstrating systematic, data-driven approach to sports betting analysis with professional-grade tools and documentation.*
-
-## 🧠 Development Memories
-
-- When doing ah-analysis and creating intermediate scripts, do it in the `src/ah-analysis/script` folder
-- **New Memory**: New scripts related to ah-analysis to put in the `src/ah-analysis/scripts/` folder
-- **Dashboard Access**: Always use `node scripts/launch_dashboards.js` to start the single drill dashboard
-- **Project Structure**: Documentation now organized in `docs/` with clear subdirectories
-- **Pattern Discovery**: Both ah-analysis and pattern-discovery systems validated for accuracy
-- **Individual Records**: Dashboard shows actual betting records with real match data
-- **Simplified Interface**: Single drill dashboard with navigation controls (Reset, Back, Breadcrumb)
-
-## 🔄 Recent Conversation Context (December 2024)
-
-### Dashboard Simplification & Bug Fixing
-**Issue**: User experienced bugs in the multi-dashboard system and requested simplification.
-
-**Solution**: Consolidated to single drill interface:
-- Removed multiple dashboard files (`dashboard.html`, `web-dashboard.html`, `betting_records_viewer.html`, etc.)
-- Simplified `launch.js` to redirect directly to drill interface
-- Fixed various UI bugs including CSS hover states and remove button functionality
-- Implemented add-only interface with navigation-based modification
-
-**Navigation Enhancement**: Streamlined navigation system:
-- Reset button for full clear
-- Back button for step-by-step undo
-- Breadcrumb navigation for jumping to specific steps
-- Removed individual factor removal to prevent UI bugs
-
-### Project Cleanup & Organization
-**Root Level Cleanup**:
-- Moved script files to `scripts/` directory
-- Moved data files to `data/` directory
-- Removed all `.DS_Store` files and temporary files
-- Cleaned up repository structure
-
-**Documentation Reorganization**:
-- Created organized `docs/` structure with clear subdirectories
-- Moved planning documents to `docs/archive/plan/` (marked as completed)
-- Organized guides and strategies in appropriate subdirectories
-- Added navigation documentation
-
-**System Validation**:
-- Confirmed both pattern-discovery and ah-analysis systems use real match data
-- Validated AsianHandicapCalculator accuracy across both systems
-- Established complementary roles: pattern-discovery for exploration, ah-analysis for depth
-
-This conversation established the simplified dashboard system and clean project organization that supports focused factor exploration and analysis.
-
-# Claude Memory Bank
-
-## Project Context
-- This is a betting analysis system with data collection, processing, and live trading capabilities
-- The system processes football match data, odds movements, and makes automated betting decisions
-- Uses NestJS framework with TypeScript/JavaScript modules
-- Has both v1 (legacy) and v2 (current) implementations
-- Focuses on Asian handicap betting strategies and live betting automation
-
-## Key Memories
-
-### 1. Archive Directory Rule
-The archive/ directory contains historical/deprecated code and analysis that should be ignored when analyzing the current project structure. Focus on active components outside archive/.
-
-### 2. NO FAKE DATA IN FINANCIAL OPERATIONS (CRITICAL)
-**NEVER create fake, assumed, or fallback data in betting/financial systems:**
-
-❌ **NEVER DO:**
-- Generate fake timestamps (e.g., `new Date() + 1 hour`)
-- Create placeholder odds, stakes, or financial amounts
-- Use fallback dates like "current time + X" for match kickoffs
-- Assume default values for critical financial data (odds, handicap, stake)
-- Mock real financial data in production code paths
-
-✅ **ALWAYS DO:**
-- Return `null` or `undefined` when data parsing fails
-- Throw errors for invalid financial data
-- Skip operations entirely if critical data is missing
-- Fail fast rather than proceed with assumptions
-- Log the failure clearly and stop the financial operation
 
 **Why this matters:**
-- Fake timestamps → betting on matches that already started → financial losses
-- Wrong odds/stakes → incorrect bet amounts → unexpected losses/exposure
-- Assumed data → systematic errors → compounding losses
-- Better to miss opportunities than make wrong bets with fake data
 
-**Examples:**
+- **Type Safety**: Ensures tests use the same types as production code
+- **Consistency**: Changes to schemas automatically propagate to tests
+- **Maintainability**: Single source of truth for data structures
+- **Prevents Drift**: Tests can't accidentally diverge from real schemas
+
+**Implementation:**
+
+- All domain schemas should be exported from a shared schema package or module
+- Test files should import schemas from the shared location
+- If a schema isn't exported yet, add it to the exports rather than duplicating it
+- Mock data factories should use the real types derived from real schemas
+
 ```typescript
-// ❌ WRONG - creates fake data
-const kickoffTime = match.date ? parseDate(match.date) : new Date() + 1hour;
+// ✅ CORRECT - Test factories using real schemas
+import { ProjectSchema, type Project } from "@your-org/schemas";
 
-// ✅ RIGHT - fails explicitly  
-const kickoffTime = match.date ? parseDate(match.date) : null;
-if (!kickoffTime) return; // Skip operation entirely
+const getMockProject = (overrides?: Partial<Project>): Project => {
+  const baseProject = {
+    id: "proj_123",
+    workspaceId: "ws_456",
+    ownerId: "user_789",
+    name: "Test Project",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  };
+
+  const projectData = { ...baseProject, ...overrides };
+
+  // Validate against real schema to catch type mismatches
+  return ProjectSchema.parse(projectData);
+};
 ```
 
-### 3. Testable Code and Robust Testing Strategy
-Always write code that is easy to test by:
-- Making methods pure and focused on single responsibilities
-- Using dependency injection to allow mocking of external dependencies
-- Avoiding tight coupling between components
-- Exposing clear interfaces and contracts
+## Code Style
 
-When writing test cases:
-- Call the actual methods directly rather than duplicating their logic
-- Test the behavior and outcomes, not the implementation details
-- Use mocks/stubs for external dependencies (APIs, databases, etc.)
-- Focus on testing the public API and expected behavior
-- Avoid copying internal logic into tests - this creates maintenance burden when code changes
+### Functional Programming
 
-This approach ensures tests remain valid and don't become outdated when the underlying code changes rapidly, which is common in this fast-paced development environment.
+I follow a "functional light" approach:
 
-## Technical Stack
-- Backend: NestJS, TypeScript/JavaScript
-- Data Processing: Node.js scripts
-- Testing: Jest, Playwright
-- Data Storage: JSON files, potential database integration
-- Web Interface: Static HTML/CSS/JS
+- **No data mutation** - work with immutable data structures
+- **Pure functions** wherever possible
+- **Composition** as the primary mechanism for code reuse
+- Avoid heavy FP abstractions (no need for complex monads or pipe/compose patterns) unless there is a clear advantage to using them
+- Use array methods (`map`, `filter`, `reduce`) over imperative loops
 
-## Current Focus Areas
-- Live betting automation
-- Data collection and processing
-- Asian handicap calculations
-- Pattern discovery and strategy development
-- Health monitoring and system reliability
+#### Examples of Functional Patterns
+
+```typescript
+// Good - Pure function with immutable updates
+const applyDiscount = (order: Order, discountPercent: number): Order => {
+  return {
+    ...order,
+    items: order.items.map((item) => ({
+      ...item,
+      price: item.price * (1 - discountPercent / 100),
+    })),
+    totalPrice: order.items.reduce(
+      (sum, item) => sum + item.price * (1 - discountPercent / 100),
+      0
+    ),
+  };
+};
+
+// Good - Composition over complex logic
+const processOrder = (order: Order): ProcessedOrder => {
+  return pipe(
+    order,
+    validateOrder,
+    applyPromotions,
+    calculateTax,
+    assignWarehouse
+  );
+};
+
+// When heavy FP abstractions ARE appropriate:
+// - Complex async flows that benefit from Task/IO types
+// - Error handling chains that benefit from Result/Either types
+// Example with Result type for complex error handling:
+type Result<T, E = Error> =
+  | { success: true; data: T }
+  | { success: false; error: E };
+
+const chainPaymentOperations = (
+  payment: Payment
+): Result<Receipt, PaymentError> => {
+  return pipe(
+    validatePayment(payment),
+    chain(authorizePayment),
+    chain(capturePayment),
+    map(generateReceipt)
+  );
+};
+```
+
+### Code Structure
+
+- **No nested if/else statements** - use early returns, guard clauses, or composition
+- **Avoid deep nesting** in general (max 2 levels)
+- Keep functions small and focused on a single responsibility
+- Prefer flat, readable code over clever abstractions
+
+### Naming Conventions
+
+- **Functions**: `camelCase`, verb-based (e.g., `calculateTotal`, `validatePayment`)
+- **Types**: `PascalCase` (e.g., `PaymentRequest`, `UserProfile`)
+- **Constants**: `UPPER_SNAKE_CASE` for true constants, `camelCase` for configuration
+- **Files**: `kebab-case.ts` for all TypeScript files
+- **Test files**: `*.test.ts` or `*.spec.ts`
+
+### No Comments in Code
+
+Code should be self-documenting through clear naming and structure. Comments indicate that the code itself is not clear enough.
+
+```typescript
+// Avoid: Comments explaining what the code does
+const calculateDiscount = (price: number, customer: Customer): number => {
+  // Check if customer is premium
+  if (customer.tier === "premium") {
+    // Apply 20% discount for premium customers
+    return price * 0.8;
+  }
+  // Regular customers get 10% discount
+  return price * 0.9;
+};
+
+// Good: Self-documenting code with clear names
+const PREMIUM_DISCOUNT_MULTIPLIER = 0.8;
+const STANDARD_DISCOUNT_MULTIPLIER = 0.9;
+
+const isPremiumCustomer = (customer: Customer): boolean => {
+  return customer.tier === "premium";
+};
+
+const calculateDiscount = (price: number, customer: Customer): number => {
+  const discountMultiplier = isPremiumCustomer(customer)
+    ? PREMIUM_DISCOUNT_MULTIPLIER
+    : STANDARD_DISCOUNT_MULTIPLIER;
+
+  return price * discountMultiplier;
+};
+
+// Avoid: Complex logic with comments
+const processPayment = (payment: Payment): ProcessedPayment => {
+  // First validate the payment
+  if (!validatePayment(payment)) {
+    throw new Error("Invalid payment");
+  }
+
+  // Check if we need to apply 3D secure
+  if (payment.amount > 100 && payment.card.type === "credit") {
+    // Apply 3D secure for credit cards over £100
+    const securePayment = apply3DSecure(payment);
+    // Process the secure payment
+    return executePayment(securePayment);
+  }
+
+  // Process the payment
+  return executePayment(payment);
+};
+
+// Good: Extract to well-named functions
+const requires3DSecure = (payment: Payment): boolean => {
+  const SECURE_PAYMENT_THRESHOLD = 100;
+  return (
+    payment.amount > SECURE_PAYMENT_THRESHOLD && payment.card.type === "credit"
+  );
+};
+
+const processPayment = (payment: Payment): ProcessedPayment => {
+  if (!validatePayment(payment)) {
+    throw new PaymentValidationError("Invalid payment");
+  }
+
+  const securedPayment = requires3DSecure(payment)
+    ? apply3DSecure(payment)
+    : payment;
+
+  return executePayment(securedPayment);
+};
+```
+
+**Exception**: JSDoc comments for public APIs are acceptable when generating documentation, but the code should still be self-explanatory without them.
+
+### Prefer Options Objects
+
+Use options objects for function parameters as the default pattern. Only use positional parameters when there's a clear, compelling reason (e.g., single-parameter pure functions, well-established conventions like `map(item => item.value)`).
+
+```typescript
+// Avoid: Multiple positional parameters
+const createPayment = (
+  amount: number,
+  currency: string,
+  cardId: string,
+  customerId: string,
+  description?: string,
+  metadata?: Record<string, unknown>,
+  idempotencyKey?: string
+): Payment => {
+  // implementation
+};
+
+// Calling it is unclear
+const payment = createPayment(
+  100,
+  "GBP",
+  "card_123",
+  "cust_456",
+  undefined,
+  { orderId: "order_789" },
+  "key_123"
+);
+
+// Good: Options object with clear property names
+type CreatePaymentOptions = {
+  amount: number;
+  currency: string;
+  cardId: string;
+  customerId: string;
+  description?: string;
+  metadata?: Record<string, unknown>;
+  idempotencyKey?: string;
+};
+
+const createPayment = (options: CreatePaymentOptions): Payment => {
+  const {
+    amount,
+    currency,
+    cardId,
+    customerId,
+    description,
+    metadata,
+    idempotencyKey,
+  } = options;
+
+  // implementation
+};
+
+// Clear and readable at call site
+const payment = createPayment({
+  amount: 100,
+  currency: "GBP",
+  cardId: "card_123",
+  customerId: "cust_456",
+  metadata: { orderId: "order_789" },
+  idempotencyKey: "key_123",
+});
+
+// Avoid: Boolean flags as parameters
+const fetchCustomers = (
+  includeInactive: boolean,
+  includePending: boolean,
+  includeDeleted: boolean,
+  sortByDate: boolean
+): Customer[] => {
+  // implementation
+};
+
+// Confusing at call site
+const customers = fetchCustomers(true, false, false, true);
+
+// Good: Options object with clear intent
+type FetchCustomersOptions = {
+  includeInactive?: boolean;
+  includePending?: boolean;
+  includeDeleted?: boolean;
+  sortBy?: "date" | "name" | "value";
+};
+
+const fetchCustomers = (options: FetchCustomersOptions = {}): Customer[] => {
+  const {
+    includeInactive = false,
+    includePending = false,
+    includeDeleted = false,
+    sortBy = "name",
+  } = options;
+
+  // implementation
+};
+
+// Self-documenting at call site
+const customers = fetchCustomers({
+  includeInactive: true,
+  sortBy: "date",
+});
+
+// Good: Configuration objects for complex operations
+type ProcessOrderOptions = {
+  order: Order;
+  shipping: {
+    method: "standard" | "express" | "overnight";
+    address: Address;
+  };
+  payment: {
+    method: PaymentMethod;
+    saveForFuture?: boolean;
+  };
+  promotions?: {
+    codes?: string[];
+    autoApply?: boolean;
+  };
+};
+
+const processOrder = (options: ProcessOrderOptions): ProcessedOrder => {
+  const { order, shipping, payment, promotions = {} } = options;
+
+  // Clear access to nested options
+  const orderWithPromotions = promotions.autoApply
+    ? applyAvailablePromotions(order)
+    : order;
+
+  return executeOrder({
+    ...orderWithPromotions,
+    shippingMethod: shipping.method,
+    paymentMethod: payment.method,
+  });
+};
+
+// Acceptable: Single parameter for simple transforms
+const double = (n: number): number => n * 2;
+const getName = (user: User): string => user.name;
+
+// Acceptable: Well-established patterns
+const numbers = [1, 2, 3];
+const doubled = numbers.map((n) => n * 2);
+const users = fetchUsers();
+const names = users.map((user) => user.name);
+```
+
+**Guidelines for options objects:**
+
+- Default to options objects unless there's a specific reason not to
+- Always use for functions with optional parameters
+- Destructure options at the start of the function for clarity
+- Provide sensible defaults using destructuring
+- Keep related options grouped (e.g., all shipping options together)
+- Consider breaking very large options objects into nested groups
+
+**When positional parameters are acceptable:**
+
+- Single-parameter pure functions
+- Well-established functional patterns (map, filter, reduce callbacks)
+- Mathematical operations where order is conventional
+
+## Development Workflow
+
+### TDD Process - THE FUNDAMENTAL PRACTICE
+
+**CRITICAL**: TDD is not optional. Every feature, every bug fix, every change MUST follow this process:
+
+Follow Red-Green-Refactor strictly:
+
+1. **Red**: Write a failing test for the desired behavior. NO PRODUCTION CODE until you have a failing test.
+2. **Green**: Write the MINIMUM code to make the test pass. Resist the urge to write more than needed.
+3. **Refactor**: Assess the code for improvement opportunities. If refactoring would add value, clean up the code while keeping tests green. If the code is already clean and expressive, move on.
+
+**Common TDD Violations to Avoid:**
+
+- Writing production code without a failing test first
+- Writing multiple tests before making the first one pass
+- Writing more production code than needed to pass the current test
+- Skipping the refactor assessment step when code could be improved
+- Adding functionality "while you're there" without a test driving it
+
+**Remember**: If you're typing production code and there isn't a failing test demanding that code, you're not doing TDD.
+
+#### TDD Example Workflow
+
+```typescript
+// Step 1: Red - Start with the simplest behavior
+describe("Order processing", () => {
+  it("should calculate total with shipping cost", () => {
+    const order = createOrder({
+      items: [{ price: 30, quantity: 1 }],
+      shippingCost: 5.99,
+    });
+
+    const processed = processOrder(order);
+
+    expect(processed.total).toBe(35.99);
+    expect(processed.shippingCost).toBe(5.99);
+  });
+});
+
+// Step 2: Green - Minimal implementation
+const processOrder = (order: Order): ProcessedOrder => {
+  const itemsTotal = order.items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
+  return {
+    ...order,
+    shippingCost: order.shippingCost,
+    total: itemsTotal + order.shippingCost,
+  };
+};
+
+// Step 3: Red - Add test for free shipping behavior
+describe("Order processing", () => {
+  it("should calculate total with shipping cost", () => {
+    // ... existing test
+  });
+
+  it("should apply free shipping for orders over £50", () => {
+    const order = createOrder({
+      items: [{ price: 60, quantity: 1 }],
+      shippingCost: 5.99,
+    });
+
+    const processed = processOrder(order);
+
+    expect(processed.shippingCost).toBe(0);
+    expect(processed.total).toBe(60);
+  });
+});
+
+// Step 4: Green - NOW we can add the conditional because both paths are tested
+const processOrder = (order: Order): ProcessedOrder => {
+  const itemsTotal = order.items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
+  const shippingCost = itemsTotal > 50 ? 0 : order.shippingCost;
+
+  return {
+    ...order,
+    shippingCost,
+    total: itemsTotal + shippingCost,
+  };
+};
+
+// Step 5: Add edge case tests to ensure 100% behavior coverage
+describe("Order processing", () => {
+  // ... existing tests
+
+  it("should charge shipping for orders exactly at £50", () => {
+    const order = createOrder({
+      items: [{ price: 50, quantity: 1 }],
+      shippingCost: 5.99,
+    });
+
+    const processed = processOrder(order);
+
+    expect(processed.shippingCost).toBe(5.99);
+    expect(processed.total).toBe(55.99);
+  });
+});
+
+// Step 6: Refactor - Extract constants and improve readability
+const FREE_SHIPPING_THRESHOLD = 50;
+
+const calculateItemsTotal = (items: OrderItem[]): number => {
+  return items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+};
+
+const qualifiesForFreeShipping = (itemsTotal: number): boolean => {
+  return itemsTotal > FREE_SHIPPING_THRESHOLD;
+};
+
+const processOrder = (order: Order): ProcessedOrder => {
+  const itemsTotal = calculateItemsTotal(order.items);
+  const shippingCost = qualifiesForFreeShipping(itemsTotal)
+    ? 0
+    : order.shippingCost;
+
+  return {
+    ...order,
+    shippingCost,
+    total: itemsTotal + shippingCost,
+  };
+};
+```
+
+### Refactoring - The Critical Third Step
+
+Evaluating refactoring opportunities is not optional - it's the third step in the TDD cycle. After achieving a green state and committing your work, you MUST assess whether the code can be improved. However, only refactor if there's clear value - if the code is already clean and expresses intent well, move on to the next test.
+
+#### What is Refactoring?
+
+Refactoring means changing the internal structure of code without changing its external behavior. The public API remains unchanged, all tests continue to pass, but the code becomes cleaner, more maintainable, or more efficient. Remember: only refactor when it genuinely improves the code - not all code needs refactoring.
+
+#### When to Refactor
+
+- **Always assess after green**: Once tests pass, before moving to the next test, evaluate if refactoring would add value
+- **When you see duplication**: But understand what duplication really means (see DRY below)
+- **When names could be clearer**: Variable names, function names, or type names that don't clearly express intent
+- **When structure could be simpler**: Complex conditional logic, deeply nested code, or long functions
+- **When patterns emerge**: After implementing several similar features, useful abstractions may become apparent
+
+**Remember**: Not all code needs refactoring. If the code is already clean, expressive, and well-structured, commit and move on. Refactoring should improve the code - don't change things just for the sake of change.
+
+#### Refactoring Guidelines
+
+##### 1. Commit Before Refactoring
+
+Always commit your working code before starting any refactoring. This gives you a safe point to return to:
+
+```bash
+git add .
+git commit -m "feat: add payment validation"
+# Now safe to refactor
+```
+
+##### 2. Look for Useful Abstractions Based on Semantic Meaning
+
+Create abstractions only when code shares the same semantic meaning and purpose. Don't abstract based on structural similarity alone - **duplicate code is far cheaper than the wrong abstraction**.
+
+```typescript
+// Similar structure, DIFFERENT semantic meaning - DO NOT ABSTRACT
+const validatePaymentAmount = (amount: number): boolean => {
+  return amount > 0 && amount <= 10000;
+};
+
+const validateTransferAmount = (amount: number): boolean => {
+  return amount > 0 && amount <= 10000;
+};
+
+// These might have the same structure today, but they represent different
+// business concepts that will likely evolve independently.
+// Payment limits might change based on fraud rules.
+// Transfer limits might change based on account type.
+// Abstracting them couples unrelated business rules.
+
+// Similar structure, SAME semantic meaning - SAFE TO ABSTRACT
+const formatUserDisplayName = (firstName: string, lastName: string): string => {
+  return `${firstName} ${lastName}`.trim();
+};
+
+const formatCustomerDisplayName = (
+  firstName: string,
+  lastName: string
+): string => {
+  return `${firstName} ${lastName}`.trim();
+};
+
+const formatEmployeeDisplayName = (
+  firstName: string,
+  lastName: string
+): string => {
+  return `${firstName} ${lastName}`.trim();
+};
+
+// These all represent the same concept: "how we format a person's name for display"
+// They share semantic meaning, not just structure
+const formatPersonDisplayName = (
+  firstName: string,
+  lastName: string
+): string => {
+  return `${firstName} ${lastName}`.trim();
+};
+
+// Replace all call sites throughout the codebase:
+// Before:
+// const userLabel = formatUserDisplayName(user.firstName, user.lastName);
+// const customerName = formatCustomerDisplayName(customer.firstName, customer.lastName);
+// const employeeTag = formatEmployeeDisplayName(employee.firstName, employee.lastName);
+
+// After:
+// const userLabel = formatPersonDisplayName(user.firstName, user.lastName);
+// const customerName = formatPersonDisplayName(customer.firstName, customer.lastName);
+// const employeeTag = formatPersonDisplayName(employee.firstName, employee.lastName);
+
+// Then remove the original functions as they're no longer needed
+```
+
+**Questions to ask before abstracting:**
+
+- Do these code blocks represent the same concept or different concepts that happen to look similar?
+- If the business rules for one change, should the others change too?
+- Would a developer reading this abstraction understand why these things are grouped together?
+- Am I abstracting based on what the code IS (structure) or what it MEANS (semantics)?
+
+**Remember**: It's much easier to create an abstraction later when the semantic relationship becomes clear than to undo a bad abstraction that couples unrelated concepts.
+
+##### 3. Understanding DRY - It's About Knowledge, Not Code
+
+DRY (Don't Repeat Yourself) is about not duplicating **knowledge** in the system, not about eliminating all code that looks similar.
+
+```typescript
+// This is NOT a DRY violation - different knowledge despite similar code
+const validateUserAge = (age: number): boolean => {
+  return age >= 18 && age <= 100;
+};
+
+const validateProductRating = (rating: number): boolean => {
+  return rating >= 1 && rating <= 5;
+};
+
+const validateYearsOfExperience = (years: number): boolean => {
+  return years >= 0 && years <= 50;
+};
+
+// These functions have similar structure (checking numeric ranges), but they
+// represent completely different business rules:
+// - User age has legal requirements (18+) and practical limits (100)
+// - Product ratings follow a 1-5 star system
+// - Years of experience starts at 0 with a reasonable upper bound
+// Abstracting them would couple unrelated business concepts and make future
+// changes harder. What if ratings change to 1-10? What if legal age changes?
+
+// Another example of code that looks similar but represents different knowledge:
+const formatUserDisplayName = (user: User): string => {
+  return `${user.firstName} ${user.lastName}`.trim();
+};
+
+const formatAddressLine = (address: Address): string => {
+  return `${address.street} ${address.number}`.trim();
+};
+
+const formatCreditCardLabel = (card: CreditCard): string => {
+  return `${card.type} ${card.lastFourDigits}`.trim();
+};
+
+// Despite the pattern "combine two strings with space and trim", these represent
+// different domain concepts with different future evolution paths
+
+// This IS a DRY violation - same knowledge in multiple places
+class Order {
+  calculateTotal(): number {
+    const itemsTotal = this.items.reduce((sum, item) => sum + item.price, 0);
+    const shippingCost = itemsTotal > 50 ? 0 : 5.99; // Knowledge duplicated!
+    return itemsTotal + shippingCost;
+  }
+}
+
+class OrderSummary {
+  getShippingCost(itemsTotal: number): number {
+    return itemsTotal > 50 ? 0 : 5.99; // Same knowledge!
+  }
+}
+
+class ShippingCalculator {
+  calculate(orderAmount: number): number {
+    if (orderAmount > 50) return 0; // Same knowledge again!
+    return 5.99;
+  }
+}
+
+// Refactored - knowledge in one place
+const FREE_SHIPPING_THRESHOLD = 50;
+const STANDARD_SHIPPING_COST = 5.99;
+
+const calculateShippingCost = (itemsTotal: number): number => {
+  return itemsTotal > FREE_SHIPPING_THRESHOLD ? 0 : STANDARD_SHIPPING_COST;
+};
+
+// Now all classes use the single source of truth
+class Order {
+  calculateTotal(): number {
+    const itemsTotal = this.items.reduce((sum, item) => sum + item.price, 0);
+    return itemsTotal + calculateShippingCost(itemsTotal);
+  }
+}
+```
+
+##### 4. Maintain External APIs During Refactoring
+
+Refactoring must never break existing consumers of your code:
+
+```typescript
+// Original implementation
+export const processPayment = (payment: Payment): ProcessedPayment => {
+  // Complex logic all in one function
+  if (payment.amount <= 0) {
+    throw new Error("Invalid amount");
+  }
+
+  if (payment.amount > 10000) {
+    throw new Error("Amount too large");
+  }
+
+  // ... 50 more lines of validation and processing
+
+  return result;
+};
+
+// Refactored - external API unchanged, internals improved
+export const processPayment = (payment: Payment): ProcessedPayment => {
+  validatePaymentAmount(payment.amount);
+  validatePaymentMethod(payment.method);
+
+  const authorizedPayment = authorizePayment(payment);
+  const capturedPayment = capturePayment(authorizedPayment);
+
+  return generateReceipt(capturedPayment);
+};
+
+// New internal functions - not exported
+const validatePaymentAmount = (amount: number): void => {
+  if (amount <= 0) {
+    throw new Error("Invalid amount");
+  }
+
+  if (amount > 10000) {
+    throw new Error("Amount too large");
+  }
+};
+
+// Tests continue to pass without modification because external API unchanged
+```
+
+##### 5. Verify and Commit After Refactoring
+
+**CRITICAL**: After every refactoring:
+
+1. Run all tests - they must pass without modification
+2. Run static analysis (linting, type checking) - must pass
+3. Commit the refactoring separately from feature changes
+
+```bash
+# After refactoring
+npm test          # All tests must pass
+npm run lint      # All linting must pass
+npm run typecheck # TypeScript must be happy
+
+# Only then commit
+git add .
+git commit -m "refactor: extract payment validation helpers"
+```
+
+#### Refactoring Checklist
+
+Before considering refactoring complete, verify:
+
+- [ ] The refactoring actually improves the code (if not, don't refactor)
+- [ ] All tests still pass without modification
+- [ ] All static analysis tools pass (linting, type checking)
+- [ ] No new public APIs were added (only internal ones)
+- [ ] Code is more readable than before
+- [ ] Any duplication removed was duplication of knowledge, not just code
+- [ ] No speculative abstractions were created
+- [ ] The refactoring is committed separately from feature changes
+
+#### Example Refactoring Session
+
+```typescript
+// After getting tests green with minimal implementation:
+describe("Order processing", () => {
+  it("calculates total with items and shipping", () => {
+    const order = { items: [{ price: 30 }, { price: 20 }], shipping: 5 };
+    expect(calculateOrderTotal(order)).toBe(55);
+  });
+
+  it("applies free shipping over £50", () => {
+    const order = { items: [{ price: 30 }, { price: 25 }], shipping: 5 };
+    expect(calculateOrderTotal(order)).toBe(55);
+  });
+});
+
+// Green implementation (minimal):
+const calculateOrderTotal = (order: Order): number => {
+  const itemsTotal = order.items.reduce((sum, item) => sum + item.price, 0);
+  const shipping = itemsTotal > 50 ? 0 : order.shipping;
+  return itemsTotal + shipping;
+};
+
+// Commit the working version
+// git commit -m "feat: implement order total calculation with free shipping"
+
+// Assess refactoring opportunities:
+// - The variable names could be clearer
+// - The free shipping threshold is a magic number
+// - The calculation logic could be extracted for clarity
+// These improvements would add value, so proceed with refactoring:
+
+const FREE_SHIPPING_THRESHOLD = 50;
+
+const calculateItemsTotal = (items: OrderItem[]): number => {
+  return items.reduce((sum, item) => sum + item.price, 0);
+};
+
+const calculateShipping = (
+  baseShipping: number,
+  itemsTotal: number
+): number => {
+  return itemsTotal > FREE_SHIPPING_THRESHOLD ? 0 : baseShipping;
+};
+
+const calculateOrderTotal = (order: Order): number => {
+  const itemsTotal = calculateItemsTotal(order.items);
+  const shipping = calculateShipping(order.shipping, itemsTotal);
+  return itemsTotal + shipping;
+};
+
+// Run tests - they still pass!
+// Run linting - all clean!
+// Run type checking - no errors!
+
+// Now commit the refactoring
+// git commit -m "refactor: extract order total calculation helpers"
+```
+
+##### Example: When NOT to Refactor
+
+```typescript
+// After getting this test green:
+describe("Discount calculation", () => {
+  it("should apply 10% discount", () => {
+    const originalPrice = 100;
+    const discountedPrice = applyDiscount(originalPrice, 0.1);
+    expect(discountedPrice).toBe(90);
+  });
+});
+
+// Green implementation:
+const applyDiscount = (price: number, discountRate: number): number => {
+  return price * (1 - discountRate);
+};
+
+// Assess refactoring opportunities:
+// - Code is already simple and clear
+// - Function name clearly expresses intent
+// - Implementation is a straightforward calculation
+// - No magic numbers or unclear logic
+// Conclusion: No refactoring needed. This is fine as-is.
+
+// Commit and move to the next test
+// git commit -m "feat: add discount calculation"
+```
+
+### Commit Guidelines
+
+- Each commit should represent a complete, working change
+- Use conventional commits format:
+  ```
+  feat: add payment validation
+  fix: correct date formatting in payment processor
+  refactor: extract payment validation logic
+  test: add edge cases for payment validation
+  ```
+- Include test changes with feature changes in the same commit
+
+### Pull Request Standards
+
+- Every PR must have all tests passing
+- All linting and quality checks must pass
+- Work in small increments that maintain a working state
+- PRs should be focused on a single feature or fix
+- Include description of the behavior change, not implementation details
+
+## Working with Claude
+
+### Expectations
+
+When working with my code:
+
+1. **ALWAYS FOLLOW TDD** - No production code without a failing test. This is not negotiable.
+2. **Think deeply** before making any edits
+3. **Understand the full context** of the code and requirements
+4. **Ask clarifying questions** when requirements are ambiguous
+5. **Think from first principles** - don't make assumptions
+6. **Assess refactoring after every green** - Look for opportunities to improve code structure, but only refactor if it adds value
+7. **Keep project docs current** - update them whenever you introduce meaningful changes
+   **At the end of every change, update CLAUDE.md with anything useful you wished you'd known at the start**.
+   This is CRITICAL - Claude should capture learnings, gotchas, patterns discovered, or any context that would have made the task easier if known upfront. This continuous documentation ensures future work benefits from accumulated knowledge
+
+### Code Changes
+
+When suggesting or making changes:
+
+- **Start with a failing test** - always. No exceptions.
+- After making tests pass, always assess refactoring opportunities (but only refactor if it adds value)
+- After refactoring, verify all tests and static analysis pass, then commit
+- Respect the existing patterns and conventions
+- Maintain test coverage for all behavior changes
+- Keep changes small and incremental
+- Ensure all TypeScript strict mode requirements are met
+- Provide rationale for significant design decisions
+
+**If you find yourself writing production code without a failing test, STOP immediately and write the test first.**
+
+### Communication
+
+- Be explicit about trade-offs in different approaches
+- Explain the reasoning behind significant design decisions
+- Flag any deviations from these guidelines with justification
+- Suggest improvements that align with these principles
+- When unsure, ask for clarification rather than assuming
+
+## Example Patterns
+
+### Error Handling
+
+Use Result types or early returns:
+
+```typescript
+// Good - Result type pattern
+type Result<T, E = Error> =
+  | { success: true; data: T }
+  | { success: false; error: E };
+
+const processPayment = (
+  payment: Payment
+): Result<ProcessedPayment, PaymentError> => {
+  if (!isValidPayment(payment)) {
+    return { success: false, error: new PaymentError("Invalid payment") };
+  }
+
+  if (!hasSufficientFunds(payment)) {
+    return { success: false, error: new PaymentError("Insufficient funds") };
+  }
+
+  return { success: true, data: executePayment(payment) };
+};
+
+// Also good - early returns with exceptions
+const processPayment = (payment: Payment): ProcessedPayment => {
+  if (!isValidPayment(payment)) {
+    throw new PaymentError("Invalid payment");
+  }
+
+  if (!hasSufficientFunds(payment)) {
+    throw new PaymentError("Insufficient funds");
+  }
+
+  return executePayment(payment);
+};
+```
+
+### Testing Behavior
+
+```typescript
+// Good - tests behavior through public API
+describe("PaymentProcessor", () => {
+  it("should decline payment when insufficient funds", () => {
+    const payment = getMockPaymentPostPaymentRequest({ Amount: 1000 });
+    const account = getMockAccount({ Balance: 500 });
+
+    const result = processPayment(payment, account);
+
+    expect(result.success).toBe(false);
+    expect(result.error.message).toBe("Insufficient funds");
+  });
+
+  it("should process valid payment successfully", () => {
+    const payment = getMockPaymentPostPaymentRequest({ Amount: 100 });
+    const account = getMockAccount({ Balance: 500 });
+
+    const result = processPayment(payment, account);
+
+    expect(result.success).toBe(true);
+    expect(result.data.remainingBalance).toBe(400);
+  });
+});
+
+// Avoid - testing implementation details
+describe("PaymentProcessor", () => {
+  it("should call checkBalance method", () => {
+    // This tests implementation, not behavior
+  });
+});
+```
+
+#### Achieving 100% Coverage Through Business Behavior
+
+Example showing how validation code gets 100% coverage without testing it directly:
+
+```typescript
+// payment-validator.ts (implementation detail)
+export const validatePaymentAmount = (amount: number): boolean => {
+  return amount > 0 && amount <= 10000;
+};
+
+export const validateCardDetails = (card: PayingCardDetails): boolean => {
+  return /^\d{3,4}$/.test(card.cvv) && card.token.length > 0;
+};
+
+// payment-processor.ts (public API)
+export const processPayment = (
+  request: PaymentRequest
+): Result<Payment, PaymentError> => {
+  // Validation is used internally but not exposed
+  if (!validatePaymentAmount(request.amount)) {
+    return { success: false, error: new PaymentError("Invalid amount") };
+  }
+
+  if (!validateCardDetails(request.payingCardDetails)) {
+    return { success: false, error: new PaymentError("Invalid card details") };
+  }
+
+  // Process payment...
+  return { success: true, data: executedPayment };
+};
+
+// payment-processor.test.ts
+describe("Payment processing", () => {
+  // These tests achieve 100% coverage of validation code
+  // without directly testing the validator functions
+
+  it("should reject payments with negative amounts", () => {
+    const payment = getMockPaymentPostPaymentRequest({ amount: -100 });
+    const result = processPayment(payment);
+
+    expect(result.success).toBe(false);
+    expect(result.error.message).toBe("Invalid amount");
+  });
+
+  it("should reject payments exceeding maximum amount", () => {
+    const payment = getMockPaymentPostPaymentRequest({ amount: 10001 });
+    const result = processPayment(payment);
+
+    expect(result.success).toBe(false);
+    expect(result.error.message).toBe("Invalid amount");
+  });
+
+  it("should reject payments with invalid CVV format", () => {
+    const payment = getMockPaymentPostPaymentRequest({
+      payingCardDetails: { cvv: "12", token: "valid-token" },
+    });
+    const result = processPayment(payment);
+
+    expect(result.success).toBe(false);
+    expect(result.error.message).toBe("Invalid card details");
+  });
+
+  it("should process valid payments successfully", () => {
+    const payment = getMockPaymentPostPaymentRequest({
+      amount: 100,
+      payingCardDetails: { cvv: "123", token: "valid-token" },
+    });
+    const result = processPayment(payment);
+
+    expect(result.success).toBe(true);
+    expect(result.data.status).toBe("completed");
+  });
+});
+```
+
+### React Component Testing
+
+```typescript
+// Good - testing user-visible behavior
+describe("PaymentForm", () => {
+  it("should show error when submitting invalid amount", async () => {
+    render(<PaymentForm />);
+
+    const amountInput = screen.getByLabelText("Amount");
+    const submitButton = screen.getByRole("button", { name: "Submit Payment" });
+
+    await userEvent.type(amountInput, "-100");
+    await userEvent.click(submitButton);
+
+    expect(screen.getByText("Amount must be positive")).toBeInTheDocument();
+  });
+});
+```
+
+## Common Patterns to Avoid
+
+### Anti-patterns
+
+```typescript
+// Avoid: Mutation
+const addItem = (items: Item[], newItem: Item) => {
+  items.push(newItem); // Mutates array
+  return items;
+};
+
+// Prefer: Immutable update
+const addItem = (items: Item[], newItem: Item): Item[] => {
+  return [...items, newItem];
+};
+
+// Avoid: Nested conditionals
+if (user) {
+  if (user.isActive) {
+    if (user.hasPermission) {
+      // do something
+    }
+  }
+}
+
+// Prefer: Early returns
+if (!user || !user.isActive || !user.hasPermission) {
+  return;
+}
+// do something
+
+// Avoid: Large functions
+const processOrder = (order: Order) => {
+  // 100+ lines of code
+};
+
+// Prefer: Composed small functions
+const processOrder = (order: Order) => {
+  const validatedOrder = validateOrder(order);
+  const pricedOrder = calculatePricing(validatedOrder);
+  const finalOrder = applyDiscounts(pricedOrder);
+  return submitOrder(finalOrder);
+};
+```
+
+## Resources and References
+
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Testing Library Principles](https://testing-library.com/docs/guiding-principles)
+- [Kent C. Dodds Testing JavaScript](https://testingjavascript.com/)
+- [Functional Programming in TypeScript](https://gcanti.github.io/fp-ts/)
+
+## Summary
+
+The key is to write clean, testable, functional code that evolves through small, safe increments. Every change should be driven by a test that describes the desired behavior, and the implementation should be the simplest thing that makes that test pass. When in doubt, favor simplicity and readability over cleverness.

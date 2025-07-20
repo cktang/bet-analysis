@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Page } from 'playwright';
-import { hkjc_bet_handicap } from '../../parsers/others/hkjc-util.js';
+import { hkjc_bet_handicap } from '../../utils/hkjc-util.js';
 
 export interface BetRequest {
   betId: string;

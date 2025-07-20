@@ -1,7 +1,7 @@
 import { chromium, BrowserContext, Page } from 'playwright';
 import * as fs from 'fs';
 import * as path from 'path';
-import { hkjc_login } from '../../../parsers/others/hkjc-util.js';
+import { hkjc_login } from '../../../utils/hkjc-util.js';
 import { BettingExecutorService } from '../../live-trading/betting-executor.service';
 import { ConfigService } from '@nestjs/config';
 import { DataFileService } from '../../core/data-file.service';

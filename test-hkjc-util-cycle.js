@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 const path = require('path');
-const { hkjc_login, hkjc_logout } = require('./src/parsers/others/hkjc-util');
+const { hkjc_login, hkjc_logout } = require('./src/utils/hkjc-util');
 
 // Credentials and answers (from your test file)
 const credentials = {

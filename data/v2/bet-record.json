@@ -735,5 +735,43 @@
     "handicap": -1,
     "kickoffTime": "2025-07-15T17:00:00.000Z",
     "source": "odds-monitor"
+  },
+  {
+    "timestamp": "2025-07-15T18:35:00.228Z",
+    "status": "success",
+    "betId": "Mock-Strategy-Home_bet_1752604519997_FB3317_d9shubgc4",
+    "hkjcBetId": "HKJC_1752604534586_FB3317",
+    "message": "Bet placed successfully",
+    "executionTime": "2025-07-15T18:35:19.997Z",
+    "id": "decision_1752604500228_ot0xgji1q",
+    "matchId": "FB3317",
+    "homeTeam": "Forfar Athletic",
+    "awayTeam": "St. Mirren",
+    "strategyName": "Mock-Strategy-Home",
+    "betSide": "home",
+    "stake": 200,
+    "odds": 1.88,
+    "handicap": 1.75,
+    "kickoffTime": "2025-07-15T18:45:00.000Z",
+    "source": "odds-monitor"
+  },
+  {
+    "timestamp": "2025-07-15T18:35:00.228Z",
+    "status": "success",
+    "betId": "Mock-Strategy-Home_bet_1752604558511_FB3315_zljho84fc",
+    "hkjcBetId": "HKJC_1752604573115_FB3315",
+    "message": "Bet placed successfully",
+    "executionTime": "2025-07-15T18:35:58.512Z",
+    "id": "decision_1752604500228_voeetd2dh",
+    "matchId": "FB3315",
+    "homeTeam": "Hamilton Academical",
+    "awayTeam": "Hearts",
+    "strategyName": "Mock-Strategy-Home",
+    "betSide": "home",
+    "stake": 200,
+    "odds": 1.81,
+    "handicap": 1.75,
+    "kickoffTime": "2025-07-15T18:45:00.000Z",
+    "source": "odds-monitor"
   }
 ]

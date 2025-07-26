@@ -1,15 +1,18 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { ValidationPipe } from '@nestjs/common';
+import { NestExpressApplication } from '@nestjs/platform-express';
+import { join } from 'path';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  
-  // Enable validation
-  app.useGlobalPipes(new ValidationPipe());
+  const app = await NestFactory.create<NestExpressApplication>(AppModule);
   
   // Enable CORS for web interface
   app.enableCors();
+  
+  // Serve static files from utils directory
+  app.useStaticAssets(join(__dirname, 'utils'), {
+    prefix: '/utils/',
+  });
   
   console.log('🚀 Live Betting System V2 - NestJS Starting...');
   console.log('📊 Modules: Data Collection, Processing, Analysis, Live Trading, Factor Drilling');

@@ -73,7 +73,7 @@ npm run dev
 
 - **Strategy Files**: `data/v2/strategy.json`
 - **Factor Definitions**: `data/v2/factor_definitions.json`
-- **Utils**: `src/utils/AsianHandicapCalculator.js`
+- **Utils**: `src/v2/utils/drilling/AsianHandicapCalculator.js`
 - **Data Structure**: Compatible with `data/enhanced/` format
 
 ## 🎮 Integration Points

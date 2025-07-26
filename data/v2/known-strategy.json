@@ -1,0 +1,25 @@
+{
+  "factors": [
+    {
+      "category": "time",
+      "key": "veryEarly",
+      "expression": "preMatch.fbref.week >= 1 && preMatch.fbref.week <= 6"
+    },
+    {
+      "category": "ahLevel",
+      "key": "quarterHandicap",
+      "expression": "Math.abs(preMatch.match.asianHandicapOdds.homeHandicap) === 0.25"
+    }
+  ],
+  "side": {
+    "category": "side",
+    "key": "home",
+    "betSide": "home"
+  },
+  "size": {
+    "category": "size",
+    "key": "fix",
+    "expression": "1500",
+    "stakingMethod": "fixed"
+  }
+}

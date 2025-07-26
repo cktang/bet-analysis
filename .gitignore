@@ -28,6 +28,12 @@ build/
 *.log
 logs/
 
+# Genetic algorithm and strategy files
+data/v2/clean-genetic-log-*.txt
+data/v2/viable-strategies-*.json
+data/v2/enhanced-live-data.json
+data/v2/known-strategy.json
+
 # Environment files
 .env.local
 .env.development.local

@@ -1,0 +1,2879 @@
+{
+  "metadata": {
+    "totalMatches": 27,
+    "matchesWithFBRef": 0,
+    "matchesWithoutFBRef": 27,
+    "matchesWithEnhancements": 27,
+    "generatedAt": "2025-07-20T12:28:43.499Z",
+    "structure": {
+      "preMatch": "Predictive analysis available before match",
+      "postMatch": "Result-dependent analysis only after match completion",
+      "timeSeries": "Team streaks, patterns, and historical performance"
+    },
+    "source": "live-odds-monitor"
+  },
+  "matches": {
+    "Valerenga_v_Haugesund": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3431",
+          "date": "2025-07-20T12:28:43.487Z",
+          "homeTeam": "Valerenga",
+          "awayTeam": "Haugesund",
+          "asianHandicapOdds": {
+            "homeHandicap": "-1.75",
+            "homeOdds": 1.98,
+            "awayHandicap": "1.75",
+            "awayOdds": 1.82
+          },
+          "homeWinOdds": 1.98,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.82,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.75,
+          "ouCut": 6.44,
+          "homeImpliedProb": 50.51,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 54.95,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -1.75,
+          "efficiency": {
+            "ahCut": 5.45,
+            "hadCut": 35.75,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523489
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523488
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523488
+        }
+      }
+    },
+    "SJK Seinajoki_v_Gnistan": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3474",
+          "date": "2025-07-20T12:28:43.489Z",
+          "homeTeam": "SJK Seinajoki",
+          "awayTeam": "Gnistan",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.75",
+            "homeOdds": 1.96,
+            "awayHandicap": "0.75",
+            "awayOdds": 1.84
+          },
+          "homeWinOdds": 1.96,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.84,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.67,
+          "ouCut": 6.44,
+          "homeImpliedProb": 51.02,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 54.35,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.75,
+          "efficiency": {
+            "ahCut": 5.37,
+            "hadCut": 35.67,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523490
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523489
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523490
+        }
+      }
+    },
+    "Internacional_v_Ceara": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3461",
+          "date": "2025-07-20T12:28:43.490Z",
+          "homeTeam": "Internacional",
+          "awayTeam": "Ceara",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.75",
+            "homeOdds": 1.77,
+            "awayHandicap": "0.75",
+            "awayOdds": 2.04
+          },
+          "homeWinOdds": 1.77,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.04,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.82,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.5,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 49.02,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.75,
+          "efficiency": {
+            "ahCut": 5.52,
+            "hadCut": 35.82,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523490
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523490
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523490
+        }
+      }
+    },
+    "Halmstads_v_Hacken": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3416",
+          "date": "2025-07-20T12:28:43.490Z",
+          "homeTeam": "Halmstads",
+          "awayTeam": "Hacken",
+          "asianHandicapOdds": {
+            "homeHandicap": "0.25",
+            "homeOdds": 2.12,
+            "awayHandicap": "-0.25",
+            "awayOdds": 1.72
+          },
+          "homeWinOdds": 2.12,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.72,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.61,
+          "ouCut": 6.44,
+          "homeImpliedProb": 47.17,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 58.14,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0.25,
+          "efficiency": {
+            "ahCut": 5.31,
+            "hadCut": 35.61,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523491
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523490
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523491
+        }
+      }
+    },
+    "Tromso_v_Bryne": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3432",
+          "date": "2025-07-20T12:28:43.491Z",
+          "homeTeam": "Tromso",
+          "awayTeam": "Bryne",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.75",
+            "homeOdds": 1.78,
+            "awayHandicap": "0.75",
+            "awayOdds": 2.03
+          },
+          "homeWinOdds": 1.78,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.03,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.74,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.18,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 49.26,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.75,
+          "efficiency": {
+            "ahCut": 5.44,
+            "hadCut": 35.74,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523491
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523491
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523491
+        }
+      }
+    },
+    "Zenit St. Petersburg_v_Rostov": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3493",
+          "date": "2025-07-20T12:28:43.491Z",
+          "homeTeam": "Zenit St. Petersburg",
+          "awayTeam": "Rostov",
+          "asianHandicapOdds": {
+            "homeHandicap": "-1.75",
+            "homeOdds": 2.13,
+            "awayHandicap": "1.75",
+            "awayOdds": 1.7
+          },
+          "homeWinOdds": 2.13,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.7,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.07,
+          "ouCut": 6.44,
+          "homeImpliedProb": 46.95,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 58.82,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -1.75,
+          "efficiency": {
+            "ahCut": 5.77,
+            "hadCut": 36.07,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523491
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523491
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523491
+        }
+      }
+    },
+    "HJK Helsinki_v_AC Oulu": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3475",
+          "date": "2025-07-20T12:28:43.491Z",
+          "homeTeam": "HJK Helsinki",
+          "awayTeam": "AC Oulu",
+          "asianHandicapOdds": {
+            "homeHandicap": "-1",
+            "homeOdds": 1.9,
+            "awayHandicap": "1",
+            "awayOdds": 1.9
+          },
+          "homeWinOdds": 1.9,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.9,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.57,
+          "ouCut": 6.44,
+          "homeImpliedProb": 52.63,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 52.63,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -1,
+          "efficiency": {
+            "ahCut": 5.26,
+            "hadCut": 35.57,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523492
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        }
+      }
+    },
+    "Jaro_v_Ilves": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3476",
+          "date": "2025-07-20T12:28:43.492Z",
+          "homeTeam": "Jaro",
+          "awayTeam": "Ilves",
+          "asianHandicapOdds": {
+            "homeHandicap": "1.25",
+            "homeOdds": 1.77,
+            "awayHandicap": "-1.25",
+            "awayOdds": 2.04
+          },
+          "homeWinOdds": 1.77,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.04,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.82,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.5,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 49.02,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 1.25,
+          "efficiency": {
+            "ahCut": 5.52,
+            "hadCut": 35.82,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523492
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        }
+      }
+    },
+    "Union Saint Gilloise_v_Bruges": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3441",
+          "date": "2025-07-20T12:28:43.492Z",
+          "homeTeam": "Union Saint Gilloise",
+          "awayTeam": "Bruges",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.8,
+            "awayHandicap": "0",
+            "awayOdds": 2.01
+          },
+          "homeWinOdds": 1.8,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.01,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.61,
+          "ouCut": 6.44,
+          "homeImpliedProb": 55.56,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 49.75,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 5.31,
+            "hadCut": 35.61,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523492
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523492
+        }
+      }
+    },
+    "Ham-Kam_v_Fredrikstad": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3433",
+          "date": "2025-07-20T12:28:43.492Z",
+          "homeTeam": "Ham-Kam",
+          "awayTeam": "Fredrikstad",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.9,
+            "awayHandicap": "0",
+            "awayOdds": 1.9
+          },
+          "homeWinOdds": 1.9,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.9,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.57,
+          "ouCut": 6.44,
+          "homeImpliedProb": 52.63,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 52.63,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 5.26,
+            "hadCut": 35.57,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523494
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523493
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523493
+        }
+      }
+    },
+    "Pumas UNAM_v_Pachuca": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3471",
+          "date": "2025-07-20T12:28:43.494Z",
+          "homeTeam": "Pumas UNAM",
+          "awayTeam": "Pachuca",
+          "asianHandicapOdds": {
+            "homeHandicap": "0.25",
+            "homeOdds": 1.78,
+            "awayHandicap": "-0.25",
+            "awayOdds": 2.03
+          },
+          "homeWinOdds": 1.78,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.03,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.74,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.18,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 49.26,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0.25,
+          "efficiency": {
+            "ahCut": 5.44,
+            "hadCut": 35.74,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523494
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523494
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523494
+        }
+      }
+    },
+    "Vitoria_v_RB Bragantino": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3460",
+          "date": "2025-07-20T12:28:43.494Z",
+          "homeTeam": "Vitoria",
+          "awayTeam": "RB Bragantino",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.86,
+            "awayHandicap": "0",
+            "awayOdds": 1.94
+          },
+          "homeWinOdds": 1.86,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.94,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.61,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.76,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 51.55,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 5.31,
+            "hadCut": 35.61,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523494
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523494
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523494
+        }
+      }
+    },
+    "Newell's Old Boys_v_Banfield": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3488",
+          "date": "2025-07-20T12:28:43.494Z",
+          "homeTeam": "Newell's Old Boys",
+          "awayTeam": "Banfield",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.25",
+            "homeOdds": 1.87,
+            "awayHandicap": "0.25",
+            "awayOdds": 1.93
+          },
+          "homeWinOdds": 1.87,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.93,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.59,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.48,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 51.81,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.25,
+          "efficiency": {
+            "ahCut": 5.29,
+            "hadCut": 35.59,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523495
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        }
+      }
+    },
+    "Palmeiras_v_Atletico Mineiro": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3478",
+          "date": "2025-07-20T12:28:43.495Z",
+          "homeTeam": "Palmeiras",
+          "awayTeam": "Atletico Mineiro",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.75",
+            "homeOdds": 1.86,
+            "awayHandicap": "0.75",
+            "awayOdds": 1.94
+          },
+          "homeWinOdds": 1.86,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.94,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.61,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.76,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 51.55,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.75,
+          "efficiency": {
+            "ahCut": 5.31,
+            "hadCut": 35.61,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523495
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        }
+      }
+    },
+    "Belgrano_v_Racing Club": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3485",
+          "date": "2025-07-20T12:28:43.495Z",
+          "homeTeam": "Belgrano",
+          "awayTeam": "Racing Club",
+          "asianHandicapOdds": {
+            "homeHandicap": "0.25",
+            "homeOdds": 1.75,
+            "awayHandicap": "-0.25",
+            "awayOdds": 2.07
+          },
+          "homeWinOdds": 1.75,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.07,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.76,
+          "ouCut": 6.44,
+          "homeImpliedProb": 57.14,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 48.31,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0.25,
+          "efficiency": {
+            "ahCut": 5.45,
+            "hadCut": 35.76,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523495
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        }
+      }
+    },
+    "Independiente_v_Talleres": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3486",
+          "date": "2025-07-20T12:28:43.495Z",
+          "homeTeam": "Independiente",
+          "awayTeam": "Talleres",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.25",
+            "homeOdds": 1.65,
+            "awayHandicap": "0.25",
+            "awayOdds": 2.17
+          },
+          "homeWinOdds": 1.65,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2.17,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.99,
+          "ouCut": 6.44,
+          "homeImpliedProb": 60.61,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 46.08,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.25,
+          "efficiency": {
+            "ahCut": 6.69,
+            "hadCut": 36.99,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523496
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523495
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        }
+      }
+    },
+    "CF America_v_Toluca": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3496",
+          "date": "2025-07-20T12:28:43.496Z",
+          "homeTeam": "CF America",
+          "awayTeam": "Toluca",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.92,
+            "awayHandicap": "0",
+            "awayOdds": 1.84
+          },
+          "homeWinOdds": 1.92,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.84,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.73,
+          "ouCut": 6.44,
+          "homeImpliedProb": 52.08,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 54.35,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 6.43,
+            "hadCut": 36.73,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523496
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        }
+      }
+    },
+    "Avispa Fukuoka_v_Kyoto Sanga": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3418",
+          "date": "2025-07-20T12:28:43.496Z",
+          "homeTeam": "Avispa Fukuoka",
+          "awayTeam": "Kyoto Sanga",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.88,
+            "awayHandicap": "0",
+            "awayOdds": 1.92
+          },
+          "homeWinOdds": 1.88,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.92,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 35.58,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.19,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 52.08,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 5.27,
+            "hadCut": 35.58,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523496
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        }
+      }
+    },
+    "Seoul City Women_v_Incheon Steel Women": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3518",
+          "date": "2025-07-20T12:28:43.496Z",
+          "homeTeam": "Seoul City Women",
+          "awayTeam": "Incheon Steel Women",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.25",
+            "homeOdds": 1.74,
+            "awayHandicap": "0.25",
+            "awayOdds": 1.97
+          },
+          "homeWinOdds": 1.74,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.97,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 38.54,
+          "ouCut": 6.44,
+          "homeImpliedProb": 57.47,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 50.76,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.25,
+          "efficiency": {
+            "ahCut": 8.23,
+            "hadCut": 38.54,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523496
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        }
+      }
+    },
+    "FC Orenburg_v_CSKA Moscow": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3495",
+          "date": "2025-07-20T12:28:43.496Z",
+          "homeTeam": "FC Orenburg",
+          "awayTeam": "CSKA Moscow",
+          "asianHandicapOdds": {
+            "homeHandicap": "1",
+            "homeOdds": 1.88,
+            "awayHandicap": "-1",
+            "awayOdds": 1.88
+          },
+          "homeWinOdds": 1.88,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.88,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.69,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.19,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 53.19,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 1,
+          "efficiency": {
+            "ahCut": 6.38,
+            "hadCut": 36.69,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523497
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523496
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        }
+      }
+    },
+    "IFK Mariehamn_v_Haka": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3479",
+          "date": "2025-07-20T12:28:43.497Z",
+          "homeTeam": "IFK Mariehamn",
+          "awayTeam": "Haka",
+          "asianHandicapOdds": {
+            "homeHandicap": "0.25",
+            "homeOdds": 1.96,
+            "awayHandicap": "-0.25",
+            "awayOdds": 1.81
+          },
+          "homeWinOdds": 1.96,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.81,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.57,
+          "ouCut": 6.44,
+          "homeImpliedProb": 51.02,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 55.25,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0.25,
+          "efficiency": {
+            "ahCut": 6.27,
+            "hadCut": 36.57,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523497
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        }
+      }
+    },
+    "Norrkoping_v_Varnamo": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3419",
+          "date": "2025-07-20T12:28:43.497Z",
+          "homeTeam": "Norrkoping",
+          "awayTeam": "Varnamo",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.25",
+            "homeOdds": 1.83,
+            "awayHandicap": "0.25",
+            "awayOdds": 1.93
+          },
+          "homeWinOdds": 1.83,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.93,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.76,
+          "ouCut": 6.44,
+          "homeImpliedProb": 54.64,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 51.81,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.25,
+          "efficiency": {
+            "ahCut": 6.46,
+            "hadCut": 36.76,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523497
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        }
+      }
+    },
+    "Estudiantes_v_Huracan": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3503",
+          "date": "2025-07-20T12:28:43.497Z",
+          "homeTeam": "Estudiantes",
+          "awayTeam": "Huracan",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.25",
+            "homeOdds": 1.77,
+            "awayHandicap": "0.25",
+            "awayOdds": 2
+          },
+          "homeWinOdds": 1.77,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.8,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.5,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 50,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.25,
+          "efficiency": {
+            "ahCut": 6.5,
+            "hadCut": 36.8,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523497
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523497
+        }
+      }
+    },
+    "Huachipato_v_O'Higgins": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3467",
+          "date": "2025-07-20T12:28:43.497Z",
+          "homeTeam": "Huachipato",
+          "awayTeam": "O'Higgins",
+          "asianHandicapOdds": {
+            "homeHandicap": "0",
+            "homeOdds": 1.77,
+            "awayHandicap": "0",
+            "awayOdds": 2
+          },
+          "homeWinOdds": 1.77,
+          "drawOdds": 3.3,
+          "awayWinOdds": 2,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.8,
+          "ouCut": 6.44,
+          "homeImpliedProb": 56.5,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 50,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 0,
+          "efficiency": {
+            "ahCut": 6.5,
+            "hadCut": 36.8,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523498
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        }
+      }
+    },
+    "Defensa y Justicia_v_Aldosivi": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3487",
+          "date": "2025-07-20T12:28:43.498Z",
+          "homeTeam": "Defensa y Justicia",
+          "awayTeam": "Aldosivi",
+          "asianHandicapOdds": {
+            "homeHandicap": "-0.75",
+            "homeOdds": 2.12,
+            "awayHandicap": "0.75",
+            "awayOdds": 1.68
+          },
+          "homeWinOdds": 2.12,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.68,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 37,
+          "ouCut": 6.44,
+          "homeImpliedProb": 47.17,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 59.52,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -0.75,
+          "efficiency": {
+            "ahCut": 6.69,
+            "hadCut": 37,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523498
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        }
+      }
+    },
+    "England Women_v_Italy Women": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3505",
+          "date": "2025-07-20T12:28:43.498Z",
+          "homeTeam": "England Women",
+          "awayTeam": "Italy Women",
+          "asianHandicapOdds": {
+            "homeHandicap": "-1",
+            "homeOdds": 1.87,
+            "awayHandicap": "1",
+            "awayOdds": 1.89
+          },
+          "homeWinOdds": 1.87,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.89,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.69,
+          "ouCut": 6.44,
+          "homeImpliedProb": 53.48,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 52.91,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": -1,
+          "efficiency": {
+            "ahCut": 6.39,
+            "hadCut": 36.69,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523498
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        }
+      }
+    },
+    "Germany Women_v_Spain Women": {
+      "preMatch": {
+        "match": {
+          "eventId": "FB3520",
+          "date": "2025-07-20T12:28:43.498Z",
+          "homeTeam": "Germany Women",
+          "awayTeam": "Spain Women",
+          "asianHandicapOdds": {
+            "homeHandicap": "1",
+            "homeOdds": 1.99,
+            "awayHandicap": "-1",
+            "awayOdds": 1.78
+          },
+          "homeWinOdds": 1.99,
+          "drawOdds": 3.3,
+          "awayWinOdds": 1.78,
+          "over2_5Odds": 1.7,
+          "under2_5Odds": 2.1,
+          "source": "live-odds-monitor",
+          "timestamp": 1753014523368
+        },
+        "fbref": {},
+        "enhanced": {
+          "hadCut": 36.73,
+          "ouCut": 6.44,
+          "homeImpliedProb": 50.25,
+          "drawImpliedProb": 30.3,
+          "awayImpliedProb": 56.18,
+          "over2_5ImpliedProb": 58.82,
+          "under2_5ImpliedProb": 47.62
+        },
+        "marketEfficiency": {
+          "ahHandicap": 1,
+          "efficiency": {
+            "ahCut": 6.43,
+            "hadCut": 36.73,
+            "ouCut": 6.44
+          },
+          "timestamp": 1753014523499
+        }
+      },
+      "postMatch": {
+        "actualResults": {},
+        "performance": {},
+        "incidents": {},
+        "asianHandicapResults": {}
+      },
+      "timeSeries": {
+        "home": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523498
+        },
+        "away": {
+          "currentForm": {
+            "winStreak": 0,
+            "lossStreak": 0,
+            "drawStreak": 0,
+            "homeWinStreak": 0,
+            "awayWinStreak": 0,
+            "scoredStreak": 0,
+            "cleanSheetStreak": 0
+          },
+          "performance": {
+            "played": 0,
+            "winRate": 0,
+            "goalsPerGame": 0,
+            "concededPerGame": 0,
+            "pointsPerGame": 0
+          },
+          "recentForm": {
+            "last5": [],
+            "last5WinRate": 0,
+            "last10WinRate": 0
+          },
+          "leaguePosition": {
+            "current": null,
+            "trend": "stable"
+          },
+          "calculatedAt": 1753014523499
+        }
+      }
+    }
+  }
+}

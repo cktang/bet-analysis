@@ -32,7 +32,9 @@
       "Bash(echo:*)",
       "Bash(cat:*)",
       "Bash(kill:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(open http://localhost:3000/v2/analysis/drilling-tool/)",
+      "Bash(open http://localhost:3001/v2/analysis/drilling-tool/)"
     ],
     "deny": []
   }

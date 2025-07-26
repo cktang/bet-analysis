@@ -387,45 +387,15 @@ export class ResultsTrackerService {
     odds: number, 
     stake: number
   ): any {
-    // Asian Handicap calculation
-    const adjustedHomeScore = homeScore + (betSide === 'home' ? handicap : 0);
-    const adjustedAwayScore = awayScore + (betSide === 'away' ? -handicap : 0);
+    // Use shared AsianHandicapCalculator for consistent calculations
+    const AsianHandicapCalculator = require('../utils/drilling/AsianHandicapCalculator.js');
+    const result = AsianHandicapCalculator.calculate(homeScore, awayScore, handicap, betSide, odds, stake);
     
-    let outcome: string;
-    let payout: number;
-    let profit: number;
-    
-    if (betSide === 'home') {
-      if (adjustedHomeScore > awayScore) {
-        outcome = 'win';
-        payout = stake * odds;
-        profit = payout - stake;
-      } else if (adjustedHomeScore === awayScore) {
-        outcome = 'push';
-        payout = stake;
-        profit = 0;
-      } else {
-        outcome = 'loss';
-        payout = 0;
-        profit = -stake;
-      }
-    } else {
-      if (adjustedAwayScore > homeScore) {
-        outcome = 'win';
-        payout = stake * odds;
-        profit = payout - stake;
-      } else if (adjustedAwayScore === homeScore) {
-        outcome = 'push';
-        payout = stake;
-        profit = 0;
-      } else {
-        outcome = 'loss';
-        payout = 0;
-        profit = -stake;
-      }
-    }
-    
-    return { outcome, payout, profit };
+    return {
+      outcome: result.outcome,
+      payout: result.payout,
+      profit: result.profit
+    };
   }
 
   private updateStrategyPerformance(strategyName: string): void {

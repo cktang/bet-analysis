@@ -14,7 +14,7 @@ import { LiveTradingModule } from './live-trading';
     }),
     ScheduleModule.forRoot(),
     AnalysisModule,
-    LiveTradingModule.register(),
+    // LiveTradingModule.register(),
   ],
 })
 export class AppModule {}

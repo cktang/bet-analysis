@@ -69,12 +69,14 @@ class AsianHandicapCalculator {
         if (decimal === 0.25) {
             // -0.25 splits to -0.5 and 0
             // +0.25 splits to 0 and +0.5
+            // -1.25 splits to -1.0 and -1.5
+            // +1.25 splits to +1.0 and +1.5
             if (h > 0) {
-                h1 = 0;
+                h1 = h - 0.25;
                 h2 = h + 0.25;
             } else {
                 h1 = h - 0.25;
-                h2 = 0;
+                h2 = h + 0.25;
             }
         } else if (decimal === 0.75) {
             // -0.75 splits to -0.5 and -1
@@ -355,4 +357,9 @@ class AsianHandicapCalculator {
     }
 }
 
-module.exports = AsianHandicapCalculator; 
+// Support both Node.js and browser environments
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = AsianHandicapCalculator;
+} else if (typeof window !== 'undefined') {
+    window.AsianHandicapCalculator = AsianHandicapCalculator;
+} 

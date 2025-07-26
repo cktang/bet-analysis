@@ -20,7 +20,6 @@
         "description": "Bet on team with lower odds", 
         "betSide": "preMatch.match.asianHandicapOdds.homeOdds < preMatch.match.asianHandicapOdds.awayOdds ? 'home' : 'away'"
     }
-
   },
   "size": {
     "fix": {
@@ -101,8 +100,8 @@
       "description": "Away team is favored"
     },
     "quarterHandicap": {
-      "expression": "String(preMatch.match.asianHandicapOdds.homeHandicap).includes('.')",
-      "description": "Quarter/split handicaps (0.25, -0.25..)"
+      "expression": "(Math.abs(preMatch.match.asianHandicapOdds.homeHandicap % 1) === 0.25) || (Math.abs(preMatch.match.asianHandicapOdds.homeHandicap % 1) === 0.75)",
+      "description": "Quarter/split handicaps (0.25, -0.25, 0.75, -0.75, etc.)"
     },
     "equalHandicap": {
       "expression": "!String(preMatch.match.asianHandicapOdds.homeHandicap).includes('.')",
@@ -222,49 +221,50 @@
       "displayExpression": ["preMatch.match.asianHandicapOdds.homeOdds", "preMatch.match.asianHandicapOdds.awayOdds"]
     }
   },
+
   "context": {
     "topSixHome": {
-      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) <= 6",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition) <= 6",
       "description": "Top 6 teams playing at home",
       "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "topSixAway": {
-      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition) <= 6",
       "description": "Top 6 teams playing away",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "bottomSixHome": {
-      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition || 20) >= 15",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.home.leaguePosition) >= 15",
       "description": "Bottom 6 teams playing at home",
       "displayExpression": ["timeSeries.home.leaguePosition"]
     },
     "bottomSixAway": {
-      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) >= 15",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition) >= 15",
       "description": "Bottom 6 teams playing away",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "topTenAway": {
-      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition || 20) <= 10",
+      "expression": "preMatch.fbref.week >= 6 && (timeSeries.away.leaguePosition) <= 10",
       "description": "Top 10 teams playing away (undervalued quality)",
       "displayExpression": ["timeSeries.away.leaguePosition"]
     },
     "relegationBattle": {
-      "expression": "((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
+      "expression": "((timeSeries.home.leaguePosition) >= 16 && (timeSeries.away.leaguePosition) >= 16)",
       "description": "Both teams are bottom 4",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "lateRelegationBattle": {
-      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) >= 16 && (timeSeries.away.leaguePosition || 20) >= 16)",
+      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition) >= 16 && (timeSeries.away.leaguePosition) >= 16)",
       "description": "Week >= 25, Both teams are bottom 4",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "europeanStakes": {
-      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8)",
+      "expression": "preMatch.fbref.week >= 25 && ((timeSeries.home.leaguePosition) <= 8 && (timeSeries.away.leaguePosition) <= 8)",
       "description": "Both teams are Top 8",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "giantKilling": {
-      "expression": "(timeSeries.home.leaguePosition || 20) >= 15 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "(timeSeries.home.leaguePosition) >= 15 && (timeSeries.away.leaguePosition) <= 6",
       "description": "Lower team vs top 6",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
@@ -281,22 +281,22 @@
       "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "extremeAway": {
-      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.away.leaguePosition) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and away team is top 6",
       "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "extremeHome": {
-      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.home.leaguePosition || 20) <= 6",
+      "expression": "Math.abs(preMatch.enhanced.homeImpliedProb / 100 - 0.5) > 0.2 && (timeSeries.home.leaguePosition) <= 6",
       "description": "Extreme implied probability (<30% or >70%) and home team is top 6",
       "displayExpression": ["preMatch.enhanced.homeImpliedProb"]
     },
     "top6Clash": {
-      "expression": "(timeSeries.home.leaguePosition || 20) <= 6 && (timeSeries.away.leaguePosition || 20) <= 6",
+      "expression": "(timeSeries.home.leaguePosition) <= 6 && (timeSeries.away.leaguePosition) <= 6",
       "description": "Top 6 teams playing at home and away (clash)",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     },
     "top8Clash": {
-      "expression": "(timeSeries.home.leaguePosition || 20) <= 8 && (timeSeries.away.leaguePosition || 20) <= 8",
+      "expression": "(timeSeries.home.leaguePosition) <= 8 && (timeSeries.away.leaguePosition) <= 8",
       "description": "Top 6 teams playing at home and away (clash)",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
@@ -319,7 +319,7 @@
       "description": "Home team XG difference significantly overperforming actual goal difference (by 0.3+ goals)"
     },
     "positionFormDivergence": {
-      "expression": "Math.abs((timeSeries.home.leaguePosition || 20) - (timeSeries.away.leaguePosition || 20)) > 8 && Math.abs((timeSeries.home.streaks.overall?.current?.count || 0) - (timeSeries.away.streaks.overall?.current?.count || 0)) > 3",
+      "expression": "Math.abs((timeSeries.home.leaguePosition) - (timeSeries.away.leaguePosition)) > 8 && Math.abs((timeSeries.home.streaks.overall?.current?.count || 0) - (timeSeries.away.streaks.overall?.current?.count || 0)) > 3",
       "description": "Large position gap (>8) with diverging current form (>3 streak difference)",
       "displayExpression": ["timeSeries.home.leaguePosition", "timeSeries.away.leaguePosition"]
     }
